@@ -20,11 +20,11 @@ pages:
   - Introduction: 'reverse-engineering/introduction.md'
   - Challenges:
     - Easy:
-      - TablEZ: 'challenges/reversing/2017/TablEZ.md'
+      - TablEZ: 'challenges/2017/reversing/TablEZ.md'
     - Medium:
-      - PROPHECY: 'challenges/reversing/2017/PROPHECY.md'
+      - PROPHECY: 'challenges/2017/reversing/PROPHECY.md'
     - Hard:
-      - grumpcheck: 'challenges/reversing/2017/grumpcheck.md'
+      - grumpcheck: 'challenges/2017/reversing/grumpcheck.md'
 
 #  Binary Exploitation Section
 - Binary Exploitation:

@@ -2,14 +2,20 @@ site_name: CTF 101
 site_description: Capture The Flag Competition Wiki
 site_author: OSIRIS Lab & CTFd LLC
 theme: 'mkdocs'
-# markdown_extensions:
-#   - admonition
-#   - codehilite(guess_lang=false)
-#   - toc(permalink=true)
-#   - pymdownx.betterem(smart_enable=all)
-#   - pymdownx.magiclink
-#   - pymdownx.mark
-#   - pymdownx.inlinehilite
+markdown_extensions:
+  - admonition
+  - codehilite(guess_lang=false)
+  - toc(permalink=true)
+  # https://facelessuser.github.io/pymdown-extensions/
+  - pymdownx.betterem(smart_enable=all)
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.inlinehilite
+  - pymdownx.tilde
+  - pymdownx.tasklist
+  - pymdownx.keys
+  - pymdownx.details
+  - pymdownx.caret
 
 pages:
 # Figure out how to remove this from the navbar...

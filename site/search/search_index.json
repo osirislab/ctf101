@@ -1,6 +1,16 @@
 {
     "docs": [
         {
+            "location": "/", 
+            "text": "Capture The Flag 101", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#capture-the-flag-101", 
+            "text": "", 
+            "title": "Capture The Flag 101"
+        }, 
+        {
             "location": "/reverse-engineering/introduction/", 
             "text": "Reverse Engineering", 
             "title": "Introduction"
@@ -9,6 +19,36 @@
             "location": "/reverse-engineering/introduction/#reverse-engineering", 
             "text": "", 
             "title": "Reverse Engineering"
+        }, 
+        {
+            "location": "/challenges/reversing/2017/TablEZ/", 
+            "text": "TablEZ", 
+            "title": "TablEZ"
+        }, 
+        {
+            "location": "/challenges/reversing/2017/TablEZ/#tablez", 
+            "text": "", 
+            "title": "TablEZ"
+        }, 
+        {
+            "location": "/challenges/reversing/2017/PROPHECY/", 
+            "text": "PROPHECY", 
+            "title": "PROPHECY"
+        }, 
+        {
+            "location": "/challenges/reversing/2017/PROPHECY/#prophecy", 
+            "text": "", 
+            "title": "PROPHECY"
+        }, 
+        {
+            "location": "/challenges/reversing/2017/grumpcheck/", 
+            "text": "grumpcheck", 
+            "title": "grumpcheck"
+        }, 
+        {
+            "location": "/challenges/reversing/2017/grumpcheck/#grumpcheck", 
+            "text": "", 
+            "title": "grumpcheck"
         }, 
         {
             "location": "/binary-exploitation/introduction/", 

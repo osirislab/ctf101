@@ -12,14 +12,35 @@ theme: 'mkdocs'
 #   - pymdownx.inlinehilite
 
 pages:
+# Figure out how to remove this from the navbar...
+- Home: index.md
+
+# Reverse Engineering Section
 - Reverse Engineering:
   - Introduction: 'reverse-engineering/introduction.md'
+  - Challenges:
+    - Easy:
+      - TablEZ: 'challenges/reversing/2017/TablEZ.md'
+    - Medium:
+      - PROPHECY: 'challenges/reversing/2017/PROPHECY.md'
+    - Hard:
+      - grumpcheck: 'challenges/reversing/2017/grumpcheck.md'
+
+#  Binary Exploitation Section
 - Binary Exploitation:
   - Introduction: 'binary-exploitation/introduction.md'
+
+# Web Exploitation Section
 - Web Exploitation:
   - Introduction: 'web-exploitation/introduction.md'
+
+# Cryptography Section
 - Cryptography:
   - Introduction: 'cryptography/introduction.md'
+
+# Forensics Section
 - Forensics:
   - Introduction: 'forensics/introduction.md'
+
+
 # - Miscellaneous:

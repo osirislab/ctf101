@@ -1,0 +1,25 @@
+site_name: CTF 101
+site_description: Capture The Flag Competition Wiki
+site_author: OSIRIS Lab & CTFd LLC
+theme: 'mkdocs'
+# markdown_extensions:
+#   - admonition
+#   - codehilite(guess_lang=false)
+#   - toc(permalink=true)
+#   - pymdownx.betterem(smart_enable=all)
+#   - pymdownx.magiclink
+#   - pymdownx.mark
+#   - pymdownx.inlinehilite
+
+pages:
+- Reverse Engineering:
+  - Introduction: 'reverse-engineering/introduction.md'
+- Binary Exploitation:
+  - Introduction: 'binary-exploitation/introduction.md'
+- Web Exploitation:
+  - Introduction: 'web-exploitation/introduction.md'
+- Cryptography:
+  - Introduction: 'cryptography/introduction.md'
+- Forensics:
+  - Introduction: 'forensics/introduction.md'
+# - Miscellaneous:

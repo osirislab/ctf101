@@ -1,0 +1,54 @@
+{
+    "docs": [
+        {
+            "location": "/reverse-engineering/introduction/", 
+            "text": "Reverse Engineering", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/reverse-engineering/introduction/#reverse-engineering", 
+            "text": "", 
+            "title": "Reverse Engineering"
+        }, 
+        {
+            "location": "/binary-exploitation/introduction/", 
+            "text": "Binary Exploitation", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/binary-exploitation/introduction/#binary-exploitation", 
+            "text": "", 
+            "title": "Binary Exploitation"
+        }, 
+        {
+            "location": "/web-exploitation/introduction/", 
+            "text": "Web Exploitation", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/web-exploitation/introduction/#web-exploitation", 
+            "text": "", 
+            "title": "Web Exploitation"
+        }, 
+        {
+            "location": "/cryptography/introduction/", 
+            "text": "Cryptography", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/cryptography/introduction/#cryptography", 
+            "text": "", 
+            "title": "Cryptography"
+        }, 
+        {
+            "location": "/forensics/introduction/", 
+            "text": "Forensics", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/forensics/introduction/#forensics", 
+            "text": "", 
+            "title": "Forensics"
+        }
+    ]
+}

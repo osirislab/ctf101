@@ -26,9 +26,9 @@ pages:
   - Introduction: 'reverse-engineering/introduction.md'
   - Challenges:
     - Easy:
-      - TablEZ: 'challenges/2017/reversing/TablEZ.md'
+      - TablEZ: 'challenges/2017/reversing/tablez.md'
     - Medium:
-      - PROPHECY: 'challenges/2017/reversing/PROPHECY.md'
+      - PROPHECY: 'challenges/2017/reversing/prophecy.md'
     - Hard:
       - grumpcheck: 'challenges/2017/reversing/grumpcheck.md'
 

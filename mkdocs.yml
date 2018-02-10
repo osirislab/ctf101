@@ -42,5 +42,5 @@ pages:
 - Forensics:
   - Introduction: 'forensics/introduction.md'
 
-
-# - Miscellaneous:
+# # Miscellaneous Section
+# - Miscellaneous: '404.md'

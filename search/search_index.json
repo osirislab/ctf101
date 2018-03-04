@@ -1,0 +1,194 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Capture The Flag 101\n\n\nSome special markdown features of this mkdocs instance\n\n\n\n\nSummary\nHere's some content.\n\n\nCtrl\n+\nAlt\n+\nDel\n\n\n\n\n\n\nNote\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod\nnulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor\nmassa, nec semper lorem quam in massa.\n\n\n\n\n\n\nThis text is highlighted\n\n\n\n\nDelete me\n\n\n\n\nCH\n3\nCH\n2\nOH\n\n\n\n\nx\n2\n\n\n\n\ntext\na subscript\n\n\n\n\nTask List\n\n\n\n\n item 1\n\n\n item A\n\n\n item B\n\n\n item a\n\n\n item b\n\n\n item c\n\n\n\n\n\n\n item C\n\n\n\n\n\n\n item 2\n\n\n item 3", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#capture-the-flag-101", 
+            "text": "Some special markdown features of this mkdocs instance   Summary Here's some content.  Ctrl + Alt + Del    Note  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod\nnulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor\nmassa, nec semper lorem quam in massa.    This text is highlighted   Delete me   CH 3 CH 2 OH   x 2   text a subscript   Task List    item 1   item A   item B   item a   item b   item c     item C     item 2   item 3", 
+            "title": "Capture The Flag 101"
+        }, 
+        {
+            "location": "/reverse-engineering/introduction/", 
+            "text": "Reverse Engineering", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/reverse-engineering/introduction/#reverse-engineering", 
+            "text": "", 
+            "title": "Reverse Engineering"
+        }, 
+        {
+            "location": "/challenges/2017/reversing/tablez/", 
+            "text": "TablEZ\n\n\nAuthor\n\n\nPoints\n\n\n100\n\n\nCategory\n\n\nReversing\n\n\nDescription\n\n\nBobby was talking about tables a bunch, so I made some table stuff. I think this is what he was talking about\u2026\nSome tables that get iterated over to translate input -\n encoded, which then gets strcmp'd... pretty simple\n\n\nFlag\n\n\nflag{t4ble_l00kups_ar3_b3tter_f0r_m3}\n\n\nSolution\n\n\nsolver.py", 
+            "title": "TablEZ"
+        }, 
+        {
+            "location": "/challenges/2017/reversing/tablez/#tablez", 
+            "text": "", 
+            "title": "TablEZ"
+        }, 
+        {
+            "location": "/challenges/2017/reversing/tablez/#author", 
+            "text": "", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2017/reversing/tablez/#points", 
+            "text": "100", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2017/reversing/tablez/#category", 
+            "text": "Reversing", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2017/reversing/tablez/#description", 
+            "text": "Bobby was talking about tables a bunch, so I made some table stuff. I think this is what he was talking about\u2026\nSome tables that get iterated over to translate input -  encoded, which then gets strcmp'd... pretty simple", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2017/reversing/tablez/#flag", 
+            "text": "flag{t4ble_l00kups_ar3_b3tter_f0r_m3}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2017/reversing/tablez/#solution", 
+            "text": "solver.py", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2017/reversing/prophecy/", 
+            "text": "PROPHECY\n\n\nAuthor\n\n\nPoints\n\n\n200\n\n\nCategory\n\n\nReversing\n\n\nDescription\n\n\nThe prophecy is more important than either of us! Reveal its secrets, Zeratul! The future rests on it!\" -Karass-\n\n\nFlag\n\n\nflag{N0w_th3_x3l_naga_that_f0rg3d_us_a11_ar3_r3turn1ng_But_d0_th3y_c0m3_to_sav3_0r_t0_d3str0y?}\n\n\nSolution\n\n\nprophecy.py\n\n\nSetup\n\n\n\n\nsudo docker build -t \nprophecy\n [Path to Dockerfile]\n\n\nsudo docker run --name \nprophecy\n -d -p [PORT]:[PORT] [IMAGE]", 
+            "title": "PROPHECY"
+        }, 
+        {
+            "location": "/challenges/2017/reversing/prophecy/#prophecy", 
+            "text": "", 
+            "title": "PROPHECY"
+        }, 
+        {
+            "location": "/challenges/2017/reversing/prophecy/#author", 
+            "text": "", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2017/reversing/prophecy/#points", 
+            "text": "200", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2017/reversing/prophecy/#category", 
+            "text": "Reversing", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2017/reversing/prophecy/#description", 
+            "text": "The prophecy is more important than either of us! Reveal its secrets, Zeratul! The future rests on it!\" -Karass-", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2017/reversing/prophecy/#flag", 
+            "text": "flag{N0w_th3_x3l_naga_that_f0rg3d_us_a11_ar3_r3turn1ng_But_d0_th3y_c0m3_to_sav3_0r_t0_d3str0y?}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2017/reversing/prophecy/#solution", 
+            "text": "prophecy.py", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2017/reversing/prophecy/#setup", 
+            "text": "sudo docker build -t  prophecy  [Path to Dockerfile]  sudo docker run --name  prophecy  -d -p [PORT]:[PORT] [IMAGE]", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2017/reversing/grumpcheck/", 
+            "text": "grumpcheck\n\n\nAuthor\n\n\nPoints\n\n\n300\n\n\nCategory\n\n\nReversing\n\n\nDescription\n\n\nnc server 7890\n\n\nFlag\n\n\nflag{python_doesnt_even_golang_here!}\n\n\nSolution\n\n\nSetup\n\n\nDistribute \ngrumpcheck\n binary.", 
+            "title": "grumpcheck"
+        }, 
+        {
+            "location": "/challenges/2017/reversing/grumpcheck/#grumpcheck", 
+            "text": "", 
+            "title": "grumpcheck"
+        }, 
+        {
+            "location": "/challenges/2017/reversing/grumpcheck/#author", 
+            "text": "", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2017/reversing/grumpcheck/#points", 
+            "text": "300", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2017/reversing/grumpcheck/#category", 
+            "text": "Reversing", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2017/reversing/grumpcheck/#description", 
+            "text": "nc server 7890", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2017/reversing/grumpcheck/#flag", 
+            "text": "flag{python_doesnt_even_golang_here!}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2017/reversing/grumpcheck/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2017/reversing/grumpcheck/#setup", 
+            "text": "Distribute  grumpcheck  binary.", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/binary-exploitation/introduction/", 
+            "text": "Binary Exploitation", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/binary-exploitation/introduction/#binary-exploitation", 
+            "text": "", 
+            "title": "Binary Exploitation"
+        }, 
+        {
+            "location": "/web-exploitation/introduction/", 
+            "text": "Web Exploitation", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/web-exploitation/introduction/#web-exploitation", 
+            "text": "", 
+            "title": "Web Exploitation"
+        }, 
+        {
+            "location": "/cryptography/introduction/", 
+            "text": "Cryptography", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/cryptography/introduction/#cryptography", 
+            "text": "", 
+            "title": "Cryptography"
+        }, 
+        {
+            "location": "/forensics/introduction/", 
+            "text": "Forensics", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/forensics/introduction/#forensics", 
+            "text": "", 
+            "title": "Forensics"
+        }
+    ]
+}

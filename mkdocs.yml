@@ -27,26 +27,133 @@ pages:
   - Challenges:
     - Easy:
       - TablEZ: 'challenges/2017/reversing/tablez.md'
+      - DEFCON 1: 'challenges/2017/reversing/DEFCON1.md'
+      - Gametime: 'challenges/2016/reversing/Gametime.md'
+      - Rock: 'challenges/2016/reversing/Rock.md'
+      - deedeedee: 'challenges/2016/reversing/deedeedee.md'
+      - Decepticons: 'challenges/2016/reversing/Palo-Alto.md'
+      - Key: 'challenges/2016/reversing/Key.md'
     - Medium:
+      - Rusty Road: 'challenges/2017/reversing/rusty_road.md'
+      - Rabbithole: 'challenges/2017/reversing/rabbithole.md'
       - PROPHECY: 'challenges/2017/reversing/prophecy.md'
+      - Cookie Math: 'challenges/2016/reversing/CookieMath.md'
     - Hard:
+      - Bananascript: 'challenges/2017/reversing/bananascript.md'
+      - Realism: 'challenges/2017/reversing/realism.md'
+      - 48-bit yeet lab: 'challenges/2017/reversing/48-bit_yeet_lab.md'
+      - gopherz: 'challenges/2017/reversing/gopherz.md'
       - grumpcheck: 'challenges/2017/reversing/grumpcheck.md'
+      - CyberTronix64k: 'challenges/2016/reversing/CyberTronix64k.md'
+      - Lazurus: 'challenges/2016/reversing/lazurus.md'
+      - Supermonsterball: 'challenges/2016/reversing/supermonsterball.md'
+      - Tar-Tar Binks: 'challenges/2016/reversing/Tar-Tar-Binks.md'
+      - IV Ninja: 'challenges/2016/reversing/ivninja.md'
 
 #  Binary Exploitation Section
 - Binary Exploitation:
   - Introduction: 'binary-exploitation/introduction.md'
+  - Challenges:
+    - Easy:
+        - Humm_sCh-t: 'challenges/2017/pwn/Humm_sCh-t.md'
+        - SCV: 'challenges/2017/pwn/scv.md'
+        - Pilot: 'challenges/2017/pwn/pilot.md'
+        - Detective: 'challenges/2016/pwn/detective.md'
+        - Aul: 'challenges/2016/pwn/Aul.md'
+        - WarmUp: 'challenges/2016/pwn/WarmUp.md'
+    - Medium:
+        - Auir: 'challenges/2017/pwn/auir.md'
+        - Zone: 'challenges/2017/pwn/zone.md'
+        - Tutorial: 'challenges/2016/pwn/Tutorial.md'
+    - Hard:
+        - KWS 2: 'challenges/2017/pwn/KWS2.md'
+        - Minesweeper: 'challenges/2017/pwn/minesweeper.md'
+        - FuntimeJS: 'challenges/2017/pwn/funtimejs.md'
+        - Firewall: 'challenges/2017/pwn/firewall.md'
+        - ConnectXOR: 'challenges/2017/pwn/connectXor.md'
+        - GlobalThermonuclearCyberwar: 'challenges/2017/pwn/GlobalThermonuclearCyberwar.md'
+        - Mom's Spaghetti: 'challenges/2016/pwn/Moms_Spaghetti.md'
+        - Ed, Edd, and Eddie: 'challenges/2016/pwn/Ed-Edd-Eddie.md'
+        - Reverse Polish: 'challenges/2016/pwn/ReversePolish.md'
+        - Thimblerig: 'challenges/2016/pwn/thimblerig.md'
+        - Hungman: 'challenges/2016/pwn/Hungman.md'
+        - CyberTronix64k: 'challenges/2016/pwn/CyberTronix64k.md'
 
 # Web Exploitation Section
 - Web Exploitation:
   - Introduction: 'web-exploitation/introduction.md'
+  - Challenges:
+    - Easy:
+      - Orange: 'challenges/2017/web/orange.md' 
+      - Gopherz2Basic: 'challenges/2017/web/Gopherz2Basic.md' 
+      - WTF.sh (1): 'challenges/2016/web/wtf.sh.md'
+      - Seizure Cipher: 'challenges/2016/web/Seizure-Cipher.md'
+      - MFW: 'challenges/2016/web/MFW.md'
+      - Linq to the Present: 'challenges/2016/web/linq_to_the_present.md'
+    - Medium:
+      - Shia: 'challenges/2017/web/Shia.md' 
+      - Gopherz2NotSoBasic: 'challenges/2017/web/Gopherz2NotSoBasic.md' 
+      - littlequery: 'challenges/2017/web/littlequery.md' 
+      - Sugar Cereal: 'challenges/2016/web/SugarCereal.md'
+      - I Got ID: 'challenges/2016/web/I_Got_id.md'
+      - Cloudb: 'challenges/2016/web/cloudb.md'
+    - Hard:
+      - Broadcastr: 'challenges/2017/web/csaw-oauth2-chal.md' 
+      - KWS 1: 'challenges/2017/web/csaw-kernel-challenge.md' 
+      - OrangeV2: 'challenges/2017/web/orangev2.md' 
+      - Not My Cup of Coffe: 'challenges/2017/web/notmycupofcoffe.md'
+      - WTF.sh (2): 'challenges/2016/web/wtf.sh.md'
 
 # Cryptography Section
 - Cryptography:
   - Introduction: 'cryptography/introduction.md'
+  - Challenges:
+    - Easy:
+      - ECXOR: 'challenges/2017/crypto/ecxor.md'
+      - Another XOR: 'challenges/2017/crypto/another_xor.md'
+      - Sleeping Guard: 'challenges/2016/crypto/Sleeping_Guard.md'
+      - Katy: 'challenges/2016/crypto/katy.md'
+    - Medium:
+      - Almost XOR: 'challenges/2017/crypto/almost_xor.md'
+      - Lupin: 'challenges/2017/crypto/Lupin.md'
+      - Neo: 'challenges/2016/crypto/Neo.md'
+      - Killer Cipher: 'challenges/2016/crypto/Killer_cipher.md'
+    - Hard:
+      - Side-channel: 'challenges/2017/crypto/Side-channel.md'
+      - Baby Crypt: 'challenges/2017/crypto/baby_crypt.md'
+      - Broken Box: 'challenges/2016/crypto/Broken_Box.md'
+      - Still Broken Box: 'challenges/2016/crypto/Still_Broken_Box.md'
+      - Another Broken Box: 'challenges/2016/crypto/Another_Broken_Box.md'
 
 # Forensics Section
 - Forensics:
   - Introduction: 'forensics/introduction.md'
+  - Challenges:
+    - Easy:
+      - Missed Registration: 'challenges/2017/forensics/missed_registration.md' 
+      - Clams Don't Dance: 'challenges/2016/forensics/Clams_Dont_Dance.md'
+      - Kill: 'challenges/2016/forensics/Kill.md'
+      - Brainfun: 'challenges/2016/forensics/brainfun.md'
+      - Evidence.zip: 'challenges/2016/forensics/evidence.zip.md'
+      - Watchword: 'challenges/2016/forensics/Watchword.md'
+    - Medium:
+      - Best Router: 'challenges/2017/forensics/missed_registration.md' 
+      - Thoroughly Stripped: 'challenges/2017/forensics/thoroughlyStripped.md'
+      - Pure Poetry: 'challenges/2016/forensics/pure_poetry.md'
+      - Yaar Haar Fiddle Dee Dee: 'challenges/2016/forensics/Yaar_Haar_Fiddle_Dee_Dee.md'
+      - Yaar Haar 2: 'challenges/2016/forensics/yaar_haar_2.md'
 
-# # Miscellaneous Section
+# Miscellaneous Section
+- Miscellaneous:
+  - Introduction: 'forensics/introduction.md'
+  - Challenges:
+    - Easy:
+      - Serial: 'challenges/2017/misc/serial.md'
+      - CVV: 'challenges/2017/misc/cvv.md'
+      - Coinslot: 'challenges/2016/misc/coinslot.md'
+    - Medium:
+      - Regexpire: 'challenges/2016/misc/regexpire.md'
+    - Hard:
+      - Ethersplay: 'challenges/2017/misc/ethersplay.md'
+
 # - Miscellaneous: '404.md'

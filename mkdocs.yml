@@ -1,7 +1,10 @@
 site_name: CTF 101
 site_description: Capture The Flag Competition Wiki
 site_author: OSIRIS Lab & CTFd LLC
-theme: 'mkdocs'
+theme:
+    name: 'cinder'
+    custom_dir: 'custom_theme'
+docs_dir: 'ctf101/'
 markdown_extensions:
   - admonition
   - codehilite(guess_lang=false)
@@ -84,23 +87,23 @@ pages:
   - Introduction: 'web-exploitation/introduction.md'
   - Challenges:
     - Easy:
-      - Orange: 'challenges/2017/web/orange.md' 
-      - Gopherz2Basic: 'challenges/2017/web/Gopherz2Basic.md' 
+      - Orange: 'challenges/2017/web/orange.md'
+      - Gopherz2Basic: 'challenges/2017/web/Gopherz2Basic.md'
       - WTF.sh (1): 'challenges/2016/web/wtf.sh.md'
       - Seizure Cipher: 'challenges/2016/web/Seizure-Cipher.md'
       - MFW: 'challenges/2016/web/MFW.md'
       - Linq to the Present: 'challenges/2016/web/linq_to_the_present.md'
     - Medium:
-      - Shia: 'challenges/2017/web/Shia.md' 
-      - Gopherz2NotSoBasic: 'challenges/2017/web/Gopherz2NotSoBasic.md' 
-      - littlequery: 'challenges/2017/web/littlequery.md' 
+      - Shia: 'challenges/2017/web/Shia.md'
+      - Gopherz2NotSoBasic: 'challenges/2017/web/Gopherz2NotSoBasic.md'
+      - littlequery: 'challenges/2017/web/littlequery.md'
       - Sugar Cereal: 'challenges/2016/web/SugarCereal.md'
       - I Got ID: 'challenges/2016/web/I_Got_id.md'
       - Cloudb: 'challenges/2016/web/cloudb.md'
     - Hard:
-      - Broadcastr: 'challenges/2017/web/csaw-oauth2-chal.md' 
-      - KWS 1: 'challenges/2017/web/csaw-kernel-challenge.md' 
-      - OrangeV2: 'challenges/2017/web/orangev2.md' 
+      - Broadcastr: 'challenges/2017/web/csaw-oauth2-chal.md'
+      - KWS 1: 'challenges/2017/web/csaw-kernel-challenge.md'
+      - OrangeV2: 'challenges/2017/web/orangev2.md'
       - Not My Cup of Coffe: 'challenges/2017/web/notmycupofcoffe.md'
       - WTF.sh (2): 'challenges/2016/web/wtf.sh.md'
 
@@ -130,14 +133,14 @@ pages:
   - Introduction: 'forensics/introduction.md'
   - Challenges:
     - Easy:
-      - Missed Registration: 'challenges/2017/forensics/missed_registration.md' 
+      - Missed Registration: 'challenges/2017/forensics/missed_registration.md'
       - Clams Don't Dance: 'challenges/2016/forensics/Clams_Dont_Dance.md'
       - Kill: 'challenges/2016/forensics/Kill.md'
       - Brainfun: 'challenges/2016/forensics/brainfun.md'
       - Evidence.zip: 'challenges/2016/forensics/evidence.zip.md'
       - Watchword: 'challenges/2016/forensics/Watchword.md'
     - Medium:
-      - Best Router: 'challenges/2017/forensics/missed_registration.md' 
+      - Best Router: 'challenges/2017/forensics/missed_registration.md'
       - Thoroughly Stripped: 'challenges/2017/forensics/thoroughlyStripped.md'
       - Pure Poetry: 'challenges/2016/forensics/pure_poetry.md'
       - Yaar Haar Fiddle Dee Dee: 'challenges/2016/forensics/Yaar_Haar_Fiddle_Dee_Dee.md'

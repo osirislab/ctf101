@@ -2,7 +2,7 @@ site_name: CTF 101
 site_description: Capture The Flag Competition Wiki
 site_author: OSIRIS Lab & CTFd LLC
 theme:
-    name: 'cinder'
+    name: 'mkdocs'
     custom_dir: 'custom_theme'
 docs_dir: 'ctf101/'
 markdown_extensions:
@@ -85,6 +85,15 @@ pages:
 # Web Exploitation Section
 - Web Exploitation:
   - Introduction: 'web-exploitation/introduction.md'
+
+  - SQL Injection:
+    - What is SQL Injection: 'web-exploitation/sql-injection/what-is-sql-injection.md'
+    - Exploiting SQL Injection: 'web-exploitation/sql-injection/what-is-sql-injection.md'
+
+  - Command Injection:
+    - What is Command Injection: 'web-exploitation/command-injection/what-is-command-injection.md'
+
+
   - Challenges:
     - Easy:
       - Orange: 'challenges/2017/web/orange.md'

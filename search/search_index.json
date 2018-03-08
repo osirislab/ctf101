@@ -2,22 +2,27 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Capture The Flag 101\n\n\nSome special markdown features of this mkdocs instance\n\n\n\n\nSummary\nHere's some content.\n\n\nCtrl\n+\nAlt\n+\nDel\n\n\n\n\n\n\nNote\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod\nnulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor\nmassa, nec semper lorem quam in massa.\n\n\n\n\n\n\nThis text is highlighted\n\n\n\n\nDelete me\n\n\n\n\nCH\n3\nCH\n2\nOH\n\n\n\n\nx\n2\n\n\n\n\ntext\na subscript\n\n\n\n\nTask List\n\n\n\n\n item 1\n\n\n item A\n\n\n item B\n\n\n item a\n\n\n item b\n\n\n item c\n\n\n\n\n\n\n item C\n\n\n\n\n\n\n item 2\n\n\n item 3", 
+            "text": "Capture The Flag 101\n\n\nWelcome\n\n\nCapture The Flags, or CTFs, are a kind of computer security competition.\n\n\nTeams of competitors (or just individuals) are pitted against each other in a test of computer security skill.\n\n\nVery often CTFs are the beginning of one's cyber security career due to their team building nature and competetive aspect. In addition, there isn't a lot of commitment required beyond a weekend.\n\n\nIn this guide/wiki/handbook you'll learn the techniques, thought processes, and methodologies you need to succeed in Capture the Flag competitions.", 
             "title": "Home"
         }, 
         {
             "location": "/#capture-the-flag-101", 
-            "text": "Some special markdown features of this mkdocs instance   Summary Here's some content.  Ctrl + Alt + Del    Note  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod\nnulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor\nmassa, nec semper lorem quam in massa.    This text is highlighted   Delete me   CH 3 CH 2 OH   x 2   text a subscript   Task List    item 1   item A   item B   item a   item b   item c     item C     item 2   item 3", 
+            "text": "", 
             "title": "Capture The Flag 101"
         }, 
         {
+            "location": "/#welcome", 
+            "text": "Capture The Flags, or CTFs, are a kind of computer security competition.  Teams of competitors (or just individuals) are pitted against each other in a test of computer security skill.  Very often CTFs are the beginning of one's cyber security career due to their team building nature and competetive aspect. In addition, there isn't a lot of commitment required beyond a weekend.  In this guide/wiki/handbook you'll learn the techniques, thought processes, and methodologies you need to succeed in Capture the Flag competitions.", 
+            "title": "Welcome"
+        }, 
+        {
             "location": "/reverse-engineering/introduction/", 
-            "text": "Reverse Engineering", 
+            "text": "Reverse Engineering\n\n\nReverse Engineering in a CTF is typically the process of taking a compiled (machine code, bytecode) program and converting it back into a more human readable format.\n\n\nVery often the goal of a reverse engineering challenge is to understand the functionality of a given program such that you can identify deeper issues.", 
             "title": "Introduction"
         }, 
         {
             "location": "/reverse-engineering/introduction/#reverse-engineering", 
-            "text": "", 
+            "text": "Reverse Engineering in a CTF is typically the process of taking a compiled (machine code, bytecode) program and converting it back into a more human readable format.  Very often the goal of a reverse engineering challenge is to understand the functionality of a given program such that you can identify deeper issues.", 
             "title": "Reverse Engineering"
         }, 
         {
@@ -1892,13 +1897,53 @@
         }, 
         {
             "location": "/web-exploitation/introduction/", 
-            "text": "Web Exploitation", 
+            "text": "Web Exploitation\n\n\nWebsites all around the world are programmed using various programming languages. While there are specific vulnerabilities in each programming langage that the developer should be aware of, there are issues fundamental to the internet that can show up regardless of the chosen language or framework.\n\n\nThese vulnerabilities often show up in CTFs as web security challenges where the user needs to exploit a bug to gain some kind of higher level privelege.\n\n\nCommon vulnerabilities to see in CTF challenges:\n\n\n\n\nSQL Injection\n\n\nDirectory Traversal\n\n\nCommand Injection\n\n\nServer Side Request Forgery\n\n\nCross Site Scripting\n\n\nCross Site Request Forgery", 
             "title": "Introduction"
         }, 
         {
             "location": "/web-exploitation/introduction/#web-exploitation", 
-            "text": "", 
+            "text": "Websites all around the world are programmed using various programming languages. While there are specific vulnerabilities in each programming langage that the developer should be aware of, there are issues fundamental to the internet that can show up regardless of the chosen language or framework.  These vulnerabilities often show up in CTFs as web security challenges where the user needs to exploit a bug to gain some kind of higher level privelege.  Common vulnerabilities to see in CTF challenges:   SQL Injection  Directory Traversal  Command Injection  Server Side Request Forgery  Cross Site Scripting  Cross Site Request Forgery", 
             "title": "Web Exploitation"
+        }, 
+        {
+            "location": "/web-exploitation/sql-injection/what-is-sql-injection/", 
+            "text": "SQL Injection\n\n\nSQL Injection is a vulnerability where a developer takes input from a user and doesn't vaildate that the user's input doesn't contain additional SQL.", 
+            "title": "What is SQL Injection"
+        }, 
+        {
+            "location": "/web-exploitation/sql-injection/what-is-sql-injection/#sql-injection", 
+            "text": "SQL Injection is a vulnerability where a developer takes input from a user and doesn't vaildate that the user's input doesn't contain additional SQL.", 
+            "title": "SQL Injection"
+        }, 
+        {
+            "location": "/web-exploitation/sql-injection/what-is-sql-injection/", 
+            "text": "SQL Injection\n\n\nSQL Injection is a vulnerability where a developer takes input from a user and doesn't vaildate that the user's input doesn't contain additional SQL.", 
+            "title": "Exploiting SQL Injection"
+        }, 
+        {
+            "location": "/web-exploitation/sql-injection/what-is-sql-injection/#sql-injection", 
+            "text": "SQL Injection is a vulnerability where a developer takes input from a user and doesn't vaildate that the user's input doesn't contain additional SQL.", 
+            "title": "SQL Injection"
+        }, 
+        {
+            "location": "/web-exploitation/command-injection/what-is-command-injection/", 
+            "text": "Command Injection\n\n\nCommand Injection is a vulnerability that allows an attacker to submit system commands to a website. This happens when the application fails to encode user input that goes into a system shell. It is very common to see this vulnerability when a developer uses the \nsystem()\n command or the equivalent way to run a system/shell command in a given programming language.\n\n\nimport\n \nos\n\n\n\ndomain\n \n=\n \nuser_input\n()\n \n# ctf101.org\n\n\n\nos\n.\nsystem\n(\nping \n \n+\n \ndomain\n)\n\n\n\n\n\n\nThe above code when used normally will ping the \nctf101.org\n domain.\n\n\nBut consider what would happen if the \nuser_input()\n function returned different data?\n\n\nimport\n \nos\n\n\n\ndomain\n \n=\n \nuser_input\n()\n \n# ; ls\n\n\n\nos\n.\nsystem\n(\nping \n \n+\n \ndomain\n)\n\n\n\n\n\n\nUnder this input, the code will do two things.\n\n\n\n\nRun the \nping\n command (with no input)\n\n\nRun the \nls\n command\n\n\n\n\nBecause of the additional semicolon, the \nos.system()\n function is instructed to run two commands.\n\n\nThis is the core concept behind command injection. The \nls\n command could of course be switched with another command (e.g. wget, curl, bash, etc.)\n\n\nCommand injection is a very common means of privelege escalation within web applications and applications that interface with system commands.\n\n\nExample Payloads\n\n\n\n\n;ls\n\n\n$(ls)\n\n\n`ls`\n\n\n\n\nRelated Challenges", 
+            "title": "What is Command Injection"
+        }, 
+        {
+            "location": "/web-exploitation/command-injection/what-is-command-injection/#command-injection", 
+            "text": "Command Injection is a vulnerability that allows an attacker to submit system commands to a website. This happens when the application fails to encode user input that goes into a system shell. It is very common to see this vulnerability when a developer uses the  system()  command or the equivalent way to run a system/shell command in a given programming language.  import   os  domain   =   user_input ()   # ctf101.org  os . system ( ping    +   domain )   The above code when used normally will ping the  ctf101.org  domain.  But consider what would happen if the  user_input()  function returned different data?  import   os  domain   =   user_input ()   # ; ls  os . system ( ping    +   domain )   Under this input, the code will do two things.   Run the  ping  command (with no input)  Run the  ls  command   Because of the additional semicolon, the  os.system()  function is instructed to run two commands.  This is the core concept behind command injection. The  ls  command could of course be switched with another command (e.g. wget, curl, bash, etc.)  Command injection is a very common means of privelege escalation within web applications and applications that interface with system commands.", 
+            "title": "Command Injection"
+        }, 
+        {
+            "location": "/web-exploitation/command-injection/what-is-command-injection/#example-payloads", 
+            "text": ";ls  $(ls)  `ls`", 
+            "title": "Example Payloads"
+        }, 
+        {
+            "location": "/web-exploitation/command-injection/what-is-command-injection/#related-challenges", 
+            "text": "", 
+            "title": "Related Challenges"
         }, 
         {
             "location": "/challenges/2017/web/orange/", 

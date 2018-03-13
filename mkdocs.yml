@@ -41,6 +41,8 @@ pages:
       - Rabbithole: 'challenges/2017/reversing/rabbithole.md'
       - PROPHECY: 'challenges/2017/reversing/prophecy.md'
       - Cookie Math: 'challenges/2016/reversing/CookieMath.md'
+      - Hacking Time: 'challenges/2015/reversing/HackingTime.md'
+      - FTP: 'challenges/2015/reversing/ftp.md'
     - Hard:
       - Bananascript: 'challenges/2017/reversing/bananascript.md'
       - Realism: 'challenges/2017/reversing/realism.md'
@@ -52,6 +54,11 @@ pages:
       - Supermonsterball: 'challenges/2016/reversing/supermonsterball.md'
       - Tar-Tar Binks: 'challenges/2016/reversing/Tar-Tar-Binks.md'
       - IV Ninja: 'challenges/2016/reversing/ivninja.md'
+      - Return of the Wieners: 'challenges/2015/reversing/return-of-the-wieners.md'
+      - Cookie Maze: 'challenges/2015/reversing/cookie-maze.md'
+      - Pwning a Locked Container: 'challenges/2015/reversing/pwning-a-locked-container-plc.md'
+      - Wveryn: 'challenges/2015/reversing/wyvern.md'
+      - Wveryn 2: 'challenges/2015/reversing/wyvern2.md'
 
 #  Binary Exploitation Section
 - Binary Exploitation:
@@ -64,10 +71,14 @@ pages:
         - Detective: 'challenges/2016/pwn/detective.md'
         - Aul: 'challenges/2016/pwn/Aul.md'
         - WarmUp: 'challenges/2016/pwn/WarmUp.md'
+        - Precision: 'challenges/2015/pwn/precision.md'
     - Medium:
         - Auir: 'challenges/2017/pwn/auir.md'
         - Zone: 'challenges/2017/pwn/zone.md'
         - Tutorial: 'challenges/2016/pwn/Tutorial.md'
+        - Hipster Hitler: 'challenges/2015/pwn/hipster.md'
+        - Contacts: 'challenges/2015/pwn/contacts.md'
+        - Autobots: 'challenges/2015/pwn/autobots.md'
     - Hard:
         - KWS 2: 'challenges/2017/pwn/KWS2.md'
         - Minesweeper: 'challenges/2017/pwn/minesweeper.md'
@@ -81,6 +92,18 @@ pages:
         - Thimblerig: 'challenges/2016/pwn/thimblerig.md'
         - Hungman: 'challenges/2016/pwn/Hungman.md'
         - CyberTronix64k: 'challenges/2016/pwn/CyberTronix64k.md'
+        - StringIPC: 'challenges/2015/pwn/stringipc.md'
+        - Boombox: 'challenges/2015/pwn/boombox.md'
+        - Meme Shop: 'challenges/2015/pwn/meme-shop.md'
+        - Rhinoxorus: 'challenges/2015/pwn/rhinoxorus.md'
+    - Pwn Adventure Z:
+        - Credit for Credits: 'challenges/2015/pwn/creditforcredits.md'
+        - Greetings Earthlings: 'challenges/2015/pwn/greetingsearthling.md'
+        - Hidden Cave: 'challenges/2015/pwn/hiddencave.md'
+        - Quarentine Breaker: 'challenges/2015/pwn/quarantinebreaker.md'
+        - Blox: 'challenges/2015/pwn/blox.md'
+        - Get Flag: 'challenges/2015/pwn/get-flag.md'
+        - Memory Disclosure Flag: 'challenges/2015/pwn/memory-disclosure-flag.md'
 
 # Web Exploitation Section
 - Web Exploitation:
@@ -102,6 +125,8 @@ pages:
       - Seizure Cipher: 'challenges/2016/web/Seizure-Cipher.md'
       - MFW: 'challenges/2016/web/MFW.md'
       - Linq to the Present: 'challenges/2016/web/linq_to_the_present.md'
+      - K_{Stairs}: 'challenges/2015/web/K_stairs-100.md'
+      - K_{Achieve}: 'challenges/2015/web/K_achieve-200.md'
     - Medium:
       - Shia: 'challenges/2017/web/Shia.md'
       - Gopherz2NotSoBasic: 'challenges/2017/web/Gopherz2NotSoBasic.md'
@@ -109,12 +134,17 @@ pages:
       - Sugar Cereal: 'challenges/2016/web/SugarCereal.md'
       - I Got ID: 'challenges/2016/web/I_Got_id.md'
       - Cloudb: 'challenges/2016/web/cloudb.md'
+      - Lawn Care Simulator: 'challenges/2015/web/lawn-care-simulator.md'
     - Hard:
       - Broadcastr: 'challenges/2017/web/csaw-oauth2-chal.md'
       - KWS 1: 'challenges/2017/web/csaw-kernel-challenge.md'
       - OrangeV2: 'challenges/2017/web/orangev2.md'
       - Not My Cup of Coffe: 'challenges/2017/web/notmycupofcoffe.md'
       - WTF.sh (2): 'challenges/2016/web/wtf.sh.md'
+      - Throwback: 'challenges/2015/web/throwback-600.md'
+      - Weebdate: 'challenges/2015/web/weebdate-500.md'
+      - TBBPE: 'challenges/2015/web/tbbpe.md'
+      - Anime Wall: 'challenges/2015/web/animewall.md'
 
 # Cryptography Section
 - Cryptography:
@@ -125,17 +155,23 @@ pages:
       - Another XOR: 'challenges/2017/crypto/another_xor.md'
       - Sleeping Guard: 'challenges/2016/crypto/Sleeping_Guard.md'
       - Katy: 'challenges/2016/crypto/katy.md'
+      - Notesy: 'challenges/2015/crypto/notesy.md'
+      - EPS: 'challenges/2015/crypto/eps.md'
+      - Punchout: 'challenges/2015/crypto/punchout.md'
     - Medium:
       - Almost XOR: 'challenges/2017/crypto/almost_xor.md'
       - Lupin: 'challenges/2017/crypto/Lupin.md'
       - Neo: 'challenges/2016/crypto/Neo.md'
       - Killer Cipher: 'challenges/2016/crypto/Killer_cipher.md'
+      - Check Plz: 'challenges/2015/crypto/check-plz.md'
     - Hard:
       - Side-channel: 'challenges/2017/crypto/Side-channel.md'
       - Baby Crypt: 'challenges/2017/crypto/baby_crypt.md'
       - Broken Box: 'challenges/2016/crypto/Broken_Box.md'
       - Still Broken Box: 'challenges/2016/crypto/Still_Broken_Box.md'
       - Another Broken Box: 'challenges/2016/crypto/Another_Broken_Box.md'
+      - Slabs of Platinum: 'challenges/2015/crypto/slabs-of-platinum.md'
+      - Bricks of Gold: 'challenges/2015/crypto/bricks_of_gold.md'
 
 # Forensics Section
 - Forensics:
@@ -148,12 +184,22 @@ pages:
       - Brainfun: 'challenges/2016/forensics/brainfun.md'
       - Evidence.zip: 'challenges/2016/forensics/evidence.zip.md'
       - Watchword: 'challenges/2016/forensics/Watchword.md'
+      - Phish it, Phish it Good: 'challenges/2015/forensics/phish-it-phish-it-good.md'
+      - Pcapin: 'challenges/2015/forensics/pcapin.md'
+      - Keep Calm and CTF: 'challenges/2015/forensics/keep-calm-and-ctf.md'
+      - Transfer: 'challenges/2015/forensics/net.md'
+      - Flash: 'challenges/2015/forensics/flash.md'
     - Medium:
       - Best Router: 'challenges/2017/forensics/missed_registration.md'
       - Thoroughly Stripped: 'challenges/2017/forensics/thoroughlyStripped.md'
       - Pure Poetry: 'challenges/2016/forensics/pure_poetry.md'
       - Yaar Haar Fiddle Dee Dee: 'challenges/2016/forensics/Yaar_Haar_Fiddle_Dee_Dee.md'
       - Yaar Haar 2: 'challenges/2016/forensics/yaar_haar_2.md'
+      - Airport: 'challenges/2015/forensics/airport.md'
+    - Hard:
+      - Mandient: 'challenges/2015/forensics/mandiant.md'
+      - Ransomwhere: 'challenges/2015/forensics/ransomewhere.md'
+      - Sharpturn: 'challenges/2015/forensics/sharpturn.md'
 
 # Miscellaneous Section
 - Miscellaneous:
@@ -163,6 +209,10 @@ pages:
       - Serial: 'challenges/2017/misc/serial.md'
       - CVV: 'challenges/2017/misc/cvv.md'
       - Coinslot: 'challenges/2016/misc/coinslot.md'
+      - 1337: 'challenges/2015/misc/1337.md'
+      - Sanity Check: 'challenges/2015/misc/sanity-check.md'
+      - Moar Chess: 'challenges/2015/misc/moar-chess.md'
+      - Late Night Smash: 'challenges/2015/misc/late-night-smash.md'
     - Medium:
       - Regexpire: 'challenges/2016/misc/regexpire.md'
     - Hard:

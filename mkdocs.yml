@@ -43,6 +43,7 @@ pages:
       - Cookie Math: 'challenges/2016/reversing/CookieMath.md'
       - Hacking Time: 'challenges/2015/reversing/HackingTime.md'
       - FTP: 'challenges/2015/reversing/ftp.md'
+      - CSAW Reversing 2: 'challenges/2014/reversing/csaw2013reversing2.md'
     - Hard:
       - Bananascript: 'challenges/2017/reversing/bananascript.md'
       - Realism: 'challenges/2017/reversing/realism.md'
@@ -127,6 +128,7 @@ pages:
       - Linq to the Present: 'challenges/2016/web/linq_to_the_present.md'
       - K_{Stairs}: 'challenges/2015/web/K_stairs-100.md'
       - K_{Achieve}: 'challenges/2015/web/K_achieve-200.md'
+      - Big Data: 'challenges/2014/web/big_data.md'
     - Medium:
       - Shia: 'challenges/2017/web/Shia.md'
       - Gopherz2NotSoBasic: 'challenges/2017/web/Gopherz2NotSoBasic.md'
@@ -135,6 +137,7 @@ pages:
       - I Got ID: 'challenges/2016/web/I_Got_id.md'
       - Cloudb: 'challenges/2016/web/cloudb.md'
       - Lawn Care Simulator: 'challenges/2015/web/lawn-care-simulator.md'
+      - App: 'challenges/2014/web/app_-_Oberheide.md'
     - Hard:
       - Broadcastr: 'challenges/2017/web/csaw-oauth2-chal.md'
       - KWS 1: 'challenges/2017/web/csaw-kernel-challenge.md'
@@ -145,6 +148,10 @@ pages:
       - Weebdate: 'challenges/2015/web/weebdate-500.md'
       - TBBPE: 'challenges/2015/web/tbbpe.md'
       - Anime Wall: 'challenges/2015/web/animewall.md'
+      - Guestbook: 'challenges/2014/web/guestbook_-_Toews.md'
+      - Hashes: 'challenges/2014/web/hashes.md'
+      - Webroot: 'challenges/2014/web/webroot_-_Freeman.md'
+      - Silkgoat: 'challenges/2014/web/silkgoat.md'
 
 # Cryptography Section
 - Cryptography:
@@ -158,12 +165,15 @@ pages:
       - Notesy: 'challenges/2015/crypto/notesy.md'
       - EPS: 'challenges/2015/crypto/eps.md'
       - Punchout: 'challenges/2015/crypto/punchout.md'
+      - Feal: 'challenges/2014/crypto/feal.md'
     - Medium:
       - Almost XOR: 'challenges/2017/crypto/almost_xor.md'
       - Lupin: 'challenges/2017/crypto/Lupin.md'
       - Neo: 'challenges/2016/crypto/Neo.md'
       - Killer Cipher: 'challenges/2016/crypto/Killer_cipher.md'
       - Check Plz: 'challenges/2015/crypto/check-plz.md'
+      - Psifer School: 'challenges/2014/crypto/psifer_school.md'
+      - Mountainsound: 'challenges/2014/crypto/mountainsound_-_Stortz.md'
     - Hard:
       - Side-channel: 'challenges/2017/crypto/Side-channel.md'
       - Baby Crypt: 'challenges/2017/crypto/baby_crypt.md'
@@ -172,6 +182,8 @@ pages:
       - Another Broken Box: 'challenges/2016/crypto/Another_Broken_Box.md'
       - Slabs of Platinum: 'challenges/2015/crypto/slabs-of-platinum.md'
       - Bricks of Gold: 'challenges/2015/crypto/bricks_of_gold.md'
+      - CFB Sum: 'challenges/2014/crypto/cfbsum.md'
+      - Wieners: 'challenges/2014/crypto/Wieners_-_Antoniewicz.md'
 
 # Forensics Section
 - Forensics:
@@ -189,6 +201,7 @@ pages:
       - Keep Calm and CTF: 'challenges/2015/forensics/keep-calm-and-ctf.md'
       - Transfer: 'challenges/2015/forensics/net.md'
       - Flash: 'challenges/2015/forensics/flash.md'
+      - Dumptster Diving: 'challenges/2014/forensics/dumpster_diving.md'
     - Medium:
       - Best Router: 'challenges/2017/forensics/missed_registration.md'
       - Thoroughly Stripped: 'challenges/2017/forensics/thoroughlyStripped.md'
@@ -196,10 +209,14 @@ pages:
       - Yaar Haar Fiddle Dee Dee: 'challenges/2016/forensics/Yaar_Haar_Fiddle_Dee_Dee.md'
       - Yaar Haar 2: 'challenges/2016/forensics/yaar_haar_2.md'
       - Airport: 'challenges/2015/forensics/airport.md'
+      - Obscurity: 'challenges/2014/forensics/obscurity.md'
+      - Why Not SFTP: 'challenges/2014/forensics/why_not_sftp__.md'
     - Hard:
       - Mandient: 'challenges/2015/forensics/mandiant.md'
       - Ransomwhere: 'challenges/2015/forensics/ransomewhere.md'
       - Sharpturn: 'challenges/2015/forensics/sharpturn.md'
+      - Aristotle: 'challenges/2014/forensics/aristotle_-_Wiens.md'
+      - Fluffy No More: 'challenges/2014/forensics/Fluffy_No_More.md'
 
 # Miscellaneous Section
 - Miscellaneous:
@@ -213,8 +230,11 @@ pages:
       - Sanity Check: 'challenges/2015/misc/sanity-check.md'
       - Moar Chess: 'challenges/2015/misc/moar-chess.md'
       - Late Night Smash: 'challenges/2015/misc/late-night-smash.md'
+      - Julian: 'challenges/2014/misc/Julian.md'
+      - Kevin Chung: 'challenges/2014/misc/KevinChung.md'
     - Medium:
       - Regexpire: 'challenges/2016/misc/regexpire.md'
+      - PPS: 'challenges/2014/misc/pps_-_Wiens.md'
     - Hard:
       - Ethersplay: 'challenges/2017/misc/ethersplay.md'
 

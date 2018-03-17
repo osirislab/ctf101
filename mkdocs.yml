@@ -117,6 +117,9 @@ pages:
   - Command Injection:
     - What is Command Injection: 'web-exploitation/command-injection/what-is-command-injection.md'
 
+  - Directory Traversal:
+    - What is Directory Traversal: 'web-exploitation/directory-traversal/what-is-directory-traversal.md'
+
 
   - Challenges:
     - Easy:

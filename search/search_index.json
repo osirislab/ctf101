@@ -17,12 +17,12 @@
         }, 
         {
             "location": "/reverse-engineering/introduction/", 
-            "text": "Reverse Engineering\n\n\nReverse Engineering in a CTF is typically the process of taking a compiled (machine code, bytecode) program and converting it back into a more human readable format.\n\n\nVery often the goal of a reverse engineering challenge is to understand the functionality of a given program such that you can identify deeper issues.", 
+            "text": "Reverse Engineering\n\n\nReverse Engineering in a CTF is typically the process of taking a compiled (machine code, bytecode) program and converting it back into a more human readable format.\n\n\nVery often the goal of a reverse engineering challenge is to understand the functionality of a given program such that you can identify deeper issues.\n\n\n\n\nAssembly / Machine Code\n\n\nThe C Programming Language\n\n\nDisassemblers\n\n\nDecompilers", 
             "title": "Introduction"
         }, 
         {
             "location": "/reverse-engineering/introduction/#reverse-engineering", 
-            "text": "Reverse Engineering in a CTF is typically the process of taking a compiled (machine code, bytecode) program and converting it back into a more human readable format.  Very often the goal of a reverse engineering challenge is to understand the functionality of a given program such that you can identify deeper issues.", 
+            "text": "Reverse Engineering in a CTF is typically the process of taking a compiled (machine code, bytecode) program and converting it back into a more human readable format.  Very often the goal of a reverse engineering challenge is to understand the functionality of a given program such that you can identify deeper issues.   Assembly / Machine Code  The C Programming Language  Disassemblers  Decompilers", 
             "title": "Reverse Engineering"
         }, 
         {
@@ -1317,12 +1317,12 @@
         }, 
         {
             "location": "/binary-exploitation/introduction/", 
-            "text": "Binary Exploitation\n\n\n\n\nBuffer\n\n\nStack\n\n\nHeap\n\n\nBuffer Overflow\n\n\nNo eXecute / Data Execution Prevention\n\n\nAddress Space Layout Randomization\n\n\nReturn to Lib C\n\n\nHeap Overflow\n\n\nFormat String Attacks", 
+            "text": "Binary Exploitation\n\n\n\n\nBuffers\n\n\nThe Stack\n\n\nRegisters\n\n\nCalling Conventions\n\n\nThe Heap\n\n\nBuffer Overflow\n\n\nNo eXecute / Data Execution Prevention\n\n\nAddress Space Layout Randomization\n\n\nReturn to Lib C\n\n\nHeap Overflow\n\n\nFormat String Vulnerability", 
             "title": "Introduction"
         }, 
         {
             "location": "/binary-exploitation/introduction/#binary-exploitation", 
-            "text": "Buffer  Stack  Heap  Buffer Overflow  No eXecute / Data Execution Prevention  Address Space Layout Randomization  Return to Lib C  Heap Overflow  Format String Attacks", 
+            "text": "Buffers  The Stack  Registers  Calling Conventions  The Heap  Buffer Overflow  No eXecute / Data Execution Prevention  Address Space Layout Randomization  Return to Lib C  Heap Overflow  Format String Vulnerability", 
             "title": "Binary Exploitation"
         }, 
         {
@@ -4352,12 +4352,12 @@
         }, 
         {
             "location": "/cryptography/introduction/", 
-            "text": "Cryptography\n\n\n\n\nXOR\n\n\nBlock Modes of Operation", 
+            "text": "Cryptography\n\n\n\n\nXOR\n\n\nCesear Cipher\n\n\nSubstitution Cipher\n\n\nVigenere Cipher\n\n\nHashing Functions\n\n\nBlock Modes of Operation\n\n\nRSA", 
             "title": "Introduction"
         }, 
         {
             "location": "/cryptography/introduction/#cryptography", 
-            "text": "XOR  Block Modes of Operation", 
+            "text": "XOR  Cesear Cipher  Substitution Cipher  Vigenere Cipher  Hashing Functions  Block Modes of Operation  RSA", 
             "title": "Cryptography"
         }, 
         {
@@ -5437,12 +5437,12 @@
         }, 
         {
             "location": "/forensics/introduction/", 
-            "text": "Forensics", 
+            "text": "Forensics\n\n\n\n\nFile Formats\n\n\nEXIF data\n\n\nWireshark \n PCAPs\n\n\nStegonagraphy", 
             "title": "Introduction"
         }, 
         {
             "location": "/forensics/introduction/#forensics", 
-            "text": "", 
+            "text": "File Formats  EXIF data  Wireshark   PCAPs  Stegonagraphy", 
             "title": "Forensics"
         }, 
         {
@@ -6542,12 +6542,12 @@
         }, 
         {
             "location": "/forensics/introduction/", 
-            "text": "Forensics", 
+            "text": "Forensics\n\n\n\n\nFile Formats\n\n\nEXIF data\n\n\nWireshark \n PCAPs\n\n\nStegonagraphy", 
             "title": "Introduction"
         }, 
         {
             "location": "/forensics/introduction/#forensics", 
-            "text": "", 
+            "text": "File Formats  EXIF data  Wireshark   PCAPs  Stegonagraphy", 
             "title": "Forensics"
         }, 
         {

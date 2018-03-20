@@ -1,6 +1,8 @@
 # Forensics
 
- * File Formats
- * EXIF data
+ * [File Formats](/forensics/what-are-file-formats/)
+ * [EXIF data](/forensics/what-is-exif-data/)
  * Wireshark & PCAPs
- * Stegonagraphy
+    * [What is Wireshark](/forensics/what-is-wireshark/)
+    * [What are PCAPs](/forensics/what-are-pcaps/)
+ * [Stegonagraphy](/forensics/what-is-stegonagraphy/)

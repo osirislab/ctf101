@@ -4,7 +4,7 @@ Reverse Engineering in a CTF is typically the process of taking a compiled (mach
 
 Very often the goal of a reverse engineering challenge is to understand the functionality of a given program such that you can identify deeper issues.
 
- * Assembly / Machine Code
- * The C Programming Language
- * Disassemblers
- * Decompilers
+ * [Assembly / Machine Code](/reverse-engineering/what-is-assembly-machine-code/)
+ * [The C Programming Language](/reverse-engineering/what-is-c/)
+ * [Disassemblers](/reverse-engineering/what-are-disassemblers/)
+ * [Decompilers](/reverse-engineering/what-are-decompilers/)

@@ -27,6 +27,19 @@ pages:
 # Reverse Engineering Section
 - Reverse Engineering:
   - Introduction: 'reverse-engineering/introduction.md'
+    
+  - Assembly/Machine Code:
+    - What is Assembly/Machine Code: 'reverse-engineering/what-is-assembly-machine-code.md'
+
+  - The C Programming Language:
+    - What is C: 'reverse-engineering/what-is-c.md'
+
+  - Disassemblers:
+    - What are Disassemblers: 'reverse-engineering/what-are-disassemblers.md'
+
+  - Decompilers:
+    - What are Decompilers: 'reverse-engineering/what-are-decompilers.md'
+
   - Challenges:
     - Easy:
       - TablEZ: 'challenges/2017/reversing/tablez.md'
@@ -64,6 +77,38 @@ pages:
 #  Binary Exploitation Section
 - Binary Exploitation:
   - Introduction: 'binary-exploitation/introduction.md'
+
+  - Buffers:
+    - What are Buffers: 'binary-exploitation/what-are-buffers.md'
+    - Buffer Overflow: 'binary-exploitation/buffer-overflow.md'
+  
+  - The Stack:
+    - What is the Stack: 'binary-exploitation/what-is-the-stack.md'
+  
+  - Registers:
+    - What are Registers: 'binary-exploitation/what-are-registers.md'
+
+  - Calling Conventions:
+    - What are Calling Conventions: 'binary-exploitation/what-are-calling-conventions.md'
+
+  - The Heap:
+    - What is the Heap: 'binary-exploitation/what-is-the-heap.md'
+    - Heap Overflow: 'binary-exploitation/heap-overflow.md'
+
+  - Binary Security:
+    - What is Binary Security: 'binary-exploitation/what-is-binary-security.md'
+    - No eXecute (NX): 'binary-exploitation/no-execute.md'
+    - Data Execution Prevention: 'binary-exploitation/data-execution-prevention.md'
+    - Address Space Layout Randomization (ASLR): 'binary-exploitation/address-space-layout-randomization.md'
+    - Relocation Read-Only (RELRO): 'binary-exploitation/relocation-read-only.md'
+    - Stack Canaries: 'binary-exploitation/stack-canaries.md'
+
+  - Return to Lib C:
+    - What is Lib C: 'binary-exploitation/what-is-lib-c.md'
+
+  - Format String Vulnerability:
+    - What is a Format String Vulnerability: 'binary-exploitation/what-is-a-format-string-vulnerability.md'
+
   - Challenges:
     - Easy:
         - Humm_sCh-t: 'challenges/2017/pwn/Humm_sCh-t.md'
@@ -120,6 +165,14 @@ pages:
   - Directory Traversal:
     - What is Directory Traversal: 'web-exploitation/directory-traversal/what-is-directory-traversal.md'
 
+  - Cross Site Request Forgery:
+    - What is Cross Site Request Forgery: 'web-exploitation/cross-site-request-forgery/what-is-cross-site-request-forgery.md'
+
+  - Cross Site Scripting (XSS):
+    - What is Cross Site Scripting: 'web-exploitation/cross-site-scripting/what-is-cross-site-scripting.md'
+  
+  - Server Side Request Forgery: 
+    - What is Server Side Request Forgery: 'web-exploitation/server-side-request-forgery/what-is-server-side-request-forgery.md'
 
   - Challenges:
     - Easy:
@@ -159,6 +212,28 @@ pages:
 # Cryptography Section
 - Cryptography:
   - Introduction: 'cryptography/introduction.md'
+
+  - XOR:
+    - What is XOR: 'cryptography/what-is-xor.md'
+
+  - Caesar Cipher/ROT 13:
+    - What is Caesar Cipher/ROT 13: 'cryptography/what-is-caesar-cipher-rot-13.md'
+
+  - Substitution Cipher:
+    - What is a Substitution Cipher: 'cryptography/what-is-a-substitution-cipher.md'
+
+  - Vigenere Cipher:
+    - What is a Vigenere Cipher: 'cryptography/what-is-a-vigenere-cipher.md'
+
+  - Hashing Functions:
+    - What are Hashing Functions: 'cryptography/what-are-hashing-functions.md'
+
+  - Block Modes of Operation:
+    - What are Block Modes of Operation: 'cryptography/what-are-block-modes-of-operation.md'
+
+  - RSA:
+    - What is RSA: 'cryptography/what-is-rsa.md'
+
   - Challenges:
     - Easy:
       - ECXOR: 'challenges/2017/crypto/ecxor.md'
@@ -191,6 +266,20 @@ pages:
 # Forensics Section
 - Forensics:
   - Introduction: 'forensics/introduction.md'
+
+  - File Formats:
+    - What are File Formats: 'forensics/what-are-file-formats.md'
+
+  - EXIF Data:
+    - What is EXIF Data: 'forensics/what-is-exif-data.md'
+
+  - Wireshark and PCAPs:
+    - What is Wireshark: 'forensics/what-is-wireshark.md'
+    - What are PCAPs: 'forensics/what-are-pcaps.md'
+
+  - Stegonagraphy:
+    - What is Stegonagraphy: 'forensics/what-is-stegonagraphy.md'
+
   - Challenges:
     - Easy:
       - Missed Registration: 'challenges/2017/forensics/missed_registration.md'
@@ -223,7 +312,11 @@ pages:
 
 # Miscellaneous Section
 - Miscellaneous:
-  - Introduction: 'forensics/introduction.md'
+  - Introduction: 'miscellaneous/introduction.md'
+    
+  - Tools:
+    - What is in a Hacker's Toolkit: 'miscellaneous/what-is-in-a-hackers-toolkit.md'
+
   - Challenges:
     - Easy:
       - Serial: 'challenges/2017/misc/serial.md'

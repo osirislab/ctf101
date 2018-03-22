@@ -27,7 +27,7 @@ pages:
 # Reverse Engineering Section
 - Reverse Engineering:
   - Introduction: 'reverse-engineering/introduction.md'
-    
+
   - Assembly/Machine Code:
     - What is Assembly/Machine Code: 'reverse-engineering/what-is-assembly-machine-code.md'
 
@@ -81,10 +81,10 @@ pages:
   - Buffers:
     - What are Buffers: 'binary-exploitation/what-are-buffers.md'
     - Buffer Overflow: 'binary-exploitation/buffer-overflow.md'
-  
+
   - The Stack:
     - What is the Stack: 'binary-exploitation/what-is-the-stack.md'
-  
+
   - Registers:
     - What are Registers: 'binary-exploitation/what-are-registers.md'
 
@@ -170,8 +170,8 @@ pages:
 
   - Cross Site Scripting (XSS):
     - What is Cross Site Scripting: 'web-exploitation/cross-site-scripting/what-is-cross-site-scripting.md'
-  
-  - Server Side Request Forgery: 
+
+  - Server Side Request Forgery:
     - What is Server Side Request Forgery: 'web-exploitation/server-side-request-forgery/what-is-server-side-request-forgery.md'
 
   - Challenges:
@@ -216,11 +216,9 @@ pages:
   - XOR:
     - What is XOR: 'cryptography/what-is-xor.md'
 
-  - Caesar Cipher/ROT 13:
-    - What is Caesar Cipher/ROT 13: 'cryptography/what-is-caesar-cipher-rot-13.md'
-
   - Substitution Cipher:
     - What is a Substitution Cipher: 'cryptography/what-is-a-substitution-cipher.md'
+    - Caesar Cipher/ROT 13: 'cryptography/what-is-caesar-cipher-rot-13.md'
 
   - Vigenere Cipher:
     - What is a Vigenere Cipher: 'cryptography/what-is-a-vigenere-cipher.md'
@@ -313,7 +311,7 @@ pages:
 # Miscellaneous Section
 - Miscellaneous:
   - Introduction: 'miscellaneous/introduction.md'
-    
+
   - Tools:
     - What is in a Hacker's Toolkit: 'miscellaneous/what-is-in-a-hackers-toolkit.md'
 

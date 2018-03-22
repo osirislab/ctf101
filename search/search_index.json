@@ -26,6 +26,46 @@
             "title": "Reverse Engineering"
         }, 
         {
+            "location": "/reverse-engineering/what-is-assembly-machine-code/", 
+            "text": "Assembly/Machine Code", 
+            "title": "What is Assembly/Machine Code"
+        }, 
+        {
+            "location": "/reverse-engineering/what-is-assembly-machine-code/#assemblymachine-code", 
+            "text": "", 
+            "title": "Assembly/Machine Code"
+        }, 
+        {
+            "location": "/reverse-engineering/what-is-c/", 
+            "text": "The C Programming Language", 
+            "title": "What is C"
+        }, 
+        {
+            "location": "/reverse-engineering/what-is-c/#the-c-programming-language", 
+            "text": "", 
+            "title": "The C Programming Language"
+        }, 
+        {
+            "location": "/reverse-engineering/what-are-disassemblers/", 
+            "text": "Disassemblers", 
+            "title": "What are Disassemblers"
+        }, 
+        {
+            "location": "/reverse-engineering/what-are-disassemblers/#disassemblers", 
+            "text": "", 
+            "title": "Disassemblers"
+        }, 
+        {
+            "location": "/reverse-engineering/what-are-decompilers/", 
+            "text": "Decompilers", 
+            "title": "What are Decompilers"
+        }, 
+        {
+            "location": "/reverse-engineering/what-are-decompilers/#decompilers", 
+            "text": "", 
+            "title": "Decompilers"
+        }, 
+        {
             "location": "/challenges/2017/reversing/tablez/", 
             "text": "TablEZ\n\n\nAuthor\n\n\nPoints\n\n\n100\n\n\nCategory\n\n\nReversing\n\n\nDescription\n\n\nBobby was talking about tables a bunch, so I made some table stuff. I think this is what he was talking about\u2026\nSome tables that get iterated over to translate input -\n encoded, which then gets strcmp'd... pretty simple\n\n\nFlag\n\n\nflag{t4ble_l00kups_ar3_b3tter_f0r_m3}\n\n\nSolution\n\n\nsolver.py", 
             "title": "TablEZ"
@@ -1317,13 +1357,178 @@
         }, 
         {
             "location": "/binary-exploitation/introduction/", 
-            "text": "Binary Exploitation\n\n\n\n\nBuffers\n\n\nThe Stack\n\n\nRegisters\n\n\nCalling Conventions\n\n\nThe Heap\n\n\nBuffer Overflow\n\n\nNo eXecute / Data Execution Prevention\n\n\nAddress Space Layout Randomization\n\n\nReturn to Lib C\n\n\nHeap Overflow\n\n\nFormat String Vulnerability", 
+            "text": "Binary Exploitation\n\n\nBinaries, or executables, are machine code for a computer to execute. For the most part, the binaries that you will face in CTFs are linux ELF files or the occasional windows executable. Binary Exploitation is a broad topic within Cyber Security which really comes down to finding a vulnerability in the program and exploiting it to gain control of a shell or modifying the program's functions.\n\n\nCommon topics addressed by Binary Exploitation or 'pwn' challenges include:\n\n\n\n\nBuffers\n\n\nBuffer Overflow\n\n\n\n\n\n\nThe Stack\n\n\nRegisters\n\n\nCalling Conventions\n\n\nThe Heap\n\n\nHeap Overflow\n\n\n\n\n\n\nBinary Security\n\n\nNo eXecute (NX)\n\n\nData Execution Prevention\n\n\nAddress Space Layout Randomization (ASLR)\n\n\nRelocation Read-Only (RELRO)\n\n\nStack Canaries\n\n\n\n\n\n\nReturn to Lib C\n\n\nFormat String Vulnerability", 
             "title": "Introduction"
         }, 
         {
             "location": "/binary-exploitation/introduction/#binary-exploitation", 
-            "text": "Buffers  The Stack  Registers  Calling Conventions  The Heap  Buffer Overflow  No eXecute / Data Execution Prevention  Address Space Layout Randomization  Return to Lib C  Heap Overflow  Format String Vulnerability", 
+            "text": "Binaries, or executables, are machine code for a computer to execute. For the most part, the binaries that you will face in CTFs are linux ELF files or the occasional windows executable. Binary Exploitation is a broad topic within Cyber Security which really comes down to finding a vulnerability in the program and exploiting it to gain control of a shell or modifying the program's functions.  Common topics addressed by Binary Exploitation or 'pwn' challenges include:   Buffers  Buffer Overflow    The Stack  Registers  Calling Conventions  The Heap  Heap Overflow    Binary Security  No eXecute (NX)  Data Execution Prevention  Address Space Layout Randomization (ASLR)  Relocation Read-Only (RELRO)  Stack Canaries    Return to Lib C  Format String Vulnerability", 
             "title": "Binary Exploitation"
+        }, 
+        {
+            "location": "/binary-exploitation/what-are-buffers/", 
+            "text": "Buffers", 
+            "title": "What are Buffers"
+        }, 
+        {
+            "location": "/binary-exploitation/what-are-buffers/#buffers", 
+            "text": "", 
+            "title": "Buffers"
+        }, 
+        {
+            "location": "/binary-exploitation/buffer-overflow/", 
+            "text": "Buffer Overflow", 
+            "title": "Buffer Overflow"
+        }, 
+        {
+            "location": "/binary-exploitation/buffer-overflow/#buffer-overflow", 
+            "text": "", 
+            "title": "Buffer Overflow"
+        }, 
+        {
+            "location": "/binary-exploitation/what-is-the-stack/", 
+            "text": "The Stack", 
+            "title": "What is the Stack"
+        }, 
+        {
+            "location": "/binary-exploitation/what-is-the-stack/#the-stack", 
+            "text": "", 
+            "title": "The Stack"
+        }, 
+        {
+            "location": "/binary-exploitation/what-are-registers/", 
+            "text": "Registers", 
+            "title": "What are Registers"
+        }, 
+        {
+            "location": "/binary-exploitation/what-are-registers/#registers", 
+            "text": "", 
+            "title": "Registers"
+        }, 
+        {
+            "location": "/binary-exploitation/what-are-calling-conventions/", 
+            "text": "Calling Conventions", 
+            "title": "What are Calling Conventions"
+        }, 
+        {
+            "location": "/binary-exploitation/what-are-calling-conventions/#calling-conventions", 
+            "text": "", 
+            "title": "Calling Conventions"
+        }, 
+        {
+            "location": "/binary-exploitation/what-is-the-heap/", 
+            "text": "The Heap", 
+            "title": "What is the Heap"
+        }, 
+        {
+            "location": "/binary-exploitation/what-is-the-heap/#the-heap", 
+            "text": "", 
+            "title": "The Heap"
+        }, 
+        {
+            "location": "/binary-exploitation/heap-overflow/", 
+            "text": "Heap Overflow", 
+            "title": "Heap Overflow"
+        }, 
+        {
+            "location": "/binary-exploitation/heap-overflow/#heap-overflow", 
+            "text": "", 
+            "title": "Heap Overflow"
+        }, 
+        {
+            "location": "/binary-exploitation/what-is-binary-security/", 
+            "text": "Binary Security\n\n\nBinary Security is using tools and methods in order to secure programs from being manipulated and exploited. This tools are not infallible, but when used together and implemented properly, they can raise the difficulty of exploitation greatly.\n\n\nSome methods covered include:\n\n\n\n\nNo eXecute\n\n\nData Execution Prevention\n\n\nAddress Space Layout Randomization (ASLR)\n\n\nRelocation Read-Only (RELRO)\n\n\nStack Canaries/Cookies", 
+            "title": "What is Binary Security"
+        }, 
+        {
+            "location": "/binary-exploitation/what-is-binary-security/#binary-security", 
+            "text": "Binary Security is using tools and methods in order to secure programs from being manipulated and exploited. This tools are not infallible, but when used together and implemented properly, they can raise the difficulty of exploitation greatly.  Some methods covered include:   No eXecute  Data Execution Prevention  Address Space Layout Randomization (ASLR)  Relocation Read-Only (RELRO)  Stack Canaries/Cookies", 
+            "title": "Binary Security"
+        }, 
+        {
+            "location": "/binary-exploitation/no-execute/", 
+            "text": "No eXecute (NX Bit)", 
+            "title": "No eXecute (NX)"
+        }, 
+        {
+            "location": "/binary-exploitation/no-execute/#no-execute-nx-bit", 
+            "text": "", 
+            "title": "No eXecute (NX Bit)"
+        }, 
+        {
+            "location": "/binary-exploitation/data-execution-prevention/", 
+            "text": "Data Execution Prevention (DEP)", 
+            "title": "Data Execution Prevention"
+        }, 
+        {
+            "location": "/binary-exploitation/data-execution-prevention/#data-execution-prevention-dep", 
+            "text": "", 
+            "title": "Data Execution Prevention (DEP)"
+        }, 
+        {
+            "location": "/binary-exploitation/address-space-layout-randomization/", 
+            "text": "Address Space Layout Randomization (ASLR)", 
+            "title": "Address Space Layout Randomization (ASLR)"
+        }, 
+        {
+            "location": "/binary-exploitation/address-space-layout-randomization/#address-space-layout-randomization-aslr", 
+            "text": "", 
+            "title": "Address Space Layout Randomization (ASLR)"
+        }, 
+        {
+            "location": "/binary-exploitation/relocation-read-only/", 
+            "text": "Relocation Read-Only (RELRO)", 
+            "title": "Relocation Read-Only (RELRO)"
+        }, 
+        {
+            "location": "/binary-exploitation/relocation-read-only/#relocation-read-only-relro", 
+            "text": "", 
+            "title": "Relocation Read-Only (RELRO)"
+        }, 
+        {
+            "location": "/binary-exploitation/stack-canaries/", 
+            "text": "Stack Canaries\n\n\nStack Canaries are a secret value placed on the stack which changes every time the program is started. Prior to a function return, the stack canary is checked and if it appears to be modified, the program exits immeadiately. \n\n\n\n\nBypassing Stack Canaries\n\n\nStack Canaries seem like a clear cut way to mitigate any stack smashing as it is fairly impossible to just guess a random 64-bit value. However, leaking the address and bruteforcing the canary are two methods which would allow us to get through the canary check.\n\n\nStack Canary Leaking\n\n\nIf we can read the data in the stack canary, we can send it back to the program later because the canary stays the same throughout execution. However Linux makes this slightly tricky by making the first byte of the stack canary a NULL, meaning that string functions will stop when they hit it. A method around this would be to partially overwrite and then put the NULL back or find a way to leak bytes at an arbitrary stack offset.\n\n\nA few situations where you might be able to leak a canary:\n\n\n\n\nUser-controlled format string \n\n\nUser-controlled length of an output\n\n\n\u201cHey, can you send me 1000000 bytes? thx!\u201d\n\n\n\n\n\n\n\n\nBruteforcing a Stack Canary\n\n\nThe canary is determined when the program starts up for the first time which means that if the program forks, it keeps the same stack cookie in the child process. This means that if the input that can overwrite the canary is sent to the child, we can use whether it crashes as an oracle and brute-force 1 byte at a time! \n\n\nThis method can be used on fork-and-accept servers where connections are spun off to child processes, but only under certain conditions such as when the input accepted by the program does not append a NULL byte (\nread\n or \nrecv\n).\n\n\n\n\n\n\n\n\nBuffer (N Bytes)\n\n\n?? ?? ?? ?? ?? ?? ?? ??\n\n\nRBP\n\n\nRIP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFill the buffer N Bytes + 0x00 results in no crash\n\n\n\n\n\n\n\n\nBuffer (N Bytes)\n\n\n00 ?? ?? ?? ?? ?? ?? ??\n\n\nRBP\n\n\nRIP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFill the buffer N Bytes + 0x00 + 0x00 results in a crash\n\n\nN Bytes + 0x00 + 0x01 results in a crash\n\n\nN Bytes + 0x00 + 0x02 results in a crash\n\n\n...\n\n\nN Bytes + 0x00 + 0x51 results in no crash\n\n\n\n\n\n\n\n\nBuffer (N Bytes)\n\n\n00 51 ?? ?? ?? ?? ?? ??\n\n\nRBP\n\n\nRIP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRepeat this bruteforcing process for 6 more bytes...\n\n\n\n\n\n\n\n\nBuffer (N Bytes)\n\n\n00 51 FE 0A 31 D2 7B 3C\n\n\nRBP\n\n\nRIP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNow that we have the stack cookie, we can overwrite the RIP register and take control of the program!", 
+            "title": "Stack Canaries"
+        }, 
+        {
+            "location": "/binary-exploitation/stack-canaries/#stack-canaries", 
+            "text": "Stack Canaries are a secret value placed on the stack which changes every time the program is started. Prior to a function return, the stack canary is checked and if it appears to be modified, the program exits immeadiately.", 
+            "title": "Stack Canaries"
+        }, 
+        {
+            "location": "/binary-exploitation/stack-canaries/#bypassing-stack-canaries", 
+            "text": "Stack Canaries seem like a clear cut way to mitigate any stack smashing as it is fairly impossible to just guess a random 64-bit value. However, leaking the address and bruteforcing the canary are two methods which would allow us to get through the canary check.", 
+            "title": "Bypassing Stack Canaries"
+        }, 
+        {
+            "location": "/binary-exploitation/stack-canaries/#stack-canary-leaking", 
+            "text": "If we can read the data in the stack canary, we can send it back to the program later because the canary stays the same throughout execution. However Linux makes this slightly tricky by making the first byte of the stack canary a NULL, meaning that string functions will stop when they hit it. A method around this would be to partially overwrite and then put the NULL back or find a way to leak bytes at an arbitrary stack offset.  A few situations where you might be able to leak a canary:   User-controlled format string   User-controlled length of an output  \u201cHey, can you send me 1000000 bytes? thx!\u201d", 
+            "title": "Stack Canary Leaking"
+        }, 
+        {
+            "location": "/binary-exploitation/stack-canaries/#bruteforcing-a-stack-canary", 
+            "text": "The canary is determined when the program starts up for the first time which means that if the program forks, it keeps the same stack cookie in the child process. This means that if the input that can overwrite the canary is sent to the child, we can use whether it crashes as an oracle and brute-force 1 byte at a time!   This method can be used on fork-and-accept servers where connections are spun off to child processes, but only under certain conditions such as when the input accepted by the program does not append a NULL byte ( read  or  recv ).     Buffer (N Bytes)  ?? ?? ?? ?? ?? ?? ?? ??  RBP  RIP             Fill the buffer N Bytes + 0x00 results in no crash     Buffer (N Bytes)  00 ?? ?? ?? ?? ?? ?? ??  RBP  RIP             Fill the buffer N Bytes + 0x00 + 0x00 results in a crash  N Bytes + 0x00 + 0x01 results in a crash  N Bytes + 0x00 + 0x02 results in a crash  ...  N Bytes + 0x00 + 0x51 results in no crash     Buffer (N Bytes)  00 51 ?? ?? ?? ?? ?? ??  RBP  RIP             Repeat this bruteforcing process for 6 more bytes...     Buffer (N Bytes)  00 51 FE 0A 31 D2 7B 3C  RBP  RIP             Now that we have the stack cookie, we can overwrite the RIP register and take control of the program!", 
+            "title": "Bruteforcing a Stack Canary"
+        }, 
+        {
+            "location": "/binary-exploitation/what-is-lib-c/", 
+            "text": "Lib C", 
+            "title": "What is Lib C"
+        }, 
+        {
+            "location": "/binary-exploitation/what-is-lib-c/#lib-c", 
+            "text": "", 
+            "title": "Lib C"
+        }, 
+        {
+            "location": "/binary-exploitation/what-is-a-format-string-vulnerability/", 
+            "text": "Format String Vulnerability", 
+            "title": "What is a Format String Vulnerability"
+        }, 
+        {
+            "location": "/binary-exploitation/what-is-a-format-string-vulnerability/#format-string-vulnerability", 
+            "text": "", 
+            "title": "Format String Vulnerability"
         }, 
         {
             "location": "/challenges/2017/pwn/Humm_sCh-t/", 
@@ -2937,12 +3142,12 @@
         }, 
         {
             "location": "/web-exploitation/introduction/", 
-            "text": "Web Exploitation\n\n\nWebsites all around the world are programmed using various programming languages. While there are specific vulnerabilities in each programming langage that the developer should be aware of, there are issues fundamental to the internet that can show up regardless of the chosen language or framework.\n\n\nThese vulnerabilities often show up in CTFs as web security challenges where the user needs to exploit a bug to gain some kind of higher level privelege.\n\n\nCommon vulnerabilities to see in CTF challenges:\n\n\n\n\nSQL Injection\n\n\nDirectory Traversal\n\n\nCommand Injection\n\n\nServer Side Request Forgery\n\n\nCross Site Scripting\n\n\nCross Site Request Forgery", 
+            "text": "Web Exploitation\n\n\nWebsites all around the world are programmed using various programming languages. While there are specific vulnerabilities in each programming langage that the developer should be aware of, there are issues fundamental to the internet that can show up regardless of the chosen language or framework.\n\n\nThese vulnerabilities often show up in CTFs as web security challenges where the user needs to exploit a bug to gain some kind of higher level privelege.\n\n\nCommon vulnerabilities to see in CTF challenges:\n\n\n\n\nSQL Injection\n\n\nCommand Injection\n\n\nDirectory Traversal\n\n\nCross Site Request Forgery\n\n\nCross Site Scripting\n\n\nServer Side Request Forgery", 
             "title": "Introduction"
         }, 
         {
             "location": "/web-exploitation/introduction/#web-exploitation", 
-            "text": "Websites all around the world are programmed using various programming languages. While there are specific vulnerabilities in each programming langage that the developer should be aware of, there are issues fundamental to the internet that can show up regardless of the chosen language or framework.  These vulnerabilities often show up in CTFs as web security challenges where the user needs to exploit a bug to gain some kind of higher level privelege.  Common vulnerabilities to see in CTF challenges:   SQL Injection  Directory Traversal  Command Injection  Server Side Request Forgery  Cross Site Scripting  Cross Site Request Forgery", 
+            "text": "Websites all around the world are programmed using various programming languages. While there are specific vulnerabilities in each programming langage that the developer should be aware of, there are issues fundamental to the internet that can show up regardless of the chosen language or framework.  These vulnerabilities often show up in CTFs as web security challenges where the user needs to exploit a bug to gain some kind of higher level privelege.  Common vulnerabilities to see in CTF challenges:   SQL Injection  Command Injection  Directory Traversal  Cross Site Request Forgery  Cross Site Scripting  Server Side Request Forgery", 
             "title": "Web Exploitation"
         }, 
         {
@@ -2994,6 +3199,56 @@
             "location": "/web-exploitation/directory-traversal/what-is-directory-traversal/#directory-traversal", 
             "text": "Directory Traversal is a vulnerability where an application takes in user input and uses it in a directory path.  Any kind of path controlled by user input that isn't properly sanitized or properly sandboxed could be vulnerable to directory traversal.  For example, consider an application that allows the user to choose what page to load from a GET parameter.  ?php \n     $page   =   $_GET [ page ];   // index.php \n     include ( /var/www/html/   .   $page );  ?   Under normal operation the page would be  index.php . But what if a malicious user gave in something different?  ?php \n     $page   =   $_GET [ page ];   // ../../../../../../../../etc/passwd \n     include ( /var/www/html/   .   $page );  ?   Here the user is submitting  ../../../../../../../../etc/passwd .  This will result in the PHP interpreter leaving the directory that it is coded to look in ('/var/www/html') and instead be forced up to the root folder.  include( /var/www/html/../../../../../../../../etc/passwd );   Ultimately this will become  /etc/passwd  because the computer will not go a directory above its top directory.  Thus the application will load the  /etc/passwd  file and emit it to the user like so:  root:x:0:0:root:/root:/bin/bash\ndaemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin\nbin:x:2:2:bin:/bin:/usr/sbin/nologin\nsys:x:3:3:sys:/dev:/usr/sbin/nologin\nsync:x:4:65534:sync:/bin:/bin/sync\ngames:x:5:60:games:/usr/games:/usr/sbin/nologin\nman:x:6:12:man:/var/cache/man:/usr/sbin/nologin\nlp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin\nmail:x:8:8:mail:/var/mail:/usr/sbin/nologin\nnews:x:9:9:news:/var/spool/news:/usr/sbin/nologin\nuucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin\nproxy:x:13:13:proxy:/bin:/usr/sbin/nologin\nwww-data:x:33:33:www-data:/var/www:/usr/sbin/nologin\nbackup:x:34:34:backup:/var/backups:/usr/sbin/nologin\nlist:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin\nirc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin\ngnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin\nnobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin\nsystemd-timesync:x:100:102:systemd Time Synchronization,,,:/run/systemd:/bin/false\nsystemd-network:x:101:103:systemd Network Management,,,:/run/systemd/netif:/bin/false\nsystemd-resolve:x:102:104:systemd Resolver,,,:/run/systemd/resolve:/bin/false\nsystemd-bus-proxy:x:103:105:systemd Bus Proxy,,,:/run/systemd:/bin/false\n_apt:x:104:65534::/nonexistent:/bin/false  This same concept can be applied to applications where some input is taken from a user and then used to access a file or path or similar. This vulnerability very often can be used to leak sensitive data or extract application source code to find other vulnerabilities.", 
             "title": "Directory Traversal"
+        }, 
+        {
+            "location": "/web-exploitation/cross-site-request-forgery/what-is-cross-site-request-forgery/", 
+            "text": "Cross Site Request Forgery (CSRF)\n\n\nA Cross Site Request Forgery or CSRF Attack, pronounced \nsee surf\n, is an attack on an authenticated user which uses a state session in order to perform state changing attacks like a purchase, a transfer of funds, or a change of email address.\n\n\nThe entire premise of CSRF is based on session hijacking, usually by injecting malicious elements within a webpage through an \nimg\n tag or an \niframe\n where references to external resources are unverified.\n\n\nUsing CSRF\n\n\nGET\n requests are often used by websites to get user input. Say a user signs in to an banking site which assigns their browser a cookie which keeps them logged in. If they transfer some money, the URL that is sent to the server might have the pattern:\n\n\nhttp://securibank.com/transfer.do?acct=[RECEPIENT]\namount=[DOLLARS]\n\n\nKnowing this format, an attacker can send an email with a hyperlink to be clicked on or they can include an image tag of 0 by 0 pixels which will automatically be requested by the browser such as:\n\n\nimg src=\nhttp://securibank.com/transfer.do?acct=[RECEPIENT]\namount=[DOLLARS]\n width=\n0\n height=\n0\n border=\n0", 
+            "title": "What is Cross Site Request Forgery"
+        }, 
+        {
+            "location": "/web-exploitation/cross-site-request-forgery/what-is-cross-site-request-forgery/#cross-site-request-forgery-csrf", 
+            "text": "A Cross Site Request Forgery or CSRF Attack, pronounced  see surf , is an attack on an authenticated user which uses a state session in order to perform state changing attacks like a purchase, a transfer of funds, or a change of email address.  The entire premise of CSRF is based on session hijacking, usually by injecting malicious elements within a webpage through an  img  tag or an  iframe  where references to external resources are unverified.", 
+            "title": "Cross Site Request Forgery (CSRF)"
+        }, 
+        {
+            "location": "/web-exploitation/cross-site-request-forgery/what-is-cross-site-request-forgery/#using-csrf", 
+            "text": "GET  requests are often used by websites to get user input. Say a user signs in to an banking site which assigns their browser a cookie which keeps them logged in. If they transfer some money, the URL that is sent to the server might have the pattern:  http://securibank.com/transfer.do?acct=[RECEPIENT] amount=[DOLLARS]  Knowing this format, an attacker can send an email with a hyperlink to be clicked on or they can include an image tag of 0 by 0 pixels which will automatically be requested by the browser such as:  img src= http://securibank.com/transfer.do?acct=[RECEPIENT] amount=[DOLLARS]  width= 0  height= 0  border= 0", 
+            "title": "Using CSRF"
+        }, 
+        {
+            "location": "/web-exploitation/cross-site-scripting/what-is-cross-site-scripting/", 
+            "text": "Cross Site Scripting (XSS)\n\n\nCross Site Scripting or XSS is a vulnerability where on user of an application can send JavaScript that is executed by the browser of another user of the same application.\n\n\nThis is a vulnerability because JavaScript has a high degree of control over a user's web browser.\n\n\nFor example JavaScript has the ability to:\n\n\n\n\nModify the page (called the DOM)\n\n\nSend more HTTP requests\n\n\nAccess cookies\n\n\n\n\nBy combining all of these abilities, XSS can maliciously use JavaScript to extract user's cookies and send them to an attacker controlled server. XSS can also modify the DOM to phish users for their passwords. This only scratches the surface of what XSS can be used to do.\n\n\nXSS is typically broken down into three categories:\n\n\n\n\nReflected XSS\n\n\nStored XSS\n\n\nDOM XSS\n\n\n\n\nReflected XSS\n\n\nReflected XSS is when an XSS exploit is provided through a URL paramater.\n\n\nFor example:\n\n\nhttps://ctf101.org?data=\nscript\nalert(1)\n/script\n\n\n\n\n\n\nYou can see the XSS exploit provided in the \ndata\n GET parameter. If the application is vulnerable to reflected XSS, the application will take this data parameter value and inject it into the DOM.\n\n\nFor example:\n\n\nhtml\n\n    \nbody\n\n        \nscript\nalert\n(\n1\n)\n/\nscript\n\n    \n/\nbody\n\n\n/\nhtml\n\n\n\n\n\n\nDepending on where the exploit gets injected, it may need to be constructed differently.\n\n\nAlso, the exploit payload can change to fit whatever the attacker needs it to do. Whether that is to extract cookies and submit it to an external server, or to simply modify the page to deface it.\n\n\nOne of the deficiencies of reflected XSS however is that it requires the victim to access the vulnerable page from an attacker controlled resource. Notice that if the data paramter, wasn't provided the exploit wouldn't work.\n\n\nIn many situations, reflected XSS is detected by the browser because it is very simple for a browser to detect malicous XSS payloads in URLs.\n\n\nStored XSS\n\n\nStored XSS is different from reflected XSS in one key way. In reflected XSS, the exploit is provided through a GET parameter. But in stored XSS, the exploit is provided from the website itself.\n\n\nImagine a website that allows users to post comments. If a user can submit an XSS payload as a comment, and then have others view that malicious comment, it would be an example of stored XSS.\n\n\nThe reason being that the web site itself is serving up the XSS payload to other users. This makes it very difficult to detect from the browser's perspective and no browser is capable of generically preventing stored XSS from exploiting a user.\n\n\nDOM XSS\n\n\nDOM XSS is XSS that is due to the browser itself injecting an XSS payload into the DOM. While the server itself may properly prevent XSS, it's possible that the client side scripts may accidentally take a payload and insert it into the DOM and cause the payload to trigger.\n\n\nThe server itself is not to blame, but the client side JavaScript files are causing the issue.", 
+            "title": "What is Cross Site Scripting"
+        }, 
+        {
+            "location": "/web-exploitation/cross-site-scripting/what-is-cross-site-scripting/#cross-site-scripting-xss", 
+            "text": "Cross Site Scripting or XSS is a vulnerability where on user of an application can send JavaScript that is executed by the browser of another user of the same application.  This is a vulnerability because JavaScript has a high degree of control over a user's web browser.  For example JavaScript has the ability to:   Modify the page (called the DOM)  Send more HTTP requests  Access cookies   By combining all of these abilities, XSS can maliciously use JavaScript to extract user's cookies and send them to an attacker controlled server. XSS can also modify the DOM to phish users for their passwords. This only scratches the surface of what XSS can be used to do.  XSS is typically broken down into three categories:   Reflected XSS  Stored XSS  DOM XSS", 
+            "title": "Cross Site Scripting (XSS)"
+        }, 
+        {
+            "location": "/web-exploitation/cross-site-scripting/what-is-cross-site-scripting/#reflected-xss", 
+            "text": "Reflected XSS is when an XSS exploit is provided through a URL paramater.  For example:  https://ctf101.org?data= script alert(1) /script   You can see the XSS exploit provided in the  data  GET parameter. If the application is vulnerable to reflected XSS, the application will take this data parameter value and inject it into the DOM.  For example:  html \n     body \n         script alert ( 1 ) / script \n     / body  / html   Depending on where the exploit gets injected, it may need to be constructed differently.  Also, the exploit payload can change to fit whatever the attacker needs it to do. Whether that is to extract cookies and submit it to an external server, or to simply modify the page to deface it.  One of the deficiencies of reflected XSS however is that it requires the victim to access the vulnerable page from an attacker controlled resource. Notice that if the data paramter, wasn't provided the exploit wouldn't work.  In many situations, reflected XSS is detected by the browser because it is very simple for a browser to detect malicous XSS payloads in URLs.", 
+            "title": "Reflected XSS"
+        }, 
+        {
+            "location": "/web-exploitation/cross-site-scripting/what-is-cross-site-scripting/#stored-xss", 
+            "text": "Stored XSS is different from reflected XSS in one key way. In reflected XSS, the exploit is provided through a GET parameter. But in stored XSS, the exploit is provided from the website itself.  Imagine a website that allows users to post comments. If a user can submit an XSS payload as a comment, and then have others view that malicious comment, it would be an example of stored XSS.  The reason being that the web site itself is serving up the XSS payload to other users. This makes it very difficult to detect from the browser's perspective and no browser is capable of generically preventing stored XSS from exploiting a user.", 
+            "title": "Stored XSS"
+        }, 
+        {
+            "location": "/web-exploitation/cross-site-scripting/what-is-cross-site-scripting/#dom-xss", 
+            "text": "DOM XSS is XSS that is due to the browser itself injecting an XSS payload into the DOM. While the server itself may properly prevent XSS, it's possible that the client side scripts may accidentally take a payload and insert it into the DOM and cause the payload to trigger.  The server itself is not to blame, but the client side JavaScript files are causing the issue.", 
+            "title": "DOM XSS"
+        }, 
+        {
+            "location": "/web-exploitation/server-side-request-forgery/what-is-server-side-request-forgery/", 
+            "text": "Server Side Request Forgery (SSRF)\n\n\nServer Side Request Forgery is similar to CSRF, but instead of the client being a victim, in this case the server itself is the target of the attack. Where CSRF dealt with using other user's credentials, SSRF is involved in the modifiation of URL's which transfer data, publish data, read data, or otherwise involve internal resources. By manipulating the URL, the attacker is exploiting the outcome of the server's action to extract cloud metadata, connect HTTP databases, read files, or manipulate internal REST interfaces.", 
+            "title": "What is Server Side Request Forgery"
+        }, 
+        {
+            "location": "/web-exploitation/server-side-request-forgery/what-is-server-side-request-forgery/#server-side-request-forgery-ssrf", 
+            "text": "Server Side Request Forgery is similar to CSRF, but instead of the client being a victim, in this case the server itself is the target of the attack. Where CSRF dealt with using other user's credentials, SSRF is involved in the modifiation of URL's which transfer data, publish data, read data, or otherwise involve internal resources. By manipulating the URL, the attacker is exploiting the outcome of the server's action to extract cloud metadata, connect HTTP databases, read files, or manipulate internal REST interfaces.", 
+            "title": "Server Side Request Forgery (SSRF)"
         }, 
         {
             "location": "/challenges/2017/web/orange/", 
@@ -4352,13 +4607,103 @@
         }, 
         {
             "location": "/cryptography/introduction/", 
-            "text": "Cryptography\n\n\n\n\nXOR\n\n\nCesear Cipher\n\n\nSubstitution Cipher\n\n\nVigenere Cipher\n\n\nHashing Functions\n\n\nBlock Modes of Operation\n\n\nRSA", 
+            "text": "Cryptography\n\n\nCryptography is the reason we can use banking apps, transmit sensitive information over the web, and in general protect our privacy. However, a large part of CTFs is breaking widely used encryption schemes which are improperly implemented. The math may seem daunting, but more often than not, a simple understanding of the underlying principles will allow you to find flaws and crack the code.\n\n\nSeveral recurring topics within CTF Cryptography challenges includes:\n\n\n\n\nXOR\n\n\nCesear Cipher\n\n\nSubstitution Cipher\n\n\nVigenere Cipher\n\n\nHashing Functions\n\n\nBlock Modes of Operation\n\n\nRSA", 
             "title": "Introduction"
         }, 
         {
             "location": "/cryptography/introduction/#cryptography", 
-            "text": "XOR  Cesear Cipher  Substitution Cipher  Vigenere Cipher  Hashing Functions  Block Modes of Operation  RSA", 
+            "text": "Cryptography is the reason we can use banking apps, transmit sensitive information over the web, and in general protect our privacy. However, a large part of CTFs is breaking widely used encryption schemes which are improperly implemented. The math may seem daunting, but more often than not, a simple understanding of the underlying principles will allow you to find flaws and crack the code.  Several recurring topics within CTF Cryptography challenges includes:   XOR  Cesear Cipher  Substitution Cipher  Vigenere Cipher  Hashing Functions  Block Modes of Operation  RSA", 
             "title": "Cryptography"
+        }, 
+        {
+            "location": "/cryptography/what-is-xor/", 
+            "text": "XOR\n\n\nAn XOR or \neXclusive OR\n is a bitwise operation indicated by \n^\n and shown by the following truth table:\n\n\n\n\n\n\n\n\nA\n\n\nB\n\n\nA ^ B\n\n\n\n\n\n\n\n\n\n\n0\n\n\n0\n\n\n0\n\n\n\n\n\n\n0\n\n\n1\n\n\n1\n\n\n\n\n\n\n1\n\n\n0\n\n\n1\n\n\n\n\n\n\n1\n\n\n1\n\n\n0\n\n\n\n\n\n\n\n\nSo what XOR'ing bytes in the action \n0xA0 ^ 0x2C\n translates to is:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\n\n0\n\n\n1\n\n\n0\n\n\n0\n\n\n0\n\n\n0\n\n\n0\n\n\n\n\n\n\n0\n\n\n0\n\n\n1\n\n\n0\n\n\n1\n\n\n1\n\n\n0\n\n\n0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\n\n0\n\n\n0\n\n\n0\n\n\n1\n\n\n1\n\n\n0\n\n\n0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0b10001100\n is equivelent to \n0x8C\n, a cool property of XOR is that it is reversable meaning \n0x8C ^ 0x2C = 0xA0\n and \n0x8C ^ 0xA0 = 0x2C\n\n\nWhat does this have to do with CTF?\n\n\nXOR is a cheap way to encrypt data with a password. Any data can be encrypted using XOR as shown in this Python example:\n\n\n data = \nCAPTURETHEFLAG\n\n\n key = \nA\n\n\n encrypted = \n.join([chr(ord(x) ^ ord(key)) for x in data])\n\n encrypted\n\n\\x02\\x00\\x11\\x15\\x14\\x13\\x04\\x15\\t\\x04\\x07\\r\\x00\\x06\n\n\n decrypted = \n.join([chr(ord(x) ^ ord(key)) for x in encrypted])\n\n decrypted\n\nCAPTURETHEFLAG\n\n\n\n\n\n\nThis can be extended using a multibyte key by iterating in parallel with the data.\n\n\nExploiting XOR Encryption\n\n\nSingle Byte XOR Encryption\n\n\nSingle Byte XOR Encryption is trivial to bruteforce as there are only 255 key combinations to try.\n\n\nMultibyte XOR Encryption\n\n\nMultibyte XOR gets exponentially harder the longer the key, but if the encrypted text is long enough, character frequency analysis is a viable method to find the key. Character Frequency Analysis means that we split the cipher text into groups based on the number of characters in the key. These groups then are bruteforced using the idea that some letters appear more frequently in the english alphabet than others.", 
+            "title": "What is XOR"
+        }, 
+        {
+            "location": "/cryptography/what-is-xor/#xor", 
+            "text": "An XOR or  eXclusive OR  is a bitwise operation indicated by  ^  and shown by the following truth table:     A  B  A ^ B      0  0  0    0  1  1    1  0  1    1  1  0     So what XOR'ing bytes in the action  0xA0 ^ 0x2C  translates to is:                 1  0  1  0  0  0  0  0    0  0  1  0  1  1  0  0        1  0  0  0  1  1  0  0                 0b10001100  is equivelent to  0x8C , a cool property of XOR is that it is reversable meaning  0x8C ^ 0x2C = 0xA0  and  0x8C ^ 0xA0 = 0x2C", 
+            "title": "XOR"
+        }, 
+        {
+            "location": "/cryptography/what-is-xor/#what-does-this-have-to-do-with-ctf", 
+            "text": "XOR is a cheap way to encrypt data with a password. Any data can be encrypted using XOR as shown in this Python example:   data =  CAPTURETHEFLAG   key =  A   encrypted =  .join([chr(ord(x) ^ ord(key)) for x in data])  encrypted \\x02\\x00\\x11\\x15\\x14\\x13\\x04\\x15\\t\\x04\\x07\\r\\x00\\x06   decrypted =  .join([chr(ord(x) ^ ord(key)) for x in encrypted])  decrypted CAPTURETHEFLAG   This can be extended using a multibyte key by iterating in parallel with the data.", 
+            "title": "What does this have to do with CTF?"
+        }, 
+        {
+            "location": "/cryptography/what-is-xor/#exploiting-xor-encryption", 
+            "text": "", 
+            "title": "Exploiting XOR Encryption"
+        }, 
+        {
+            "location": "/cryptography/what-is-xor/#single-byte-xor-encryption", 
+            "text": "Single Byte XOR Encryption is trivial to bruteforce as there are only 255 key combinations to try.", 
+            "title": "Single Byte XOR Encryption"
+        }, 
+        {
+            "location": "/cryptography/what-is-xor/#multibyte-xor-encryption", 
+            "text": "Multibyte XOR gets exponentially harder the longer the key, but if the encrypted text is long enough, character frequency analysis is a viable method to find the key. Character Frequency Analysis means that we split the cipher text into groups based on the number of characters in the key. These groups then are bruteforced using the idea that some letters appear more frequently in the english alphabet than others.", 
+            "title": "Multibyte XOR Encryption"
+        }, 
+        {
+            "location": "/cryptography/what-is-caesar-cipher-rot-13/", 
+            "text": "Caesar Cipher/ROT 13\n\n\nThe Caesar Cipher or Caesar Shift is a cipher which uses the alphabet in order to encode texts.\n\n\nCAESAR\n encoded with a shift of 8 is \nKIMAIZ\n so \nABCDEFGHIJKLMNOPQRSTUVWXYZ\n becomes \nIJKLMNOPQRSTUVWXYZABCDEFGH\n\n\nROT13 is the same thing but a fixed shift of 13, this is a trivial cipher to bruteforce because there are only 25 shifts.", 
+            "title": "What is Caesar Cipher/ROT 13"
+        }, 
+        {
+            "location": "/cryptography/what-is-caesar-cipher-rot-13/#caesar-cipherrot-13", 
+            "text": "The Caesar Cipher or Caesar Shift is a cipher which uses the alphabet in order to encode texts.  CAESAR  encoded with a shift of 8 is  KIMAIZ  so  ABCDEFGHIJKLMNOPQRSTUVWXYZ  becomes  IJKLMNOPQRSTUVWXYZABCDEFGH  ROT13 is the same thing but a fixed shift of 13, this is a trivial cipher to bruteforce because there are only 25 shifts.", 
+            "title": "Caesar Cipher/ROT 13"
+        }, 
+        {
+            "location": "/cryptography/what-is-a-substitution-cipher/", 
+            "text": "Substitution Cipher", 
+            "title": "What is a Substitution Cipher"
+        }, 
+        {
+            "location": "/cryptography/what-is-a-substitution-cipher/#substitution-cipher", 
+            "text": "", 
+            "title": "Substitution Cipher"
+        }, 
+        {
+            "location": "/cryptography/what-is-a-vigenere-cipher/", 
+            "text": "Vigenere Cipher", 
+            "title": "What is a Vigenere Cipher"
+        }, 
+        {
+            "location": "/cryptography/what-is-a-vigenere-cipher/#vigenere-cipher", 
+            "text": "", 
+            "title": "Vigenere Cipher"
+        }, 
+        {
+            "location": "/cryptography/what-are-hashing-functions/", 
+            "text": "Hashing Functions\n\n\nHashing functions are one way functions which theoretically provide a unique output for every input. MD5, SHA-1, and other hashes which were considered secure are now found to have \ncollisions\n or two different pieces of data which produce the same supposed unique output.", 
+            "title": "What are Hashing Functions"
+        }, 
+        {
+            "location": "/cryptography/what-are-hashing-functions/#hashing-functions", 
+            "text": "Hashing functions are one way functions which theoretically provide a unique output for every input. MD5, SHA-1, and other hashes which were considered secure are now found to have  collisions  or two different pieces of data which produce the same supposed unique output.", 
+            "title": "Hashing Functions"
+        }, 
+        {
+            "location": "/cryptography/what-are-block-modes-of-operation/", 
+            "text": "Block Modes of Operation", 
+            "title": "What are Block Modes of Operation"
+        }, 
+        {
+            "location": "/cryptography/what-are-block-modes-of-operation/#block-modes-of-operation", 
+            "text": "", 
+            "title": "Block Modes of Operation"
+        }, 
+        {
+            "location": "/cryptography/what-is-rsa/", 
+            "text": "RSA", 
+            "title": "What is RSA"
+        }, 
+        {
+            "location": "/cryptography/what-is-rsa/#rsa", 
+            "text": "", 
+            "title": "RSA"
         }, 
         {
             "location": "/challenges/2017/crypto/ecxor/", 
@@ -5437,13 +5782,68 @@
         }, 
         {
             "location": "/forensics/introduction/", 
-            "text": "Forensics\n\n\n\n\nFile Formats\n\n\nEXIF data\n\n\nWireshark \n PCAPs\n\n\nStegonagraphy", 
+            "text": "Forensics\n\n\nForensics is the art of recovering the digital trail left on a computer. There are plently of methods to find data which is seemingly deleted, not stored, or worse, covertly recorded. \n\n\nAn important part of Forensics is having the right tools, as well as being familair with the following topics:\n\n\n\n\nFile Formats\n\n\nEXIF data\n\n\nWireshark \n PCAPs\n\n\nWhat is Wireshark\n\n\nWhat are PCAPs\n\n\n\n\n\n\nStegonagraphy", 
             "title": "Introduction"
         }, 
         {
             "location": "/forensics/introduction/#forensics", 
-            "text": "File Formats  EXIF data  Wireshark   PCAPs  Stegonagraphy", 
+            "text": "Forensics is the art of recovering the digital trail left on a computer. There are plently of methods to find data which is seemingly deleted, not stored, or worse, covertly recorded.   An important part of Forensics is having the right tools, as well as being familair with the following topics:   File Formats  EXIF data  Wireshark   PCAPs  What is Wireshark  What are PCAPs    Stegonagraphy", 
             "title": "Forensics"
+        }, 
+        {
+            "location": "/forensics/what-are-file-formats/", 
+            "text": "File Formats\n\n\nFile Extensions are not the sole way to identify the type of a file, files have certain leading bytes called \nfile headers\n which allow programs to parse the data in a consistent manner.", 
+            "title": "What are File Formats"
+        }, 
+        {
+            "location": "/forensics/what-are-file-formats/#file-formats", 
+            "text": "File Extensions are not the sole way to identify the type of a file, files have certain leading bytes called  file headers  which allow programs to parse the data in a consistent manner.", 
+            "title": "File Formats"
+        }, 
+        {
+            "location": "/forensics/what-is-exif-data/", 
+            "text": "EXIF Data\n\n\nEXIF Data is metadata attached to photos which can include location, time, and device information.", 
+            "title": "What is EXIF Data"
+        }, 
+        {
+            "location": "/forensics/what-is-exif-data/#exif-data", 
+            "text": "EXIF Data is metadata attached to photos which can include location, time, and device information.", 
+            "title": "EXIF Data"
+        }, 
+        {
+            "location": "/forensics/what-is-wireshark/", 
+            "text": "Wireshark\n\n\nWireshark is a network protocol analyzer which is often used in CTF challenges to look at recorded network traffic.", 
+            "title": "What is Wireshark"
+        }, 
+        {
+            "location": "/forensics/what-is-wireshark/#wireshark", 
+            "text": "Wireshark is a network protocol analyzer which is often used in CTF challenges to look at recorded network traffic.", 
+            "title": "Wireshark"
+        }, 
+        {
+            "location": "/forensics/what-are-pcaps/", 
+            "text": "PCAPs\n\n\nPCAPs are often distributed in CTF challenges to provide recorded traffic history.", 
+            "title": "What are PCAPs"
+        }, 
+        {
+            "location": "/forensics/what-are-pcaps/#pcaps", 
+            "text": "PCAPs are often distributed in CTF challenges to provide recorded traffic history.", 
+            "title": "PCAPs"
+        }, 
+        {
+            "location": "/forensics/what-is-stegonagraphy/", 
+            "text": "Stegonagraphy\n\n\nStegonagraphy is the practice of hiding data in plain sight. Stegonagraphy is often embedded in images or audio.\n\n\nLSB Stegonagraphy\n\n\nLSB Stegonagraphy or \nLeast Significant Bit\n Stegonagraphy is a method of stegonagraphy where data is recorded in the lowest bit of a byte.\n\n\nSay an image has a pixel with an RGB value of (255, 255, 255), the bits of those RGB values will look like\n\n\n\n\n\n\n\n\n1\n\n\n1\n\n\n1\n\n\n1\n\n\n1\n\n\n1\n\n\n1\n\n\n1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBy modifying the lowest, or least significant, bit, we can use the 1 bit space across every RGB value for every pixel to construct a message.\n\n\n\n\n\n\n\n\n1\n\n\n1\n\n\n1\n\n\n1\n\n\n1\n\n\n1\n\n\n1\n\n\n0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe reason stegonagraphy is hard to detect by sight is because a 1 bit difference in color is insignificant as seen below.", 
+            "title": "What is Stegonagraphy"
+        }, 
+        {
+            "location": "/forensics/what-is-stegonagraphy/#stegonagraphy", 
+            "text": "Stegonagraphy is the practice of hiding data in plain sight. Stegonagraphy is often embedded in images or audio.", 
+            "title": "Stegonagraphy"
+        }, 
+        {
+            "location": "/forensics/what-is-stegonagraphy/#lsb-stegonagraphy", 
+            "text": "LSB Stegonagraphy or  Least Significant Bit  Stegonagraphy is a method of stegonagraphy where data is recorded in the lowest bit of a byte.  Say an image has a pixel with an RGB value of (255, 255, 255), the bits of those RGB values will look like     1  1  1  1  1  1  1  1                 By modifying the lowest, or least significant, bit, we can use the 1 bit space across every RGB value for every pixel to construct a message.     1  1  1  1  1  1  1  0                 The reason stegonagraphy is hard to detect by sight is because a 1 bit difference in color is insignificant as seen below.", 
+            "title": "LSB Stegonagraphy"
         }, 
         {
             "location": "/challenges/2017/forensics/missed_registration/", 
@@ -6541,14 +6941,24 @@
             "title": "Setup"
         }, 
         {
-            "location": "/forensics/introduction/", 
-            "text": "Forensics\n\n\n\n\nFile Formats\n\n\nEXIF data\n\n\nWireshark \n PCAPs\n\n\nStegonagraphy", 
+            "location": "/miscellaneous/introduction/", 
+            "text": "Miscellaneous\n\n\nSome tools that are useful:\n\n\n\n\nTools", 
             "title": "Introduction"
         }, 
         {
-            "location": "/forensics/introduction/#forensics", 
-            "text": "File Formats  EXIF data  Wireshark   PCAPs  Stegonagraphy", 
-            "title": "Forensics"
+            "location": "/miscellaneous/introduction/#miscellaneous", 
+            "text": "Some tools that are useful:   Tools", 
+            "title": "Miscellaneous"
+        }, 
+        {
+            "location": "/miscellaneous/what-is-in-a-hackers-toolkit/", 
+            "text": "A Hacker's Toolkit\n\n\nJust like every lockpic needs a lockpicking kit, a hacker needs tools in order to hack.", 
+            "title": "What is in a Hacker's Toolkit"
+        }, 
+        {
+            "location": "/miscellaneous/what-is-in-a-hackers-toolkit/#a-hackers-toolkit", 
+            "text": "Just like every lockpic needs a lockpicking kit, a hacker needs tools in order to hack.", 
+            "title": "A Hacker's Toolkit"
         }, 
         {
             "location": "/challenges/2017/misc/serial/", 

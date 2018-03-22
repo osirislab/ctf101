@@ -1855,7 +1855,25 @@
         <div class="col-md-9" role="main">
 
 <h1 id="hashing-functions">Hashing Functions<a class="headerlink" href="#hashing-functions" title="Permanent link">&para;</a></h1>
-<p>Hashing functions are one way functions which theoretically provide a unique output for every input. MD5, SHA-1, and other hashes which were considered secure are now found to have <em>collisions</em> or two different pieces of data which produce the same supposed unique output.</p></div>
+<p>Hashing functions are one way functions which theoretically provide a unique output for every input.</p>
+<p>There are many different hashing functions and each is generally better suited for a different purpose. Some examples of hashing functions are MD5, SHA-1, SHA-2, SHA-256, SHA-512, bcrypt, scrypt, and PBKDF2.</p>
+<p>Hashing functions are very useful in the validation of data. For example, websites usually store a hash of a user's password so that if they are hacked, the hacker doesn't get the user's original password.</p>
+<p>When the user tries to login, they still provide their password as normal, however the website will "hash" it and compare it with the hash that it has saved.</p>
+<p>For example the following code demonstrates how to perform an MD5 hash in Python:</p>
+<div class="codehilite"><pre><span></span><span class="kn">import</span> <span class="nn">hashlib</span>
+<span class="k">print</span><span class="p">(</span><span class="n">hashlib</span><span class="o">.</span><span class="n">md5</span><span class="p">(</span><span class="s1">&#39;this_is_a_password&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">())</span>
+</pre></div>
+
+
+<p>The above code equates to the following:</p>
+<p><code>MD5(this_is_a_password)</code> -&gt; <code>5f4dcc3b5aa765d61d8327deb882cf99</code></p>
+<p>From this output you can see that the original input (<code>this_is_a_password</code>) is no longer recognizeable after going through the MD5 hashing function.</p>
+<p>An astute reader might notice something special. There is an infinite amount of data but an MD5 hash is only comprised up of 32 hexadecimal characters (or 128 bits). Thus, because of the pigeon hole principle, there must be two inputs which result in the same output. This is known as a hash collision. In cryptographic calculations, hash collisions are generally considered a bad thing. This is because having two inputs that yield the same hash can have security implications.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>What if you downloaded two programs, one program is malicious and one program is safe. On top of that, they both have the same MD5 hash! Now how do we know which program is safe to use?</p>
+</div>
+<p>MD5, SHA-1, and other hashes once considered secure have now been found to have collissions and as such shouldn't be used for operations that require security.</p></div>
         
     </div>
 

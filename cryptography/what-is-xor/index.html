@@ -4,10 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Capture The Flag Competition Wiki"> 
+    <meta name="author" content="OSIRIS Lab & CTFd LLC"> 
     <link rel="shortcut icon" href="../../img/favicon.ico">
 
-    <title></title>
+    <title>What is XOR - CTF 101</title>
 
     <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -1842,6 +1844,10 @@
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="first-level active"><a href="#xor">XOR</a></li>
+            <li class="second-level"><a href="#data-representation">Data Representation</a></li>
+                
+            <li class="second-level"><a href="#xor-basics">XOR Basics</a></li>
+                
             <li class="second-level"><a href="#what-does-this-have-to-do-with-ctf">What does this have to do with CTF?</a></li>
                 
             <li class="second-level"><a href="#exploiting-xor-encryption">Exploiting XOR Encryption</a></li>
@@ -1853,6 +1859,10 @@
         <div class="col-md-9" role="main">
 
 <h1 id="xor">XOR<a class="headerlink" href="#xor" title="Permanent link">&para;</a></h1>
+<h2 id="data-representation">Data Representation<a class="headerlink" href="#data-representation" title="Permanent link">&para;</a></h2>
+<p>Data can be represented in different bases, an 'A' needs to be a numerical representation of Base 2 or binary so computers can understand them</p>
+<p><img alt="Data Representation" src="../data-representation.png" /></p>
+<h2 id="xor-basics">XOR Basics<a class="headerlink" href="#xor-basics" title="Permanent link">&para;</a></h2>
 <p>An XOR or <em>eXclusive OR</em> is a bitwise operation indicated by <code>^</code> and shown by the following truth table:</p>
 <table>
 <thead>
@@ -1949,6 +1959,7 @@
 </tbody>
 </table>
 <p><code>0b10001100</code> is equivelent to <code>0x8C</code>, a cool property of XOR is that it is reversable meaning <code>0x8C ^ 0x2C = 0xA0</code> and <code>0x8C ^ 0xA0 = 0x2C</code></p>
+<p><img alt="XOR Basics" src="../xor.png" /></p>
 <h2 id="what-does-this-have-to-do-with-ctf">What does this have to do with CTF?<a class="headerlink" href="#what-does-this-have-to-do-with-ctf" title="Permanent link">&para;</a></h2>
 <p>XOR is a cheap way to encrypt data with a password. Any data can be encrypted using XOR as shown in this Python example:</p>
 <div class="codehilite"><pre><span></span>&gt;&gt;&gt; data = &#39;CAPTURETHEFLAG&#39;

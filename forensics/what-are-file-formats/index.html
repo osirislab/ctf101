@@ -4,10 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Capture The Flag Competition Wiki"> 
+    <meta name="author" content="OSIRIS Lab & CTFd LLC"> 
     <link rel="shortcut icon" href="../../img/favicon.ico">
 
-    <title></title>
+    <title>What are File Formats - CTF 101</title>
 
     <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -1842,14 +1844,115 @@
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="first-level active"><a href="#file-formats">File Formats</a></li>
+            <li class="second-level"><a href="#file-signatures">File Signatures</a></li>
+                
+                <li class="third-level"><a href="#what-is-it-used-for">What is it used for?</a></li>
+                <li class="third-level"><a href="#how-do-you-find-the-file-signature">How do you find the file signature?</a></li>
+                <li class="third-level"><a href="#example">Example</a></li>
+            <li class="second-level"><a href="#file-metadata">File Metadata</a></li>
+                
+                <li class="third-level"><a href="#what-kind-of-file-metadata-is-useful">What kind of file metadata is useful?</a></li>
+                <li class="third-level"><a href="#how-do-i-find-it">How do I find it?</a></li>
+                <li class="third-level"><a href="#example_1">Example</a></li>
+            <li class="second-level"><a href="#timestamps">Timestamps</a></li>
+                
+                <li class="third-level"><a href="#types-of-timestamps">Types of timestamps</a></li>
+                <li class="third-level"><a href="#why-do-we-care">Why do we care?</a></li>
+                <li class="third-level"><a href="#timeline-patterns">Timeline Patterns</a></li>
+                <li class="third-level"><a href="#examples">Examples</a></li>
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
 <h1 id="file-formats">File Formats<a class="headerlink" href="#file-formats" title="Permanent link">&para;</a></h1>
-<p>To most operating systems (Windows, OSX), the last three characters of a file after the period are the file extension. For example, notes.txt would be considered a text file because the extension is .txt. Most personal computers today identify files by the extention. .txt is text file, .doc is a Word Document, .xls is an Excel spreadsheet.</p>
-<p>However, file extensions are not the sole way to identify the type of a file. Files have certain leading bytes called <em>file headers</em> which allow programs to identify what kind of file they are and process it accordingly.</p>
-<p>The Linux operating system uses file headers to identify files. So for example if you have a PNG image and rename the file extension to .txt, Linux can still identify the file as a PNG file. This is because the first four bytes of the file (the header) is <code>89 50 4e 47</code>. This translates to \x89PNG. Using this header Linux knows that this is still a PNG file even if the extension is txt.</p></div>
+<p>File Extensions are not the sole way to identify the type of a file, files have certain leading bytes called <em>file signatures</em> which allow programs to parse the data in a consistent manner. Files can also contain additional "hidden" data called <em>metadata</em> which can be useful in finding out information about the context of a file's data.</p>
+<h2 id="file-signatures">File Signatures<a class="headerlink" href="#file-signatures" title="Permanent link">&para;</a></h2>
+<p><strong>File signatures</strong> (also known as File Magic Numbers) are bytes within a file used to identify the format of the file. Generally they’re 2-4 bytes long, found at the beginning of a file.</p>
+<h3 id="what-is-it-used-for">What is it used for?<a class="headerlink" href="#what-is-it-used-for" title="Permanent link">&para;</a></h3>
+<p>Files can sometimes come without an extension, or with incorrect ones. We use file signature analysis to identify the format (file type) of the file. Programs need to know the file type in order to open it properly.</p>
+<h3 id="how-do-you-find-the-file-signature">How do you find the file signature?<a class="headerlink" href="#how-do-you-find-the-file-signature" title="Permanent link">&para;</a></h3>
+<p>You need to be able to look at the binary data that constitutes the file you’re examining. To do this, you’ll use a hexadecimal editor. Once you find the file signature, you can check it against file signature repositories <a href="http://www.garykessler.net/library/file_sigs.html">such as Gary Kessler’s</a>.</p>
+<h3 id="example">Example<a class="headerlink" href="#example" title="Permanent link">&para;</a></h3>
+<p><a href="../images/file-a.jpg">File A</a></p>
+<p>The file above, when opened in a Hex Editor, begins with the bytes <code>FFD8FFE0 00104A46 494600</code> or in ASCII <code>ˇÿˇ‡  JFIF</code> where <code>\x00</code> and <code>\x10</code> lack symbols. </p>
+<p>Searching in <a href="http://www.garykessler.net/library/file_sigs.html">Gary Kessler’s</a> database shows that this file signature belongs to a <code>JPEG/JFIF graphics file</code>, exactly what we suspect.</p>
+<h2 id="file-metadata">File Metadata<a class="headerlink" href="#file-metadata" title="Permanent link">&para;</a></h2>
+<p>Metadata is data about data. Different types of files have different metadata. The metadata on a photo could include dates, camera information, GPS location, comments, etc. For music, it could include the title, author, track number and album.</p>
+<h3 id="what-kind-of-file-metadata-is-useful">What kind of file metadata is useful?<a class="headerlink" href="#what-kind-of-file-metadata-is-useful" title="Permanent link">&para;</a></h3>
+<p>Potentially, any file metadata you can find could be useful.</p>
+<h3 id="how-do-i-find-it">How do I find it?<a class="headerlink" href="#how-do-i-find-it" title="Permanent link">&para;</a></h3>
+<p>One of our favorite tools is exiftool, which displays metadata for an input file, including:
+- File size
+- Dimensions (width and height)
+- File type
+- Programs used to create (e.g. Photoshop)
+- OS used to create (e.g. Apple)</p>
+<p>Run command line: <code>exiftool(-k).exe [filename]</code> and you should see something like this:</p>
+<p><img alt="Exiftool" src="../images/exiftool.png" /></p>
+<h3 id="example_1">Example<a class="headerlink" href="#example_1" title="Permanent link">&para;</a></h3>
+<p>Let's take a look at File A's metadata with exiftool: </p>
+<p>File type</p>
+<p><a href="../images/file-a-metadata-1.png">Metadata 1</a></p>
+<p>Image description</p>
+<p><a href="../images/file-a-metadata-2.png">Metadata 2</a></p>
+<p>Make and camera info</p>
+<p><a href="../images/file-a-metadata-3.png">Metadata 3</a></p>
+<p>GPS Latitude/Longitude</p>
+<p><a href="../images/file-a-metadata-4.png">Metadata 4</a></p>
+<h2 id="timestamps">Timestamps<a class="headerlink" href="#timestamps" title="Permanent link">&para;</a></h2>
+<p>Timestamps are data that indicate the time of certain events (MAC):
+- Modification – when a file was modified
+- Access – when a file or entries were read or accessed
+- Creation – when files or entries were created</p>
+<h3 id="types-of-timestamps">Types of timestamps<a class="headerlink" href="#types-of-timestamps" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Modified</li>
+<li>Accessed</li>
+<li>Created</li>
+<li>Date Changed (MFT)</li>
+<li>Filename Date Created (MFT)</li>
+<li>Filename Date Modified (MFT)</li>
+<li>Filename Date Accessed (MFT)</li>
+<li>INDX Entry Date Created</li>
+<li>INDX Entry Date Modified</li>
+<li>INDX Entry Date Accessed</li>
+<li>INDX Entry Date Changed</li>
+</ul>
+<h3 id="why-do-we-care">Why do we care?<a class="headerlink" href="#why-do-we-care" title="Permanent link">&para;</a></h3>
+<p>Certain events such as creating, moving, copying, opening, editing, etc. might affect the MAC times. If the MAC timestamps can be attained, a timeline of events could be created.</p>
+<h3 id="timeline-patterns">Timeline Patterns<a class="headerlink" href="#timeline-patterns" title="Permanent link">&para;</a></h3>
+<p>There are plenty more patterns than the ones introduced below, but these are the basics you should start with to get a good understanding of how it works, and to complete this challenge.</p>
+<p><img alt="Timeline 1" src="../images/timeline-1.png" />
+<img alt="Timeline 2" src="../images/timeline-2.png" />
+<img alt="Timeline 3" src="../images/timeline-3.png" />
+<img alt="Timeline 4" src="../images/timeline-4.png" />
+<img alt="Timeline 5" src="../images/timeline-5.png" /></p>
+<h3 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">&para;</a></h3>
+<p>We know that the BMP files fileA and fileD are the same, but that the JPEG files fileB and fileC are different somehow. So how can we find out what went on with these files?</p>
+<p><img alt="Files A, B, C, D" src="../file-a-b-c-d.png" /></p>
+<p>By using time stamp information from the file system, we can learn that the BMP fileD was the original file, with fileA being a copy of the original. Afterward, fileB was created by modifying fileB, and fileC was created by modifying fileA in a different way.</p>
+<p>Follow along as we demonstrate.</p>
+<p>We’ll start by analyzing images in AccessData FTK Imager, where there’s a Properties window that shows you some information about the file or folder you’ve selected.</p>
+<p><img alt="Timestamp 1" src="../images/timestamp-1.png" />
+<img alt="Timestamp 2" src="../images/timestamp-2.png" />
+<img alt="Timestamp 3" src="../images/timestamp-3.png" />
+<img alt="Timestamp 4" src="../images/timestamp-4.png" /></p>
+<p>Here are the extracted MAC times for fileA, fileB, fileC and fileD:
+<em>Note, AccessData FTK Imager assumes that the file times on the drive are in UTC (Universal Coordinated Time). I subtracted four hours, since the USB was set up in Eastern Standard Time. This isn’t necessary, but it helps me understand the times a bit better.</em></p>
+<p><img alt="Timestamp 5" src="../images/timestamp-5.png" /></p>
+<p>Highlight timestamps that are the same, if timestamps are off by a few seconds, they should be counted as the same. This lets you see a clear difference between different timestamps. Then, highlight oldest to newest to help put them in order.</p>
+<p><img alt="Timestamp 6" src="../images/timestamp-6.png" />
+<img alt="Timestamp 7" src="../images/timestamp-7.png" />
+<img alt="Timestamp 8" src="../images/timestamp-8.png" />
+<img alt="Timestamp 9" src="../images/timestamp-9.png" />
+<img alt="Timestamp 10" src="../images/timestamp-10.png" />
+<img alt="Timestamp 11" src="../images/timestamp-11.png" />
+<img alt="Timestamp 12" src="../images/timestamp-12.png" />
+<img alt="Timestamp 13" src="../images/timestamp-13.png" />
+<img alt="Timestamp 14" src="../images/timestamp-14.png" />
+<img alt="Timestamp 15" src="../images/timestamp-15.png" /></p>
+<p>Identify timestamp patterns.</p>
+<p><img alt="Timestamp 16" src="../images/timestamp-16.png" /></p></div>
         
     </div>
 

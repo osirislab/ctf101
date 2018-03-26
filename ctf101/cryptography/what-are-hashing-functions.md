@@ -1,29 +1,63 @@
 # Hashing Functions
 
-Hashing functions are one way functions which theoretically provide a unique output for every input.
+Hashing functions are one way functions which theoretically provide a unique output for every input. MD5, SHA-1, and other hashes which were considered secure are now found to have *collisions* or two different pieces of data which produce the same supposed unique output.
 
-There are many different hashing functions and each is generally better suited for a different purpose. Some examples of hashing functions are MD5, SHA-1, SHA-2, SHA-256, SHA-512, bcrypt, scrypt, and PBKDF2.
+## String Hashing
 
-Hashing functions are very useful in the validation of data. For example, websites usually store a hash of a user's password so that if they are hacked, the hacker doesn't get the user's original password.
+A string hash is a number or string generated using an algorithm that runs on text or data.
 
-When the user tries to login, they still provide their password as normal, however the website will "hash" it and compare it with the hash that it has saved.
+The idea is that each hash should be unique to the text or data (although sometimes it isn’t). For example, the hash for “dog” should be different from other hashes.
 
-For example the following code demonstrates how to perform an MD5 hash in Python:
+You can use command line tools tools or online resources such as this one.
+Example:
+`$ echo -n password | md5  5f4dcc3b5aa765d61d8327deb882cf99`
+Here, “password” is hashed with different hashing algorithms:
 
-```python
-import hashlib
-print(hashlib.md5('this_is_a_password').hexdigest())
+**SHA-1**: 5BAA61E4C9B93F3F0682250B6CF8331B7EE68FD8
+**SHA-2**: 5E884898DA28047151D0E56F8DC6292773603D0D6AABBDD62A11EF721D1542D8
+**MD5**: 5F4DCC3B5AA765D61D8327DEB882CF99
+**CRC32**: BBEDA74F
+
+Generally, when verifying a hash visually, you can simply look at the first and last four characters of the string.
+
+## File Hashing
+
+A file hash is a number or string generated using an algorithm that is run on text or data. The premise is that it should be unique to the text or data. If the file or text changes in any way, the hash will change.
+
+What is it used for?
+- File and data identification
+- Password/certificate storage comparison
+
+How can we determine the hash of a file? You can use the md5sum command (or similar).
+```
+$md5sum samplefile.txt
+3b85ec9ab2984b91070128be6aae25eb samplefile.txt
 ```
 
-The above code equates to the following:
+## Hash Collisions
 
-`MD5(this_is_a_password)` -> `5f4dcc3b5aa765d61d8327deb882cf99`
+A collision is when two pieces of data or text have the same cryptographic hash. This is very rare.
 
-From this output you can see that the original input (`this_is_a_password`) is no longer recognizeable after going through the MD5 hashing function.
+What’s significant about collisions is that they can be used to crack password hashes. Passwords are usually stored as hashes on a computer, since it’s hard to get the passwords from hashes.
 
-An astute reader might notice something special. There is an infinite amount of data but an MD5 hash is only comprised up of 32 hexadecimal characters (or 128 bits). Thus, because of the pigeon hole principle, there must be two inputs which result in the same output. This is known as a hash collision. In cryptographic calculations, hash collisions are generally considered a bad thing. This is because having two inputs that yield the same hash can have security implications.
+[Password to Hash](images/hashing-collision-1.png)
 
-!!! note
-    What if you downloaded two programs, one program is malicious and one program is safe. On top of that, they both have the same MD5 hash! Now how do we know which program is safe to use?
+If you bruteforce by trying every possible piece of text or data, eventually you’ll find something with the same hash. Enter it, and the computer accepts it as if you entered the actual password.
 
-MD5, SHA-1, and other hashes once considered secure have now been found to have collissions and as such shouldn't be used for operations that require security.
+Two different files on the same hard drive with the same cryptographic hash can be very interesting.
+
+“It’s now well-known that the cryptographic hash function MD5 has been broken,” [said Peter Selinger of Dalhousie University](http://www.mscs.dal.ca/~selinger/md5collision/). “In March 2005, Xiaoyun Wang and Hongbo Yu of Shandong University in China published an article in which they described an algorithm that can find two different sequences of 128 bytes with the same MD5 hash.”
+
+For example, he cited this famous pair:
+
+[Password to Hash](images/hashing-collision-2.png)
+
+and
+
+[Password to Hash](images/hashing-collision-3.png)
+
+Each of these blocks has MD5 hash 79054025255fb1a26e4bc422aef54eb4.
+
+Selinger said that “the algorithm of Wang and Yu can be used to create files of arbitrary length that have identical MD5 hashes, and that differ only in 128 bytes somewhere in the middle of the file. Several people have used this technique to create pairs of interesting files with identical MD5 hashes.”
+
+Ben Laurie [has a nice website that visualizes this MD5 collision](http://www.links.org/?p=6). For a non-technical, though slightly outdated, introduction to hash functions, see [Steve Friedl’s Illustrated Guide](http://www.unixwiz.net/techtips/iguide-crypto-hashes.html). And [here’s a good article](http://www.forensicmag.com/articles/2008/12/hash-algorithm-dilemma–hash-value-collisions) from DFI News that explores the same topic.

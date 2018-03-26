@@ -10,3 +10,4 @@ An important part of Forensics is having the right tools, as well as being famil
     * [What is Wireshark](/forensics/what-is-wireshark/)
     * [What are PCAPs](/forensics/what-are-pcaps/)
  * [Stegonagraphy](/forensics/what-is-stegonagraphy/)
+ * [Disk Imaging](/forensics/what-is-disk-imaging/)

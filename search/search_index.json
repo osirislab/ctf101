@@ -3242,12 +3242,12 @@
         }, 
         {
             "location": "/web-exploitation/server-side-request-forgery/what-is-server-side-request-forgery/", 
-            "text": "Server Side Request Forgery (SSRF)\n\n\nServer Side Request Forgery is similar to CSRF, but instead of the client being a victim, in this case the server itself is the target of the attack. Where CSRF dealt with using other user's credentials, SSRF is involved in the modifiation of URL's which transfer data, publish data, read data, or otherwise involve internal resources. By manipulating the URL, the attacker is exploiting the outcome of the server's action to extract cloud metadata, connect HTTP databases, read files, or manipulate internal REST interfaces.", 
+            "text": "Server Side Request Forgery (SSRF)\n\n\nServer Side Request Forgery or SSRF is where an attacker is able to cause a web application to send a request that the attacker defines.\n\n\nFor example, say there is a website that lets you take a screenshot of any site on the internet.\n\n\nUnder normal usage a user might ask it to take a screenshot of a page like Google, or The New York Times. But what if a user does something more nefarious? What if they asked the site to take a picture of http://localhost ? Or perhaps tries to access something more useful like \nhttp://localhost/server-status\n ?\n\n\n\n\nNote\n\n\n127.0.0.1 (also known as localhost or loopback) represents the computer itself. Accessing localhost means you are accessing the computer's own internal network. Developers often use localhost as a way to access the services they have running on their own computers.\n\n\n\n\nDepending on what the response from the site is the attacker may be able to gain additional information about what's running on the computer itself.\n\n\nIn addition, the requests originating from the server would come from the server's IP not the attackers IP. Because of that, it is possible that the attacker might be able to access internal resources that he wouldn't normally be able to access.\n\n\nAnother usage for SSRF is to create a simple port scanner to scan the internal network looking for internal services.", 
             "title": "What is Server Side Request Forgery"
         }, 
         {
             "location": "/web-exploitation/server-side-request-forgery/what-is-server-side-request-forgery/#server-side-request-forgery-ssrf", 
-            "text": "Server Side Request Forgery is similar to CSRF, but instead of the client being a victim, in this case the server itself is the target of the attack. Where CSRF dealt with using other user's credentials, SSRF is involved in the modifiation of URL's which transfer data, publish data, read data, or otherwise involve internal resources. By manipulating the URL, the attacker is exploiting the outcome of the server's action to extract cloud metadata, connect HTTP databases, read files, or manipulate internal REST interfaces.", 
+            "text": "Server Side Request Forgery or SSRF is where an attacker is able to cause a web application to send a request that the attacker defines.  For example, say there is a website that lets you take a screenshot of any site on the internet.  Under normal usage a user might ask it to take a screenshot of a page like Google, or The New York Times. But what if a user does something more nefarious? What if they asked the site to take a picture of http://localhost ? Or perhaps tries to access something more useful like  http://localhost/server-status  ?   Note  127.0.0.1 (also known as localhost or loopback) represents the computer itself. Accessing localhost means you are accessing the computer's own internal network. Developers often use localhost as a way to access the services they have running on their own computers.   Depending on what the response from the site is the attacker may be able to gain additional information about what's running on the computer itself.  In addition, the requests originating from the server would come from the server's IP not the attackers IP. Because of that, it is possible that the attacker might be able to access internal resources that he wouldn't normally be able to access.  Another usage for SSRF is to create a simple port scanner to scan the internal network looking for internal services.", 
             "title": "Server Side Request Forgery (SSRF)"
         }, 
         {
@@ -4646,16 +4646,6 @@
             "title": "Multibyte XOR Encryption"
         }, 
         {
-            "location": "/cryptography/what-is-caesar-cipher-rot-13/", 
-            "text": "Caesar Cipher/ROT 13\n\n\nThe Caesar Cipher or Caesar Shift is a cipher which uses the alphabet in order to encode texts.\n\n\nCAESAR\n encoded with a shift of 8 is \nKIMAIZ\n so \nABCDEFGHIJKLMNOPQRSTUVWXYZ\n becomes \nIJKLMNOPQRSTUVWXYZABCDEFGH\n\n\nROT13 is the same thing but a fixed shift of 13, this is a trivial cipher to bruteforce because there are only 25 shifts.", 
-            "title": "What is Caesar Cipher/ROT 13"
-        }, 
-        {
-            "location": "/cryptography/what-is-caesar-cipher-rot-13/#caesar-cipherrot-13", 
-            "text": "The Caesar Cipher or Caesar Shift is a cipher which uses the alphabet in order to encode texts.  CAESAR  encoded with a shift of 8 is  KIMAIZ  so  ABCDEFGHIJKLMNOPQRSTUVWXYZ  becomes  IJKLMNOPQRSTUVWXYZABCDEFGH  ROT13 is the same thing but a fixed shift of 13, this is a trivial cipher to bruteforce because there are only 25 shifts.", 
-            "title": "Caesar Cipher/ROT 13"
-        }, 
-        {
             "location": "/cryptography/what-is-a-substitution-cipher/", 
             "text": "Substitution Cipher", 
             "title": "What is a Substitution Cipher"
@@ -4664,6 +4654,16 @@
             "location": "/cryptography/what-is-a-substitution-cipher/#substitution-cipher", 
             "text": "", 
             "title": "Substitution Cipher"
+        }, 
+        {
+            "location": "/cryptography/what-is-caesar-cipher-rot-13/", 
+            "text": "Caesar Cipher/ROT 13\n\n\nThe Caesar Cipher or Caesar Shift is a cipher which uses the alphabet in order to encode texts.\n\n\nCAESAR\n encoded with a shift of 8 is \nKIMAIZ\n so \nABCDEFGHIJKLMNOPQRSTUVWXYZ\n becomes \nIJKLMNOPQRSTUVWXYZABCDEFGH\n\n\nROT13 is the same thing but a fixed shift of 13, this is a trivial cipher to bruteforce because there are only 25 shifts.", 
+            "title": "Caesar Cipher/ROT 13"
+        }, 
+        {
+            "location": "/cryptography/what-is-caesar-cipher-rot-13/#caesar-cipherrot-13", 
+            "text": "The Caesar Cipher or Caesar Shift is a cipher which uses the alphabet in order to encode texts.  CAESAR  encoded with a shift of 8 is  KIMAIZ  so  ABCDEFGHIJKLMNOPQRSTUVWXYZ  becomes  IJKLMNOPQRSTUVWXYZABCDEFGH  ROT13 is the same thing but a fixed shift of 13, this is a trivial cipher to bruteforce because there are only 25 shifts.", 
+            "title": "Caesar Cipher/ROT 13"
         }, 
         {
             "location": "/cryptography/what-is-a-vigenere-cipher/", 

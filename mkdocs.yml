@@ -4,10 +4,12 @@ site_author: OSIRIS Lab & CTFd LLC
 theme:
     name: 'cinder'
     custom_dir: 'custom_theme'
+extra_css: ['admonition.css', 'extra.css']
 docs_dir: 'ctf101/'
+extra_javascript: []
 markdown_extensions:
   - admonition
-  - codehilite(guess_lang=false)
+  - codehilite(guess_lang=true)
   - toc(permalink=true)
   # https://facelessuser.github.io/pymdown-extensions/
   - pymdownx.betterem(smart_enable=all)

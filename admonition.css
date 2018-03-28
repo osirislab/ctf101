@@ -4,6 +4,7 @@
     border: 1px solid transparent;
     border-radius: 4px;
     text-align: left;
+    font-size: 0.8em;
 }
 
 .admonition.note { /* csslint allow: adjoining-classes */

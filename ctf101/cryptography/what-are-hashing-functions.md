@@ -13,13 +13,10 @@ Example:
 `$ echo -n password | md5  5f4dcc3b5aa765d61d8327deb882cf99`
 Here, “password” is hashed with different hashing algorithms:
 
-**SHA-1**: 5BAA61E4C9B93F3F0682250B6CF8331B7EE68FD8
-
-**SHA-2**: 5E884898DA28047151D0E56F8DC6292773603D0D6AABBDD62A11EF721D1542D8
-
-**MD5**: 5F4DCC3B5AA765D61D8327DEB882CF99
-
-**CRC32**: BBEDA74F
+* **SHA-1**: 5BAA61E4C9B93F3F0682250B6CF8331B7EE68FD8
+* **SHA-2**: 5E884898DA28047151D0E56F8DC6292773603D0D6AABBDD62A11EF721D1542D8
+* **MD5**: 5F4DCC3B5AA765D61D8327DEB882CF99
+* **CRC32**: BBEDA74F
 
 Generally, when verifying a hash visually, you can simply look at the first and last four characters of the string.
 
@@ -33,7 +30,7 @@ What is it used for?
 
 How can we determine the hash of a file? You can use the md5sum command (or similar).
 ```
-$md5sum samplefile.txt
+$ md5sum samplefile.txt
 3b85ec9ab2984b91070128be6aae25eb samplefile.txt
 ```
 

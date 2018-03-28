@@ -10,7 +10,7 @@
     <link rel="canonical" href="{{ page.canonical_url }}">{% endif %}
     <link rel="shortcut icon" href="{{ base_url }}/img/favicon.ico">
 
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ config.site_name }}</title>
+    <title>{% if page.title and page.title != 'Index' %}{{ page.title }} - {% endif %}{{ config.site_name }}</title>
 
     <link href="{{ base_url }}/css/bootstrap-custom.min.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -65,8 +65,12 @@
 
     <div class="container">
         {% block content %}
-        <div class="col-md-3">{% include "toc.html" %}</div>
-        <div class="col-md-9" role="main">{% include "content.html" %}</div>
+            {% if page and page.is_homepage %}
+                <div class="col-md-12" role="main">{% include "content.html" %}</div>
+            {% else %}
+                <div class="col-md-3">{% include "toc.html" %}</div>
+                <div class="col-md-9" role="main">{% include "content.html" %}</div>
+            {% endif %}
         {% endblock %}
     </div>
 

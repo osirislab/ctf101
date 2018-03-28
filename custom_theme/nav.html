@@ -35,9 +35,11 @@
                         </ul>
                     </li>
                 {% else %}
+                    {% if nav_item.title != 'Index' %}
                     <li {% if nav_item.active %}class="active"{% endif %}>
                         <a href="{{ nav_item.url }}">{{ nav_item.title }}</a>
                     </li>
+                    {% endif %}
                 {% endif %}
                 {% endfor %}
                 </ul>
@@ -49,7 +51,7 @@
                     {%- if 'search' in config['plugins'] %}
                     <li>
                         <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
-                            <i class="fa fa-search"></i> Search
+                            <i class="fa fa-search"></i>
                         </a>
                     </li>
                     {%- endif %}

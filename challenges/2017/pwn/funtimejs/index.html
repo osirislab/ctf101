@@ -26,6 +26,9 @@
 
     <link href="../../../../extra.css" rel="stylesheet">
 
+
+    <link href="../../../../colorful.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -1845,7 +1848,8 @@
 
     <div class="container">
         
-        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="first-level active"><a href="#funtimejs-2-parts">FuntimeJS (2 Parts)</a></li>
             <li class="second-level"><a href="#author">Author</a></li>
@@ -1862,7 +1866,7 @@
                 
     </ul>
 </div></div>
-        <div class="col-md-9" role="main">
+                <div class="col-md-9" role="main">
 
 <h1 id="funtimejs-2-parts">FuntimeJS (2 Parts)<a class="headerlink" href="#funtimejs-2-parts" title="Permanent link">&para;</a></h1>
 <h2 id="author">Author<a class="headerlink" href="#author" title="Permanent link">&para;</a></h2>
@@ -1888,6 +1892,7 @@ let view = (where) =&gt; new Uint8Array(mem.block(where, 0x100).buffer())
 view(0x1a01000+0x41*8).set([0xeb,0x00,0xa0,0xad,0xde])
 console.log(String.fromCharCode.apply(null, view((0x41&lt;&lt;21) + 0x1eeeef)))
 </pre></div></div>
+            
         
     </div>
 

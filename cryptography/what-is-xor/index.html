@@ -26,6 +26,9 @@
 
     <link href="../../extra.css" rel="stylesheet">
 
+
+    <link href="../../colorful.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -1845,7 +1848,8 @@
 
     <div class="container">
         
-        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="first-level active"><a href="#xor">XOR</a></li>
             <li class="second-level"><a href="#data-representation">Data Representation</a></li>
@@ -1860,7 +1864,7 @@
                 <li class="third-level"><a href="#multibyte-xor-encryption">Multibyte XOR Encryption</a></li>
     </ul>
 </div></div>
-        <div class="col-md-9" role="main">
+                <div class="col-md-9" role="main">
 
 <h1 id="xor">XOR<a class="headerlink" href="#xor" title="Permanent link">&para;</a></h1>
 <h2 id="data-representation">Data Representation<a class="headerlink" href="#data-representation" title="Permanent link">&para;</a></h2>
@@ -1983,6 +1987,7 @@
 <p>Single Byte XOR Encryption is trivial to bruteforce as there are only 255 key combinations to try.</p>
 <h3 id="multibyte-xor-encryption">Multibyte XOR Encryption<a class="headerlink" href="#multibyte-xor-encryption" title="Permanent link">&para;</a></h3>
 <p>Multibyte XOR gets exponentially harder the longer the key, but if the encrypted text is long enough, character frequency analysis is a viable method to find the key. Character Frequency Analysis means that we split the cipher text into groups based on the number of characters in the key. These groups then are bruteforced using the idea that some letters appear more frequently in the english alphabet than others.</p></div>
+            
         
     </div>
 

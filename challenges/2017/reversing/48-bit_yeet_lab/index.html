@@ -26,6 +26,9 @@
 
     <link href="../../../../extra.css" rel="stylesheet">
 
+
+    <link href="../../../../colorful.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -1845,7 +1848,8 @@
 
     <div class="container">
         
-        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="first-level active"><a href="#48-bit-bomb-lab">48-bit bomb lab</a></li>
             <li class="second-level"><a href="#author">Author</a></li>
@@ -1864,7 +1868,7 @@
                 
     </ul>
 </div></div>
-        <div class="col-md-9" role="main">
+                <div class="col-md-9" role="main">
 
 <h1 id="48-bit-bomb-lab">48-bit bomb lab<a class="headerlink" href="#48-bit-bomb-lab" title="Permanent link">&para;</a></h1>
 <h2 id="author">Author<a class="headerlink" href="#author" title="Permanent link">&para;</a></h2>
@@ -1886,6 +1890,7 @@ Teams are expected to reverse each phase of the bomb lab and provide an input th
 Phase 1 involves a constant global 32 byte string. the program takes user input into a buffer, then jumps to 64 bit execution and loads the whole string into rax, rbx, rcx, and rdx. it compares rax, rbx, and rdx to the proper offsets into the user to see if they input the same string, but rcx gets bswapped in 64 bit, then a compares ecx against the third chunk of the input string in 32 bit execution mode.
 Phase 2
 release yeetlab_release</p></div>
+            
         
     </div>
 

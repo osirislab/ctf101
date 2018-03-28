@@ -11,7 +11,7 @@ markdown_extensions:
   - admonition
   - codehilite(guess_lang=true)
   - toc(permalink=true)
-  # https://facelessuser.github.io/pymdown-extensions/
+  # https://facelessuser.github.fio/pymdown-extensions/
   - pymdownx.betterem(smart_enable=all)
   - pymdownx.magiclink
   - pymdownx.mark

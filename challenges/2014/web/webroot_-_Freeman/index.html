@@ -20,6 +20,12 @@
     <link href="../../../../css/cinder.css" rel="stylesheet">
     <link rel="stylesheet" href="../../../../css/highlight.css">
 
+
+    <link href="../../../../admonition.css" rel="stylesheet">
+
+
+    <link href="../../../../extra.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -1874,7 +1880,7 @@
 <h2 id="description">Description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h2>
 <p>hackerhaikus.com</p>
 <h2 id="flag">Flag<a class="headerlink" href="#flag" title="Permanent link">&para;</a></h2>
-<p><code>flag{rise_and_shine,_mr._freeman._rise_and_shine}</code></p>
+<p><code class="codehilite">flag{rise_and_shine,_mr._freeman._rise_and_shine}</code></p>
 <h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">&para;</a></h2>
 <ul>
 <li>There are two SQL injection vulnerabilities in the "saveHaiku" call; one in the timestamp and one in the encrypted haiku. First one requires changing the AMF type from number to string (no tools available, requires hex munging), second requires enumerating the DES_ECB key and encrypting a payload that way.</li>
@@ -1907,7 +1913,7 @@
     <script>
     var base_url = '../../../..';
     </script>
-    <script data-main="../../../../mkdocs/js/search.js" src="../../../../mkdocs/js/require.js"></script>
+    <script data-main="../../../../mkdocs/js/search.js" src="../../../../search/require.js"></script>
     <script src="../../../../js/base.js"></script>
     <script src="../../../../search/require.js"></script>
     <script src="../../../../search/search.js"></script>

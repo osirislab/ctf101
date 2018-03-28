@@ -20,6 +20,12 @@
     <link href="../../css/cinder.css" rel="stylesheet">
     <link rel="stylesheet" href="../../css/highlight.css">
 
+
+    <link href="../../admonition.css" rel="stylesheet">
+
+
+    <link href="../../extra.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -1874,8 +1880,8 @@
 <p>You need to be able to look at the binary data that constitutes the file you’re examining. To do this, you’ll use a hexadecimal editor. Once you find the file signature, you can check it against file signature repositories <a href="http://www.garykessler.net/library/file_sigs.html">such as Gary Kessler’s</a>.</p>
 <h3 id="example">Example<a class="headerlink" href="#example" title="Permanent link">&para;</a></h3>
 <p><a href="../images/file-a.jpg">File A</a></p>
-<p>The file above, when opened in a Hex Editor, begins with the bytes <code>FFD8FFE0 00104A46 494600</code> or in ASCII <code>ˇÿˇ‡  JFIF</code> where <code>\x00</code> and <code>\x10</code> lack symbols. </p>
-<p>Searching in <a href="http://www.garykessler.net/library/file_sigs.html">Gary Kessler’s</a> database shows that this file signature belongs to a <code>JPEG/JFIF graphics file</code>, exactly what we suspect.</p>
+<p>The file above, when opened in a Hex Editor, begins with the bytes <code class="codehilite">FFD8FFE0 00104A46 494600</code> or in ASCII <code class="codehilite">ˇÿˇ‡  JFIF</code> where <code class="codehilite">\x00</code> and <code class="codehilite">\x10</code> lack symbols. </p>
+<p>Searching in <a href="http://www.garykessler.net/library/file_sigs.html">Gary Kessler’s</a> database shows that this file signature belongs to a <code class="codehilite">JPEG/JFIF graphics file</code>, exactly what we suspect.</p>
 <h2 id="file-metadata">File Metadata<a class="headerlink" href="#file-metadata" title="Permanent link">&para;</a></h2>
 <p>Metadata is data about data. Different types of files have different metadata. The metadata on a photo could include dates, camera information, GPS location, comments, etc. For music, it could include the title, author, track number and album.</p>
 <h3 id="what-kind-of-file-metadata-is-useful">What kind of file metadata is useful?<a class="headerlink" href="#what-kind-of-file-metadata-is-useful" title="Permanent link">&para;</a></h3>
@@ -1887,7 +1893,7 @@
 - File type
 - Programs used to create (e.g. Photoshop)
 - OS used to create (e.g. Apple)</p>
-<p>Run command line: <code>exiftool(-k).exe [filename]</code> and you should see something like this:</p>
+<p>Run command line: <code class="codehilite">exiftool(-k).exe [filename]</code> and you should see something like this:</p>
 <p><img alt="Exiftool" src="../images/exiftool.png" /></p>
 <h3 id="example_1">Example<a class="headerlink" href="#example_1" title="Permanent link">&para;</a></h3>
 <p>Let's take a look at File A's metadata with exiftool: </p>
@@ -1969,7 +1975,7 @@
     <script>
     var base_url = '../..';
     </script>
-    <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+    <script data-main="../../mkdocs/js/search.js" src="../../search/require.js"></script>
     <script src="../../js/base.js"></script>
     <script src="../../search/require.js"></script>
     <script src="../../search/search.js"></script>

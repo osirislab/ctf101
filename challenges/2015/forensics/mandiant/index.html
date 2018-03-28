@@ -20,6 +20,12 @@
     <link href="../../../../css/cinder.css" rel="stylesheet">
     <link rel="stylesheet" href="../../../../css/highlight.css">
 
+
+    <link href="../../../../admonition.css" rel="stylesheet">
+
+
+    <link href="../../../../extra.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -1873,25 +1879,25 @@
 <p>We found this file. Help Mandiant figure out what APT1 is trying to send.
 Hint: check out free_file_camouflage</p>
 <h2 id="flag">Flag<a class="headerlink" href="#flag" title="Permanent link">&para;</a></h2>
-<p><code>flag{s3v3r4l_l4y3r5_d33p_&amp;_2m4ny_l4yers_w1d3}</code></p>
+<p><code class="codehilite">flag{s3v3r4l_l4y3r5_d33p_&amp;_2m4ny_l4yers_w1d3}</code></p>
 <h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">&para;</a></h2>
 <p>by <a href="https://github.com/abpolym">polym</a>
 This writeup is based on a writeup by <a href="https://github.com/krx/CTF-Writeups/tree/master/CSAW%2015%20Finals/for300%20-%20Mandiant">krx</a>.
 We are given a PDF that contains an EmbeddedFile object stream, see <a href="http://www.adobe.com/content/dam/Adobe/en/devnet/acrobat/pdfs/PDF32000_2008.pdf">7.11.4 of the official PDF specification by Adobe</a>.
-Using <code>qpdf</code> and a common text editor, we can extract the embedded file (base64 encoded) in a simple manner:</p>
+Using <code class="codehilite">qpdf</code> and a common text editor, we can extract the embedded file (base64 encoded) in a simple manner:</p>
 <div class="codehilite"><pre><span></span>$ qpdf --qdf --object-streams<span class="o">=</span>disable Mandiant_c920fc463eaf996489749457abc9b2eb.pdf out.pdf
 </pre></div>
 
 
 <p><img alt="" src="../pdf-embedded-file.png" />
-We decode it using <code>base64 --decode</code> to find a PNG:</p>
+We decode it using <code class="codehilite">base64 --decode</code> to find a PNG:</p>
 <div class="codehilite"><pre><span></span>$ cat out.b64 <span class="p">|</span> tr -d <span class="s1">&#39;\n&#39;</span> <span class="p">|</span> b64d pic.png 
 $ file pic.png
 pic.png: PNG image data, <span class="m">610</span> x <span class="m">467</span>, <span class="m">8</span>-bit/color RGBA, non-interlaced
 </pre></div>
 
 
-<p>The PNG contains a 7-zip archive, which we extract using <code>scalpel</code> using a modified version of <a href="https://asecuritysite.com/scalpel.conf.txt">this config</a>:</p>
+<p>The PNG contains a 7-zip archive, which we extract using <code class="codehilite">scalpel</code> using a modified version of <a href="https://asecuritysite.com/scalpel.conf.txt">this config</a>:</p>
 <div class="codehilite"><pre><span></span>$ binwalk pic.png <span class="p">|</span> grep -v Zlib
 DECIMAL       HEXADECIMAL     DESCRIPTION
 --------------------------------------------------------------------------------
@@ -1908,7 +1914,7 @@ scalpel-output/
 </pre></div>
 
 
-<p>Inside the 7z there is a JPG (also base64 encoded), which we extract using <code>7z</code>:</p>
+<p>Inside the 7z there is a JPG (also base64 encoded), which we extract using <code class="codehilite">7z</code>:</p>
 <div class="codehilite"><pre><span></span>+bash-4.3$ <span class="nb">cd</span> 7z-10-0/
 +bash-4.3$ ls
 <span class="m">00000000</span>.7z
@@ -1939,7 +1945,7 @@ pic.jpg: JPEG image data
 </pre></div>
 
 
-<p>Using any hexeditor or <code>strings</code>, we find that the JPG contains two base64 encoded blobs:</p>
+<p>Using any hexeditor or <code class="codehilite">strings</code>, we find that the JPG contains two base64 encoded blobs:</p>
 <div class="codehilite"><pre><span></span>$ strings -a pic.jpg 
 b#o<span class="o">]</span>
 Y2EB
@@ -1969,8 +1975,8 @@ $<span class="s2"> sed &#39;2q;d&#39; strings.b64 | b64d | xxd</span>
 </pre></div>
 
 
-<p>As <a href="https://github.com/krx/CTF-Writeups/tree/master/CSAW%2015%20Finals/for300%20-%20Mandiant">this writeup</a> suggests, we have to use a program called <code>Free File Camouflage</code> to extract a hdden file from the blob(s) - an ELF.
-The final step is to run the ELF to receive the flag <code>flag{s3v3r4l_l4y3r5_d33p_&amp;_2m4ny_l4yers_w1d3}</code>.</p>
+<p>As <a href="https://github.com/krx/CTF-Writeups/tree/master/CSAW%2015%20Finals/for300%20-%20Mandiant">this writeup</a> suggests, we have to use a program called <code class="codehilite">Free File Camouflage</code> to extract a hdden file from the blob(s) - an ELF.
+The final step is to run the ELF to receive the flag <code class="codehilite">flag{s3v3r4l_l4y3r5_d33p_&amp;_2m4ny_l4yers_w1d3}</code>.</p>
 <h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
 <p><a href="../Mandiant_c920fc463eaf996489749457abc9b2eb.pdf">Mandiant_c920fc463eaf996489749457abc9b2eb.pdf</a></p></div>
         
@@ -1989,7 +1995,7 @@ The final step is to run the ELF to receive the flag <code>flag{s3v3r4l_l4y3r5_d
     <script>
     var base_url = '../../../..';
     </script>
-    <script data-main="../../../../mkdocs/js/search.js" src="../../../../mkdocs/js/require.js"></script>
+    <script data-main="../../../../mkdocs/js/search.js" src="../../../../search/require.js"></script>
     <script src="../../../../js/base.js"></script>
     <script src="../../../../search/require.js"></script>
     <script src="../../../../search/search.js"></script>

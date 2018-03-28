@@ -20,6 +20,12 @@
     <link href="../../../../css/cinder.css" rel="stylesheet">
     <link rel="stylesheet" href="../../../../css/highlight.css">
 
+
+    <link href="../../../../admonition.css" rel="stylesheet">
+
+
+    <link href="../../../../extra.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -1875,21 +1881,21 @@
 <p>Guess what time it is! That's right! Gametime! Wowwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww!!!!!!!!!!!!
 note: flag is not in flag{} format</p>
 <h2 id="flag">Flag<a class="headerlink" href="#flag" title="Permanent link">&para;</a></h2>
-<p><code>(no5c30416d6cf52638460377995c6a8cf5)</code></p>
+<p><code class="codehilite">(no5c30416d6cf52638460377995c6a8cf5)</code></p>
 <h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">&para;</a></h2>
 <p>You <em>could</em> maybe check your speed with the game, but really the solution to reverse out the leading sequence of character presses (they're static), then either reverse out the key or probably much quicker is to:</p>
 <ol>
 <li>Attach the debugger, set the following breakpoints to overwrite register values to fast track you to the key. You'll need to adjust the image address at run time:</li>
 </ol>
-<p><code>bp image010c0000 + 18d8 &quot;r edx=1;g;&quot;</code>
-<code>bp image010c0000 + 1916 &quot;r esi=13;g;&quot;</code></p>
+<p><code class="codehilite">bp image010c0000 + 18d8 &quot;r edx=1;g;&quot;</code>
+<code class="codehilite">bp image010c0000 + 1916 &quot;r esi=13;g;&quot;</code></p>
 <ol>
 <li>Let the program start, paste in the following sequence, including spaces: </li>
 </ol>
 <p>" xm xmmx mmxxmx  xm"</p>
 <p>A vuln in the program logic allows the user to add character to the key press buffer before they're prompted to. </p>
 <p>Finally the program will spit out:
-<code>key is  (no5c30416d6cf52638460377995c6a8cf5)</code></p>
+<code class="codehilite">key is  (no5c30416d6cf52638460377995c6a8cf5)</code></p>
 <h2 id="premise">Premise<a class="headerlink" href="#premise" title="Permanent link">&para;</a></h2>
 <p>A game that requires a user to type either space ('s'), 'm' or 'x' when prompted. If they are fast enough, they get the key. </p>
 <h2 id="warnings">Warnings<a class="headerlink" href="#warnings" title="Permanent link">&para;</a></h2>
@@ -1910,7 +1916,7 @@ note: flag is not in flag{} format</p>
     <script>
     var base_url = '../../../..';
     </script>
-    <script data-main="../../../../mkdocs/js/search.js" src="../../../../mkdocs/js/require.js"></script>
+    <script data-main="../../../../mkdocs/js/search.js" src="../../../../search/require.js"></script>
     <script src="../../../../js/base.js"></script>
     <script src="../../../../search/require.js"></script>
     <script src="../../../../search/search.js"></script>

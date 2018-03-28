@@ -20,6 +20,12 @@
     <link href="../../../../css/cinder.css" rel="stylesheet">
     <link rel="stylesheet" href="../../../../css/highlight.css">
 
+
+    <link href="../../../../admonition.css" rel="stylesheet">
+
+
+    <link href="../../../../extra.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -1869,15 +1875,15 @@
 <h2 id="description">Description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h2>
 <p>DO WHAT YE WANT 'CAUSE A PIRATE IS FREE. YOU ARE A PIRATE!</p>
 <h2 id="flag">Flag<a class="headerlink" href="#flag" title="Permanent link">&para;</a></h2>
-<p><code>flag{b31Ng_4_P1r4tE_1s_4lR1GHT_w1Th_M3}</code></p>
+<p><code class="codehilite">flag{b31Ng_4_P1r4tE_1s_4lR1GHT_w1Th_M3}</code></p>
 <h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">&para;</a></h2>
 <p>The challenge name, "YAAR HAAR FIDDLE DEE DEE" is a reference to a viral youtube video, as well as a hint. The description is just some of the lyrics of the viral song.
 The challenge is a pcap of a "conversation" created with python sockets. There 3 base 64 encoded strings, one is just a blob of 100x100 grayscale images, one is an encrypted zip file, and one is an xml file which is formatted to opencv's haar cascade format. Players must seperate out the images, load the haar cascade file with opencv and run it against the images in the file, all of this, as well as the parameters required, are alluded to in the dialog that is also in the pcap. They will also need to draw a square over the object that the haar cascade detects, so that they can successfully identify it as a "skull and crossbones", which is then the password for the encrypted zip file (without spaces, as stated in the pcap), which contains flag.txt. the dialog also helpfully states that the map (the cascade file) points to the key (the skull and crossbones) for the booty (the zip file), and also says no spaces and no capitalized letters.
 1. extract base64 strings, decode into 3 different files
-2. <code>binwalk -e</code> the image blob
+2. <code class="codehilite">binwalk -e</code> the image blob
 3. use opencv python docs to write a haar cascade script
 4. identify the jollyroger and use that as the password for the zip
-5. <code>cat flag.txt</code></p></div>
+5. <code class="codehilite">cat flag.txt</code></p></div>
         
     </div>
 
@@ -1894,7 +1900,7 @@ The challenge is a pcap of a "conversation" created with python sockets. There 3
     <script>
     var base_url = '../../../..';
     </script>
-    <script data-main="../../../../mkdocs/js/search.js" src="../../../../mkdocs/js/require.js"></script>
+    <script data-main="../../../../mkdocs/js/search.js" src="../../../../search/require.js"></script>
     <script src="../../../../js/base.js"></script>
     <script src="../../../../search/require.js"></script>
     <script src="../../../../search/search.js"></script>

@@ -20,6 +20,12 @@
     <link href="../../css/cinder.css" rel="stylesheet">
     <link rel="stylesheet" href="../../css/highlight.css">
 
+
+    <link href="../../admonition.css" rel="stylesheet">
+
+
+    <link href="../../extra.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -1863,7 +1869,7 @@
 <p>Data can be represented in different bases, an 'A' needs to be a numerical representation of Base 2 or binary so computers can understand them</p>
 <p><img alt="Data Representation" src="../data-representation.png" /></p>
 <h2 id="xor-basics">XOR Basics<a class="headerlink" href="#xor-basics" title="Permanent link">&para;</a></h2>
-<p>An XOR or <em>eXclusive OR</em> is a bitwise operation indicated by <code>^</code> and shown by the following truth table:</p>
+<p>An XOR or <em>eXclusive OR</em> is a bitwise operation indicated by <code class="codehilite">^</code> and shown by the following truth table:</p>
 <table>
 <thead>
 <tr>
@@ -1895,7 +1901,7 @@
 </tr>
 </tbody>
 </table>
-<p>So what XOR'ing bytes in the action <code>0xA0 ^ 0x2C</code> translates to is:</p>
+<p>So what XOR'ing bytes in the action <code class="codehilite">0xA0 ^ 0x2C</code> translates to is:</p>
 <table>
 <thead>
 <tr>
@@ -1958,7 +1964,7 @@
 </tr>
 </tbody>
 </table>
-<p><code>0b10001100</code> is equivelent to <code>0x8C</code>, a cool property of XOR is that it is reversable meaning <code>0x8C ^ 0x2C = 0xA0</code> and <code>0x8C ^ 0xA0 = 0x2C</code></p>
+<p><code class="codehilite">0b10001100</code> is equivelent to <code class="codehilite">0x8C</code>, a cool property of XOR is that it is reversable meaning <code class="codehilite">0x8C ^ 0x2C = 0xA0</code> and <code class="codehilite">0x8C ^ 0xA0 = 0x2C</code></p>
 <p><img alt="XOR Basics" src="../xor.png" /></p>
 <h2 id="what-does-this-have-to-do-with-ctf">What does this have to do with CTF?<a class="headerlink" href="#what-does-this-have-to-do-with-ctf" title="Permanent link">&para;</a></h2>
 <p>XOR is a cheap way to encrypt data with a password. Any data can be encrypted using XOR as shown in this Python example:</p>
@@ -1995,7 +2001,7 @@
     <script>
     var base_url = '../..';
     </script>
-    <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+    <script data-main="../../mkdocs/js/search.js" src="../../search/require.js"></script>
     <script src="../../js/base.js"></script>
     <script src="../../search/require.js"></script>
     <script src="../../search/search.js"></script>

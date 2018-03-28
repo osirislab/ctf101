@@ -20,6 +20,12 @@
     <link href="../../../../css/cinder.css" rel="stylesheet">
     <link rel="stylesheet" href="../../../../css/highlight.css">
 
+
+    <link href="../../../../admonition.css" rel="stylesheet">
+
+
+    <link href="../../../../extra.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -1872,7 +1878,7 @@
 <h2 id="description">Description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h2>
 <p><a href="https://csaw-guestbook.herokuapp.com/">https://csaw-guestbook.herokuapp.com/</a></p>
 <h2 id="flag">Flag<a class="headerlink" href="#flag" title="Permanent link">&para;</a></h2>
-<p><code>flag{octocat-d08b319374e5}</code></p>
+<p><code class="codehilite">flag{octocat-d08b319374e5}</code></p>
 <h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">&para;</a></h2>
 <p>This is a DOM XSS vulnerability in a guestbook application. There is a PhantomJS script that is logged in as the admin user and visits the page once per minute to approve/deny posts. The approve/deny functionality is done over XHR. To build the URL for the XHR request, JavaScript in the page pulls a URL out of an element in the page. The response from the XHR request (success/failure) is then injected into the page.
 The attacker is able to post messages to the guestbook formatted using markdown. This is then converted to HTML after being run through some HTML sanitization. The HTML sanitization allows the user to set a class attribute on HTML tags. This can be used to trick the approve/deny JavaScript into making the XHR request to an attacker controlled page. The attacker can have this page return arbitrary HTML/JS, leading to XSS.
@@ -1897,7 +1903,7 @@ Let me know if I can clarify anything.</p>
     <script>
     var base_url = '../../../..';
     </script>
-    <script data-main="../../../../mkdocs/js/search.js" src="../../../../mkdocs/js/require.js"></script>
+    <script data-main="../../../../mkdocs/js/search.js" src="../../../../search/require.js"></script>
     <script src="../../../../js/base.js"></script>
     <script src="../../../../search/require.js"></script>
     <script src="../../../../search/search.js"></script>

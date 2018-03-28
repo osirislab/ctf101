@@ -20,6 +20,12 @@
     <link href="../../../../css/cinder.css" rel="stylesheet">
     <link rel="stylesheet" href="../../../../css/highlight.css">
 
+
+    <link href="../../../../admonition.css" rel="stylesheet">
+
+
+    <link href="../../../../extra.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -1883,7 +1889,7 @@ python objects out of userspace.</p>
 <p>The supported objects are dict, string, and number.</p>
 <p>When a dict is parsed from userspace, it assumes it is a json based dict and has a special case
 for the keys of the dict. Keys are assumed to be strings or numbers, not other dicts, so
-<code>deserializePrimative</code> is used instead of <code>deserialize</code>.</p>
+<code class="codehilite">deserializePrimative</code> is used instead of <code class="codehilite">deserialize</code>.</p>
 <p>The problem is the if else on line 307. If it is not a number type, it assumes it is a string.
 If we create a python object with a dict as a key, it will build it as a string.</p>
 <p>This in itself isn't too useful, because we could create a malformed string normally,
@@ -1894,10 +1900,10 @@ in the makeCircular code (line 96).</p>
 <p>If we create a fake bucket in userspace, which points to some kernelspace memory address,
 this will write the address of the fake bucket to that kernelspace address. This gives us an
 arbitrary write.</p>
-<p>With SMEP on, we can attack <code>core_pattern</code>. First we find the address of <code>core_pattern</code> in <code>/proc/kallsyms</code>.
-Then we write <code>|/tmp/a</code> to that kernel address. This will cause the kernel to execute <code>/tmp/a</code> as root whenever a
+<p>With SMEP on, we can attack <code class="codehilite">core_pattern</code>. First we find the address of <code class="codehilite">core_pattern</code> in <code class="codehilite">/proc/kallsyms</code>.
+Then we write <code class="codehilite">|/tmp/a</code> to that kernel address. This will cause the kernel to execute <code class="codehilite">/tmp/a</code> as root whenever a
 program dumps core.</p>
-<p>All we need to do is write a shell script to get the flag in <code>/tmp/a</code> and cause a segfault.</p>
+<p>All we need to do is write a shell script to get the flag in <code class="codehilite">/tmp/a</code> and cause a segfault.</p>
 <p><a href="../sol.c">sol.c</a></p>
 <h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
 <p>Each team should get their own instance running the KWS back end. There is a main server that acts as the
@@ -1918,7 +1924,7 @@ face of the web challenge, and will allow players to reboot/reset their instance
     <script>
     var base_url = '../../../..';
     </script>
-    <script data-main="../../../../mkdocs/js/search.js" src="../../../../mkdocs/js/require.js"></script>
+    <script data-main="../../../../mkdocs/js/search.js" src="../../../../search/require.js"></script>
     <script src="../../../../js/base.js"></script>
     <script src="../../../../search/require.js"></script>
     <script src="../../../../search/search.js"></script>

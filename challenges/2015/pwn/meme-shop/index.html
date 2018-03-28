@@ -20,6 +20,12 @@
     <link href="../../../../css/cinder.css" rel="stylesheet">
     <link rel="stylesheet" href="../../../../css/highlight.css">
 
+
+    <link href="../../../../admonition.css" rel="stylesheet">
+
+
+    <link href="../../../../extra.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -1874,7 +1880,7 @@
 pwn this service to find out what only he knows!
 dwn: please tell us the meme....</p>
 <h2 id="flag">Flag<a class="headerlink" href="#flag" title="Permanent link">&para;</a></h2>
-<p><code>flag{dwn: please tell us your meme. I'm not going to stop asking}</code></p>
+<p><code class="codehilite">flag{dwn: please tell us your meme. I&#39;m not going to stop asking}</code></p>
 <h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">&para;</a></h2>
 <h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
 <p>this is a simple type confusion challenge
@@ -1882,14 +1888,14 @@ you have types "meme" and "mrskeletal"
 the counter is an int8_t so you can overflow and f it up
 first you need ruby
 then you need colorize
-<code>gem install colorize</code>
+<code class="codehilite">gem install colorize</code>
 then you need to build the extension</p>
 <div class="codehilite"><pre><span></span>ruby ./extconf.rb
 make
 </pre></div>
 
 
-<p>then run the challenge with <code>socat</code> or w/e
+<p>then run the challenge with <code class="codehilite">socat</code> or w/e
 make sure that the flag is called "flag" because there is arb file read
 also delete the .c file and do not provide the debug edition of the rb file</p></div>
         
@@ -1908,7 +1914,7 @@ also delete the .c file and do not provide the debug edition of the rb file</p><
     <script>
     var base_url = '../../../..';
     </script>
-    <script data-main="../../../../mkdocs/js/search.js" src="../../../../mkdocs/js/require.js"></script>
+    <script data-main="../../../../mkdocs/js/search.js" src="../../../../search/require.js"></script>
     <script src="../../../../js/base.js"></script>
     <script src="../../../../search/require.js"></script>
     <script src="../../../../search/search.js"></script>

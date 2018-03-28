@@ -20,6 +20,12 @@
     <link href="../../../../css/cinder.css" rel="stylesheet">
     <link rel="stylesheet" href="../../../../css/highlight.css">
 
+
+    <link href="../../../../admonition.css" rel="stylesheet">
+
+
+    <link href="../../../../extra.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -1870,15 +1876,15 @@
 <p>LittleQuery I've got a new website for BIG DATA analytics!
 <a href="http://littlequery.chal.csaw.io">http://littlequery.chal.csaw.io</a></p>
 <h2 id="flag">Flag<a class="headerlink" href="#flag" title="Permanent link">&para;</a></h2>
-<p><code>flag{mayb3_1ts_t1m3_4_real_real_escape_string?}</code></p>
+<p><code class="codehilite">flag{mayb3_1ts_t1m3_4_real_real_escape_string?}</code></p>
 <h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">&para;</a></h2>
 <ol>
 <li>View repo listed on home page</li>
 <li>Review source, find api/db_explore.php is unauthenticated. In addition
 it has SQLi in the db and table params in 'preview' mode.</li>
-<li>Exploit the SQLi with something like <code>api/db_explore.php?mode=preview&amp;db=littlequery`.`user\`%20--%20&amp;table=user</code> to leak hashed passwords.</li>
+<li>Exploit the SQLi with something like <code class="codehilite">api/db_explore.php?mode=preview&amp;db=littlequery`.`user\`%20--%20&amp;table=user</code> to leak hashed passwords.</li>
 <li>Use leaked password and client-side hashing bug to log in.</li>
-<li>Exploit runtime.js through <code>query.php</code> (see <a href="../../../../pwn/runtimejs">the pwnable's description</a> for more info)</li>
+<li>Exploit runtime.js through <code class="codehilite">query.php</code> (see <a href="../../../../pwn/runtimejs">the pwnable's description</a> for more info)</li>
 </ol></div>
         
     </div>
@@ -1896,7 +1902,7 @@ it has SQLi in the db and table params in 'preview' mode.</li>
     <script>
     var base_url = '../../../..';
     </script>
-    <script data-main="../../../../mkdocs/js/search.js" src="../../../../mkdocs/js/require.js"></script>
+    <script data-main="../../../../mkdocs/js/search.js" src="../../../../search/require.js"></script>
     <script src="../../../../js/base.js"></script>
     <script src="../../../../search/require.js"></script>
     <script src="../../../../search/search.js"></script>

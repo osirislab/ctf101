@@ -20,6 +20,12 @@
     <link href="../../../../css/cinder.css" rel="stylesheet">
     <link rel="stylesheet" href="../../../../css/highlight.css">
 
+
+    <link href="../../../../admonition.css" rel="stylesheet">
+
+
+    <link href="../../../../extra.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -1872,9 +1878,9 @@
 <p>"I'm working on this new service which allows you to store notes, TODOs, and more! And all of our data is accessible over JSONP so you can integrate it into other sites!
 NOTE: The flag is NOT the mysql password.
 UPDATE: Fixed an unintentional bug which made the challenge more confusing.
-<code>http://web.chal.csaw.io:1344</code>"</p>
+<code class="codehilite">http://web.chal.csaw.io:1344</code>"</p>
 <h2 id="flag">Flag<a class="headerlink" href="#flag" title="Permanent link">&para;</a></h2>
-<p><code>flag{d0nt_Forg3t_2_San1t1ze_Y0uR_C@11back$}</code></p>
+<p><code class="codehilite"><span class="n">flag</span><span class="p">{</span><span class="n">d0nt_Forg3t_2_San1t1ze_Y0uR_C</span><span class="mi">@11</span><span class="n">back</span><span class="err">$</span><span class="p">}</span></code></p>
 <h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">&para;</a></h2>
 <ol>
 <li>Identify template.php as possible file read and use it to leak source</li>
@@ -1886,8 +1892,8 @@ UPDATE: Fixed an unintentional bug which made the challenge more confusing.
 </ol>
 <h2 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Run with <code>docker run -e MYSQL_PASS='S0meR3@11yG00dPa$$w0rdThatY0u5hou1dntCar3@b0uT' -p {WhateverPortItShouldBe}:80 cloudb</code>
-Also needs a phantomjs thing which logs in with <code>admin:Pg8ARJOVj4XUm2nIW67d</code> so that they can steal admin cookies.</li>
+<li>Run with <code class="codehilite"><span class="n">docker</span> <span class="n">run</span> <span class="o">-</span><span class="n">e</span> <span class="n">MYSQL_PASS</span><span class="o">=</span><span class="err">&#39;</span><span class="n">S0meR3</span><span class="mi">@11</span><span class="n">yG00dPa</span><span class="err">$$</span><span class="n">w0rdThatY0u5hou1dntCar3</span><span class="p">@</span><span class="n">b0uT</span><span class="err">&#39;</span> <span class="o">-</span><span class="n">p</span> <span class="p">{</span><span class="n">WhateverPortItShouldBe</span><span class="p">}</span><span class="o">:</span><span class="mi">80</span> <span class="n">cloudb</span></code>
+Also needs a phantomjs thing which logs in with <code class="codehilite"><span class="n">admin</span><span class="o">:</span><span class="n">Pg8ARJOVj4XUm2nIW67d</span></code> so that they can steal admin cookies.</li>
 </ul></div>
         
     </div>
@@ -1905,7 +1911,7 @@ Also needs a phantomjs thing which logs in with <code>admin:Pg8ARJOVj4XUm2nIW67d
     <script>
     var base_url = '../../../..';
     </script>
-    <script data-main="../../../../mkdocs/js/search.js" src="../../../../mkdocs/js/require.js"></script>
+    <script data-main="../../../../mkdocs/js/search.js" src="../../../../search/require.js"></script>
     <script src="../../../../js/base.js"></script>
     <script src="../../../../search/require.js"></script>
     <script src="../../../../search/search.js"></script>

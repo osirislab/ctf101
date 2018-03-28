@@ -20,6 +20,12 @@
     <link href="../../../../css/cinder.css" rel="stylesheet">
     <link rel="stylesheet" href="../../../../css/highlight.css">
 
+
+    <link href="../../../../admonition.css" rel="stylesheet">
+
+
+    <link href="../../../../extra.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -1880,7 +1886,7 @@ NOTE: Sorry for all of the notes :P</p>
 <h2 id="flag">Flag<a class="headerlink" href="#flag" title="Permanent link">&para;</a></h2>
 <p>flag{why_d03s_th1s_k3rnel_sm3ll_l1ke_p1ckl3s}</p>
 <h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">&para;</a></h2>
-<p>in <code>./solutions</code></p>
+<p>in <code class="codehilite">./solutions</code></p>
 <h2 id="premise">Premise<a class="headerlink" href="#premise" title="Permanent link">&para;</a></h2>
 <p><strong>Cloud Object Storage With Kernel Accleration</strong></p>
 <p>This is a two part challenge. The first part is a ~300 point web challenge. The second is a 500 point kernel pwning challenge.</p>
@@ -1888,7 +1894,7 @@ NOTE: Sorry for all of the notes :P</p>
 face of the web challenge, and will allow players to reboot/reset their instance (if they fuck up the kernel part)</p>
 <p><em>Instance control is still not implmented yet</em></p>
 <p>The goal of the first part is to exploit the usage of pickle on signed objects in the backend server to get a shell on the instance.</p>
-<p>The instance is running a custom kernel module (source in <code>./instance/kernel/hash.c</code>) which implements a hashmap
+<p>The instance is running a custom kernel module (source in <code class="codehilite">./instance/kernel/hash.c</code>) which implements a hashmap
 that can read and store objects json from a python userspace process.</p>
 <p>This module can be exploited to EOP to root. The last flag is in /flag</p></div>
         
@@ -1907,7 +1913,7 @@ that can read and store objects json from a python userspace process.</p>
     <script>
     var base_url = '../../../..';
     </script>
-    <script data-main="../../../../mkdocs/js/search.js" src="../../../../mkdocs/js/require.js"></script>
+    <script data-main="../../../../mkdocs/js/search.js" src="../../../../search/require.js"></script>
     <script src="../../../../js/base.js"></script>
     <script src="../../../../search/require.js"></script>
     <script src="../../../../search/search.js"></script>

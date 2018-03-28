@@ -20,6 +20,12 @@
     <link href="../../../../css/cinder.css" rel="stylesheet">
     <link rel="stylesheet" href="../../../../css/highlight.css">
 
+
+    <link href="../../../../admonition.css" rel="stylesheet">
+
+
+    <link href="../../../../extra.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -1874,17 +1880,17 @@
 Run with qemu-system-i386 -drive format=raw,file=cyberwar.rom</p>
 <p>NOTE: The gdbstub in the latest QEMU on ubuntu gave us issues. A known-good version of QEMU is 2.10.1</p>
 <h2 id="flag">Flag<a class="headerlink" href="#flag" title="Permanent link">&para;</a></h2>
-<p><code>flag{ok_you_decrypted_it_now_plz_pwn_it!}</code></p>
+<p><code class="codehilite">flag{ok_you_decrypted_it_now_plz_pwn_it!}</code></p>
 <h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">&para;</a></h2>
 <p>Decrypt the payload, the flag is in the ROM</p>
 <h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
-<p>Run <code>server.rom</code> on QEMU with the VNC server exposed to the competitors.</p>
+<p>Run <code class="codehilite">server.rom</code> on QEMU with the VNC server exposed to the competitors.</p>
 <p>The competitors should be told they can run the binary with:
-<code>qemu-system-i386 -drive format=raw,file=cyberwar.rom</code>
+<code class="codehilite">qemu-system-i386 -drive format=raw,file=cyberwar.rom</code>
 And a vnc server locally with:
-<code>qemu-system-i386 -vnc :0 -drive format=raw,file=cyberwar.rom</code></p>
+<code class="codehilite">qemu-system-i386 -vnc :0 -drive format=raw,file=cyberwar.rom</code></p>
 <p>To be nice to the competitors, note that the gdbstub in the latest QEMU on ubuntu has had issues for us. A known-good version of QEMU is:
-<code>2.10.1</code></p></div>
+<code class="codehilite">2.10.1</code></p></div>
         
     </div>
 
@@ -1901,7 +1907,7 @@ And a vnc server locally with:
     <script>
     var base_url = '../../../..';
     </script>
-    <script data-main="../../../../mkdocs/js/search.js" src="../../../../mkdocs/js/require.js"></script>
+    <script data-main="../../../../mkdocs/js/search.js" src="../../../../search/require.js"></script>
     <script src="../../../../js/base.js"></script>
     <script src="../../../../search/require.js"></script>
     <script src="../../../../search/search.js"></script>

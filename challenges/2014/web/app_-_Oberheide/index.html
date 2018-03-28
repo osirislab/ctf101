@@ -20,6 +20,12 @@
     <link href="../../../../css/cinder.css" rel="stylesheet">
     <link rel="stylesheet" href="../../../../css/highlight.css">
 
+
+    <link href="../../../../admonition.css" rel="stylesheet">
+
+
+    <link href="../../../../extra.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -1872,31 +1878,31 @@
 <h2 id="description">Description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h2>
 <p><a href="https://csaw-2014.appspot.com/">https://csaw-2014.appspot.com/</a></p>
 <h2 id="flag">Flag<a class="headerlink" href="#flag" title="Permanent link">&para;</a></h2>
-<p><code>96ef46cacf3f832f0e43f7f9e265a3ac3ca0ca2b</code></p>
+<p><code class="codehilite">96ef46cacf3f832f0e43f7f9e265a3ac3ca0ca2b</code></p>
 <h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">&para;</a></h2>
 <p>So, it's a web app that just gives you a user/pass login prompt.</p>
-<p>If you poke around at <code>robots.txt</code> or <code>sitemap.xml</code>, you'll notice a /backup URI:</p>
-<div class="codehilite"><pre><span></span>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;urlset xmlns=&quot;http://www.sitemaps.org/schemas/sitemap/0.9&quot;&gt;
-  &lt;url&gt;
-    &lt;loc&gt;https://csaw-2014.appspot.com/&lt;/loc&gt;
-    &lt;lastmod&gt;2014-01-01&lt;/lastmod&gt;
-    &lt;changefreq&gt;monthly&lt;/changefreq&gt;
-    &lt;priority&gt;0.5&lt;/priority&gt;
-  &lt;/url&gt;
-  &lt;url&gt;
-    &lt;loc&gt;https://csaw-2014.appspot.com/auth1&lt;/loc&gt;
-    &lt;lastmod&gt;2014-01-01&lt;/lastmod&gt;
-    &lt;changefreq&gt;monthly&lt;/changefreq&gt;
-    &lt;priority&gt;0.5&lt;/priority&gt;
-  &lt;/url&gt;
-  &lt;url&gt;
-    &lt;loc&gt;https://csaw-2014.appspot.com/backup&lt;/loc&gt;
-    &lt;lastmod&gt;2014-01-01&lt;/lastmod&gt;
-    &lt;changefreq&gt;monthly&lt;/changefreq&gt;
-    &lt;priority&gt;0.5&lt;/priority&gt;
-  &lt;/url&gt;
-&lt;/urlset&gt;
+<p>If you poke around at <code class="codehilite">robots.txt</code> or <code class="codehilite">sitemap.xml</code>, you'll notice a /backup URI:</p>
+<div class="codehilite"><pre><span></span><span class="cp">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span>
+<span class="nt">&lt;urlset</span> <span class="na">xmlns=</span><span class="s">&quot;http://www.sitemaps.org/schemas/sitemap/0.9&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;url&gt;</span>
+    <span class="nt">&lt;loc&gt;</span>https://csaw-2014.appspot.com/<span class="nt">&lt;/loc&gt;</span>
+    <span class="nt">&lt;lastmod&gt;</span>2014-01-01<span class="nt">&lt;/lastmod&gt;</span>
+    <span class="nt">&lt;changefreq&gt;</span>monthly<span class="nt">&lt;/changefreq&gt;</span>
+    <span class="nt">&lt;priority&gt;</span>0.5<span class="nt">&lt;/priority&gt;</span>
+  <span class="nt">&lt;/url&gt;</span>
+  <span class="nt">&lt;url&gt;</span>
+    <span class="nt">&lt;loc&gt;</span>https://csaw-2014.appspot.com/auth1<span class="nt">&lt;/loc&gt;</span>
+    <span class="nt">&lt;lastmod&gt;</span>2014-01-01<span class="nt">&lt;/lastmod&gt;</span>
+    <span class="nt">&lt;changefreq&gt;</span>monthly<span class="nt">&lt;/changefreq&gt;</span>
+    <span class="nt">&lt;priority&gt;</span>0.5<span class="nt">&lt;/priority&gt;</span>
+  <span class="nt">&lt;/url&gt;</span>
+  <span class="nt">&lt;url&gt;</span>
+    <span class="nt">&lt;loc&gt;</span>https://csaw-2014.appspot.com/backup<span class="nt">&lt;/loc&gt;</span>
+    <span class="nt">&lt;lastmod&gt;</span>2014-01-01<span class="nt">&lt;/lastmod&gt;</span>
+    <span class="nt">&lt;changefreq&gt;</span>monthly<span class="nt">&lt;/changefreq&gt;</span>
+    <span class="nt">&lt;priority&gt;</span>0.5<span class="nt">&lt;/priority&gt;</span>
+  <span class="nt">&lt;/url&gt;</span>
+<span class="nt">&lt;/urlset&gt;</span>
 </pre></div>
 
 
@@ -1967,7 +1973,7 @@ mysql&gt; select * from csaw_auth;
     <script>
     var base_url = '../../../..';
     </script>
-    <script data-main="../../../../mkdocs/js/search.js" src="../../../../mkdocs/js/require.js"></script>
+    <script data-main="../../../../mkdocs/js/search.js" src="../../../../search/require.js"></script>
     <script src="../../../../js/base.js"></script>
     <script src="../../../../search/require.js"></script>
     <script src="../../../../search/search.js"></script>

@@ -20,6 +20,12 @@
     <link href="../../css/cinder.css" rel="stylesheet">
     <link rel="stylesheet" href="../../css/highlight.css">
 
+
+    <link href="../../admonition.css" rel="stylesheet">
+
+
+    <link href="../../extra.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -1857,19 +1863,19 @@
 <p>The following table can be used to encode a message:
 <img alt="Vigenere Square" src="../vigenere-square.png" /></p>
 <h2 id="encryption">Encryption<a class="headerlink" href="#encryption" title="Permanent link">&para;</a></h2>
-<p>For example, encrypting the text <code>SUPERSECRET</code> with <code>CODE</code> would follow this process:</p>
+<p>For example, encrypting the text <code class="codehilite">SUPERSECRET</code> with <code class="codehilite">CODE</code> would follow this process:</p>
 <ol>
-<li><code>CODE</code> gets padded to the length of <code>SUPERSECRET</code> so the key becomes <code>CODECODECOD</code></li>
-<li>For each letter in <code>SUPERSECRET</code> we use the table to get the Alphabet to use, in this instance row <code>C</code> and column <code>S</code></li>
-<li>The ciphertext's first letter then becomes <code>U</code></li>
-<li>We eventually get <code>UISITGHGTSW</code></li>
+<li><code class="codehilite">CODE</code> gets padded to the length of <code class="codehilite">SUPERSECRET</code> so the key becomes <code class="codehilite">CODECODECOD</code></li>
+<li>For each letter in <code class="codehilite">SUPERSECRET</code> we use the table to get the Alphabet to use, in this instance row <code class="codehilite">C</code> and column <code class="codehilite">S</code></li>
+<li>The ciphertext's first letter then becomes <code class="codehilite">U</code></li>
+<li>We eventually get <code class="codehilite">UISITGHGTSW</code></li>
 </ol>
 <h2 id="decryption">Decryption<a class="headerlink" href="#decryption" title="Permanent link">&para;</a></h2>
 <ol>
-<li>Go to the row of the key, in this case <code>C</code> </li>
-<li>Find the letter of the cipher text in this row, in this case <code>U</code></li>
-<li>The column is the first letter of the decrypted ciphertext, so we get <code>S</code></li>
-<li>After repeating this process we get back to <code>SUPERSECRET</code></li>
+<li>Go to the row of the key, in this case <code class="codehilite">C</code> </li>
+<li>Find the letter of the cipher text in this row, in this case <code class="codehilite">U</code></li>
+<li>The column is the first letter of the decrypted ciphertext, so we get <code class="codehilite">S</code></li>
+<li>After repeating this process we get back to <code class="codehilite">SUPERSECRET</code></li>
 </ol></div>
         
     </div>
@@ -1887,7 +1893,7 @@
     <script>
     var base_url = '../..';
     </script>
-    <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+    <script data-main="../../mkdocs/js/search.js" src="../../search/require.js"></script>
     <script src="../../js/base.js"></script>
     <script src="../../search/require.js"></script>
     <script src="../../search/search.js"></script>

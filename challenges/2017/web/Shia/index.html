@@ -20,6 +20,12 @@
     <link href="../../../../css/cinder.css" rel="stylesheet">
     <link rel="stylesheet" href="../../../../css/highlight.css">
 
+
+    <link href="../../../../admonition.css" rel="stylesheet">
+
+
+    <link href="../../../../extra.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -1895,14 +1901,14 @@ Stop giving up</p>
 * <a href="http://web.chal.csaw.io:5489">http://web.chal.csaw.io:5489</a>
 * <a href="http://web.chal.csaw.io:5490">http://web.chal.csaw.io:5490</a></p>
 <h2 id="flag">Flag<a class="headerlink" href="#flag" title="Permanent link">&para;</a></h2>
-<p><code>flag{wow_much_t3mplate}</code></p>
+<p><code class="codehilite">flag{wow_much_t3mplate}</code></p>
 <h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">&para;</a></h2>
 <p>Go to /polls/3/ to cause a "Our infrastructure can't support that many Shias!" exception.
 Scroll down to the "checknum" function call and view the source code, note the "getme" and "listme" funcs.
-Go to /ad-lib/ and type <code>{% debug %}</code> and notice <code>mrpoopy</code>
-Go back and send <code>{{ mrpoopy|listme }}</code> notice <code>__flag__</code>
-Go back and send <code>{{ mrpoopy|getme:&quot;__flag__&quot; }}</code> 
-Note: because it is an underscore, you can't just do <code>{{ mrpoopy.__flag__ }}</code></p>
+Go to /ad-lib/ and type <code class="codehilite">{% debug %}</code> and notice <code class="codehilite">mrpoopy</code>
+Go back and send <code class="codehilite"><span class="cp">{{</span> <span class="nv">mrpoopy</span><span class="o">|</span><span class="nf">listme</span> <span class="cp">}}</span><span class="x"></span></code> notice <code class="codehilite">__flag__</code>
+Go back and send <code class="codehilite"><span class="cp">{{</span> <span class="nv">mrpoopy</span><span class="o">|</span><span class="nf">getme</span><span class="s2">:&quot;__flag__&quot;</span> <span class="cp">}}</span><span class="x"></span></code> 
+Note: because it is an underscore, you can't just do <code class="codehilite"><span class="cp">{{</span> <span class="nv">mrpoopy.__flag__</span> <span class="cp">}}</span><span class="x"></span></code></p>
 <h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
 <p>Website runs on port 8000</p></div>
         
@@ -1921,7 +1927,7 @@ Note: because it is an underscore, you can't just do <code>{{ mrpoopy.__flag__ }
     <script>
     var base_url = '../../../..';
     </script>
-    <script data-main="../../../../mkdocs/js/search.js" src="../../../../mkdocs/js/require.js"></script>
+    <script data-main="../../../../mkdocs/js/search.js" src="../../../../search/require.js"></script>
     <script src="../../../../js/base.js"></script>
     <script src="../../../../search/require.js"></script>
     <script src="../../../../search/search.js"></script>

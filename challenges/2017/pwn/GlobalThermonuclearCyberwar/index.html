@@ -20,6 +20,12 @@
     <link href="../../../../css/cinder.css" rel="stylesheet">
     <link rel="stylesheet" href="../../../../css/highlight.css">
 
+
+    <link href="../../../../admonition.css" rel="stylesheet">
+
+
+    <link href="../../../../extra.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -1884,7 +1890,7 @@ Launch CyberNukes to win... kinda</p>
 <h3 id="category">Category<a class="headerlink" href="#category" title="Permanent link">&para;</a></h3>
 <p>Reverseing</p>
 <h3 id="flag">Flag<a class="headerlink" href="#flag" title="Permanent link">&para;</a></h3>
-<p><code>flag{ok_you_decrypted_it_now_plz_pwn_it!}</code></p>
+<p><code class="codehilite">flag{ok_you_decrypted_it_now_plz_pwn_it!}</code></p>
 <h3 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">&para;</a></h3>
 <p>Decrypt the payload, the flag is in the ROM</p>
 <h2 id="part-2">Part 2:<a class="headerlink" href="#part-2" title="Permanent link">&para;</a></h2>
@@ -1896,18 +1902,18 @@ Launch CyberNukes to win... kinda</p>
 <h3 id="category_1">Category<a class="headerlink" href="#category_1" title="Permanent link">&para;</a></h3>
 <p>Pwn</p>
 <h3 id="flag_1">Flag<a class="headerlink" href="#flag_1" title="Permanent link">&para;</a></h3>
-<p><code>flag{c4n_4ny0n3_really_w1n_1n_cyb3rw4r?}</code></p>
+<p><code class="codehilite">flag{c4n_4ny0n3_really_w1n_1n_cyb3rw4r?}</code></p>
 <h3 id="solution_1">Solution<a class="headerlink" href="#solution_1" title="Permanent link">&para;</a></h3>
-<p>See <code>solve.py</code> for exploit</p>
+<p>See <code class="codehilite">solve.py</code> for exploit</p>
 <h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
-<p>For both parts, please distribute <code>cyberwar.rom</code>, which has the second flag scrubbed.
-Run <code>server.rom</code> on QEMU with the VNC server exposed to the competitors.</p>
+<p>For both parts, please distribute <code class="codehilite">cyberwar.rom</code>, which has the second flag scrubbed.
+Run <code class="codehilite">server.rom</code> on QEMU with the VNC server exposed to the competitors.</p>
 <p>The competitors should be told they can run the binary with:
-    <code>qemu-system-i386 -drive format=raw,file=cyberwar.rom</code>
+    <code class="codehilite">qemu-system-i386 -drive format=raw,file=cyberwar.rom</code>
 And a vnc server locally with:
-    <code>qemu-system-i386 -vnc :0 -drive format=raw,file=cyberwar.rom</code></p>
+    <code class="codehilite">qemu-system-i386 -vnc :0 -drive format=raw,file=cyberwar.rom</code></p>
 <p>To be nice to the competitors, note that the gdbstub in the latest QEMU on ubuntu has had issues for us. A known-good version of QEMU is:
-    <code>2.10.1</code></p></div>
+    <code class="codehilite">2.10.1</code></p></div>
         
     </div>
 
@@ -1924,7 +1930,7 @@ And a vnc server locally with:
     <script>
     var base_url = '../../../..';
     </script>
-    <script data-main="../../../../mkdocs/js/search.js" src="../../../../mkdocs/js/require.js"></script>
+    <script data-main="../../../../mkdocs/js/search.js" src="../../../../search/require.js"></script>
     <script src="../../../../js/base.js"></script>
     <script src="../../../../search/require.js"></script>
     <script src="../../../../search/search.js"></script>

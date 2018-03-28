@@ -12,7 +12,7 @@
     
         
     <url>
-     <loc>/reverse-engineering/introduction/</loc>
+     <loc>/forensics/introduction/</loc>
      <lastmod>2018-03-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -52,20 +52,8 @@
     
         
     <url>
-     <loc>/binary-exploitation/introduction/</loc>
+     <loc>/cryptography/introduction/</loc>
      <lastmod>2018-03-28</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc></loc>
-     <lastmod></lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc></loc>
-     <lastmod></lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -168,20 +156,8 @@
     
         
     <url>
-     <loc>/cryptography/introduction/</loc>
+     <loc>/reverse-engineering/introduction/</loc>
      <lastmod>2018-03-28</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc></loc>
-     <lastmod></lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc></loc>
-     <lastmod></lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -220,8 +196,32 @@
     
         
     <url>
-     <loc>/forensics/introduction/</loc>
+     <loc>/binary-exploitation/introduction/</loc>
      <lastmod>2018-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc></loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc></loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc></loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc></loc>
+     <lastmod></lastmod>
      <changefreq>daily</changefreq>
     </url>
         

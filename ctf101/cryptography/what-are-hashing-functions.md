@@ -14,8 +14,11 @@ Example:
 Here, “password” is hashed with different hashing algorithms:
 
 **SHA-1**: 5BAA61E4C9B93F3F0682250B6CF8331B7EE68FD8
+
 **SHA-2**: 5E884898DA28047151D0E56F8DC6292773603D0D6AABBDD62A11EF721D1542D8
+
 **MD5**: 5F4DCC3B5AA765D61D8327DEB882CF99
+
 **CRC32**: BBEDA74F
 
 Generally, when verifying a hash visually, you can simply look at the first and last four characters of the string.
@@ -40,7 +43,7 @@ A collision is when two pieces of data or text have the same cryptographic hash.
 
 What’s significant about collisions is that they can be used to crack password hashes. Passwords are usually stored as hashes on a computer, since it’s hard to get the passwords from hashes.
 
-[Password to Hash](images/hashing-collision-1.png)
+![Password to Hash](images/hashing-collision-1.png)
 
 If you bruteforce by trying every possible piece of text or data, eventually you’ll find something with the same hash. Enter it, and the computer accepts it as if you entered the actual password.
 
@@ -50,11 +53,11 @@ Two different files on the same hard drive with the same cryptographic hash can 
 
 For example, he cited this famous pair:
 
-[Password to Hash](images/hashing-collision-2.png)
+![Password to Hash](images/hashing-collision-2.png)
 
 and
 
-[Password to Hash](images/hashing-collision-3.png)
+![Password to Hash](images/hashing-collision-3.png)
 
 Each of these blocks has MD5 hash 79054025255fb1a26e4bc422aef54eb4.
 

@@ -4,7 +4,7 @@
 
 Data can be represented in different bases, an 'A' needs to be a numerical representation of Base 2 or binary so computers can understand them
 
-![Data Representation](data-representation.png)
+![Data Representation](images/data-representation.png)
 
 ## XOR Basics
 
@@ -29,7 +29,7 @@ So what XOR'ing bytes in the action `0xA0 ^ 0x2C` translates to is:
 
 `0b10001100` is equivelent to `0x8C`, a cool property of XOR is that it is reversable meaning `0x8C ^ 0x2C = 0xA0` and `0x8C ^ 0xA0 = 0x2C`
 
-![XOR Basics](xor.png)
+![XOR Basics](images/xor.png)
 
 ## What does this have to do with CTF?
 

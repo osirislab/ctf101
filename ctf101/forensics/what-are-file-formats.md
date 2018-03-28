@@ -99,7 +99,7 @@ There are plenty more patterns than the ones introduced below, but these are the
 
 We know that the BMP files fileA and fileD are the same, but that the JPEG files fileB and fileC are different somehow. So how can we find out what went on with these files?
 
-![Files A, B, C, D](file-a-b-c-d.png)
+![Files A, B, C, D](images/file-a-b-c-d.png)
 
 By using time stamp information from the file system, we can learn that the BMP fileD was the original file, with fileA being a copy of the original. Afterward, fileB was created by modifying fileB, and fileC was created by modifying fileA in a different way.
 

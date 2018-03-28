@@ -51,7 +51,7 @@ By modifying the lowest, or least significant, bit, we can use the 1 bit space a
 
 The reason stegonagraphy is hard to detect by sight is because a 1 bit difference in color is insignificant as seen below.
 
-![1 Bit Difference](lsb-color-difference.png)
+![1 Bit Difference](images/lsb-color-difference.png)
 
 ### Example
 

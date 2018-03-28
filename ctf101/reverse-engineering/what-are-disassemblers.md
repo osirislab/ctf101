@@ -8,14 +8,20 @@ A **disassembler** is a tool which effectively breaks down a program into machin
 - Binary Ninja
 - IDA
 
-## GDB 
+### GDB 
 
 The GNU Debugger is a free and open source debugger which also disassembles programs. It supports several languages, but most notably it is used by CTF players for any Unix specific C programs. 
 
-## Binary Ninja
+![GDB](images/gdb-disass.png)
+
+### Binary Ninja
 
 Only real competitor to IDA and provides a rich scripting enviornment along with sleek UI.
 
-## IDA
+![GDB](images/binja-disass.png)
 
-Industry standard disassembler.
+### IDA
+
+The Interactive Disassembler is the industry standard for binary disassembly.
+
+![GDB](images/ida-disass.png)

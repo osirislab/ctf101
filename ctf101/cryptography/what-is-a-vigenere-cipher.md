@@ -3,7 +3,7 @@
 A Vigenere Cipher is an extended [Caesar Cipher]() where a message is encrypted using various Caesar shifted alphabets.
 
 The following table can be used to encode a message:
-![Vigenere Square](vigenere-square.png)
+![Vigenere Square](images/vigenere-square.png)
 
 ## Encryption
 For example, encrypting the text `SUPERSECRET` with `CODE` would follow this process:

@@ -14,6 +14,6 @@ Open fileA.jpg in a hex editor. (Most Hex editors have either a “File > Open�
 
 When you open fileA.jpg in your hex editor, you should see something similar to this:
 
-![Hexadecimal Editor Screenshot](hex-editor.png)
+![Hexadecimal Editor Screenshot](images/hex-editor.png)
 
 Your hex editor should also have a “go to” or “find” feature so you can jump to a specific byte.

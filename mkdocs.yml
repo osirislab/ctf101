@@ -43,6 +43,9 @@ pages:
 
   - Stegonagraphy:
     - What is Stegonagraphy: 'forensics/what-is-stegonagraphy.md'
+  
+  - Disk Imaging:
+    - What is Disk Imaging: 'forensics/what-is-disk-imaging.md'
 
   - Challenges:
     - Easy:

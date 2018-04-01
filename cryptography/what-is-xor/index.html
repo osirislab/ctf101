@@ -156,6 +156,21 @@
                         
                             
   <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Disk Imaging</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../forensics/what-is-disk-imaging/">What is Disk Imaging</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
     <a tabindex="-1" href="">Challenges</a>
     <ul class="dropdown-menu">
         
@@ -1869,7 +1884,7 @@
 <h1 id="xor">XOR<a class="headerlink" href="#xor" title="Permanent link">&para;</a></h1>
 <h2 id="data-representation">Data Representation<a class="headerlink" href="#data-representation" title="Permanent link">&para;</a></h2>
 <p>Data can be represented in different bases, an 'A' needs to be a numerical representation of Base 2 or binary so computers can understand them</p>
-<p><img alt="Data Representation" src="../data-representation.png" /></p>
+<p><img alt="Data Representation" src="../images/data-representation.png" /></p>
 <h2 id="xor-basics">XOR Basics<a class="headerlink" href="#xor-basics" title="Permanent link">&para;</a></h2>
 <p>An XOR or <em>eXclusive OR</em> is a bitwise operation indicated by <code class="codehilite">^</code> and shown by the following truth table:</p>
 <table>
@@ -1967,7 +1982,7 @@
 </tbody>
 </table>
 <p><code class="codehilite">0b10001100</code> is equivelent to <code class="codehilite">0x8C</code>, a cool property of XOR is that it is reversable meaning <code class="codehilite">0x8C ^ 0x2C = 0xA0</code> and <code class="codehilite">0x8C ^ 0xA0 = 0x2C</code></p>
-<p><img alt="XOR Basics" src="../xor.png" /></p>
+<p><img alt="XOR Basics" src="../images/xor.png" /></p>
 <h2 id="what-does-this-have-to-do-with-ctf">What does this have to do with CTF?<a class="headerlink" href="#what-does-this-have-to-do-with-ctf" title="Permanent link">&para;</a></h2>
 <p>XOR is a cheap way to encrypt data with a password. Any data can be encrypted using XOR as shown in this Python example:</p>
 <div class="codehilite"><pre><span></span>&gt;&gt;&gt; data = &#39;CAPTURETHEFLAG&#39;

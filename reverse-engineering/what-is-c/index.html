@@ -1867,12 +1867,132 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="first-level active"><a href="#the-c-programming-language">The C Programming Language</a></li>
+            <li class="second-level"><a href="#history">History</a></li>
+                
+            <li class="second-level"><a href="#hello-world">Hello World</a></li>
+                
+            <li class="second-level"><a href="#today">Today</a></li>
+                
+            <li class="second-level"><a href="#types">Types</a></li>
+                
+            <li class="second-level"><a href="#pointers">Pointers</a></li>
+                
+            <li class="second-level"><a href="#arrays">Arrays</a></li>
+                
+                <li class="third-level"><a href="#how-do-arrays-work">How do arrays work?</a></li>
+            <li class="second-level"><a href="#memory-management">Memory Management</a></li>
+                
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
 <h1 id="the-c-programming-language">The C Programming Language<a class="headerlink" href="#the-c-programming-language" title="Permanent link">&para;</a></h1>
-<p>The C programming language is important today because linux is primarily written in it, which means an enormous amount of servers, computers, and devices are all running C code. Familiarity with C means familiarity with a huge number of challenges written in C.</p></div>
+<h2 id="history">History<a class="headerlink" href="#history" title="Permanent link">&para;</a></h2>
+<p>The C programming language iwas written by Dennis Ritchie in the 1970s while he was working at Bell Labs. It was first used to reimplement the Unix operating system which was purely written in assembly language. At first, the Unix developers were considering using a language called "B" but because B wasn't optimized for the target computer, the C language was created.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>C is the letter and the programming language after B!</p>
+</div>
+<p>C was designed to be close to assembly and is still widely used in lower level programming where speed and control are needed (operating systems, embedded systems). C was also very influential to other programming langauges used today. Notable languages include C++, Objective-C, Golang, Java, JavaScript, PHP, Python, and Rust.</p>
+<h2 id="hello-world">Hello World<a class="headerlink" href="#hello-world" title="Permanent link">&para;</a></h2>
+<p>C is an ancestor of many other programming languages and if you are familiar with programming, it's likely that C will be at least someewhat familiar.</p>
+<div class="codehilite"><pre><span></span><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+   <span class="n">printf</span><span class="p">(</span><span class="s">&quot;Hello, World!&quot;</span><span class="p">);</span>
+   <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<h2 id="today">Today<a class="headerlink" href="#today" title="Permanent link">&para;</a></h2>
+<p>Today C is widely used either as a low level programming langauge or is the base language that other programming languages are implemented in.</p>
+<p>While it can be difficult to see, the C language compiles down directly into machine code. The compiler is programmed to process the provided C code and emit assembly that's targetted to whatever operating system and architecture the compiler is set to use.</p>
+<p>Some common compilers include:</p>
+<ul>
+<li>gcc</li>
+<li>clang</li>
+</ul>
+<p>A good way to explore this relationship is to use this online <a href="https://godbolt.org/#">GCC Explorer</a> from Matt Godbolt.</p>
+<p><img alt="GCC Explorer" src="../images/godbold-org.png" /></p>
+<p>In regards to CTF, many reverse engineering and exploitation CTF challenges are written in C because the language compiles down directly to assembly and there are little to no safeguards in the language. This means developers must manually handle both. Of course, this can lead to mistakes which can sometimes lead to security issues.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Other higher level langauges like Python manage memory and garbage collection for you. Google Golang was inspired by C but adds in functionality like garbage collection, and memory safety.</p>
+</div>
+<p>There are some examples of famously vulnerable functions in C which are still available and can still result in vulnerabilities:</p>
+<ul>
+<li><code class="codehilite">gets</code> - Can result in buffer overflows</li>
+<li><code class="codehilite">strcpy</code> - Can result in buffer overflows</li>
+<li><code class="codehilite">strcat</code> - Can result in buffer overflows</li>
+<li><code class="codehilite">strcmp</code> - Can result in timing attacks</li>
+</ul>
+<h2 id="types">Types<a class="headerlink" href="#types" title="Permanent link">&para;</a></h2>
+<p>C has four basic types:</p>
+<ul>
+<li>char - characters</li>
+<li>int - integers (e.g. 125)</li>
+<li>float - 32 bit floating point number (e.g. 2.4)</li>
+<li>double - 64 bit floating point number (like a float but more precise in terms of decimal points)</li>
+</ul>
+<h2 id="pointers">Pointers<a class="headerlink" href="#pointers" title="Permanent link">&para;</a></h2>
+<p>C uses an idea known as pointers. A pointer is a variable which contains the address of another variable.</p>
+<p>To understand this idea we should first understand that memory is laid out in terms of addresses and data gets stored at these addresses.</p>
+<p>Take the following example of defining an integer in C:</p>
+<div class="codehilite"><pre><span></span><span class="kt">int</span> <span class="n">x</span> <span class="o">=</span> <span class="mi">4</span><span class="p">;</span>
+</pre></div>
+
+
+<p>To the programmer this is the variable <code class="codehilite">x</code> receiving the value of 4. The computer stores this value in some location in memory. For example we can say that address <code class="codehilite">0x1000</code> now holds the value <code class="codehilite">4</code>. The computer knows to directly access the memory and retrieve the value <code class="codehilite">4</code> whenever the programmer tries to use the <code class="codehilite">x</code> variable. If we were to say <code class="codehilite">x + 4</code>, the computer would give you <code class="codehilite">8</code> instead of <code class="codehilite">0x1004</code>.</p>
+<p>But in C we can retrieve the memory address being used to hold the 4 value (i.e. 0x1000) by using the <code class="codehilite">&amp;</code> character and using <code class="codehilite">*</code> to create an "integer pointer" type.</p>
+<div class="codehilite"><pre><span></span><span class="kt">int</span><span class="o">*</span> <span class="n">y</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">x</span><span class="p">;</span>
+</pre></div>
+
+
+<p>The <code class="codehilite">y</code> variable will store the address pointed to by the <code class="codehilite">x</code>variable (0x1000).</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The <code class="codehilite">*</code> character allows us to declare pointer variables but also allows us to access the value stored at a pointer. For example, entering <code class="codehilite">*y</code> allows us to access the 4 value instead of 0x1000.</p>
+</div>
+<p>Whenever we use the <code class="codehilite">y</code> variable we are using the memory address, but if we use the x variable we use the value stored at the memory address.</p>
+<h2 id="arrays">Arrays<a class="headerlink" href="#arrays" title="Permanent link">&para;</a></h2>
+<p>Arrays are a grouping of objects of the same type. They are typically created with the following syntax:</p>
+<div class="codehilite"><pre><span></span>type arrayName [ arraySize ];
+</pre></div>
+
+
+<p>To initialize values in the array we can do:</p>
+<div class="codehilite"><pre><span></span>int integers[ 10 ] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+</pre></div>
+
+
+<p>Arrays allow programmers to group data into logical containers.</p>
+<p>To access the indiviual elements of an array we access the contents by their "index". Most programming langauges today start counting from 0. So to take our previous example:</p>
+<div class="codehilite"><pre><span></span>int integers[ 10 ] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+/*     indexes        0  1  2  3  4  5  6  7  8   9
+</pre></div>
+
+
+<p>To access the value 6 we would use index 5:</p>
+<div class="codehilite"><pre><span></span>integers[5];
+</pre></div>
+
+
+<h3 id="how-do-arrays-work">How do arrays work?<a class="headerlink" href="#how-do-arrays-work" title="Permanent link">&para;</a></h3>
+<p>Arrays are a clever combination of multiplication, pointers, and programming.</p>
+<p>Because the computer knows the data type used for every element in the array, the computer needs to simply multiply the size of the data type by the index you are looking for and then add this value to the address of the beginning of the array.</p>
+<p>For example if we know that the base address of an array is 1000 and we know that each integer takes 8 bytes, we know that if we have 8 integers right next to each other, we can get the integer at the 4th index with the following math:</p>
+<div class="codehilite"><pre><span></span>1000 + (4 * 8) =  1032
+</pre></div>
+
+
+<div class="codehilite"><pre><span></span>array [ 1   , 2   , 3   , 4   , 5   , 6   , 7   , 8   ]
+index   0     1     2     3     4     5     6     7
+addrs  1000  1008  1016  1024  1032  1040  1048  1056
+</pre></div>
+
+
+<h2 id="memory-management">Memory Management<a class="headerlink" href="#memory-management" title="Permanent link">&para;</a></h2></div>
             
         
     </div>

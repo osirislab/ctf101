@@ -36,6 +36,6 @@ Binja also has some community contributed plugins which are collected here: http
 
 ### GDB
 
-The GNU Debugger is a free and open source debugger which also disassembles programs. It supports several languages, but most notably it is used by CTF players for any Unix specific C programs.
+The GNU Debugger is a free and open source debugger which also disassembles programs. It's capable as a disassembler, but most notably it is used by CTF players for its debugging and dynamic analysis capabailities.
 
 ![GDB](images/gdb-disass.png)

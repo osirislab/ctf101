@@ -1412,13 +1412,48 @@
         }, 
         {
             "location": "/cryptography/what-is-rsa/", 
-            "text": "RSA", 
+            "text": "RSA\n\n\nRSA, which is an abbreviation of the author's names (Rivest\u2013Shamir\u2013Adleman), is a cryptosystem which allows for asymmetric encryption. Asymmetric cryptosystems are alos commonly referred to as \nPublic Key Cryptography\n where a public key is used to encrypt data and only a secret, private key can be used to decrypt the data.\n\n\nDefinitions\n\n\n\n\nThe \nPublic Key\n is made up of (\nn\n, \ne\n)\n\n\nThe \nPrivate Key\n is made up of (\nn\n, \nd\n)\n\n\nThe message is represented as \nm\n and is converted into a number\n\n\nThe encrypted message or ciphertext is represented by \nc\n\n\np\n and \nq\n are prime numbers which make up \nn\n\n\ne\n is the public exponent\n\n\nn\n is the modulus and its length in bits is the bit length (i.e. 1024 bit RSA)\n\n\nd\n is the private exponent\n\n\nThe totient \u03bb(\nn\n) is used to compute \nd\n and is equal to the lcm(\np\n-1, \nq\n-1)\n\n\n\n\nWhat makes RSA viable?\n\n\nIf public \nn\n, public \ne\n, private \nd\n are all very large numbers and a message \nm\n holds true for 0 \n \nm\n \n \nn\n, then we can say:\n\n\n\n\n(\nm\ne\n)\nd\n \u2261 \nm\n (mod \nn\n)\n\n\n\n\n\n\nNote\n\n\nThe triple equals sign in this case refers to \nmodular congruence\n which in this case means that there exists an integer \nk\n such that (\nm\ne\n)\nd\n = \nkn\n + \nm\n\n\n\n\nRSA is viable because it is incredibly hard to find \nd\n even with \nm\n, \nn\n, and \ne\n because factoring large numbers is an arduous process.\n\n\nImplementation\n\n\nRSA follows 4 steps to be implemented:\n1. Key Generation\n2. Encryption\n3. Decryption\n\n\nKey Generation\n\n\nWe are going to follow along Wikipedia's small numbers example in order to make this idea a bit easier to understand.\n\n\n\n\nChoose two prime numbers such as: \n\n\np\n = 61 and \nq\n = 53\n\n\n\n\n\n\nFind \nn\n: \n\n\nn\n = \npq\n = 3233\n\n\n\n\n\n\nCalculate \u03bb(\nn\n) = lcm(\np\n-1, \nq\n-1) \n\n\n\u03bb(3233) = lcm(60, 52) = 780\n\n\n\n\n\n\nChoose a public exponent such that 1 \n \ne\n \n \u03bb(\nn\n) and is coprime (not a factor of) \u03bb(\nn\n). The standard is most cases is 65537, but we will be using: \n\n\ne\n = 17\n\n\n\n\n\n\nCalculate \nd\n as the modular multiplicative inverse or in english find \nd\n such that: \nd\n x \ne\n mod \u03bb(\nn\n) = 1\n\n\nd\n x 17 mod 780 = 1\n\n\nd\n = 413\n\n\n\n\n\n\n\n\nNow we have a public key of (3233, 17) and a private key of (3233, 413)\n\n\nEncryption\n\n\nWith the public key, \nm\n can be encrypted trivially\n\n\nThe ciphertext is equal to \nm\ne\n mod \nn\n or:\n\n\nc\n = \nm\n17\n mod 3233\n\n\nDecryption\n\n\nWith the private key, \nm\n can be decrypted trivially as well\n\n\nThe plaintext is equal to \nc\nd\n mod \nn\n or:\n\n\nm\n = \nc\n413\n mod 3233\n\n\nExploitation\n\n\nFrom the \nRsaCtfTool README\n\n\n\n\nAttacks:\n\n\n\n\nWeak public key factorization\n\n\nWiener's attack\n\n\nHastad's attack (Small public exponent attack)\n\n\nSmall q (q \n 100,000)\n\n\nCommon factor between ciphertext and modulus attack\n\n\nFermat's factorisation for close p and q\n\n\nGimmicky Primes method\n\n\nPast CTF Primes method\n\n\nSelf-Initializing Quadratic Sieve (SIQS) using Yafu\n\n\nCommon factor attacks across multiple keys\n\n\nSmall fractions method when p/q is close to a small fraction\n\n\nBoneh Durfee Method when the private exponent d is too small compared to the modulus (i.e d \n n\n0.292\n)\n\n\nElliptic Curve Method\n\n\nPollards p-1 for relatively smooth numbers\n\n\nMersenne primes factorization", 
             "title": "What is RSA"
         }, 
         {
             "location": "/cryptography/what-is-rsa/#rsa", 
-            "text": "", 
+            "text": "RSA, which is an abbreviation of the author's names (Rivest\u2013Shamir\u2013Adleman), is a cryptosystem which allows for asymmetric encryption. Asymmetric cryptosystems are alos commonly referred to as  Public Key Cryptography  where a public key is used to encrypt data and only a secret, private key can be used to decrypt the data.", 
             "title": "RSA"
+        }, 
+        {
+            "location": "/cryptography/what-is-rsa/#definitions", 
+            "text": "The  Public Key  is made up of ( n ,  e )  The  Private Key  is made up of ( n ,  d )  The message is represented as  m  and is converted into a number  The encrypted message or ciphertext is represented by  c  p  and  q  are prime numbers which make up  n  e  is the public exponent  n  is the modulus and its length in bits is the bit length (i.e. 1024 bit RSA)  d  is the private exponent  The totient \u03bb( n ) is used to compute  d  and is equal to the lcm( p -1,  q -1)", 
+            "title": "Definitions"
+        }, 
+        {
+            "location": "/cryptography/what-is-rsa/#what-makes-rsa-viable", 
+            "text": "If public  n , public  e , private  d  are all very large numbers and a message  m  holds true for 0    m     n , then we can say:   ( m e ) d  \u2261  m  (mod  n )    Note  The triple equals sign in this case refers to  modular congruence  which in this case means that there exists an integer  k  such that ( m e ) d  =  kn  +  m   RSA is viable because it is incredibly hard to find  d  even with  m ,  n , and  e  because factoring large numbers is an arduous process.", 
+            "title": "What makes RSA viable?"
+        }, 
+        {
+            "location": "/cryptography/what-is-rsa/#implementation", 
+            "text": "RSA follows 4 steps to be implemented:\n1. Key Generation\n2. Encryption\n3. Decryption", 
+            "title": "Implementation"
+        }, 
+        {
+            "location": "/cryptography/what-is-rsa/#key-generation", 
+            "text": "We are going to follow along Wikipedia's small numbers example in order to make this idea a bit easier to understand.   Choose two prime numbers such as:   p  = 61 and  q  = 53    Find  n :   n  =  pq  = 3233    Calculate \u03bb( n ) = lcm( p -1,  q -1)   \u03bb(3233) = lcm(60, 52) = 780    Choose a public exponent such that 1    e    \u03bb( n ) and is coprime (not a factor of) \u03bb( n ). The standard is most cases is 65537, but we will be using:   e  = 17    Calculate  d  as the modular multiplicative inverse or in english find  d  such that:  d  x  e  mod \u03bb( n ) = 1  d  x 17 mod 780 = 1  d  = 413     Now we have a public key of (3233, 17) and a private key of (3233, 413)", 
+            "title": "Key Generation"
+        }, 
+        {
+            "location": "/cryptography/what-is-rsa/#encryption", 
+            "text": "With the public key,  m  can be encrypted trivially  The ciphertext is equal to  m e  mod  n  or:  c  =  m 17  mod 3233", 
+            "title": "Encryption"
+        }, 
+        {
+            "location": "/cryptography/what-is-rsa/#decryption", 
+            "text": "With the private key,  m  can be decrypted trivially as well  The plaintext is equal to  c d  mod  n  or:  m  =  c 413  mod 3233", 
+            "title": "Decryption"
+        }, 
+        {
+            "location": "/cryptography/what-is-rsa/#exploitation", 
+            "text": "From the  RsaCtfTool README   Attacks:   Weak public key factorization  Wiener's attack  Hastad's attack (Small public exponent attack)  Small q (q   100,000)  Common factor between ciphertext and modulus attack  Fermat's factorisation for close p and q  Gimmicky Primes method  Past CTF Primes method  Self-Initializing Quadratic Sieve (SIQS) using Yafu  Common factor attacks across multiple keys  Small fractions method when p/q is close to a small fraction  Boneh Durfee Method when the private exponent d is too small compared to the modulus (i.e d   n 0.292 )  Elliptic Curve Method  Pollards p-1 for relatively smooth numbers  Mersenne primes factorization", 
+            "title": "Exploitation"
         }, 
         {
             "location": "/challenges/2017/crypto/ecxor/", 
@@ -4077,33 +4112,33 @@
         }, 
         {
             "location": "/reverse-engineering/what-are-disassemblers/", 
-            "text": "Disassemblers\n\n\nA \ndisassembler\n is a tool which effectively breaks down a program into machine code.\n\n\nDisassemblers\n\n\n\n\nGNU Debugger (GDB)\n\n\nBinary Ninja\n\n\nIDA\n\n\n\n\nGDB\n\n\nThe GNU Debugger is a free and open source debugger which also disassembles programs. It supports several languages, but most notably it is used by CTF players for any Unix specific C programs. \n\n\n\n\nBinary Ninja\n\n\nOnly real competitor to IDA and provides a rich scripting enviornment along with sleek UI.\n\n\n\n\nIDA\n\n\nThe Interactive Disassembler is the industry standard for binary disassembly.", 
+            "text": "Disassemblers\n\n\nA \ndisassembler\n is a tool which breaks down a compiled program into machine code.\n\n\nList of Disassemblers\n\n\n\n\nIDA\n\n\nBinary Ninja\n\n\nGNU Debugger (GDB)\n\n\nradare2\n\n\nHopper\n\n\n\n\nIDA\n\n\nThe Interactive Disassembler (IDA) is the industry standard for binary disassembly. IDA is capable of disassembling \"virtually any popular file format\". This makes it very useful to security researchers and CTF players who often need to analyze obscure files without knowing what they are or where they came from. IDA also features the industry leading Hex Rays decompiler which can convert assembly code back into a pseudo code like format.\n\n\n\n\nIDA also has a plugin interface which has been used to create some successful plugins that can make reverse engineering easier:\n\n\n\n\nhttps://github.com/google/binnavi\n\n\nhttps://github.com/yegord/snowman\n\n\nhttps://github.com/gaasedelen/lighthouse\n\n\nhttps://github.com/joxeankoret/diaphora\n\n\nhttps://github.com/REhints/HexRaysCodeXplorer\n\n\nhttps://github.com/isislab/Fentanyl\n\n\n\n\nBinary Ninja\n\n\nBinary Ninja is an up and coming disassembler that attempts to bring a new, more programmatic approach to reverse engineering. Binary Ninja brings an improved plugin API and modern features to reverse engineering. While it's less popular or as old as IDA, Binary Ninja (often called binja) is quickly gaining ground and has a small community of dedicated users and followers.\n\n\n\n\nBinja also has some community contributed plugins which are collected here: \nhttps://github.com/Vector35/community-plugins\n\n\nGDB\n\n\nThe GNU Debugger is a free and open source debugger which also disassembles programs. It's capable as a disassembler, but most notably it is used by CTF players for its debugging and dynamic analysis capabailities.", 
             "title": "What are Disassemblers"
         }, 
         {
             "location": "/reverse-engineering/what-are-disassemblers/#disassemblers", 
-            "text": "A  disassembler  is a tool which effectively breaks down a program into machine code.", 
+            "text": "A  disassembler  is a tool which breaks down a compiled program into machine code.", 
             "title": "Disassemblers"
         }, 
         {
-            "location": "/reverse-engineering/what-are-disassemblers/#disassemblers_1", 
-            "text": "GNU Debugger (GDB)  Binary Ninja  IDA", 
-            "title": "Disassemblers"
-        }, 
-        {
-            "location": "/reverse-engineering/what-are-disassemblers/#gdb", 
-            "text": "The GNU Debugger is a free and open source debugger which also disassembles programs. It supports several languages, but most notably it is used by CTF players for any Unix specific C programs.", 
-            "title": "GDB"
-        }, 
-        {
-            "location": "/reverse-engineering/what-are-disassemblers/#binary-ninja", 
-            "text": "Only real competitor to IDA and provides a rich scripting enviornment along with sleek UI.", 
-            "title": "Binary Ninja"
+            "location": "/reverse-engineering/what-are-disassemblers/#list-of-disassemblers", 
+            "text": "IDA  Binary Ninja  GNU Debugger (GDB)  radare2  Hopper", 
+            "title": "List of Disassemblers"
         }, 
         {
             "location": "/reverse-engineering/what-are-disassemblers/#ida", 
-            "text": "The Interactive Disassembler is the industry standard for binary disassembly.", 
+            "text": "The Interactive Disassembler (IDA) is the industry standard for binary disassembly. IDA is capable of disassembling \"virtually any popular file format\". This makes it very useful to security researchers and CTF players who often need to analyze obscure files without knowing what they are or where they came from. IDA also features the industry leading Hex Rays decompiler which can convert assembly code back into a pseudo code like format.   IDA also has a plugin interface which has been used to create some successful plugins that can make reverse engineering easier:   https://github.com/google/binnavi  https://github.com/yegord/snowman  https://github.com/gaasedelen/lighthouse  https://github.com/joxeankoret/diaphora  https://github.com/REhints/HexRaysCodeXplorer  https://github.com/isislab/Fentanyl", 
             "title": "IDA"
+        }, 
+        {
+            "location": "/reverse-engineering/what-are-disassemblers/#binary-ninja", 
+            "text": "Binary Ninja is an up and coming disassembler that attempts to bring a new, more programmatic approach to reverse engineering. Binary Ninja brings an improved plugin API and modern features to reverse engineering. While it's less popular or as old as IDA, Binary Ninja (often called binja) is quickly gaining ground and has a small community of dedicated users and followers.   Binja also has some community contributed plugins which are collected here:  https://github.com/Vector35/community-plugins", 
+            "title": "Binary Ninja"
+        }, 
+        {
+            "location": "/reverse-engineering/what-are-disassemblers/#gdb", 
+            "text": "The GNU Debugger is a free and open source debugger which also disassembles programs. It's capable as a disassembler, but most notably it is used by CTF players for its debugging and dynamic analysis capabailities.", 
+            "title": "GDB"
         }, 
         {
             "location": "/reverse-engineering/what-are-decompilers/", 

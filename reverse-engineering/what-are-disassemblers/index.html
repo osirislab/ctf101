@@ -1867,32 +1867,44 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="first-level active"><a href="#disassemblers">Disassemblers</a></li>
-            <li class="second-level"><a href="#disassemblers_1">Disassemblers</a></li>
+            <li class="second-level"><a href="#list-of-disassemblers">List of Disassemblers</a></li>
                 
-                <li class="third-level"><a href="#gdb">GDB</a></li>
-                <li class="third-level"><a href="#binary-ninja">Binary Ninja</a></li>
                 <li class="third-level"><a href="#ida">IDA</a></li>
+                <li class="third-level"><a href="#binary-ninja">Binary Ninja</a></li>
+                <li class="third-level"><a href="#gdb">GDB</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
 <h1 id="disassemblers">Disassemblers<a class="headerlink" href="#disassemblers" title="Permanent link">&para;</a></h1>
-<p>A <strong>disassembler</strong> is a tool which effectively breaks down a program into machine code.</p>
-<h2 id="disassemblers_1">Disassemblers<a class="headerlink" href="#disassemblers_1" title="Permanent link">&para;</a></h2>
+<p>A <strong>disassembler</strong> is a tool which breaks down a compiled program into machine code.</p>
+<h2 id="list-of-disassemblers">List of Disassemblers<a class="headerlink" href="#list-of-disassemblers" title="Permanent link">&para;</a></h2>
 <ul>
-<li>GNU Debugger (GDB)</li>
-<li>Binary Ninja</li>
 <li>IDA</li>
+<li>Binary Ninja</li>
+<li>GNU Debugger (GDB)</li>
+<li>radare2</li>
+<li>Hopper</li>
 </ul>
-<h3 id="gdb">GDB<a class="headerlink" href="#gdb" title="Permanent link">&para;</a></h3>
-<p>The GNU Debugger is a free and open source debugger which also disassembles programs. It supports several languages, but most notably it is used by CTF players for any Unix specific C programs. </p>
-<p><img alt="GDB" src="../images/gdb-disass.png" /></p>
-<h3 id="binary-ninja">Binary Ninja<a class="headerlink" href="#binary-ninja" title="Permanent link">&para;</a></h3>
-<p>Only real competitor to IDA and provides a rich scripting enviornment along with sleek UI.</p>
-<p><img alt="GDB" src="../images/binja-disass.png" /></p>
 <h3 id="ida">IDA<a class="headerlink" href="#ida" title="Permanent link">&para;</a></h3>
-<p>The Interactive Disassembler is the industry standard for binary disassembly.</p>
-<p><img alt="GDB" src="../images/ida-disass.png" /></p></div>
+<p>The Interactive Disassembler (IDA) is the industry standard for binary disassembly. IDA is capable of disassembling "virtually any popular file format". This makes it very useful to security researchers and CTF players who often need to analyze obscure files without knowing what they are or where they came from. IDA also features the industry leading Hex Rays decompiler which can convert assembly code back into a pseudo code like format.</p>
+<p><img alt="IDA" src="../images/ida-disass.png" /></p>
+<p>IDA also has a plugin interface which has been used to create some successful plugins that can make reverse engineering easier:</p>
+<ul>
+<li><a href="https://github.com/google/binnavi">https://github.com/google/binnavi</a></li>
+<li><a href="https://github.com/yegord/snowman">https://github.com/yegord/snowman</a></li>
+<li><a href="https://github.com/gaasedelen/lighthouse">https://github.com/gaasedelen/lighthouse</a></li>
+<li><a href="https://github.com/joxeankoret/diaphora">https://github.com/joxeankoret/diaphora</a></li>
+<li><a href="https://github.com/REhints/HexRaysCodeXplorer">https://github.com/REhints/HexRaysCodeXplorer</a></li>
+<li><a href="https://github.com/isislab/Fentanyl">https://github.com/isislab/Fentanyl</a></li>
+</ul>
+<h3 id="binary-ninja">Binary Ninja<a class="headerlink" href="#binary-ninja" title="Permanent link">&para;</a></h3>
+<p>Binary Ninja is an up and coming disassembler that attempts to bring a new, more programmatic approach to reverse engineering. Binary Ninja brings an improved plugin API and modern features to reverse engineering. While it's less popular or as old as IDA, Binary Ninja (often called binja) is quickly gaining ground and has a small community of dedicated users and followers.</p>
+<p><img alt="Binja" src="../images/binja-disass.png" /></p>
+<p>Binja also has some community contributed plugins which are collected here: <a href="https://github.com/Vector35/community-plugins">https://github.com/Vector35/community-plugins</a></p>
+<h3 id="gdb">GDB<a class="headerlink" href="#gdb" title="Permanent link">&para;</a></h3>
+<p>The GNU Debugger is a free and open source debugger which also disassembles programs. It's capable as a disassembler, but most notably it is used by CTF players for its debugging and dynamic analysis capabailities.</p>
+<p><img alt="GDB" src="../images/gdb-disass.png" /></p></div>
             
         
     </div>

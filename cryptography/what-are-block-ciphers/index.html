@@ -9,7 +9,7 @@
     <meta name="author" content="OSIRIS Lab & CTFd LLC"> 
     <link rel="shortcut icon" href="../../img/favicon.ico">
 
-    <title>What are Block Modes of Operation - CTF 101</title>
+    <title>What are Block Ciphers - CTF 101</title>
 
     <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -438,12 +438,18 @@
                         
                             
   <li class="dropdown-submenu">
-    <a tabindex="-1" href="">Block Modes of Operation</a>
+    <a tabindex="-1" href="">Modes of Operation</a>
     <ul class="dropdown-menu">
         
             
 <li class="active">
-    <a href="./">What are Block Modes of Operation</a>
+    <a href="./">What are Block Ciphers</a>
+</li>
+
+        
+            
+<li >
+    <a href="../what-are-stream-ciphers/">What are Stream Ciphers</a>
 </li>
 
         
@@ -1852,7 +1858,7 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../what-is-rsa/">
+                        <a rel="prev" href="../what-are-stream-ciphers/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li> -->
@@ -1866,12 +1872,129 @@
             
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#block-modes-of-operation">Block Modes of Operation</a></li>
+        <li class="first-level active"><a href="#block-ciphers">Block Ciphers</a></li>
+            <li class="second-level"><a href="#definitions">Definitions</a></li>
+                
+            <li class="second-level"><a href="#common-block-ciphers">Common Block Ciphers</a></li>
+                
+                <li class="third-level"><a href="#electronic-codebook-ecb">Electronic Codebook (ECB)</a></li>
+                <li class="third-level"><a href="#cipher-block-chaining-cbc">Cipher Block Chaining (CBC)</a></li>
+                <li class="third-level"><a href="#propogating-cipher-block-chaining-pcbc">Propogating Cipher Block Chaining (PCBC)</a></li>
+            <li class="second-level"><a href="#padding-oracle-attack">Padding Oracle Attack</a></li>
+                
+                <li class="third-level"><a href="#requirements">Requirements</a></li>
+                <li class="third-level"><a href="#execution">Execution</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="block-modes-of-operation">Block Modes of Operation<a class="headerlink" href="#block-modes-of-operation" title="Permanent link">&para;</a></h1></div>
+<h1 id="block-ciphers">Block Ciphers<a class="headerlink" href="#block-ciphers" title="Permanent link">&para;</a></h1>
+<p>A <strong>Block Cipher</strong> is an algorithm which is used in conjunction with a cryptosystem in order to package a message into evenly distributed 'blocks' which are encrypted one at a time.</p>
+<h2 id="definitions">Definitions<a class="headerlink" href="#definitions" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Mode of Operation: How a block cipher is applied to an amount of data which exceeds a block's size</li>
+<li>Initialization Vector (IV): A sequence of bytes which is used to randomize encryption even if the same plaintext is encrypted</li>
+<li>Starting Variable (SV): Similar to the IV, except it is used during the first block to provide a random seed during encryption</li>
+<li>Padding: Padding is used to ensure that the block sizes all line up and ensure the last block fits the block cipher</li>
+<li>Plaintext: Unencrypted text; Data without obfuscation</li>
+<li>Key: A secret used to encrypt plaintext</li>
+<li>Ciphertext: Plaintext encrypted with a key</li>
+</ul>
+<h2 id="common-block-ciphers">Common Block Ciphers<a class="headerlink" href="#common-block-ciphers" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Mode</th>
+<th>Formulas</th>
+<th>Ciphertext</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ECB</td>
+<td>Y<sub>i</sub> = F(PlainText<sub>i</sub>, Key)</td>
+<td>Y<sub>i</sub></td>
+</tr>
+<tr>
+<td>CBC</td>
+<td>Y<sub>i</sub> = PlainText<sub>i</sub> XOR Ciphertext<sub>i-1</sub></td>
+<td>F(Y, key); Ciphertext<sub>0</sub> = IV</td>
+</tr>
+<tr>
+<td>PCBC</td>
+<td>Y<sub>i</sub> = PlainText<sub>i</sub> XOR (Ciphertext<sub>i-1</sub> XOR PlainText<sub>i-1</sub>)</td>
+<td>F(Y, key); Ciphertext<sub>0</sub> = IV</td>
+</tr>
+<tr>
+<td>CFB</td>
+<td>Y<sub>i</sub> = Ciphertext<sub>i-1</sub></td>
+<td>Plaintext XOR F(Y, key); Ciphertext<sub>0</sub> = IV</td>
+</tr>
+<tr>
+<td>OFB</td>
+<td>Y<sub>i</sub> = F(Key, I<sub>i-1</sub>);Y<sub>0</sub>=IV</td>
+<td>Plaintext XOR Y<sub>i</sub></td>
+</tr>
+<tr>
+<td>CTR</td>
+<td>Y<sub>i</sub> = F(Key, IV + g(i));IV = token();</td>
+<td>Plaintext XOR Y<sub>i</sub></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>In this case <sub>i</sub> represents an index over the # of blocks in the plaintext. F() and g() represent the function used to convert plaintext into ciphertext.</p>
+</div>
+<h3 id="electronic-codebook-ecb">Electronic Codebook (ECB)<a class="headerlink" href="#electronic-codebook-ecb" title="Permanent link">&para;</a></h3>
+<p>ECB is the most basic block cipher, it simply chunks up plaintext into blocks and independently encrypts those blocks and chains them all into a ciphertext.</p>
+<p><img alt="ECB Encryption" src="../images/ecb-encryption.png" />
+<img alt="ECB Decryption" src="../images/ecb-decryption.png" /></p>
+<h4 id="flaws">Flaws<a class="headerlink" href="#flaws" title="Permanent link">&para;</a></h4>
+<p>Because EBC independently encrypts the blocks, patterns in data can still be seen clearly, as shown in the CBC Penguin image below.</p>
+<table>
+<thead>
+<tr>
+<th>Original Image</th>
+<th>ECB Image</th>
+<th>Other Block Cipher Modes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Tux" src="../images/tux.jpg" /></td>
+<td><img alt="ECB Tux" src="../images/tux-ecb.jpg" /></td>
+<td><img alt="Other Tux" src="../images/tux-secure.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<h3 id="cipher-block-chaining-cbc">Cipher Block Chaining (CBC)<a class="headerlink" href="#cipher-block-chaining-cbc" title="Permanent link">&para;</a></h3>
+<p>CBC is an improvement upon ECB where an Initialization Vector is used in order to add randomness. The encrypted previous block is used as the IV for each sequential block meaning that the encryption process cannot be parallelized. CBC has been declining in popularity due to a variety of </p>
+<p><img alt="CBC Encryption" src="../images/cbc-encryption.png" />
+<img alt="CBC Decryption" src="../images/cbc-decryption.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Even though the encryption process cannot be parallelized, the decryption process can be parallelized. If the wrong IV is used for decryption it will only affect the first block as the decryption of all other blocks depends on the <em>ciphertext</em> not the plaintext.</p>
+</div>
+<h3 id="propogating-cipher-block-chaining-pcbc">Propogating Cipher Block Chaining (PCBC)<a class="headerlink" href="#propogating-cipher-block-chaining-pcbc" title="Permanent link">&para;</a></h3>
+<p>PCBC is a less used cipher which modifies CBC so that decryption is also not parallelizable. It also cannot be decrypted from any point as changes made during the decryption and encryption process "propogate" throughout the blocks, meaning that both the plaintext and ciphertext are used when encrypting or decrypting as seen in the images below.</p>
+<p><img alt="PCBC Encryption" src="../images/pcbc-encryption.png" />
+<img alt="PCBC Decryption" src="../images/pcbc-decryption.png" /></p>
+<h2 id="padding-oracle-attack">Padding Oracle Attack<a class="headerlink" href="#padding-oracle-attack" title="Permanent link">&para;</a></h2>
+<p>A Padding Oracle Attack sounds complex, but essentially means abusing a block cipher by changing the length of input and being able to determine the plaintext.</p>
+<h3 id="requirements">Requirements<a class="headerlink" href="#requirements" title="Permanent link">&para;</a></h3>
+<ul>
+<li>An oracle, or program, which encrypts data using CBC</li>
+<li>Continual use of the same key</li>
+</ul>
+<h3 id="execution">Execution<a class="headerlink" href="#execution" title="Permanent link">&para;</a></h3>
+<ol>
+<li>If we have to blocks of ciphertext, C<sub>1</sub> and C<sub>2</sub>, we can get the plaintext P<sub>2</sub></li>
+<li>Since we know that CBC decryptionis dependent on the prior ciphertext, if we change the last byte of C<sub>1</sub> we can see if C<sub>2</sub> has correct padding</li>
+<li>If it is correctly padded we know that the last byte of the plaintext</li>
+<li>If not, we can increase our byte by one and repeat until we have a successful padding</li>
+<li>We then repeat this for all successive bytes following C<sub>1</sub> and if the block is 16 bytes we can expect a maximum of 4080 attempts which is trivial</li>
+</ol></div>
             
         
     </div>

@@ -438,12 +438,18 @@
                         
                             
   <li class="dropdown-submenu">
-    <a tabindex="-1" href="">Block Modes of Operation</a>
+    <a tabindex="-1" href="">Modes of Operation</a>
     <ul class="dropdown-menu">
         
             
 <li >
-    <a href="../what-are-block-modes-of-operation/">What are Block Modes of Operation</a>
+    <a href="../what-are-block-ciphers/">What are Block Ciphers</a>
+</li>
+
+        
+            
+<li >
+    <a href="../what-are-stream-ciphers/">What are Stream Ciphers</a>
 </li>
 
         
@@ -1847,7 +1853,7 @@
                         </a>
                     </li>
 <!--                     <li >
-                        <a rel="next" href="../what-are-block-modes-of-operation/">
+                        <a rel="next" href="../what-are-stream-ciphers/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
@@ -1894,7 +1900,7 @@
 <li><em>e</em> is the public exponent</li>
 <li><em>n</em> is the modulus and its length in bits is the bit length (i.e. 1024 bit RSA)</li>
 <li><em>d</em> is the private exponent</li>
-<li>The totient λ(<em>n</em>) is used to compute <em>d</em> and is equal to the lcm(<em>p</em>-1, <em>q</em>-1)</li>
+<li>The totient λ(<em>n</em>) is used to compute <em>d</em> and is equal to the lcm(<em>p</em>-1, <em>q</em>-1), another definition for λ(<em>n</em>) is that λ(<em>pq</em>) = lcm(λ(<em>p</em>), λ(<em>q</em>))</li>
 </ul>
 <h2 id="what-makes-rsa-viable">What makes RSA viable?<a class="headerlink" href="#what-makes-rsa-viable" title="Permanent link">&para;</a></h2>
 <p>If public <em>n</em>, public <em>e</em>, private <em>d</em> are all very large numbers and a message <em>m</em> holds true for 0 &lt; <em>m</em> &lt; <em>n</em>, then we can say:</p>
@@ -1913,6 +1919,10 @@
 3. Decryption</p>
 <h3 id="key-generation">Key Generation<a class="headerlink" href="#key-generation" title="Permanent link">&para;</a></h3>
 <p>We are going to follow along Wikipedia's small numbers example in order to make this idea a bit easier to understand.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>In This example we are using <em>Carmichael's</em> totient function where λ(n) = lcm(λ(p), λ(q)), but <em>Euler's</em> totient function is perfectly valid to use with RSA. Euler's totient is φ(n) = (p − 1)(q − 1)</p>
+</div>
 <ol>
 <li>Choose two prime numbers such as: <ul>
 <li><em>p</em> = 61 and <em>q</em> = 53</li>
@@ -1922,11 +1932,15 @@
 <li><em>n</em> = <em>pq</em> = 3233</li>
 </ul>
 </li>
-<li>Calculate λ(<em>n</em>) = lcm(<em>p</em>-1, <em>q</em>-1) <ul>
+<li>
+<p>Calculate λ(<em>n</em>) = lcm(<em>p</em>-1, <em>q</em>-1) </p>
+<ul>
 <li>λ(3233) = lcm(60, 52) = 780</li>
 </ul>
 </li>
-<li>Choose a public exponent such that 1 &lt; <em>e</em> &lt; λ(<em>n</em>) and is coprime (not a factor of) λ(<em>n</em>). The standard is most cases is 65537, but we will be using: <ul>
+<li>
+<p>Choose a public exponent such that 1 &lt; <em>e</em> &lt; λ(<em>n</em>) and is coprime (not a factor of) λ(<em>n</em>). The standard is most cases is 65537, but we will be using: </p>
+<ul>
 <li><em>e</em> = 17</li>
 </ul>
 </li>

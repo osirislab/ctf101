@@ -12,7 +12,7 @@ RSA, which is an abbreviation of the author's names (Rivest–Shamir–Adleman),
 - *e* is the public exponent
 - *n* is the modulus and its length in bits is the bit length (i.e. 1024 bit RSA)
 - *d* is the private exponent
-- The totient λ(*n*) is used to compute *d* and is equal to the lcm(*p*-1, *q*-1)
+- The totient λ(*n*) is used to compute *d* and is equal to the lcm(*p*-1, *q*-1), another definition for λ(*n*) is that λ(*pq*) = lcm(λ(*p*), λ(*q*))
 
 ## What makes RSA viable?
 
@@ -37,12 +37,16 @@ RSA follows 4 steps to be implemented:
 
 We are going to follow along Wikipedia's small numbers example in order to make this idea a bit easier to understand.
 
+!!!note
+	In This example we are using *Carmichael's* totient function where λ(n) = lcm(λ(p), λ(q)), but *Euler's* totient function is perfectly valid to use with RSA. Euler's totient is φ(n) = (p − 1)(q − 1)
+
 1. Choose two prime numbers such as: 
 	* *p* = 61 and *q* = 53
 2. Find *n*: 
 	* *n* = *pq* = 3233
 3. Calculate λ(*n*) = lcm(*p*-1, *q*-1) 
 	* λ(3233) = lcm(60, 52) = 780
+
 4. Choose a public exponent such that 1 < *e* < λ(*n*) and is coprime (not a factor of) λ(*n*). The standard is most cases is 65537, but we will be using: 
 	* *e* = 17
 5. Calculate *d* as the modular multiplicative inverse or in english find *d* such that: *d* x *e* mod λ(*n*) = 1

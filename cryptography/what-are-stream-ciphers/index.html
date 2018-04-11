@@ -1873,11 +1873,44 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="first-level active"><a href="#stream-ciphers">Stream Ciphers</a></li>
+            <li class="second-level"><a href="#definitions">Definitions</a></li>
+                
+            <li class="second-level"><a href="#one-time-pads">One Time Pads</a></li>
+                
+            <li class="second-level"><a href="#types-of-stream-ciphers">Types of Stream Ciphers</a></li>
+                
+                <li class="third-level"><a href="#synchronous-stream-ciphers">Synchronous Stream Ciphers</a></li>
+                <li class="third-level"><a href="#self-synchronizing-stream-ciphers">Self-synchronizing Stream Ciphers</a></li>
+            <li class="second-level"><a href="#stream-cipher-vulnerabilities">Stream Cipher Vulnerabilities</a></li>
+                
+                <li class="third-level"><a href="#key-reuse">Key Reuse</a></li>
+                <li class="third-level"><a href="#bit-flipping-attack">Bit-flipping Attack</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="stream-ciphers">Stream Ciphers<a class="headerlink" href="#stream-ciphers" title="Permanent link">&para;</a></h1></div>
+<h1 id="stream-ciphers">Stream Ciphers<a class="headerlink" href="#stream-ciphers" title="Permanent link">&para;</a></h1>
+<p>A Stream Cipher is used for symmetric key cryptography, or when the same key is used to encrypt and decrypt data. Stream Ciphers encrypt pseudorandom sequences with bits of plaintext in order to generate ciphertext, usually with XOR. A good way to think about Stream Ciphers is to think of them as generating one-time pads from a given state. </p>
+<h2 id="definitions">Definitions<a class="headerlink" href="#definitions" title="Permanent link">&para;</a></h2>
+<ul>
+<li>A <strong>keystream</strong> is a sequence of pseudorandom digits which extend to the length of the plaintext in order to uniquely encrypt each character based on the corresponding digit in the keystream</li>
+</ul>
+<h2 id="one-time-pads">One Time Pads<a class="headerlink" href="#one-time-pads" title="Permanent link">&para;</a></h2>
+<p>A <em>one time pad</em> is an encryption mechanism whereby the entire plaintext is XOR'd with a random sequence of numbers in order to generate a random ciphertext. The advantage of the one time pad is that it offers an immense amount of security BUT in order for it to be useful, the randomly generated key must be distributed on a separate secure channel, meaning that one time pads have little use in modern day cryptographic applications on the internet. Stream ciphers extend upon this idea by using a key, usually 128 bit in length, in order to seed a pseudorandom <em>keystream</em> which is used to encrypt the text.</p>
+<h2 id="types-of-stream-ciphers">Types of Stream Ciphers<a class="headerlink" href="#types-of-stream-ciphers" title="Permanent link">&para;</a></h2>
+<h3 id="synchronous-stream-ciphers">Synchronous Stream Ciphers<a class="headerlink" href="#synchronous-stream-ciphers" title="Permanent link">&para;</a></h3>
+<p>A Synchronous Stream Cipher generates a keystream based on internal states <em>not</em> related to the plaintext or ciphertext. This means that the stream is generated pseudorandomly outside of the context of what is being encrypted. A <em>binary additive stream cipher</em> is the term used for a stream cipher which XOR's the bits with the bits of the plaintext. Encryption and decryption require that the synchronus state cipher be in the same state, otherwise the message cannot be decrypted. </p>
+<h3 id="self-synchronizing-stream-ciphers">Self-synchronizing Stream Ciphers<a class="headerlink" href="#self-synchronizing-stream-ciphers" title="Permanent link">&para;</a></h3>
+<p>A Self-synchronizing Stream Cipher, also known as an asynchronous stream cipher or ciphertext autokey (CTAK), is a stream cipher which uses the previous <em>N</em> digits in order to compute the keystream used for the next <em>N</em> characters.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Seems a lot like block ciphers doesn't it? That's because block cipher feedback mode (CFB) is an example of a self-synchronizing stream ciphers.</p>
+</div>
+<h2 id="stream-cipher-vulnerabilities">Stream Cipher Vulnerabilities<a class="headerlink" href="#stream-cipher-vulnerabilities" title="Permanent link">&para;</a></h2>
+<h3 id="key-reuse">Key Reuse<a class="headerlink" href="#key-reuse" title="Permanent link">&para;</a></h3>
+<p>The key tenet of using stream ciphers securely is to <strong>NEVER</strong> repeat key use because of the communative property of XOR. If C<sub>1</sub> and C<sub>2</sub> have been XOR'd with a key K, retrieving that key K is trivial because C<sub>1</sub> XOR C<sub>2</sub> = P<sub>1</sub> XOR P<sub>2</sub> and having an english language based XOR means that cryptoanalysis tools such as a character frequency analysis will work well due to the low entropy of the english language.</p>
+<h3 id="bit-flipping-attack">Bit-flipping Attack<a class="headerlink" href="#bit-flipping-attack" title="Permanent link">&para;</a></h3>
+<p>Another key tenet of using stream ciphers securely is considering that just because a message has been decrypted, it does not mean the message has not been tampered with. Because decryption is based on state, if an attacker knows the layout of the plaintext, a Man in the Middle (MITM) attack can flip a bit during transit altering the underlying ciphertext. If a ciphertext decrypts to 'Transfer $1000', then a middleman can flip a single bit in order for the ciphertext to decrypt to 'Transfer $9000' because changing a single character in the ciphertext does not affect the state in a synchronus stream cipher.</p></div>
             
         
     </div>

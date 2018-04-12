@@ -137,7 +137,6 @@ pages:
 
   - SQL Injection:
     - What is SQL Injection: 'web-exploitation/sql-injection/what-is-sql-injection.md'
-    - Exploiting SQL Injection: 'web-exploitation/sql-injection/what-is-sql-injection.md'
 
   - Command Injection:
     - What is Command Injection: 'web-exploitation/command-injection/what-is-command-injection.md'
@@ -153,6 +152,9 @@ pages:
 
   - Server Side Request Forgery:
     - What is Server Side Request Forgery: 'web-exploitation/server-side-request-forgery/what-is-server-side-request-forgery.md'
+
+  - PHP:
+    - What is PHP?: 'web-exploitation/php/what-is-php.md'
 
   - Challenges:
     - Easy:

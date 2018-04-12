@@ -4241,6 +4241,111 @@
             "title": "GDB"
         }, 
         {
+            "location": "/reverse-engineering/what-is-gdb/", 
+            "text": "The GNU Debugger (GDB)\n\n\nThe GNU Debugger or GDB is a powerful debugger which allows for step-by-step execution of a program. It can be used to trace program execution and is an important part of any reverse engineering toolkit.\n\n\nVanilla GDB\n\n\nGDB without any modifications is unintuitive and obscures a lot of useful information. The plug-in \npwndb\n solves a lot of these problems and makes for a much more pleasant experience. But if you are constrained and \nhave\n to use vanilla gdb, here are several things to make your life easier.\n\n\nStarting GDB\n\n\nTo execute GBD and attach it to a program simply run \ngdb [program]\n\n\nDisassembly\n\n\n(gdb) disassemble [address/symbol]\n will display the disassembly for that function/frame\n\n\nGDB will autocomplete functions, so saying \n(gdb) disas main\n suffices if you'd like to see the disassembly of main\n\n\nView Disassembly During Execution\n\n\nAnother handy thing to see while stepping through a program is the disassembly of nearby instructions:\n\n\n(gdb) display/[# of instructions]i $pc [\u00b1 offset]\n\n\n\n\ndisplay\n shows data with each step\n\n\n/[#]i\n shows how much data in the format i for instruction \n\n\n$pc\n means the pc, program counter, register\n\n\n[\u00b1 offset]\n allows you to specify how you would like the data offset from the current instruction\n\n\n\n\nExample Usage\n\n\n(gdb) display/10i $pc - 0x5\n\n\nThis command will show 10 instructions on screen with an offset from the next instruction of 5, giving us this display:\n\n\n   0x8048535 \nmain+6\n:  lock pushl -0x4(%ecx)\n   0x8048539 \nmain+10\n: push   %ebp\n=\n 0x804853a \nmain+11\n: mov    %esp,%ebp\n   0x804853c \nmain+13\n: push   %ecx\n   0x804853d \nmain+14\n: sub    $0x14,%esp\n   0x8048540 \nmain+17\n: sub    $0xc,%esp\n   0x8048543 \nmain+20\n: push   $0x400\n   0x8048548 \nmain+25\n: call   0x80483a0 \nmalloc@plt\n\n   0x804854d \nmain+30\n: add    $0x10,%esp\n   0x8048550 \nmain+33\n: sub    $0xc,%esp\n\n\n\n\n\nDeleting Views\n\n\nIf for whatever reason, a view no long suits your needs simply call \n(gdb) info display\n which will give you a list of active displays:\n\n\nAuto-display expressions now in effect:\nNum Enb Expression\n1:   y  /10bi $pc-0x5\n\n\n\n\n\nThen simply execute \n(gdb) delete display 1\n and your execution will resume without the display.\n\n\nRegisters\n\n\nIn order to view the state of registers with vanilla gdb, you need to run the command \ninfo registers\n which will display the state of all the registers:\n\n\neax            0xf77a6ddc   -142971428\necx            0xffe06b10   -2069744\nedx            0xffe06b34   -2069708\nebx            0x0  0\nesp            0xffe06af8   0xffe06af8\nebp            0x0  0x0\nesi            0xf77a5000   -142979072\nedi            0xf77a5000   -142979072\neip            0x804853a    0x804853a \nmain+11\n\neflags         0x286    [ PF SF IF ]\ncs             0x23 35\nss             0x2b 43\nds             0x2b 43\nes             0x2b 43\nfs             0x0  0\ngs             0x63 99\n\n\n\n\n\nIf you simply would like to see the contents of a single register, the notation \nx/x $[register]\n where:\n\n\n\n\nx/x\n means display the address in hex notation\n\n\n$[register]\n is the register code such as eax, rax, etc.\n\n\n\n\nPwndbg\n\n\nThese commands work with vanilla gdb as well.\n\n\nSetting Breakpoints\n\n\nSetting breakpoints in GDB uses the format \nb*[Address/Symbol]\n\n\nExample Usage\n\n\n\n\n(gdb) b*main\n: Break at the start\n\n\n(gdb) b*0x804854d\n: Break at 0x804854d\n\n\n(gdb) b*0x804854d-0x100\n: Break at 0x804844d\n\n\n\n\nDeleting Breakpoints\n\n\nAs before, in order to delete a view, you can list the available breakpoints using \n(gdb) info breakpoints\n (don't forget about GDB's autocomplete, you don't always need to type out every command!) which will display all breakpoints:\n\n\nNum     Type           Disp Enb Address    What\n1       breakpoint     keep y   0x0804852f \nmain\n\n3       breakpoint     keep y   0x0804864d \n__libc_csu_init+61\n\n\n\n\n\n\nThen simply execute \n(gdb) delete 1\n\n\n\n\nNote\n\n\nGDB creates breakpoints chronologically and does NOT reuse numbers.\n\n\n\n\nStepping\n\n\nWhat good is a debugger if you can't control where you are going? In order to begin execution of a program, use the command \nr [arguments]\n similar to how if you ran it with dot-slash notation you would execute it \n./program [arguments]\n. In this case the program will run normally and if no breakpoints are set, you will execute normally. If you have breakpoints set, you will stop at that instruction.\n\n\n\n\n(gdb) continue [# of breakpoints]\n: Resumes the execution of the program until it finishes or until another breakpoint is hit (shorthand \nc\n)\n\n\n(gdb) step[# of instructions]\n: Steps into an instruction the specified number of times, default is 1 (shorthand \ns\n)\n\n\n(gdb) next instruction [# of instructions]\n: Steps over an instruction meaning it will not delve into called functions (shorthand \nni\n)\n\n\n(gdb) finish\n: Finishes a function and breaks after it gets returned (shorthand \nfin\n)\n\n\n\n\nExamining\n\n\nExamining data in GDB is also very useful for seeing how the program is affecting data. The notation may seem complex at first, but it is flexible and provides powerful functionality.\n\n\n(gdb) x/[#][size][format] [Address/Symbol/Register][\u00b1 offset]\n\n\n\n\nx/\n means examine\n\n\n[#]\n means how much\n\n\n[size]\n means what size the data should be such as a word \nw\n (2 bytes), double word \nd\n (4 bytes), or giant word \ng\n (8 bytes)\n\n\n[format]\n means how the data should be interpreted such as an instruction \ni\n, a string \ns\n, hex bytes \nx\n\n\n[Address/Symbol][\u00b1 offset]\n means where to start interpreting the data\n\n\n\n\nExample Usage\n\n\n\n\n(gdb) x/x $rax\n: Displays the content of the register RAX as hex bytes\n\n\n(gdb) x/i 0xdeadbeef\n: Displays the instruction at address 0xdeadbeef\n\n\n(gdb) x/10s 0x893e10\n: Displays 10 strings at the address\n\n\n(gdb) x/10gx 0x7fe10\n: Displays 10 giant words as hex at the address\n\n\n\n\nForking\n\n\nIf the program happens to be an accept-and-fork server, gdb will have issues following the child or parent processes. In order to specify how you want gdb to function you can use the command \nset follow-fork-mode [on/off]\n\n\nSetting Data\n\n\nIf you would like to set data at any point, it is possible using the command \nset\n \n[\nAddress\n/\nRegister\n]\n=\n[\nHex\n \nData\n]\n\n\nExample Usage\n\n\n\n\nset $rax=0x0\n: Sets the register rax to 0\n\n\nset 0x1e4a70=0x123\n: Sets the data at 0x1e4a70 to 0x123\n\n\n\n\nProcess Mapping\n\n\nA handy way to find the process's mapped address spaces is to use \ninfo proc map\n:\n\n\nMapped address spaces:\n\n    Start Addr   End Addr       Size     Offset objfile\n     0x8048000  0x8049000     0x1000        0x0 /directory/program\n     0x8049000  0x804a000     0x1000        0x0 /directory/program\n     0x804a000  0x804b000     0x1000     0x1000 /directory/program\n    0xf75cb000 0xf75cc000     0x1000        0x0\n    0xf75cc000 0xf7779000   0x1ad000        0x0 /lib32/libc-2.23.so\n    0xf7779000 0xf777b000     0x2000   0x1ac000 /lib32/libc-2.23.so\n    0xf777b000 0xf777c000     0x1000   0x1ae000 /lib32/libc-2.23.so\n    0xf777c000 0xf7780000     0x4000        0x0\n    0xf778b000 0xf778d000     0x2000        0x0 [vvar]\n    0xf778d000 0xf778f000     0x2000        0x0 [vdso]\n    0xf778f000 0xf77b1000    0x22000        0x0 /lib32/ld-2.23.so\n    0xf77b1000 0xf77b2000     0x1000        0x0\n    0xf77b2000 0xf77b3000     0x1000    0x22000 /lib32/ld-2.23.so\n    0xf77b3000 0xf77b4000     0x1000    0x23000 /lib32/ld-2.23.so\n    0xffc59000 0xffc7a000    0x21000        0x0 [stack]\n\n\n\n\n\nThis will show you where the stack, heap (if there is one), and libc are located.\n\n\nAttaching Processes\n\n\nAnother useful feature of GDB is to attach to processes which are already running. Simply launch gdb using \ngdb\n, then find the process id of the program you would like to attach to an execute \nattach [pid]\n.", 
+            "title": "What is GDB"
+        }, 
+        {
+            "location": "/reverse-engineering/what-is-gdb/#the-gnu-debugger-gdb", 
+            "text": "The GNU Debugger or GDB is a powerful debugger which allows for step-by-step execution of a program. It can be used to trace program execution and is an important part of any reverse engineering toolkit.", 
+            "title": "The GNU Debugger (GDB)"
+        }, 
+        {
+            "location": "/reverse-engineering/what-is-gdb/#vanilla-gdb", 
+            "text": "GDB without any modifications is unintuitive and obscures a lot of useful information. The plug-in  pwndb  solves a lot of these problems and makes for a much more pleasant experience. But if you are constrained and  have  to use vanilla gdb, here are several things to make your life easier.", 
+            "title": "Vanilla GDB"
+        }, 
+        {
+            "location": "/reverse-engineering/what-is-gdb/#starting-gdb", 
+            "text": "To execute GBD and attach it to a program simply run  gdb [program]", 
+            "title": "Starting GDB"
+        }, 
+        {
+            "location": "/reverse-engineering/what-is-gdb/#disassembly", 
+            "text": "(gdb) disassemble [address/symbol]  will display the disassembly for that function/frame  GDB will autocomplete functions, so saying  (gdb) disas main  suffices if you'd like to see the disassembly of main", 
+            "title": "Disassembly"
+        }, 
+        {
+            "location": "/reverse-engineering/what-is-gdb/#view-disassembly-during-execution", 
+            "text": "Another handy thing to see while stepping through a program is the disassembly of nearby instructions:  (gdb) display/[# of instructions]i $pc [\u00b1 offset]   display  shows data with each step  /[#]i  shows how much data in the format i for instruction   $pc  means the pc, program counter, register  [\u00b1 offset]  allows you to specify how you would like the data offset from the current instruction", 
+            "title": "View Disassembly During Execution"
+        }, 
+        {
+            "location": "/reverse-engineering/what-is-gdb/#example-usage", 
+            "text": "(gdb) display/10i $pc - 0x5  This command will show 10 instructions on screen with an offset from the next instruction of 5, giving us this display:     0x8048535  main+6 :  lock pushl -0x4(%ecx)\n   0x8048539  main+10 : push   %ebp\n=  0x804853a  main+11 : mov    %esp,%ebp\n   0x804853c  main+13 : push   %ecx\n   0x804853d  main+14 : sub    $0x14,%esp\n   0x8048540  main+17 : sub    $0xc,%esp\n   0x8048543  main+20 : push   $0x400\n   0x8048548  main+25 : call   0x80483a0  malloc@plt \n   0x804854d  main+30 : add    $0x10,%esp\n   0x8048550  main+33 : sub    $0xc,%esp", 
+            "title": "Example Usage"
+        }, 
+        {
+            "location": "/reverse-engineering/what-is-gdb/#deleting-views", 
+            "text": "If for whatever reason, a view no long suits your needs simply call  (gdb) info display  which will give you a list of active displays:  Auto-display expressions now in effect:\nNum Enb Expression\n1:   y  /10bi $pc-0x5  Then simply execute  (gdb) delete display 1  and your execution will resume without the display.", 
+            "title": "Deleting Views"
+        }, 
+        {
+            "location": "/reverse-engineering/what-is-gdb/#registers", 
+            "text": "In order to view the state of registers with vanilla gdb, you need to run the command  info registers  which will display the state of all the registers:  eax            0xf77a6ddc   -142971428\necx            0xffe06b10   -2069744\nedx            0xffe06b34   -2069708\nebx            0x0  0\nesp            0xffe06af8   0xffe06af8\nebp            0x0  0x0\nesi            0xf77a5000   -142979072\nedi            0xf77a5000   -142979072\neip            0x804853a    0x804853a  main+11 \neflags         0x286    [ PF SF IF ]\ncs             0x23 35\nss             0x2b 43\nds             0x2b 43\nes             0x2b 43\nfs             0x0  0\ngs             0x63 99  If you simply would like to see the contents of a single register, the notation  x/x $[register]  where:   x/x  means display the address in hex notation  $[register]  is the register code such as eax, rax, etc.", 
+            "title": "Registers"
+        }, 
+        {
+            "location": "/reverse-engineering/what-is-gdb/#pwndbg", 
+            "text": "These commands work with vanilla gdb as well.", 
+            "title": "Pwndbg"
+        }, 
+        {
+            "location": "/reverse-engineering/what-is-gdb/#setting-breakpoints", 
+            "text": "Setting breakpoints in GDB uses the format  b*[Address/Symbol]", 
+            "title": "Setting Breakpoints"
+        }, 
+        {
+            "location": "/reverse-engineering/what-is-gdb/#example-usage_1", 
+            "text": "(gdb) b*main : Break at the start  (gdb) b*0x804854d : Break at 0x804854d  (gdb) b*0x804854d-0x100 : Break at 0x804844d", 
+            "title": "Example Usage"
+        }, 
+        {
+            "location": "/reverse-engineering/what-is-gdb/#deleting-breakpoints", 
+            "text": "As before, in order to delete a view, you can list the available breakpoints using  (gdb) info breakpoints  (don't forget about GDB's autocomplete, you don't always need to type out every command!) which will display all breakpoints:  Num     Type           Disp Enb Address    What\n1       breakpoint     keep y   0x0804852f  main \n3       breakpoint     keep y   0x0804864d  __libc_csu_init+61   Then simply execute  (gdb) delete 1   Note  GDB creates breakpoints chronologically and does NOT reuse numbers.", 
+            "title": "Deleting Breakpoints"
+        }, 
+        {
+            "location": "/reverse-engineering/what-is-gdb/#stepping", 
+            "text": "What good is a debugger if you can't control where you are going? In order to begin execution of a program, use the command  r [arguments]  similar to how if you ran it with dot-slash notation you would execute it  ./program [arguments] . In this case the program will run normally and if no breakpoints are set, you will execute normally. If you have breakpoints set, you will stop at that instruction.   (gdb) continue [# of breakpoints] : Resumes the execution of the program until it finishes or until another breakpoint is hit (shorthand  c )  (gdb) step[# of instructions] : Steps into an instruction the specified number of times, default is 1 (shorthand  s )  (gdb) next instruction [# of instructions] : Steps over an instruction meaning it will not delve into called functions (shorthand  ni )  (gdb) finish : Finishes a function and breaks after it gets returned (shorthand  fin )", 
+            "title": "Stepping"
+        }, 
+        {
+            "location": "/reverse-engineering/what-is-gdb/#examining", 
+            "text": "Examining data in GDB is also very useful for seeing how the program is affecting data. The notation may seem complex at first, but it is flexible and provides powerful functionality.  (gdb) x/[#][size][format] [Address/Symbol/Register][\u00b1 offset]   x/  means examine  [#]  means how much  [size]  means what size the data should be such as a word  w  (2 bytes), double word  d  (4 bytes), or giant word  g  (8 bytes)  [format]  means how the data should be interpreted such as an instruction  i , a string  s , hex bytes  x  [Address/Symbol][\u00b1 offset]  means where to start interpreting the data", 
+            "title": "Examining"
+        }, 
+        {
+            "location": "/reverse-engineering/what-is-gdb/#example-usage_2", 
+            "text": "(gdb) x/x $rax : Displays the content of the register RAX as hex bytes  (gdb) x/i 0xdeadbeef : Displays the instruction at address 0xdeadbeef  (gdb) x/10s 0x893e10 : Displays 10 strings at the address  (gdb) x/10gx 0x7fe10 : Displays 10 giant words as hex at the address", 
+            "title": "Example Usage"
+        }, 
+        {
+            "location": "/reverse-engineering/what-is-gdb/#forking", 
+            "text": "If the program happens to be an accept-and-fork server, gdb will have issues following the child or parent processes. In order to specify how you want gdb to function you can use the command  set follow-fork-mode [on/off]", 
+            "title": "Forking"
+        }, 
+        {
+            "location": "/reverse-engineering/what-is-gdb/#setting-data", 
+            "text": "If you would like to set data at any point, it is possible using the command  set   [ Address / Register ] = [ Hex   Data ]", 
+            "title": "Setting Data"
+        }, 
+        {
+            "location": "/reverse-engineering/what-is-gdb/#example-usage_3", 
+            "text": "set $rax=0x0 : Sets the register rax to 0  set 0x1e4a70=0x123 : Sets the data at 0x1e4a70 to 0x123", 
+            "title": "Example Usage"
+        }, 
+        {
+            "location": "/reverse-engineering/what-is-gdb/#process-mapping", 
+            "text": "A handy way to find the process's mapped address spaces is to use  info proc map :  Mapped address spaces:\n\n    Start Addr   End Addr       Size     Offset objfile\n     0x8048000  0x8049000     0x1000        0x0 /directory/program\n     0x8049000  0x804a000     0x1000        0x0 /directory/program\n     0x804a000  0x804b000     0x1000     0x1000 /directory/program\n    0xf75cb000 0xf75cc000     0x1000        0x0\n    0xf75cc000 0xf7779000   0x1ad000        0x0 /lib32/libc-2.23.so\n    0xf7779000 0xf777b000     0x2000   0x1ac000 /lib32/libc-2.23.so\n    0xf777b000 0xf777c000     0x1000   0x1ae000 /lib32/libc-2.23.so\n    0xf777c000 0xf7780000     0x4000        0x0\n    0xf778b000 0xf778d000     0x2000        0x0 [vvar]\n    0xf778d000 0xf778f000     0x2000        0x0 [vdso]\n    0xf778f000 0xf77b1000    0x22000        0x0 /lib32/ld-2.23.so\n    0xf77b1000 0xf77b2000     0x1000        0x0\n    0xf77b2000 0xf77b3000     0x1000    0x22000 /lib32/ld-2.23.so\n    0xf77b3000 0xf77b4000     0x1000    0x23000 /lib32/ld-2.23.so\n    0xffc59000 0xffc7a000    0x21000        0x0 [stack]  This will show you where the stack, heap (if there is one), and libc are located.", 
+            "title": "Process Mapping"
+        }, 
+        {
+            "location": "/reverse-engineering/what-is-gdb/#attaching-processes", 
+            "text": "Another useful feature of GDB is to attach to processes which are already running. Simply launch gdb using  gdb , then find the process id of the program you would like to attach to an execute  attach [pid] .", 
+            "title": "Attaching Processes"
+        }, 
+        {
             "location": "/reverse-engineering/what-are-decompilers/", 
             "text": "Decompilers\n\n\nDecompilers do the impossible and reverse compiled code \nback\n into psuedocode/code.\n\n\nIDA offers HexRays, which translates machine code into a higher language pseudocode.", 
             "title": "What are Decompilers"

@@ -34,12 +34,11 @@ pages:
   - File Formats:
     - What are File Formats: 'forensics/what-are-file-formats.md'
 
-  - EXIF Data:
-    - What is EXIF Data: 'forensics/what-is-exif-data.md'
+  - Metadata:
+    - What is Metadata: 'forensics/what-is-metadata.md'
 
-  - Wireshark and PCAPs:
+  - Wireshark:
     - What is Wireshark: 'forensics/what-is-wireshark.md'
-    - What are PCAPs: 'forensics/what-are-pcaps.md'
 
   - Stegonagraphy:
     - What is Stegonagraphy: 'forensics/what-is-stegonagraphy.md'

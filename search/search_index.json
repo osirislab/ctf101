@@ -27,7 +27,7 @@
         }, 
         {
             "location": "/forensics/what-are-file-formats/", 
-            "text": "File Formats\n\n\nFile Extensions are not the sole way to identify the type of a file, files have certain leading bytes called \nfile signatures\n which allow programs to parse the data in a consistent manner. Files can also contain additional \"hidden\" data called \nmetadata\n which can be useful in finding out information about the context of a file's data.\n\n\nFile Signatures\n\n\nFile signatures\n (also known as File Magic Numbers) are bytes within a file used to identify the format of the file. Generally they\u2019re 2-4 bytes long, found at the beginning of a file.\n\n\nWhat is it used for?\n\n\nFiles can sometimes come without an extension, or with incorrect ones. We use file signature analysis to identify the format (file type) of the file. Programs need to know the file type in order to open it properly.\n\n\nHow do you find the file signature?\n\n\nYou need to be able to look at the binary data that constitutes the file you\u2019re examining. To do this, you\u2019ll use a hexadecimal editor. Once you find the file signature, you can check it against file signature repositories \nsuch as Gary Kessler\u2019s\n.\n\n\nExample\n\n\nFile A\n\n\nThe file above, when opened in a Hex Editor, begins with the bytes \nFFD8FFE0 00104A46 494600\n or in ASCII \n\u02c7\u00ff\u02c7\u2021  JFIF\n where \n\\x00\n and \n\\x10\n lack symbols. \n\n\nSearching in \nGary Kessler\u2019s\n database shows that this file signature belongs to a \nJPEG/JFIF graphics file\n, exactly what we suspect.\n\n\nFile Metadata\n\n\nMetadata is data about data. Different types of files have different metadata. The metadata on a photo could include dates, camera information, GPS location, comments, etc. For music, it could include the title, author, track number and album.\n\n\nWhat kind of file metadata is useful?\n\n\nPotentially, any file metadata you can find could be useful.\n\n\nHow do I find it?\n\n\nOne of our favorite tools is exiftool, which displays metadata for an input file, including:\n- File size\n- Dimensions (width and height)\n- File type\n- Programs used to create (e.g. Photoshop)\n- OS used to create (e.g. Apple)\n\n\nRun command line: \nexiftool(-k).exe [filename]\n and you should see something like this:\n\n\n\n\nExample\n\n\nLet's take a look at File A's metadata with exiftool: \n\n\nFile type\n\n\nMetadata 1\n\n\nImage description\n\n\nMetadata 2\n\n\nMake and camera info\n\n\nMetadata 3\n\n\nGPS Latitude/Longitude\n\n\nMetadata 4\n\n\nTimestamps\n\n\nTimestamps are data that indicate the time of certain events (MAC):\n- Modification \u2013 when a file was modified\n- Access \u2013 when a file or entries were read or accessed\n- Creation \u2013 when files or entries were created\n\n\nTypes of timestamps\n\n\n\n\nModified\n\n\nAccessed\n\n\nCreated\n\n\nDate Changed (MFT)\n\n\nFilename Date Created (MFT)\n\n\nFilename Date Modified (MFT)\n\n\nFilename Date Accessed (MFT)\n\n\nINDX Entry Date Created\n\n\nINDX Entry Date Modified\n\n\nINDX Entry Date Accessed\n\n\nINDX Entry Date Changed\n\n\n\n\nWhy do we care?\n\n\nCertain events such as creating, moving, copying, opening, editing, etc. might affect the MAC times. If the MAC timestamps can be attained, a timeline of events could be created.\n\n\nTimeline Patterns\n\n\nThere are plenty more patterns than the ones introduced below, but these are the basics you should start with to get a good understanding of how it works, and to complete this challenge.\n\n\n\n\n\n\n\n\n\n\n\n\nExamples\n\n\nWe know that the BMP files fileA and fileD are the same, but that the JPEG files fileB and fileC are different somehow. So how can we find out what went on with these files?\n\n\n\n\nBy using time stamp information from the file system, we can learn that the BMP fileD was the original file, with fileA being a copy of the original. Afterward, fileB was created by modifying fileB, and fileC was created by modifying fileA in a different way.\n\n\nFollow along as we demonstrate.\n\n\nWe\u2019ll start by analyzing images in AccessData FTK Imager, where there\u2019s a Properties window that shows you some information about the file or folder you\u2019ve selected.\n\n\n\n\n\n\n\n\n\n\nHere are the extracted MAC times for fileA, fileB, fileC and fileD:\n\nNote, AccessData FTK Imager assumes that the file times on the drive are in UTC (Universal Coordinated Time). I subtracted four hours, since the USB was set up in Eastern Standard Time. This isn\u2019t necessary, but it helps me understand the times a bit better.\n\n\n\n\nHighlight timestamps that are the same, if timestamps are off by a few seconds, they should be counted as the same. This lets you see a clear difference between different timestamps. Then, highlight oldest to newest to help put them in order.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIdentify timestamp patterns.", 
+            "text": "File Formats\n\n\nFile Extensions are not the sole way to identify the type of a file, files have certain leading bytes called \nfile signatures\n which allow programs to parse the data in a consistent manner. Files can also contain additional \"hidden\" data called \nmetadata\n which can be useful in finding out information about the context of a file's data.\n\n\nFile Signatures\n\n\nFile signatures\n (also known as File Magic Numbers) are bytes within a file used to identify the format of the file. Generally they\u2019re 2-4 bytes long, found at the beginning of a file.\n\n\nWhat is it used for?\n\n\nFiles can sometimes come without an extension, or with incorrect ones. We use file signature analysis to identify the format (file type) of the file. Programs need to know the file type in order to open it properly.\n\n\nHow do you find the file signature?\n\n\nYou need to be able to look at the binary data that constitutes the file you\u2019re examining. To do this, you\u2019ll use a hexadecimal editor. Once you find the file signature, you can check it against file signature repositories \nsuch as Gary Kessler\u2019s\n.\n\n\nExample\n\n\n\n\nThe file above, when opened in a Hex Editor, begins with the bytes \nFFD8FFE0 00104A46 494600\n or in ASCII \n\u02c7\u00ff\u02c7\u2021  JFIF\n where \n\\x00\n and \n\\x10\n lack symbols. \n\n\nSearching in \nGary Kessler\u2019s\n database shows that this file signature belongs to a \nJPEG/JFIF graphics file\n, exactly what we suspect.", 
             "title": "What are File Formats"
         }, 
         {
@@ -52,83 +52,88 @@
         }, 
         {
             "location": "/forensics/what-are-file-formats/#example", 
-            "text": "File A  The file above, when opened in a Hex Editor, begins with the bytes  FFD8FFE0 00104A46 494600  or in ASCII  \u02c7\u00ff\u02c7\u2021  JFIF  where  \\x00  and  \\x10  lack symbols.   Searching in  Gary Kessler\u2019s  database shows that this file signature belongs to a  JPEG/JFIF graphics file , exactly what we suspect.", 
+            "text": "The file above, when opened in a Hex Editor, begins with the bytes  FFD8FFE0 00104A46 494600  or in ASCII  \u02c7\u00ff\u02c7\u2021  JFIF  where  \\x00  and  \\x10  lack symbols.   Searching in  Gary Kessler\u2019s  database shows that this file signature belongs to a  JPEG/JFIF graphics file , exactly what we suspect.", 
             "title": "Example"
         }, 
         {
-            "location": "/forensics/what-are-file-formats/#file-metadata", 
-            "text": "Metadata is data about data. Different types of files have different metadata. The metadata on a photo could include dates, camera information, GPS location, comments, etc. For music, it could include the title, author, track number and album.", 
-            "title": "File Metadata"
+            "location": "/forensics/what-is-metadata/", 
+            "text": "Metadata\n\n\nMetadata is data about data. Different types of files have different metadata. The metadata on a photo could include dates, camera information, GPS location, comments, etc. For music, it could include the title, author, track number and album.\n\n\nWhat kind of file metadata is useful?\n\n\nPotentially, any file metadata you can find could be useful.\n\n\nHow do I find it?\n\n\n\n\nNote\n\n\nEXIF Data is metadata attached to photos which can include location, time, and device information.\n\n\n\n\nOne of our favorite tools is exiftool, which displays metadata for an input file, including:\n- File size\n- Dimensions (width and height)\n- File type\n- Programs used to create (e.g. Photoshop)\n- OS used to create (e.g. Apple)\n\n\nRun command line: \nexiftool(-k).exe [filename]\n and you should see something like this:\n\n\n\n\nExample\n\n\nLet's take a look at File A's metadata with exiftool: \n\n\nFile type\n\n\n\n\nImage description\n\n\n\n\nMake and camera info\n\n\n\n\nGPS Latitude/Longitude\n\n\n\n\nTimestamps\n\n\nTimestamps are data that indicate the time of certain events (MAC):\n- Modification \u2013 when a file was modified\n- Access \u2013 when a file or entries were read or accessed\n- Creation \u2013 when files or entries were created\n\n\nTypes of timestamps\n\n\n\n\nModified\n\n\nAccessed\n\n\nCreated\n\n\nDate Changed (MFT)\n\n\nFilename Date Created (MFT)\n\n\nFilename Date Modified (MFT)\n\n\nFilename Date Accessed (MFT)\n\n\nINDX Entry Date Created\n\n\nINDX Entry Date Modified\n\n\nINDX Entry Date Accessed\n\n\nINDX Entry Date Changed\n\n\n\n\nWhy do we care?\n\n\nCertain events such as creating, moving, copying, opening, editing, etc. might affect the MAC times. If the MAC timestamps can be attained, a timeline of events could be created.\n\n\nTimeline Patterns\n\n\nThere are plenty more patterns than the ones introduced below, but these are the basics you should start with to get a good understanding of how it works, and to complete this challenge.\n\n\n\n\n\n\n\n\n\n\n\n\nExamples\n\n\nWe know that the BMP files fileA and fileD are the same, but that the JPEG files fileB and fileC are different somehow. So how can we find out what went on with these files?\n\n\n\n\nBy using time stamp information from the file system, we can learn that the BMP fileD was the original file, with fileA being a copy of the original. Afterward, fileB was created by modifying fileB, and fileC was created by modifying fileA in a different way.\n\n\nFollow along as we demonstrate.\n\n\nWe\u2019ll start by analyzing images in AccessData FTK Imager, where there\u2019s a Properties window that shows you some information about the file or folder you\u2019ve selected.\n\n\n\n\n\n\n\n\n\n\nHere are the extracted MAC times for fileA, fileB, fileC and fileD:\n\nNote, AccessData FTK Imager assumes that the file times on the drive are in UTC (Universal Coordinated Time). I subtracted four hours, since the USB was set up in Eastern Standard Time. This isn\u2019t necessary, but it helps me understand the times a bit better.\n\n\n\n\nHighlight timestamps that are the same, if timestamps are off by a few seconds, they should be counted as the same. This lets you see a clear difference between different timestamps. Then, highlight oldest to newest to help put them in order.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIdentify timestamp patterns.", 
+            "title": "What is Metadata"
         }, 
         {
-            "location": "/forensics/what-are-file-formats/#what-kind-of-file-metadata-is-useful", 
+            "location": "/forensics/what-is-metadata/#metadata", 
+            "text": "Metadata is data about data. Different types of files have different metadata. The metadata on a photo could include dates, camera information, GPS location, comments, etc. For music, it could include the title, author, track number and album.", 
+            "title": "Metadata"
+        }, 
+        {
+            "location": "/forensics/what-is-metadata/#what-kind-of-file-metadata-is-useful", 
             "text": "Potentially, any file metadata you can find could be useful.", 
             "title": "What kind of file metadata is useful?"
         }, 
         {
-            "location": "/forensics/what-are-file-formats/#how-do-i-find-it", 
-            "text": "One of our favorite tools is exiftool, which displays metadata for an input file, including:\n- File size\n- Dimensions (width and height)\n- File type\n- Programs used to create (e.g. Photoshop)\n- OS used to create (e.g. Apple)  Run command line:  exiftool(-k).exe [filename]  and you should see something like this:", 
+            "location": "/forensics/what-is-metadata/#how-do-i-find-it", 
+            "text": "Note  EXIF Data is metadata attached to photos which can include location, time, and device information.   One of our favorite tools is exiftool, which displays metadata for an input file, including:\n- File size\n- Dimensions (width and height)\n- File type\n- Programs used to create (e.g. Photoshop)\n- OS used to create (e.g. Apple)  Run command line:  exiftool(-k).exe [filename]  and you should see something like this:", 
             "title": "How do I find it?"
         }, 
         {
-            "location": "/forensics/what-are-file-formats/#example_1", 
-            "text": "Let's take a look at File A's metadata with exiftool:   File type  Metadata 1  Image description  Metadata 2  Make and camera info  Metadata 3  GPS Latitude/Longitude  Metadata 4", 
+            "location": "/forensics/what-is-metadata/#example", 
+            "text": "Let's take a look at File A's metadata with exiftool:   File type   Image description   Make and camera info   GPS Latitude/Longitude", 
             "title": "Example"
         }, 
         {
-            "location": "/forensics/what-are-file-formats/#timestamps", 
+            "location": "/forensics/what-is-metadata/#timestamps", 
             "text": "Timestamps are data that indicate the time of certain events (MAC):\n- Modification \u2013 when a file was modified\n- Access \u2013 when a file or entries were read or accessed\n- Creation \u2013 when files or entries were created", 
             "title": "Timestamps"
         }, 
         {
-            "location": "/forensics/what-are-file-formats/#types-of-timestamps", 
+            "location": "/forensics/what-is-metadata/#types-of-timestamps", 
             "text": "Modified  Accessed  Created  Date Changed (MFT)  Filename Date Created (MFT)  Filename Date Modified (MFT)  Filename Date Accessed (MFT)  INDX Entry Date Created  INDX Entry Date Modified  INDX Entry Date Accessed  INDX Entry Date Changed", 
             "title": "Types of timestamps"
         }, 
         {
-            "location": "/forensics/what-are-file-formats/#why-do-we-care", 
+            "location": "/forensics/what-is-metadata/#why-do-we-care", 
             "text": "Certain events such as creating, moving, copying, opening, editing, etc. might affect the MAC times. If the MAC timestamps can be attained, a timeline of events could be created.", 
             "title": "Why do we care?"
         }, 
         {
-            "location": "/forensics/what-are-file-formats/#timeline-patterns", 
+            "location": "/forensics/what-is-metadata/#timeline-patterns", 
             "text": "There are plenty more patterns than the ones introduced below, but these are the basics you should start with to get a good understanding of how it works, and to complete this challenge.", 
             "title": "Timeline Patterns"
         }, 
         {
-            "location": "/forensics/what-are-file-formats/#examples", 
+            "location": "/forensics/what-is-metadata/#examples", 
             "text": "We know that the BMP files fileA and fileD are the same, but that the JPEG files fileB and fileC are different somehow. So how can we find out what went on with these files?   By using time stamp information from the file system, we can learn that the BMP fileD was the original file, with fileA being a copy of the original. Afterward, fileB was created by modifying fileB, and fileC was created by modifying fileA in a different way.  Follow along as we demonstrate.  We\u2019ll start by analyzing images in AccessData FTK Imager, where there\u2019s a Properties window that shows you some information about the file or folder you\u2019ve selected.      Here are the extracted MAC times for fileA, fileB, fileC and fileD: Note, AccessData FTK Imager assumes that the file times on the drive are in UTC (Universal Coordinated Time). I subtracted four hours, since the USB was set up in Eastern Standard Time. This isn\u2019t necessary, but it helps me understand the times a bit better.   Highlight timestamps that are the same, if timestamps are off by a few seconds, they should be counted as the same. This lets you see a clear difference between different timestamps. Then, highlight oldest to newest to help put them in order.            Identify timestamp patterns.", 
             "title": "Examples"
         }, 
         {
-            "location": "/forensics/what-is-exif-data/", 
-            "text": "EXIF Data\n\n\nEXIF Data is metadata attached to photos which can include location, time, and device information.", 
-            "title": "What is EXIF Data"
-        }, 
-        {
-            "location": "/forensics/what-is-exif-data/#exif-data", 
-            "text": "EXIF Data is metadata attached to photos which can include location, time, and device information.", 
-            "title": "EXIF Data"
-        }, 
-        {
             "location": "/forensics/what-is-wireshark/", 
-            "text": "Wireshark\n\n\nWireshark is a network protocol analyzer which is often used in CTF challenges to look at recorded network traffic.", 
+            "text": "Wireshark\n\n\nWireshark\n is a network protocol analyzer which is often used in CTF challenges to look at recorded network traffic. Wireshark uses a filetype called PCAP to record traffic. PCAPs are often distributed in CTF challenges to provide recorded traffic history.\n\n\nInterface\n\n\nUpon opening Wireshark, you are greeted with the option to open a PCAP or begin capturing network traffic on your device.\n\n\n\n\nThe network traffic displayed initially shows the packets in order of which they were captured. You can filter packets by protocol, source IP address, destination IP address, length, etc. \n\n\n\n\nIn order to apply filters, simply enter the constraining factor, for example 'http', in the display filter bar. \n\n\n\n\nFilters can be chained together using '\n' notation. In order to filter by IP, ensure a double equals '==' is used. \n\n\n\n\nThe most pertinent part of a packet is its data payload and protocol information.\n\n\n\n\nDecrypting SSL Traffic\n\n\nBy default, Wireshark cannot decrypt SSL traffic on your device unless you grant it specific certificates.\n\n\nHigh Level SSL Handshake Overview\n\n\nIn order for a network session to be encrypted properly, the client and server must share a common secret for which they can use to encrypt and decrypt data without someone in the middle being able to guess. The SSL Handshake loosely follows this format:\n\n\n\n\nThe client sends a list of availble cipher suites it can use along with a random set of bytes referred to as client_random\n\n\nThe server sends back the cipher suite that will be used, such as TLS_DHE_RSA_WITH_AES_128_CBC_SHA, along with a random set of bytes referred to as server_random\n\n\nThe client generates a pre-master secret, encrypts it, then sends it to the server.\n\n\nThe server and client then generate a common master secret using the selected cipher suite\n\n\nThe client and server begin communicating using this common secret\n\n\n\n\nDecryption Requirements\n\n\nThere are several ways to be able to decrypt traffic.\n\n\n\n\nIf you have the client and server random values \nand\n the pre-master secret, the master secret can be generated and used to decrypt the traffic\n\n\nIf you have the master secret, traffic can be decrypted easily\n\n\nIf the cipher-suite uses RSA, you can factor \nn\n in the key in order to break the encryption on the encrypted pre-master secret and generate the master secret with the client and server randoms", 
             "title": "What is Wireshark"
         }, 
         {
             "location": "/forensics/what-is-wireshark/#wireshark", 
-            "text": "Wireshark is a network protocol analyzer which is often used in CTF challenges to look at recorded network traffic.", 
+            "text": "Wireshark  is a network protocol analyzer which is often used in CTF challenges to look at recorded network traffic. Wireshark uses a filetype called PCAP to record traffic. PCAPs are often distributed in CTF challenges to provide recorded traffic history.", 
             "title": "Wireshark"
         }, 
         {
-            "location": "/forensics/what-are-pcaps/", 
-            "text": "PCAPs\n\n\nPCAPs are often distributed in CTF challenges to provide recorded traffic history.", 
-            "title": "What are PCAPs"
+            "location": "/forensics/what-is-wireshark/#interface", 
+            "text": "Upon opening Wireshark, you are greeted with the option to open a PCAP or begin capturing network traffic on your device.   The network traffic displayed initially shows the packets in order of which they were captured. You can filter packets by protocol, source IP address, destination IP address, length, etc.    In order to apply filters, simply enter the constraining factor, for example 'http', in the display filter bar.    Filters can be chained together using ' ' notation. In order to filter by IP, ensure a double equals '==' is used.    The most pertinent part of a packet is its data payload and protocol information.", 
+            "title": "Interface"
         }, 
         {
-            "location": "/forensics/what-are-pcaps/#pcaps", 
-            "text": "PCAPs are often distributed in CTF challenges to provide recorded traffic history.", 
-            "title": "PCAPs"
+            "location": "/forensics/what-is-wireshark/#decrypting-ssl-traffic", 
+            "text": "By default, Wireshark cannot decrypt SSL traffic on your device unless you grant it specific certificates.", 
+            "title": "Decrypting SSL Traffic"
+        }, 
+        {
+            "location": "/forensics/what-is-wireshark/#high-level-ssl-handshake-overview", 
+            "text": "In order for a network session to be encrypted properly, the client and server must share a common secret for which they can use to encrypt and decrypt data without someone in the middle being able to guess. The SSL Handshake loosely follows this format:   The client sends a list of availble cipher suites it can use along with a random set of bytes referred to as client_random  The server sends back the cipher suite that will be used, such as TLS_DHE_RSA_WITH_AES_128_CBC_SHA, along with a random set of bytes referred to as server_random  The client generates a pre-master secret, encrypts it, then sends it to the server.  The server and client then generate a common master secret using the selected cipher suite  The client and server begin communicating using this common secret", 
+            "title": "High Level SSL Handshake Overview"
+        }, 
+        {
+            "location": "/forensics/what-is-wireshark/#decryption-requirements", 
+            "text": "There are several ways to be able to decrypt traffic.   If you have the client and server random values  and  the pre-master secret, the master secret can be generated and used to decrypt the traffic  If you have the master secret, traffic can be decrypted easily  If the cipher-suite uses RSA, you can factor  n  in the key in order to break the encryption on the encrypted pre-master secret and generate the master secret with the client and server randoms", 
+            "title": "Decryption Requirements"
         }, 
         {
             "location": "/forensics/what-is-stegonagraphy/", 

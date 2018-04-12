@@ -105,12 +105,12 @@
                         
                             
   <li class="dropdown-submenu">
-    <a tabindex="-1" href="">EXIF Data</a>
+    <a tabindex="-1" href="">Metadata</a>
     <ul class="dropdown-menu">
         
             
 <li >
-    <a href="../what-is-exif-data/">What is EXIF Data</a>
+    <a href="../what-is-metadata/">What is Metadata</a>
 </li>
 
         
@@ -120,18 +120,12 @@
                         
                             
   <li class="dropdown-submenu">
-    <a tabindex="-1" href="">Wireshark and PCAPs</a>
+    <a tabindex="-1" href="">Wireshark</a>
     <ul class="dropdown-menu">
         
             
 <li class="active">
     <a href="./">What is Wireshark</a>
-</li>
-
-        
-            
-<li >
-    <a href="../what-are-pcaps/">What are PCAPs</a>
 </li>
 
         
@@ -1853,12 +1847,12 @@
                         </a>
                     </li>
 <!--                     <li >
-                        <a rel="next" href="../what-is-exif-data/">
+                        <a rel="next" href="../what-is-metadata/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../what-are-pcaps/">
+                        <a rel="prev" href="../what-is-stegonagraphy/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li> -->
@@ -1873,12 +1867,48 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="first-level active"><a href="#wireshark">Wireshark</a></li>
+            <li class="second-level"><a href="#interface">Interface</a></li>
+                
+            <li class="second-level"><a href="#decrypting-ssl-traffic">Decrypting SSL Traffic</a></li>
+                
+                <li class="third-level"><a href="#high-level-ssl-handshake-overview">High Level SSL Handshake Overview</a></li>
+                <li class="third-level"><a href="#decryption-requirements">Decryption Requirements</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
 <h1 id="wireshark">Wireshark<a class="headerlink" href="#wireshark" title="Permanent link">&para;</a></h1>
-<p>Wireshark is a network protocol analyzer which is often used in CTF challenges to look at recorded network traffic. </p></div>
+<p><a href="http://www.wireshark.com">Wireshark</a> is a network protocol analyzer which is often used in CTF challenges to look at recorded network traffic. Wireshark uses a filetype called PCAP to record traffic. PCAPs are often distributed in CTF challenges to provide recorded traffic history.</p>
+<h2 id="interface">Interface<a class="headerlink" href="#interface" title="Permanent link">&para;</a></h2>
+<p>Upon opening Wireshark, you are greeted with the option to open a PCAP or begin capturing network traffic on your device.</p>
+<p><img alt="Wirshark Start Screen" src="../images/ws-start-screen.png" /></p>
+<p>The network traffic displayed initially shows the packets in order of which they were captured. You can filter packets by protocol, source IP address, destination IP address, length, etc. </p>
+<p><img alt="PCAP Screen" src="../images/ws-pcap-screen.png" /></p>
+<p>In order to apply filters, simply enter the constraining factor, for example 'http', in the display filter bar. </p>
+<p><img alt="PCAP HTTP Filter" src="../images/ws-filter.png" /></p>
+<p>Filters can be chained together using '&amp;&amp;' notation. In order to filter by IP, ensure a double equals '==' is used. </p>
+<p><img alt="PCAP HTTP IP Filter" src="../images/ws-filter-2.png" /></p>
+<p>The most pertinent part of a packet is its data payload and protocol information.</p>
+<p><img alt="HTTP TCP Info" src="../images/ws-tcp-http-info.png" /></p>
+<h2 id="decrypting-ssl-traffic">Decrypting SSL Traffic<a class="headerlink" href="#decrypting-ssl-traffic" title="Permanent link">&para;</a></h2>
+<p>By default, Wireshark cannot decrypt SSL traffic on your device unless you grant it specific certificates.</p>
+<h3 id="high-level-ssl-handshake-overview">High Level SSL Handshake Overview<a class="headerlink" href="#high-level-ssl-handshake-overview" title="Permanent link">&para;</a></h3>
+<p>In order for a network session to be encrypted properly, the client and server must share a common secret for which they can use to encrypt and decrypt data without someone in the middle being able to guess. The SSL Handshake loosely follows this format:</p>
+<ol>
+<li>The client sends a list of availble cipher suites it can use along with a random set of bytes referred to as client_random</li>
+<li>The server sends back the cipher suite that will be used, such as TLS_DHE_RSA_WITH_AES_128_CBC_SHA, along with a random set of bytes referred to as server_random</li>
+<li>The client generates a pre-master secret, encrypts it, then sends it to the server.</li>
+<li>The server and client then generate a common master secret using the selected cipher suite</li>
+<li>The client and server begin communicating using this common secret</li>
+</ol>
+<h3 id="decryption-requirements">Decryption Requirements<a class="headerlink" href="#decryption-requirements" title="Permanent link">&para;</a></h3>
+<p>There are several ways to be able to decrypt traffic.</p>
+<ul>
+<li>If you have the client and server random values <em>and</em> the pre-master secret, the master secret can be generated and used to decrypt the traffic</li>
+<li>If you have the master secret, traffic can be decrypted easily</li>
+<li>If the cipher-suite uses RSA, you can factor <em>n</em> in the key in order to break the encryption on the encrypted pre-master secret and generate the master secret with the client and server randoms </li>
+</ul>
+<p><img alt="Wireshark SSL Preferences" src="../images/ws-ssl-pref.png" /></p></div>
             
         
     </div>

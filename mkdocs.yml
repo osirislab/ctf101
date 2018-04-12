@@ -203,6 +203,9 @@ pages:
   - Disassemblers:
     - What are Disassemblers: 'reverse-engineering/what-are-disassemblers.md'
 
+  - Debuggers:
+    - What is GDB: 'reverse-engineering/what-is-gdb.md'
+
   - Decompilers:
     - What are Decompilers: 'reverse-engineering/what-are-decompilers.md'
 

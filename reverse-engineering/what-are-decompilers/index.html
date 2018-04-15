@@ -1299,18 +1299,12 @@
                         
                             
   <li class="dropdown-submenu">
-    <a tabindex="-1" href="">Buffers</a>
+    <a tabindex="-1" href="">Registers</a>
     <ul class="dropdown-menu">
         
             
 <li >
-    <a href="../../binary-exploitation/what-are-buffers/">What are Buffers</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../binary-exploitation/buffer-overflow/">Buffer Overflow</a>
+    <a href="../../binary-exploitation/what-are-registers/">What are Registers</a>
 </li>
 
         
@@ -1335,21 +1329,6 @@
                         
                             
   <li class="dropdown-submenu">
-    <a tabindex="-1" href="">Registers</a>
-    <ul class="dropdown-menu">
-        
-            
-<li >
-    <a href="../../binary-exploitation/what-are-registers/">What are Registers</a>
-</li>
-
-        
-    </ul>
-  </li>
-
-                        
-                            
-  <li class="dropdown-submenu">
     <a tabindex="-1" href="">Calling Conventions</a>
     <ul class="dropdown-menu">
         
@@ -1365,18 +1344,48 @@
                         
                             
   <li class="dropdown-submenu">
-    <a tabindex="-1" href="">The Heap</a>
+    <a tabindex="-1" href="">Global Offset Table (GOT)</a>
     <ul class="dropdown-menu">
         
             
 <li >
-    <a href="../../binary-exploitation/what-is-the-heap/">What is the Heap</a>
+    <a href="../../binary-exploitation/what-is-the-got/">What is the GOT</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Buffers</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../binary-exploitation/what-are-buffers/">What are Buffers</a>
 </li>
 
         
             
 <li >
-    <a href="../../binary-exploitation/heap-overflow/">Heap Overflow</a>
+    <a href="../../binary-exploitation/buffer-overflow/">Buffer Overflow</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Return Oriented Programming (ROP)</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../binary-exploitation/return-oriented-programming/">What is ROP</a>
 </li>
 
         
@@ -1403,19 +1412,7 @@
         
             
 <li >
-    <a href="../../binary-exploitation/data-execution-prevention/">Data Execution Prevention</a>
-</li>
-
-        
-            
-<li >
     <a href="../../binary-exploitation/address-space-layout-randomization/">Address Space Layout Randomization (ASLR)</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../binary-exploitation/relocation-read-only/">Relocation Read-Only (RELRO)</a>
 </li>
 
         
@@ -1425,18 +1422,30 @@
 </li>
 
         
+            
+<li >
+    <a href="../../binary-exploitation/relocation-read-only/">Relocation Read-Only (RELRO)</a>
+</li>
+
+        
     </ul>
   </li>
 
                         
                             
   <li class="dropdown-submenu">
-    <a tabindex="-1" href="">Return to Lib C</a>
+    <a tabindex="-1" href="">The Heap</a>
     <ul class="dropdown-menu">
         
             
 <li >
-    <a href="../../binary-exploitation/what-is-lib-c/">What is Lib C</a>
+    <a href="../../binary-exploitation/what-is-the-heap/">What is the Heap</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../binary-exploitation/heap-exploitation/">Heap Exploitation</a>
 </li>
 
         
@@ -1891,6 +1900,11 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="first-level active"><a href="#decompilers">Decompilers</a></li>
+            <li class="second-level"><a href="#example-workflow">Example Workflow</a></li>
+                
+                <li class="third-level"><a href="#main">Main</a></li>
+                <li class="third-level"><a href="#printspacer-function">printSpacer Function</a></li>
+                <li class="third-level"><a href="#results">Results</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
@@ -1898,7 +1912,152 @@
 <h1 id="decompilers">Decompilers<a class="headerlink" href="#decompilers" title="Permanent link">&para;</a></h1>
 <p>Decompilers do the impossible and reverse compiled code <em>back</em> into psuedocode/code.</p>
 <p>IDA offers HexRays, which translates machine code into a higher language pseudocode. </p>
-<p><img alt="Hex Rays" src="../images/ida-decompiler.png" /></p></div>
+<p><img alt="Hex Rays" src="../images/ida-decompiler.png" /></p>
+<h2 id="example-workflow">Example Workflow<a class="headerlink" href="#example-workflow" title="Permanent link">&para;</a></h2>
+<p>Let's say we are disassembling a program which has the source code:</p>
+<div class="codehilite"><pre><span></span><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
+
+<span class="kt">void</span> <span class="nf">printSpacer</span><span class="p">(</span><span class="kt">int</span> <span class="n">num</span><span class="p">){</span>
+    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">num</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">){</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">&quot;-&quot;</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="kt">char</span><span class="o">*</span> <span class="n">string</span> <span class="o">=</span> <span class="s">&quot;Hello, World!&quot;</span><span class="p">;</span>
+    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">13</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">){</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">&quot;%c&quot;</span><span class="p">,</span> <span class="n">string</span><span class="p">[</span><span class="n">i</span><span class="p">]);</span>
+        <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="mi">13</span><span class="p">;</span> <span class="n">j</span><span class="o">++</span><span class="p">){</span>
+            <span class="n">printf</span><span class="p">(</span><span class="s">&quot;%c&quot;</span><span class="p">,</span> <span class="n">string</span><span class="p">[</span><span class="n">j</span><span class="p">]);</span>
+        <span class="p">}</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+        <span class="n">printSpacer</span><span class="p">(</span><span class="mi">13</span> <span class="o">-</span> <span class="n">i</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<p>And creates an output of:</p>
+<div class="codehilite"><pre><span></span><span class="gh">Hello, World!</span>
+<span class="gh">-------------</span>
+<span class="gh">ello, World!</span>
+<span class="gh">------------</span>
+<span class="gh">llo, World!</span>
+<span class="gh">-----------</span>
+<span class="gh">lo, World!</span>
+<span class="gh">----------</span>
+<span class="gh">o, World!</span>
+<span class="gh">---------</span>
+<span class="gh">, World!</span>
+<span class="gh">--------</span>
+ World!
+-------
+<span class="gh">World!</span>
+<span class="gh">------</span>
+<span class="gh">orld!</span>
+<span class="gh">-----</span>
+<span class="gh">rld!</span>
+<span class="gh">----</span>
+<span class="gh">ld!</span>
+<span class="gh">---</span>
+d!
+--
+!
+-
+</pre></div>
+
+
+<p>If we are given a binary compiled from that source and we want to figure out how the source looks, we can use a decompiler to get c pseudocode which we can then use to reconstruct the function. The sample decompilation can look like:</p>
+<div class="codehilite"><pre><span></span><span class="n">printSpacer</span><span class="o">:</span>
+<span class="n">int</span> <span class="n">__fastcall</span> <span class="n">printSpacer</span><span class="o">(</span><span class="n">int</span> <span class="n">a1</span><span class="o">)</span>
+<span class="o">{</span>
+  <span class="n">int</span> <span class="n">i</span><span class="o">;</span> <span class="c1">// [rsp+8h] [rbp-8h]</span>
+
+  <span class="k">for</span> <span class="o">(</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">a1</span><span class="o">;</span> <span class="o">++</span><span class="n">i</span> <span class="o">)</span>
+    <span class="n">printf</span><span class="o">(</span><span class="s2">&quot;-&quot;</span><span class="o">);</span>
+  <span class="k">return</span> <span class="n">printf</span><span class="o">(</span><span class="s2">&quot;\n&quot;</span><span class="o">);</span>
+<span class="o">}</span>
+
+<span class="n">main</span><span class="o">:</span>
+<span class="n">int</span> <span class="n">__cdecl</span> <span class="n">main</span><span class="o">(</span><span class="n">int</span> <span class="n">argc</span><span class="o">,</span> <span class="kd">const</span> <span class="n">char</span> <span class="o">**</span><span class="n">argv</span><span class="o">,</span> <span class="kd">const</span> <span class="n">char</span> <span class="o">**</span><span class="n">envp</span><span class="o">)</span>
+<span class="o">{</span>
+  <span class="n">int</span> <span class="n">v4</span><span class="o">;</span> <span class="c1">// [rsp+18h] [rbp-18h]</span>
+  <span class="n">signed</span> <span class="n">int</span> <span class="n">i</span><span class="o">;</span> <span class="c1">// [rsp+1Ch] [rbp-14h]</span>
+
+  <span class="k">for</span> <span class="o">(</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">13</span><span class="o">;</span> <span class="o">++</span><span class="n">i</span> <span class="o">)</span>
+  <span class="o">{</span>
+    <span class="n">v4</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="o">;</span>
+    <span class="n">printf</span><span class="o">(</span><span class="s2">&quot;%c&quot;</span><span class="o">,</span> <span class="o">(</span><span class="n">unsigned</span> <span class="n">int</span><span class="o">)</span><span class="n">aHelloWorld</span><span class="o">[</span><span class="n">i</span><span class="o">],</span> <span class="n">envp</span><span class="o">);</span>
+    <span class="k">while</span> <span class="o">(</span> <span class="n">v4</span> <span class="o">&lt;</span> <span class="mi">13</span> <span class="o">)</span>
+      <span class="n">printf</span><span class="o">(</span><span class="s2">&quot;%c&quot;</span><span class="o">,</span> <span class="o">(</span><span class="n">unsigned</span> <span class="n">int</span><span class="o">)</span><span class="n">aHelloWorld</span><span class="o">[</span><span class="n">v4</span><span class="o">++]);</span>
+    <span class="n">printf</span><span class="o">(</span><span class="s2">&quot;\n&quot;</span><span class="o">);</span>
+    <span class="n">printSpacer</span><span class="o">(</span><span class="mi">13</span> <span class="o">-</span> <span class="n">i</span><span class="o">);</span>
+  <span class="o">}</span>
+  <span class="k">return</span> <span class="mi">0</span><span class="o">;</span>
+<span class="o">}</span>
+</pre></div>
+
+
+<p>A good method of getting a good representation of the source is to convert the decompilation into Python since Python is basically psuedocode that runs. Starting with main often allows you to gain a good overview of what the program is doing and will help you translate the other functions.</p>
+<h3 id="main">Main<a class="headerlink" href="#main" title="Permanent link">&para;</a></h3>
+<p>We know we will start with a main function and some variables, if you trace the execution of the variables, you can oftentimes determine the variable type. Because <em>i</em> is being used as an index, we know its an int, and because <em>v4</em> used as one later on, it too is an index. We can also see that we have a variable <em>aHelloWorld</em> being printed with "%c", we can determine it represents the 'Hello, World!' string. Lets define all these variables in our Python main function:</p>
+<div class="codehilite"><pre><span></span><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="n">string</span> <span class="o">=</span> <span class="s2">&quot;Hello, World!&quot;</span>
+    <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">v4</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">13</span><span class="p">):</span>
+        <span class="n">v4</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span>
+        <span class="k">print</span><span class="p">(</span><span class="n">string</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+        <span class="k">while</span> <span class="n">v4</span> <span class="o">&lt;</span> <span class="mi">13</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="n">string</span><span class="p">[</span><span class="n">v4</span><span class="p">],</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+            <span class="n">v4</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">print</span><span class="p">()</span>
+        <span class="n">printSpacer</span><span class="p">(</span><span class="mi">13</span><span class="o">-</span><span class="n">i</span><span class="p">)</span>
+</pre></div>
+
+
+<h3 id="printspacer-function">printSpacer Function<a class="headerlink" href="#printspacer-function" title="Permanent link">&para;</a></h3>
+<p>Now we can see that printSpacer is clearly being fed an int value. Translating it into python shouldn't be too hard.</p>
+<div class="codehilite"><pre><span></span><span class="k">def</span> <span class="nf">printSpacer</span><span class="p">(</span><span class="n">number</span><span class="p">):</span>
+    <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">number</span><span class="p">):</span>
+        <span class="k">print</span><span class="p">(</span><span class="s2">&quot;-&quot;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">()</span>
+</pre></div>
+
+
+<h3 id="results">Results<a class="headerlink" href="#results" title="Permanent link">&para;</a></h3>
+<p>Running main() gives us:</p>
+<div class="codehilite"><pre><span></span><span class="gh">Hello, World!</span>
+<span class="gh">-------------</span>
+<span class="gh">ello, World!</span>
+<span class="gh">------------</span>
+<span class="gh">llo, World!</span>
+<span class="gh">-----------</span>
+<span class="gh">lo, World!</span>
+<span class="gh">----------</span>
+<span class="gh">o, World!</span>
+<span class="gh">---------</span>
+<span class="gh">, World!</span>
+<span class="gh">--------</span>
+ World!
+-------
+<span class="gh">World!</span>
+<span class="gh">------</span>
+<span class="gh">orld!</span>
+<span class="gh">-----</span>
+<span class="gh">rld!</span>
+<span class="gh">----</span>
+<span class="gh">ld!</span>
+<span class="gh">---</span>
+d!
+--
+!
+-
+</pre></div></div>
             
         
     </div>

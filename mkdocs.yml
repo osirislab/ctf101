@@ -250,33 +250,35 @@ pages:
 - Binary Exploitation:
   - Introduction: 'binary-exploitation/introduction.md'
 
-  - Buffers:
-    - What are Buffers: 'binary-exploitation/what-are-buffers.md'
-    - Buffer Overflow: 'binary-exploitation/buffer-overflow.md'
+  - Registers:
+    - What are Registers: 'binary-exploitation/what-are-registers.md'
 
   - The Stack:
     - What is the Stack: 'binary-exploitation/what-is-the-stack.md'
 
-  - Registers:
-    - What are Registers: 'binary-exploitation/what-are-registers.md'
-
   - Calling Conventions:
     - What are Calling Conventions: 'binary-exploitation/what-are-calling-conventions.md'
 
-  - The Heap:
-    - What is the Heap: 'binary-exploitation/what-is-the-heap.md'
-    - Heap Overflow: 'binary-exploitation/heap-overflow.md'
+  - Global Offset Table (GOT):
+    - What is the GOT: 'binary-exploitation/what-is-the-got.md'
+
+  - Buffers:
+    - What are Buffers: 'binary-exploitation/what-are-buffers.md'
+    - Buffer Overflow: 'binary-exploitation/buffer-overflow.md'
+
+  - Return Oriented Programming (ROP):
+    - What is ROP: 'binary-exploitation/return-oriented-programming.md'
 
   - Binary Security:
     - What is Binary Security: 'binary-exploitation/what-is-binary-security.md'
     - No eXecute (NX): 'binary-exploitation/no-execute.md'
-    - Data Execution Prevention: 'binary-exploitation/data-execution-prevention.md'
     - Address Space Layout Randomization (ASLR): 'binary-exploitation/address-space-layout-randomization.md'
-    - Relocation Read-Only (RELRO): 'binary-exploitation/relocation-read-only.md'
     - Stack Canaries: 'binary-exploitation/stack-canaries.md'
+    - Relocation Read-Only (RELRO): 'binary-exploitation/relocation-read-only.md'
 
-  - Return to Lib C:
-    - What is Lib C: 'binary-exploitation/what-is-lib-c.md'
+  - The Heap:
+    - What is the Heap: 'binary-exploitation/what-is-the-heap.md'
+    - Heap Exploitation: 'binary-exploitation/heap-exploitation.md'
 
   - Format String Vulnerability:
     - What is a Format String Vulnerability: 'binary-exploitation/what-is-a-format-string-vulnerability.md'

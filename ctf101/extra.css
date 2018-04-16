@@ -1,3 +1,7 @@
+div[role=main] img {
+    max-width: 100%;
+}
+
 .headerlink {
     display: none;
 }

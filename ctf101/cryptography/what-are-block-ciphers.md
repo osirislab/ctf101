@@ -58,6 +58,20 @@ PCBC is a less used cipher which modifies CBC so that decryption is also not par
 ![PCBC Encryption](images/pcbc-encryption.png)
 ![PCBC Decryption](images/pcbc-decryption.png)
 
+### Counter (CTR)
+
+!!!note
+	Counter is also known as CM, integer counter mode (ICM), and segmented integer counter (SIC)
+
+CTR mode makes the block cipher similar to a stream cipher and it functions by adding a counter with each block in combination with a nonce and key to XOR the plaintext to produce the ciphertext. Similarly, the decryption process is the exact same except instead of XORing the plaintext, the ciphertext is XORed. This means that the process is parallelizable for both encryption and decryption *and* you can begin from anywhere as the counter for any block can be deduced easily.
+
+![CTR Encryption](images/ctr-encryption.png)
+![CTR Decryption](images/ctr-decryption.png)
+
+#### Security Considerations
+
+If the nonce chosen is non-random, it is important to concatonate the nonce with the counter (high 64 bits to the nonce, low 64 bits to the counter) as adding or XORing the nonce with the counter would break security as an attacker can cause a collisions with the nonce and counter. An attacker with access to providing a plaintext, nonce and counter can then decrypt a block by using the ciphertext as seen in the decryption image.
+
 ## Padding Oracle Attack
 
 A Padding Oracle Attack sounds complex, but essentially means abusing a block cipher by changing the length of input and being able to determine the plaintext.
@@ -69,7 +83,7 @@ A Padding Oracle Attack sounds complex, but essentially means abusing a block ci
 
 ### Execution
 
-1. If we have to blocks of ciphertext, C~1~ and C~2~, we can get the plaintext P~2~
+1. If we have two blocks of ciphertext, C~1~ and C~2~, we can get the plaintext P~2~
 2. Since we know that CBC decryptionis dependent on the prior ciphertext, if we change the last byte of C~1~ we can see if C~2~ has correct padding
 3. If it is correctly padded we know that the last byte of the plaintext
 4. If not, we can increase our byte by one and repeat until we have a successful padding

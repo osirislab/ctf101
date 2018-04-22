@@ -46,6 +46,9 @@ pages:
   - Disk Imaging:
     - What is Disk Imaging: 'forensics/what-is-disk-imaging.md'
 
+  - Memory Forensics:
+    - What is Memory Forensics: 'forensics/what-is-memory-forensics.md'
+
   - Challenges:
     - Easy:
       - Missed Registration: 'challenges/2017/forensics/missed_registration.md'

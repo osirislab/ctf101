@@ -9,7 +9,7 @@
     <meta name="author" content="OSIRIS Lab & CTFd LLC"> 
     <link rel="shortcut icon" href="../../img/favicon.ico">
 
-    <title>What is a Substitution Cipher - CTF 101</title>
+    <title>What is Memory Forensics - CTF 101</title>
 
     <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -78,13 +78,13 @@
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Forensics <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="../../forensics/introduction/">Introduction</a>
+    <a href="../introduction/">Introduction</a>
 </li>
 
                         
@@ -95,7 +95,7 @@
         
             
 <li >
-    <a href="../../forensics/what-are-file-formats/">What are File Formats</a>
+    <a href="../what-are-file-formats/">What are File Formats</a>
 </li>
 
         
@@ -110,7 +110,7 @@
         
             
 <li >
-    <a href="../../forensics/what-is-metadata/">What is Metadata</a>
+    <a href="../what-is-metadata/">What is Metadata</a>
 </li>
 
         
@@ -125,7 +125,7 @@
         
             
 <li >
-    <a href="../../forensics/what-is-wireshark/">What is Wireshark</a>
+    <a href="../what-is-wireshark/">What is Wireshark</a>
 </li>
 
         
@@ -140,7 +140,7 @@
         
             
 <li >
-    <a href="../../forensics/what-is-stegonagraphy/">What is Stegonagraphy</a>
+    <a href="../what-is-stegonagraphy/">What is Stegonagraphy</a>
 </li>
 
         
@@ -155,7 +155,7 @@
         
             
 <li >
-    <a href="../../forensics/what-is-disk-imaging/">What is Disk Imaging</a>
+    <a href="../what-is-disk-imaging/">What is Disk Imaging</a>
 </li>
 
         
@@ -169,8 +169,8 @@
     <ul class="dropdown-menu">
         
             
-<li >
-    <a href="../../forensics/what-is-memory-forensics/">What is Memory Forensics</a>
+<li class="active">
+    <a href="./">What is Memory Forensics</a>
 </li>
 
         
@@ -369,13 +369,13 @@
                 
                 
                 
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cryptography <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="../introduction/">Introduction</a>
+    <a href="../../cryptography/introduction/">Introduction</a>
 </li>
 
                         
@@ -386,7 +386,7 @@
         
             
 <li >
-    <a href="../what-is-xor/">What is XOR</a>
+    <a href="../../cryptography/what-is-xor/">What is XOR</a>
 </li>
 
         
@@ -400,14 +400,14 @@
     <ul class="dropdown-menu">
         
             
-<li class="active">
-    <a href="./">What is a Substitution Cipher</a>
+<li >
+    <a href="../../cryptography/what-is-a-substitution-cipher/">What is a Substitution Cipher</a>
 </li>
 
         
             
 <li >
-    <a href="../what-is-caesar-cipher-rot-13/">Caesar Cipher/ROT 13</a>
+    <a href="../../cryptography/what-is-caesar-cipher-rot-13/">Caesar Cipher/ROT 13</a>
 </li>
 
         
@@ -422,7 +422,7 @@
         
             
 <li >
-    <a href="../what-is-a-vigenere-cipher/">What is a Vigenere Cipher</a>
+    <a href="../../cryptography/what-is-a-vigenere-cipher/">What is a Vigenere Cipher</a>
 </li>
 
         
@@ -437,7 +437,7 @@
         
             
 <li >
-    <a href="../what-are-hashing-functions/">What are Hashing Functions</a>
+    <a href="../../cryptography/what-are-hashing-functions/">What are Hashing Functions</a>
 </li>
 
         
@@ -452,13 +452,13 @@
         
             
 <li >
-    <a href="../what-are-block-ciphers/">What are Block Ciphers</a>
+    <a href="../../cryptography/what-are-block-ciphers/">What are Block Ciphers</a>
 </li>
 
         
             
 <li >
-    <a href="../what-are-stream-ciphers/">What are Stream Ciphers</a>
+    <a href="../../cryptography/what-are-stream-ciphers/">What are Stream Ciphers</a>
 </li>
 
         
@@ -473,7 +473,7 @@
         
             
 <li >
-    <a href="../what-is-rsa/">What is RSA</a>
+    <a href="../../cryptography/what-is-rsa/">What is RSA</a>
 </li>
 
         
@@ -1895,12 +1895,12 @@
                         </a>
                     </li>
 <!--                     <li >
-                        <a rel="next" href="../what-is-xor/">
+                        <a rel="next" href="../what-is-disk-imaging/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../what-is-caesar-cipher-rot-13/">
+                        <a rel="prev" href="../../challenges/2017/forensics/missed_registration/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li> -->
@@ -1914,14 +1914,83 @@
             
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#substitution-cipher">Substitution Cipher</a></li>
+        <li class="first-level active"><a href="#memory-forensics">Memory Forensics</a></li>
+            <li class="second-level"><a href="#volatility-basics">Volatility Basics</a></li>
+                
+                <li class="third-level"><a href="#profile-identification">Profile Identification</a></li>
+                <li class="third-level"><a href="#dump-processes">Dump Processes</a></li>
+                <li class="third-level"><a href="#process-memory-dump">Process Memory Dump</a></li>
+                <li class="third-level"><a href="#other-useful-commands">Other Useful Commands</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="substitution-cipher">Substitution Cipher<a class="headerlink" href="#substitution-cipher" title="Permanent link">&para;</a></h1>
-<p>A Substitution Cipher is system of encryption where different symobls substitute a normal alphabet.</p>
-<p><img alt="Substitution Cipher" src="../images/substitution-cipher.png" /></p></div>
+<h1 id="memory-forensics">Memory Forensics<a class="headerlink" href="#memory-forensics" title="Permanent link">&para;</a></h1>
+<p>There are plenty of traces of someone's activity on a computer, but perhaps some of the most valuble information can be found within memory dumps, that is images taken of RAM. These dumps of data are often very large, but can be analyzed using a tool called <a href="http://www.volatilityfoundation.org/">Volatility</a></p>
+<h2 id="volatility-basics">Volatility Basics<a class="headerlink" href="#volatility-basics" title="Permanent link">&para;</a></h2>
+<p>Memory forensics isn't all that complicated, the hardest part would be using your toolset correctly. A good workflow is as follows:</p>
+<ol>
+<li>Run <code class="codehilite">strings</code> for clues</li>
+<li>Identify the image profile (which OS, version, etc.)</li>
+<li>Dump processes and look for suspicious processes</li>
+<li>Dump data related interesting processes</li>
+<li>View data in a format relating to the process (Word: docx, Notepad: txt, Photoshop: psd, etc.)</li>
+</ol>
+<h3 id="profile-identification">Profile Identification<a class="headerlink" href="#profile-identification" title="Permanent link">&para;</a></h3>
+<p>In order to properly use Volatility you must supply a profile with <code class="codehilite">--profile=PROFILE</code>, therefore before any sleuthing, you need to determine the profile using imageinfo:</p>
+<div class="codehilite"><pre><span></span>$ python vol.py -f ~/image.raw imageinfo
+Volatility Foundation Volatility Framework <span class="m">2</span>.4
+Determining profile based on KDBG search...
+
+          Suggested Profile<span class="o">(</span>s<span class="o">)</span> : Win7SP0x64, Win7SP1x64, Win2008R2SP0x64, Win2008R2SP1x64
+                     AS Layer1 : AMD64PagedMemory <span class="o">(</span>Kernel AS<span class="o">)</span>
+                     AS Layer2 : FileAddressSpace <span class="o">(</span>/Users/Michael/Desktop/win7_trial_64bit.raw<span class="o">)</span>
+                      PAE <span class="nb">type</span> : PAE
+                           DTB : 0x187000L
+                          KDBG : 0xf80002803070
+          Number of Processors : <span class="m">1</span>
+     Image Type <span class="o">(</span>Service Pack<span class="o">)</span> : <span class="m">0</span>
+                KPCR <span class="k">for</span> CPU <span class="m">0</span> : 0xfffff80002804d00L
+             KUSER_SHARED_DATA : 0xfffff78000000000L
+           Image date and <span class="nb">time</span> : <span class="m">2012</span>-02-22 <span class="m">11</span>:29:02 UTC+0000
+     Image <span class="nb">local</span> date and <span class="nb">time</span> : <span class="m">2012</span>-02-22 <span class="m">03</span>:29:02 -0800
+</pre></div>
+
+
+<h3 id="dump-processes">Dump Processes<a class="headerlink" href="#dump-processes" title="Permanent link">&para;</a></h3>
+<p>In order to view processes, the <code class="codehilite">pslist</code> or <code class="codehilite">pstree</code> or <code class="codehilite">psscan</code> command can be used. </p>
+<div class="codehilite"><pre><span></span>$ python vol.py -f ~/image.raw pslist --profile<span class="o">=</span>Win7SP0x64 pstree
+Volatility Foundation Volatility Framework <span class="m">2</span>.5
+Offset<span class="o">(</span>V<span class="o">)</span>          Name                    PID   PPID   Thds     Hnds   Sess  Wow64 Start                          Exit
+------------------ -------------------- ------ ------ ------ -------- ------ ------ ------------------------------ ------------------------------
+0xffffa0ee12532180 System                    <span class="m">4</span>      <span class="m">0</span>    <span class="m">108</span>        <span class="m">0</span> ------      <span class="m">0</span> <span class="m">2018</span>-04-22 <span class="m">20</span>:02:33 UTC+0000
+0xffffa0ee1389d040 smss.exe                <span class="m">232</span>      <span class="m">4</span>      <span class="m">3</span>        <span class="m">0</span> ------      <span class="m">0</span> <span class="m">2018</span>-04-22 <span class="m">20</span>:02:33 UTC+0000
+...
+0xffffa0ee128c6780 VBoxTray.exe           <span class="m">3324</span>   <span class="m">1123</span>     <span class="m">10</span>        <span class="m">0</span>      <span class="m">1</span>      <span class="m">0</span> <span class="m">2018</span>-04-22 <span class="m">20</span>:02:55 UTC+0000
+0xffffa0ee14108780 OneDrive.exe           <span class="m">1422</span>   <span class="m">1123</span>     <span class="m">10</span>        <span class="m">0</span>      <span class="m">1</span>      <span class="m">1</span> <span class="m">2018</span>-04-22 <span class="m">20</span>:02:55 UTC+0000
+0xffffa0ee14ade080 svchost.exe             <span class="m">228</span>    <span class="m">121</span>      <span class="m">1</span>        <span class="m">0</span>      <span class="m">1</span>      <span class="m">0</span> <span class="m">2018</span>-04-22 <span class="m">20</span>:14:43 UTC+0000
+0xffffa0ee1122b080 notepad.exe            <span class="m">2019</span>   <span class="m">1123</span>      <span class="m">1</span>        <span class="m">0</span>      <span class="m">1</span>      <span class="m">0</span> <span class="m">2018</span>-04-22 <span class="m">20</span>:14:49 UTC+0000
+</pre></div>
+
+
+<h3 id="process-memory-dump">Process Memory Dump<a class="headerlink" href="#process-memory-dump" title="Permanent link">&para;</a></h3>
+<p>Dumping the memory of a process can prove to be fruitful, say we want to dump the data from notepad.exe:</p>
+<div class="codehilite"><pre><span></span>$ python vol.py -f ~/image.raw --profile<span class="o">=</span>Win7SP0x64 memdump -p <span class="m">2019</span> -D dump/
+Volatility Foundation Volatility Framework <span class="m">2</span>.4
+************************************************************************
+Writing System <span class="o">[</span>     <span class="m">2019</span><span class="o">]</span> to <span class="m">2019</span>.dmp
+
+$ ls -alh dump/2019.dmp 
+-rw-r--r--  <span class="m">1</span> user  staff   111M Apr <span class="m">22</span> <span class="m">20</span>:47 dump/2019.dmp
+</pre></div>
+
+
+<h3 id="other-useful-commands">Other Useful Commands<a class="headerlink" href="#other-useful-commands" title="Permanent link">&para;</a></h3>
+<p><a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference">There are plenty of commands</a> that Volatility offers but some highlights include:</p>
+<ul>
+<li><code class="codehilite">$ python vol.py -f IMAGE --profile<span class="o">=</span>PROFILE connections</code>: view network connections</li>
+<li><code class="codehilite">$ python vol.py -f IMAGE --profile<span class="o">=</span>PROFILE cmdscan</code>: view commands that were run in cmd prompt</li>
+</ul></div>
             
         
     </div>

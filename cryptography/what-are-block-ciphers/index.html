@@ -165,6 +165,21 @@
                         
                             
   <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Memory Forensics</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../forensics/what-is-memory-forensics/">What is Memory Forensics</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
     <a tabindex="-1" href="">Challenges</a>
     <ul class="dropdown-menu">
         
@@ -1907,6 +1922,7 @@
                 <li class="third-level"><a href="#electronic-codebook-ecb">Electronic Codebook (ECB)</a></li>
                 <li class="third-level"><a href="#cipher-block-chaining-cbc">Cipher Block Chaining (CBC)</a></li>
                 <li class="third-level"><a href="#propogating-cipher-block-chaining-pcbc">Propogating Cipher Block Chaining (PCBC)</a></li>
+                <li class="third-level"><a href="#counter-ctr">Counter (CTR)</a></li>
             <li class="second-level"><a href="#padding-oracle-attack">Padding Oracle Attack</a></li>
                 
                 <li class="third-level"><a href="#requirements">Requirements</a></li>
@@ -2007,6 +2023,16 @@
 <p>PCBC is a less used cipher which modifies CBC so that decryption is also not parallelizable. It also cannot be decrypted from any point as changes made during the decryption and encryption process "propogate" throughout the blocks, meaning that both the plaintext and ciphertext are used when encrypting or decrypting as seen in the images below.</p>
 <p><img alt="PCBC Encryption" src="../images/pcbc-encryption.png" />
 <img alt="PCBC Decryption" src="../images/pcbc-decryption.png" /></p>
+<h3 id="counter-ctr">Counter (CTR)<a class="headerlink" href="#counter-ctr" title="Permanent link">&para;</a></h3>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Counter is also known as CM, integer counter mode (ICM), and segmented integer counter (SIC)</p>
+</div>
+<p>CTR mode makes the block cipher similar to a stream cipher and it functions by adding a counter with each block in combination with a nonce and key to XOR the plaintext to produce the ciphertext. Similarly, the decryption process is the exact same except instead of XORing the plaintext, the ciphertext is XORed. This means that the process is parallelizable for both encryption and decryption <em>and</em> you can begin from anywhere as the counter for any block can be deduced easily.</p>
+<p><img alt="CTR Encryption" src="../images/ctr-encryption.png" />
+<img alt="CTR Decryption" src="../images/ctr-decryption.png" /></p>
+<h4 id="security-considerations">Security Considerations<a class="headerlink" href="#security-considerations" title="Permanent link">&para;</a></h4>
+<p>If the nonce chosen is non-random, it is important to concatonate the nonce with the counter (high 64 bits to the nonce, low 64 bits to the counter) as adding or XORing the nonce with the counter would break security as an attacker can cause a collisions with the nonce and counter. An attacker with access to providing a plaintext, nonce and counter can then decrypt a block by using the ciphertext as seen in the decryption image.</p>
 <h2 id="padding-oracle-attack">Padding Oracle Attack<a class="headerlink" href="#padding-oracle-attack" title="Permanent link">&para;</a></h2>
 <p>A Padding Oracle Attack sounds complex, but essentially means abusing a block cipher by changing the length of input and being able to determine the plaintext.</p>
 <h3 id="requirements">Requirements<a class="headerlink" href="#requirements" title="Permanent link">&para;</a></h3>
@@ -2016,7 +2042,7 @@
 </ul>
 <h3 id="execution">Execution<a class="headerlink" href="#execution" title="Permanent link">&para;</a></h3>
 <ol>
-<li>If we have to blocks of ciphertext, C<sub>1</sub> and C<sub>2</sub>, we can get the plaintext P<sub>2</sub></li>
+<li>If we have two blocks of ciphertext, C<sub>1</sub> and C<sub>2</sub>, we can get the plaintext P<sub>2</sub></li>
 <li>Since we know that CBC decryptionis dependent on the prior ciphertext, if we change the last byte of C<sub>1</sub> we can see if C<sub>2</sub> has correct padding</li>
 <li>If it is correctly padded we know that the last byte of the plaintext</li>
 <li>If not, we can increase our byte by one and repeat until we have a successful padding</li>

@@ -8,8 +8,6 @@ Wagner
 Reversing
 ## Description
 We're getting a transmission from someone in the past, find out what he wants.
-## Flag
-`NOHACK4UXWRATHOFKFUHRERX`
-## Solution
+## Topics Covered
 
-## Setup
+- [Dissassemblers](/reverse-engineering/what-are-disassemblers/)

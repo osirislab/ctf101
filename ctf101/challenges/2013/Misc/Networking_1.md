@@ -7,9 +7,6 @@
 Misc
 ## Description
 
-## Flag
-`d316759c281bf925d600be698a4973d5`
-## Solution
+## Topics Covered
 
-## Setup
-Distribute `networking.pcap`
+- [Wireshark](/forensics/what-is-wireshark/)

@@ -7,8 +7,6 @@ Edwards
 Pwn
 ## Description
 hard as fuck
-## Flag
-`flag{exploitation_is_not_always_about_shellcode}`
-## Solution
+## Topics Covered
 
-## Setup
+- [XOR](/cryptography/what-is-xor/)

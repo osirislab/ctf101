@@ -12,18 +12,5 @@ Trivia
 4. What is the new web technology that provides a web browser full-duplex communication to a web server over a single connection?
 5. What is the x86 processor operating mode for running 64-bit code?
 
-## Flag
-1. `hack`
-2. `dicks`
-3. `gadget`
-4. `websocket`
-5. `long mode`
+## Topics Covered
 
-## Solution
-1. `hack`
-2. `dicks`
-3. `gadget`
-4. `websocket`
-5. `long mode`
-
-## Setup

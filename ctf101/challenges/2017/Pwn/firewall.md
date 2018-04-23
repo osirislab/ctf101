@@ -38,3 +38,6 @@ Other tidbits:
 - I developed the challenge on an x86 Windows 7 Enterprise VM
 - The expected solution (an exploit) may fail 50/50 due to the leak failing (ASLR dependent)
 - There is a red herring / buffer overflow that is not intended to be exploitable :')
+## Topics Covered
+
+- [Dissassemblers](/reverse-engineering/what-are-disassemblers/)

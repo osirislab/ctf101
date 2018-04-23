@@ -7,9 +7,5 @@ Cohen
 Web
 ## Description
 Something, something, data, something, something, big
-## Flag
-`flag{bigdataisaproblemnotasolution}`
-## Solution
+## Topics Covered
 
-## Setup
-Distribute `pcap.pcapng`

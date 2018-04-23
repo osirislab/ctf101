@@ -16,9 +16,7 @@ Hints:
 - <https://github.com/gdbinit/readmem>
 - If an exception handler returns success(0) the binary continues executing even if the exception was not handled if it returns failure(5) it always exits
 
-## Flag
-`flag{Qi29a85i52aA5i5Ea15i81aM5i5Qa18i51aY5}`
-## Solution
+## Topics Covered
 
-## Setup
-Distribute `cookie_maze_8d8023f8f7c38181e8abd9c5c70d527b`
+- [Debuggers](/reverse-engineering/what-is-gdb/)
+- [Dissassemblers](/reverse-engineering/what-are-disassemblers/)

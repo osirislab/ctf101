@@ -7,9 +7,8 @@
 Reversing
 ## Description
 
-## Flag
-`key{day 145: they still do not realize this software sucks}`
-## Solution
-`solve.c`
-## Setup
-Distribute `crackme`
+## Topics Covered
+
+- [Debuggers](/reverse-engineering/what-is-gdb/)
+- [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
+- [Assembly/Machine Code](/reverse-engineering/what-is-assembly-machine-code/)

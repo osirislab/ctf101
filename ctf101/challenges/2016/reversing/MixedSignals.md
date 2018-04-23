@@ -8,6 +8,6 @@ Reversing
 ## Description
 Breaking News: Rouge process wanted for running a red.
 Find it on the shell server in `/challenges/mixed-signals`
-## Flag
+## Topics Covered
 
-## Solution
+- [Dissassemblers](/reverse-engineering/what-are-disassemblers/)

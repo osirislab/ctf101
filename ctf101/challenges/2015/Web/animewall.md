@@ -13,8 +13,5 @@ i believe in you, and more importantly, i believe in the you that believes in yo
 if i cant see animes i guess im gonna just blizz it...
 lain@54.85.189.105
 password is lain
-## Flag
+## Topics Covered
 
-## Solution
-
-## Setup

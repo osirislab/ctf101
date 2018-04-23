@@ -7,8 +7,7 @@ Zhong
 Pwn
 ## Description
 This shell sucks
-## Flag
-`flag{AAAABBBBCCCCDDDDEEEEFFFFGGGGHHHHIIIIJJJJKKKKLLLLMMMMOOOOXX}`
-## Solution
-`exploit.py`
-## Setup
+## Topics Covered
+
+- [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
+- [Debuggers](/reverse-engineering/what-is-gdb/)

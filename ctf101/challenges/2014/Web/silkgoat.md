@@ -7,8 +7,5 @@ Ahmed
 Web
 ## Description
 {{hacker manifesto}}
-## Flag
-`flag{silkroad4ever}`
-## Solution
+## Topics Covered
 
-## Setup

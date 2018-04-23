@@ -7,8 +7,7 @@ Stortz
 Crypto
 ## Description
 
-## Flag
-`key{It's not the one that goes 'huuuhh!'}`
-## Solution
+## Topics Covered
 
-## Setup
+- [RSA](/cryptography/what-is-rsa/)
+- [Hashing Functions](/cryptography/what-are-hashing-functions/)

@@ -7,8 +7,8 @@
 Pwn
 ## Description
 Connect to the binary. ASLR is on. Binary is attached. Spawn a shell
-## Flag
-`flag-{TEH_FLAG}`
-## Solution
-[solution.pdf](solution.pdf)
-[sol.py](sol.py)
+## Topics Covered
+
+- [The Heap](/binary-exploitation/what-is-the-heap/)
+- [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
+- [Heap Exploits](/binary-exploitation/heap-exploitation/)

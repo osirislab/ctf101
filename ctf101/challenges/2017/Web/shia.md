@@ -37,15 +37,5 @@ Pick 1:
 * http://web.chal.csaw.io:5489
 * http://web.chal.csaw.io:5490
 
-## Flag
-`flag{wow_much_t3mplate}`
-## Solution
-Go to /polls/3/ to cause a "Our infrastructure can't support that many Shias!" exception.
-Scroll down to the "checknum" function call and view the source code, note the "getme" and "listme" funcs.
-Go to /ad-lib/ and type `{% debug %}` and notice `mrpoopy`
-Go back and send `{{ mrpoopy|listme }}` notice `__flag__`
-Go back and send `{{ mrpoopy|getme:"__flag__" }}` 
-Note: because it is an underscore, you can't just do `{{ mrpoopy.__flag__ }}`
+## Topics Covered
 
-## Setup
-Website runs on port 8000

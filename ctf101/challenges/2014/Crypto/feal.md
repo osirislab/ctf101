@@ -7,8 +7,6 @@ Agre
 Crypto
 ## Description
 
-## Flag
-`key{FealMeBaby}`
-## Solution
+## Topics Covered
 
-## Setup
+- [Hashing Functions](/cryptography/what-are-hashing-functions/)

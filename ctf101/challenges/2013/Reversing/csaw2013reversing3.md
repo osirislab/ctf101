@@ -7,9 +7,6 @@
 Reversing
 ## Description
 
-## Flag
+## Topics Covered
 
-## Solution
-
-## Setup
-Distribute `csaw2013reversing3.exe`
+- [Dissassemblers](/reverse-engineering/what-are-disassemblers/)

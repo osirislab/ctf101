@@ -11,10 +11,6 @@ Pwn
 AppJailLauncher.exe /network /key:key /port:4444 /timeout:120 ./boombox.exe'
 Password: CSAW2015
 UPDATE: The challenge is hosted on <http://40.117.40.124:4444/>
-## Flag
+## Topics Covered
 
-## Solution
-- <https://github.com/aweinstock314/aweinstock-ctf-writeups/blob/master/csaw_finals_2015/exploitation500_boombox/boombox_writeup.md>
-
-## Setup
-[boombox.7z](./boombox.7z)
+- [Dissassemblers](/reverse-engineering/what-are-disassemblers/)

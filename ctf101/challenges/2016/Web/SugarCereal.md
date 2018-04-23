@@ -13,9 +13,5 @@ UPDATE 2: Fix for stage 2 rolled out so you shouldn't get 500's anymore. *crosse
 UPDATE 3: PHP source has changed. To resolve performance issues, output from the `passthru` call is not sent to the page anymore.
 UPDATE 4: Python source has changed. 
 http://web.chal.csaw.io:1346/"
-## Flag
+## Topics Covered
 
-## Solution
-
-## Notes
-Josh removed this challenge entirely halfway through the competition because it was so borken

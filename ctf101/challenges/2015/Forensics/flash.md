@@ -8,9 +8,6 @@ Budofsky
 Forensics
 ## Description
 We were able to grab an image of a harddrive. Find out what's on it.
-## Flag
-`flag{b3l0w_th3_r4dar}`
-## Solution
+## Topics Covered
 
-## Setup
-Distribute `flash_c8429a430278283c0e571baebca3d139.zip`
+- [Disk Imaging](/forensics/what-is-disk-imaging/)

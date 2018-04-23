@@ -8,8 +8,6 @@ DHS
 Reversing
 ## Description
 PLC challenge round 2.
-## Flag
+## Topics Covered
 
-## Solution
-
-## Setup
+- [The C Programming Language](/reverse-engineering/what-is-c/)

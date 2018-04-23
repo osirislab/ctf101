@@ -11,6 +11,6 @@ DOOOOOMMMM!!!!!!!!!!!!!!!! <--- me bein random again ^\_^ hehe…toodles!!!!!
 love and waffles,
 t3h PeNgU1N oF d00m
 Update: The flag is integer value of the seed
-## Flag
-`flag{praise_rnjesus}`
-## Solution
+## Topics Covered
+
+- [Dissassemblers](/reverse-engineering/what-are-disassemblers/)

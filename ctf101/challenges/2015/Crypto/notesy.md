@@ -8,8 +8,5 @@ Chung
 Crypto
 ## Description
 
-## Flag
-`UNHMAQWZIDYPRCJKBGVSLOETXF`
-## Solution
+## Topics Covered
 
-## Setup

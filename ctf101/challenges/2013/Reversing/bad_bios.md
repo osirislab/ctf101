@@ -7,8 +7,6 @@
 
 ## Description
 
-## Flag
+## Topics Covered
 
-## Solution
-
-## Setup
+- [Dissassemblers](/reverse-engineering/what-are-disassemblers/)

@@ -8,8 +8,6 @@ Liang
 Pwn
 ## Description
 
-## Flag
-`flag{f0rm47_s7r1ng5_4r3_fun_57uff}`
-## Solution
+## Topics Covered
 
-## Setup
+- [Format String Vulnerability](/binary-exploitation/what-is-a-format-string-vulnerability/)

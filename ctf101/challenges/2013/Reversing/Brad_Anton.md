@@ -7,9 +7,6 @@ Antonowiecz
 Reversing
 ## Description
 
-## Flag
+## Topics Covered
 
-## Solution
-
-## Setup
-Distribute `FunForEveryBody.exe`
+- [Dissassemblers](/reverse-engineering/what-are-disassemblers/)

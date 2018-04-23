@@ -8,8 +8,7 @@ Chung
 Pwn
 ## Description
 I hear bots are playing ctfs now.
-## Flag
-`flag{c4nt_w4it_f0r_cgc_7h15_y34r}`
-## Solution
+## Topics Covered
 
-## Setup
+- [Buffer Overflow](/binary-exploitation/buffer-overflow/)
+- [Dissassemblers](/reverse-engineering/what-are-disassemblers/)

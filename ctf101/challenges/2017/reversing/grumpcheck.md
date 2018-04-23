@@ -7,9 +7,5 @@
 Reversing
 ## Description
 `nc server 7890`
-## Flag
-`flag{python_doesnt_even_golang_here!}`
-## Solution
+## Topics Covered
 
-## Setup
-Distribute `grumpcheck` binary.

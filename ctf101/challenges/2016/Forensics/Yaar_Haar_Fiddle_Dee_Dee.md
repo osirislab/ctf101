@@ -16,4 +16,6 @@ The challenge is a pcap of a "conversation" created with python sockets. There 3
 2. `binwalk -e` the image blob
 3. use opencv python docs to write a haar cascade script
 4. identify the jollyroger and use that as the password for the zip
-5. `cat flag.txt`
+5. `cat flag.txt`## Topics Covered
+
+- [Wireshark](/forensics/what-is-wireshark/)

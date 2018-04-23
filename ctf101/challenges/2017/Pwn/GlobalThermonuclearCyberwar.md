@@ -40,4 +40,5 @@ And a vnc server locally with:
     `qemu-system-i386 -vnc :0 -drive format=raw,file=cyberwar.rom`
 
 To be nice to the competitors, note that the gdbstub in the latest QEMU on ubuntu has had issues for us. A known-good version of QEMU is:
-    `2.10.1`
+    `2.10.1`## Topics Covered
+

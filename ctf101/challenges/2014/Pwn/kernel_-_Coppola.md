@@ -7,8 +7,7 @@ Coppola
 Pwn
 ## Description
 
-## Flag
-`flag{DROP_TABLES_not_bombs}`
-## Solution
-`solution.c`
-## Setup
+## Topics Covered
+
+- [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
+- [Assembly/Machine Code](/reverse-engineering/what-is-assembly-machine-code/)

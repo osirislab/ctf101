@@ -8,8 +8,7 @@ Edwards
 Pwn
 ## Description
 
-## Flag
-`cc21fe41b44ba70d0e6978c840698601`
-## Solution
+## Topics Covered
 
-## Setup
+- [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
+- [Debuggers](/reverse-engineering/what-is-gdb/)

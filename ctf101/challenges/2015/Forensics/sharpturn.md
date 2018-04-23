@@ -9,8 +9,6 @@ Forensics
 ## Description
 I think my SATA controller is dying.
 HINT: `git fsck -v`
-## Flag
-`flag{3b532e0a187006879d262141e16fa5f05f2e6752}`
-## Solution
+## Topics Covered
 
-## Setup
+- [Disk Imaging](/forensics/what-is-disk-imaging/)

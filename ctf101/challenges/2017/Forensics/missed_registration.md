@@ -13,3 +13,6 @@ It's registration day! These forms just seem longer and longer...
 [solve.py](solve.py)
 ## File for challenge
 cap.pcap
+## Topics Covered
+
+- [Wireshark](/forensics/what-is-wireshark/)

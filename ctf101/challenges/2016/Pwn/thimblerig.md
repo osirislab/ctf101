@@ -7,7 +7,5 @@
 Pwn
 ## Description
 This guy has shells!
-## Flag
-`flag{GottaBeShiftyLikeTheGriftah}`
-## Solution
-[exploit.py](exploit.py)
+## Topics Covered
+

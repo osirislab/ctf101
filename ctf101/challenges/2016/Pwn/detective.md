@@ -34,17 +34,5 @@ HINT:
 
 HINT:
 so exit does a bit of stuff before it actually exists. try walking through it, you might find something interesting...
-## Flag
-`FLAG{SHERLOCK_HOMLES_NEVER_DIES_HOPE_YOU_ENJOY_REST_OF_CHALLENGES_CSAW2016}`
-## Solution
-[answer.txt](answer.txt)
-## Setup
-To build
-- `docker build -t "detective:csaw2016" . `
-To run:
-- `docker run -d --name detective -p [4242]:[port] detective:csaw2016`
+## Topics Covered
 
-## Note
-- port is changeable.
-- Pull out libc and compiled executable from the docker instance.
-- No ASLR. Have a separate box for this challenge.

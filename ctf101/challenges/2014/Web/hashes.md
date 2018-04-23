@@ -7,8 +7,6 @@ Chung
 Web
 ## Description
 location, location, location
-## Flag
-`flag{these_browser_bots_are_annoying}`
-## Solution
+## Topics Covered
 
-## Setup
+- [Hashing Functions](/cryptography/what-are-hashing-functions/)

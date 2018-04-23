@@ -7,7 +7,6 @@
 Reversing
 ## Description
 Never forget the people's champ.
-## Flag
-`FLAG{IoDJuvwxy\tuvyxwxvwzx{\z{vwxyz}`
-## Solution
-See [solution.cpp](solution.cpp)
+## Topics Covered
+
+- [Dissassemblers](/reverse-engineering/what-are-disassemblers/)

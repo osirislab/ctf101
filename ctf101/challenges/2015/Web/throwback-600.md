@@ -11,9 +11,5 @@ Programming is hard. CTF software is hard too. We broke our CTF software a few y
 :( :( :(
 HINT: If you are smart about it, you do not need to attack the CTF infrastructure.
 HINT: The source code of our CTF software is on our Github. Also if you tried the challenge with flag{} before, try again.
-## Flag
+## Topics Covered
 
-## Solution
-* <http://blog.init-labs.org/2015/09/21/csaw-web-600-write-up/>
-* <https://github.com/smokeleeteveryday/CTF_WRITEUPS/tree/master/2015/CSAWCTF/web/throwback>
-* <http://blog.isis.poly.edu/2015/09/21/csaw-ctf-throwback.html>

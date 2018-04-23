@@ -7,8 +7,5 @@
 Misc
 ## Description
 
-## Flag
-`that comp sci assignment was useful after all`
-## Solution
+## Topics Covered
 
-## Setup

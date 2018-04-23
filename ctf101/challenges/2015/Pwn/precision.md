@@ -8,8 +8,5 @@ Liang
 Pwn
 ## Description
 
-## Flag
-`flag{1_533_y0u_kn0w_y0ur_w4y_4r0und_4_buff3r}`
-## Solution
+## Topics Covered
 
-## Setup

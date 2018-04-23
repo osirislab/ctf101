@@ -1842,9 +1842,7 @@
                 
             <li class="second-level"><a href="#description">Description:</a></li>
                 
-            <li class="second-level"><a href="#flag">Flag</a></li>
-                
-            <li class="second-level"><a href="#solution">Solution</a></li>
+            <li class="second-level"><a href="#topics-covered">Topics Covered</a></li>
                 
     </ul>
 </div></div>
@@ -1858,19 +1856,12 @@
 <p>Pwn</p>
 <h2 id="description">Description:<a class="headerlink" href="#description" title="Permanent link">&para;</a></h2>
 <p>We're on a highway to the danger zone.</p>
-<h2 id="flag">Flag<a class="headerlink" href="#flag" title="Permanent link">&para;</a></h2>
-<p><code class="codehilite">flag{d0n7_let_m3_g3t_1n_my_z0n3}</code></p>
-<h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">&para;</a></h2>
-<ol>
-<li>Overwrite size of next block</li>
-<li>Allocate next block</li>
-<li>When the block is freed it will go into a different zone</li>
-<li>Allocate another block from different zone</li>
-<li>Now you can write more than one byte since different zone thinks the size is much larger</li>
-<li>Overwrite next pointer of next block to point to stack</li>
-<li>Rop into a leak</li>
-<li>Call system/magic gadget if that still exists</li>
-</ol></div>
+<h2 id="topics-covered">Topics Covered<a class="headerlink" href="#topics-covered" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../../../binary-exploitation/return-oriented-programming/">Return Oriented Programming</a></li>
+<li><a href="../../../../reverse-engineering/what-are-disassemblers/">Dissassemblers</a></li>
+<li><a href="../../../../binary-exploitation/what-is-the-heap/">The Heap</a></li>
+</ul></div>
             
         
     </div>

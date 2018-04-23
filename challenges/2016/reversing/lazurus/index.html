@@ -1842,11 +1842,7 @@
                 
             <li class="second-level"><a href="#description">Description</a></li>
                 
-            <li class="second-level"><a href="#flag">Flag</a></li>
-                
-            <li class="second-level"><a href="#solution">Solution</a></li>
-                
-            <li class="second-level"><a href="#notes">Notes</a></li>
+            <li class="second-level"><a href="#topics-covered">Topics Covered</a></li>
                 
     </ul>
 </div></div>
@@ -1860,27 +1856,10 @@
 <p>Reversing</p>
 <h2 id="description">Description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h2>
 <p>Lost but not forgotten, today we breathe new life into a peculiar world.</p>
-<h2 id="flag">Flag<a class="headerlink" href="#flag" title="Permanent link">&para;</a></h2>
-<p><code class="codehilite">flag{exp3ct_a_w1nd0ws_p0six_pwn4ble_f0r_CSAW_2017_f1nals}</code></p>
-<h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">&para;</a></h2>
-<p>Simply run the executable with the correct flag as the first argument. You will need the SUA Subsystem enabled.</p>
-<h2 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h2>
-<p>This is a reversing challenge that is compiled for the old, Windows POSIX Subsystem.
-To complete this challenge, it is expected that teams are going to have to have to
-actually get the executable running in the SUA 4.0 (Subsystem for Unix Applications)
-environment. This subsystem was shipped as a part of Windows from NT 4.0 - Windows 8.</p>
-<p>The challenge uses fingerprints of the SUA environment to create/check the flag. It
-is unlikely that teams will be able to solve the challenge (at least relatively easily)
-without enabling the SUA subsystem on a Windows machine.</p>
-<p>The reversing / flag logic is by no means complex. It is simply a byte xor of an
-'encrypted' flag and the collected environmental fingerprints. There is some basic
-obfuscation and anti-hexrays, along with some confusing code chunks to slowdown the
-finalists and increase the difficulty of the challenge. Once they understand that
-some chunks of code are just opaque predicates, they'll probably solve it pretty quickly.</p>
-<p>Other tidbits:
-- I developed the challenge on an x86 Windows 7 Enterprise VM
-- The challenge is 'environmentally keyed' to the SUA 4.0 Subsystem. It may not verify the flag properly on older versions.
-- It might be a bit tricky for teams to debug (good!) because the launch process of POSIX executables is indirect</p></div>
+<h2 id="topics-covered">Topics Covered<a class="headerlink" href="#topics-covered" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../../../reverse-engineering/what-are-disassemblers/">Dissassemblers</a></li>
+</ul></div>
             
         
     </div>

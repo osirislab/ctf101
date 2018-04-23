@@ -1842,13 +1842,7 @@
                 
             <li class="second-level"><a href="#description">Description</a></li>
                 
-            <li class="second-level"><a href="#flag">Flag</a></li>
-                
-            <li class="second-level"><a href="#solution">Solution</a></li>
-                
-            <li class="second-level"><a href="#premise">Premise</a></li>
-                
-            <li class="second-level"><a href="#warnings">Warnings</a></li>
+            <li class="second-level"><a href="#topics-covered">Topics Covered</a></li>
                 
     </ul>
 </div></div>
@@ -1864,26 +1858,12 @@
 <h2 id="description">Description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h2>
 <p>Guess what time it is! That's right! Gametime! Wowwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww!!!!!!!!!!!!
 note: flag is not in flag{} format</p>
-<h2 id="flag">Flag<a class="headerlink" href="#flag" title="Permanent link">&para;</a></h2>
-<p><code class="codehilite">(no5c30416d6cf52638460377995c6a8cf5)</code></p>
-<h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">&para;</a></h2>
-<p>You <em>could</em> maybe check your speed with the game, but really the solution to reverse out the leading sequence of character presses (they're static), then either reverse out the key or probably much quicker is to:</p>
-<ol>
-<li>Attach the debugger, set the following breakpoints to overwrite register values to fast track you to the key. You'll need to adjust the image address at run time:</li>
-</ol>
-<p><code class="codehilite">bp image010c0000 + 18d8 &quot;r edx=1;g;&quot;</code>
-<code class="codehilite">bp image010c0000 + 1916 &quot;r esi=13;g;&quot;</code></p>
-<ol>
-<li>Let the program start, paste in the following sequence, including spaces: </li>
-</ol>
-<p>" xm xmmx mmxxmx  xm"</p>
-<p>A vuln in the program logic allows the user to add character to the key press buffer before they're prompted to. </p>
-<p>Finally the program will spit out:
-<code class="codehilite">key is  (no5c30416d6cf52638460377995c6a8cf5)</code></p>
-<h2 id="premise">Premise<a class="headerlink" href="#premise" title="Permanent link">&para;</a></h2>
-<p>A game that requires a user to type either space ('s'), 'm' or 'x' when prompted. If they are fast enough, they get the key. </p>
-<h2 id="warnings">Warnings<a class="headerlink" href="#warnings" title="Permanent link">&para;</a></h2>
-<p>Everything should be statically compiled. I tested on two different  Win8.1 VMs with no problem. If someone gets DLL loading errors, they most likely need to download Microsoft's Visual C Runtime Library. </p></div>
+<h2 id="topics-covered">Topics Covered<a class="headerlink" href="#topics-covered" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../../../reverse-engineering/what-is-gdb/">Debuggers</a></li>
+<li><a href="../../../../binary-exploitation/what-are-registers/">Registers</a></li>
+<li><a href="../../../../reverse-engineering/what-are-disassemblers/">Dissassemblers</a></li>
+</ul></div>
             
         
     </div>

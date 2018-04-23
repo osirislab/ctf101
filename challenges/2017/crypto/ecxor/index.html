@@ -1842,13 +1842,7 @@
                 
             <li class="second-level"><a href="#description">Description</a></li>
                 
-            <li class="second-level"><a href="#flag">Flag</a></li>
-                
-            <li class="second-level"><a href="#solution">Solution</a></li>
-                
-            <li class="second-level"><a href="#setup">Setup</a></li>
-                
-            <li class="second-level"><a href="#notes">Notes</a></li>
+            <li class="second-level"><a href="#topics-covered">Topics Covered</a></li>
                 
     </ul>
 </div></div>
@@ -1864,16 +1858,10 @@
 <h2 id="description">Description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h2>
 <p>I used some super-powerful crypto tonight
 I hear that elliptic curves make it safe to use smaller key sizes. Can you break this curve25519-encrypted message?</p>
-<h2 id="flag">Flag<a class="headerlink" href="#flag" title="Permanent link">&para;</a></h2>
-<p><code class="codehilite">flag{generalizing_vignere_to_arbitrary_groups_is_not_good}</code></p>
-<h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">&para;</a></h2>
-<p><a href="../ecxor_solver.py">ecxor_solver.py</a></p>
-<h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
-<p>Challenge files: (exactly one of ecxor_handout_{100,200,300}.py), rfc8032.py, and a 
-ciphertext blob generated with the the handout and the real flag. DO NOT give oracle access to a server (the handouts aren't side-channel hardened).
-Intended solution: do (blob - 'flag{') to get a partial key, and crib/use ngram-style heuristics to use the english blob at the end to infer the rest of the key</p>
-<h2 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h2>
-<p>Challenge points: {100,200,300} depending on whether ecxor_handout_{100,200,300}.py is given out. These are not independent challenges: ecxor_handout_100.py basically has extra hints towards the solution.</p></div>
+<h2 id="topics-covered">Topics Covered<a class="headerlink" href="#topics-covered" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../../../cryptography/what-is-a-vigenere-cipher/">Vigenere Ciphers</a></li>
+</ul></div>
             
         
     </div>

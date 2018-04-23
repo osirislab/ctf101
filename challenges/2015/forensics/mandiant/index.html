@@ -1842,11 +1842,7 @@
                 
             <li class="second-level"><a href="#description">Description</a></li>
                 
-            <li class="second-level"><a href="#flag">Flag</a></li>
-                
-            <li class="second-level"><a href="#solution">Solution</a></li>
-                
-            <li class="second-level"><a href="#setup">Setup</a></li>
+            <li class="second-level"><a href="#topics-covered">Topics Covered</a></li>
                 
     </ul>
 </div></div>
@@ -1862,107 +1858,10 @@
 <h2 id="description">Description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h2>
 <p>We found this file. Help Mandiant figure out what APT1 is trying to send.
 Hint: check out free_file_camouflage</p>
-<h2 id="flag">Flag<a class="headerlink" href="#flag" title="Permanent link">&para;</a></h2>
-<p><code class="codehilite">flag{s3v3r4l_l4y3r5_d33p_&amp;_2m4ny_l4yers_w1d3}</code></p>
-<h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">&para;</a></h2>
-<p>by <a href="https://github.com/abpolym">polym</a>
-This writeup is based on a writeup by <a href="https://github.com/krx/CTF-Writeups/tree/master/CSAW%2015%20Finals/for300%20-%20Mandiant">krx</a>.
-We are given a PDF that contains an EmbeddedFile object stream, see <a href="http://www.adobe.com/content/dam/Adobe/en/devnet/acrobat/pdfs/PDF32000_2008.pdf">7.11.4 of the official PDF specification by Adobe</a>.
-Using <code class="codehilite">qpdf</code> and a common text editor, we can extract the embedded file (base64 encoded) in a simple manner:</p>
-<div class="codehilite"><pre><span></span>$ qpdf --qdf --object-streams<span class="o">=</span>disable Mandiant_c920fc463eaf996489749457abc9b2eb.pdf out.pdf
-</pre></div>
-
-
-<p><img alt="" src="../pdf-embedded-file.png" />
-We decode it using <code class="codehilite">base64 --decode</code> to find a PNG:</p>
-<div class="codehilite"><pre><span></span>$ cat out.b64 <span class="p">|</span> tr -d <span class="s1">&#39;\n&#39;</span> <span class="p">|</span> b64d pic.png 
-$ file pic.png
-pic.png: PNG image data, <span class="m">610</span> x <span class="m">467</span>, <span class="m">8</span>-bit/color RGBA, non-interlaced
-</pre></div>
-
-
-<p>The PNG contains a 7-zip archive, which we extract using <code class="codehilite">scalpel</code> using a modified version of <a href="https://asecuritysite.com/scalpel.conf.txt">this config</a>:</p>
-<div class="codehilite"><pre><span></span>$ binwalk pic.png <span class="p">|</span> grep -v Zlib
-DECIMAL       HEXADECIMAL     DESCRIPTION
---------------------------------------------------------------------------------
-<span class="m">0</span>             0x0             PNG image, <span class="m">610</span> x <span class="m">467</span>, <span class="m">8</span>-bit/color RGBA, non-interlaced
-<span class="m">160173</span>        0x271AD         <span class="m">7</span>-zip archive data, version <span class="m">0</span>.4
-$ scalpel -vc scalpel.conf pic.png
-$ tree scalpel-output/
-scalpel-output/
-├── 7z-10-0
-│   └── <span class="m">00000000</span>.7z
-└── audit.txt
-
-<span class="m">1</span> directory, <span class="m">2</span> files
-</pre></div>
-
-
-<p>Inside the 7z there is a JPG (also base64 encoded), which we extract using <code class="codehilite">7z</code>:</p>
-<div class="codehilite"><pre><span></span>+bash-4.3$ <span class="nb">cd</span> 7z-10-0/
-+bash-4.3$ ls
-<span class="m">00000000</span>.7z
-+bash-4.3$ 7z x <span class="m">00000000</span>.7z -oout
-
-<span class="m">7</span>-Zip <span class="o">[</span><span class="m">64</span><span class="o">]</span> <span class="m">9</span>.20  Copyright <span class="o">(</span>c<span class="o">)</span> <span class="m">1999</span>-2010 Igor Pavlov  <span class="m">2010</span>-11-18
-p7zip Version <span class="m">9</span>.20 <span class="o">(</span><span class="nv">locale</span><span class="o">=</span>utf8,Utf16<span class="o">=</span>on,HugeFiles<span class="o">=</span>on,8 CPUs<span class="o">)</span>
-
-Processing archive: <span class="m">00000000</span>.7z
-
-Extracting  secret.txt
-
-Everything is Ok
-
-Size:       <span class="m">58375</span>
-Compressed: <span class="m">43850</span>
-+bash-4.3$ tree out/
-out/
-└── secret.txt
-
-<span class="m">0</span> directories, <span class="m">1</span> file
-+bash-4.3$ file out/secret.txt 
-out/secret.txt: ASCII text
-+bash-4.3$ <span class="nb">cd</span> out/
-+bash-4.3$ cat secret.txt <span class="p">|</span> tr -d <span class="s1">&#39;\n&#39;</span> <span class="p">|</span> base64 --decode pic.jpg
-+bash-4.3$ file pic.jpg 
-pic.jpg: JPEG image data
-</pre></div>
-
-
-<p>Using any hexeditor or <code class="codehilite">strings</code>, we find that the JPG contains two base64 encoded blobs:</p>
-<div class="codehilite"><pre><span></span>$ strings -a pic.jpg 
-b#o<span class="o">]</span>
-Y2EB
- V~D
-<span class="o">[</span>...<span class="o">]</span>
-<span class="s2">&quot;aKxw</span>
-<span class="s2">S#UH</span>
-<span class="s2">VVGEC8uGDQuNhhk6FKg0ICF9jVAUS54zurveSzXcwE9MsIHIZPuvP6vrSDgwULy5Kvm/wPe3zxddM4SSPgvWIg==</span>
-<span class="s2">XQN6Y6QIpfofWw857i5DK[...]</span>
-$<span class="s2"> strings -a pic.jpg | tail -n2 strings.b64</span>
-</pre></div>
-
-
-<p>However, both blobs do not seem to be anything obvious at first:</p>
-<div class="codehilite"><pre><span></span>$ sed <span class="s1">&#39;1q;d&#39;</span> strings.b64 <span class="p">|</span> b64d <span class="p">|</span> xxd
-<span class="m">0000000</span>: <span class="m">5551</span> 840b cb86 0d0b 8d86 193a 14a8 <span class="m">3420</span>  UQ.........:..4 
-<span class="m">0000010</span>: 217d 8d50 144b 9e33 babb de4b 35dc c04f  !<span class="o">}</span>.P.K.3...K5..O
-<span class="m">0000020</span>: 4cb0 81c8 64fb af3f abeb <span class="m">4838</span> <span class="m">3050</span> bcb9  L...d..?..H80P..
-<span class="m">0000030</span>: 2af9 bfc0 f7b7 cf17 5d33 <span class="m">8492</span> 3e0b d622  *.......<span class="o">]</span><span class="m">3</span>..&gt;..<span class="s2">&quot;</span>
-$<span class="s2"> sed &#39;2q;d&#39; strings.b64 | b64d | xxd</span>
-<span class="s2">0000000: 5d03 7a63 a408 a5fa 1f5b 0f39 ee2e 432b  ].zc.....[.9..C+</span>
-<span class="s2">0000010: bd55 57e0 0cc3 7aa4 9797 c906 abc4 4e82  .UW...z.......N.</span>
-<span class="s2">[...]</span>
-<span class="s2">0003450: c273 cfa0 b5ca 8535 64b4 40a6 501e f7de  .s.....5d.@.P...</span>
-<span class="s2">0003460: b749 d99b 18ea 3dd7 af98 e685 295f 312e  .I....=.....)_1.</span>
-<span class="s2">0003470: 7a35 2b36 ca13 86a0 9265 6802 f0f8 4e3d  z5+6.....eh...N=</span>
-</pre></div>
-
-
-<p>As <a href="https://github.com/krx/CTF-Writeups/tree/master/CSAW%2015%20Finals/for300%20-%20Mandiant">this writeup</a> suggests, we have to use a program called <code class="codehilite">Free File Camouflage</code> to extract a hdden file from the blob(s) - an ELF.
-The final step is to run the ELF to receive the flag <code class="codehilite">flag{s3v3r4l_l4y3r5_d33p_&amp;_2m4ny_l4yers_w1d3}</code>.</p>
-<h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
-<p><a href="../Mandiant_c920fc463eaf996489749457abc9b2eb.pdf">Mandiant_c920fc463eaf996489749457abc9b2eb.pdf</a></p></div>
+<h2 id="topics-covered">Topics Covered<a class="headerlink" href="#topics-covered" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../../../forensics/what-is-disk-imaging/">Disk Imaging</a></li>
+</ul></div>
             
         
     </div>

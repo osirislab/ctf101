@@ -1842,9 +1842,7 @@
                 
             <li class="second-level"><a href="#description">Description</a></li>
                 
-            <li class="second-level"><a href="#flag">Flag</a></li>
-                
-            <li class="second-level"><a href="#solution">Solution</a></li>
+            <li class="second-level"><a href="#topics-covered">Topics Covered</a></li>
                 
     </ul>
 </div></div>
@@ -1858,22 +1856,7 @@
 <p>Forensics</p>
 <h2 id="description">Description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h2>
 <p>Canned epic hidden snek flavored cookies have shy gorilla.</p>
-<h2 id="flag">Flag<a class="headerlink" href="#flag" title="Permanent link">&para;</a></h2>
-<p><code class="codehilite">flag{We are fsociety, we are finally free, we are finally awake!}</code></p>
-<h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">&para;</a></h2>
-<p>The description "canned" hints toward the file having more files within it. powpow.mp4 has a png appended to it. 
-The description "epic hidden snek flavored" hints at the module stepic. Using stepic to write the output to a different file reveals a jpg.
-powpow.mp4 's properties show that the Artist is Stefan Hetzl, the Title is <code class="codehilite">aHR0cDovL3N0ZWdoaWRlLnNvdXJjZWZvcmdlLm5ldC8=</code>, and the file was last modified October 09, 2003 (the last update to the steghide website). This points to steghide, since the title is base64 for <a href="http://steghide.sourceforge.net/">steghide's website</a>. The title of the challenge is "Watchword", which is a synonym for password. Using steghide and the password "password" on the jpg reveals a text file.
-The text file is Base85 for the flag.</p>
-<div class="codehilite"><pre><span></span><span class="n">foremost</span> <span class="n">powpow</span><span class="o">.</span><span class="n">mp4</span>
-<span class="n">stepic</span> <span class="o">-</span><span class="n">i</span> <span class="n">output</span><span class="o">/</span><span class="n">png</span><span class="o">/</span><span class="mf">00001069.</span><span class="n">png</span> <span class="o">-</span><span class="n">d</span> <span class="o">&gt;</span> <span class="n">thing</span>
-<span class="n">steghide</span> <span class="n">extract</span> <span class="o">-</span><span class="n">sf</span> <span class="n">thing</span><span class="o">.</span><span class="n">jpg</span> <span class="o">-</span><span class="n">p</span> <span class="n">password</span>
-<span class="n">cat</span> <span class="n">base64</span><span class="o">.</span><span class="n">txt</span>
-<span class="n">python3</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">base64</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">base64</span><span class="o">.</span><span class="n">b85decode</span><span class="p">(</span><span class="sa">b</span><span class="s1">&#39;W^7?+dsk&amp;3VRB_4W^-?2X=QYIEFgDfAYpQ4AZBT9VQg%9AZBu9Wh@|fWgua4Wgup0ZeeU}c_3kTVQXa}eE&#39;</span><span class="p">)</span>
-<span class="sa">b</span><span class="s1">&#39;flag{We are fsociety, we are finally free, we are finally awake!}&#39;</span>
-</pre></div></div>
+<h2 id="topics-covered">Topics Covered<a class="headerlink" href="#topics-covered" title="Permanent link">&para;</a></h2></div>
             
         
     </div>

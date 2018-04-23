@@ -1842,11 +1842,7 @@
                 
             <li class="second-level"><a href="#description">Description</a></li>
                 
-            <li class="second-level"><a href="#flag">Flag</a></li>
-                
-            <li class="second-level"><a href="#solution">Solution</a></li>
-                
-            <li class="second-level"><a href="#premise">Premise</a></li>
+            <li class="second-level"><a href="#topics-covered">Topics Covered</a></li>
                 
     </ul>
 </div></div>
@@ -1862,16 +1858,12 @@
 <p>what, you've never seen an x86-48 bomb lab before?
 Its just another bomb lab. 
 NOTE: The flag in the binary is a placeholder. Please run against the remote system to get the real flag!</p>
-<h2 id="flag">Flag<a class="headerlink" href="#flag" title="Permanent link">&para;</a></h2>
-<p><code class="codehilite">flag{turns_out_heavens_gate_works_on_linux_too_yote}</code></p>
-<h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">&para;</a></h2>
-<p><a href="../solver.py">solver.py</a></p>
-<h2 id="premise">Premise<a class="headerlink" href="#premise" title="Permanent link">&para;</a></h2>
-<p>This is a reversing challenge that abuses the ability to define a segment selector in certain far jmp instructions to obfuscate an otherwise fairly straightworward bomb-lab style challenge.
-Teams are expected to reverse each phase of the bomb lab and provide an input that will allow them to continue to the next phase until they can reach flag printing code.
-Phase 1 involves a constant global 32 byte string. the program takes user input into a buffer, then jumps to 64 bit execution and loads the whole string into rax, rbx, rcx, and rdx. it compares rax, rbx, and rdx to the proper offsets into the user to see if they input the same string, but rcx gets bswapped in 64 bit, then a compares ecx against the third chunk of the input string in 32 bit execution mode.
-Phase 2
-release yeetlab_release</p></div>
+<h2 id="topics-covered">Topics Covered<a class="headerlink" href="#topics-covered" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../../../reverse-engineering/what-are-disassemblers/">Dissassemblers</a></li>
+<li><a href="../../../../binary-exploitation/what-are-registers/">Registers</a></li>
+<li><a href="../../../../reverse-engineering/what-is-gdb/">Debuggers</a></li>
+</ul></div>
             
         
     </div>

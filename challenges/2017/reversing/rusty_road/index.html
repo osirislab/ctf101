@@ -1842,11 +1842,7 @@
                 
             <li class="second-level"><a href="#description">Description</a></li>
                 
-            <li class="second-level"><a href="#flag">Flag</a></li>
-                
-            <li class="second-level"><a href="#solution">Solution</a></li>
-                
-            <li class="second-level"><a href="#premise">Premise</a></li>
+            <li class="second-level"><a href="#topics-covered">Topics Covered</a></li>
                 
     </ul>
 </div></div>
@@ -1863,33 +1859,10 @@
 </pre></div>
 
 
-<h2 id="flag">Flag<a class="headerlink" href="#flag" title="Permanent link">&para;</a></h2>
-<p>flag{D0wN_4nD_1eFt_WhEr3_Red_H3Rr1Ngz}</p>
-<h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">&para;</a></h2>
-<p><a href="../solver.py">solver.py</a></p>
-<h2 id="premise">Premise<a class="headerlink" href="#premise" title="Permanent link">&para;</a></h2>
-<p>This is an RE challenge for CSAW 2017
-- given is a compiled rust binary with symbols
-- within the binary is a game that consists of 4 different grids</p>
+<h2 id="topics-covered">Topics Covered<a class="headerlink" href="#topics-covered" title="Permanent link">&para;</a></h2>
 <ul>
-<li>
-<p>a grid is a 10x10 board that has a number in each square
-the numbers are generated with sieve of eratosthenes and a systematic shuffling
-of these results that correspond to one of the four boards</p>
-</li>
-<li>
-<p>The goal is to traverse the board from the top left or 0,0 to 
-the bottom right or 9,9</p>
-</li>
-</ul>
-<p>-The catch is that each grid during the traversal is changing based off the 
-direction moved</p>
-<p>EX: UP - BOARD1
-    DOWN - BOARD2
-    RIGHT - BOARD3
-    LEFT - BOARD4</p>
-<p>each correspond with a certain board</p>
-<p>A magic number obtained through this means of traversal gets you the flag</p></div>
+<li><a href="../../../../reverse-engineering/what-are-disassemblers/">Dissassemblers</a></li>
+</ul></div>
             
         
     </div>

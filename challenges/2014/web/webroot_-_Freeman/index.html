@@ -1842,13 +1842,7 @@
                 
             <li class="second-level"><a href="#description">Description</a></li>
                 
-            <li class="second-level"><a href="#flag">Flag</a></li>
-                
-            <li class="second-level"><a href="#solution">Solution</a></li>
-                
-            <li class="second-level"><a href="#setup">Setup</a></li>
-                
-            <li class="second-level"><a href="#notes">Notes</a></li>
+            <li class="second-level"><a href="#topics-covered">Topics Covered</a></li>
                 
     </ul>
 </div></div>
@@ -1863,23 +1857,9 @@
 <p>Web</p>
 <h2 id="description">Description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h2>
 <p>hackerhaikus.com</p>
-<h2 id="flag">Flag<a class="headerlink" href="#flag" title="Permanent link">&para;</a></h2>
-<p><code class="codehilite">flag{rise_and_shine,_mr._freeman._rise_and_shine}</code></p>
-<h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">&para;</a></h2>
+<h2 id="topics-covered">Topics Covered<a class="headerlink" href="#topics-covered" title="Permanent link">&para;</a></h2>
 <ul>
-<li>There are two SQL injection vulnerabilities in the "saveHaiku" call; one in the timestamp and one in the encrypted haiku. First one requires changing the AMF type from number to string (no tools available, requires hex munging), second requires enumerating the DES_ECB key and encrypting a payload that way.</li>
-<li>Backend DB is SQLite3. Shell will probably be gained with the "ATTACH DATABASE" method outlined here: <a href="http://atta.cked.me/home/sqlite3injectioncheatsheet">http://atta.cked.me/home/sqlite3injectioncheatsheet</a></li>
-<li>There might also be bugs in Amfphp itself. In fact there almost certainly are. I haven't had time to test for these.</li>
-</ul>
-<h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
-<p>Please find attached webroot.tgz. Some notes on setup:
-* Needs mcrypt and sqlite3 PHP extensions enabled
-* Apache should be configured with hackerhaikus.com as the virtual host (DNS is already pointing to the IP specified on IRC yesterday)
-* test2.php is meant to be there, it discloses the webroot which is needed for exploitation.</p>
-<h2 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Probably just dump a file readable by www-data in /opt or something.</li>
-<li>I have no idea how points work for this, and how this ranks in complexity compared to the other challenges, and therefore have no idea how many points to assign for the challenge ;)</li>
+<li><a href="../../../../web-exploitation/sql-injection/what-is-sql-injection/">SQL Injection</a></li>
 </ul></div>
             
         

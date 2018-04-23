@@ -59,6 +59,12 @@
      <changefreq>daily</changefreq>
     </url>
         
+    <url>
+     <loc></loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
     
@@ -270,28 +276,6 @@
     <url>
      <loc></loc>
      <lastmod></lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc></loc>
-     <lastmod></lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc></loc>
-     <lastmod></lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-        
-    <url>
-     <loc>/miscellaneous/introduction/</loc>
-     <lastmod>2018-04-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
         

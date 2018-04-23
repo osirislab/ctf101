@@ -221,6 +221,21 @@
             "title": "Other Useful Commands"
         }, 
         {
+            "location": "/forensics/what-is-a-hex-editor/", 
+            "text": "Hex Editor\n\n\nA hexadecimal (hex) editor (also called a binary file editor or byte editor) is a computer program you can use to manipulate the fundamental binary data that constitutes a computer file. The name \u201chex\u201d comes from \u201chexadecimal,\u201d a standard numerical format for representing binary data. A typical computer file occupies multiple areas on the platter(s) of a disk drive, whose contents are combined to form the file. Hex editors that are designed to parse and edit sector data from the physical segments of floppy or hard disks are sometimes called sector editors or disk editors. A hex editor is used to see or edit the raw, exact contents of a file. Hex editors may used to correct data corrupted by a system or application. A \nlist of editors\n can be found on the forensics Wiki. You can download one and install it on your system.\n\n\nExample\n\n\nOpen fileA.jpg in a hex editor. (Most Hex editors have either a \u201cFile \n Open\u201d option or a simple drag and drop.)\n\n\n\n\nWhen you open fileA.jpg in your hex editor, you should see something similar to this:\n\n\n\n\nYour hex editor should also have a \u201cgo to\u201d or \u201cfind\u201d feature so you can jump to a specific byte.", 
+            "title": "What is a Hex Editor"
+        }, 
+        {
+            "location": "/forensics/what-is-a-hex-editor/#hex-editor", 
+            "text": "A hexadecimal (hex) editor (also called a binary file editor or byte editor) is a computer program you can use to manipulate the fundamental binary data that constitutes a computer file. The name \u201chex\u201d comes from \u201chexadecimal,\u201d a standard numerical format for representing binary data. A typical computer file occupies multiple areas on the platter(s) of a disk drive, whose contents are combined to form the file. Hex editors that are designed to parse and edit sector data from the physical segments of floppy or hard disks are sometimes called sector editors or disk editors. A hex editor is used to see or edit the raw, exact contents of a file. Hex editors may used to correct data corrupted by a system or application. A  list of editors  can be found on the forensics Wiki. You can download one and install it on your system.", 
+            "title": "Hex Editor"
+        }, 
+        {
+            "location": "/forensics/what-is-a-hex-editor/#example", 
+            "text": "Open fileA.jpg in a hex editor. (Most Hex editors have either a \u201cFile   Open\u201d option or a simple drag and drop.)   When you open fileA.jpg in your hex editor, you should see something similar to this:   Your hex editor should also have a \u201cgo to\u201d or \u201cfind\u201d feature so you can jump to a specific byte.", 
+            "title": "Example"
+        }, 
+        {
             "location": "/challenges/2017/forensics/missed_registration/", 
             "text": "Missed Registration\n\n\nAuthor\n\n\nPoints\n\n\n150\n\n\nCategory\n\n\nForensics\n\n\nDescription\n\n\nIt's registration day! These forms just seem longer and longer...\n\n\nFlag\n\n\nFLAG{3Am_LaunDR3Y_FL4G_L34kz!}\n\n\nSolution\n\n\nsolve.py\n\n\nFile for challenge\n\n\ncap.pcap", 
             "title": "Missed Registration"
@@ -3596,6 +3611,51 @@
             "title": "Setup"
         }, 
         {
+            "location": "/challenges/2014/misc/pps_-_Wiens/", 
+            "text": "PPS\n\n\nAuthor\n\n\nWiens\n\n\nPoints\n\n\n200\n\n\nCategory\n\n\nMisc\n\n\nDescription\n\n\nFlag\n\n\nflag{ConsiderThisPUNishmentEnough}\n\n\nSolution\n\n\n\n\nLeak source\n\n\n\n\nnc localhost 5665\n4\npps.php\n2\n\n\n\n\n\n\n\nLeak flag\nWith the source, find the hidden password, evade the string matching via PHP's awesome forced coersion:\n\n\n\n\nnc localhost 5665\n5\n0xabadfad\nflag\n2\n\n\n\n\n\nSetup\n\n\nJust move the files from deploy somewhere on a filesystem. Preferrably give whatever runs the php no permissions to write anything anywhere. Then launch via xinetd on port 5665 (or whatever).", 
+            "title": "PPS"
+        }, 
+        {
+            "location": "/challenges/2014/misc/pps_-_Wiens/#pps", 
+            "text": "", 
+            "title": "PPS"
+        }, 
+        {
+            "location": "/challenges/2014/misc/pps_-_Wiens/#author", 
+            "text": "Wiens", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2014/misc/pps_-_Wiens/#points", 
+            "text": "200", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2014/misc/pps_-_Wiens/#category", 
+            "text": "Misc", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2014/misc/pps_-_Wiens/#description", 
+            "text": "", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2014/misc/pps_-_Wiens/#flag", 
+            "text": "flag{ConsiderThisPUNishmentEnough}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2014/misc/pps_-_Wiens/#solution", 
+            "text": "Leak source   nc localhost 5665\n4\npps.php\n2   Leak flag\nWith the source, find the hidden password, evade the string matching via PHP's awesome forced coersion:   nc localhost 5665\n5\n0xabadfad\nflag\n2", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2014/misc/pps_-_Wiens/#setup", 
+            "text": "Just move the files from deploy somewhere on a filesystem. Preferrably give whatever runs the php no permissions to write anything anywhere. Then launch via xinetd on port 5665 (or whatever).", 
+            "title": "Setup"
+        }, 
+        {
             "location": "/challenges/2017/web/csaw-oauth2-chal/", 
             "text": "CSAW OAUTH2\n\n\nAuthor\n\n\nitszn, Ret2 Systems\n\n\nPoints\n\n\n500\n\n\nCategory\n\n\nWeb\n\n\nDescription\n\n\nWe found this weird site that lets you send short messages of a much better length than 140 280 characters.\n\nhttp://broadcastr.chal.csaw.io:4000\n\nNOTE: The 500 on the /user/history endpoint is irrelevant.\n\n\nFlag\n\n\nflag{m4yb3_w3_n33d_oauth3_n3xt?}\n\n\nSolution\n\n\nsol.py\n\n\nSetup\n\n\n\n\nInstall docker\n\n\nModify \nconfig.sh\n to have the correct urls and settings\n\n\n./create.sh\n to build the docker container\n\n\n./run.sh\n to run the container", 
             "title": "Broadcastr"
@@ -5766,6 +5826,51 @@
             "title": "Setup"
         }, 
         {
+            "location": "/challenges/2017/misc/ethersplay/", 
+            "text": "ethersplay\n\n\nAuthor\n\n\nquend\n\n\nCategory\n\n\nMisc\n\n\nPoints\n\n\n400\n\n\nDescription\n\n\nI stole this contract from a private blockchain. Can you help me reverse its secrets?\n\n\nFLAG\n\n\nflag{ETHBTC_tothemoon}\n\n\nSetup\n\n\nDistribute .abi and .bytecode files.\n\n\nSolution\n\n\nIts solidity bytecode. So players must:\n1. figure out how to reverse it (the name of the challenge is a hint to tooling.\n2. figure out which function is a good target function - aka which has 'flag' in it\n3. find the winning path in the function - when you pass in the right username it will print out something different\n4. figure out what algo is used to hash the password (its SHA1)\n5. recover the flag through brute forcing 6 characters in SHA1\n6. submit the flag", 
+            "title": "Ethersplay"
+        }, 
+        {
+            "location": "/challenges/2017/misc/ethersplay/#ethersplay", 
+            "text": "", 
+            "title": "ethersplay"
+        }, 
+        {
+            "location": "/challenges/2017/misc/ethersplay/#author", 
+            "text": "quend", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2017/misc/ethersplay/#category", 
+            "text": "Misc", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2017/misc/ethersplay/#points", 
+            "text": "400", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2017/misc/ethersplay/#description", 
+            "text": "I stole this contract from a private blockchain. Can you help me reverse its secrets?", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2017/misc/ethersplay/#flag", 
+            "text": "flag{ETHBTC_tothemoon}", 
+            "title": "FLAG"
+        }, 
+        {
+            "location": "/challenges/2017/misc/ethersplay/#setup", 
+            "text": "Distribute .abi and .bytecode files.", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2017/misc/ethersplay/#solution", 
+            "text": "Its solidity bytecode. So players must:\n1. figure out how to reverse it (the name of the challenge is a hint to tooling.\n2. figure out which function is a good target function - aka which has 'flag' in it\n3. find the winning path in the function - when you pass in the right username it will print out something different\n4. figure out what algo is used to hash the password (its SHA1)\n5. recover the flag through brute forcing 6 characters in SHA1\n6. submit the flag", 
+            "title": "Solution"
+        }, 
+        {
             "location": "/binary-exploitation/introduction/", 
             "text": "Binary Exploitation\n\n\nBinaries, or executables, are machine code for a computer to execute. For the most part, the binaries that you will face in CTFs are Linux ELF files or the occasional windows executable. Binary Exploitation is a broad topic within Cyber Security which really comes down to finding a vulnerability in the program and exploiting it to gain control of a shell or modifying the program's functions.\n\n\nCommon topics addressed by Binary Exploitation or 'pwn' challenges include:\n\n\n\n\nRegisters\n\n\nThe Stack\n\n\nCalling Conventions\n\n\nGlobal Offset Table (GOT)\n\n\nBuffers\n\n\nBuffer Overflow\n\n\n\n\n\n\nReturn Oriented Programming (ROP)\n\n\nBinary Security\n\n\nNo eXecute (NX)\n\n\nAddress Space Layout Randomization (ASLR)\n\n\nStack Canaries\n\n\nRelocation Read-Only (RELRO)\n\n\n\n\n\n\nThe Heap\n\n\nHeap Exploitation\n\n\n\n\n\n\nFormat String Vulnerability", 
             "title": "Introduction"
@@ -6361,6 +6466,176 @@
             "title": "Setup"
         }, 
         {
+            "location": "/challenges/2017/misc/serial/", 
+            "text": "Serial\n\n\nAuthor\n\n\nPoints\n\n\n50\n\n\nCategory\n\n\nMisc\n\n\nDescription\n\n\nFlag\n\n\nflag{@n_int3rface_betw33n_data_term1nal_3quipment_and_d@t@_circuit-term1nating_3quipment}\n\n\nSolution\n\n\nsolver.py\n\n\nPremise\n\n\nBasic programming challenge that sends data sorta like rs232.", 
+            "title": "Serial"
+        }, 
+        {
+            "location": "/challenges/2017/misc/serial/#serial", 
+            "text": "", 
+            "title": "Serial"
+        }, 
+        {
+            "location": "/challenges/2017/misc/serial/#author", 
+            "text": "", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2017/misc/serial/#points", 
+            "text": "50", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2017/misc/serial/#category", 
+            "text": "Misc", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2017/misc/serial/#description", 
+            "text": "", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2017/misc/serial/#flag", 
+            "text": "flag{@n_int3rface_betw33n_data_term1nal_3quipment_and_d@t@_circuit-term1nating_3quipment}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2017/misc/serial/#solution", 
+            "text": "solver.py", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2017/misc/serial/#premise", 
+            "text": "Basic programming challenge that sends data sorta like rs232.", 
+            "title": "Premise"
+        }, 
+        {
+            "location": "/challenges/2017/misc/cvv/", 
+            "text": "CVV\n\n\nAuthor\n\n\nOskar Wirga\n\n\nPoints\n\n\n100\n\n\nCategory\n\n\nMisc\n\n\nDescription\n\n\nHey fam, you got CVV? I need some CVV!\n\n\nFlag\n\n\nflag{ch3ck-exp3rian-dat3-b3for3-us3}\n\n\nSolution\n\n\nsolve.py", 
+            "title": "CVV"
+        }, 
+        {
+            "location": "/challenges/2017/misc/cvv/#cvv", 
+            "text": "", 
+            "title": "CVV"
+        }, 
+        {
+            "location": "/challenges/2017/misc/cvv/#author", 
+            "text": "Oskar Wirga", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2017/misc/cvv/#points", 
+            "text": "100", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2017/misc/cvv/#category", 
+            "text": "Misc", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2017/misc/cvv/#description", 
+            "text": "Hey fam, you got CVV? I need some CVV!", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2017/misc/cvv/#flag", 
+            "text": "flag{ch3ck-exp3rian-dat3-b3for3-us3}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2017/misc/cvv/#solution", 
+            "text": "solve.py", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2016/misc/coinslot/", 
+            "text": "Coinslot\n\n\nAuthor\n\n\nJosh Hofing\n\n\nPoints\n\n\n25\n\n\nCategory\n\n\nMisc\n\n\nDescription\n\n\n#Hope #Change #Obama2008\n\n\nFlag\n\n\nflag{started-from-the-bottom-now-my-whole-team-fucking-here}\n\n\nSolution\n\n\ncoins.py", 
+            "title": "Coinslot"
+        }, 
+        {
+            "location": "/challenges/2016/misc/coinslot/#coinslot", 
+            "text": "", 
+            "title": "Coinslot"
+        }, 
+        {
+            "location": "/challenges/2016/misc/coinslot/#author", 
+            "text": "Josh Hofing", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2016/misc/coinslot/#points", 
+            "text": "25", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2016/misc/coinslot/#category", 
+            "text": "Misc", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2016/misc/coinslot/#description", 
+            "text": "#Hope #Change #Obama2008", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2016/misc/coinslot/#flag", 
+            "text": "flag{started-from-the-bottom-now-my-whole-team-fucking-here}", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2016/misc/coinslot/#solution", 
+            "text": "coins.py", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/misc/sanity-check/", 
+            "text": "sanity_check\n\n\nAuthor\n\n\nCrowell\n\n\nPoints\n\n\n100\n\n\nCategory\n\n\nMisc\n\n\nDescription\n\n\nhi there! do you know this usually useless trick? no? well, that's too bad :(\n\n\nFlag\n\n\nSolution\n\n\n\n\nhttps://github.com/aweinstock314/aweinstock-ctf-writeups/blob/master/csaw_finals_2015/trivia100_sanitycheck/trivia100_sanitycheck_exploit.py\n\n\n\n\nSetup\n\n\nlibc.so.6_3f6aaa980b58f7c7590dee12d731e099\n\n\nsanity_check_76955449d82f05cbd7f84fa011da93ce", 
+            "title": "Sanity Check"
+        }, 
+        {
+            "location": "/challenges/2015/misc/sanity-check/#sanity_check", 
+            "text": "", 
+            "title": "sanity_check"
+        }, 
+        {
+            "location": "/challenges/2015/misc/sanity-check/#author", 
+            "text": "Crowell", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2015/misc/sanity-check/#points", 
+            "text": "100", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2015/misc/sanity-check/#category", 
+            "text": "Misc", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2015/misc/sanity-check/#description", 
+            "text": "hi there! do you know this usually useless trick? no? well, that's too bad :(", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2015/misc/sanity-check/#flag", 
+            "text": "", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2015/misc/sanity-check/#solution", 
+            "text": "https://github.com/aweinstock314/aweinstock-ctf-writeups/blob/master/csaw_finals_2015/trivia100_sanitycheck/trivia100_sanitycheck_exploit.py", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/challenges/2015/misc/sanity-check/#setup", 
+            "text": "libc.so.6_3f6aaa980b58f7c7590dee12d731e099  sanity_check_76955449d82f05cbd7f84fa011da93ce", 
+            "title": "Setup"
+        }, 
+        {
             "location": "/challenges/2017/pwn/auir/", 
             "text": "AUIR\n\n\nAuthor\n\n\nPoints\n\n\n200\n\n\nDescription\n\n\nAt long last, we stand at the threshold of destiny. For today, we will restore the glory of our legacy. Today, we will retake what we have lost and reclaim our homeworld. -Artanis-\n\n\nFlag\n\n\nflag{W4rr10rs!_A1ur_4wa1ts_y0u!_M4rch_f0rth_and_t4k3_1t!}\n\n\nSolution\n\n\nauir.py\n\n\nSetup\n\n\n1.\nsudo docker build -t \nauir\n [Path to Dockerfile]\n\n2.\nsudo docker run --name \nauir\n -d -p [PORT]:[PORT] [IMAGE]\n\n\nNote\n\n\n\n\nThe binary is pre-compiled because of ollvm....\n\n\nIt is compiled on Ubuntu 16.04 xenial \n\n\nLibc: libc-2.23.so\n\n\nProbably do not have to give out libc....", 
             "title": "Auir"
@@ -6619,6 +6894,46 @@
             "location": "/challenges/2015/pwn/autobots/#setup", 
             "text": "", 
             "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2016/misc/regexpire/", 
+            "text": "Regexpire\n\n\nAuthor\n\n\nPoints\n\n\n100\n\n\nCategory\n\n\nMisc\n\n\nDescription\n\n\nI thought I found a perfect match but she ended up being my regEx girlfriend.\nNote: You can't use newlines inside your match.\n\n\nFlag:\n\n\nflag{^regularly_express_yourself$}\n\n\nSolution\n\n\nSee \nsolution/", 
+            "title": "Regexpire"
+        }, 
+        {
+            "location": "/challenges/2016/misc/regexpire/#regexpire", 
+            "text": "", 
+            "title": "Regexpire"
+        }, 
+        {
+            "location": "/challenges/2016/misc/regexpire/#author", 
+            "text": "", 
+            "title": "Author"
+        }, 
+        {
+            "location": "/challenges/2016/misc/regexpire/#points", 
+            "text": "100", 
+            "title": "Points"
+        }, 
+        {
+            "location": "/challenges/2016/misc/regexpire/#category", 
+            "text": "Misc", 
+            "title": "Category"
+        }, 
+        {
+            "location": "/challenges/2016/misc/regexpire/#description", 
+            "text": "I thought I found a perfect match but she ended up being my regEx girlfriend.\nNote: You can't use newlines inside your match.", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2016/misc/regexpire/#flag", 
+            "text": "flag{^regularly_express_yourself$}", 
+            "title": "Flag:"
+        }, 
+        {
+            "location": "/challenges/2016/misc/regexpire/#solution", 
+            "text": "See  solution/", 
+            "title": "Solution"
         }, 
         {
             "location": "/challenges/2017/pwn/KWS2/", 
@@ -7664,556 +7979,6 @@
             "location": "/challenges/2015/pwn/memory-disclosure-flag/#setup", 
             "text": "PwnAdventureZ_4dd76ae148461e47883790c3b56c7eae.zip", 
             "title": "Setup"
-        }, 
-        {
-            "location": "/miscellaneous/introduction/", 
-            "text": "Miscellaneous\n\n\nSome tools that are useful:\n\n\n\n\nTools", 
-            "title": "Introduction"
-        }, 
-        {
-            "location": "/miscellaneous/introduction/#miscellaneous", 
-            "text": "Some tools that are useful:   Tools", 
-            "title": "Miscellaneous"
-        }, 
-        {
-            "location": "/miscellaneous/what-is-in-a-hackers-toolkit/", 
-            "text": "A Hacker's Toolkit\n\n\nJust like every lockpic needs a lockpicking kit, a hacker needs tools in order to hack.\n\n\nHex Editor\n\n\nA hexadecimal (hex) editor (also called a binary file editor or byte editor) is a computer program you can use to manipulate the fundamental binary data that constitutes a computer file. The name \u201chex\u201d comes from \u201chexadecimal,\u201d a standard numerical format for representing binary data. A typical computer file occupies multiple areas on the platter(s) of a disk drive, whose contents are combined to form the file. Hex editors that are designed to parse and edit sector data from the physical segments of floppy or hard disks are sometimes called sector editors or disk editors. A hex editor is used to see or edit the raw, exact contents of a file. Hex editors may used to correct data corrupted by a system or application. A \nlist of editors\n can be found on the forensics Wiki. You can download one and install it on your system.\n\n\nExample\n\n\nOpen fileA.jpg in a hex editor. (Most Hex editors have either a \u201cFile \n Open\u201d option or a simple drag and drop.)\n\n\n\n\nWhen you open fileA.jpg in your hex editor, you should see something similar to this:\n\n\n\n\nYour hex editor should also have a \u201cgo to\u201d or \u201cfind\u201d feature so you can jump to a specific byte.", 
-            "title": "What is in a Hacker's Toolkit"
-        }, 
-        {
-            "location": "/miscellaneous/what-is-in-a-hackers-toolkit/#a-hackers-toolkit", 
-            "text": "Just like every lockpic needs a lockpicking kit, a hacker needs tools in order to hack.", 
-            "title": "A Hacker's Toolkit"
-        }, 
-        {
-            "location": "/miscellaneous/what-is-in-a-hackers-toolkit/#hex-editor", 
-            "text": "A hexadecimal (hex) editor (also called a binary file editor or byte editor) is a computer program you can use to manipulate the fundamental binary data that constitutes a computer file. The name \u201chex\u201d comes from \u201chexadecimal,\u201d a standard numerical format for representing binary data. A typical computer file occupies multiple areas on the platter(s) of a disk drive, whose contents are combined to form the file. Hex editors that are designed to parse and edit sector data from the physical segments of floppy or hard disks are sometimes called sector editors or disk editors. A hex editor is used to see or edit the raw, exact contents of a file. Hex editors may used to correct data corrupted by a system or application. A  list of editors  can be found on the forensics Wiki. You can download one and install it on your system.", 
-            "title": "Hex Editor"
-        }, 
-        {
-            "location": "/miscellaneous/what-is-in-a-hackers-toolkit/#example", 
-            "text": "Open fileA.jpg in a hex editor. (Most Hex editors have either a \u201cFile   Open\u201d option or a simple drag and drop.)   When you open fileA.jpg in your hex editor, you should see something similar to this:   Your hex editor should also have a \u201cgo to\u201d or \u201cfind\u201d feature so you can jump to a specific byte.", 
-            "title": "Example"
-        }, 
-        {
-            "location": "/challenges/2017/misc/serial/", 
-            "text": "Serial\n\n\nAuthor\n\n\nPoints\n\n\n50\n\n\nCategory\n\n\nMisc\n\n\nDescription\n\n\nFlag\n\n\nflag{@n_int3rface_betw33n_data_term1nal_3quipment_and_d@t@_circuit-term1nating_3quipment}\n\n\nSolution\n\n\nsolver.py\n\n\nPremise\n\n\nBasic programming challenge that sends data sorta like rs232.", 
-            "title": "Serial"
-        }, 
-        {
-            "location": "/challenges/2017/misc/serial/#serial", 
-            "text": "", 
-            "title": "Serial"
-        }, 
-        {
-            "location": "/challenges/2017/misc/serial/#author", 
-            "text": "", 
-            "title": "Author"
-        }, 
-        {
-            "location": "/challenges/2017/misc/serial/#points", 
-            "text": "50", 
-            "title": "Points"
-        }, 
-        {
-            "location": "/challenges/2017/misc/serial/#category", 
-            "text": "Misc", 
-            "title": "Category"
-        }, 
-        {
-            "location": "/challenges/2017/misc/serial/#description", 
-            "text": "", 
-            "title": "Description"
-        }, 
-        {
-            "location": "/challenges/2017/misc/serial/#flag", 
-            "text": "flag{@n_int3rface_betw33n_data_term1nal_3quipment_and_d@t@_circuit-term1nating_3quipment}", 
-            "title": "Flag"
-        }, 
-        {
-            "location": "/challenges/2017/misc/serial/#solution", 
-            "text": "solver.py", 
-            "title": "Solution"
-        }, 
-        {
-            "location": "/challenges/2017/misc/serial/#premise", 
-            "text": "Basic programming challenge that sends data sorta like rs232.", 
-            "title": "Premise"
-        }, 
-        {
-            "location": "/challenges/2017/misc/cvv/", 
-            "text": "CVV\n\n\nAuthor\n\n\nOskar Wirga\n\n\nPoints\n\n\n100\n\n\nCategory\n\n\nMisc\n\n\nDescription\n\n\nHey fam, you got CVV? I need some CVV!\n\n\nFlag\n\n\nflag{ch3ck-exp3rian-dat3-b3for3-us3}\n\n\nSolution\n\n\nsolve.py", 
-            "title": "CVV"
-        }, 
-        {
-            "location": "/challenges/2017/misc/cvv/#cvv", 
-            "text": "", 
-            "title": "CVV"
-        }, 
-        {
-            "location": "/challenges/2017/misc/cvv/#author", 
-            "text": "Oskar Wirga", 
-            "title": "Author"
-        }, 
-        {
-            "location": "/challenges/2017/misc/cvv/#points", 
-            "text": "100", 
-            "title": "Points"
-        }, 
-        {
-            "location": "/challenges/2017/misc/cvv/#category", 
-            "text": "Misc", 
-            "title": "Category"
-        }, 
-        {
-            "location": "/challenges/2017/misc/cvv/#description", 
-            "text": "Hey fam, you got CVV? I need some CVV!", 
-            "title": "Description"
-        }, 
-        {
-            "location": "/challenges/2017/misc/cvv/#flag", 
-            "text": "flag{ch3ck-exp3rian-dat3-b3for3-us3}", 
-            "title": "Flag"
-        }, 
-        {
-            "location": "/challenges/2017/misc/cvv/#solution", 
-            "text": "solve.py", 
-            "title": "Solution"
-        }, 
-        {
-            "location": "/challenges/2016/misc/coinslot/", 
-            "text": "Coinslot\n\n\nAuthor\n\n\nJosh Hofing\n\n\nPoints\n\n\n25\n\n\nCategory\n\n\nMisc\n\n\nDescription\n\n\n#Hope #Change #Obama2008\n\n\nFlag\n\n\nflag{started-from-the-bottom-now-my-whole-team-fucking-here}\n\n\nSolution\n\n\ncoins.py", 
-            "title": "Coinslot"
-        }, 
-        {
-            "location": "/challenges/2016/misc/coinslot/#coinslot", 
-            "text": "", 
-            "title": "Coinslot"
-        }, 
-        {
-            "location": "/challenges/2016/misc/coinslot/#author", 
-            "text": "Josh Hofing", 
-            "title": "Author"
-        }, 
-        {
-            "location": "/challenges/2016/misc/coinslot/#points", 
-            "text": "25", 
-            "title": "Points"
-        }, 
-        {
-            "location": "/challenges/2016/misc/coinslot/#category", 
-            "text": "Misc", 
-            "title": "Category"
-        }, 
-        {
-            "location": "/challenges/2016/misc/coinslot/#description", 
-            "text": "#Hope #Change #Obama2008", 
-            "title": "Description"
-        }, 
-        {
-            "location": "/challenges/2016/misc/coinslot/#flag", 
-            "text": "flag{started-from-the-bottom-now-my-whole-team-fucking-here}", 
-            "title": "Flag"
-        }, 
-        {
-            "location": "/challenges/2016/misc/coinslot/#solution", 
-            "text": "coins.py", 
-            "title": "Solution"
-        }, 
-        {
-            "location": "/challenges/2015/misc/1337/", 
-            "text": "1337\n\n\nAuthor\n\n\nStortz\n\n\nPoints\n\n\n150\n\n\nCategory\n\n\nMisc\n\n\nDescription\n\n\nBring me a receipt with the grand total (items + tax) of $13.37. There are some restrictions:\n- The receipt must be from within 1/2 mile of 6 MetroTech.\n- The receipt must be printed on receipt paper.\n- The receipt must be itemized with each item\u2019s price shown\n- No more than 4 items can be used to equal $13.37.\n- The purchase must be during the hours of the competition.\n- You must show the purchased items to the judges.\n- Tips, discretionary costs, and haggled costs do not count. Ideally every item would have a price sticker on it.\n- Flea Markets are not allowed.\n- Quantities are whole numbers. You can't use something measured by weight or equivalent.\n\n\nFlag\n\n\nSolution\n\n\nSetup", 
-            "title": 1337
-        }, 
-        {
-            "location": "/challenges/2015/misc/1337/#1337", 
-            "text": "", 
-            "title": "1337"
-        }, 
-        {
-            "location": "/challenges/2015/misc/1337/#author", 
-            "text": "Stortz", 
-            "title": "Author"
-        }, 
-        {
-            "location": "/challenges/2015/misc/1337/#points", 
-            "text": "150", 
-            "title": "Points"
-        }, 
-        {
-            "location": "/challenges/2015/misc/1337/#category", 
-            "text": "Misc", 
-            "title": "Category"
-        }, 
-        {
-            "location": "/challenges/2015/misc/1337/#description", 
-            "text": "Bring me a receipt with the grand total (items + tax) of $13.37. There are some restrictions:\n- The receipt must be from within 1/2 mile of 6 MetroTech.\n- The receipt must be printed on receipt paper.\n- The receipt must be itemized with each item\u2019s price shown\n- No more than 4 items can be used to equal $13.37.\n- The purchase must be during the hours of the competition.\n- You must show the purchased items to the judges.\n- Tips, discretionary costs, and haggled costs do not count. Ideally every item would have a price sticker on it.\n- Flea Markets are not allowed.\n- Quantities are whole numbers. You can't use something measured by weight or equivalent.", 
-            "title": "Description"
-        }, 
-        {
-            "location": "/challenges/2015/misc/1337/#flag", 
-            "text": "", 
-            "title": "Flag"
-        }, 
-        {
-            "location": "/challenges/2015/misc/1337/#solution", 
-            "text": "", 
-            "title": "Solution"
-        }, 
-        {
-            "location": "/challenges/2015/misc/1337/#setup", 
-            "text": "", 
-            "title": "Setup"
-        }, 
-        {
-            "location": "/challenges/2015/misc/sanity-check/", 
-            "text": "sanity_check\n\n\nAuthor\n\n\nCrowell\n\n\nPoints\n\n\n100\n\n\nCategory\n\n\nMisc\n\n\nDescription\n\n\nhi there! do you know this usually useless trick? no? well, that's too bad :(\n\n\nFlag\n\n\nSolution\n\n\n\n\nhttps://github.com/aweinstock314/aweinstock-ctf-writeups/blob/master/csaw_finals_2015/trivia100_sanitycheck/trivia100_sanitycheck_exploit.py\n\n\n\n\nSetup\n\n\nlibc.so.6_3f6aaa980b58f7c7590dee12d731e099\n\n\nsanity_check_76955449d82f05cbd7f84fa011da93ce", 
-            "title": "Sanity Check"
-        }, 
-        {
-            "location": "/challenges/2015/misc/sanity-check/#sanity_check", 
-            "text": "", 
-            "title": "sanity_check"
-        }, 
-        {
-            "location": "/challenges/2015/misc/sanity-check/#author", 
-            "text": "Crowell", 
-            "title": "Author"
-        }, 
-        {
-            "location": "/challenges/2015/misc/sanity-check/#points", 
-            "text": "100", 
-            "title": "Points"
-        }, 
-        {
-            "location": "/challenges/2015/misc/sanity-check/#category", 
-            "text": "Misc", 
-            "title": "Category"
-        }, 
-        {
-            "location": "/challenges/2015/misc/sanity-check/#description", 
-            "text": "hi there! do you know this usually useless trick? no? well, that's too bad :(", 
-            "title": "Description"
-        }, 
-        {
-            "location": "/challenges/2015/misc/sanity-check/#flag", 
-            "text": "", 
-            "title": "Flag"
-        }, 
-        {
-            "location": "/challenges/2015/misc/sanity-check/#solution", 
-            "text": "https://github.com/aweinstock314/aweinstock-ctf-writeups/blob/master/csaw_finals_2015/trivia100_sanitycheck/trivia100_sanitycheck_exploit.py", 
-            "title": "Solution"
-        }, 
-        {
-            "location": "/challenges/2015/misc/sanity-check/#setup", 
-            "text": "libc.so.6_3f6aaa980b58f7c7590dee12d731e099  sanity_check_76955449d82f05cbd7f84fa011da93ce", 
-            "title": "Setup"
-        }, 
-        {
-            "location": "/challenges/2015/misc/moar-chess/", 
-            "text": "MOAR CHESS\n\n\nAuthor\n\n\nPoints\n\n\n150\n\n\nDescription\n\n\nPlay a 3v1 chess game against Kevin.\nIf you want to play just let Kevin know. We can set the boards up.\nHere are the rules:\n- The standard rules of chess\n- Kevin plays 3 boards at once against 3 players from a team\n- A team can play at most 3 times an hour but it is still up to Kevin to accept or decline a challenge or even enforce this rule\n- You may not use an engine or other computer support. Only the players sitting at the table may provide moves\n- Kevin has 7 minutes on each board, each competitor has 5 minutes. (To allow time to move between boards)\n- Illegal moves that are called out are considered wins for either side\n- Kevin always plays white\n- The clock confirms the move meaning when you hit the clock you have confirmed your move and it is immutable\n- You must win 2 out of the 3 games.\n\n\nFlag\n\n\nSolution\n\n\nSetup", 
-            "title": "Moar Chess"
-        }, 
-        {
-            "location": "/challenges/2015/misc/moar-chess/#moar-chess", 
-            "text": "", 
-            "title": "MOAR CHESS"
-        }, 
-        {
-            "location": "/challenges/2015/misc/moar-chess/#author", 
-            "text": "", 
-            "title": "Author"
-        }, 
-        {
-            "location": "/challenges/2015/misc/moar-chess/#points", 
-            "text": "150", 
-            "title": "Points"
-        }, 
-        {
-            "location": "/challenges/2015/misc/moar-chess/#description", 
-            "text": "Play a 3v1 chess game against Kevin.\nIf you want to play just let Kevin know. We can set the boards up.\nHere are the rules:\n- The standard rules of chess\n- Kevin plays 3 boards at once against 3 players from a team\n- A team can play at most 3 times an hour but it is still up to Kevin to accept or decline a challenge or even enforce this rule\n- You may not use an engine or other computer support. Only the players sitting at the table may provide moves\n- Kevin has 7 minutes on each board, each competitor has 5 minutes. (To allow time to move between boards)\n- Illegal moves that are called out are considered wins for either side\n- Kevin always plays white\n- The clock confirms the move meaning when you hit the clock you have confirmed your move and it is immutable\n- You must win 2 out of the 3 games.", 
-            "title": "Description"
-        }, 
-        {
-            "location": "/challenges/2015/misc/moar-chess/#flag", 
-            "text": "", 
-            "title": "Flag"
-        }, 
-        {
-            "location": "/challenges/2015/misc/moar-chess/#solution", 
-            "text": "", 
-            "title": "Solution"
-        }, 
-        {
-            "location": "/challenges/2015/misc/moar-chess/#setup", 
-            "text": "", 
-            "title": "Setup"
-        }, 
-        {
-            "location": "/challenges/2015/misc/late-night-smash/", 
-            "text": "Late Night Smash\n\n\nAuthor\n\n\nPoints\n\n\n50\n\n\nCategory\n\n\nMisc\n\n\nDescription\n\n\nBeat Kyle in a standard four stock.\nBest of 1\n\n\nFlag\n\n\nSolution\n\n\nSetup", 
-            "title": "Late Night Smash"
-        }, 
-        {
-            "location": "/challenges/2015/misc/late-night-smash/#late-night-smash", 
-            "text": "", 
-            "title": "Late Night Smash"
-        }, 
-        {
-            "location": "/challenges/2015/misc/late-night-smash/#author", 
-            "text": "", 
-            "title": "Author"
-        }, 
-        {
-            "location": "/challenges/2015/misc/late-night-smash/#points", 
-            "text": "50", 
-            "title": "Points"
-        }, 
-        {
-            "location": "/challenges/2015/misc/late-night-smash/#category", 
-            "text": "Misc", 
-            "title": "Category"
-        }, 
-        {
-            "location": "/challenges/2015/misc/late-night-smash/#description", 
-            "text": "Beat Kyle in a standard four stock.\nBest of 1", 
-            "title": "Description"
-        }, 
-        {
-            "location": "/challenges/2015/misc/late-night-smash/#flag", 
-            "text": "", 
-            "title": "Flag"
-        }, 
-        {
-            "location": "/challenges/2015/misc/late-night-smash/#solution", 
-            "text": "", 
-            "title": "Solution"
-        }, 
-        {
-            "location": "/challenges/2015/misc/late-night-smash/#setup", 
-            "text": "", 
-            "title": "Setup"
-        }, 
-        {
-            "location": "/challenges/2014/misc/Julian/", 
-            "text": "Title\n\n\nAuthor\n\n\nCohen\n\n\nPoints\n\n\n100\n\n\nCategory\n\n\nRecon\n\n\nDescription\n\n\nFigure out how to get Julian to go on a date with you.\n\n\nFlag\n\n\nflag{julian_will_not_date_you_sorry}\n\n\nSolution\n\n\nThis flag will be stored in Julian's newly cleared okcupid profile.\n\nhttp://www.okcupid.com/profile/TheJulianCohen/\n\n\nSetup", 
-            "title": "Julian"
-        }, 
-        {
-            "location": "/challenges/2014/misc/Julian/#title", 
-            "text": "", 
-            "title": "Title"
-        }, 
-        {
-            "location": "/challenges/2014/misc/Julian/#author", 
-            "text": "Cohen", 
-            "title": "Author"
-        }, 
-        {
-            "location": "/challenges/2014/misc/Julian/#points", 
-            "text": "100", 
-            "title": "Points"
-        }, 
-        {
-            "location": "/challenges/2014/misc/Julian/#category", 
-            "text": "Recon", 
-            "title": "Category"
-        }, 
-        {
-            "location": "/challenges/2014/misc/Julian/#description", 
-            "text": "Figure out how to get Julian to go on a date with you.", 
-            "title": "Description"
-        }, 
-        {
-            "location": "/challenges/2014/misc/Julian/#flag", 
-            "text": "flag{julian_will_not_date_you_sorry}", 
-            "title": "Flag"
-        }, 
-        {
-            "location": "/challenges/2014/misc/Julian/#solution", 
-            "text": "This flag will be stored in Julian's newly cleared okcupid profile. http://www.okcupid.com/profile/TheJulianCohen/", 
-            "title": "Solution"
-        }, 
-        {
-            "location": "/challenges/2014/misc/Julian/#setup", 
-            "text": "", 
-            "title": "Setup"
-        }, 
-        {
-            "location": "/challenges/2014/misc/KevinChung/", 
-            "text": "Kevin Chung\n\n\nAuthor\n\n\nChung\n\n\nPoints\n\n\n100\n\n\nCategory\n\n\nRecon\n\n\nDescription\n\n\nFind a picture of me that's from before I was a high school student. Submit the URL to the file on the internet\n\n\nFlag\n\n\nSolution\n\n\nhttp://www.siths.org/album/48915/23451.jpg\n\n\nSetup", 
-            "title": "Kevin Chung"
-        }, 
-        {
-            "location": "/challenges/2014/misc/KevinChung/#kevin-chung", 
-            "text": "", 
-            "title": "Kevin Chung"
-        }, 
-        {
-            "location": "/challenges/2014/misc/KevinChung/#author", 
-            "text": "Chung", 
-            "title": "Author"
-        }, 
-        {
-            "location": "/challenges/2014/misc/KevinChung/#points", 
-            "text": "100", 
-            "title": "Points"
-        }, 
-        {
-            "location": "/challenges/2014/misc/KevinChung/#category", 
-            "text": "Recon", 
-            "title": "Category"
-        }, 
-        {
-            "location": "/challenges/2014/misc/KevinChung/#description", 
-            "text": "Find a picture of me that's from before I was a high school student. Submit the URL to the file on the internet", 
-            "title": "Description"
-        }, 
-        {
-            "location": "/challenges/2014/misc/KevinChung/#flag", 
-            "text": "", 
-            "title": "Flag"
-        }, 
-        {
-            "location": "/challenges/2014/misc/KevinChung/#solution", 
-            "text": "http://www.siths.org/album/48915/23451.jpg", 
-            "title": "Solution"
-        }, 
-        {
-            "location": "/challenges/2014/misc/KevinChung/#setup", 
-            "text": "", 
-            "title": "Setup"
-        }, 
-        {
-            "location": "/challenges/2016/misc/regexpire/", 
-            "text": "Regexpire\n\n\nAuthor\n\n\nPoints\n\n\n100\n\n\nCategory\n\n\nMisc\n\n\nDescription\n\n\nI thought I found a perfect match but she ended up being my regEx girlfriend.\nNote: You can't use newlines inside your match.\n\n\nFlag:\n\n\nflag{^regularly_express_yourself$}\n\n\nSolution\n\n\nSee \nsolution/", 
-            "title": "Regexpire"
-        }, 
-        {
-            "location": "/challenges/2016/misc/regexpire/#regexpire", 
-            "text": "", 
-            "title": "Regexpire"
-        }, 
-        {
-            "location": "/challenges/2016/misc/regexpire/#author", 
-            "text": "", 
-            "title": "Author"
-        }, 
-        {
-            "location": "/challenges/2016/misc/regexpire/#points", 
-            "text": "100", 
-            "title": "Points"
-        }, 
-        {
-            "location": "/challenges/2016/misc/regexpire/#category", 
-            "text": "Misc", 
-            "title": "Category"
-        }, 
-        {
-            "location": "/challenges/2016/misc/regexpire/#description", 
-            "text": "I thought I found a perfect match but she ended up being my regEx girlfriend.\nNote: You can't use newlines inside your match.", 
-            "title": "Description"
-        }, 
-        {
-            "location": "/challenges/2016/misc/regexpire/#flag", 
-            "text": "flag{^regularly_express_yourself$}", 
-            "title": "Flag:"
-        }, 
-        {
-            "location": "/challenges/2016/misc/regexpire/#solution", 
-            "text": "See  solution/", 
-            "title": "Solution"
-        }, 
-        {
-            "location": "/challenges/2014/misc/pps_-_Wiens/", 
-            "text": "PPS\n\n\nAuthor\n\n\nWiens\n\n\nPoints\n\n\n200\n\n\nCategory\n\n\nMisc\n\n\nDescription\n\n\nFlag\n\n\nflag{ConsiderThisPUNishmentEnough}\n\n\nSolution\n\n\n\n\nLeak source\n\n\n\n\nnc localhost 5665\n4\npps.php\n2\n\n\n\n\n\n\n\nLeak flag\nWith the source, find the hidden password, evade the string matching via PHP's awesome forced coersion:\n\n\n\n\nnc localhost 5665\n5\n0xabadfad\nflag\n2\n\n\n\n\n\nSetup\n\n\nJust move the files from deploy somewhere on a filesystem. Preferrably give whatever runs the php no permissions to write anything anywhere. Then launch via xinetd on port 5665 (or whatever).", 
-            "title": "PPS"
-        }, 
-        {
-            "location": "/challenges/2014/misc/pps_-_Wiens/#pps", 
-            "text": "", 
-            "title": "PPS"
-        }, 
-        {
-            "location": "/challenges/2014/misc/pps_-_Wiens/#author", 
-            "text": "Wiens", 
-            "title": "Author"
-        }, 
-        {
-            "location": "/challenges/2014/misc/pps_-_Wiens/#points", 
-            "text": "200", 
-            "title": "Points"
-        }, 
-        {
-            "location": "/challenges/2014/misc/pps_-_Wiens/#category", 
-            "text": "Misc", 
-            "title": "Category"
-        }, 
-        {
-            "location": "/challenges/2014/misc/pps_-_Wiens/#description", 
-            "text": "", 
-            "title": "Description"
-        }, 
-        {
-            "location": "/challenges/2014/misc/pps_-_Wiens/#flag", 
-            "text": "flag{ConsiderThisPUNishmentEnough}", 
-            "title": "Flag"
-        }, 
-        {
-            "location": "/challenges/2014/misc/pps_-_Wiens/#solution", 
-            "text": "Leak source   nc localhost 5665\n4\npps.php\n2   Leak flag\nWith the source, find the hidden password, evade the string matching via PHP's awesome forced coersion:   nc localhost 5665\n5\n0xabadfad\nflag\n2", 
-            "title": "Solution"
-        }, 
-        {
-            "location": "/challenges/2014/misc/pps_-_Wiens/#setup", 
-            "text": "Just move the files from deploy somewhere on a filesystem. Preferrably give whatever runs the php no permissions to write anything anywhere. Then launch via xinetd on port 5665 (or whatever).", 
-            "title": "Setup"
-        }, 
-        {
-            "location": "/challenges/2017/misc/ethersplay/", 
-            "text": "ethersplay\n\n\nAuthor\n\n\nquend\n\n\nCategory\n\n\nMisc\n\n\nPoints\n\n\n400\n\n\nDescription\n\n\nI stole this contract from a private blockchain. Can you help me reverse its secrets?\n\n\nFLAG\n\n\nflag{ETHBTC_tothemoon}\n\n\nSetup\n\n\nDistribute .abi and .bytecode files.\n\n\nSolution\n\n\nIts solidity bytecode. So players must:\n1. figure out how to reverse it (the name of the challenge is a hint to tooling.\n2. figure out which function is a good target function - aka which has 'flag' in it\n3. find the winning path in the function - when you pass in the right username it will print out something different\n4. figure out what algo is used to hash the password (its SHA1)\n5. recover the flag through brute forcing 6 characters in SHA1\n6. submit the flag", 
-            "title": "Ethersplay"
-        }, 
-        {
-            "location": "/challenges/2017/misc/ethersplay/#ethersplay", 
-            "text": "", 
-            "title": "ethersplay"
-        }, 
-        {
-            "location": "/challenges/2017/misc/ethersplay/#author", 
-            "text": "quend", 
-            "title": "Author"
-        }, 
-        {
-            "location": "/challenges/2017/misc/ethersplay/#category", 
-            "text": "Misc", 
-            "title": "Category"
-        }, 
-        {
-            "location": "/challenges/2017/misc/ethersplay/#points", 
-            "text": "400", 
-            "title": "Points"
-        }, 
-        {
-            "location": "/challenges/2017/misc/ethersplay/#description", 
-            "text": "I stole this contract from a private blockchain. Can you help me reverse its secrets?", 
-            "title": "Description"
-        }, 
-        {
-            "location": "/challenges/2017/misc/ethersplay/#flag", 
-            "text": "flag{ETHBTC_tothemoon}", 
-            "title": "FLAG"
-        }, 
-        {
-            "location": "/challenges/2017/misc/ethersplay/#setup", 
-            "text": "Distribute .abi and .bytecode files.", 
-            "title": "Setup"
-        }, 
-        {
-            "location": "/challenges/2017/misc/ethersplay/#solution", 
-            "text": "Its solidity bytecode. So players must:\n1. figure out how to reverse it (the name of the challenge is a hint to tooling.\n2. figure out which function is a good target function - aka which has 'flag' in it\n3. find the winning path in the function - when you pass in the right username it will print out something different\n4. figure out what algo is used to hash the password (its SHA1)\n5. recover the flag through brute forcing 6 characters in SHA1\n6. submit the flag", 
-            "title": "Solution"
         }
     ]
 }

@@ -49,6 +49,10 @@ pages:
   - Memory Forensics:
     - What is Memory Forensics: 'forensics/what-is-memory-forensics.md'
 
+  - Hex Editors:
+    - What is a Hex Editor: 'forensics/what-is-a-hex-editor.md'
+
+
   - Challenges:
     - Easy:
       - Missed Registration: 'challenges/2017/forensics/missed_registration.md'
@@ -179,6 +183,7 @@ pages:
       - Cloudb: 'challenges/2016/web/cloudb.md'
       - Lawn Care Simulator: 'challenges/2015/web/lawn-care-simulator.md'
       - App: 'challenges/2014/web/app_-_Oberheide.md'
+      - PPS: 'challenges/2014/misc/pps_-_Wiens.md'
     - Hard:
       - Broadcastr: 'challenges/2017/web/csaw-oauth2-chal.md'
       - KWS 1: 'challenges/2017/web/csaw-kernel-challenge.md'
@@ -247,6 +252,7 @@ pages:
       - Pwning a Locked Container: 'challenges/2015/reversing/pwning-a-locked-container-plc.md'
       - Wveryn: 'challenges/2015/reversing/wyvern.md'
       - Wveryn 2: 'challenges/2015/reversing/wyvern2.md'
+      - Ethersplay: 'challenges/2017/misc/ethersplay.md'
 
 
 #  Binary Exploitation Section
@@ -288,69 +294,49 @@ pages:
 
   - Challenges:
     - Easy:
-        - Humm_sCh-t: 'challenges/2017/pwn/Humm_sCh-t.md'
-        - SCV: 'challenges/2017/pwn/scv.md'
-        - Pilot: 'challenges/2017/pwn/pilot.md'
-        - Detective: 'challenges/2016/pwn/detective.md'
-        - Aul: 'challenges/2016/pwn/Aul.md'
-        - WarmUp: 'challenges/2016/pwn/WarmUp.md'
-        - Precision: 'challenges/2015/pwn/precision.md'
-    - Medium:
-        - Auir: 'challenges/2017/pwn/auir.md'
-        - Zone: 'challenges/2017/pwn/zone.md'
-        - Tutorial: 'challenges/2016/pwn/Tutorial.md'
-        - Hipster Hitler: 'challenges/2015/pwn/hipster.md'
-        - Contacts: 'challenges/2015/pwn/contacts.md'
-        - Autobots: 'challenges/2015/pwn/autobots.md'
-    - Hard:
-        - KWS 2: 'challenges/2017/pwn/KWS2.md'
-        - Minesweeper: 'challenges/2017/pwn/minesweeper.md'
-        - FuntimeJS: 'challenges/2017/pwn/funtimejs.md'
-        - Firewall: 'challenges/2017/pwn/firewall.md'
-        - ConnectXOR: 'challenges/2017/pwn/connectXor.md'
-        - GlobalThermonuclearCyberwar: 'challenges/2017/pwn/GlobalThermonuclearCyberwar.md'
-        - Mom's Spaghetti: 'challenges/2016/pwn/Moms_Spaghetti.md'
-        - Ed, Edd, and Eddie: 'challenges/2016/pwn/Ed-Edd-Eddie.md'
-        - Reverse Polish: 'challenges/2016/pwn/ReversePolish.md'
-        - Thimblerig: 'challenges/2016/pwn/thimblerig.md'
-        - Hungman: 'challenges/2016/pwn/Hungman.md'
-        - CyberTronix64k: 'challenges/2016/pwn/CyberTronix64k.md'
-        - StringIPC: 'challenges/2015/pwn/stringipc.md'
-        - Boombox: 'challenges/2015/pwn/boombox.md'
-        - Meme Shop: 'challenges/2015/pwn/meme-shop.md'
-        - Rhinoxorus: 'challenges/2015/pwn/rhinoxorus.md'
-    - Pwn Adventure Z:
-        - Credit for Credits: 'challenges/2015/pwn/creditforcredits.md'
-        - Greetings Earthlings: 'challenges/2015/pwn/greetingsearthling.md'
-        - Hidden Cave: 'challenges/2015/pwn/hiddencave.md'
-        - Quarentine Breaker: 'challenges/2015/pwn/quarantinebreaker.md'
-        - Blox: 'challenges/2015/pwn/blox.md'
-        - Get Flag: 'challenges/2015/pwn/get-flag.md'
-        - Memory Disclosure Flag: 'challenges/2015/pwn/memory-disclosure-flag.md'
-
-
-# Miscellaneous Section
-- Miscellaneous:
-  - Introduction: 'miscellaneous/introduction.md'
-
-  - Tools:
-    - What is in a Hacker's Toolkit: 'miscellaneous/what-is-in-a-hackers-toolkit.md'
-
-  - Challenges:
-    - Easy:
+      - Humm_sCh-t: 'challenges/2017/pwn/Humm_sCh-t.md'
+      - SCV: 'challenges/2017/pwn/scv.md'
+      - Pilot: 'challenges/2017/pwn/pilot.md'
+      - Detective: 'challenges/2016/pwn/detective.md'
+      - Aul: 'challenges/2016/pwn/Aul.md'
+      - WarmUp: 'challenges/2016/pwn/WarmUp.md'
+      - Precision: 'challenges/2015/pwn/precision.md'
       - Serial: 'challenges/2017/misc/serial.md'
       - CVV: 'challenges/2017/misc/cvv.md'
       - Coinslot: 'challenges/2016/misc/coinslot.md'
-      - 1337: 'challenges/2015/misc/1337.md'
       - Sanity Check: 'challenges/2015/misc/sanity-check.md'
-      - Moar Chess: 'challenges/2015/misc/moar-chess.md'
-      - Late Night Smash: 'challenges/2015/misc/late-night-smash.md'
-      - Julian: 'challenges/2014/misc/Julian.md'
-      - Kevin Chung: 'challenges/2014/misc/KevinChung.md'
     - Medium:
+      - Auir: 'challenges/2017/pwn/auir.md'
+      - Zone: 'challenges/2017/pwn/zone.md'
+      - Tutorial: 'challenges/2016/pwn/Tutorial.md'
+      - Hipster Hitler: 'challenges/2015/pwn/hipster.md'
+      - Contacts: 'challenges/2015/pwn/contacts.md'
+      - Autobots: 'challenges/2015/pwn/autobots.md'
       - Regexpire: 'challenges/2016/misc/regexpire.md'
-      - PPS: 'challenges/2014/misc/pps_-_Wiens.md'
     - Hard:
-      - Ethersplay: 'challenges/2017/misc/ethersplay.md'
+      - KWS 2: 'challenges/2017/pwn/KWS2.md'
+      - Minesweeper: 'challenges/2017/pwn/minesweeper.md'
+      - FuntimeJS: 'challenges/2017/pwn/funtimejs.md'
+      - Firewall: 'challenges/2017/pwn/firewall.md'
+      - ConnectXOR: 'challenges/2017/pwn/connectXor.md'
+      - GlobalThermonuclearCyberwar: 'challenges/2017/pwn/GlobalThermonuclearCyberwar.md'
+      - Mom's Spaghetti: 'challenges/2016/pwn/Moms_Spaghetti.md'
+      - Ed, Edd, and Eddie: 'challenges/2016/pwn/Ed-Edd-Eddie.md'
+      - Reverse Polish: 'challenges/2016/pwn/ReversePolish.md'
+      - Thimblerig: 'challenges/2016/pwn/thimblerig.md'
+      - Hungman: 'challenges/2016/pwn/Hungman.md'
+      - CyberTronix64k: 'challenges/2016/pwn/CyberTronix64k.md'
+      - StringIPC: 'challenges/2015/pwn/stringipc.md'
+      - Boombox: 'challenges/2015/pwn/boombox.md'
+      - Meme Shop: 'challenges/2015/pwn/meme-shop.md'
+      - Rhinoxorus: 'challenges/2015/pwn/rhinoxorus.md'
+    - Pwn Adventure Z:
+      - Credit for Credits: 'challenges/2015/pwn/creditforcredits.md'
+      - Greetings Earthlings: 'challenges/2015/pwn/greetingsearthling.md'
+      - Hidden Cave: 'challenges/2015/pwn/hiddencave.md'
+      - Quarentine Breaker: 'challenges/2015/pwn/quarantinebreaker.md'
+      - Blox: 'challenges/2015/pwn/blox.md'
+      - Get Flag: 'challenges/2015/pwn/get-flag.md'
+      - Memory Disclosure Flag: 'challenges/2015/pwn/memory-disclosure-flag.md'
 
 # - Miscellaneous: '404.md'

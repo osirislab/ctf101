@@ -16,3 +16,5 @@ cap.pcap
 ## Topics Covered
 
 - [Wireshark](/forensics/what-is-wireshark/)
+## Synopsis
+

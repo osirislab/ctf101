@@ -16,3 +16,6 @@ NOTE: If you have issues with your instance, try logging out of the KWS interfac
 NOTE: Sorry for all of the notes :P
 ## Topics Covered
 
+## Synopsis
+
+Cloud Object Storage With Kernel Accleration

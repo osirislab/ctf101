@@ -13,3 +13,5 @@ HINT: If you are smart about it, you do not need to attack the CTF infrastructur
 HINT: The source code of our CTF software is on our Github. Also if you tried the challenge with flag{} before, try again.
 ## Topics Covered
 
+## Synopsis
+

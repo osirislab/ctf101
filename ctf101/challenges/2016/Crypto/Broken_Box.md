@@ -12,3 +12,5 @@ nc 192.241.234.35 31337
 ## Topics Covered
 
 - [RSA](/cryptography/what-is-rsa/)
+## Synopsis
+

@@ -10,3 +10,5 @@ PwnAdventureZ
 This flag can be found in PwnAdventureZ
 ## Topics Covered
 
+## Synopsis
+

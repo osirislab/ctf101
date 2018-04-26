@@ -11,3 +11,5 @@ Note: The flag is marked with `flag{XXXXX...}` in memory, run against the remote
 `nc reversing.chal.csaw.io 1342`
 ## Topics Covered
 
+## Synopsis
+

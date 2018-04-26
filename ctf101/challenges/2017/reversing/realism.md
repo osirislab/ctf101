@@ -10,3 +10,6 @@ Did you know that x86 is really old? I found a really old Master Boot Record tha
 ## Topics Covered
 
 - [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
+## Synopsis
+
+x86 MBR that uses SSE instructions >:)

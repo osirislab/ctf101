@@ -15,3 +15,5 @@ lain@54.85.189.105
 password is lain
 ## Topics Covered
 
+## Synopsis
+

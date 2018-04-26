@@ -15,3 +15,5 @@ UPDATE 4: Python source has changed.
 http://web.chal.csaw.io:1346/"
 ## Topics Covered
 
+## Synopsis
+

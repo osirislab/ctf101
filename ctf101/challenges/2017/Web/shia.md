@@ -39,3 +39,5 @@ Pick 1:
 
 ## Topics Covered
 
+## Synopsis
+

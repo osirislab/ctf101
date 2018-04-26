@@ -10,3 +10,5 @@ We've been told that this file is pure poetry. Whatever that is supposed to mean
 We've also been told that 128 is a magic number that might be useful to solving this challenge.
 ## Topics Covered
 
+## Synopsis
+

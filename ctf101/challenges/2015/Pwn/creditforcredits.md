@@ -10,3 +10,5 @@ PwnadventureZ
 This challenge can be found in PwnAdventureZ
 ## Topics Covered
 
+## Synopsis
+

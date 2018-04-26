@@ -12,3 +12,5 @@ HINT: `git fsck -v`
 ## Topics Covered
 
 - [Disk Imaging](/forensics/what-is-disk-imaging/)
+## Synopsis
+

@@ -8,3 +8,5 @@ At long last, we stand at the threshold of destiny. For today, we will restore t
 ## Topics Covered
 
 - [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
+## Synopsis
+

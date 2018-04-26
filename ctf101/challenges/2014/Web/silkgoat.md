@@ -9,3 +9,5 @@ Web
 {{hacker manifesto}}
 ## Topics Covered
 
+## Synopsis
+

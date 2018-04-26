@@ -13,3 +13,5 @@ Note: You can't use newlines inside your match.
 ## Solution
 See `solution/`## Topics Covered
 
+## Synopsis
+

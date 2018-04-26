@@ -11,3 +11,5 @@ There's no heartbleed here. Why don't we use these ciphers?
 
 - [Caesar Ciphers](/cryptography/what-is-caesar-cipher-rot-13/)
 - [Vigenere Ciphers](/cryptography/what-is-a-vigenere-cipher/)
+## Synopsis
+

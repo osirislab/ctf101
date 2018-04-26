@@ -11,3 +11,5 @@ flag is in the source file
 ## Topics Covered
 
 - [Block Ciphers](/cryptography/what-are-block-ciphers/)
+## Synopsis
+

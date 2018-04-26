@@ -12,3 +12,5 @@ UPDATE: Fixed an unintentional bug which made the challenge more confusing.
 `http://web.chal.csaw.io:1344`"
 ## Topics Covered
 
+## Synopsis
+

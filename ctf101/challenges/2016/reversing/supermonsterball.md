@@ -13,3 +13,5 @@ For this challenge, you must defeat the Monster master -- Professor Vick. You'll
 *NOTE: Not recommended to try to solve by hand, you'll need to bot (HAX?!!), but don't get caught!*
 ## Topics Covered
 
+## Synopsis
+

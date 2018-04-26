@@ -10,3 +10,6 @@ I tested out my new encryption tool on some files from the internet and it seems
 ## Topics Covered
 
 - [File Formats](/forensics/what-are-file-formats/)
+## Synopsis
+
+You don't have to figure out the whole key to solve the challenge. Some file formats make better oracles than others.

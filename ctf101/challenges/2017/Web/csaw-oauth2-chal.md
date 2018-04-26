@@ -11,3 +11,5 @@ http://broadcastr.chal.csaw.io:4000
 NOTE: The 500 on the /user/history endpoint is irrelevant.
 ## Topics Covered
 
+## Synopsis
+

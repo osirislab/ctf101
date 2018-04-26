@@ -11,3 +11,8 @@ Security is solved.
 
 - [The Stack](/binary-exploitation/what-is-the-stack/)
 - [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
+- [Buffer Overflow](/binary-exploitation/buffer-overflow/)
+
+## Synopsis
+
+You don't need an info leak.

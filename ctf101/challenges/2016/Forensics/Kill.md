@@ -11,3 +11,5 @@ Is kill can fix? Sign the autopsy file?
 
 - [Wireshark](/forensics/what-is-wireshark/)
 - [File Formats](/forensics/what-are-file-formats/)
+## Synopsis
+

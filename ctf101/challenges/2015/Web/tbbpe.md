@@ -14,3 +14,5 @@ HINT: There are two separate bugs required to solve this challenge.
 ## Topics Covered
 
 - [Block Ciphers](/cryptography/what-are-block-ciphers/)
+## Synopsis
+

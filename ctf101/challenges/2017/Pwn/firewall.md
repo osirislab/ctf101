@@ -41,3 +41,5 @@ Other tidbits:
 ## Topics Covered
 
 - [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
+## Synopsis
+

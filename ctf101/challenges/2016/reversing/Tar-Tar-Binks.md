@@ -10,3 +10,5 @@ Mesa day startin pretty okee-day with a brisky morning munchy, then BOOM! Gettin
 *Note*: The flag is the md5 sum of `flag.txt`
 ## Topics Covered
 
+## Synopsis
+

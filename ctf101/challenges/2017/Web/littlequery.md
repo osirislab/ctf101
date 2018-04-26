@@ -12,3 +12,5 @@ http://littlequery.chal.csaw.io
 
 - [SQL Injection](/web-exploitation/sql-injection/what-is-sql-injection/)
 - [PHP](/web-exploitation/php/what-is-php/)
+## Synopsis
+

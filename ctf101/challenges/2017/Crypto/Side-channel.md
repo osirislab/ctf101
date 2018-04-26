@@ -10,3 +10,5 @@ Crypto
 ## Topics Covered
 
 - [XOR](/cryptography/what-is-xor/)
+## Synopsis
+

@@ -11,3 +11,5 @@ I hear that elliptic curves make it safe to use smaller key sizes. Can you break
 ## Topics Covered
 
 - [Vigenere Ciphers](/cryptography/what-is-a-vigenere-cipher/)
+## Synopsis
+

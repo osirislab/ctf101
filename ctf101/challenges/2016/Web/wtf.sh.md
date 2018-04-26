@@ -54,3 +54,5 @@ CSAW 2016           September 2016          WTF.SH(1)
 ```
 ## Topics Covered
 
+## Synopsis
+

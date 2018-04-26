@@ -9,3 +9,5 @@ Misc
 \#Hope \#Change \#Obama2008
 ## Topics Covered
 
+## Synopsis
+

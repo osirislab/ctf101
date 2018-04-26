@@ -11,3 +11,5 @@ Pwn
 ## Topics Covered
 
 - [Format String Vulnerability](/binary-exploitation/what-is-a-format-string-vulnerability/)
+## Synopsis
+

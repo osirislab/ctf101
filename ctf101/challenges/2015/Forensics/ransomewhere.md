@@ -13,3 +13,5 @@ We got hit by some randsomware and we lost our most important file. Please help 
 ## Topics Covered
 
 - [Disk Imaging](/forensics/what-is-disk-imaging/)
+## Synopsis
+

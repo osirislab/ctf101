@@ -15,3 +15,5 @@ Hey, hey can you find my secret.
 
 - [XOR](/cryptography/what-is-xor/)
 - [Hashing Functions](/cryptography/what-are-hashing-functions/)
+## Synopsis
+

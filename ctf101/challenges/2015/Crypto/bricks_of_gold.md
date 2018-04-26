@@ -12,3 +12,5 @@ HINT: take a second look at the file for elements needed for the crypto
 ## Topics Covered
 
 - [Block Ciphers](/cryptography/what-are-block-ciphers/)
+## Synopsis
+

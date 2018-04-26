@@ -12,3 +12,5 @@ Hint: check out free_file_camouflage
 ## Topics Covered
 
 - [Disk Imaging](/forensics/what-is-disk-imaging/)
+## Synopsis
+

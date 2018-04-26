@@ -14,3 +14,5 @@ Update: The flag is integer value of the seed
 ## Topics Covered
 
 - [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
+## Synopsis
+

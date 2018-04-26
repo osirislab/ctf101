@@ -14,3 +14,5 @@ NOTE: The flag in the binary is a placeholder. Please run against the remote sys
 - [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
 - [Registers](/binary-exploitation/what-are-registers/)
 - [Debuggers](/reverse-engineering/what-is-gdb/)
+## Synopsis
+

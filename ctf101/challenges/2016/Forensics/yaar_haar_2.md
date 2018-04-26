@@ -12,3 +12,5 @@ UPDATE: Re-read the intro message when connecting.
 `nc misc.chal.csaw.io 1344`
 ## Topics Covered
 
+## Synopsis
+

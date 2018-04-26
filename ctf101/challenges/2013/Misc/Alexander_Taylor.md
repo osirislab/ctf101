@@ -10,3 +10,5 @@ Recon
 ## Topics Covered
 
 - [Hex Editors](/forensics/what-are-hex-editors/)
+## Synopsis
+

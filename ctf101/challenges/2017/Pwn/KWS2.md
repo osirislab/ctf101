@@ -13,3 +13,5 @@ NOTE: There may be ways to poke at other teams' boxes. Don't do that, it is not 
 NOTE: If you have issues with your instance, try logging out of the KWS interface, and logging back in.
 ## Topics Covered
 
+## Synopsis
+

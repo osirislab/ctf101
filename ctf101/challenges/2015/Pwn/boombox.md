@@ -14,3 +14,5 @@ UPDATE: The challenge is hosted on <http://40.117.40.124:4444/>
 ## Topics Covered
 
 - [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
+## Synopsis
+

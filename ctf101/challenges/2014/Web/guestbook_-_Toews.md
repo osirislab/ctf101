@@ -10,3 +10,5 @@ Web
 ## Topics Covered
 
 - [Cross Site Scripting](/web-exploitation/cross-site-scripting/what-is-cross-site-scripting/)
+## Synopsis
+

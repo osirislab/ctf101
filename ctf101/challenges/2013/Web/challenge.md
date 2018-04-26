@@ -9,3 +9,5 @@ Web
 
 ## Topics Covered
 
+## Synopsis
+

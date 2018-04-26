@@ -9,3 +9,5 @@ Web
 Wtf... I literally just setup this website and it's already popped...
 ## Topics Covered
 
+## Synopsis
+

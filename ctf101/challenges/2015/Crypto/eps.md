@@ -16,3 +16,5 @@ Crypto
 
 ## Topics Covered
 
+## Synopsis
+

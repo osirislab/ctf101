@@ -11,3 +11,5 @@ So I like to make my life difficult, and instead of a password manager, I make c
 NOTE: Flag is not in normal flag format.
 ## Topics Covered
 
+## Synopsis
+

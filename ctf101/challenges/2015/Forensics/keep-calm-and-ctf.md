@@ -12,3 +12,5 @@ Note: this flag doesn't follow the `flag{}` format
 ## Topics Covered
 
 - [Steganography](/forensics/what-is-steganography/)
+## Synopsis
+

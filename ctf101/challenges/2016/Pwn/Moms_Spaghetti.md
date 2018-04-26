@@ -15,3 +15,5 @@ The bug is tricky.
 
 - [The Heap](/binary-exploitation/what-is-the-heap/)
 - [Heap Exploits](/binary-exploitation/heap-exploitation/)
+## Synopsis
+

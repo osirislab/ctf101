@@ -11,3 +11,5 @@ I was sniffing some web traffic for a while, I think i finally got something int
 ## Topics Covered
 
 - [Wireshark](/forensics/what-is-wireshark/)
+## Synopsis
+

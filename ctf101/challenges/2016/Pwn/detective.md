@@ -36,3 +36,5 @@ HINT:
 so exit does a bit of stuff before it actually exists. try walking through it, you might find something interesting...
 ## Topics Covered
 
+## Synopsis
+

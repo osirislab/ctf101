@@ -13,3 +13,5 @@ Yo bro I found Trump's and Hilary's private chat server. I'm sure there is more 
 `nc web.chal.csaw.io 1340`
 ## Topics Covered
 
+## Synopsis
+

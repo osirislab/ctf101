@@ -13,3 +13,5 @@ HINT: static is only 1 of 2 methods to RE. IDA torrent unnecessary
 
 - [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
 - [Debuggers](/reverse-engineering/what-is-gdb/)
+## Synopsis
+

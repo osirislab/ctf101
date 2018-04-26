@@ -14,3 +14,5 @@ and all I said was, 'nope'."
 ## Topics Covered
 
 - [Wireshark](/forensics/what-is-wireshark/)
+## Synopsis
+

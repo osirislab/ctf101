@@ -11,3 +11,5 @@ Hint: to implement: 42 really is the answer to everything
 ## Topics Covered
 
 - [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
+## Synopsis
+

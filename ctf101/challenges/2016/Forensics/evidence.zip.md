@@ -11,3 +11,5 @@ Can you try to figure out what's up?
 ## Topics Covered
 
 - [File Formats](/forensics/what-are-file-formats/)
+## Synopsis
+

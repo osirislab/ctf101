@@ -11,3 +11,6 @@ This clone isn't even running over TOR... can you pop a shell and read the flag?
 ## Topics Covered
 
 - [ASLR](/binary-exploitation/address-space-layout-randomization/)
+## Synopsis
+
+Try to leak some pointers. 

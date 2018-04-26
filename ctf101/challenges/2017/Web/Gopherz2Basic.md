@@ -223,3 +223,5 @@ Examples
 ```
 ## Topics Covered
 
+## Synopsis
+

@@ -13,3 +13,5 @@ http://littlequery.chal.csaw.io
 UPDATE 14:10 Eastern: I'm dumb. The unintentional solution is now in a separate challenge (FuntimeJS 2).
 ## Topics Covered
 
+## Synopsis
+

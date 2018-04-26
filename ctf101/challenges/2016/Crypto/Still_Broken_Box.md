@@ -12,3 +12,5 @@ e = 97
 ## Topics Covered
 
 - [RSA](/cryptography/what-is-rsa/)
+## Synopsis
+

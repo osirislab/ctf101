@@ -10,3 +10,5 @@ Not too sure how to Interpret this, the lab member who wrote this "forgot" to wr
 ## Topics Covered
 
 - [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
+## Synopsis
+

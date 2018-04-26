@@ -13,3 +13,5 @@ Run with qemu-system-i386 -drive format=raw,file=cyberwar.rom
 NOTE: The gdbstub in the latest QEMU on ubuntu gave us issues. A known-good version of QEMU is 2.10.1
 ## Topics Covered
 
+## Synopsis
+

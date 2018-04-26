@@ -11,3 +11,5 @@ Only true hackers can see the image in this magic PNG....
 
 - [XOR](/cryptography/what-is-xor/)
 - [File Formats](/forensics/what-are-file-formats/)
+## Synopsis
+

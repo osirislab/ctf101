@@ -13,3 +13,5 @@ players and one observer per player.
 
 - [The Stack](/binary-exploitation/what-is-the-stack/)
 - [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
+## Synopsis
+

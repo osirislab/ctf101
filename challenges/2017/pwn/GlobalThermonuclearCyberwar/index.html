@@ -1834,70 +1834,42 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="first-level active"><a href="#global-thermonuclar-cyberwar">Global Thermonuclar Cyberwar</a></li>
-            <li class="second-level"><a href="#author">Author</a></li>
-                
             <li class="second-level"><a href="#premise">Premise</a></li>
                 
             <li class="second-level"><a href="#part-1">Part 1:</a></li>
                 
                 <li class="third-level"><a href="#defcon-1">DEFCON 1</a></li>
-                <li class="third-level"><a href="#points">Points</a></li>
-                <li class="third-level"><a href="#description">Description</a></li>
-                <li class="third-level"><a href="#category">Category</a></li>
-                <li class="third-level"><a href="#flag">Flag</a></li>
-                <li class="third-level"><a href="#solution">Solution</a></li>
             <li class="second-level"><a href="#part-2">Part 2:</a></li>
                 
                 <li class="third-level"><a href="#global-thermonuclear-cyberwar">Global Thermonuclear Cyberwar</a></li>
-                <li class="third-level"><a href="#points_1">Points</a></li>
-                <li class="third-level"><a href="#description_1">Description</a></li>
-                <li class="third-level"><a href="#category_1">Category</a></li>
-                <li class="third-level"><a href="#flag_1">Flag</a></li>
-                <li class="third-level"><a href="#solution_1">Solution</a></li>
-            <li class="second-level"><a href="#setup">Setup</a></li>
+                <li class="third-level"><a href="#points">Points</a></li>
+                <li class="third-level"><a href="#description">Description</a></li>
+                <li class="third-level"><a href="#category">Category</a></li>
+            <li class="second-level"><a href="#topics-covered">Topics Covered</a></li>
+                
+            <li class="second-level"><a href="#synopsis">Synopsis</a></li>
                 
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
 <h1 id="global-thermonuclar-cyberwar">Global Thermonuclar Cyberwar<a class="headerlink" href="#global-thermonuclar-cyberwar" title="Permanent link">&para;</a></h1>
-<h2 id="author">Author<a class="headerlink" href="#author" title="Permanent link">&para;</a></h2>
 <h2 id="premise">Premise<a class="headerlink" href="#premise" title="Permanent link">&para;</a></h2>
 <p>It's a Wargames-themed challenge, in 8086 real-mode assembly!
 Launch CyberNukes to win... kinda</p>
 <h2 id="part-1">Part 1:<a class="headerlink" href="#part-1" title="Permanent link">&para;</a></h2>
 <h3 id="defcon-1">DEFCON 1<a class="headerlink" href="#defcon-1" title="Permanent link">&para;</a></h3>
-<h3 id="points">Points<a class="headerlink" href="#points" title="Permanent link">&para;</a></h3>
-<p>50</p>
-<h3 id="description">Description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h3>
 <p>The year is 1981. Matthew Cyber-Broderick (You) finds a bizzare system. Understand it, and decrypt the secret ROM within.</p>
-<h3 id="category">Category<a class="headerlink" href="#category" title="Permanent link">&para;</a></h3>
-<p>Reverseing</p>
-<h3 id="flag">Flag<a class="headerlink" href="#flag" title="Permanent link">&para;</a></h3>
-<p><code class="codehilite">flag{ok_you_decrypted_it_now_plz_pwn_it!}</code></p>
-<h3 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">&para;</a></h3>
-<p>Decrypt the payload, the flag is in the ROM</p>
 <h2 id="part-2">Part 2:<a class="headerlink" href="#part-2" title="Permanent link">&para;</a></h2>
 <h3 id="global-thermonuclear-cyberwar">Global Thermonuclear Cyberwar<a class="headerlink" href="#global-thermonuclear-cyberwar" title="Permanent link">&para;</a></h3>
-<h3 id="points_1">Points<a class="headerlink" href="#points_1" title="Permanent link">&para;</a></h3>
+<h3 id="points">Points<a class="headerlink" href="#points" title="Permanent link">&para;</a></h3>
 <p>350</p>
-<h3 id="description_1">Description<a class="headerlink" href="#description_1" title="Permanent link">&para;</a></h3>
+<h3 id="description">Description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h3>
 <p>In this strange game, the only winning move is pwn.</p>
-<h3 id="category_1">Category<a class="headerlink" href="#category_1" title="Permanent link">&para;</a></h3>
+<h3 id="category">Category<a class="headerlink" href="#category" title="Permanent link">&para;</a></h3>
 <p>Pwn</p>
-<h3 id="flag_1">Flag<a class="headerlink" href="#flag_1" title="Permanent link">&para;</a></h3>
-<p><code class="codehilite">flag{c4n_4ny0n3_really_w1n_1n_cyb3rw4r?}</code></p>
-<h3 id="solution_1">Solution<a class="headerlink" href="#solution_1" title="Permanent link">&para;</a></h3>
-<p>See <code class="codehilite">solve.py</code> for exploit</p>
-<h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
-<p>For both parts, please distribute <code class="codehilite">cyberwar.rom</code>, which has the second flag scrubbed.
-Run <code class="codehilite">server.rom</code> on QEMU with the VNC server exposed to the competitors.</p>
-<p>The competitors should be told they can run the binary with:
-    <code class="codehilite">qemu-system-i386 -drive format=raw,file=cyberwar.rom</code>
-And a vnc server locally with:
-    <code class="codehilite">qemu-system-i386 -vnc :0 -drive format=raw,file=cyberwar.rom</code></p>
-<p>To be nice to the competitors, note that the gdbstub in the latest QEMU on ubuntu has had issues for us. A known-good version of QEMU is:
-    <code class="codehilite">2.10.1</code>## Topics Covered</p></div>
+<h2 id="topics-covered">Topics Covered<a class="headerlink" href="#topics-covered" title="Permanent link">&para;</a></h2>
+<h2 id="synopsis">Synopsis<a class="headerlink" href="#synopsis" title="Permanent link">&para;</a></h2></div>
             
         
     </div>

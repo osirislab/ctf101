@@ -1,11 +1,4 @@
 # FIREWALL
-## Author
-
-## Points
-400
-## Category
-Pwn
-## Description
 After rummaging around the network for a few days, the IT department was able to
 find the dust covered machine hosting the hospital's firewall. We don't have budget
 to update it... so just take a quick look and tell us it's good for another year. 

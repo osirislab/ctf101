@@ -1,12 +1,5 @@
 # animewall
 
-## Author
-
-## Points
-400
-## Category
-Web
-## Description
 WTF dad installed this firewall and now i cant visit my favorite anime websites.
 can you unload the module for me?
 i believe in you, and more importantly, i believe in the you that believes in you....

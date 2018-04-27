@@ -1,12 +1,10 @@
 # Notesy
 
-## Author
-Chung
-## Points
-100
-## Category
-Crypto
-## Description
+
+By Chung
+
+
+
 
 ## Topics Covered
 

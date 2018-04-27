@@ -1,11 +1,9 @@
 # ethersplay
-## Author
-quend
-## Category
-Misc
-## Points
-400
-## Description
+
+By quend
+
+
+
 I stole this contract from a private blockchain. Can you help me reverse its secrets?
 ## Topics Covered
 

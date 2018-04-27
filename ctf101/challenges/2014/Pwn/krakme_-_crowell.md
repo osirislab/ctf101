@@ -1,11 +1,9 @@
 # Krakme
-## Author
-Crowell
-## Points
-300
-## Category
-Pwn
-## Description
+
+By Crowell
+
+
+
 
 ## Topics Covered
 

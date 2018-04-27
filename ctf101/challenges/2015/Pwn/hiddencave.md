@@ -1,12 +1,10 @@
 # HiddenCave
 
-## Author
-Wiens
-## Category
-PwnAdventureZ
-## Points
-150
-## Description
+
+By Wiens
+
+
+
 This challenge can be found in PwnAdventureZ
 ## Topics Covered
 

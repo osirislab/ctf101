@@ -1,11 +1,9 @@
 # gofaster
-## Author
-Peter LaFosse (Vector 35)
-## Points
 
-## Category
-Reverse
-## Description
+By Peter LaFosse (Vector 35)
+
+
+
 Gofaster doesn't go very fast you should go make it go faster.
 ## Topics Covered
 

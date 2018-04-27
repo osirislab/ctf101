@@ -1,11 +1,9 @@
 # Dumpster Diving
-## Author
-Budofsky
-## Points
-100
-## Category
-Forensics
-## Description
+
+By Budofsky
+
+
+
 dumpsters are cool, but cores are cooler
 ## Topics Covered
 

@@ -1,11 +1,4 @@
 # Noobs First Firmware Mod
-## Author
-
-## Points
-500
-## Category
-Reversing
-## Description
 N00b firmware modder says: "My first u-boot mod, there might be errors :(
 ## Topics Covered
 

@@ -1,11 +1,9 @@
 # KWS (Part 1)
-## Author
-itszn, Ret2 Systems
-## Points
-300
-## Category
-Web
-## Description
+
+By itszn, Ret2 Systems
+
+
+
 We developed a much better alternative to AWS. Our high-performance kernel driver gives us unparalleled speed of execution. And we're super-secure!
 http://web.chal.csaw.io:6001/
 

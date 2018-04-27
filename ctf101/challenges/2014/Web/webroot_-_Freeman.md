@@ -1,11 +1,9 @@
 # Webroot
-## Author
-Freeman
-## Points
-400
-## Category
-Web
-## Description
+
+By Freeman
+
+
+
 hackerhaikus.com
 ## Topics Covered
 

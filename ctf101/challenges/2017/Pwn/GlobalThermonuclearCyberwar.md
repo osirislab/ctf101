@@ -1,18 +1,11 @@
 # Global Thermonuclar Cyberwar
-## Author
-
 ## Premise
 It's a Wargames-themed challenge, in 8086 real-mode assembly!
 Launch CyberNukes to win... kinda
 
 ## Part 1:
 ### DEFCON 1
-### Points
-50
-### Description
 The year is 1981. Matthew Cyber-Broderick (You) finds a bizzare system. Understand it, and decrypt the secret ROM within.
-### Category
-Reverseing
 ## Part 2:
 ### Global Thermonuclear Cyberwar
 ### Points

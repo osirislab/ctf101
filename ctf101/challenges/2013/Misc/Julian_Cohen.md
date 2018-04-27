@@ -1,11 +1,9 @@
 # Julian Cohen
-## Author
-Cohen
-## Points
-100
-## Category
-Recon
-## Description
+
+By Cohen
+
+
+
 The first step of owning a target is recon!
 ## Topics Covered
 

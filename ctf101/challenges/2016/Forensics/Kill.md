@@ -1,11 +1,4 @@
 # Kill
-## Author
-
-## Points
-50
-## Category
-Forensics
-## Description
 Is kill can fix? Sign the autopsy file?
 ## Topics Covered
 

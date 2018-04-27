@@ -1,11 +1,9 @@
 # ethersnoob
-## Author
-quend
-## Points 
-300
-## Category
-Misc
-## Description
+
+By quend
+
+
+
 baby's first contract
 ## Topics Covered
 

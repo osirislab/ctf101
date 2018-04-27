@@ -1,10 +1,4 @@
 # SCV
-## Author
-## Points
-100
-## Category
-Pwn
-## Description
 SCV is too hungry to mine the minerals. Can you give him some food?
 ## Topics Covered
 

@@ -1,12 +1,5 @@
 # K_achieve
 
-## Author
-
-## Points
-200
-## Category
-Web
-## Description
 Can you beat it without taking damage?
 http://54.152.84.91
 HINT: State is split up into two parts

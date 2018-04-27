@@ -1,11 +1,4 @@
 # Bad Bios
-## Author
-
-## Points
-
-## Category
-
-## Description
 
 ## Topics Covered
 

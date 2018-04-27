@@ -1,11 +1,4 @@
 # Evidence.zip
-## Author
-
-## Points
-100
-## Category
-Forensics
-## Description
 I found this zip file that should have evidence about someone cheating. But for some reason, everything is broken!!
 Can you try to figure out what's up?
 ## Topics Covered

@@ -1,11 +1,9 @@
 # QuizApp
-## Author
-Oberheide
-## Points
-250
-## Category
-Web
-## Description
+
+By Oberheide
+
+
+
 [https://csaw-2014.appspot.com/](https://csaw-2014.appspot.com/)
 ## Topics Covered
 

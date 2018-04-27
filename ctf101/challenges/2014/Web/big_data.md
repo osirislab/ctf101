@@ -1,11 +1,9 @@
 # Big Data
-## Author
-Cohen
-## Points
-100
-## Category
-Web
-## Description
+
+By Cohen
+
+
+
 Something, something, data, something, something, big
 ## Topics Covered
 

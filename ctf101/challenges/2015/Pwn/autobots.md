@@ -1,12 +1,10 @@
 # Autonots
 
-## Author
-Chung
-## Points
-350
-## Category
-Pwn
-## Description
+
+By Chung
+
+
+
 I hear bots are playing ctfs now.
 ## Topics Covered
 

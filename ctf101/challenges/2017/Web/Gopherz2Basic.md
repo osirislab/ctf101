@@ -1,11 +1,9 @@
 # Gopherz2Basic
-## Author
-Kent Ma & Leon Chou
-## Points
-100
-## Category
-Web
-## Description
+
+By Kent Ma & Leon Chou
+
+
+
 ```
 OSIRIS Laboratory                                                  K. Ma
 Request for Comments: 42031337                                   L. Chou

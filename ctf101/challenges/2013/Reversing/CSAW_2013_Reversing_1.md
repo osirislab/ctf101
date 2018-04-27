@@ -1,11 +1,4 @@
 # CSAW Reversing 1
-## Author
-
-## Points
-100
-## Category
-Reversing
-## Description
 
 ## Topics Covered
 

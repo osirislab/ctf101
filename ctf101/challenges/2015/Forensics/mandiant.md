@@ -1,12 +1,10 @@
 # Mandiant
 
-## Author
-D'Antoine
-## Points
-300
-## Category
-Forensics
-## Description
+
+By D'Antoine
+
+
+
 We found this file. Help Mandiant figure out what APT1 is trying to send.
 Hint: check out free_file_camouflage
 ## Topics Covered

@@ -1,12 +1,10 @@
 # Title
 
-## Author
-Liang
-## Points
-250
-## Category
-Pwn
-## Description
+
+By Liang
+
+
+
 
 ## Topics Covered
 

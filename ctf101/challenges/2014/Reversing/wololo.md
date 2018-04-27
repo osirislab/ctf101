@@ -1,11 +1,9 @@
 # wololo
-## Author
-Stortz
-## Points
-300
-## Category
-Reversing
-## Description
+
+By Stortz
+
+
+
 Can you pass all the checks?
 ## Topics Covered
 

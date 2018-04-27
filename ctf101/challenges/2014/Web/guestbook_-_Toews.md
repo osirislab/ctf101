@@ -1,11 +1,9 @@
 # Guestbook
-## Author
-Toews
-## Points
-300
-## Category
-Web
-## Description
+
+By Toews
+
+
+
 [https://csaw-guestbook.herokuapp.com/](https://csaw-guestbook.herokuapp.com/)
 ## Topics Covered
 

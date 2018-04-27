@@ -1,11 +1,4 @@
 # Title
-## Author
-
-## Points
-
-## Category
-Forensics
-## Description
 Said Zed,
 "This new tech is hard.
 I shan't be able to cope.

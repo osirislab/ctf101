@@ -1,11 +1,9 @@
 # Aerosol Can
-## Author
-Dinaburg
-## Points
-500
-## Category
-Reversing
-## Description
+
+By Dinaburg
+
+
+
 
 ## Topics Covered
 

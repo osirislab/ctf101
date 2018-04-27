@@ -1,11 +1,9 @@
 # Silk Goat
-## Author
-Ahmed
-## Points
-400
-## Category
-Web
-## Description
+
+By Ahmed
+
+
+
 {{hacker manifesto}}
 ## Topics Covered
 

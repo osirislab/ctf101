@@ -1,11 +1,9 @@
 # Wieners
-## Author
-Antoniewicz
-## Points
-400
-## Category
-Crypto
-## Description
+
+By Antoniewicz
+
+
+
 Logic Analyzer -> RE -> Morse Code -> Key
 ## Topics Covered
 

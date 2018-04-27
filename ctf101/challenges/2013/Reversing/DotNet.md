@@ -1,11 +1,4 @@
 # DotNet
-## Author
-
-## Points
-150
-## Category
-Reversing
-## Description
 
 ## Topics Covered
 

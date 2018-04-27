@@ -1,12 +1,10 @@
 # Rhinoxorus
 
-## Author
-Edwards
-## Points
-500
-## Category
-Pwn
-## Description
+
+By Edwards
+
+
+
 
 ## Topics Covered
 

@@ -1,11 +1,9 @@
 # Side-channel
-## Author
-[eshard](https://www.eshard.com)
-## Category
-Crypto
-## Points
-300
-## Description
+
+By [eshard](https://www.eshard.com)
+
+
+
 "*This email isn't for Tyrell. It's for us.*"
 ## Topics Covered
 

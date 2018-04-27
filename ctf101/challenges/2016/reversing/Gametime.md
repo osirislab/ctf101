@@ -1,11 +1,9 @@
 # Gametime
-## Author
-brad_anton
-## Points
-50
-## Category
-Reversing
-## Description
+
+By brad_anton
+
+
+
 Guess what time it is! That's right! Gametime! Wowwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww!!!!!!!!!!!!
 note: flag is not in flag{} format
 ## Topics Covered

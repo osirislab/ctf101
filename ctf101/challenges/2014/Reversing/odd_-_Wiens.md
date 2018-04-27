@@ -1,11 +1,9 @@
 # Odd
-## Author
-Wiens
-## Points
-200
-## Category
-Reversing
-## Description
+
+By Wiens
+
+
+
 
 ## Topics Covered
 

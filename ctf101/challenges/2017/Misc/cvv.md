@@ -1,11 +1,9 @@
 # CVV
-## Author
-Oskar Wirga
-## Points
-100
-## Category
-Misc
-## Description
+
+By Oskar Wirga
+
+
+
 Hey fam, you got CVV? I need some CVV!
 ## Topics Covered
 

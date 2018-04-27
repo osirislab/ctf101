@@ -1,11 +1,9 @@
 # Coinslot
-## Author
-Josh Hofing
-## Points
-25
-## Category
-Misc
-## Description
+
+By Josh Hofing
+
+
+
 \#Hope \#Change \#Obama2008
 ## Topics Covered
 

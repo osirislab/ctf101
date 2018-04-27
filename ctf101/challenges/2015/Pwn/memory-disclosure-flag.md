@@ -1,12 +1,10 @@
 # memory_disclosure_flag
 
-## Author
-Wiens
-## Points
-500
-## Category
-PwnAdventureZ
-## Description
+
+By Wiens
+
+
+
 This flag can be found in PwnAdventureZ
 ## Topics Covered
 

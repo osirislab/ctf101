@@ -1,12 +1,10 @@
 # Sharpturn
 
-## Author
-Stortz
-## Points
-400
-## Category
-Forensics
-## Description
+
+By Stortz
+
+
+
 I think my SATA controller is dying.
 HINT: `git fsck -v`
 ## Topics Covered

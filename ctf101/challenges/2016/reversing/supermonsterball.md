@@ -1,11 +1,9 @@
 # supermonsterball - pit of doom
-## Author
-Vector 35
-## Points
-400
-## Category
-Reversing
-## Description: 
+
+By Vector 35
+
+
+
 A new craze is sweeping the nation -- Super Monster Ball. Join the revolution by downloading a client and pointing it at the server:  `reversing.chal.csaw.io:1348`
 
 For this challenge, you must defeat the Monster master -- Professor Vick. You'll find him at the Pit of Doom, but you can only battle him once you've made it to level 40. Beat him, and you'll be rewarded with a flag. 

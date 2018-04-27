@@ -1,11 +1,9 @@
 # Mountain Sound
-## Author
-Stortz
-## Points
-200
-## Category
-Crypto
-## Description
+
+By Stortz
+
+
+
 
 ## Topics Covered
 

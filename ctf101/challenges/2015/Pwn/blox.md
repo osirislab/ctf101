@@ -1,12 +1,10 @@
 # blox
 
-## Author
-Wiens
-## Category
-Pwnadventurez
-## Points
-250
-## Description
+
+By Wiens
+
+
+
 This challenge can be found in PwnAdventureZ
 ## Topics Covered
 

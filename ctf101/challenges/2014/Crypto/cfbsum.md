@@ -1,11 +1,9 @@
 # CFB Sum
-## Author
-Agre
-## Points
-300
-## Category
-Crypto
-## Description
+
+By Agre
+
+
+
 
 ## Topics Covered
 

@@ -1,11 +1,4 @@
 # Nevernote
-## Author
-
-## Points
-200
-## Category
-Web
-## Description
 ```
 from:     Nevernote Admin <nevernoteadmin@nevernote.com>
 to:     challenger@ctf.isis.poly.edu

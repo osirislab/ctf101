@@ -1,11 +1,4 @@
 # Zone
-## Author
-
-## Points
-300
-## Category
-Pwn
-## Description:
 We're on a highway to the danger zone.
 ## Topics Covered
 

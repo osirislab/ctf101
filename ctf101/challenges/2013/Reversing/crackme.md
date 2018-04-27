@@ -1,11 +1,4 @@
 # Crackme
-## Author
-
-## Points
-300
-## Category
-Reversing
-## Description
 
 ## Topics Covered
 

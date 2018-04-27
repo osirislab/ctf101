@@ -1,11 +1,9 @@
 # KWS2 (Same as /web/csaw-kernel-challenge)
-## Author
-itszn, Ret2 Systems
-## Points
-500
-## Category
-Pwn
-## Description
+
+By itszn, Ret2 Systems
+
+
+
 We developed a much better alternative to AWS. Our high-performance kernel driver gives us unparalleled speed of execution. And we're super-secure!
 NOTE: Login with your CTFd credentials.
 NOTE: This might take a minute to start up the first time you login. Please be patient!

@@ -1,11 +1,4 @@
 # Anothor_Xor
-## Author
-
-## Points
-100
-## Category
-Crypto
-## Description
 Receiving a python script that encrypts a string using a user-chosen key, and an encrypted message- try to get the flag.
 
 Hey, hey can you find my secret.

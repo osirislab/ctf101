@@ -3,13 +3,11 @@
 2. wh1ter0se
 3. zer0_day
 
-## Author
-Chung
-## Points
-50 (each)
-## Category
-Crypto
-## Description
+
+By Chung
+
+
+
 1. 
 2. Note: The flag is the entire thing decrypted
 3. 

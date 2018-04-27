@@ -1,11 +1,9 @@
 # Psifer School
-## Author
-Wiens
-## Points
-200
-## Category
-Crypto
-## Description
+
+By Wiens
+
+
+
 There's no heartbleed here. Why don't we use these ciphers?
 ## Topics Covered
 

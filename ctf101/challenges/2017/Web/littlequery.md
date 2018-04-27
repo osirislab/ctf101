@@ -1,11 +1,4 @@
 # LittleQuery
-## Author
-
-## Points
-200 
-## Category
-Web
-## Description
 LittleQuery I've got a new website for BIG DATA analytics!
 http://littlequery.chal.csaw.io
 ## Topics Covered

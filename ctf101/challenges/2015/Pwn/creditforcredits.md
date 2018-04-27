@@ -1,12 +1,10 @@
 # CreditForCredits
 
-## Author
-Wiens
-## Points
-25
-## Category
-PwnadventureZ
-## Description
+
+By Wiens
+
+
+
 This challenge can be found in PwnAdventureZ
 ## Topics Covered
 

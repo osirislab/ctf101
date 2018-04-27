@@ -1,11 +1,4 @@
 # Clams Don't Dance
-## Author
-
-## Points
-100
-## Category
-Forensics
-## Description
 Find the clam and open it to find the pearl. 
 ## Topics Covered
 

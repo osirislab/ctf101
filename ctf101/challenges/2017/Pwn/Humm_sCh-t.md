@@ -1,11 +1,9 @@
 # Humm_sChat
-## Author
-Kyle Martin
-## Points
-100
-## Category
-Pwn
-## Description 
+
+By Kyle Martin
+
+
+
 I've had no luck running this on anything but Ubuntu 17.10.  Use a sandbox for this - this program is definitely malware.
 Hint: to implement: 42 really is the answer to everything
 ## Topics Covered

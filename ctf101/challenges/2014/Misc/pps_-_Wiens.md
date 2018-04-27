@@ -1,11 +1,9 @@
 # PPS
-## Author
-Wiens
-## Points
-200
-## Category
-Misc
-## Description
+
+By Wiens
+
+
+
 
 ## Topics Covered
 

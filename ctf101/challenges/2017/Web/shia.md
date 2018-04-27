@@ -1,11 +1,4 @@
 # Shia Labeouf-off!
-## Author
-
-## Points
-150
-## Category
-Web
-## Description
 Do it
 Just do it
 

@@ -1,11 +1,9 @@
 # Kernel/SuckerUSU
-## Author
-Coppola
-## Points
-500
-## Category
-Pwn
-## Description
+
+By Coppola
+
+
+
 
 ## Topics Covered
 

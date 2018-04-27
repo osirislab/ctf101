@@ -1,11 +1,9 @@
 # Palo Alto
-## Author
-Palo Alto Networks
-## Points
-150
-## Category
-Reversing
-## Description
+
+By Palo Alto Networks
+
+
+
 [Enter Starscream]
 
 _Optimus Prime paces hastily between window and wall. He continues until all female dogs begin to walk around room on all fours._

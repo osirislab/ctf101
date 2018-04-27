@@ -1,11 +1,4 @@
 # FuntimeJS (2 Parts)
-## Author
-
-## Points
-400
-## Category
-Pwn
-## Description
 Part 2 of LittleQuery (Web)
 JavaScript is memory safe, right? So you can't read the flag at physical address 0xdeadbeeeef, right?
 Right?

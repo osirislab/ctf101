@@ -1,11 +1,4 @@
 # Sugar Cereal
-## Author
-
-## Points
-250
-## Category
-Web
-## Description:
 "Idk if you have heard, but deserializing user controlled data is not a thing
 you should be doing.
 UPDATE: Stage 2 is now listening on the correct port.

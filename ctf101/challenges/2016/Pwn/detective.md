@@ -1,11 +1,4 @@
 # Detective
-## Author
-
-## Points
-100
-## Category
-Pwn
-## Description
 Dear detective, my "program" got pwned again. Can you find the culprit for me? 
 
 Mappings for running process on server:

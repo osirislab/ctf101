@@ -1,11 +1,9 @@
 # Hashes
-## Author
-Chung
-## Points
-300
-## Category
-Web
-## Description
+
+By Chung
+
+
+
 location, location, location
 ## Topics Covered
 

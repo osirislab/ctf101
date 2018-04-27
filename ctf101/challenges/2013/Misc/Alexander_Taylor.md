@@ -1,11 +1,9 @@
 # Alexander Taylor
-## Author
-Taylor
-## Points
-100
-## Category
-Recon
-## Description
+
+By Taylor
+
+
+
 [https://www.google.com/search?&q=Alexander+Taylor](https://www.google.com/search?&q=Alexander+Taylor)
 ## Topics Covered
 

@@ -1,11 +1,9 @@
 # wtf.sh (1)
-## Author
-Josh Hofing
-## Points
-150
-## Category
-Web
-## Description
+
+By Josh Hofing
+
+
+
 `$ man 1 wtf.sh`
 ```
 WTF.SH(1)               Quals               WTF.SH(1)

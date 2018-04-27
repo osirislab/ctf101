@@ -1,12 +1,10 @@
 # QuarantineBreaker
 
-## Author
-Wiens
-## Points
-250
-## Category
-PwnAdventureZ
-## Description
+
+By Wiens
+
+
+
 This challenge can be found in PwnAdventureZ
 ## Topics Covered
 

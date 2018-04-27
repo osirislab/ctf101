@@ -1,11 +1,9 @@
 # Weissman
-## Author
-Stortz
-## Points
 
-## Category
-Reversing
-## Description
+By Stortz
+
+
+
 Extract the key!
 ## Topics Covered
 

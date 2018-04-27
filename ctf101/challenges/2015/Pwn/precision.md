@@ -1,12 +1,10 @@
 # Precision
 
-## Author
-Liang
-## Points
-100
-## Category
-Pwn
-## Description
+
+By Liang
+
+
+
 
 ## Topics Covered
 

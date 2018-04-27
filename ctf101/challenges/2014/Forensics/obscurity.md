@@ -1,11 +1,9 @@
 # Obscurity
-## Author
-Budofsky
-## Points
-200
-## Category
-Forensics
-## Description
+
+By Budofsky
+
+
+
 see or do not see
 ## Topics Covered
 

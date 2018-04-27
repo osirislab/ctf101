@@ -1,11 +1,9 @@
 # Why not SFTP?
-## Author
-Budofsky
-## Points
-200
-## Category
-Forensics
-## Description
+
+By Budofsky
+
+
+
 well seriously, why not? 
 ## Topics Covered
 

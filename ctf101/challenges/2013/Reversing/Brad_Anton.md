@@ -1,11 +1,9 @@
 # Fun For Everybody
-## Author
-Antonowiecz
-## Points
 
-## Category
-Reversing
-## Description
+By Antonowiecz
+
+
+
 
 ## Topics Covered
 

@@ -1,11 +1,9 @@
 # ish
-## Author
-Zhong
-## Points
-300
-## Category
-Pwn
-## Description
+
+By Zhong
+
+
+
 This shell sucks
 ## Topics Covered
 

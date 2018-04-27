@@ -1,11 +1,4 @@
 # Miteegashun
-## Author
-
-## Points
-400
-## Category
-Pwn
-## Description
 Security is solved.
 ## Topics Covered
 

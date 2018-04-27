@@ -1,12 +1,10 @@
 # GreetingsEarthling
 
-## Author
-Wiens
-## Points
-25
-## Category
-PwnAdventureZ
-## Description:**
+
+By Wiens
+
+
+
 This challenge can be found in PwnAdventureZ
 ## Topics Covered
 

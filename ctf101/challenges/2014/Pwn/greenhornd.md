@@ -1,11 +1,9 @@
 # Greenhorn'd
-## Author
-Stortz
-## Points
-200
-## Category
-Pwn
-## Description
+
+By Stortz
+
+
+
 Find the key!
 ## Topics Covered
 

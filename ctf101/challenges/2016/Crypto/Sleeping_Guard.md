@@ -1,11 +1,9 @@
 # Sleeping Guard  
-## Author
-Sophia D'Antoine
-## Points
-50 
-## Category
-Crypto
-## Description
+
+By Sophia D'Antoine
+
+
+
 Only true hackers can see the image in this magic PNG.... 
 ## Topics Covered
 

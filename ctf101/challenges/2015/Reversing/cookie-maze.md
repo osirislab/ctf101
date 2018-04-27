@@ -1,12 +1,10 @@
 # cookie_maze
 
-## Author
-Bohan
-## Category
-Reversing
-## Points
-400
-## Description
+
+By Bohan
+
+
+
 Ever feel like a rat trapped in a maze? There's a flag somewhere in this binary but I just can't seem to find it.
 If you don't have a OS X box you can ssh here after requesting it.
 ssh 0.tcp.ngrok.io -p 47136

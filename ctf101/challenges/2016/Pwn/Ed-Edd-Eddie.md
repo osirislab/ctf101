@@ -1,11 +1,4 @@
 # Ed Edd and Eddie
-## Author
-
-## Points
-300
-## Category
-Pwn
-## Description
 Buttered Toast, Double Dee.
 ## Topics Covered
 

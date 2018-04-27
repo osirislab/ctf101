@@ -1,11 +1,9 @@
 # Mom's Spaghetti
-## Author
-Dr. Raid
-## Points
-n/a
-## Category
-Pwn
-## Description
+
+By Dr. Raid
+
+
+
 ohai
 
 So this challenge is based on a real bug I found in a thing one time reversing.

@@ -1,11 +1,9 @@
 # XORcise 2
-## Author
-Edwards
-## Points
-500
-## Category
-Pwn
-## Description
+
+By Edwards
+
+
+
 hard as fuck
 ## Topics Covered
 

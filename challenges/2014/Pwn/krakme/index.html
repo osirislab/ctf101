@@ -1,0 +1,2227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Capture The Flag Competition Wiki"> 
+    <meta name="author" content="OSIRIS Lab & CTFd LLC"> 
+    <link rel="shortcut icon" href="../../../../img/favicon.ico">
+
+    <title>Krakme - CTF 101</title>
+
+    <link href="../../../../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.018/css/hack.min.css">
+    <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../../../../css/base.css" rel="stylesheet">
+    <link href="../../../../css/cinder.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../../css/highlight.css">
+
+
+    <link href="../../../../admonition.css" rel="stylesheet">
+
+
+    <link href="../../../../extra.css" rel="stylesheet">
+
+
+    <link href="../../../../colorful.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+    <script>
+    WebFont.load({
+        google: {
+            families: ['Open Sans', 'PT Sans']
+        }
+    });
+    </script>
+
+    
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            <a class="navbar-brand" href="../../../..">CTF 101</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Forensics <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../../../forensics/introduction/">Introduction</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">File Formats</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../../forensics/what-are-file-formats/">What are File Formats</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Metadata</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../../forensics/what-is-metadata/">What is Metadata</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Wireshark</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../../forensics/what-is-wireshark/">What is Wireshark</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Stegonagraphy</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../../forensics/what-is-stegonagraphy/">What is Stegonagraphy</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Disk Imaging</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../../forensics/what-is-disk-imaging/">What is Disk Imaging</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Memory Forensics</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../../forensics/what-is-memory-forensics/">What is Memory Forensics</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Hex Editors</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../../forensics/what-is-a-hex-editor/">What is a Hex Editor</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Challenges</a>
+    <ul class="dropdown-menu">
+        
+            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Easy</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../2017/forensics/missed_registration/">Missed Registration</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/forensics/Clams_Dont_Dance/">Clams Don't Dance</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/forensics/Kill/">Kill</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/forensics/brainfun/">Brainfun</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/forensics/evidence.zip/">Evidence.zip</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/forensics/Watchword/">Watchword</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/forensics/phish-it-phish-it-good/">Phish it, Phish it Good</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2013/Forensics/saidzed/">Said Zed</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2013/Forensics/Black_and_White/">Black and White</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/forensics/pcapin/">Pcapin</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/forensics/keep-calm-and-ctf/">Keep Calm and CTF</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/forensics/net/">Transfer</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/forensics/flash/">Flash</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../forensics/dumpster_diving/">Dumptster Diving</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+        
+            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Medium</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../2016/Forensics/ladykiller/">Ladykiller</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2013/Forensics/Deeeeeeaaaaaadbeeeeeeeeeef/">Deeeeeeaaaaaadbeeeeeeeeeef</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/Forensics/best_router/">Best Router</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/forensics/thoroughlyStripped/">Thoroughly Stripped</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/forensics/pure_poetry/">Pure Poetry</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/forensics/Yaar_Haar_Fiddle_Dee_Dee/">Yaar Haar Fiddle Dee Dee</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/forensics/yaar_haar_2/">Yaar Haar 2</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/forensics/airport/">Airport</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../forensics/obscurity/">Obscurity</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../forensics/why_not_sftp__/">Why Not SFTP</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+        
+            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Hard</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../2015/forensics/mandiant/">Mandient</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/forensics/ransomewhere/">Ransomwhere</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/forensics/sharpturn/">Sharpturn</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../forensics/aristotle_-_Wiens/">Aristotle</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../forensics/Fluffy_No_More/">Fluffy No More</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cryptography <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../../../cryptography/introduction/">Introduction</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">XOR</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../../cryptography/what-is-xor/">What is XOR</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Substitution Cipher</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../../cryptography/what-is-a-substitution-cipher/">What is a Substitution Cipher</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../../cryptography/what-is-caesar-cipher-rot-13/">Caesar Cipher/ROT 13</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Vigenere Cipher</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../../cryptography/what-is-a-vigenere-cipher/">What is a Vigenere Cipher</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Hashing Functions</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../../cryptography/what-are-hashing-functions/">What are Hashing Functions</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Modes of Operation</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../../cryptography/what-are-block-ciphers/">What are Block Ciphers</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../../cryptography/what-are-stream-ciphers/">What are Stream Ciphers</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">RSA</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../../cryptography/what-is-rsa/">What is RSA</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Challenges</a>
+    <ul class="dropdown-menu">
+        
+            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Easy</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../2017/crypto/ecxor/">ECXOR</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/crypto/another_xor/">Another XOR</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/crypto/Sleeping_Guard/">Sleeping Guard</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/crypto/katy/">Katy</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/crypto/notesy/">Notesy</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/crypto/eps/">EPS</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/crypto/punchout/">Punchout</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../crypto/feal/">Feal</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2013/Crypto/stfu/">STFU</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+        
+            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Medium</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../2017/crypto/almost_xor/">Almost XOR</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/crypto/Lupin/">Lupin</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/crypto/Neo/">Neo</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/crypto/Killer_cipher/">Killer Cipher</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/crypto/check-plz/">Check Plz</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../crypto/psifer_school/">Psifer School</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../crypto/mountainsound_-_Stortz/">Mountainsound</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2013/Crypto/CSAWpad/">CSAW Pad</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2013/Crypto/onlythisprogram/">Only This Program</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+        
+            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Hard</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../2017/crypto/Side-channel/">Side-channel</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/crypto/baby_crypt/">Baby Crypt</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/crypto/Broken_Box/">Broken Box</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/crypto/Still_Broken_Box/">Still Broken Box</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/crypto/Another_Broken_Box/">Another Broken Box</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/crypto/slabs-of-platinum/">Slabs of Platinum</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/crypto/bricks_of_gold/">Bricks of Gold</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../crypto/cfbsum/">CFB Sum</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../crypto/Wieners_-_Antoniewicz/">Wieners</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2013/Crypto/slurp/">Slurp</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Web Exploitation <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../../../web-exploitation/introduction/">Introduction</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">SQL Injection</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../../web-exploitation/sql-injection/what-is-sql-injection/">What is SQL Injection</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Command Injection</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../../web-exploitation/command-injection/what-is-command-injection/">What is Command Injection</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Directory Traversal</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../../web-exploitation/directory-traversal/what-is-directory-traversal/">What is Directory Traversal</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Cross Site Request Forgery</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../../web-exploitation/cross-site-request-forgery/what-is-cross-site-request-forgery/">What is Cross Site Request Forgery</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Cross Site Scripting (XSS)</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../../web-exploitation/cross-site-scripting/what-is-cross-site-scripting/">What is Cross Site Scripting</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Server Side Request Forgery</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../../web-exploitation/server-side-request-forgery/what-is-server-side-request-forgery/">What is Server Side Request Forgery</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">PHP</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../../web-exploitation/php/what-is-php/">What is PHP?</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Challenges</a>
+    <ul class="dropdown-menu">
+        
+            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Easy</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../2017/web/orange/">Orange</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/web/Gopherz2Basic/">Gopherz2Basic</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/web/wtf.sh/">WTF.sh (1)</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/web/Seizure-Cipher/">Seizure Cipher</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/web/MFW/">MFW</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/web/linq_to_the_present/">Linq to the Present</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/web/K_stairs-100/">K_{Stairs}</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/web/K_achieve-200/">K_{Achieve}</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../web/big_data/">Big Data</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2013/Misc/Networking_1/">Networking 1</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2013/Misc/Networking_2/">Networking 2</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2013/Web/Guess_Harder/">Guess Harder</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+        
+            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Medium</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../2013/Web/Notes/">Notes</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2013/Web/iSEC_Challenge/">iSEC Challenge</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2013/Web/Nevernote/">Nevernote</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2013/Web/historypeats/">Historypeats/Fridge Corp</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/web/Shia/">Shia</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/web/Gopherz2NotSoBasic/">Gopherz2NotSoBasic</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/web/littlequery/">littlequery</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/web/SugarCereal/">Sugar Cereal</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/web/I_Got_id/">I Got ID</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/web/cloudb/">Cloudb</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/web/lawn-care-simulator/">Lawn Care Simulator</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../web/app_-_Oberheide/">App</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../misc/pps_-_Wiens/">PPS</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2013/Web/Michael_Hanchak/">Adoptable Lolcats</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+        
+            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Hard</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../2013/Web/herpderper/">Herpderper</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/web/csaw-oauth2-chal/">Broadcastr</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/web/csaw-kernel-challenge/">KWS 1</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/web/orangev2/">OrangeV2</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/web/notmycupofcoffe/">Not My Cup of Coffe</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/web/wtf.sh/">WTF.sh (2)</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/web/throwback-600/">Throwback</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/web/weebdate-500/">Weebdate</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/web/tbbpe/">TBBPE</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/web/animewall/">Anime Wall</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../web/guestbook_-_Toews/">Guestbook</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../web/hashes/">Hashes</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../web/webroot_-_Freeman/">Webroot</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../web/silkgoat/">Silkgoat</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Reverse Engineering <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../../../reverse-engineering/introduction/">Introduction</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Assembly/Machine Code</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../../reverse-engineering/what-is-assembly-machine-code/">What is Assembly/Machine Code</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">The C Programming Language</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../../reverse-engineering/what-is-c/">What is C</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Disassemblers</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../../reverse-engineering/what-are-disassemblers/">What are Disassemblers</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Debuggers</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../../reverse-engineering/what-is-gdb/">What is GDB</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Decompilers</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../../reverse-engineering/what-are-decompilers/">What are Decompilers</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Challenges</a>
+    <ul class="dropdown-menu">
+        
+            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Easy</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../Reversing/aerosol_can/">Aerosol Can</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/reversing/tablez/">TablEZ</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/reversing/DEFCON1/">DEFCON 1</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/reversing/Gametime/">Gametime</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/reversing/Rock/">Rock</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/reversing/deedeedee/">deedeedee</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/reversing/Palo-Alto/">Decepticons</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/reversing/Key/">Key</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../Reversing/odd/">Odd</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../Reversing/wololo/">Wololo</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../Reversing/weissman/">Weissman</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2013/Reversing/BikiniBonanza/">Bikini Bonanza</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2013/Reversing/Noobs_First_Firmware_Mod/">Noobs First Firmware Mod</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+        
+            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Medium</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../2016/reversing/MixedSignals/">Mixed Signals</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/reversing/gofaster/">Go Faster</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2013/Reversing/keygenme/">Keygenme</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2013/Reversing/bad_bios/">Bad Bios</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/reversing/rusty_road/">Rusty Road</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/reversing/rabbithole/">Rabbithole</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/reversing/prophecy/">PROPHECY</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/reversing/CookieMath/">Cookie Math</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/reversing/HackingTime/">Hacking Time</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/reversing/ftp/">FTP</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2013/Reversing/crackme/">Crackme</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2013/Reversing/CSAW_2013_Reversing_1/">CSAW 2013 Reversing 1</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2013/Reversing/CSAW_2013_Reversing_2/">CSAW 2013 Reversing 2</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2013/Reversing/csaw2013reversing3/">CSAW 2013 Reversing 3</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../reversing/csaw2013reversing2/">CSAW Reversing 2</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2013/Misc/Life/">Life</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2013/Reversing/Brad_Anton/">Fun For Everybody</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+        
+            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Hard</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../2017/Misc/ETHERSNOOB/">ETHERSNOOB</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2013/Reversing/Impossible/">Impossible</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2013/Reversing/DotNet/">Dot Net</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/reversing/bananascript/">Bananascript</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/reversing/realism/">Realism</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/reversing/48-bit_yeet_lab/">48-bit yeet lab</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/reversing/gopherz/">gopherz</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/reversing/grumpcheck/">grumpcheck</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/reversing/CyberTronix64k/">CyberTronix64k</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/reversing/lazurus/">Lazurus</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/reversing/supermonsterball/">Supermonsterball</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/reversing/Tar-Tar-Binks/">Tar-Tar Binks</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/reversing/ivninja/">IV Ninja</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/reversing/return-of-the-wieners/">Return of the Wieners</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/reversing/cookie-maze/">Cookie Maze</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/reversing/pwning-a-locked-container-plc/">Pwning a Locked Container</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/reversing/wyvern/">Wveryn</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/reversing/wyvern2/">Wveryn 2</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/misc/ethersplay/">Ethersplay</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Binary Exploitation <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../../../binary-exploitation/introduction/">Introduction</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Registers</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../../binary-exploitation/what-are-registers/">What are Registers</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">The Stack</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../../binary-exploitation/what-is-the-stack/">What is the Stack</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Calling Conventions</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../../binary-exploitation/what-are-calling-conventions/">What are Calling Conventions</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Global Offset Table (GOT)</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../../binary-exploitation/what-is-the-got/">What is the GOT</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Buffers</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../../binary-exploitation/what-are-buffers/">What are Buffers</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../../binary-exploitation/buffer-overflow/">Buffer Overflow</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Return Oriented Programming (ROP)</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../../binary-exploitation/return-oriented-programming/">What is ROP</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Binary Security</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../../binary-exploitation/what-is-binary-security/">What is Binary Security</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../../binary-exploitation/no-execute/">No eXecute (NX)</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../../binary-exploitation/address-space-layout-randomization/">Address Space Layout Randomization (ASLR)</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../../binary-exploitation/stack-canaries/">Stack Canaries</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../../binary-exploitation/relocation-read-only/">Relocation Read-Only (RELRO)</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">The Heap</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../../binary-exploitation/what-is-the-heap/">What is the Heap</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../../binary-exploitation/heap-exploitation/">Heap Exploitation</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Format String Vulnerability</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../../binary-exploitation/what-is-a-format-string-vulnerability/">What is a Format String Vulnerability</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Challenges</a>
+    <ul class="dropdown-menu">
+        
+            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Easy</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../2017/pwn/Humm_sCh-t/">Humm_sCh-t</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/pwn/scv/">SCV</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/pwn/pilot/">Pilot</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/pwn/detective/">Detective</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/pwn/Aul/">Aul</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/pwn/WarmUp/">WarmUp</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/pwn/precision/">Precision</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/misc/serial/">Serial</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/misc/cvv/">CVV</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/misc/coinslot/">Coinslot</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/misc/sanity-check/">Sanity Check</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2013/Pwn/SCP-hack/">SCP Hack</a>
+</li>
+
+        
+            
+<li >
+    <a href="../xorcise1/">Xorcise 1</a>
+</li>
+
+        
+            
+<li >
+    <a href="../saturn/">Saturn</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+        
+            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Medium</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../2017/Pwn/exploitme/">Exploitme</a>
+</li>
+
+        
+            
+<li >
+    <a href="../Xorcise2/">Xorcise 2</a>
+</li>
+
+        
+            
+<li >
+    <a href="../pybabbies/">Pybabbies</a>
+</li>
+
+        
+            
+<li >
+    <a href="../mbot/">Mbot</a>
+</li>
+
+        
+            
+<li >
+    <a href="../the_road_less_traveled/">The Road Less Traveled</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2013/Pwn/Exploitation_1/">Exploitation 1</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2013/Pwn/miteegashun/">Miteegashun</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2013/Pwn/CSAW_Diary/">CSAW Diary</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/pwn/auir/">Auir</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/pwn/zone/">Zone</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/pwn/Tutorial/">Tutorial</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/pwn/hipster/">Hipster Hitler</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/pwn/contacts/">Contacts</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/pwn/autobots/">Autobots</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/misc/regexpire/">Regexpire</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+        
+            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Hard</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../greenhornd/">Greenhorn'd</a>
+</li>
+
+        
+            
+<li >
+    <a href="../s3/">S3</a>
+</li>
+
+        
+            
+<li class="active">
+    <a href="./">Krakme</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2013/Pwn/itsy/">Itsy</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2013/Pwn/Exploitation_2/">Exploitation 2</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2013/Pwn/kernelchallenge/">Kernel Challenge</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2013/Pwn/silkstreet/">Silkstreet</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/pwn/KWS2/">KWS 2</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/pwn/minesweeper/">Minesweeper</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/pwn/funtimejs/">FuntimeJS</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/pwn/firewall/">Firewall</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/pwn/connectXor/">ConnectXOR</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2017/pwn/GlobalThermonuclearCyberwar/">GlobalThermonuclearCyberwar</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/pwn/Moms_Spaghetti/">Mom's Spaghetti</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/pwn/Ed-Edd-Eddie/">Ed, Edd, and Eddie</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/pwn/ReversePolish/">Reverse Polish</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/pwn/thimblerig/">Thimblerig</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/pwn/Hungman/">Hungman</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2016/pwn/CyberTronix64k/">CyberTronix64k</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/pwn/stringipc/">StringIPC</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/pwn/boombox/">Boombox</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/pwn/meme-shop/">Meme Shop</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/pwn/rhinoxorus/">Rhinoxorus</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+        
+            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Pwn Adventure Z</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../../../2015/pwn/creditforcredits/">Credit for Credits</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/pwn/greetingsearthling/">Greetings Earthlings</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/pwn/hiddencave/">Hidden Cave</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/pwn/quarantinebreaker/">Quarentine Breaker</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/pwn/blox/">Blox</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/pwn/get-flag/">Get Flag</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../../2015/pwn/memory-disclosure-flag/">Memory Disclosure Flag</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fa fa-search"></i>
+                        </a>
+                    </li>
+<!--                     <li >
+                        <a rel="next" href="../s3/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../../../2013/Pwn/itsy/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li> -->
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#krakme">Krakme</a></li>
+            <li class="second-level"><a href="#topics-covered">Topics Covered</a></li>
+                
+            <li class="second-level"><a href="#synopsis">Synopsis</a></li>
+                
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="krakme">Krakme<a class="headerlink" href="#krakme" title="Permanent link">&para;</a></h1>
+<p>By Crowell</p>
+<h2 id="topics-covered">Topics Covered<a class="headerlink" href="#topics-covered" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../../../reverse-engineering/what-are-disassemblers/">Dissassemblers</a></li>
+</ul>
+<h2 id="synopsis">Synopsis<a class="headerlink" href="#synopsis" title="Permanent link">&para;</a></h2></div>
+            
+        
+    </div>
+
+    <footer class="col-md-12 text-center">
+        <hr>
+        <p>
+        <small>A project by the <a href="https://osiris.cyber.nyu.edu">OSIRIS Lab</a> and <a href="https://ctfd.io/">CTFd LLC</a></small>
+    </footer>
+
+    <script src="../../../../js/jquery-1.10.2.min.js"></script>
+    <script src="../../../../js/bootstrap-3.0.3.min.js"></script>
+    <script src="../../../../js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script>
+    var base_url = '../../../..';
+    </script>
+    <script data-main="../../../../mkdocs/js/search.js" src="../../../../search/require.js"></script>
+    <script src="../../../../js/base.js"></script>
+    <script src="../../../../search/require.js"></script>
+    <script src="../../../../search/search.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        From here you can search these documents. Enter your search terms below.
+                    </p>
+                    <form role="form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                        </div>
+                    </form>
+                    <div id="mkdocs-search-results"></div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </body>
+
+</html>

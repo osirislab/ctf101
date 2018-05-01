@@ -391,6 +391,46 @@
             "title": "Synopsis"
         }, 
         {
+            "location": "/challenges/2013/Forensics/saidzed/", 
+            "text": "Title\n\n\nSaid Zed,\n\"This new tech is hard.\nI shan't be able to cope.\nSomeone showed me scp\nand all I said was, 'nope'.\"\n\n\nTopics Covered\n\n\n\n\nWireshark\n\n\n\n\nSynopsis", 
+            "title": "Said Zed"
+        }, 
+        {
+            "location": "/challenges/2013/Forensics/saidzed/#title", 
+            "text": "Said Zed,\n\"This new tech is hard.\nI shan't be able to cope.\nSomeone showed me scp\nand all I said was, 'nope'.\"", 
+            "title": "Title"
+        }, 
+        {
+            "location": "/challenges/2013/Forensics/saidzed/#topics-covered", 
+            "text": "Wireshark", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Forensics/saidzed/#synopsis", 
+            "text": "", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2013/Forensics/Black_and_White/", 
+            "text": "Title\n\n\nTopics Covered\n\n\nSynopsis", 
+            "title": "Black and White"
+        }, 
+        {
+            "location": "/challenges/2013/Forensics/Black_and_White/#title", 
+            "text": "", 
+            "title": "Title"
+        }, 
+        {
+            "location": "/challenges/2013/Forensics/Black_and_White/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Forensics/Black_and_White/#synopsis", 
+            "text": "", 
+            "title": "Synopsis"
+        }, 
+        {
             "location": "/challenges/2015/forensics/pcapin/", 
             "text": "Pcap'in\n\n\nBy Nevens\n\n\nWe have extracted a pcap file from a network where attackers were present.  We know they were using some kind of file transfer protocol on TCP port 7179.  We're not sure what file or files were transferred and we need you to investigate.  We do not believe any strong cryptography was employed.\n\n\nTopics Covered\n\n\n\n\nWireshark\n\n\n\n\nSynopsis\n\n\nThe file you are looking for is a png, the key is not in the bytes, its in the png itself.", 
             "title": "Pcapin"
@@ -491,37 +531,82 @@
             "title": "Synopsis"
         }, 
         {
-            "location": "/challenges/2017/forensics/missed_registration/", 
-            "text": "Missed Registration\n\n\nIt's registration day! These forms just seem longer and longer...\n\n\nFlag\n\n\nFLAG{3Am_LaunDR3Y_FL4G_L34kz!}\n\n\nSolution\n\n\nsolve.py\n\n\nFile for challenge\n\n\ncap.pcap\n\n\nTopics Covered\n\n\n\n\nWireshark\n\n\n\n\nSynopsis", 
-            "title": "Best Router"
+            "location": "/challenges/2016/Forensics/ladykiller/", 
+            "text": "Lady Killer\n\n\nAuthor\n\n\nScore\n\n\n150\n\n\nCategory\n\n\nForensics\n\n\nDescription\n\n\nDear Abby,\nI recently have been going out on a lot of dates with a lot of smoking hot babes. For some reason things go well for a while, and then they dump my sorry ass. Do you have any advice as to what the core problem would be? I really need someone to help debug this problem :)\nThank you,\nDavy P. Tracey\n\n\nTopics Covered\n\n\nSynopsis", 
+            "title": "Ladykiller"
         }, 
         {
-            "location": "/challenges/2017/forensics/missed_registration/#missed-registration", 
-            "text": "It's registration day! These forms just seem longer and longer...", 
-            "title": "Missed Registration"
+            "location": "/challenges/2016/Forensics/ladykiller/#lady-killer", 
+            "text": "", 
+            "title": "Lady Killer"
         }, 
         {
-            "location": "/challenges/2017/forensics/missed_registration/#flag", 
-            "text": "FLAG{3Am_LaunDR3Y_FL4G_L34kz!}", 
-            "title": "Flag"
+            "location": "/challenges/2016/Forensics/ladykiller/#author", 
+            "text": "", 
+            "title": "Author"
         }, 
         {
-            "location": "/challenges/2017/forensics/missed_registration/#solution", 
-            "text": "solve.py", 
-            "title": "Solution"
+            "location": "/challenges/2016/Forensics/ladykiller/#score", 
+            "text": "150", 
+            "title": "Score"
         }, 
         {
-            "location": "/challenges/2017/forensics/missed_registration/#file-for-challenge", 
-            "text": "cap.pcap", 
-            "title": "File for challenge"
+            "location": "/challenges/2016/Forensics/ladykiller/#category", 
+            "text": "Forensics", 
+            "title": "Category"
         }, 
         {
-            "location": "/challenges/2017/forensics/missed_registration/#topics-covered", 
-            "text": "Wireshark", 
+            "location": "/challenges/2016/Forensics/ladykiller/#description", 
+            "text": "Dear Abby,\nI recently have been going out on a lot of dates with a lot of smoking hot babes. For some reason things go well for a while, and then they dump my sorry ass. Do you have any advice as to what the core problem would be? I really need someone to help debug this problem :)\nThank you,\nDavy P. Tracey", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/challenges/2016/Forensics/ladykiller/#topics-covered", 
+            "text": "", 
             "title": "Topics Covered"
         }, 
         {
-            "location": "/challenges/2017/forensics/missed_registration/#synopsis", 
+            "location": "/challenges/2016/Forensics/ladykiller/#synopsis", 
+            "text": "", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2013/Forensics/Deeeeeeaaaaaadbeeeeeeeeeef/", 
+            "text": "deeeeeeaaaaaadbeeeeeeeeeef\n\n\nTopics Covered\n\n\nSynopsis\n\n\nCheck out the \nPNG Spec", 
+            "title": "Deeeeeeaaaaaadbeeeeeeeeeef"
+        }, 
+        {
+            "location": "/challenges/2013/Forensics/Deeeeeeaaaaaadbeeeeeeeeeef/#deeeeeeaaaaaadbeeeeeeeeeef", 
+            "text": "", 
+            "title": "deeeeeeaaaaaadbeeeeeeeeeef"
+        }, 
+        {
+            "location": "/challenges/2013/Forensics/Deeeeeeaaaaaadbeeeeeeeeeef/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Forensics/Deeeeeeaaaaaadbeeeeeeeeeef/#synopsis", 
+            "text": "Check out the  PNG Spec", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2017/Forensics/best_router/", 
+            "text": "best router\n\n\nBest Router\n\nhttp://forensics.chal.csaw.io:3287\n\nNOTE: This will expand to ~16GB!\n19:00 Eastern: updated. Old flags have been removed.\n\n\nTopics Covered\n\n\nSynopsis", 
+            "title": "Best Router"
+        }, 
+        {
+            "location": "/challenges/2017/Forensics/best_router/#best-router", 
+            "text": "Best Router http://forensics.chal.csaw.io:3287 \nNOTE: This will expand to ~16GB!\n19:00 Eastern: updated. Old flags have been removed.", 
+            "title": "best router"
+        }, 
+        {
+            "location": "/challenges/2017/Forensics/best_router/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2017/Forensics/best_router/#synopsis", 
             "text": "", 
             "title": "Synopsis"
         }, 
@@ -1211,6 +1296,26 @@
             "title": "Synopsis"
         }, 
         {
+            "location": "/challenges/2013/Crypto/stfu/", 
+            "text": "stfu\n\n\nOh no! How will we ever recover the flag, now that it's stored in a Secure Test File Unit?\n\n\nTopics Covered\n\n\n\n\nXOR\n\n\n\n\nSynopsis\n\n\nThis challenge involves the \nLinear Feedback Shift Register algorithm", 
+            "title": "STFU"
+        }, 
+        {
+            "location": "/challenges/2013/Crypto/stfu/#stfu", 
+            "text": "Oh no! How will we ever recover the flag, now that it's stored in a Secure Test File Unit?", 
+            "title": "stfu"
+        }, 
+        {
+            "location": "/challenges/2013/Crypto/stfu/#topics-covered", 
+            "text": "XOR", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Crypto/stfu/#synopsis", 
+            "text": "This challenge involves the  Linear Feedback Shift Register algorithm", 
+            "title": "Synopsis"
+        }, 
+        {
             "location": "/challenges/2017/crypto/almost_xor/", 
             "text": "almost_xor\n\n\nCan you decode this ciphertext?\n809fdd88dafa96e3ee60c8f179f2d88990ef4fe3e252ccf462deae51872673dcd34cc9f55380cb86951b8be3d8429839\nUpdate Sun 3:24 Eastern: merged the 2 lines to make it clear that it's a single ciphertext, no actual change to challenge.\n\n\nTopics Covered\n\n\n\n\nXOR\n\n\n\n\nSynopsis", 
             "title": "Almost XOR"
@@ -1343,6 +1448,46 @@
         {
             "location": "/challenges/2014/crypto/mountainsound_-_Stortz/#synopsis", 
             "text": "Take a look at how python bytecode works.", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2013/Crypto/CSAWpad/", 
+            "text": "CSAW Pad\n\n\nWe recovered these texts, and sample program from the great nation of Astorkia's new communication system.  Included is the file we recovered, as well as the texts.\n\n\nTopics Covered\n\n\nSynopsis", 
+            "title": "CSAW Pad"
+        }, 
+        {
+            "location": "/challenges/2013/Crypto/CSAWpad/#csaw-pad", 
+            "text": "We recovered these texts, and sample program from the great nation of Astorkia's new communication system.  Included is the file we recovered, as well as the texts.", 
+            "title": "CSAW Pad"
+        }, 
+        {
+            "location": "/challenges/2013/Crypto/CSAWpad/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Crypto/CSAWpad/#synopsis", 
+            "text": "", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2013/Crypto/onlythisprogram/", 
+            "text": "onlythisprogram\n\n\nI tested out my new encryption tool on some files from the internet and it seems like it worked pretty good. What do you think?\n\n\nTopics Covered\n\n\n\n\nFile Formats\n\n\n\n\nSynopsis\n\n\nYou don't have to figure out the whole key to solve the challenge. Some file formats make better oracles than others.", 
+            "title": "Only This Program"
+        }, 
+        {
+            "location": "/challenges/2013/Crypto/onlythisprogram/#onlythisprogram", 
+            "text": "I tested out my new encryption tool on some files from the internet and it seems like it worked pretty good. What do you think?", 
+            "title": "onlythisprogram"
+        }, 
+        {
+            "location": "/challenges/2013/Crypto/onlythisprogram/#topics-covered", 
+            "text": "File Formats", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Crypto/onlythisprogram/#synopsis", 
+            "text": "You don't have to figure out the whole key to solve the challenge. Some file formats make better oracles than others.", 
             "title": "Synopsis"
         }, 
         {
@@ -1523,6 +1668,26 @@
         {
             "location": "/challenges/2014/crypto/Wieners_-_Antoniewicz/#synopsis", 
             "text": "To analyze the dump, take a look at  Saleae's Logic Tool .", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2013/Crypto/slurp/", 
+            "text": "Title\n\n\nWe've found the source to the Arstotzka spies rendevous server, we must find out their new vault key.\n\n\nTopics Covered\n\n\nSynopsis", 
+            "title": "Slurp"
+        }, 
+        {
+            "location": "/challenges/2013/Crypto/slurp/#title", 
+            "text": "We've found the source to the Arstotzka spies rendevous server, we must find out their new vault key.", 
+            "title": "Title"
+        }, 
+        {
+            "location": "/challenges/2013/Crypto/slurp/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Crypto/slurp/#synopsis", 
+            "text": "", 
             "title": "Synopsis"
         }, 
         {
@@ -1871,6 +2036,146 @@
             "title": "Synopsis"
         }, 
         {
+            "location": "/challenges/2013/Misc/Networking_1/", 
+            "text": "Networking 1\n\n\nTopics Covered\n\n\n\n\nWireshark\n\n\n\n\nSynopsis", 
+            "title": "Networking 1"
+        }, 
+        {
+            "location": "/challenges/2013/Misc/Networking_1/#networking-1", 
+            "text": "", 
+            "title": "Networking 1"
+        }, 
+        {
+            "location": "/challenges/2013/Misc/Networking_1/#topics-covered", 
+            "text": "Wireshark", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Misc/Networking_1/#synopsis", 
+            "text": "", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2013/Misc/Networking_2/", 
+            "text": "Networking 2\n\n\nTopics Covered\n\n\n\n\nWireshark\n\n\n\n\nSynopsis", 
+            "title": "Networking 2"
+        }, 
+        {
+            "location": "/challenges/2013/Misc/Networking_2/#networking-2", 
+            "text": "", 
+            "title": "Networking 2"
+        }, 
+        {
+            "location": "/challenges/2013/Misc/Networking_2/#topics-covered", 
+            "text": "Wireshark", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Misc/Networking_2/#synopsis", 
+            "text": "", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2013/Web/Guess_Harder/", 
+            "text": "Guess Harder\n\n\nhttp://128.238.66.215/guessharder.php\n\n\nTopics Covered\n\n\nSynopsis", 
+            "title": "Guess Harder"
+        }, 
+        {
+            "location": "/challenges/2013/Web/Guess_Harder/#guess-harder", 
+            "text": "http://128.238.66.215/guessharder.php", 
+            "title": "Guess Harder"
+        }, 
+        {
+            "location": "/challenges/2013/Web/Guess_Harder/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Web/Guess_Harder/#synopsis", 
+            "text": "", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2013/Web/Notes/", 
+            "text": "Notes\n\n\nTopics Covered\n\n\nSynopsis", 
+            "title": "Notes"
+        }, 
+        {
+            "location": "/challenges/2013/Web/Notes/#notes", 
+            "text": "", 
+            "title": "Notes"
+        }, 
+        {
+            "location": "/challenges/2013/Web/Notes/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Web/Notes/#synopsis", 
+            "text": "", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2013/Web/iSEC_Challenge/", 
+            "text": "iSEC Challenge\n\n\nACME Co's update server has been stolen and posted on the internet. It seems like a bunch of janky python code.  See if you can perform some ownage.\nNote:\nYour instance is specific to your team.  Unless you want other teams messing with your instance and potentially denial-of-servicing you, keep your instance location a team secret.\n\n\nTopics Covered\n\n\nSynopsis\n\n\nCheck out \nRace Conditions", 
+            "title": "iSEC Challenge"
+        }, 
+        {
+            "location": "/challenges/2013/Web/iSEC_Challenge/#isec-challenge", 
+            "text": "ACME Co's update server has been stolen and posted on the internet. It seems like a bunch of janky python code.  See if you can perform some ownage.\nNote:\nYour instance is specific to your team.  Unless you want other teams messing with your instance and potentially denial-of-servicing you, keep your instance location a team secret.", 
+            "title": "iSEC Challenge"
+        }, 
+        {
+            "location": "/challenges/2013/Web/iSEC_Challenge/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Web/iSEC_Challenge/#synopsis", 
+            "text": "Check out  Race Conditions", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2013/Web/Nevernote/", 
+            "text": "Nevernote\n\n\nfrom\n:\n     \nNevernote\n \nAdmin\n \nnevernoteadmin\n@\nnevernote\n.\ncom\n\n\nto\n:\n     \nchallenger\n@\nctf\n.\nisis\n.\npoly\n.\nedu\n\n\ndate\n:\n     \nThurs\n,\n \nSep\n \n19\n,\n \n2013\n \nat\n \n3\n:\n05\n \nPM\n\n\nsubject\n:\n     \nHelp\n\n\nFriend\n,\n \nEvil\n \nhackers\n \nhave\n \ntaken\n \ncontrol\n \nof\n \nthe\n \nNevernote\n \nserver\n \nand\n \nlocked\n \nme\n \nout\n.\n  \nWhile\n \nI\nm\n \nworking\n \non\n \nrestoring\n \naccess\n,\n \nis\n \nthere\n \nanyway\n \nyou\n \ncan\n \nget\n \nin\n \nto\n \nmy\n \naccount\n \nand\n \nsave\n \na\n \ncopy\n \nof\n \nmy\n \nnotes\n?\n  \nI\n \nknow\n \nthe\n \nsystem\n \nis\n \nsuper\n \nsecure\n \nbut\n \nif\n \nanybody\n \ncan\n \ndo\n \nit\n \n-\n \nits\n \nyou\n.\n\n\nThanks\n,\n\n\nNevernote\n \nAdmin\n\n\n\n\n\n\nTopics Covered\n\n\nSynopsis\n\n\nCheck out \nParameter Tampering", 
+            "title": "Nevernote"
+        }, 
+        {
+            "location": "/challenges/2013/Web/Nevernote/#nevernote", 
+            "text": "from :       Nevernote   Admin   nevernoteadmin @ nevernote . com  to :       challenger @ ctf . isis . poly . edu  date :       Thurs ,   Sep   19 ,   2013   at   3 : 05   PM  subject :       Help  Friend ,   Evil   hackers   have   taken   control   of   the   Nevernote   server   and   locked   me   out .    While   I m   working   on   restoring   access ,   is   there   anyway   you   can   get   in   to   my   account   and   save   a   copy   of   my   notes ?    I   know   the   system   is   super   secure   but   if   anybody   can   do   it   -   its   you .  Thanks ,  Nevernote   Admin", 
+            "title": "Nevernote"
+        }, 
+        {
+            "location": "/challenges/2013/Web/Nevernote/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Web/Nevernote/#synopsis", 
+            "text": "Check out  Parameter Tampering", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2013/Web/historypeats/", 
+            "text": "Historypeats/FridgeCorp\n\n\nFridgeCorp uses Jenga Blocks as a Timesheet management solution. It would be nice to get Admin and so we are able to modify our timesheets.\n\n\nTopics Covered\n\n\nSynopsis\n\n\nCheck out Chosen Boundary attacks for this challenge.", 
+            "title": "Historypeats/Fridge Corp"
+        }, 
+        {
+            "location": "/challenges/2013/Web/historypeats/#historypeatsfridgecorp", 
+            "text": "FridgeCorp uses Jenga Blocks as a Timesheet management solution. It would be nice to get Admin and so we are able to modify our timesheets.", 
+            "title": "Historypeats/FridgeCorp"
+        }, 
+        {
+            "location": "/challenges/2013/Web/historypeats/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Web/historypeats/#synopsis", 
+            "text": "Check out Chosen Boundary attacks for this challenge.", 
+            "title": "Synopsis"
+        }, 
+        {
             "location": "/challenges/2017/web/Shia/", 
             "text": "Shia Labeouf-off!\n\n\nDo it\nJust do it\n\n\nDon't let your dreams be dreams\nYesterday you said tomorrow\nSo just do it\nMake your dreams come true\nJust do it\n\n\nSome people dream of success\nWhile you're gonna wake up and work hard at it\nNothing is impossible\n\n\nYou should get to the point\nWhere anyone else would quit\nAnd you're not going to stop there\nNo, what are you waiting for?\n\n\nDo it\nJust do it\nYes you can\nJust do it\nIf you're tired of starting over\nStop giving up\n\n\nPick 1:\n* \nhttp://web.chal.csaw.io:5487\n\n* \nhttp://web.chal.csaw.io:5488\n\n* \nhttp://web.chal.csaw.io:5489\n\n* \nhttp://web.chal.csaw.io:5490\n\n\nTopics Covered\n\n\nSynopsis", 
             "title": "Shia"
@@ -2048,6 +2353,46 @@
         {
             "location": "/challenges/2014/misc/pps_-_Wiens/#synopsis", 
             "text": "", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2013/Web/Michael_Hanchak/", 
+            "text": "Adoptable Lolcats\n\n\nBy Hanchak\n\n\nIt would be a crime to not put these charming lol catz in good homes. We at Poly are especially fond of \"CSAW Cat\" but he doesn't seem to be available. Is there anything you can do to find out more information about him so we can get first in line?\n\n\nTopics Covered\n\n\n\n\nPHP\n\n\n\n\nSynopsis", 
+            "title": "Adoptable Lolcats"
+        }, 
+        {
+            "location": "/challenges/2013/Web/Michael_Hanchak/#adoptable-lolcats", 
+            "text": "By Hanchak  It would be a crime to not put these charming lol catz in good homes. We at Poly are especially fond of \"CSAW Cat\" but he doesn't seem to be available. Is there anything you can do to find out more information about him so we can get first in line?", 
+            "title": "Adoptable Lolcats"
+        }, 
+        {
+            "location": "/challenges/2013/Web/Michael_Hanchak/#topics-covered", 
+            "text": "PHP", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Web/Michael_Hanchak/#synopsis", 
+            "text": "", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2013/Web/herpderper/", 
+            "text": "Herpderper\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nSynopsis\n\n\nSome topics this challenge covers are:\\n\\n - Android \\n - JSON \\n - SSL \\n - Anti-debugging \\n - Man In The Middle", 
+            "title": "Herpderper"
+        }, 
+        {
+            "location": "/challenges/2013/Web/herpderper/#herpderper", 
+            "text": "", 
+            "title": "Herpderper"
+        }, 
+        {
+            "location": "/challenges/2013/Web/herpderper/#topics-covered", 
+            "text": "Dissassemblers", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Web/herpderper/#synopsis", 
+            "text": "Some topics this challenge covers are:\\n\\n - Android \\n - JSON \\n - SSL \\n - Anti-debugging \\n - Man In The Middle", 
             "title": "Synopsis"
         }, 
         {
@@ -2591,6 +2936,26 @@
             "title": "Results"
         }, 
         {
+            "location": "/challenges/2014/Reversing/aerosol_can/", 
+            "text": "Aerosol Can\n\n\nBy Dinaburg\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\nAssembly/Machine Code\n\n\n\n\nSynopsis", 
+            "title": "Aerosol Can"
+        }, 
+        {
+            "location": "/challenges/2014/Reversing/aerosol_can/#aerosol-can", 
+            "text": "By Dinaburg", 
+            "title": "Aerosol Can"
+        }, 
+        {
+            "location": "/challenges/2014/Reversing/aerosol_can/#topics-covered", 
+            "text": "Dissassemblers  Assembly/Machine Code", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2014/Reversing/aerosol_can/#synopsis", 
+            "text": "", 
+            "title": "Synopsis"
+        }, 
+        {
             "location": "/challenges/2017/reversing/tablez/", 
             "text": "TablEZ\n\n\nBobby was talking about tables a bunch, so I made some table stuff. I think this is what he was talking about\u2026\nSome tables that get iterated over to translate input -\n encoded, which then gets strcmp'd... pretty simple\n\n\nTopics Covered\n\n\nSynopsis", 
             "title": "TablEZ"
@@ -2731,6 +3096,186 @@
             "title": "Synopsis"
         }, 
         {
+            "location": "/challenges/2014/Reversing/odd/", 
+            "text": "Odd\n\n\nBy Wiens\n\n\nTopics Covered\n\n\n\n\nXOR\n\n\nDissassemblers\n\n\nDebuggers\n\n\n\n\nSynopsis\n\n\nThe elf is a modified version of the teensy elf \nhttp://www.muppetlabs.com/~breadbox/software/tiny/teensy.html", 
+            "title": "Odd"
+        }, 
+        {
+            "location": "/challenges/2014/Reversing/odd/#odd", 
+            "text": "By Wiens", 
+            "title": "Odd"
+        }, 
+        {
+            "location": "/challenges/2014/Reversing/odd/#topics-covered", 
+            "text": "XOR  Dissassemblers  Debuggers", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2014/Reversing/odd/#synopsis", 
+            "text": "The elf is a modified version of the teensy elf  http://www.muppetlabs.com/~breadbox/software/tiny/teensy.html", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2014/Reversing/wololo/", 
+            "text": "wololo\n\n\nBy Stortz\n\n\nCan you pass all the checks?\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nSynopsis\n\n\nThis binary is compiled to ARMv7.", 
+            "title": "Wololo"
+        }, 
+        {
+            "location": "/challenges/2014/Reversing/wololo/#wololo", 
+            "text": "By Stortz  Can you pass all the checks?", 
+            "title": "wololo"
+        }, 
+        {
+            "location": "/challenges/2014/Reversing/wololo/#topics-covered", 
+            "text": "Dissassemblers", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2014/Reversing/wololo/#synopsis", 
+            "text": "This binary is compiled to ARMv7.", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2014/Reversing/weissman/", 
+            "text": "Weissman\n\n\nBy Stortz\n\n\nExtract the key!\n\n\nTopics Covered\n\n\n\n\nHashing Functions\n\n\nDissassemblers\n\n\n\n\nSynopsis", 
+            "title": "Weissman"
+        }, 
+        {
+            "location": "/challenges/2014/Reversing/weissman/#weissman", 
+            "text": "By Stortz  Extract the key!", 
+            "title": "Weissman"
+        }, 
+        {
+            "location": "/challenges/2014/Reversing/weissman/#topics-covered", 
+            "text": "Hashing Functions  Dissassemblers", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2014/Reversing/weissman/#synopsis", 
+            "text": "", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/BikiniBonanza/", 
+            "text": "BikiniBonanza\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nSynopsis\n\n\nThis is .NET Reversing with slight obfuscation.", 
+            "title": "Bikini Bonanza"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/BikiniBonanza/#bikinibonanza", 
+            "text": "", 
+            "title": "BikiniBonanza"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/BikiniBonanza/#topics-covered", 
+            "text": "Dissassemblers", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/BikiniBonanza/#synopsis", 
+            "text": "This is .NET Reversing with slight obfuscation.", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/Noobs_First_Firmware_Mod/", 
+            "text": "Noobs First Firmware Mod\n\n\nN00b firmware modder says: \"My first u-boot mod, there might be errors :(\n\n\nTopics Covered\n\n\n\n\nDisk Imaging\n\n\nDissassemblers\n\n\n\n\nSynopsis\n\n\n\n\nTry to boot the image, does anything appear \"modded\"?\n\n\nIt's a versitilepb board, use QEMU", 
+            "title": "Noobs First Firmware Mod"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/Noobs_First_Firmware_Mod/#noobs-first-firmware-mod", 
+            "text": "N00b firmware modder says: \"My first u-boot mod, there might be errors :(", 
+            "title": "Noobs First Firmware Mod"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/Noobs_First_Firmware_Mod/#topics-covered", 
+            "text": "Disk Imaging  Dissassemblers", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/Noobs_First_Firmware_Mod/#synopsis", 
+            "text": "Try to boot the image, does anything appear \"modded\"?  It's a versitilepb board, use QEMU", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2016/reversing/MixedSignals/", 
+            "text": "Mixed Signals\n\n\nBreaking News: Rouge process wanted for running a red.\nFind it on the shell server in \n/challenges/mixed-signals\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nSynopsis", 
+            "title": "Mixed Signals"
+        }, 
+        {
+            "location": "/challenges/2016/reversing/MixedSignals/#mixed-signals", 
+            "text": "Breaking News: Rouge process wanted for running a red.\nFind it on the shell server in  /challenges/mixed-signals", 
+            "title": "Mixed Signals"
+        }, 
+        {
+            "location": "/challenges/2016/reversing/MixedSignals/#topics-covered", 
+            "text": "Dissassemblers", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2016/reversing/MixedSignals/#synopsis", 
+            "text": "", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2016/reversing/gofaster/", 
+            "text": "gofaster\n\n\nBy Peter LaFosse (Vector 35)\n\n\nGofaster doesn't go very fast you should go make it go faster.\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nSynopsis", 
+            "title": "Go Faster"
+        }, 
+        {
+            "location": "/challenges/2016/reversing/gofaster/#gofaster", 
+            "text": "By Peter LaFosse (Vector 35)  Gofaster doesn't go very fast you should go make it go faster.", 
+            "title": "gofaster"
+        }, 
+        {
+            "location": "/challenges/2016/reversing/gofaster/#topics-covered", 
+            "text": "Dissassemblers", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2016/reversing/gofaster/#synopsis", 
+            "text": "", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/keygenme/", 
+            "text": "Keygenme\n\n\nTopics Covered\n\n\nSynopsis\n\n\nIf you are guessing, thats desperation and you will never solve the challenge. Work your way up from the beginning. first solve the vm, then solve the keygen.", 
+            "title": "Keygenme"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/keygenme/#keygenme", 
+            "text": "", 
+            "title": "Keygenme"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/keygenme/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/keygenme/#synopsis", 
+            "text": "If you are guessing, thats desperation and you will never solve the challenge. Work your way up from the beginning. first solve the vm, then solve the keygen.", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/bad_bios/", 
+            "text": "Bad Bios\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nSynopsis", 
+            "title": "Bad Bios"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/bad_bios/#bad-bios", 
+            "text": "", 
+            "title": "Bad Bios"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/bad_bios/#topics-covered", 
+            "text": "Dissassemblers", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/bad_bios/#synopsis", 
+            "text": "", 
+            "title": "Synopsis"
+        }, 
+        {
             "location": "/challenges/2017/reversing/rusty_road/", 
             "text": "A Rusty Road\n\n\n- Traverse these roads, win and obtain the flag\n\n\n\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nSynopsis\n\n\nThis is a compiled rust binary, with symbols and you need to solve the game.", 
             "title": "Rusty Road"
@@ -2851,6 +3396,86 @@
             "title": "Synopsis"
         }, 
         {
+            "location": "/challenges/2013/Reversing/crackme/", 
+            "text": "Crackme\n\n\nTopics Covered\n\n\n\n\nDebuggers\n\n\nDissassemblers\n\n\nAssembly/Machine Code\n\n\n\n\nSynopsis", 
+            "title": "Crackme"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/crackme/#crackme", 
+            "text": "", 
+            "title": "Crackme"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/crackme/#topics-covered", 
+            "text": "Debuggers  Dissassemblers  Assembly/Machine Code", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/crackme/#synopsis", 
+            "text": "", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/CSAW_2013_Reversing_1/", 
+            "text": "CSAW Reversing 1\n\n\nTopics Covered\n\n\n\n\nDebuggers\n\n\nDissassemblers\n\n\n\n\nSynopsis", 
+            "title": "CSAW 2013 Reversing 1"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/CSAW_2013_Reversing_1/#csaw-reversing-1", 
+            "text": "", 
+            "title": "CSAW Reversing 1"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/CSAW_2013_Reversing_1/#topics-covered", 
+            "text": "Debuggers  Dissassemblers", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/CSAW_2013_Reversing_1/#synopsis", 
+            "text": "", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/CSAW_2013_Reversing_2/", 
+            "text": "CSAW Reversing 2\n\n\nTopics Covered\n\n\n\n\nDebuggers\n\n\nDissassemblers\n\n\n\n\nSynopsis\n\n\nIt may take some time to understand the binary, but it will assist you greatly.", 
+            "title": "CSAW 2013 Reversing 2"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/CSAW_2013_Reversing_2/#csaw-reversing-2", 
+            "text": "", 
+            "title": "CSAW Reversing 2"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/CSAW_2013_Reversing_2/#topics-covered", 
+            "text": "Debuggers  Dissassemblers", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/CSAW_2013_Reversing_2/#synopsis", 
+            "text": "It may take some time to understand the binary, but it will assist you greatly.", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/csaw2013reversing3/", 
+            "text": "CSAW 2013 Reversing 3\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nSynopsis", 
+            "title": "CSAW 2013 Reversing 3"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/csaw2013reversing3/#csaw-2013-reversing-3", 
+            "text": "", 
+            "title": "CSAW 2013 Reversing 3"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/csaw2013reversing3/#topics-covered", 
+            "text": "Dissassemblers", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/csaw2013reversing3/#synopsis", 
+            "text": "", 
+            "title": "Synopsis"
+        }, 
+        {
             "location": "/challenges/2014/reversing/csaw2013reversing2/", 
             "text": "CSAW 2013 Reversing 2\n\n\nBy Cohen\n\n\nWe got a little lazy so we just tweaked an old one a bit\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nSynopsis", 
             "title": "CSAW Reversing 2"
@@ -2867,6 +3492,106 @@
         }, 
         {
             "location": "/challenges/2014/reversing/csaw2013reversing2/#synopsis", 
+            "text": "", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2013/Misc/Life/", 
+            "text": "Life\n\n\nTopics Covered\n\n\nSynopsis\n\n\nThis challenge covers an implementation of \nConway's Game of Life", 
+            "title": "Life"
+        }, 
+        {
+            "location": "/challenges/2013/Misc/Life/#life", 
+            "text": "", 
+            "title": "Life"
+        }, 
+        {
+            "location": "/challenges/2013/Misc/Life/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Misc/Life/#synopsis", 
+            "text": "This challenge covers an implementation of  Conway's Game of Life", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/Brad_Anton/", 
+            "text": "Fun For Everybody\n\n\nBy Antonowiecz\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nSynopsis", 
+            "title": "Fun For Everybody"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/Brad_Anton/#fun-for-everybody", 
+            "text": "By Antonowiecz", 
+            "title": "Fun For Everybody"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/Brad_Anton/#topics-covered", 
+            "text": "Dissassemblers", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/Brad_Anton/#synopsis", 
+            "text": "", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2017/Misc/ETHERSNOOB/", 
+            "text": "ethersnoob\n\n\nBy quend\n\n\nbaby's first contract\n\n\nTopics Covered\n\n\nSynopsis\n\n\nYou'll need \nthis", 
+            "title": "ETHERSNOOB"
+        }, 
+        {
+            "location": "/challenges/2017/Misc/ETHERSNOOB/#ethersnoob", 
+            "text": "By quend  baby's first contract", 
+            "title": "ethersnoob"
+        }, 
+        {
+            "location": "/challenges/2017/Misc/ETHERSNOOB/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2017/Misc/ETHERSNOOB/#synopsis", 
+            "text": "You'll need  this", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/Impossible/", 
+            "text": "Impossible\n\n\nWTF, his hp is over 9000! Beat the game to get your key. \n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nSynopsis\n\n\nSometimes when faced with impossible tasks, it may be necessary to rewrite the rules.. If it runs locally, it is in your domain to tamper with and modify.", 
+            "title": "Impossible"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/Impossible/#impossible", 
+            "text": "WTF, his hp is over 9000! Beat the game to get your key.", 
+            "title": "Impossible"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/Impossible/#topics-covered", 
+            "text": "Dissassemblers", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/Impossible/#synopsis", 
+            "text": "Sometimes when faced with impossible tasks, it may be necessary to rewrite the rules.. If it runs locally, it is in your domain to tamper with and modify.", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/DotNet/", 
+            "text": "DotNet\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\nXOR\n\n\n\n\nSynopsis", 
+            "title": "Dot Net"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/DotNet/#dotnet", 
+            "text": "", 
+            "title": "DotNet"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/DotNet/#topics-covered", 
+            "text": "Dissassemblers  XOR", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Reversing/DotNet/#synopsis", 
             "text": "", 
             "title": "Synopsis"
         }, 
@@ -3701,6 +4426,231 @@
             "title": "Synopsis"
         }, 
         {
+            "location": "/challenges/2013/Pwn/SCP-hack/", 
+            "text": "SCP Hack\n\n\nThe \nSCP organization\n wants you to join, accept and see if you can take advantage of their interns sloppy coding and outdated browser.\n\n\nTopics Covered\n\n\nSynopsis\n\n\nWhat recon can you perform on the SCP interns? Are the interns vulnerable to information leakage?", 
+            "title": "SCP Hack"
+        }, 
+        {
+            "location": "/challenges/2013/Pwn/SCP-hack/#scp-hack", 
+            "text": "The  SCP organization  wants you to join, accept and see if you can take advantage of their interns sloppy coding and outdated browser.", 
+            "title": "SCP Hack"
+        }, 
+        {
+            "location": "/challenges/2013/Pwn/SCP-hack/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Pwn/SCP-hack/#synopsis", 
+            "text": "What recon can you perform on the SCP interns? Are the interns vulnerable to information leakage?", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/xorcise1/", 
+            "text": "XORcise 1\n\n\nBy Edwards\n\n\nTopics Covered\n\n\nSynopsis", 
+            "title": "Xorcise 1"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/xorcise1/#xorcise-1", 
+            "text": "By Edwards", 
+            "title": "XORcise 1"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/xorcise1/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/xorcise1/#synopsis", 
+            "text": "", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/saturn/", 
+            "text": "Saturn\n\n\nBy Crowell\n\n\nTopics Covered\n\n\nSynopsis", 
+            "title": "Saturn"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/saturn/#saturn", 
+            "text": "By Crowell", 
+            "title": "Saturn"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/saturn/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/saturn/#synopsis", 
+            "text": "", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2017/Pwn/exploitme/", 
+            "text": "Elaborate Bullet\n\n\nBy IPS Research, Palo Alto Networks\n\n\nRemote elaborate.chal.csaw.io:9000. Read flag.txt\nNOTE: You may need to try connecting a few times. Just sleep a few seconds and try again if you can't connect.\n\n\nFlag\n\n\nIn \nflag.txt\n\n\nSetup\n\n\n\n\nrun c.bat \nexploitme.exe\n and it will create ctf.pcap\n\n\n\n\nfor exploit, just run exploitme.exe on server and use exploit.py to attack it.## Topics Covered\n\n\n\n\n\n\nDissassemblers\n\n\n\n\nWireshark\n\n\n\n\nSynopsis", 
+            "title": "Exploitme"
+        }, 
+        {
+            "location": "/challenges/2017/Pwn/exploitme/#elaborate-bullet", 
+            "text": "By IPS Research, Palo Alto Networks  Remote elaborate.chal.csaw.io:9000. Read flag.txt\nNOTE: You may need to try connecting a few times. Just sleep a few seconds and try again if you can't connect.", 
+            "title": "Elaborate Bullet"
+        }, 
+        {
+            "location": "/challenges/2017/Pwn/exploitme/#flag", 
+            "text": "In  flag.txt", 
+            "title": "Flag"
+        }, 
+        {
+            "location": "/challenges/2017/Pwn/exploitme/#setup", 
+            "text": "run c.bat  exploitme.exe  and it will create ctf.pcap   for exploit, just run exploitme.exe on server and use exploit.py to attack it.## Topics Covered    Dissassemblers   Wireshark", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/challenges/2017/Pwn/exploitme/#synopsis", 
+            "text": "", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/Xorcise2/", 
+            "text": "XORcise 2\n\n\nBy Edwards\n\n\nhard as fuck\n\n\nTopics Covered\n\n\n\n\nXOR\n\n\n\n\nSynopsis", 
+            "title": "Xorcise 2"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/Xorcise2/#xorcise-2", 
+            "text": "By Edwards  hard as fuck", 
+            "title": "XORcise 2"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/Xorcise2/#topics-covered", 
+            "text": "XOR", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/Xorcise2/#synopsis", 
+            "text": "", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/pybabbies/", 
+            "text": "Pybabbies\n\n\nBy Chung\n\n\nso secure it hurts\n\n\nTopics Covered\n\n\nSynopsis", 
+            "title": "Pybabbies"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/pybabbies/#pybabbies", 
+            "text": "By Chung  so secure it hurts", 
+            "title": "Pybabbies"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/pybabbies/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/pybabbies/#synopsis", 
+            "text": "", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/mbot/", 
+            "text": "MBot\n\n\nBy Crowell\n\n\nTopics Covered\n\n\n\n\nASLR\n\n\nNo eXecute\n\n\n\n\nSynopsis", 
+            "title": "Mbot"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/mbot/#mbot", 
+            "text": "By Crowell", 
+            "title": "MBot"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/mbot/#topics-covered", 
+            "text": "ASLR  No eXecute", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/mbot/#synopsis", 
+            "text": "", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/the_road_less_traveled/", 
+            "text": "The Road Less Traveled/bo\n\n\nBy Cohen\n\n\nexploit this\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nSynopsis", 
+            "title": "The Road Less Traveled"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/the_road_less_traveled/#the-road-less-traveledbo", 
+            "text": "By Cohen  exploit this", 
+            "title": "The Road Less Traveled/bo"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/the_road_less_traveled/#topics-covered", 
+            "text": "Dissassemblers", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/the_road_less_traveled/#synopsis", 
+            "text": "", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2013/Pwn/Exploitation_1/", 
+            "text": "Exploitation 1\n\n\nTopics Covered\n\n\nSynopsis\n\n\n\n\nIt's a versitilepb board, use QEMU", 
+            "title": "Exploitation 1"
+        }, 
+        {
+            "location": "/challenges/2013/Pwn/Exploitation_1/#exploitation-1", 
+            "text": "", 
+            "title": "Exploitation 1"
+        }, 
+        {
+            "location": "/challenges/2013/Pwn/Exploitation_1/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Pwn/Exploitation_1/#synopsis", 
+            "text": "It's a versitilepb board, use QEMU", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2013/Pwn/miteegashun/", 
+            "text": "Miteegashun\n\n\nSecurity is solved.\n\n\nTopics Covered\n\n\n\n\nThe Stack\n\n\nDissassemblers\n\n\nBuffer Overflow\n\n\n\n\nSynopsis\n\n\nYou don't need an info leak.", 
+            "title": "Miteegashun"
+        }, 
+        {
+            "location": "/challenges/2013/Pwn/miteegashun/#miteegashun", 
+            "text": "Security is solved.", 
+            "title": "Miteegashun"
+        }, 
+        {
+            "location": "/challenges/2013/Pwn/miteegashun/#topics-covered", 
+            "text": "The Stack  Dissassemblers  Buffer Overflow", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Pwn/miteegashun/#synopsis", 
+            "text": "You don't need an info leak.", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2013/Pwn/CSAW_Diary/", 
+            "text": "CSAW Diary\n\n\nAfter ten years, it is time to record some memories...\n\n\nTopics Covered\n\n\n\n\nRELRO\n\n\nBuffer Overflow\n\n\n\n\nSynopsis\n\n\nTake a look at how the length is used.", 
+            "title": "CSAW Diary"
+        }, 
+        {
+            "location": "/challenges/2013/Pwn/CSAW_Diary/#csaw-diary", 
+            "text": "After ten years, it is time to record some memories...", 
+            "title": "CSAW Diary"
+        }, 
+        {
+            "location": "/challenges/2013/Pwn/CSAW_Diary/#topics-covered", 
+            "text": "RELRO  Buffer Overflow", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Pwn/CSAW_Diary/#synopsis", 
+            "text": "Take a look at how the length is used.", 
+            "title": "Synopsis"
+        }, 
+        {
             "location": "/challenges/2017/pwn/auir/", 
             "text": "Topics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nSynopsis", 
             "title": "Auir"
@@ -3838,6 +4788,146 @@
         {
             "location": "/challenges/2016/misc/regexpire/#synopsis", 
             "text": "", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/greenhornd/", 
+            "text": "Greenhorn'd\n\n\nBy Stortz\n\n\nFind the key!\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nSynopsis", 
+            "title": "Greenhorn'd"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/greenhornd/#greenhornd", 
+            "text": "By Stortz  Find the key!", 
+            "title": "Greenhorn'd"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/greenhornd/#topics-covered", 
+            "text": "Dissassemblers", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/greenhornd/#synopsis", 
+            "text": "", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/s3/", 
+            "text": "s3\n\n\nBy Taylor\n\n\nTopics Covered\n\n\nSynopsis", 
+            "title": "S3"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/s3/#s3", 
+            "text": "By Taylor", 
+            "title": "s3"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/s3/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/s3/#synopsis", 
+            "text": "", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/krakme/", 
+            "text": "Krakme\n\n\nBy Crowell\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nSynopsis", 
+            "title": "Krakme"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/krakme/#krakme", 
+            "text": "By Crowell", 
+            "title": "Krakme"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/krakme/#topics-covered", 
+            "text": "Dissassemblers", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/krakme/#synopsis", 
+            "text": "", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2013/Pwn/itsy/", 
+            "text": "Itsy\n\n\nGet the key (it's in the usual location).\n\n\nTopics Covered\n\n\nSynopsis", 
+            "title": "Itsy"
+        }, 
+        {
+            "location": "/challenges/2013/Pwn/itsy/#itsy", 
+            "text": "Get the key (it's in the usual location).", 
+            "title": "Itsy"
+        }, 
+        {
+            "location": "/challenges/2013/Pwn/itsy/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Pwn/itsy/#synopsis", 
+            "text": "", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2013/Pwn/Exploitation_2/", 
+            "text": "Exploitation 2\n\n\nTopics Covered\n\n\nSynopsis", 
+            "title": "Exploitation 2"
+        }, 
+        {
+            "location": "/challenges/2013/Pwn/Exploitation_2/#exploitation-2", 
+            "text": "", 
+            "title": "Exploitation 2"
+        }, 
+        {
+            "location": "/challenges/2013/Pwn/Exploitation_2/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Pwn/Exploitation_2/#synopsis", 
+            "text": "", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2013/Pwn/kernelchallenge/", 
+            "text": "Title\n\n\nTopics Covered\n\n\nSynopsis", 
+            "title": "Kernel Challenge"
+        }, 
+        {
+            "location": "/challenges/2013/Pwn/kernelchallenge/#title", 
+            "text": "", 
+            "title": "Title"
+        }, 
+        {
+            "location": "/challenges/2013/Pwn/kernelchallenge/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Pwn/kernelchallenge/#synopsis", 
+            "text": "", 
+            "title": "Synopsis"
+        }, 
+        {
+            "location": "/challenges/2013/Pwn/silkstreet/", 
+            "text": "Silkstreet\n\n\nAfter silkroad got shut down, some competitors popped up.\nThis clone isn't even running over TOR... can you pop a shell and read the flag?\n\n\nTopics Covered\n\n\n\n\nASLR\n\n\n\n\nSynopsis\n\n\nTry to leak some pointers.", 
+            "title": "Silkstreet"
+        }, 
+        {
+            "location": "/challenges/2013/Pwn/silkstreet/#silkstreet", 
+            "text": "After silkroad got shut down, some competitors popped up.\nThis clone isn't even running over TOR... can you pop a shell and read the flag?", 
+            "title": "Silkstreet"
+        }, 
+        {
+            "location": "/challenges/2013/Pwn/silkstreet/#topics-covered", 
+            "text": "ASLR", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Pwn/silkstreet/#synopsis", 
+            "text": "Try to leak some pointers.", 
             "title": "Synopsis"
         }, 
         {

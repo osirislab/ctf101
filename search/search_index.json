@@ -237,28 +237,13 @@
         }, 
         {
             "location": "/challenges/2017/forensics/missed_registration/", 
-            "text": "Missed Registration\n\n\nIt's registration day! These forms just seem longer and longer...\n\n\nFlag\n\n\nFLAG{3Am_LaunDR3Y_FL4G_L34kz!}\n\n\nSolution\n\n\nsolve.py\n\n\nFile for challenge\n\n\ncap.pcap\n\n\nTopics Covered\n\n\n\n\nWireshark\n\n\n\n\nSynopsis", 
+            "text": "Missed Registration\n\n\nIt's registration day! These forms just seem longer and longer...\n\n\nTopics Covered\n\n\n\n\nWireshark\n\n\n\n\nSynopsis", 
             "title": "Missed Registration"
         }, 
         {
             "location": "/challenges/2017/forensics/missed_registration/#missed-registration", 
             "text": "It's registration day! These forms just seem longer and longer...", 
             "title": "Missed Registration"
-        }, 
-        {
-            "location": "/challenges/2017/forensics/missed_registration/#flag", 
-            "text": "FLAG{3Am_LaunDR3Y_FL4G_L34kz!}", 
-            "title": "Flag"
-        }, 
-        {
-            "location": "/challenges/2017/forensics/missed_registration/#solution", 
-            "text": "solve.py", 
-            "title": "Solution"
-        }, 
-        {
-            "location": "/challenges/2017/forensics/missed_registration/#file-for-challenge", 
-            "text": "cap.pcap", 
-            "title": "File for challenge"
         }, 
         {
             "location": "/challenges/2017/forensics/missed_registration/#topics-covered", 
@@ -372,12 +357,12 @@
         }, 
         {
             "location": "/challenges/2015/forensics/phish-it-phish-it-good/", 
-            "text": "Phish It, Phish It Good\n\n\nBy Antoniewicz\n\n\nSomeone got phished after running an executable, help me find out what info the attacker obtained.\nNote: The format for this challenge is key{}\n\n\nTopics Covered\n\n\nSynopsis", 
+            "text": "Phish It, Phish It Good\n\n\nBy Antoniewicz\n\n\nSomeone got phished after running an executable, help me find out what info the attacker obtained.\n\n\n\n\nNote\n\n\nThe format for this challenge is key{}\n\n\n\n\nTopics Covered\n\n\nSynopsis", 
             "title": "Phish it, Phish it Good"
         }, 
         {
             "location": "/challenges/2015/forensics/phish-it-phish-it-good/#phish-it-phish-it-good", 
-            "text": "By Antoniewicz  Someone got phished after running an executable, help me find out what info the attacker obtained.\nNote: The format for this challenge is key{}", 
+            "text": "By Antoniewicz  Someone got phished after running an executable, help me find out what info the attacker obtained.   Note  The format for this challenge is key{}", 
             "title": "Phish It, Phish It Good"
         }, 
         {
@@ -452,12 +437,12 @@
         }, 
         {
             "location": "/challenges/2015/forensics/keep-calm-and-ctf/", 
-            "text": "Keep Calm and CTF\n\n\nBy Budofsky\n\n\nMy friend sends me pictures before every ctf. He told me this one was special.\nNote: this flag doesn't follow the \nflag{}\n format\n\n\nTopics Covered\n\n\n\n\nSteganography\n\n\n\n\nSynopsis", 
+            "text": "Keep Calm and CTF\n\n\nBy Budofsky\n\n\nMy friend sends me pictures before every ctf. He told me this one was special.\n\n\n\n\nNote\n\n\nThe flag doesn't follow the \nflag{}\n format\n\n\n\n\nTopics Covered\n\n\n\n\nSteganography\n\n\n\n\nSynopsis", 
             "title": "Keep Calm and CTF"
         }, 
         {
             "location": "/challenges/2015/forensics/keep-calm-and-ctf/#keep-calm-and-ctf", 
-            "text": "By Budofsky  My friend sends me pictures before every ctf. He told me this one was special.\nNote: this flag doesn't follow the  flag{}  format", 
+            "text": "By Budofsky  My friend sends me pictures before every ctf. He told me this one was special.   Note  The flag doesn't follow the  flag{}  format", 
             "title": "Keep Calm and CTF"
         }, 
         {
@@ -592,13 +577,13 @@
         }, 
         {
             "location": "/challenges/2017/Forensics/best_router/", 
-            "text": "best router\n\n\nBest Router\n\nhttp://forensics.chal.csaw.io:3287\n\nNOTE: This will expand to ~16GB!\n19:00 Eastern: updated. Old flags have been removed.\n\n\nTopics Covered\n\n\nSynopsis", 
+            "text": "Best Router\n\n\n\n\nNote\n\n\nThis will expand to ~16GB!\n\n\n\n\nTopics Covered\n\n\nSynopsis", 
             "title": "Best Router"
         }, 
         {
             "location": "/challenges/2017/Forensics/best_router/#best-router", 
-            "text": "Best Router http://forensics.chal.csaw.io:3287 \nNOTE: This will expand to ~16GB!\n19:00 Eastern: updated. Old flags have been removed.", 
-            "title": "best router"
+            "text": "Note  This will expand to ~16GB!", 
+            "title": "Best Router"
         }, 
         {
             "location": "/challenges/2017/Forensics/best_router/#topics-covered", 
@@ -672,12 +657,12 @@
         }, 
         {
             "location": "/challenges/2016/forensics/yaar_haar_2/", 
-            "text": "Yaar Haar 2: Dead Man's Flag\n\n\nWE'VE GOT US A MAP (A MAP!) TO LEAD US TO ME LOST MATEYS!\n\n\nUPDATE: Re-read the intro message when connecting.\n\nnc misc.chal.csaw.io 1344\n\n\nTopics Covered\n\n\nSynopsis", 
+            "text": "Yaar Haar 2: Dead Man's Flag\n\n\nWE'VE GOT US A MAP (A MAP!) TO LEAD US TO ME LOST MATEYS!\n\n\nTopics Covered\n\n\nSynopsis", 
             "title": "Yaar Haar 2"
         }, 
         {
             "location": "/challenges/2016/forensics/yaar_haar_2/#yaar-haar-2-dead-mans-flag", 
-            "text": "WE'VE GOT US A MAP (A MAP!) TO LEAD US TO ME LOST MATEYS!  UPDATE: Re-read the intro message when connecting. nc misc.chal.csaw.io 1344", 
+            "text": "WE'VE GOT US A MAP (A MAP!) TO LEAD US TO ME LOST MATEYS!", 
             "title": "Yaar Haar 2: Dead Man's Flag"
         }, 
         {
@@ -752,12 +737,12 @@
         }, 
         {
             "location": "/challenges/2015/forensics/mandiant/", 
-            "text": "Mandiant\n\n\nBy D'Antoine\n\n\nWe found this file. Help Mandiant figure out what APT1 is trying to send.\nHint: check out free_file_camouflage\n\n\nTopics Covered\n\n\n\n\nDisk Imaging\n\n\n\n\nSynopsis", 
+            "text": "Mandiant\n\n\nBy D'Antoine\n\n\nWe found this file. Help Mandiant figure out what APT1 is trying to send.\n\n\nTopics Covered\n\n\n\n\nDisk Imaging\n\n\n\n\nSynopsis\n\n\nCheck out free_file_camouflage", 
             "title": "Mandient"
         }, 
         {
             "location": "/challenges/2015/forensics/mandiant/#mandiant", 
-            "text": "By D'Antoine  We found this file. Help Mandiant figure out what APT1 is trying to send.\nHint: check out free_file_camouflage", 
+            "text": "By D'Antoine  We found this file. Help Mandiant figure out what APT1 is trying to send.", 
             "title": "Mandiant"
         }, 
         {
@@ -767,7 +752,7 @@
         }, 
         {
             "location": "/challenges/2015/forensics/mandiant/#synopsis", 
-            "text": "", 
+            "text": "Check out free_file_camouflage", 
             "title": "Synopsis"
         }, 
         {
@@ -792,12 +777,12 @@
         }, 
         {
             "location": "/challenges/2015/forensics/sharpturn/", 
-            "text": "Sharpturn\n\n\nBy Stortz\n\n\nI think my SATA controller is dying.\nHINT: \ngit fsck -v\n\n\nTopics Covered\n\n\n\n\nDisk Imaging\n\n\n\n\nSynopsis", 
+            "text": "Sharpturn\n\n\nBy Stortz\n\n\nI think my SATA controller is dying.\n\n\nTopics Covered\n\n\n\n\nDisk Imaging\n\n\n\n\nSynopsis\n\n\ngit fsck -v", 
             "title": "Sharpturn"
         }, 
         {
             "location": "/challenges/2015/forensics/sharpturn/#sharpturn", 
-            "text": "By Stortz  I think my SATA controller is dying.\nHINT:  git fsck -v", 
+            "text": "By Stortz  I think my SATA controller is dying.", 
             "title": "Sharpturn"
         }, 
         {
@@ -807,7 +792,7 @@
         }, 
         {
             "location": "/challenges/2015/forensics/sharpturn/#synopsis", 
-            "text": "", 
+            "text": "git fsck -v", 
             "title": "Synopsis"
         }, 
         {
@@ -1197,12 +1182,12 @@
         }, 
         {
             "location": "/challenges/2016/crypto/katy/", 
-            "text": "Katy\n\n\nhi every1 im new!!!!!!! holds up spork my name is katy but u can call me t3h PeNgU1N oF d00m!!!!!!!! lol\u2026as u can see im very random!!!! thats why i came here, 2 meet random ppl like me \u2026_\u2026 im 13 years old (im mature 4 my age tho!!) i like 2 watch invader zim w/ my girlfreind (im bi if u dont like it deal w/it) its our favorite tv show!!! bcuz its SOOOO random!!!! shes random 2 of course but i want 2 meet more random ppl =) like they say the more the merrier!!!! lol\u2026neways i hope 2 make alot of freinds here so give me lots of commentses!!!!\nDOOOOOMMMM!!!!!!!!!!!!!!!! \n--- me bein random again \n_\n hehe\u2026toodles!!!!!\nlove and waffles,\nt3h PeNgU1N oF d00m\nUpdate: The flag is integer value of the seed\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nSynopsis", 
+            "text": "Katy\n\n\nhi every1 im new!!!!!!! holds up spork my name is katy but u can call me t3h PeNgU1N oF d00m!!!!!!!! lol\u2026as u can see im very random!!!! thats why i came here, 2 meet random ppl like me \u2026_\u2026 im 13 years old (im mature 4 my age tho!!) i like 2 watch invader zim w/ my girlfreind (im bi if u dont like it deal w/it) its our favorite tv show!!! bcuz its SOOOO random!!!! shes random 2 of course but i want 2 meet more random ppl =) like they say the more the merrier!!!! lol\u2026neways i hope 2 make alot of freinds here so give me lots of commentses!!!!\nDOOOOOMMMM!!!!!!!!!!!!!!!! \n--- me bein random again \n_\n hehe\u2026toodles!!!!!\nlove and waffles,\nt3h PeNgU1N oF d00m\n\n\n\n\nNote\n\n\nThe flag is integer value of the seed\n\n\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nSynopsis", 
             "title": "Katy"
         }, 
         {
             "location": "/challenges/2016/crypto/katy/#katy", 
-            "text": "hi every1 im new!!!!!!! holds up spork my name is katy but u can call me t3h PeNgU1N oF d00m!!!!!!!! lol\u2026as u can see im very random!!!! thats why i came here, 2 meet random ppl like me \u2026_\u2026 im 13 years old (im mature 4 my age tho!!) i like 2 watch invader zim w/ my girlfreind (im bi if u dont like it deal w/it) its our favorite tv show!!! bcuz its SOOOO random!!!! shes random 2 of course but i want 2 meet more random ppl =) like they say the more the merrier!!!! lol\u2026neways i hope 2 make alot of freinds here so give me lots of commentses!!!!\nDOOOOOMMMM!!!!!!!!!!!!!!!!  --- me bein random again  _  hehe\u2026toodles!!!!!\nlove and waffles,\nt3h PeNgU1N oF d00m\nUpdate: The flag is integer value of the seed", 
+            "text": "hi every1 im new!!!!!!! holds up spork my name is katy but u can call me t3h PeNgU1N oF d00m!!!!!!!! lol\u2026as u can see im very random!!!! thats why i came here, 2 meet random ppl like me \u2026_\u2026 im 13 years old (im mature 4 my age tho!!) i like 2 watch invader zim w/ my girlfreind (im bi if u dont like it deal w/it) its our favorite tv show!!! bcuz its SOOOO random!!!! shes random 2 of course but i want 2 meet more random ppl =) like they say the more the merrier!!!! lol\u2026neways i hope 2 make alot of freinds here so give me lots of commentses!!!!\nDOOOOOMMMM!!!!!!!!!!!!!!!!  --- me bein random again  _  hehe\u2026toodles!!!!!\nlove and waffles,\nt3h PeNgU1N oF d00m   Note  The flag is integer value of the seed", 
             "title": "Katy"
         }, 
         {
@@ -1237,12 +1222,12 @@
         }, 
         {
             "location": "/challenges/2015/crypto/eps/", 
-            "text": "EPS (1-3)\n\n\n\n\nones_and_zer0es\n\n\nwh1ter0se\n\n\nzer0_day\n\n\n\n\nBy Chung\n\n\n\n\n\n\nNote: The flag is the entire thing decrypted\n\n\n\n\n\n\nTopics Covered\n\n\nSynopsis", 
+            "text": "EPS (1-3)\n\n\nBy Kevin Chung\n\n\n\n\nones_and_zer0es\n\n\nwh1ter0se - The flag is the entire thing decrypted\n\n\nzer0_day\n\n\n\n\nTopics Covered\n\n\nSynopsis", 
             "title": "EPS"
         }, 
         {
             "location": "/challenges/2015/crypto/eps/#eps-1-3", 
-            "text": "ones_and_zer0es  wh1ter0se  zer0_day   By Chung    Note: The flag is the entire thing decrypted", 
+            "text": "By Kevin Chung   ones_and_zer0es  wh1ter0se - The flag is the entire thing decrypted  zer0_day", 
             "title": "EPS (1-3)"
         }, 
         {
@@ -1337,13 +1322,13 @@
         }, 
         {
             "location": "/challenges/2017/crypto/Lupin/", 
-            "text": "Points\n\n\n200\nA post-quantum cryptosystem solvable by LayPersoNs\nnc crypto.chal.csaw.io 1922\nNOTE: This takes a while to respond.\n\n\nTopics Covered\n\n\nSynopsis", 
+            "text": "LuPiN\n\n\nBy Avi Weinstock\n\n\nA post-quantum cryptosystem solvable by LayPersoNs\n\n\nTopics Covered\n\n\nSynopsis", 
             "title": "Lupin"
         }, 
         {
-            "location": "/challenges/2017/crypto/Lupin/#points", 
-            "text": "200\nA post-quantum cryptosystem solvable by LayPersoNs\nnc crypto.chal.csaw.io 1922\nNOTE: This takes a while to respond.", 
-            "title": "Points"
+            "location": "/challenges/2017/crypto/Lupin/#lupin", 
+            "text": "By Avi Weinstock  A post-quantum cryptosystem solvable by LayPersoNs", 
+            "title": "LuPiN"
         }, 
         {
             "location": "/challenges/2017/crypto/Lupin/#topics-covered", 
@@ -1377,12 +1362,12 @@
         }, 
         {
             "location": "/challenges/2016/crypto/Killer_cipher/", 
-            "text": "Killer cipher\n\n\nA killer always leaves a encrypted message at the crime scene. The FBI collected all of them and noticed they were all from the same plaintext. Can you decrypt it so we can solve this case?\n\n\nHINT: They found this killer is a Zodiac copycat.\"\n\n\nTopics Covered\n\n\nSynopsis", 
+            "text": "Killer cipher\n\n\nA killer always leaves a encrypted message at the crime scene. The FBI collected all of them and noticed they were all from the same plaintext. Can you decrypt it so we can solve this case?\n\n\nTopics Covered\n\n\nSynopsis\n\n\nThey found this killer is a Zodiac copycat.\"", 
             "title": "Killer Cipher"
         }, 
         {
             "location": "/challenges/2016/crypto/Killer_cipher/#killer-cipher", 
-            "text": "A killer always leaves a encrypted message at the crime scene. The FBI collected all of them and noticed they were all from the same plaintext. Can you decrypt it so we can solve this case?  HINT: They found this killer is a Zodiac copycat.\"", 
+            "text": "A killer always leaves a encrypted message at the crime scene. The FBI collected all of them and noticed they were all from the same plaintext. Can you decrypt it so we can solve this case?", 
             "title": "Killer cipher"
         }, 
         {
@@ -1392,12 +1377,17 @@
         }, 
         {
             "location": "/challenges/2016/crypto/Killer_cipher/#synopsis", 
-            "text": "", 
+            "text": "They found this killer is a Zodiac copycat.\"", 
             "title": "Synopsis"
         }, 
         {
             "location": "/challenges/2015/crypto/check-plz/", 
-            "text": "By Singh\n\n\nWe just recently set up our crypto for a new project. We'll give you the flag if you can guess the resulting mac. Try the stripped down version here:\n\nnc 52.91.89.84 4000\n\n\nTopics Covered\n\n\nSynopsis", 
+            "text": "Check Plz\n\n\nBy Singh\n\n\nWe just recently set up our crypto for a new project. We'll give you the flag if you can guess the resulting mac.\n\n\nTopics Covered\n\n\nSynopsis", 
+            "title": "Check Plz"
+        }, 
+        {
+            "location": "/challenges/2015/crypto/check-plz/#check-plz", 
+            "text": "By Singh  We just recently set up our crypto for a new project. We'll give you the flag if you can guess the resulting mac.", 
             "title": "Check Plz"
         }, 
         {
@@ -1572,12 +1562,12 @@
         }, 
         {
             "location": "/challenges/2016/crypto/Another_Broken_Box/", 
-            "text": "Another Broken Box\n\n\nMy box seems to be broken again... But not the hardware this time.\nUPDATE: Last byte of key is the character '0'\n\nnc crypto.chal.csaw.io 1343\n\"\n\n\nTopics Covered\n\n\nSynopsis", 
+            "text": "Another Broken Box\n\n\nMy box seems to be broken again... But not the hardware this time.\n\n\n\n\nNote\n\n\nLast byte of key is the character '0'\n\n\n\n\nTopics Covered\n\n\nSynopsis", 
             "title": "Another Broken Box"
         }, 
         {
             "location": "/challenges/2016/crypto/Another_Broken_Box/#another-broken-box", 
-            "text": "My box seems to be broken again... But not the hardware this time.\nUPDATE: Last byte of key is the character '0' nc crypto.chal.csaw.io 1343 \"", 
+            "text": "My box seems to be broken again... But not the hardware this time.   Note  Last byte of key is the character '0'", 
             "title": "Another Broken Box"
         }, 
         {
@@ -1612,12 +1602,12 @@
         }, 
         {
             "location": "/challenges/2015/crypto/bricks_of_gold/", 
-            "text": "Bricks of Gold\n\n\nBy D'Antoine\n\n\nWe've captured this encrypted file being smuggled into the country. All we know is that they rolled their own custom CBC mode algorithm - its probably terrible.\nHINT: take a second look at the file for elements needed for the crypto\n\n\nTopics Covered\n\n\n\n\nBlock Ciphers\n\n\n\n\nSynopsis", 
+            "text": "Bricks of Gold\n\n\nBy D'Antoine\n\n\nWe've captured this encrypted file being smuggled into the country. All we know is that they rolled their own custom CBC mode algorithm - its probably terrible.\n\n\nTopics Covered\n\n\n\n\nBlock Ciphers\n\n\n\n\nSynopsis\n\n\nTake a second look at the file for elements needed for the crypto", 
             "title": "Bricks of Gold"
         }, 
         {
             "location": "/challenges/2015/crypto/bricks_of_gold/#bricks-of-gold", 
-            "text": "By D'Antoine  We've captured this encrypted file being smuggled into the country. All we know is that they rolled their own custom CBC mode algorithm - its probably terrible.\nHINT: take a second look at the file for elements needed for the crypto", 
+            "text": "By D'Antoine  We've captured this encrypted file being smuggled into the country. All we know is that they rolled their own custom CBC mode algorithm - its probably terrible.", 
             "title": "Bricks of Gold"
         }, 
         {
@@ -1627,7 +1617,7 @@
         }, 
         {
             "location": "/challenges/2015/crypto/bricks_of_gold/#synopsis", 
-            "text": "", 
+            "text": "Take a second look at the file for elements needed for the crypto", 
             "title": "Synopsis"
         }, 
         {
@@ -1857,12 +1847,12 @@
         }, 
         {
             "location": "/challenges/2017/web/orange/", 
-            "text": "orange\n\n\nhttp://web.chal.csaw.io:7311/?path=orange.txt\n\nI wrote a little proxy program in NodeJS for my poems folder.\nEveryone wants to read \nflag.txt\n but I like it too much to share.\n\n\nTopics Covered\n\n\nSynopsis", 
+            "text": "orange\n\n\nI wrote a little proxy program in NodeJS for my poems folder.\nEveryone wants to read \nflag.txt\n but I like it too much to share.\n\n\nTopics Covered\n\n\nSynopsis", 
             "title": "Orange"
         }, 
         {
             "location": "/challenges/2017/web/orange/#orange", 
-            "text": "http://web.chal.csaw.io:7311/?path=orange.txt \nI wrote a little proxy program in NodeJS for my poems folder.\nEveryone wants to read  flag.txt  but I like it too much to share.", 
+            "text": "I wrote a little proxy program in NodeJS for my poems folder.\nEveryone wants to read  flag.txt  but I like it too much to share.", 
             "title": "orange"
         }, 
         {
@@ -1957,12 +1947,12 @@
         }, 
         {
             "location": "/challenges/2016/web/linq_to_the_present/", 
-            "text": "Linq to the present\n\n\nYo bro I found Trump's and Hilary's private chat server. I'm sure there is more dirt on the server.\n\n\nHint: Just because you have an exe, doesn't mean that it is running on a Windows server.\n\n\nnc web.chal.csaw.io 1340\n\n\nTopics Covered\n\n\nSynopsis", 
+            "text": "Linq to the present\n\n\nYo bro I found Trump's and Hilary's private chat server. I'm sure there is more dirt on the server.\n\n\nTopics Covered\n\n\nSynopsis\n\n\nJust because you have an exe, doesn't mean that it is running on a Windows server.", 
             "title": "Linq to the Present"
         }, 
         {
             "location": "/challenges/2016/web/linq_to_the_present/#linq-to-the-present", 
-            "text": "Yo bro I found Trump's and Hilary's private chat server. I'm sure there is more dirt on the server.  Hint: Just because you have an exe, doesn't mean that it is running on a Windows server.  nc web.chal.csaw.io 1340", 
+            "text": "Yo bro I found Trump's and Hilary's private chat server. I'm sure there is more dirt on the server.", 
             "title": "Linq to the present"
         }, 
         {
@@ -1972,17 +1962,17 @@
         }, 
         {
             "location": "/challenges/2016/web/linq_to_the_present/#synopsis", 
-            "text": "", 
+            "text": "Just because you have an exe, doesn't mean that it is running on a Windows server.", 
             "title": "Synopsis"
         }, 
         {
             "location": "/challenges/2015/web/K_stairs-100/", 
-            "text": "K_{Stairs}\n\n\nhttp://54.152.84.91\n\n\nTopics Covered\n\n\nSynopsis", 
+            "text": "K_{Stairs}\n\n\nTopics Covered\n\n\nSynopsis", 
             "title": "K_{Stairs}"
         }, 
         {
             "location": "/challenges/2015/web/K_stairs-100/#k_stairs", 
-            "text": "http://54.152.84.91", 
+            "text": "", 
             "title": "K_{Stairs}"
         }, 
         {
@@ -1997,12 +1987,12 @@
         }, 
         {
             "location": "/challenges/2015/web/K_achieve-200/", 
-            "text": "K_achieve\n\n\nCan you beat it without taking damage?\n\nhttp://54.152.84.91\n\nHINT: State is split up into two parts\nHINT: The map is 256 x 256 and there are 8 types of tiles. Notice anything interesting about the length of the second chunk?\n\n\nTopics Covered\n\n\nSynopsis", 
+            "text": "K_achieve\n\n\nCan you beat it without taking damage?\n\n\nTopics Covered\n\n\nSynopsis\n\n\nState is split up into two parts. The map is 256 x 256 and there are 8 types of tiles. Notice anything interesting about the length of the second chunk?", 
             "title": "K_{Achieve}"
         }, 
         {
             "location": "/challenges/2015/web/K_achieve-200/#k_achieve", 
-            "text": "Can you beat it without taking damage? http://54.152.84.91 \nHINT: State is split up into two parts\nHINT: The map is 256 x 256 and there are 8 types of tiles. Notice anything interesting about the length of the second chunk?", 
+            "text": "Can you beat it without taking damage?", 
             "title": "K_achieve"
         }, 
         {
@@ -2012,7 +2002,7 @@
         }, 
         {
             "location": "/challenges/2015/web/K_achieve-200/#synopsis", 
-            "text": "", 
+            "text": "State is split up into two parts. The map is 256 x 256 and there are 8 types of tiles. Notice anything interesting about the length of the second chunk?", 
             "title": "Synopsis"
         }, 
         {
@@ -2077,12 +2067,12 @@
         }, 
         {
             "location": "/challenges/2013/Web/Guess_Harder/", 
-            "text": "Guess Harder\n\n\nhttp://128.238.66.215/guessharder.php\n\n\nTopics Covered\n\n\nSynopsis", 
+            "text": "Guess Harder\n\n\nYou'll never guess my password!\n\n\nTopics Covered\n\n\nSynopsis", 
             "title": "Guess Harder"
         }, 
         {
             "location": "/challenges/2013/Web/Guess_Harder/#guess-harder", 
-            "text": "http://128.238.66.215/guessharder.php", 
+            "text": "You'll never guess my password!", 
             "title": "Guess Harder"
         }, 
         {
@@ -2117,12 +2107,12 @@
         }, 
         {
             "location": "/challenges/2013/Web/iSEC_Challenge/", 
-            "text": "iSEC Challenge\n\n\nACME Co's update server has been stolen and posted on the internet. It seems like a bunch of janky python code.  See if you can perform some ownage.\nNote:\nYour instance is specific to your team.  Unless you want other teams messing with your instance and potentially denial-of-servicing you, keep your instance location a team secret.\n\n\nTopics Covered\n\n\nSynopsis\n\n\nCheck out \nRace Conditions", 
+            "text": "iSEC Challenge\n\n\nACME Co's update server has been stolen and posted on the internet. It seems like a bunch of janky python code.  See if you can perform some ownage.\n\n\nTopics Covered\n\n\nSynopsis\n\n\nCheck out \nRace Conditions", 
             "title": "iSEC Challenge"
         }, 
         {
             "location": "/challenges/2013/Web/iSEC_Challenge/#isec-challenge", 
-            "text": "ACME Co's update server has been stolen and posted on the internet. It seems like a bunch of janky python code.  See if you can perform some ownage.\nNote:\nYour instance is specific to your team.  Unless you want other teams messing with your instance and potentially denial-of-servicing you, keep your instance location a team secret.", 
+            "text": "ACME Co's update server has been stolen and posted on the internet. It seems like a bunch of janky python code.  See if you can perform some ownage.", 
             "title": "iSEC Challenge"
         }, 
         {
@@ -2177,12 +2167,12 @@
         }, 
         {
             "location": "/challenges/2017/web/Shia/", 
-            "text": "Shia Labeouf-off!\n\n\nDo it\nJust do it\n\n\nDon't let your dreams be dreams\nYesterday you said tomorrow\nSo just do it\nMake your dreams come true\nJust do it\n\n\nSome people dream of success\nWhile you're gonna wake up and work hard at it\nNothing is impossible\n\n\nYou should get to the point\nWhere anyone else would quit\nAnd you're not going to stop there\nNo, what are you waiting for?\n\n\nDo it\nJust do it\nYes you can\nJust do it\nIf you're tired of starting over\nStop giving up\n\n\nPick 1:\n* \nhttp://web.chal.csaw.io:5487\n\n* \nhttp://web.chal.csaw.io:5488\n\n* \nhttp://web.chal.csaw.io:5489\n\n* \nhttp://web.chal.csaw.io:5490\n\n\nTopics Covered\n\n\nSynopsis", 
+            "text": "Shia Labeouf-off!\n\n\nDo it\nJust do it\n\n\nDon't let your dreams be dreams\nYesterday you said tomorrow\nSo just do it\nMake your dreams come true\nJust do it\n\n\nSome people dream of success\nWhile you're gonna wake up and work hard at it\nNothing is impossible\n\n\nYou should get to the point\nWhere anyone else would quit\nAnd you're not going to stop there\nNo, what are you waiting for?\n\n\nDo it\nJust do it\nYes you can\nJust do it\nIf you're tired of starting over\nStop giving up\n\n\nTopics Covered\n\n\nSynopsis", 
             "title": "Shia"
         }, 
         {
             "location": "/challenges/2017/web/Shia/#shia-labeouf-off", 
-            "text": "Do it\nJust do it  Don't let your dreams be dreams\nYesterday you said tomorrow\nSo just do it\nMake your dreams come true\nJust do it  Some people dream of success\nWhile you're gonna wake up and work hard at it\nNothing is impossible  You should get to the point\nWhere anyone else would quit\nAnd you're not going to stop there\nNo, what are you waiting for?  Do it\nJust do it\nYes you can\nJust do it\nIf you're tired of starting over\nStop giving up  Pick 1:\n*  http://web.chal.csaw.io:5487 \n*  http://web.chal.csaw.io:5488 \n*  http://web.chal.csaw.io:5489 \n*  http://web.chal.csaw.io:5490", 
+            "text": "Do it\nJust do it  Don't let your dreams be dreams\nYesterday you said tomorrow\nSo just do it\nMake your dreams come true\nJust do it  Some people dream of success\nWhile you're gonna wake up and work hard at it\nNothing is impossible  You should get to the point\nWhere anyone else would quit\nAnd you're not going to stop there\nNo, what are you waiting for?  Do it\nJust do it\nYes you can\nJust do it\nIf you're tired of starting over\nStop giving up", 
             "title": "Shia Labeouf-off!"
         }, 
         {
@@ -2217,12 +2207,12 @@
         }, 
         {
             "location": "/challenges/2017/web/littlequery/", 
-            "text": "LittleQuery\n\n\nLittleQuery I've got a new website for BIG DATA analytics!\n\nhttp://littlequery.chal.csaw.io\n\n\nTopics Covered\n\n\n\n\nSQL Injection\n\n\nPHP\n\n\n\n\nSynopsis", 
+            "text": "LittleQuery\n\n\nLittleQuery I've got a new website for BIG DATA analytics!\n\n\nTopics Covered\n\n\n\n\nSQL Injection\n\n\nPHP\n\n\n\n\nSynopsis", 
             "title": "littlequery"
         }, 
         {
             "location": "/challenges/2017/web/littlequery/#littlequery", 
-            "text": "LittleQuery I've got a new website for BIG DATA analytics! http://littlequery.chal.csaw.io", 
+            "text": "LittleQuery I've got a new website for BIG DATA analytics!", 
             "title": "LittleQuery"
         }, 
         {
@@ -2237,12 +2227,12 @@
         }, 
         {
             "location": "/challenges/2016/web/SugarCereal/", 
-            "text": "Sugar Cereal\n\n\n\"Idk if you have heard, but deserializing user controlled data is not a thing\nyou should be doing.\nUPDATE: Stage 2 is now listening on the correct port.\nUPDATE 2: Fix for stage 2 rolled out so you shouldn't get 500's anymore. \ncrosses fingers\n\nUPDATE 3: PHP source has changed. To resolve performance issues, output from the \npassthru\n call is not sent to the page anymore.\nUPDATE 4: Python source has changed. \n\nhttp://web.chal.csaw.io:1346/\n\"\n\n\nTopics Covered\n\n\nSynopsis", 
+            "text": "Sugar Cereal\n\n\nIdk if you have heard, but deserializing user controlled data is not a thing\nyou should be doing.\n\n\nTopics Covered\n\n\nSynopsis", 
             "title": "Sugar Cereal"
         }, 
         {
             "location": "/challenges/2016/web/SugarCereal/#sugar-cereal", 
-            "text": "\"Idk if you have heard, but deserializing user controlled data is not a thing\nyou should be doing.\nUPDATE: Stage 2 is now listening on the correct port.\nUPDATE 2: Fix for stage 2 rolled out so you shouldn't get 500's anymore.  crosses fingers \nUPDATE 3: PHP source has changed. To resolve performance issues, output from the  passthru  call is not sent to the page anymore.\nUPDATE 4: Python source has changed.  http://web.chal.csaw.io:1346/ \"", 
+            "text": "Idk if you have heard, but deserializing user controlled data is not a thing\nyou should be doing.", 
             "title": "Sugar Cereal"
         }, 
         {
@@ -2277,12 +2267,12 @@
         }, 
         {
             "location": "/challenges/2016/web/cloudb/", 
-            "text": "Something Something ClouDB\n\n\n\"I'm working on this new service which allows you to store notes, TODOs, and more! And all of our data is accessible over JSONP so you can integrate it into other sites!\nNOTE: The flag is NOT the mysql password.\nUPDATE: Fixed an unintentional bug which made the challenge more confusing.\n\nhttp://web.chal.csaw.io:1344\n\"\n\n\nTopics Covered\n\n\nSynopsis", 
+            "text": "Something Something ClouDB\n\n\nI'm working on this new service which allows you to store notes, TODOs, and more! And all of our data is accessible over JSONP so you can integrate it into other sites!\n\n\n\n\nNote\n\n\nThe flag is NOT the mysql password.\n\n\n\n\nTopics Covered\n\n\nSynopsis", 
             "title": "Cloudb"
         }, 
         {
             "location": "/challenges/2016/web/cloudb/#something-something-cloudb", 
-            "text": "\"I'm working on this new service which allows you to store notes, TODOs, and more! And all of our data is accessible over JSONP so you can integrate it into other sites!\nNOTE: The flag is NOT the mysql password.\nUPDATE: Fixed an unintentional bug which made the challenge more confusing. http://web.chal.csaw.io:1344 \"", 
+            "text": "I'm working on this new service which allows you to store notes, TODOs, and more! And all of our data is accessible over JSONP so you can integrate it into other sites!   Note  The flag is NOT the mysql password.", 
             "title": "Something Something ClouDB"
         }, 
         {
@@ -2397,12 +2387,12 @@
         }, 
         {
             "location": "/challenges/2017/web/csaw-oauth2-chal/", 
-            "text": "CSAW OAUTH2\n\n\nBy itszn, Ret2 Systems\n\n\nWe found this weird site that lets you send short messages of a much better length than 140 280 characters.\n\nhttp://broadcastr.chal.csaw.io:4000\n\nNOTE: The 500 on the /user/history endpoint is irrelevant.\n\n\nTopics Covered\n\n\nSynopsis", 
+            "text": "CSAW OAUTH2\n\n\nBy itszn, Ret2 Systems\n\n\nWe found this weird site that lets you send short messages of a much better length than 140 280 characters.\n\n\n\n\nNote\n\n\nThe 500 on the /user/history endpoint is irrelevant.\n\n\n\n\nTopics Covered\n\n\nSynopsis", 
             "title": "Broadcastr"
         }, 
         {
             "location": "/challenges/2017/web/csaw-oauth2-chal/#csaw-oauth2", 
-            "text": "By itszn, Ret2 Systems  We found this weird site that lets you send short messages of a much better length than 140 280 characters. http://broadcastr.chal.csaw.io:4000 \nNOTE: The 500 on the /user/history endpoint is irrelevant.", 
+            "text": "By itszn, Ret2 Systems  We found this weird site that lets you send short messages of a much better length than 140 280 characters.   Note  The 500 on the /user/history endpoint is irrelevant.", 
             "title": "CSAW OAUTH2"
         }, 
         {
@@ -2417,12 +2407,12 @@
         }, 
         {
             "location": "/challenges/2017/web/csaw-kernel-challenge/", 
-            "text": "KWS (Part 1)\n\n\nBy itszn, Ret2 Systems\n\n\nWe developed a much better alternative to AWS. Our high-performance kernel driver gives us unparalleled speed of execution. And we're super-secure!\n\nhttp://web.chal.csaw.io:6001/\n\n\nNOTE: Login with your CTFd credentials.\nNOTE: This might take a minute to start up the first time you login. Please be patient!\nNOTE: There may be ways to poke at other teams' boxes. Don't do that, it is not part of the challenge.\nNOTE: If you have issues with your instance, try logging out of the KWS interface, and logging back in.\nNOTE: Sorry for all of the notes :P\n\n\nTopics Covered\n\n\nSynopsis\n\n\nCloud Object Storage With Kernel Accleration", 
+            "text": "KWS (Part 1)\n\n\nBy itszn, Ret2 Systems\n\n\nWe developed a much better alternative to AWS. Our high-performance kernel driver gives us unparalleled speed of execution. And we're super-secure!\n\n\nTopics Covered\n\n\nSynopsis\n\n\nCloud Object Storage With Kernel Acceleration", 
             "title": "KWS 1"
         }, 
         {
             "location": "/challenges/2017/web/csaw-kernel-challenge/#kws-part-1", 
-            "text": "By itszn, Ret2 Systems  We developed a much better alternative to AWS. Our high-performance kernel driver gives us unparalleled speed of execution. And we're super-secure! http://web.chal.csaw.io:6001/  NOTE: Login with your CTFd credentials.\nNOTE: This might take a minute to start up the first time you login. Please be patient!\nNOTE: There may be ways to poke at other teams' boxes. Don't do that, it is not part of the challenge.\nNOTE: If you have issues with your instance, try logging out of the KWS interface, and logging back in.\nNOTE: Sorry for all of the notes :P", 
+            "text": "By itszn, Ret2 Systems  We developed a much better alternative to AWS. Our high-performance kernel driver gives us unparalleled speed of execution. And we're super-secure!", 
             "title": "KWS (Part 1)"
         }, 
         {
@@ -2432,17 +2422,17 @@
         }, 
         {
             "location": "/challenges/2017/web/csaw-kernel-challenge/#synopsis", 
-            "text": "Cloud Object Storage With Kernel Accleration", 
+            "text": "Cloud Object Storage With Kernel Acceleration", 
             "title": "Synopsis"
         }, 
         {
             "location": "/challenges/2017/web/orangev2/", 
-            "text": "orange v2\n\n\nI wrote a little proxy program in NodeJS for my poems folder but I'm bad at programming so I had to rewrite it. Again. I changed up flag.txt too but everyone still wants to read it... \nhttp://web.chal.csaw.io:7312/?path=orange.txt\n \n\n\nI wrote a little proxy program in NodeJS for my poems folder but I'm bad at programming so I had to rewrite it.\n\n\nI changed up flag.txt too but everyone still wants to read it...\n\n\nTopics Covered\n\n\nSynopsis", 
+            "text": "orange v2\n\n\nI wrote a little proxy program in NodeJS for my poems folder but I'm bad at programming so I had to rewrite it. Again. I changed up flag.txt too but everyone still wants to read it...\n\n\nI wrote a little proxy program in NodeJS for my poems folder but I'm bad at programming so I had to rewrite it.\n\n\nI changed up flag.txt too but everyone still wants to read it...\n\n\nTopics Covered\n\n\nSynopsis", 
             "title": "OrangeV2"
         }, 
         {
             "location": "/challenges/2017/web/orangev2/#orange-v2", 
-            "text": "I wrote a little proxy program in NodeJS for my poems folder but I'm bad at programming so I had to rewrite it. Again. I changed up flag.txt too but everyone still wants to read it...  http://web.chal.csaw.io:7312/?path=orange.txt    I wrote a little proxy program in NodeJS for my poems folder but I'm bad at programming so I had to rewrite it.  I changed up flag.txt too but everyone still wants to read it...", 
+            "text": "I wrote a little proxy program in NodeJS for my poems folder but I'm bad at programming so I had to rewrite it. Again. I changed up flag.txt too but everyone still wants to read it...  I wrote a little proxy program in NodeJS for my poems folder but I'm bad at programming so I had to rewrite it.  I changed up flag.txt too but everyone still wants to read it...", 
             "title": "orange v2"
         }, 
         {
@@ -2497,12 +2487,12 @@
         }, 
         {
             "location": "/challenges/2015/web/throwback-600/", 
-            "text": "Throwback\n\n\nProgramming is hard. CTF software is hard too. We broke our CTF software a few years ago and looks like we did it again this year\n:( :( :(\nHINT: If you are smart about it, you do not need to attack the CTF infrastructure.\nHINT: The source code of our CTF software is on our Github. Also if you tried the challenge with flag{} before, try again.\n\n\nTopics Covered\n\n\nSynopsis", 
+            "text": "Throwback\n\n\nProgramming is hard. CTF software is hard too. We broke our CTF software a few years ago and looks like we did it again this year\n:( :( :(\n\n\nTopics Covered\n\n\nSynopsis\n\n\nIf you are smart about it, you do not need to attack the CTF infrastructure. The source code of our CTF software is on our Github.", 
             "title": "Throwback"
         }, 
         {
             "location": "/challenges/2015/web/throwback-600/#throwback", 
-            "text": "Programming is hard. CTF software is hard too. We broke our CTF software a few years ago and looks like we did it again this year\n:( :( :(\nHINT: If you are smart about it, you do not need to attack the CTF infrastructure.\nHINT: The source code of our CTF software is on our Github. Also if you tried the challenge with flag{} before, try again.", 
+            "text": "Programming is hard. CTF software is hard too. We broke our CTF software a few years ago and looks like we did it again this year\n:( :( :(", 
             "title": "Throwback"
         }, 
         {
@@ -2512,17 +2502,17 @@
         }, 
         {
             "location": "/challenges/2015/web/throwback-600/#synopsis", 
-            "text": "", 
+            "text": "If you are smart about it, you do not need to attack the CTF infrastructure. The source code of our CTF software is on our Github.", 
             "title": "Synopsis"
         }, 
         {
             "location": "/challenges/2015/web/weebdate-500/", 
-            "text": "Weeb Date\n\n\nSince the Ashley Madison hack, a lot of high profile socialites have scrambled to find the hottest new dating sites. Unfortunately for us, that means they're taking more safety measures and only using secure websites. We have some suspicions that Donald Trump is using a new dating site called \"weebdate\" and also selling cocaine to fund his presidential campaign. We need you to get both his password and his 2 factor TOTP key so we can break into his profile and investigate.\nFlag is md5($totpkey.$password)\n\nhttp://54.175.160.194/\n\n\nTopics Covered\n\n\nSynopsis", 
+            "text": "Weeb Date\n\n\nSince the Ashley Madison hack, a lot of high profile socialites have scrambled to find the hottest new dating sites. Unfortunately for us, that means they're taking more safety measures and only using secure websites. We have some suspicions that Donald Trump is using a new dating site called \"weebdate\" and also selling cocaine to fund his presidential campaign. We need you to get both his password and his 2 factor TOTP key so we can break into his profile and investigate.\n\n\n\n\nNote\n\n\nThe flag is md5($totpkey.$password)\n\n\n\n\nTopics Covered\n\n\nSynopsis", 
             "title": "Weebdate"
         }, 
         {
             "location": "/challenges/2015/web/weebdate-500/#weeb-date", 
-            "text": "Since the Ashley Madison hack, a lot of high profile socialites have scrambled to find the hottest new dating sites. Unfortunately for us, that means they're taking more safety measures and only using secure websites. We have some suspicions that Donald Trump is using a new dating site called \"weebdate\" and also selling cocaine to fund his presidential campaign. We need you to get both his password and his 2 factor TOTP key so we can break into his profile and investigate.\nFlag is md5($totpkey.$password) http://54.175.160.194/", 
+            "text": "Since the Ashley Madison hack, a lot of high profile socialites have scrambled to find the hottest new dating sites. Unfortunately for us, that means they're taking more safety measures and only using secure websites. We have some suspicions that Donald Trump is using a new dating site called \"weebdate\" and also selling cocaine to fund his presidential campaign. We need you to get both his password and his 2 factor TOTP key so we can break into his profile and investigate.   Note  The flag is md5($totpkey.$password)", 
             "title": "Weeb Date"
         }, 
         {
@@ -2537,12 +2527,12 @@
         }, 
         {
             "location": "/challenges/2015/web/tbbpe/", 
-            "text": "TBBPE\n\n\nBy Toews\n\n\nThis is The Best Blogging Platform Ever...\nonly the most exclusive members are ever invited. We need you to break into the site and cast a vote for your team.\n\nhttps://csaw2015-the-blog.herokuapp.com/\n\nHINT: There are two separate bugs required to solve this challenge.\n\n\nTopics Covered\n\n\n\n\nBlock Ciphers\n\n\n\n\nSynopsis", 
+            "text": "TBBPE\n\n\nBy Toews\n\n\nThis is The Best Blogging Platform Ever...\nonly the most exclusive members are ever invited. We need you to break into the site and cast a vote for your team.\n\n\nTBBPE\n\n\nTopics Covered\n\n\n\n\nBlock Ciphers\n\n\n\n\nSynopsis\n\n\nThere are two separate bugs required to solve this challenge.", 
             "title": "TBBPE"
         }, 
         {
             "location": "/challenges/2015/web/tbbpe/#tbbpe", 
-            "text": "By Toews  This is The Best Blogging Platform Ever...\nonly the most exclusive members are ever invited. We need you to break into the site and cast a vote for your team. https://csaw2015-the-blog.herokuapp.com/ \nHINT: There are two separate bugs required to solve this challenge.", 
+            "text": "By Toews  This is The Best Blogging Platform Ever...\nonly the most exclusive members are ever invited. We need you to break into the site and cast a vote for your team.  TBBPE", 
             "title": "TBBPE"
         }, 
         {
@@ -2552,7 +2542,7 @@
         }, 
         {
             "location": "/challenges/2015/web/tbbpe/#synopsis", 
-            "text": "", 
+            "text": "There are two separate bugs required to solve this challenge.", 
             "title": "Synopsis"
         }, 
         {
@@ -2977,12 +2967,12 @@
         }, 
         {
             "location": "/challenges/2017/reversing/DEFCON1/", 
-            "text": "DEFCON1\n\n\nPart 1 of Global Thermonuclear Cyberwar.\n\nThe year is 1981. Matthew Cyber-Broderick (You) finds a bizzare system. Understand it, and decrypt the secret ROM within.\nRun with qemu-system-i386 -drive format=raw,file=cyberwar.rom\n\n\nNOTE: The gdbstub in the latest QEMU on ubuntu gave us issues. A known-good version of QEMU is 2.10.1\n\n\nTopics Covered\n\n\nSynopsis", 
+            "text": "DEFCON1\n\n\nPart 1 of Global Thermonuclear Cyberwar.\n\nThe year is 1981. Matthew Cyber-Broderick (You) finds a bizzare system. Understand it, and decrypt the secret ROM within.\nRun with qemu-system-i386 -drive format=raw,file=cyberwar.rom\n\n\n\n\nNote\n\n\nThe gdbstub in the latest QEMU on ubuntu gave us issues. A known-good version of QEMU is 2.10.1\n\n\n\n\nTopics Covered\n\n\nSynopsis", 
             "title": "DEFCON 1"
         }, 
         {
             "location": "/challenges/2017/reversing/DEFCON1/#defcon1", 
-            "text": "Part 1 of Global Thermonuclear Cyberwar. \nThe year is 1981. Matthew Cyber-Broderick (You) finds a bizzare system. Understand it, and decrypt the secret ROM within.\nRun with qemu-system-i386 -drive format=raw,file=cyberwar.rom  NOTE: The gdbstub in the latest QEMU on ubuntu gave us issues. A known-good version of QEMU is 2.10.1", 
+            "text": "Part 1 of Global Thermonuclear Cyberwar. \nThe year is 1981. Matthew Cyber-Broderick (You) finds a bizzare system. Understand it, and decrypt the secret ROM within.\nRun with qemu-system-i386 -drive format=raw,file=cyberwar.rom   Note  The gdbstub in the latest QEMU on ubuntu gave us issues. A known-good version of QEMU is 2.10.1", 
             "title": "DEFCON1"
         }, 
         {
@@ -3057,12 +3047,12 @@
         }, 
         {
             "location": "/challenges/2016/reversing/Palo-Alto/", 
-            "text": "Palo Alto\n\n\nBy Palo Alto Networks\n\n\n[Enter Starscream]\n\n\nOptimus Prime paces hastily between window and wall. He continues until all female dogs begin to walk around room on all fours.\n\n\n[Starscream, high pitched, annoying] : OPTIMUS YOU AND YOUR LITTLE AUTOBUTTS ARE GONNA GET REKT\n\n\n[Prime] : You might want to check yourself there Starscream\n\n\n[Starscream]: NOT EVEN BOI, WATCH ME QUICK SCOPE THE S$%\n OUT OF YOU\n\n\n[Prime]: I would like to see you try\n\n\nHat, sun glasses, and joint are adorned on Optimus Prime\n\n\n[Exeunt Starscream, feeling d-stroyed]\n\n\nNote: Flag format is \nCSAW{...}\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nSynopsis", 
+            "text": "Palo Alto\n\n\nBy Palo Alto Networks\n\n\n[Enter Starscream]\n\n\nOptimus Prime paces hastily between window and wall. He continues until all female dogs begin to walk around room on all fours.\n\n\n[Starscream, high pitched, annoying] : OPTIMUS YOU AND YOUR LITTLE AUTOBUTTS ARE GONNA GET REKT\n\n\n[Prime] : You might want to check yourself there Starscream\n\n\n[Starscream]: NOT EVEN BOI, WATCH ME QUICK SCOPE THE S$%\n OUT OF YOU\n\n\n[Prime]: I would like to see you try\n\n\nHat, sun glasses, and joint are adorned on Optimus Prime\n\n\n[Exeunt Starscream, feeling d-stroyed]\n\n\n\n\nNote\n\n\nThe flag format is \nCSAW{...}\n\n\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nSynopsis", 
             "title": "Decepticons"
         }, 
         {
             "location": "/challenges/2016/reversing/Palo-Alto/#palo-alto", 
-            "text": "By Palo Alto Networks  [Enter Starscream]  Optimus Prime paces hastily between window and wall. He continues until all female dogs begin to walk around room on all fours.  [Starscream, high pitched, annoying] : OPTIMUS YOU AND YOUR LITTLE AUTOBUTTS ARE GONNA GET REKT  [Prime] : You might want to check yourself there Starscream  [Starscream]: NOT EVEN BOI, WATCH ME QUICK SCOPE THE S$%  OUT OF YOU  [Prime]: I would like to see you try  Hat, sun glasses, and joint are adorned on Optimus Prime  [Exeunt Starscream, feeling d-stroyed]  Note: Flag format is  CSAW{...}", 
+            "text": "By Palo Alto Networks  [Enter Starscream]  Optimus Prime paces hastily between window and wall. He continues until all female dogs begin to walk around room on all fours.  [Starscream, high pitched, annoying] : OPTIMUS YOU AND YOUR LITTLE AUTOBUTTS ARE GONNA GET REKT  [Prime] : You might want to check yourself there Starscream  [Starscream]: NOT EVEN BOI, WATCH ME QUICK SCOPE THE S$%  OUT OF YOU  [Prime]: I would like to see you try  Hat, sun glasses, and joint are adorned on Optimus Prime  [Exeunt Starscream, feeling d-stroyed]   Note  The flag format is  CSAW{...}", 
             "title": "Palo Alto"
         }, 
         {
@@ -3077,12 +3067,12 @@
         }, 
         {
             "location": "/challenges/2016/reversing/Key/", 
-            "text": "Key\n\n\nSo I like to make my life difficult, and instead of a password manager, I make challenges that keep my secrets hidden. I forgot how to solve this one and it is the key to my house... Can you help me out? It's getting a little cold out here.\n\n\nNOTE: Flag is not in normal flag format.\n\n\nTopics Covered\n\n\nSynopsis", 
+            "text": "Key\n\n\nSo I like to make my life difficult, and instead of a password manager, I make challenges that keep my secrets hidden. I forgot how to solve this one and it is the key to my house... Can you help me out? It's getting a little cold out here.\n\n\n\n\nNote\n\n\nFlag is not in normal flag format.\n\n\n\n\nTopics Covered\n\n\nSynopsis", 
             "title": "Key"
         }, 
         {
             "location": "/challenges/2016/reversing/Key/#key", 
-            "text": "So I like to make my life difficult, and instead of a password manager, I make challenges that keep my secrets hidden. I forgot how to solve this one and it is the key to my house... Can you help me out? It's getting a little cold out here.  NOTE: Flag is not in normal flag format.", 
+            "text": "So I like to make my life difficult, and instead of a password manager, I make challenges that keep my secrets hidden. I forgot how to solve this one and it is the key to my house... Can you help me out? It's getting a little cold out here.   Note  Flag is not in normal flag format.", 
             "title": "Key"
         }, 
         {
@@ -3637,12 +3627,12 @@
         }, 
         {
             "location": "/challenges/2017/reversing/48-bit_yeet_lab/", 
-            "text": "48-bit bomb lab\n\n\nwhat, you've never seen an x86-48 bomb lab before?\nIts just another bomb lab. \nNOTE: The flag in the binary is a placeholder. Please run against the remote system to get the real flag!\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\nRegisters\n\n\nDebuggers\n\n\n\n\nSynopsis", 
+            "text": "48-bit bomb lab\n\n\nwhat, you've never seen an x86-48 bomb lab before?\nIts just another bomb lab. \n\n\n\n\nNote\n\n\nThe flag in the binary is a placeholder. Please run against the remote system to get the real flag!\n\n\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\nRegisters\n\n\nDebuggers\n\n\n\n\nSynopsis", 
             "title": "48-bit yeet lab"
         }, 
         {
             "location": "/challenges/2017/reversing/48-bit_yeet_lab/#48-bit-bomb-lab", 
-            "text": "what, you've never seen an x86-48 bomb lab before?\nIts just another bomb lab. \nNOTE: The flag in the binary is a placeholder. Please run against the remote system to get the real flag!", 
+            "text": "what, you've never seen an x86-48 bomb lab before?\nIts just another bomb lab.    Note  The flag in the binary is a placeholder. Please run against the remote system to get the real flag!", 
             "title": "48-bit bomb lab"
         }, 
         {
@@ -3657,12 +3647,12 @@
         }, 
         {
             "location": "/challenges/2017/reversing/gopherz/", 
-            "text": "Gopherz\n\n\ngopher://reversing.chal.csaw.io:7070\n\n\nTopics Covered\n\n\nSynopsis", 
+            "text": "Gopherz\n\n\nTopics Covered\n\n\nSynopsis", 
             "title": "gopherz"
         }, 
         {
             "location": "/challenges/2017/reversing/gopherz/#gopherz", 
-            "text": "gopher://reversing.chal.csaw.io:7070", 
+            "text": "", 
             "title": "Gopherz"
         }, 
         {
@@ -3697,12 +3687,12 @@
         }, 
         {
             "location": "/challenges/2016/reversing/CyberTronix64k/", 
-            "text": "CyberTronix64k (1)\n\n\nWe found a manual for a strange old machine in our closet, as well as a ROM. Can you figure out if there is is any way to log onto it?\n\n\nNote: The flag is marked with \nflag{XXXXX...}\n in memory, run against the remote instance to get the real flag!\n\n\nTopics Covered\n\n\nSynopsis", 
+            "text": "CyberTronix64k (1)\n\n\nWe found a manual for a strange old machine in our closet, as well as a ROM. Can you figure out if there is is any way to log onto it?\n\n\n\n\nNote\n\n\nThe flag is marked with \nflag{XXXXX...}\n in memory, run against the remote instance to get the real flag!\n\n\n\n\nTopics Covered\n\n\nSynopsis", 
             "title": "CyberTronix64k"
         }, 
         {
             "location": "/challenges/2016/reversing/CyberTronix64k/#cybertronix64k-1", 
-            "text": "We found a manual for a strange old machine in our closet, as well as a ROM. Can you figure out if there is is any way to log onto it?  Note: The flag is marked with  flag{XXXXX...}  in memory, run against the remote instance to get the real flag!", 
+            "text": "We found a manual for a strange old machine in our closet, as well as a ROM. Can you figure out if there is is any way to log onto it?   Note  The flag is marked with  flag{XXXXX...}  in memory, run against the remote instance to get the real flag!", 
             "title": "CyberTronix64k (1)"
         }, 
         {
@@ -3737,12 +3727,12 @@
         }, 
         {
             "location": "/challenges/2016/reversing/supermonsterball/", 
-            "text": "supermonsterball - pit of doom\n\n\nBy Vector 35\n\n\nA new craze is sweeping the nation -- Super Monster Ball. Join the revolution by downloading a client and pointing it at the server:  \nreversing.chal.csaw.io:1348\n\n\nFor this challenge, you must defeat the Monster master -- Professor Vick. You'll find him at the Pit of Doom, but you can only battle him once you've made it to level 40. Beat him, and you'll be rewarded with a flag. \n\n\nNOTE: Not recommended to try to solve by hand, you'll need to bot (HAX?!!), but don't get caught!\n\n\nTopics Covered\n\n\nSynopsis", 
+            "text": "supermonsterball - pit of doom\n\n\nBy Vector 35\n\n\nA new craze is sweeping the nation -- Super Monster Ball. Join the revolution by downloading a client and pointing it at the server\n\n\nFor this challenge, you must defeat the Monster master -- Professor Vick. You'll find him at the Pit of Doom, but you can only battle him once you've made it to level 40. Beat him, and you'll be rewarded with a flag. \n\n\n\n\nNote\n\n\nNot recommended to try to solve by hand, you'll need to bot (HAX?!!), but don't get caught!\n\n\n\n\nTopics Covered\n\n\nSynopsis", 
             "title": "Supermonsterball"
         }, 
         {
             "location": "/challenges/2016/reversing/supermonsterball/#supermonsterball-pit-of-doom", 
-            "text": "By Vector 35  A new craze is sweeping the nation -- Super Monster Ball. Join the revolution by downloading a client and pointing it at the server:   reversing.chal.csaw.io:1348  For this challenge, you must defeat the Monster master -- Professor Vick. You'll find him at the Pit of Doom, but you can only battle him once you've made it to level 40. Beat him, and you'll be rewarded with a flag.   NOTE: Not recommended to try to solve by hand, you'll need to bot (HAX?!!), but don't get caught!", 
+            "text": "By Vector 35  A new craze is sweeping the nation -- Super Monster Ball. Join the revolution by downloading a client and pointing it at the server  For this challenge, you must defeat the Monster master -- Professor Vick. You'll find him at the Pit of Doom, but you can only battle him once you've made it to level 40. Beat him, and you'll be rewarded with a flag.    Note  Not recommended to try to solve by hand, you'll need to bot (HAX?!!), but don't get caught!", 
             "title": "supermonsterball - pit of doom"
         }, 
         {
@@ -3757,12 +3747,12 @@
         }, 
         {
             "location": "/challenges/2016/reversing/Tar-Tar-Binks/", 
-            "text": "Tar Tar Binks\n\n\nBy blankwall\n\n\nMesa day startin pretty okee-day with a brisky morning munchy, then BOOM! Gettin very scared and grabbin that challenge and POW! Mesa thinks its very hard! Mesa gettin' very very confused!\n\nNote\n: The flag is the md5 sum of \nflag.txt\n\n\nTopics Covered\n\n\nSynopsis", 
+            "text": "Tar Tar Binks\n\n\nBy blankwall\n\n\nMesa day startin pretty okee-day with a brisky morning munchy, then BOOM! Gettin very scared and grabbin that challenge and POW! Mesa thinks its very hard! Mesa gettin' very very confused!\n\n\n\n\nNote\n\n\nThe flag is the md5 sum of \nflag.txt\n\n\n\n\nTopics Covered\n\n\nSynopsis", 
             "title": "Tar-Tar Binks"
         }, 
         {
             "location": "/challenges/2016/reversing/Tar-Tar-Binks/#tar-tar-binks", 
-            "text": "By blankwall  Mesa day startin pretty okee-day with a brisky morning munchy, then BOOM! Gettin very scared and grabbin that challenge and POW! Mesa thinks its very hard! Mesa gettin' very very confused! Note : The flag is the md5 sum of  flag.txt", 
+            "text": "By blankwall  Mesa day startin pretty okee-day with a brisky morning munchy, then BOOM! Gettin very scared and grabbin that challenge and POW! Mesa thinks its very hard! Mesa gettin' very very confused!   Note  The flag is the md5 sum of  flag.txt", 
             "title": "Tar Tar Binks"
         }, 
         {
@@ -3797,12 +3787,12 @@
         }, 
         {
             "location": "/challenges/2015/reversing/return-of-the-wieners/", 
-            "text": "Return of the Wieners\n\n\nBy Antoniewicz\n\n\nWieners was too hard last year so now it's been made easier.\nNote: The format for this challenge is key{}.\n\n\nTopics Covered\n\n\nSynopsis", 
+            "text": "Return of the Wieners\n\n\nBy Antoniewicz\n\n\nWieners was too hard last year so now it's been made easier.\n\n\n\n\nNote\n\n\nformat for this challenge is key{}.\n\n\n\n\nTopics Covered\n\n\nSynopsis", 
             "title": "Return of the Wieners"
         }, 
         {
             "location": "/challenges/2015/reversing/return-of-the-wieners/#return-of-the-wieners", 
-            "text": "By Antoniewicz  Wieners was too hard last year so now it's been made easier.\nNote: The format for this challenge is key{}.", 
+            "text": "By Antoniewicz  Wieners was too hard last year so now it's been made easier.   Note  format for this challenge is key{}.", 
             "title": "Return of the Wieners"
         }, 
         {
@@ -3817,12 +3807,12 @@
         }, 
         {
             "location": "/challenges/2015/reversing/cookie-maze/", 
-            "text": "cookie_maze\n\n\nBy Bohan\n\n\nEver feel like a rat trapped in a maze? There's a flag somewhere in this binary but I just can't seem to find it.\nIf you don't have a OS X box you can ssh here after requesting it.\nssh 0.tcp.ngrok.io -p 47136\n~Update new port is 47136\nHints:\n- \nhttps://www.mikeash.com/pyblog/friday-qa-2013-01-11-mach-exception-handlers.html\n\n- \nhttps://github.com/gdbinit/readmem\n\n- If an exception handler returns success(0) the binary continues executing even if the exception was not handled if it returns failure(5) it always exits\n\n\nTopics Covered\n\n\n\n\nDebuggers\n\n\nDissassemblers\n\n\n\n\nSynopsis", 
+            "text": "cookie_maze\n\n\nBy Bohan\n\n\nEver feel like a rat trapped in a maze? There's a flag somewhere in this binary but I just can't seem to find it.\nIf you don't have a OS X box you can ssh here after requesting it.\n\n\nTopics Covered\n\n\n\n\nDebuggers\n\n\nDissassemblers\n\n\n\n\nSynopsis\n\n\n\n\nhttps://www.mikeash.com/pyblog/friday-qa-2013-01-11-mach-exception-handlers.html\n\n\nhttps://github.com/gdbinit/readmem\n\n\nIf an exception handler returns success(0) the binary continues executing even if the exception was not handled if it returns failure(5) it always exits", 
             "title": "Cookie Maze"
         }, 
         {
             "location": "/challenges/2015/reversing/cookie-maze/#cookie_maze", 
-            "text": "By Bohan  Ever feel like a rat trapped in a maze? There's a flag somewhere in this binary but I just can't seem to find it.\nIf you don't have a OS X box you can ssh here after requesting it.\nssh 0.tcp.ngrok.io -p 47136\n~Update new port is 47136\nHints:\n-  https://www.mikeash.com/pyblog/friday-qa-2013-01-11-mach-exception-handlers.html \n-  https://github.com/gdbinit/readmem \n- If an exception handler returns success(0) the binary continues executing even if the exception was not handled if it returns failure(5) it always exits", 
+            "text": "By Bohan  Ever feel like a rat trapped in a maze? There's a flag somewhere in this binary but I just can't seem to find it.\nIf you don't have a OS X box you can ssh here after requesting it.", 
             "title": "cookie_maze"
         }, 
         {
@@ -3832,7 +3822,7 @@
         }, 
         {
             "location": "/challenges/2015/reversing/cookie-maze/#synopsis", 
-            "text": "", 
+            "text": "https://www.mikeash.com/pyblog/friday-qa-2013-01-11-mach-exception-handlers.html  https://github.com/gdbinit/readmem  If an exception handler returns success(0) the binary continues executing even if the exception was not handled if it returns failure(5) it always exits", 
             "title": "Synopsis"
         }, 
         {
@@ -3857,12 +3847,12 @@
         }, 
         {
             "location": "/challenges/2015/reversing/wyvern/", 
-            "text": "Wyvern\n\n\nBy D'antoine?\n\n\nThere's a dragon afoot, we need a hero. Give us the dragon's secret and we'll give you a flag.\nHINT: static is only 1 of 2 methods to RE. IDA torrent unnecessary\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\nDebuggers\n\n\n\n\nSynopsis", 
+            "text": "Wyvern\n\n\nBy D'antoine?\n\n\nThere's a dragon afoot, we need a hero. Give us the dragon's secret and we'll give you a flag.\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\nDebuggers\n\n\n\n\nSynopsis\n\n\nStatic is only 1 of 2 methods to RE. IDA torrent unnecessary", 
             "title": "Wveryn"
         }, 
         {
             "location": "/challenges/2015/reversing/wyvern/#wyvern", 
-            "text": "By D'antoine?  There's a dragon afoot, we need a hero. Give us the dragon's secret and we'll give you a flag.\nHINT: static is only 1 of 2 methods to RE. IDA torrent unnecessary", 
+            "text": "By D'antoine?  There's a dragon afoot, we need a hero. Give us the dragon's secret and we'll give you a flag.", 
             "title": "Wyvern"
         }, 
         {
@@ -3872,7 +3862,7 @@
         }, 
         {
             "location": "/challenges/2015/reversing/wyvern/#synopsis", 
-            "text": "", 
+            "text": "Static is only 1 of 2 methods to RE. IDA torrent unnecessary", 
             "title": "Synopsis"
         }, 
         {
@@ -4207,12 +4197,12 @@
         }, 
         {
             "location": "/challenges/2017/pwn/Humm_sCh-t/", 
-            "text": "Humm_sChat\n\n\nBy Kyle Martin\n\n\nI've had no luck running this on anything but Ubuntu 17.10.  Use a sandbox for this - this program is definitely malware.\nHint: to implement: 42 really is the answer to everything\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nSynopsis", 
+            "text": "Humm_sChat\n\n\nBy Kyle Martin\n\n\nI've had no luck running this on anything but Ubuntu 17.10.  Use a sandbox for this - this program is definitely malware.\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nSynopsis\n\n\nTo implement: 42 really is the answer to everything", 
             "title": "Humm_sCh-t"
         }, 
         {
             "location": "/challenges/2017/pwn/Humm_sCh-t/#humm_schat", 
-            "text": "By Kyle Martin  I've had no luck running this on anything but Ubuntu 17.10.  Use a sandbox for this - this program is definitely malware.\nHint: to implement: 42 really is the answer to everything", 
+            "text": "By Kyle Martin  I've had no luck running this on anything but Ubuntu 17.10.  Use a sandbox for this - this program is definitely malware.", 
             "title": "Humm_sChat"
         }, 
         {
@@ -4222,7 +4212,7 @@
         }, 
         {
             "location": "/challenges/2017/pwn/Humm_sCh-t/#synopsis", 
-            "text": "", 
+            "text": "To implement: 42 really is the answer to everything", 
             "title": "Synopsis"
         }, 
         {
@@ -4247,12 +4237,12 @@
         }, 
         {
             "location": "/challenges/2017/pwn/pilot/", 
-            "text": "PILOT\n\n\nCan I take your order? \n16:05 Eastern: Updated binary\n\n\nTopics Covered\n\n\n\n\nBuffer Overflow\n\n\n\n\nSynopsis", 
+            "text": "PILOT\n\n\nCan I take your order? \n\n\nTopics Covered\n\n\n\n\nBuffer Overflow\n\n\n\n\nSynopsis", 
             "title": "Pilot"
         }, 
         {
             "location": "/challenges/2017/pwn/pilot/#pilot", 
-            "text": "Can I take your order? \n16:05 Eastern: Updated binary", 
+            "text": "Can I take your order?", 
             "title": "PILOT"
         }, 
         {
@@ -4267,12 +4257,12 @@
         }, 
         {
             "location": "/challenges/2016/pwn/detective/", 
-            "text": "Detective\n\n\nDear detective, my \"program\" got pwned again. Can you find the culprit for me? \n\n\nMappings for running process on server:\n\n\nStart Addr   End Addr       Size     Offset objfile\n0x56555000 0x56558000     0x3000        0x0 /home/detective/detective\n0x56558000 0x56559000     0x1000     0x2000 /home/detective/detective\n0x56559000 0x5655a000     0x1000     0x3000 /home/detective/detective\n0x5655a000 0x56564000     0xa000        0x0 [heap]\n0xf7e21000 0xf7e22000     0x1000        0x0\n0xf7e22000 0xf7fca000   0x1a8000        0x0 /lib/i386-linux-gnu/libc-2.19.so\n0xf7fca000 0xf7fcb000     0x1000   0x1a8000 /lib/i386-linux-gnu/libc-2.19.so\n0xf7fcb000 0xf7fcd000     0x2000   0x1a8000 /lib/i386-linux-gnu/libc-2.19.so\n0xf7fcd000 0xf7fce000     0x1000   0x1aa000 /lib/i386-linux-gnu/libc-2.19.so\n0xf7fce000 0xf7fd1000     0x3000        0x0\n0xf7fd7000 0xf7fd9000     0x2000        0x0\n0xf7fd9000 0xf7fdb000     0x2000        0x0 [vvar]\n0xf7fdb000 0xf7fdc000     0x1000        0x0 [vdso]\n0xf7fdc000 0xf7ffc000    0x20000        0x0 /lib/i386-linux-gnu/ld-2.19.so\n0xf7ffc000 0xf7ffd000     0x1000    0x1f000 /lib/i386-linux-gnu/ld-2.19.so\n0xf7ffd000 0xf7ffe000     0x1000    0x20000 /lib/i386-linux-gnu/ld-2.19.so\n0xfffdd000 0xffffe000    0x21000        0x0 [stack]\n\n\n\n\n\nHINT:\n\n\n\nHINT:\nso exit does a bit of stuff before it actually exists. try walking through it, you might find something interesting...\n\n\nTopics Covered\n\n\nSynopsis", 
+            "text": "Detective\n\n\nDear detective, my \"program\" got pwned again. Can you find the culprit for me? \n\n\nMappings for running process on server:\n\n\n    Start Addr   End Addr       Size     Offset objfile\n    0x56555000 0x56558000     0x3000        0x0 /home/detective/detective\n    0x56558000 0x56559000     0x1000     0x2000 /home/detective/detective\n    0x56559000 0x5655a000     0x1000     0x3000 /home/detective/detective\n    0x5655a000 0x56564000     0xa000        0x0 [heap]\n    0xf7e21000 0xf7e22000     0x1000        0x0\n    0xf7e22000 0xf7fca000   0x1a8000        0x0 /lib/i386-linux-gnu/libc-2.19.so\n    0xf7fca000 0xf7fcb000     0x1000   0x1a8000 /lib/i386-linux-gnu/libc-2.19.so\n    0xf7fcb000 0xf7fcd000     0x2000   0x1a8000 /lib/i386-linux-gnu/libc-2.19.so\n    0xf7fcd000 0xf7fce000     0x1000   0x1aa000 /lib/i386-linux-gnu/libc-2.19.so\n    0xf7fce000 0xf7fd1000     0x3000        0x0\n    0xf7fd7000 0xf7fd9000     0x2000        0x0\n    0xf7fd9000 0xf7fdb000     0x2000        0x0 [vvar]\n    0xf7fdb000 0xf7fdc000     0x1000        0x0 [vdso]\n    0xf7fdc000 0xf7ffc000    0x20000        0x0 /lib/i386-linux-gnu/ld-2.19.so\n    0xf7ffc000 0xf7ffd000     0x1000    0x1f000 /lib/i386-linux-gnu/ld-2.19.so\n    0xf7ffd000 0xf7ffe000     0x1000    0x20000 /lib/i386-linux-gnu/ld-2.19.so\n    0xfffdd000 0xffffe000    0x21000        0x0 [stack]\n\n\n\n\n\nTopics Covered\n\n\nSynopsis\n\n\nSo exit does a bit of stuff before it actually exists. try walking through it, you might find something interesting...", 
             "title": "Detective"
         }, 
         {
             "location": "/challenges/2016/pwn/detective/#detective", 
-            "text": "Dear detective, my \"program\" got pwned again. Can you find the culprit for me?   Mappings for running process on server:  Start Addr   End Addr       Size     Offset objfile\n0x56555000 0x56558000     0x3000        0x0 /home/detective/detective\n0x56558000 0x56559000     0x1000     0x2000 /home/detective/detective\n0x56559000 0x5655a000     0x1000     0x3000 /home/detective/detective\n0x5655a000 0x56564000     0xa000        0x0 [heap]\n0xf7e21000 0xf7e22000     0x1000        0x0\n0xf7e22000 0xf7fca000   0x1a8000        0x0 /lib/i386-linux-gnu/libc-2.19.so\n0xf7fca000 0xf7fcb000     0x1000   0x1a8000 /lib/i386-linux-gnu/libc-2.19.so\n0xf7fcb000 0xf7fcd000     0x2000   0x1a8000 /lib/i386-linux-gnu/libc-2.19.so\n0xf7fcd000 0xf7fce000     0x1000   0x1aa000 /lib/i386-linux-gnu/libc-2.19.so\n0xf7fce000 0xf7fd1000     0x3000        0x0\n0xf7fd7000 0xf7fd9000     0x2000        0x0\n0xf7fd9000 0xf7fdb000     0x2000        0x0 [vvar]\n0xf7fdb000 0xf7fdc000     0x1000        0x0 [vdso]\n0xf7fdc000 0xf7ffc000    0x20000        0x0 /lib/i386-linux-gnu/ld-2.19.so\n0xf7ffc000 0xf7ffd000     0x1000    0x1f000 /lib/i386-linux-gnu/ld-2.19.so\n0xf7ffd000 0xf7ffe000     0x1000    0x20000 /lib/i386-linux-gnu/ld-2.19.so\n0xfffdd000 0xffffe000    0x21000        0x0 [stack]  HINT:  HINT:\nso exit does a bit of stuff before it actually exists. try walking through it, you might find something interesting...", 
+            "text": "Dear detective, my \"program\" got pwned again. Can you find the culprit for me?   Mappings for running process on server:      Start Addr   End Addr       Size     Offset objfile\n    0x56555000 0x56558000     0x3000        0x0 /home/detective/detective\n    0x56558000 0x56559000     0x1000     0x2000 /home/detective/detective\n    0x56559000 0x5655a000     0x1000     0x3000 /home/detective/detective\n    0x5655a000 0x56564000     0xa000        0x0 [heap]\n    0xf7e21000 0xf7e22000     0x1000        0x0\n    0xf7e22000 0xf7fca000   0x1a8000        0x0 /lib/i386-linux-gnu/libc-2.19.so\n    0xf7fca000 0xf7fcb000     0x1000   0x1a8000 /lib/i386-linux-gnu/libc-2.19.so\n    0xf7fcb000 0xf7fcd000     0x2000   0x1a8000 /lib/i386-linux-gnu/libc-2.19.so\n    0xf7fcd000 0xf7fce000     0x1000   0x1aa000 /lib/i386-linux-gnu/libc-2.19.so\n    0xf7fce000 0xf7fd1000     0x3000        0x0\n    0xf7fd7000 0xf7fd9000     0x2000        0x0\n    0xf7fd9000 0xf7fdb000     0x2000        0x0 [vvar]\n    0xf7fdb000 0xf7fdc000     0x1000        0x0 [vdso]\n    0xf7fdc000 0xf7ffc000    0x20000        0x0 /lib/i386-linux-gnu/ld-2.19.so\n    0xf7ffc000 0xf7ffd000     0x1000    0x1f000 /lib/i386-linux-gnu/ld-2.19.so\n    0xf7ffd000 0xf7ffe000     0x1000    0x20000 /lib/i386-linux-gnu/ld-2.19.so\n    0xfffdd000 0xffffe000    0x21000        0x0 [stack]", 
             "title": "Detective"
         }, 
         {
@@ -4282,7 +4272,7 @@
         }, 
         {
             "location": "/challenges/2016/pwn/detective/#synopsis", 
-            "text": "", 
+            "text": "So exit does a bit of stuff before it actually exists. try walking through it, you might find something interesting...", 
             "title": "Synopsis"
         }, 
         {
@@ -4366,22 +4356,22 @@
             "title": "Synopsis"
         }, 
         {
-            "location": "/challenges/2017/misc/cvv/", 
+            "location": "/challenges/2017/Misc/cvv/", 
             "text": "CVV\n\n\nBy Oskar Wirga\n\n\nHey fam, you got CVV? I need some CVV!\n\n\nTopics Covered\n\n\nSynopsis\n\n\nChech out the \nLuhn algorithm", 
             "title": "CVV"
         }, 
         {
-            "location": "/challenges/2017/misc/cvv/#cvv", 
+            "location": "/challenges/2017/Misc/cvv/#cvv", 
             "text": "By Oskar Wirga  Hey fam, you got CVV? I need some CVV!", 
             "title": "CVV"
         }, 
         {
-            "location": "/challenges/2017/misc/cvv/#topics-covered", 
+            "location": "/challenges/2017/Misc/cvv/#topics-covered", 
             "text": "", 
             "title": "Topics Covered"
         }, 
         {
-            "location": "/challenges/2017/misc/cvv/#synopsis", 
+            "location": "/challenges/2017/Misc/cvv/#synopsis", 
             "text": "Chech out the  Luhn algorithm", 
             "title": "Synopsis"
         }, 
@@ -4427,12 +4417,12 @@
         }, 
         {
             "location": "/challenges/2013/Pwn/SCP-hack/", 
-            "text": "SCP Hack\n\n\nThe \nSCP organization\n wants you to join, accept and see if you can take advantage of their interns sloppy coding and outdated browser.\n\n\nTopics Covered\n\n\nSynopsis\n\n\nWhat recon can you perform on the SCP interns? Are the interns vulnerable to information leakage?", 
+            "text": "SCP Hack\n\n\nThe SCP organization you to join, accept and see if you can take advantage of their interns sloppy coding and outdated browser.\n\n\nTopics Covered\n\n\nSynopsis\n\n\nWhat recon can you perform on the SCP interns? Are the interns vulnerable to information leakage?", 
             "title": "SCP Hack"
         }, 
         {
             "location": "/challenges/2013/Pwn/SCP-hack/#scp-hack", 
-            "text": "The  SCP organization  wants you to join, accept and see if you can take advantage of their interns sloppy coding and outdated browser.", 
+            "text": "The SCP organization you to join, accept and see if you can take advantage of their interns sloppy coding and outdated browser.", 
             "title": "SCP Hack"
         }, 
         {
@@ -4487,23 +4477,18 @@
         }, 
         {
             "location": "/challenges/2017/Pwn/exploitme/", 
-            "text": "Elaborate Bullet\n\n\nBy IPS Research, Palo Alto Networks\n\n\nRemote elaborate.chal.csaw.io:9000. Read flag.txt\nNOTE: You may need to try connecting a few times. Just sleep a few seconds and try again if you can't connect.\n\n\nFlag\n\n\nIn \nflag.txt\n\n\nSetup\n\n\n\n\nrun c.bat \nexploitme.exe\n and it will create ctf.pcap\n\n\n\n\nfor exploit, just run exploitme.exe on server and use exploit.py to attack it.## Topics Covered\n\n\n\n\n\n\nDissassemblers\n\n\n\n\nWireshark\n\n\n\n\nSynopsis", 
+            "text": "Elaborate Bullet\n\n\nBy IPS Research, Palo Alto Networks\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\nWireshark\n\n\n\n\nSynopsis", 
             "title": "Exploitme"
         }, 
         {
             "location": "/challenges/2017/Pwn/exploitme/#elaborate-bullet", 
-            "text": "By IPS Research, Palo Alto Networks  Remote elaborate.chal.csaw.io:9000. Read flag.txt\nNOTE: You may need to try connecting a few times. Just sleep a few seconds and try again if you can't connect.", 
+            "text": "By IPS Research, Palo Alto Networks", 
             "title": "Elaborate Bullet"
         }, 
         {
-            "location": "/challenges/2017/Pwn/exploitme/#flag", 
-            "text": "In  flag.txt", 
-            "title": "Flag"
-        }, 
-        {
-            "location": "/challenges/2017/Pwn/exploitme/#setup", 
-            "text": "run c.bat  exploitme.exe  and it will create ctf.pcap   for exploit, just run exploitme.exe on server and use exploit.py to attack it.## Topics Covered    Dissassemblers   Wireshark", 
-            "title": "Setup"
+            "location": "/challenges/2017/Pwn/exploitme/#topics-covered", 
+            "text": "Dissassemblers  Wireshark", 
+            "title": "Topics Covered"
         }, 
         {
             "location": "/challenges/2017/Pwn/exploitme/#synopsis", 
@@ -4767,23 +4752,18 @@
         }, 
         {
             "location": "/challenges/2016/misc/regexpire/", 
-            "text": "Regexpire\n\n\nI thought I found a perfect match but she ended up being my regEx girlfriend.\nNote: You can't use newlines inside your match.\n\n\nFlag:\n\n\nflag{^regularly_express_yourself$}\n\n\nSolution\n\n\nSee \nsolution/\n## Topics Covered\n\n\nSynopsis", 
+            "text": "Regexpire\n\n\nI thought I found a perfect match but she ended up being my regEx girlfriend.\n\n\n\n\nNote\n\n\nYou can't use newlines inside your match.\n\n\n\n\nTopics Covered\n\n\nSynopsis", 
             "title": "Regexpire"
         }, 
         {
             "location": "/challenges/2016/misc/regexpire/#regexpire", 
-            "text": "I thought I found a perfect match but she ended up being my regEx girlfriend.\nNote: You can't use newlines inside your match.", 
+            "text": "I thought I found a perfect match but she ended up being my regEx girlfriend.   Note  You can't use newlines inside your match.", 
             "title": "Regexpire"
         }, 
         {
-            "location": "/challenges/2016/misc/regexpire/#flag", 
-            "text": "flag{^regularly_express_yourself$}", 
-            "title": "Flag:"
-        }, 
-        {
-            "location": "/challenges/2016/misc/regexpire/#solution", 
-            "text": "See  solution/ ## Topics Covered", 
-            "title": "Solution"
+            "location": "/challenges/2016/misc/regexpire/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
         }, 
         {
             "location": "/challenges/2016/misc/regexpire/#synopsis", 
@@ -4932,12 +4912,12 @@
         }, 
         {
             "location": "/challenges/2017/pwn/KWS2/", 
-            "text": "KWS2 (Same as /web/csaw-kernel-challenge)\n\n\nBy itszn, Ret2 Systems\n\n\nWe developed a much better alternative to AWS. Our high-performance kernel driver gives us unparalleled speed of execution. And we're super-secure!\nNOTE: Login with your CTFd credentials.\nNOTE: This might take a minute to start up the first time you login. Please be patient!\nNOTE: There may be ways to poke at other teams' boxes. Don't do that, it is not part of the challenge.\nNOTE: If you have issues with your instance, try logging out of the KWS interface, and logging back in.\n\n\nTopics Covered\n\n\nSynopsis", 
+            "text": "KWS2 (Same as /web/csaw-kernel-challenge)\n\n\nBy itszn, Ret2 Systems\n\n\nWe developed a much better alternative to AWS. Our high-performance kernel driver gives us unparalleled speed of execution. And we're super-secure!\n\n\nTopics Covered\n\n\nSynopsis", 
             "title": "KWS 2"
         }, 
         {
             "location": "/challenges/2017/pwn/KWS2/#kws2-same-as-webcsaw-kernel-challenge", 
-            "text": "By itszn, Ret2 Systems  We developed a much better alternative to AWS. Our high-performance kernel driver gives us unparalleled speed of execution. And we're super-secure!\nNOTE: Login with your CTFd credentials.\nNOTE: This might take a minute to start up the first time you login. Please be patient!\nNOTE: There may be ways to poke at other teams' boxes. Don't do that, it is not part of the challenge.\nNOTE: If you have issues with your instance, try logging out of the KWS interface, and logging back in.", 
+            "text": "By itszn, Ret2 Systems  We developed a much better alternative to AWS. Our high-performance kernel driver gives us unparalleled speed of execution. And we're super-secure!", 
             "title": "KWS2 (Same as /web/csaw-kernel-challenge)"
         }, 
         {
@@ -4972,12 +4952,12 @@
         }, 
         {
             "location": "/challenges/2017/pwn/funtimejs/", 
-            "text": "FuntimeJS (2 Parts)\n\n\nPart 2 of LittleQuery (Web)\nJavaScript is memory safe, right? So you can't read the flag at physical address 0xdeadbeeeef, right?\nRight?\n\nhttp://littlequery.chal.csaw.io\n\nUPDATE 14:10 Eastern: I'm dumb. The unintentional solution is now in a separate challenge (FuntimeJS 2).\n\n\nTopics Covered\n\n\nSynopsis", 
+            "text": "FuntimeJS (2 Parts)\n\n\nPart 2 of LittleQuery (Web)\nJavaScript is memory safe, right? So you can't read the flag at physical address 0xdeadbeeeef, right?\nRight?\n\n\nTopics Covered\n\n\nSynopsis", 
             "title": "FuntimeJS"
         }, 
         {
             "location": "/challenges/2017/pwn/funtimejs/#funtimejs-2-parts", 
-            "text": "Part 2 of LittleQuery (Web)\nJavaScript is memory safe, right? So you can't read the flag at physical address 0xdeadbeeeef, right?\nRight? http://littlequery.chal.csaw.io \nUPDATE 14:10 Eastern: I'm dumb. The unintentional solution is now in a separate challenge (FuntimeJS 2).", 
+            "text": "Part 2 of LittleQuery (Web)\nJavaScript is memory safe, right? So you can't read the flag at physical address 0xdeadbeeeef, right?\nRight?", 
             "title": "FuntimeJS (2 Parts)"
         }, 
         {
@@ -4992,7 +4972,7 @@
         }, 
         {
             "location": "/challenges/2017/pwn/firewall/", 
-            "text": "FIREWALL\n\n\nAfter rummaging around the network for a few days, the IT department was able to\nfind the dust covered machine hosting the hospital's firewall. We don't have budget\nto update it... so just take a quick look and tell us it's good for another year. \n\n\nFlag\n\n\nflag{w3_f3ll_pr3tty_f4r_d0wn_th3_w1nd0ws_r4bb1t_h0le_huh}\n\n\nSolution\n\n\nexploit.py\n\n\nPremise\n\n\nThis is an exploitation challenge that is compiled for the old, Windows POSIX Subsystem.\n\n\nTo complete this challenge, it is expected that teams are going to have to have to\nactually get the executable running in the SUA 4.0 (Subsystem for Unix Applications)\nenvironment. This subsystem was shipped as a part of Windows from NT 4.0 - Windows 8.\n\n\nThe challenge uses fingerprints of the SUA environment to generate the initial 'token'\ncheck. This is an attempt to deter teams from solving it statically / bruteforcing\nagainst the server and ensure that they can debug the challenge locally.\n\n\nFirewall is modeled to be a memory corruption challenge, but does not (intentionally)\ngive the players a means to hijack control flow. There is also some light obfuscation. \n\n\nThe expected solution will leak a memory address of a static string and then\noverwrite said address (in a string table) with the address of the flag (which\nis read into memory during initialization).\n\n\nIMO as an exploitation challenge, this is not \nhard\n. But lots of tidbits / the weird\nenvironment ticks it up from a 300pt challenge, to 400pt.\n\n\nOther tidbits:\n- I developed the challenge on an x86 Windows 7 Enterprise VM\n- The expected solution (an exploit) may fail 50/50 due to the leak failing (ASLR dependent)\n- There is a red herring / buffer overflow that is not intended to be exploitable :')\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nSynopsis", 
+            "text": "FIREWALL\n\n\nAfter rummaging around the network for a few days, the IT department was able to\nfind the dust covered machine hosting the hospital's firewall. We don't have budget\nto update it... so just take a quick look and tell us it's good for another year. \n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nSynopsis\n\n\nThis is an exploitation challenge that is compiled for the old, Windows POSIX Subsystem.\nTo complete this challenge, it is expected that you are going to have to have to actually get the executable running in the SUA 4.0 (Subsystem for Unix Applications) environment. This subsystem was shipped as a part of Windows from NT 4.0 - Windows 8.", 
             "title": "Firewall"
         }, 
         {
@@ -5001,28 +4981,13 @@
             "title": "FIREWALL"
         }, 
         {
-            "location": "/challenges/2017/pwn/firewall/#flag", 
-            "text": "flag{w3_f3ll_pr3tty_f4r_d0wn_th3_w1nd0ws_r4bb1t_h0le_huh}", 
-            "title": "Flag"
-        }, 
-        {
-            "location": "/challenges/2017/pwn/firewall/#solution", 
-            "text": "exploit.py", 
-            "title": "Solution"
-        }, 
-        {
-            "location": "/challenges/2017/pwn/firewall/#premise", 
-            "text": "This is an exploitation challenge that is compiled for the old, Windows POSIX Subsystem.  To complete this challenge, it is expected that teams are going to have to have to\nactually get the executable running in the SUA 4.0 (Subsystem for Unix Applications)\nenvironment. This subsystem was shipped as a part of Windows from NT 4.0 - Windows 8.  The challenge uses fingerprints of the SUA environment to generate the initial 'token'\ncheck. This is an attempt to deter teams from solving it statically / bruteforcing\nagainst the server and ensure that they can debug the challenge locally.  Firewall is modeled to be a memory corruption challenge, but does not (intentionally)\ngive the players a means to hijack control flow. There is also some light obfuscation.   The expected solution will leak a memory address of a static string and then\noverwrite said address (in a string table) with the address of the flag (which\nis read into memory during initialization).  IMO as an exploitation challenge, this is not  hard . But lots of tidbits / the weird\nenvironment ticks it up from a 300pt challenge, to 400pt.  Other tidbits:\n- I developed the challenge on an x86 Windows 7 Enterprise VM\n- The expected solution (an exploit) may fail 50/50 due to the leak failing (ASLR dependent)\n- There is a red herring / buffer overflow that is not intended to be exploitable :')", 
-            "title": "Premise"
-        }, 
-        {
             "location": "/challenges/2017/pwn/firewall/#topics-covered", 
             "text": "Dissassemblers", 
             "title": "Topics Covered"
         }, 
         {
             "location": "/challenges/2017/pwn/firewall/#synopsis", 
-            "text": "", 
+            "text": "This is an exploitation challenge that is compiled for the old, Windows POSIX Subsystem.\nTo complete this challenge, it is expected that you are going to have to have to actually get the executable running in the SUA 4.0 (Subsystem for Unix Applications) environment. This subsystem was shipped as a part of Windows from NT 4.0 - Windows 8.", 
             "title": "Synopsis"
         }, 
         {
@@ -5207,12 +5172,12 @@
         }, 
         {
             "location": "/challenges/2016/pwn/CyberTronix64k/", 
-            "text": "Cybertronix64k (2)\n\n\nWe found a manual for a strange old machine in our closet, as well as a ROM. There's another flag in memory... can you get us that?\nNote: The flag is marked with \nflag{XXXXX...}\n in memory, run against the remote instance to get the real flag!\n\nnc reversing.chal.csaw.io 1342\n\n\nTopics Covered\n\n\nSynopsis", 
+            "text": "Cybertronix64k (2)\n\n\nWe found a manual for a strange old machine in our closet, as well as a ROM. There's another flag in memory... can you get us that?\n\n\n\n\nNote\n\n\nThe flag is marked with \nflag{XXXXX...}\n in memory, run against the remote instance to get the real flag!\n\n\n\n\nTopics Covered\n\n\nSynopsis", 
             "title": "CyberTronix64k"
         }, 
         {
             "location": "/challenges/2016/pwn/CyberTronix64k/#cybertronix64k-2", 
-            "text": "We found a manual for a strange old machine in our closet, as well as a ROM. There's another flag in memory... can you get us that?\nNote: The flag is marked with  flag{XXXXX...}  in memory, run against the remote instance to get the real flag! nc reversing.chal.csaw.io 1342", 
+            "text": "We found a manual for a strange old machine in our closet, as well as a ROM. There's another flag in memory... can you get us that?   Note  The flag is marked with  flag{XXXXX...}  in memory, run against the remote instance to get the real flag!", 
             "title": "Cybertronix64k (2)"
         }, 
         {
@@ -5227,12 +5192,12 @@
         }, 
         {
             "location": "/challenges/2015/pwn/stringipc/", 
-            "text": "StringIPC\n\n\nBy Coppola\n\n\nI've always wanted to try writing a kernel module. I think I covered all my bases but I'm not sure.\nIf your VM hangs, here is an IP to reboot your VM \nhttp://104.236.83.127/reboot\n\nPost Event Update\nStringIPC_Updated contains the exact source of the module running on the VM\n\n\nTopics Covered\n\n\nSynopsis", 
+            "text": "StringIPC\n\n\nBy Coppola\n\n\nI've always wanted to try writing a kernel module. I think I covered all my bases but I'm not sure.\nStringIPC_Updated contains the exact source of the module running on the VM\n\n\nTopics Covered\n\n\nSynopsis", 
             "title": "StringIPC"
         }, 
         {
             "location": "/challenges/2015/pwn/stringipc/#stringipc", 
-            "text": "By Coppola  I've always wanted to try writing a kernel module. I think I covered all my bases but I'm not sure.\nIf your VM hangs, here is an IP to reboot your VM  http://104.236.83.127/reboot \nPost Event Update\nStringIPC_Updated contains the exact source of the module running on the VM", 
+            "text": "By Coppola  I've always wanted to try writing a kernel module. I think I covered all my bases but I'm not sure.\nStringIPC_Updated contains the exact source of the module running on the VM", 
             "title": "StringIPC"
         }, 
         {
@@ -5247,12 +5212,12 @@
         }, 
         {
             "location": "/challenges/2015/pwn/boombox/", 
-            "text": "boombox\n\n\nBy Gaasedelen\n\n\n'The latest and greatest bumpin' new streaming service has just hit the web, have you seen it?\nAppJailLauncher.exe /network /key:key /port:4444 /timeout:120 ./boombox.exe'\nPassword: CSAW2015\nUPDATE: The challenge is hosted on \nhttp://40.117.40.124:4444/\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nSynopsis", 
+            "text": "boombox\n\n\nBy Gaasedelen\n\n\n'The latest and greatest bumpin' new streaming service has just hit the web, have you seen it?\nAppJailLauncher.exe /network /key:key /port:4444 /timeout:120 ./boombox.exe'\nPassword: CSAW2015\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nSynopsis", 
             "title": "Boombox"
         }, 
         {
             "location": "/challenges/2015/pwn/boombox/#boombox", 
-            "text": "By Gaasedelen  'The latest and greatest bumpin' new streaming service has just hit the web, have you seen it?\nAppJailLauncher.exe /network /key:key /port:4444 /timeout:120 ./boombox.exe'\nPassword: CSAW2015\nUPDATE: The challenge is hosted on  http://40.117.40.124:4444/", 
+            "text": "By Gaasedelen  'The latest and greatest bumpin' new streaming service has just hit the web, have you seen it?\nAppJailLauncher.exe /network /key:key /port:4444 /timeout:120 ./boombox.exe'\nPassword: CSAW2015", 
             "title": "boombox"
         }, 
         {

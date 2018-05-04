@@ -1786,7 +1786,7 @@
         
             
 <li >
-    <a href="../../misc/cvv/">CVV</a>
+    <a href="../../Misc/cvv/">CVV</a>
 </li>
 
         
@@ -2158,12 +2158,6 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="first-level active"><a href="#firewall">FIREWALL</a></li>
-            <li class="second-level"><a href="#flag">Flag</a></li>
-                
-            <li class="second-level"><a href="#solution">Solution</a></li>
-                
-            <li class="second-level"><a href="#premise">Premise</a></li>
-                
             <li class="second-level"><a href="#topics-covered">Topics Covered</a></li>
                 
             <li class="second-level"><a href="#synopsis">Synopsis</a></li>
@@ -2176,34 +2170,13 @@
 <p>After rummaging around the network for a few days, the IT department was able to
 find the dust covered machine hosting the hospital's firewall. We don't have budget
 to update it... so just take a quick look and tell us it's good for another year. </p>
-<h2 id="flag">Flag<a class="headerlink" href="#flag" title="Permanent link">&para;</a></h2>
-<p><code class="codehilite">flag{w3_f3ll_pr3tty_f4r_d0wn_th3_w1nd0ws_r4bb1t_h0le_huh}</code></p>
-<h2 id="solution">Solution<a class="headerlink" href="#solution" title="Permanent link">&para;</a></h2>
-<p><a href="../solution/exploit.py">exploit.py</a></p>
-<h2 id="premise">Premise<a class="headerlink" href="#premise" title="Permanent link">&para;</a></h2>
-<p>This is an exploitation challenge that is compiled for the old, Windows POSIX Subsystem.</p>
-<p>To complete this challenge, it is expected that teams are going to have to have to
-actually get the executable running in the SUA 4.0 (Subsystem for Unix Applications)
-environment. This subsystem was shipped as a part of Windows from NT 4.0 - Windows 8.</p>
-<p>The challenge uses fingerprints of the SUA environment to generate the initial 'token'
-check. This is an attempt to deter teams from solving it statically / bruteforcing
-against the server and ensure that they can debug the challenge locally.</p>
-<p>Firewall is modeled to be a memory corruption challenge, but does not (intentionally)
-give the players a means to hijack control flow. There is also some light obfuscation. </p>
-<p>The expected solution will leak a memory address of a static string and then
-overwrite said address (in a string table) with the address of the flag (which
-is read into memory during initialization).</p>
-<p>IMO as an exploitation challenge, this is not <em>hard</em>. But lots of tidbits / the weird
-environment ticks it up from a 300pt challenge, to 400pt.</p>
-<p>Other tidbits:
-- I developed the challenge on an x86 Windows 7 Enterprise VM
-- The expected solution (an exploit) may fail 50/50 due to the leak failing (ASLR dependent)
-- There is a red herring / buffer overflow that is not intended to be exploitable :')</p>
 <h2 id="topics-covered">Topics Covered<a class="headerlink" href="#topics-covered" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../../../reverse-engineering/what-are-disassemblers/">Dissassemblers</a></li>
 </ul>
-<h2 id="synopsis">Synopsis<a class="headerlink" href="#synopsis" title="Permanent link">&para;</a></h2></div>
+<h2 id="synopsis">Synopsis<a class="headerlink" href="#synopsis" title="Permanent link">&para;</a></h2>
+<p>This is an exploitation challenge that is compiled for the old, Windows POSIX Subsystem.
+To complete this challenge, it is expected that you are going to have to have to actually get the executable running in the SUA 4.0 (Subsystem for Unix Applications) environment. This subsystem was shipped as a part of Windows from NT 4.0 - Windows 8.</p></div>
             
         
     </div>

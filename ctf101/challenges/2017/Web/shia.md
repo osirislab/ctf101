@@ -24,12 +24,6 @@ Just do it
 If you're tired of starting over
 Stop giving up
 
-Pick 1:
-* http://web.chal.csaw.io:5487
-* http://web.chal.csaw.io:5488
-* http://web.chal.csaw.io:5489
-* http://web.chal.csaw.io:5490
-
 ## Topics Covered
 
 ## Synopsis

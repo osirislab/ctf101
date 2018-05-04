@@ -2,7 +2,7 @@
 Dear detective, my "program" got pwned again. Can you find the culprit for me? 
 
 Mappings for running process on server:
-
+```
 	Start Addr   End Addr       Size     Offset objfile
 	0x56555000 0x56558000     0x3000        0x0 /home/detective/detective
 	0x56558000 0x56559000     0x1000     0x2000 /home/detective/detective
@@ -21,13 +21,12 @@ Mappings for running process on server:
 	0xf7ffc000 0xf7ffd000     0x1000    0x1f000 /lib/i386-linux-gnu/ld-2.19.so
 	0xf7ffd000 0xf7ffe000     0x1000    0x20000 /lib/i386-linux-gnu/ld-2.19.so
 	0xfffdd000 0xffffe000    0x21000        0x0 [stack]
+```
 
-HINT:
-<img src="https://cdn.meme.am/cache/instances/folder489/500x/73105489.jpg" />
-
-HINT:
-so exit does a bit of stuff before it actually exists. try walking through it, you might find something interesting...
 ## Topics Covered
 
 ## Synopsis
 
+So exit does a bit of stuff before it actually exists. try walking through it, you might find something interesting...
+
+![](https://cdn.meme.am/cache/instances/folder489/500x/73105489.jpg)

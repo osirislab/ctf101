@@ -1,8 +1,8 @@
-# best router
-Best Router
-http://forensics.chal.csaw.io:3287
-NOTE: This will expand to ~16GB!
-19:00 Eastern: updated. Old flags have been removed.
+# Best Router
+
+!!!note
+    This will expand to ~16GB!
+
 ## Topics Covered
 
 ## Synopsis

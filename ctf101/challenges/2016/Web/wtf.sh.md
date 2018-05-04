@@ -1,5 +1,4 @@
 # wtf.sh (1)
-
 By Josh Hofing
 
 
@@ -50,6 +49,7 @@ SEE ALSO
 
 CSAW 2016           September 2016          WTF.SH(1)
 ```
+
 ## Topics Covered
 
 ## Synopsis

@@ -1,8 +1,5 @@
 # Palo Alto
-
 By Palo Alto Networks
-
-
 
 [Enter Starscream]
 
@@ -20,9 +17,12 @@ _Hat, sun glasses, and joint are adorned on Optimus Prime_
 
 [Exeunt Starscream, feeling d-stroyed]
 
-Note: Flag format is `CSAW{...}`
+!!!note
+    The flag format is `CSAW{...}`
+
 ## Topics Covered
 
 - [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
+
 ## Synopsis
 

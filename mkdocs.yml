@@ -338,7 +338,7 @@ pages:
       - WarmUp: 'challenges/2016/pwn/WarmUp.md'
       - Precision: 'challenges/2015/pwn/precision.md'
       - Serial: 'challenges/2017/misc/serial.md'
-      - CVV: 'challenges/2017/misc/cvv.md'
+      - CVV: 'challenges/2017/Misc/cvv.md'
       - Coinslot: 'challenges/2016/misc/coinslot.md'
       - Sanity Check: 'challenges/2015/misc/sanity-check.md'
       - SCP Hack: 'challenges/2013/Pwn/SCP-hack.md'

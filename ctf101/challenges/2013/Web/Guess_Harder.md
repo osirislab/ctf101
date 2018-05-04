@@ -1,5 +1,7 @@
 # Guess Harder
-[http://128.238.66.215/guessharder.php](http://128.238.66.215/guessharder.php)
+
+You'll never guess my password!
+
 ## Topics Covered
 
 ## Synopsis

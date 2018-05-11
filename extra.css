@@ -18,4 +18,5 @@ div[role=main] img {
 
 .codehilite > pre {
     overflow: scroll;
+    white-space: pre !important;
 }

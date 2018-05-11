@@ -7,3 +7,4 @@ $('.dropdown-submenu > a').click(function(e){
         first_link.click();
     }
 });
+$('.container img').attr('data-action', "zoom");

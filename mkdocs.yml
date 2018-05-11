@@ -4,8 +4,8 @@ site_author: OSIRIS Lab & CTFd LLC
 theme:
     name: 'cinder'
     custom_dir: 'custom_theme'
-extra_css: ['admonition.css', 'extra.css', 'colorful.css']
-extra_javascript: ['extra.js']
+extra_css: ['admonition.css', 'extra.css', 'colorful.css', 'zoom.css']
+extra_javascript: ['extra.js', 'zoom-vanilla.min.js']
 docs_dir: 'ctf101/'
 markdown_extensions:
   - admonition

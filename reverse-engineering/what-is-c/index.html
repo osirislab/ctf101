@@ -2251,24 +2251,24 @@
 <p>Whenever we use the <code class="codehilite">y</code> variable we are using the memory address, but if we use the x variable we use the value stored at the memory address.</p>
 <h2 id="arrays">Arrays<a class="headerlink" href="#arrays" title="Permanent link">&para;</a></h2>
 <p>Arrays are a grouping of objects of the same type. They are typically created with the following syntax:</p>
-<div class="codehilite"><pre><span></span>type arrayName [ arraySize ];
+<div class="codehilite"><pre><span></span><span class="n">type</span> <span class="n">arrayName</span> <span class="p">[</span> <span class="n">arraySize</span> <span class="p">];</span>
 </pre></div>
 
 
 <p>To initialize values in the array we can do:</p>
-<div class="codehilite"><pre><span></span>int integers[ 10 ] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+<div class="codehilite"><pre><span></span><span class="kt">int</span> <span class="n">integers</span><span class="p">[</span> <span class="mi">10</span> <span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">};</span>
 </pre></div>
 
 
 <p>Arrays allow programmers to group data into logical containers.</p>
 <p>To access the indiviual elements of an array we access the contents by their "index". Most programming langauges today start counting from 0. So to take our previous example:</p>
-<div class="codehilite"><pre><span></span>int integers[ 10 ] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-/*     indexes        0  1  2  3  4  5  6  7  8   9
+<div class="codehilite"><pre><span></span><span class="kt">int</span> <span class="n">integers</span><span class="p">[</span> <span class="mi">10</span> <span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">};</span>
+<span class="cm">/*     indexes        0  1  2  3  4  5  6  7  8   9</span>
 </pre></div>
 
 
 <p>To access the value 6 we would use index 5:</p>
-<div class="codehilite"><pre><span></span>integers[5];
+<div class="codehilite"><pre><span></span><span class="n">integers</span><span class="p">[</span><span class="mi">5</span><span class="p">];</span>
 </pre></div>
 
 
@@ -2276,13 +2276,13 @@
 <p>Arrays are a clever combination of multiplication, pointers, and programming.</p>
 <p>Because the computer knows the data type used for every element in the array, the computer needs to simply multiply the size of the data type by the index you are looking for and then add this value to the address of the beginning of the array.</p>
 <p>For example if we know that the base address of an array is 1000 and we know that each integer takes 8 bytes, we know that if we have 8 integers right next to each other, we can get the integer at the 4th index with the following math:</p>
-<div class="codehilite"><pre><span></span>1000 + (4 * 8) =  1032
+<div class="codehilite"><pre><span></span><span class="mi">1000</span> <span class="o">+</span> <span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="mi">8</span><span class="p">)</span> <span class="o">=</span>  <span class="mi">1032</span>
 </pre></div>
 
 
-<div class="codehilite"><pre><span></span>array [ 1   , 2   , 3   , 4   , 5   , 6   , 7   , 8   ]
-index   0     1     2     3     4     5     6     7
-addrs  1000  1008  1016  1024  1032  1040  1048  1056
+<div class="codehilite"><pre><span></span><span class="n">array</span> <span class="p">[</span> <span class="mi">1</span>   <span class="p">,</span> <span class="mi">2</span>   <span class="p">,</span> <span class="mi">3</span>   <span class="p">,</span> <span class="mi">4</span>   <span class="p">,</span> <span class="mi">5</span>   <span class="p">,</span> <span class="mi">6</span>   <span class="p">,</span> <span class="mi">7</span>   <span class="p">,</span> <span class="mi">8</span>   <span class="p">]</span>
+<span class="n">index</span>   <span class="mi">0</span>     <span class="mi">1</span>     <span class="mi">2</span>     <span class="mi">3</span>     <span class="mi">4</span>     <span class="mi">5</span>     <span class="mi">6</span>     <span class="mi">7</span>
+<span class="n">addrs</span>  <span class="mi">1000</span>  <span class="mi">1008</span>  <span class="mi">1016</span>  <span class="mi">1024</span>  <span class="mi">1032</span>  <span class="mi">1040</span>  <span class="mi">1048</span>  <span class="mi">1056</span>
 </pre></div>
 
 

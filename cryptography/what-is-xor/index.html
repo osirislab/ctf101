@@ -2279,14 +2279,14 @@
 <p><img alt="XOR Basics" src="../images/xor.png" /></p>
 <h2 id="what-does-this-have-to-do-with-ctf">What does this have to do with CTF?<a class="headerlink" href="#what-does-this-have-to-do-with-ctf" title="Permanent link">&para;</a></h2>
 <p>XOR is a cheap way to encrypt data with a password. Any data can be encrypted using XOR as shown in this Python example:</p>
-<div class="codehilite"><pre><span></span>&gt;&gt;&gt; data = &#39;CAPTURETHEFLAG&#39;
-&gt;&gt;&gt; key = &#39;A&#39;
-&gt;&gt;&gt; encrypted = &#39;&#39;.join([chr(ord(x) ^ ord(key)) for x in data])
-&gt;&gt;&gt; encrypted
-&#39;\x02\x00\x11\x15\x14\x13\x04\x15\t\x04\x07\r\x00\x06&#39;
-&gt;&gt;&gt; decrypted = &#39;&#39;.join([chr(ord(x) ^ ord(key)) for x in encrypted])
-&gt;&gt;&gt; decrypted
-&#39;CAPTURETHEFLAG&#39;
+<div class="codehilite"><pre><span></span><span class="o">&gt;&gt;&gt;</span> <span class="n">data</span> <span class="o">=</span> <span class="s1">&#39;CAPTURETHEFLAG&#39;</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">key</span> <span class="o">=</span> <span class="s1">&#39;A&#39;</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">encrypted</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="nb">chr</span><span class="p">(</span><span class="nb">ord</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="n">key</span><span class="p">))</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">data</span><span class="p">])</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">encrypted</span>
+<span class="s1">&#39;</span><span class="se">\x02\x00\x11\x15\x14\x13\x04\x15\t\x04\x07\r\x00\x06</span><span class="s1">&#39;</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">decrypted</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="nb">chr</span><span class="p">(</span><span class="nb">ord</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">^</span> <span class="nb">ord</span><span class="p">(</span><span class="n">key</span><span class="p">))</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">encrypted</span><span class="p">])</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">decrypted</span>
+<span class="s1">&#39;CAPTURETHEFLAG&#39;</span>
 </pre></div>
 
 

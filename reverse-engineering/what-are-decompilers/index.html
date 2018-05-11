@@ -2172,7 +2172,7 @@
 
 <h1 id="decompilers">Decompilers<a class="headerlink" href="#decompilers" title="Permanent link">&para;</a></h1>
 <p>Decompilers do the impossible and reverse compiled code <em>back</em> into psuedocode/code.</p>
-<p>IDA offers HexRays, which translates machine code into a higher language pseudocode. </p>
+<p>IDA offers HexRays, which translates machine code into a higher language pseudocode.</p>
 <p><img alt="Hex Rays" src="../images/ida-decompiler.png" /></p>
 <h2 id="example-workflow">Example Workflow<a class="headerlink" href="#example-workflow" title="Permanent link">&para;</a></h2>
 <p>Let's say we are disassembling a program which has the source code:</p>
@@ -2232,33 +2232,33 @@ d!
 
 
 <p>If we are given a binary compiled from that source and we want to figure out how the source looks, we can use a decompiler to get c pseudocode which we can then use to reconstruct the function. The sample decompilation can look like:</p>
-<div class="codehilite"><pre><span></span><span class="n">printSpacer</span><span class="o">:</span>
-<span class="n">int</span> <span class="n">__fastcall</span> <span class="n">printSpacer</span><span class="o">(</span><span class="n">int</span> <span class="n">a1</span><span class="o">)</span>
-<span class="o">{</span>
-  <span class="n">int</span> <span class="n">i</span><span class="o">;</span> <span class="c1">// [rsp+8h] [rbp-8h]</span>
+<div class="codehilite"><pre><span></span><span class="nl">printSpacer</span><span class="p">:</span>
+<span class="kt">int</span> <span class="kr">__fastcall</span> <span class="n">printSpacer</span><span class="p">(</span><span class="kt">int</span> <span class="n">a1</span><span class="p">)</span>
+<span class="p">{</span>
+  <span class="kt">int</span> <span class="n">i</span><span class="p">;</span> <span class="c1">// [rsp+8h] [rbp-8h]</span>
 
-  <span class="k">for</span> <span class="o">(</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">a1</span><span class="o">;</span> <span class="o">++</span><span class="n">i</span> <span class="o">)</span>
-    <span class="n">printf</span><span class="o">(</span><span class="s2">&quot;-&quot;</span><span class="o">);</span>
-  <span class="k">return</span> <span class="n">printf</span><span class="o">(</span><span class="s2">&quot;\n&quot;</span><span class="o">);</span>
-<span class="o">}</span>
+  <span class="k">for</span> <span class="p">(</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">a1</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span> <span class="p">)</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">&quot;-&quot;</span><span class="p">);</span>
+  <span class="k">return</span> <span class="nf">printf</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+<span class="p">}</span>
 
-<span class="n">main</span><span class="o">:</span>
-<span class="n">int</span> <span class="n">__cdecl</span> <span class="n">main</span><span class="o">(</span><span class="n">int</span> <span class="n">argc</span><span class="o">,</span> <span class="kd">const</span> <span class="n">char</span> <span class="o">**</span><span class="n">argv</span><span class="o">,</span> <span class="kd">const</span> <span class="n">char</span> <span class="o">**</span><span class="n">envp</span><span class="o">)</span>
-<span class="o">{</span>
-  <span class="n">int</span> <span class="n">v4</span><span class="o">;</span> <span class="c1">// [rsp+18h] [rbp-18h]</span>
-  <span class="n">signed</span> <span class="n">int</span> <span class="n">i</span><span class="o">;</span> <span class="c1">// [rsp+1Ch] [rbp-14h]</span>
+<span class="nl">main</span><span class="p">:</span>
+<span class="kt">int</span> <span class="kr">__cdecl</span> <span class="n">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="k">const</span> <span class="kt">char</span> <span class="o">**</span><span class="n">argv</span><span class="p">,</span> <span class="k">const</span> <span class="kt">char</span> <span class="o">**</span><span class="n">envp</span><span class="p">)</span>
+<span class="p">{</span>
+  <span class="kt">int</span> <span class="n">v4</span><span class="p">;</span> <span class="c1">// [rsp+18h] [rbp-18h]</span>
+  <span class="kt">signed</span> <span class="kt">int</span> <span class="n">i</span><span class="p">;</span> <span class="c1">// [rsp+1Ch] [rbp-14h]</span>
 
-  <span class="k">for</span> <span class="o">(</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">13</span><span class="o">;</span> <span class="o">++</span><span class="n">i</span> <span class="o">)</span>
-  <span class="o">{</span>
-    <span class="n">v4</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="o">;</span>
-    <span class="n">printf</span><span class="o">(</span><span class="s2">&quot;%c&quot;</span><span class="o">,</span> <span class="o">(</span><span class="n">unsigned</span> <span class="n">int</span><span class="o">)</span><span class="n">aHelloWorld</span><span class="o">[</span><span class="n">i</span><span class="o">],</span> <span class="n">envp</span><span class="o">);</span>
-    <span class="k">while</span> <span class="o">(</span> <span class="n">v4</span> <span class="o">&lt;</span> <span class="mi">13</span> <span class="o">)</span>
-      <span class="n">printf</span><span class="o">(</span><span class="s2">&quot;%c&quot;</span><span class="o">,</span> <span class="o">(</span><span class="n">unsigned</span> <span class="n">int</span><span class="o">)</span><span class="n">aHelloWorld</span><span class="o">[</span><span class="n">v4</span><span class="o">++]);</span>
-    <span class="n">printf</span><span class="o">(</span><span class="s2">&quot;\n&quot;</span><span class="o">);</span>
-    <span class="n">printSpacer</span><span class="o">(</span><span class="mi">13</span> <span class="o">-</span> <span class="n">i</span><span class="o">);</span>
-  <span class="o">}</span>
-  <span class="k">return</span> <span class="mi">0</span><span class="o">;</span>
-<span class="o">}</span>
+  <span class="k">for</span> <span class="p">(</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">13</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span> <span class="p">)</span>
+  <span class="p">{</span>
+    <span class="n">v4</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">&quot;%c&quot;</span><span class="p">,</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="kt">int</span><span class="p">)</span><span class="n">aHelloWorld</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">envp</span><span class="p">);</span>
+    <span class="k">while</span> <span class="p">(</span> <span class="n">v4</span> <span class="o">&lt;</span> <span class="mi">13</span> <span class="p">)</span>
+      <span class="n">printf</span><span class="p">(</span><span class="s">&quot;%c&quot;</span><span class="p">,</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="kt">int</span><span class="p">)</span><span class="n">aHelloWorld</span><span class="p">[</span><span class="n">v4</span><span class="o">++</span><span class="p">]);</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+    <span class="n">printSpacer</span><span class="p">(</span><span class="mi">13</span> <span class="o">-</span> <span class="n">i</span><span class="p">);</span>
+  <span class="p">}</span>
+  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
 </pre></div>
 
 

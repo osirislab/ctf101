@@ -2240,7 +2240,7 @@
 <p><img alt="ECB Encryption" src="../images/ecb-encryption.png" />
 <img alt="ECB Decryption" src="../images/ecb-decryption.png" /></p>
 <h4 id="flaws">Flaws<a class="headerlink" href="#flaws" title="Permanent link">&para;</a></h4>
-<p>Because EBC independently encrypts the blocks, patterns in data can still be seen clearly, as shown in the CBC Penguin image below.</p>
+<p>Because ECB independently encrypts the blocks, patterns in data can still be seen clearly, as shown in the CBC Penguin image below.</p>
 <table>
 <thead>
 <tr>
@@ -2258,7 +2258,7 @@
 </tbody>
 </table>
 <h3 id="cipher-block-chaining-cbc">Cipher Block Chaining (CBC)<a class="headerlink" href="#cipher-block-chaining-cbc" title="Permanent link">&para;</a></h3>
-<p>CBC is an improvement upon ECB where an Initialization Vector is used in order to add randomness. The encrypted previous block is used as the IV for each sequential block meaning that the encryption process cannot be parallelized. CBC has been declining in popularity due to a variety of </p>
+<p>CBC is an improvement upon ECB where an Initialization Vector is used in order to add randomness. The encrypted previous block is used as the IV for each sequential block meaning that the encryption process cannot be parallelized. CBC has been declining in popularity due to a variety of</p>
 <p><img alt="CBC Encryption" src="../images/cbc-encryption.png" />
 <img alt="CBC Decryption" src="../images/cbc-decryption.png" /></p>
 <div class="admonition note">

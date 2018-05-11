@@ -11,3 +11,11 @@ div[role=main] img {
     -moz-border-radius: 0 !important;
     border-radius: 0 !important;
 }
+
+.codehilite {
+    overflow: scroll;
+}
+
+.codehilite > pre {
+    overflow: scroll;
+}

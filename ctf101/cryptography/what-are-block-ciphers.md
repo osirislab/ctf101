@@ -35,7 +35,7 @@ ECB is the most basic block cipher, it simply chunks up plaintext into blocks an
 
 #### Flaws
 
-Because EBC independently encrypts the blocks, patterns in data can still be seen clearly, as shown in the CBC Penguin image below.
+Because ECB independently encrypts the blocks, patterns in data can still be seen clearly, as shown in the CBC Penguin image below.
 
 | Original Image | ECB Image | Other Block Cipher Modes |
 | --- | --- | --- |
@@ -43,7 +43,7 @@ Because EBC independently encrypts the blocks, patterns in data can still be see
 
 ### Cipher Block Chaining (CBC)
 
-CBC is an improvement upon ECB where an Initialization Vector is used in order to add randomness. The encrypted previous block is used as the IV for each sequential block meaning that the encryption process cannot be parallelized. CBC has been declining in popularity due to a variety of 
+CBC is an improvement upon ECB where an Initialization Vector is used in order to add randomness. The encrypted previous block is used as the IV for each sequential block meaning that the encryption process cannot be parallelized. CBC has been declining in popularity due to a variety of
 
 ![CBC Encryption](images/cbc-encryption.png)
 ![CBC Decryption](images/cbc-decryption.png)

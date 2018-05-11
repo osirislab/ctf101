@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Capture The Flag 101\n\n\nWelcome\n\n\nCapture The Flags, or CTFs, are a kind of computer security competition.\n\n\nTeams of competitors (or just individuals) are pitted against each other in a test of computer security skill.\n\n\nVery often CTFs are the beginning of one's cyber security career due to their team building nature and competetive aspect. In addition, there isn't a lot of commitment required beyond a weekend.\n\n\nIn this guide/wiki/handbook you'll learn the techniques, thought processes, and methodologies you need to succeed in Capture the Flag competitions.", 
+            "text": "Capture The Flag 101\n\n\nWelcome\n\n\nCapture The Flags, or CTFs, are a kind of computer security competition.\n\n\nTeams of competitors (or just individuals) are pitted against each other in a test of computer security skill.\n\n\nVery often CTFs are the beginning of one's cyber security career due to their team building nature and competetive aspect. In addition, there isn't a lot of commitment required beyond a weekend.\n\n\nIn this guide/wiki/handbook you'll learn the techniques, thought processes, and methodologies you need to succeed in Capture the Flag competitions.\n\n\n\n\n\n  \n\n    \n\n        \n\n            \n\n            \nForensics\n\n        \n\n    \n\n    \n\n        \n\n            \n\n            \nCryptography\n\n        \n\n    \n\n    \n\n        \n\n            \n\n            \nWeb Exploitation\n\n        \n\n    \n\n    \n\n        \n\n            \n\n            \nReverse Engineering\n\n        \n\n    \n\n    \n\n        \n\n            \n\n            \nBinary Exploitation", 
             "title": "Index"
         }, 
         {

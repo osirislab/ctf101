@@ -7,5 +7,5 @@ By Crowell
 
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 

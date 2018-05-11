@@ -10,6 +10,6 @@ Nevernote Admin
 ```
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 
 Check out [Parameter Tampering](https://www.owasp.org/index.php/Web_Parameter_Tampering)

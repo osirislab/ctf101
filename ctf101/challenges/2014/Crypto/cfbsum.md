@@ -9,5 +9,5 @@ By Agre
 
 - [Block Ciphers](/cryptography/what-are-block-ciphers/)
 
-## Synopsis
+## Additional Information
 

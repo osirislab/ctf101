@@ -9,5 +9,5 @@ Run with qemu-system-i386 -drive format=raw,file=cyberwar.rom
 
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 

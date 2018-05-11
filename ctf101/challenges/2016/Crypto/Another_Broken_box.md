@@ -6,5 +6,5 @@ My box seems to be broken again... But not the hardware this time.
 
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 

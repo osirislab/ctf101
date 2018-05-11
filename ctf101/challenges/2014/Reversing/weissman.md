@@ -9,5 +9,5 @@ Extract the key!
 
 - [Hashing Functions](/cryptography/what-are-hashing-functions/)
 - [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
-## Synopsis
+## Additional Information
 

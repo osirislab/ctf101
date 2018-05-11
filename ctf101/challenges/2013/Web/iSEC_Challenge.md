@@ -3,6 +3,6 @@ ACME Co's update server has been stolen and posted on the internet. It seems lik
 
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 
 Check out [Race Conditions](https://en.wikipedia.org/wiki/Race_condition)

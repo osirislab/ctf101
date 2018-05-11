@@ -8,5 +8,5 @@ Gofaster doesn't go very fast you should go make it go faster.
 ## Topics Covered
 
 - [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
-## Synopsis
+## Additional Information
 

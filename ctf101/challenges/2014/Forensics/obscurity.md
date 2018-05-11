@@ -1,11 +1,7 @@
 # Obscurity
-
 By Budofsky
 
-
-
 see or do not see
-## Topics Covered
 
-## Synopsis
-
+## Additional Information
+Sometimes PDF's have elements that are hidden...

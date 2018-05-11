@@ -5,5 +5,5 @@ SCV is too hungry to mine the minerals. Can you give him some food?
 - [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
 - [Stack Cookies/Canaries](/binary-exploitation/stack-canaries/)
 - [Return Oriented Programming](/binary-exploitation/return-oriented-programming/)
-## Synopsis
+## Additional Information
 

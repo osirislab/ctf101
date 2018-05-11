@@ -8,5 +8,5 @@ We got a little lazy so we just tweaked an old one a bit
 ## Topics Covered
 
 - [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
-## Synopsis
+## Additional Information
 

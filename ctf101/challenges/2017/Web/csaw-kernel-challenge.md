@@ -5,6 +5,6 @@ We developed a much better alternative to AWS. Our high-performance kernel drive
 
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 
 Cloud Object Storage With Kernel Acceleration

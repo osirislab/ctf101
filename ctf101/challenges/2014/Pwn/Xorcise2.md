@@ -8,5 +8,5 @@ hard as fuck
 ## Topics Covered
 
 - [XOR](/cryptography/what-is-xor/)
-## Synopsis
+## Additional Information
 

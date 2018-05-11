@@ -9,5 +9,5 @@ PLC challenge round 2.
 ## Topics Covered
 
 - [The C Programming Language](/reverse-engineering/what-is-c/)
-## Synopsis
+## Additional Information
 

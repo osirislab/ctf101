@@ -8,5 +8,5 @@ By Antoniweicz
 Well... The fluff needs your stuff. I've pulled the logs from the server for you along with a backup of it's database and configuration. Figure out what is going on!"
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 

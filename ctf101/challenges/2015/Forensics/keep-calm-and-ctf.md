@@ -8,7 +8,5 @@ My friend sends me pictures before every ctf. He told me this one was special.
 
 ## Topics Covered
 
-- [Steganography](/forensics/what-is-steganography/)
-
-## Synopsis
+- [Metadata](/forensics/what-is-metadata/)
 

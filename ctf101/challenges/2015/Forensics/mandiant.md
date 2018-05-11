@@ -7,6 +7,6 @@ We found this file. Help Mandiant figure out what APT1 is trying to send.
 
 - [Disk Imaging](/forensics/what-is-disk-imaging/)
 
-## Synopsis
+## Additional Information
 
 Check out free_file_camouflage

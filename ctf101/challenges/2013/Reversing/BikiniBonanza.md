@@ -3,6 +3,6 @@
 ## Topics Covered
 
 - [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
-## Synopsis
+## Additional Information
 
 This is .NET Reversing with slight obfuscation.

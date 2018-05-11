@@ -8,5 +8,5 @@ By Kevin Chung
 
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 

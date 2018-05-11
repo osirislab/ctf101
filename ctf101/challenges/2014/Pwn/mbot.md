@@ -9,5 +9,5 @@ By Crowell
 
 - [ASLR](/binary-exploitation/address-space-layout-randomization/)
 - [No eXecute](/binary-exploitation/no-execute/)
-## Synopsis
+## Additional Information
 

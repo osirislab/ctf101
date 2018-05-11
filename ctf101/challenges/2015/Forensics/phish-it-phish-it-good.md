@@ -6,7 +6,3 @@ Someone got phished after running an executable, help me find out what info the 
 !!!note
     The format for this challenge is key{}
 
-## Topics Covered
-
-## Synopsis
-

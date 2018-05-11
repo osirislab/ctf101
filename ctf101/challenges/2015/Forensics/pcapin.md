@@ -9,6 +9,6 @@ We have extracted a pcap file from a network where attackers were present.  We k
 ## Topics Covered
 
 - [Wireshark](/forensics/what-is-wireshark/)
-## Synopsis
+## Additional Information
 
 The file you are looking for is a png, the key is not in the bytes, its in the png itself.

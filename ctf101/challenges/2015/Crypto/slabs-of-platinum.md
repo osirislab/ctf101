@@ -9,5 +9,5 @@ You showed great skill with the last target! But we have found the encrypted ima
 Can you help us?
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 

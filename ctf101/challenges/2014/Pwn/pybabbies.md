@@ -7,5 +7,5 @@ By Chung
 so secure it hurts
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 

@@ -1,6 +1,7 @@
 # Scrambled
 Scrambled Fun for Everyone! 
-## Topics Covered
 
-## Synopsis
+## Additional Information
+I'm sorry to break it to you, but esoteric languages exist...
 
+...you may also want to take a close look at the pixels.

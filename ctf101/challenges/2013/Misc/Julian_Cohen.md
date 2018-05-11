@@ -7,5 +7,5 @@ By Cohen
 The first step of owning a target is recon!
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 

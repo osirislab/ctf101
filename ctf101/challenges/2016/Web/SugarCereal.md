@@ -5,5 +5,5 @@ you should be doing.
 
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 

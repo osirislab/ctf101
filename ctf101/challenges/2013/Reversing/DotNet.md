@@ -4,5 +4,5 @@
 
 - [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
 - [XOR](/cryptography/what-is-xor/)
-## Synopsis
+## Additional Information
 

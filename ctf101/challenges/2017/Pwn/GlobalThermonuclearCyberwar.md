@@ -17,5 +17,5 @@ Pwn
 
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 

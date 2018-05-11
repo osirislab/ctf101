@@ -4,6 +4,6 @@ The SCP organization you to join, accept and see if you can take advantage of th
 
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 
 What recon can you perform on the SCP interns? Are the interns vulnerable to information leakage?

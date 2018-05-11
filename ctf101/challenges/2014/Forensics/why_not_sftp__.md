@@ -1,12 +1,8 @@
 # Why not SFTP?
-
 By Budofsky
 
-
-
 well seriously, why not? 
-## Topics Covered
 
+## Topics Covered
 - [Wireshark](/forensics/what-is-wireshark/)
-## Synopsis
 

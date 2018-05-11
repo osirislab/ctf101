@@ -5,5 +5,5 @@ We just recently set up our crypto for a new project. We'll give you the flag if
 
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 

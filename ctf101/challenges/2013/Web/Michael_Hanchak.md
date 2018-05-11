@@ -8,5 +8,5 @@ It would be a crime to not put these charming lol catz in good homes. We at Poly
 ## Topics Covered
 
 - [PHP](/web-exploitation/php/what-is-php/)
-## Synopsis
+## Additional Information
 

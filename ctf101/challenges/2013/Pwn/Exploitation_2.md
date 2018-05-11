@@ -2,5 +2,5 @@
 
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 

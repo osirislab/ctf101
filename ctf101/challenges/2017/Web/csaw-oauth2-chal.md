@@ -8,5 +8,5 @@ We found this weird site that lets you send short messages of a much better leng
 
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 

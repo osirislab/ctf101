@@ -24,5 +24,5 @@ _Hat, sun glasses, and joint are adorned on Optimus Prime_
 
 - [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
 
-## Synopsis
+## Additional Information
 

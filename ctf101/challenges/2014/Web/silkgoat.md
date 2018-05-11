@@ -7,5 +7,5 @@ By Ahmed
 {{hacker manifesto}}
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 

@@ -7,6 +7,6 @@ I think my SATA controller is dying.
 
 - [Disk Imaging](/forensics/what-is-disk-imaging/)
 
-## Synopsis
+## Additional Information
 
 `git fsck -v`

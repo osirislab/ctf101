@@ -5,5 +5,5 @@
 4. What is the new web technology that provides a web browser full-duplex communication to a web server over a single connection?
 5. What is the x86 processor operating mode for running 64-bit code?
 
-## Synopsis
+## Additional Information
 

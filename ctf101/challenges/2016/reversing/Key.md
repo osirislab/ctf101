@@ -7,5 +7,5 @@ So I like to make my life difficult, and instead of a password manager, I make c
 
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 

@@ -10,5 +10,5 @@ nc 54.164.94.180 1939
 ## Topics Covered
 
 - [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
-## Synopsis
+## Additional Information
 

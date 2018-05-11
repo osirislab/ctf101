@@ -5,6 +5,6 @@ I've had no luck running this on anything but Ubuntu 17.10.  Use a sandbox for t
 ## Topics Covered
 
 - [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
-## Synopsis
+## Additional Information
 
 To implement: 42 really is the answer to everything

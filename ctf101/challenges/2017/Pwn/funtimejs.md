@@ -6,5 +6,5 @@ Right?
 
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 

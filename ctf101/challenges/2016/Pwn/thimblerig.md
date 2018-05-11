@@ -2,5 +2,5 @@
 This guy has shells!
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 

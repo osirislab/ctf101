@@ -3,5 +3,5 @@
 ## Topics Covered
 
 - [Wireshark](/forensics/what-is-wireshark/)
-## Synopsis
+## Additional Information
 

@@ -3,6 +3,6 @@ A killer always leaves a encrypted message at the crime scene. The FBI collected
 
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 
 They found this killer is a Zodiac copycat."

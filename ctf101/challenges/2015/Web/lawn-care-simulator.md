@@ -8,5 +8,5 @@ By Beastes
 
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 

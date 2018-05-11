@@ -7,5 +7,5 @@ We found a manual for a strange old machine in our closet, as well as a ROM. The
 
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 

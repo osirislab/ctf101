@@ -11,5 +11,5 @@ t3h PeNgU1N oF d00m
 ## Topics Covered
 
 - [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
-## Synopsis
+## Additional Information
 

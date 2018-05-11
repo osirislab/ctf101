@@ -4,6 +4,6 @@
 ## Topics Covered
 
 - [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
-## Synopsis
+## Additional Information
 
 This is a compiled rust binary, with symbols and you need to solve the game. 

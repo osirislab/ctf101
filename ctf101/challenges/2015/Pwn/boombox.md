@@ -9,5 +9,5 @@ Password: CSAW2015
 
 - [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
 
-## Synopsis
+## Additional Information
 

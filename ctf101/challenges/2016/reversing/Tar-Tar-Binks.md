@@ -8,5 +8,5 @@ Mesa day startin pretty okee-day with a brisky morning munchy, then BOOM! Gettin
 
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 

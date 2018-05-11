@@ -7,5 +7,5 @@ Since the Ashley Madison hack, a lot of high profile socialites have scrambled t
 
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 

@@ -9,6 +9,6 @@ By Stortz
 
 - [RSA](/cryptography/what-is-rsa/)
 - [Hashing Functions](/cryptography/what-are-hashing-functions/)
-## Synopsis
+## Additional Information
 
 Take a look at how python bytecode works. 

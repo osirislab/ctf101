@@ -9,7 +9,7 @@ If you don't have a OS X box you can ssh here after requesting it.
 - [Debuggers](/reverse-engineering/what-is-gdb/)
 - [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
 
-## Synopsis
+## Additional Information
 
 - <https://www.mikeash.com/pyblog/friday-qa-2013-01-11-mach-exception-handlers.html>
 - <https://github.com/gdbinit/readmem>

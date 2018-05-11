@@ -8,5 +8,5 @@ By Taylor
 ## Topics Covered
 
 - [Hex Editors](/forensics/what-are-hex-editors/)
-## Synopsis
+## Additional Information
 

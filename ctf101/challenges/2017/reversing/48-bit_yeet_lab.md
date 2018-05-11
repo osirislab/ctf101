@@ -12,5 +12,5 @@ Its just another bomb lab.
 - [Registers](/binary-exploitation/what-are-registers/)
 - [Debuggers](/reverse-engineering/what-is-gdb/)
 
-## Synopsis
+## Additional Information
 

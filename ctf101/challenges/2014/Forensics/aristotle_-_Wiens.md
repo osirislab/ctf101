@@ -8,6 +8,6 @@ Here's a PCAP, the flag you need to submit is in the form flag{wordonewordtwowor
 ## Topics Covered
 
 - [Wireshark](/forensics/what-is-wireshark/)
-## Synopsis
+## Additional Information
 
 If you're having trouble take a look at [http://www.cyber1.org/pterm.asp](http://www.cyber1.org/pterm.asp)

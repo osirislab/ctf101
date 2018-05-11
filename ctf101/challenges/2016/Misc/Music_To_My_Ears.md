@@ -5,7 +5,7 @@ Yo fam have you listened to my mixtape?
 
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 
 The recon spans multiple sites.
 ![img](http://www.souljuicin.com/wp-content/uploads/2014/12/resized_425x282_red-beet.jpg)

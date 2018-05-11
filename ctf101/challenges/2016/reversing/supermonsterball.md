@@ -12,5 +12,5 @@ For this challenge, you must defeat the Monster master -- Professor Vick. You'll
 
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 

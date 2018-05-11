@@ -2,5 +2,5 @@
 Solve Gophers1, and it will tell you what to do.
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 

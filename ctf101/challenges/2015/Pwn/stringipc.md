@@ -6,5 +6,5 @@ StringIPC_Updated contains the exact source of the module running on the VM
 
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 

@@ -25,7 +25,7 @@ Mappings for running process on server:
 
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 
 So exit does a bit of stuff before it actually exists. try walking through it, you might find something interesting...
 

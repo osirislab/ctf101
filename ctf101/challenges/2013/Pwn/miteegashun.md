@@ -6,6 +6,6 @@ Security is solved.
 - [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
 - [Buffer Overflow](/binary-exploitation/buffer-overflow/)
 
-## Synopsis
+## Additional Information
 
 You don't need an info leak.

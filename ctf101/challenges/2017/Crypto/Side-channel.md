@@ -8,5 +8,5 @@ By [eshard](https://www.eshard.com)
 ## Topics Covered
 
 - [XOR](/cryptography/what-is-xor/)
-## Synopsis
+## Additional Information
 

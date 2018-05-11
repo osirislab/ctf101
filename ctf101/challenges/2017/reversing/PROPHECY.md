@@ -3,5 +3,5 @@ The prophecy is more important than either of us! Reveal its secrets, Zeratul! T
 ## Topics Covered
 
 - [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
-## Synopsis
+## Additional Information
 

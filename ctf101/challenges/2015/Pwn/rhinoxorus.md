@@ -10,5 +10,5 @@ By Edwards
 
 - [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
 - [Debuggers](/reverse-engineering/what-is-gdb/)
-## Synopsis
+## Additional Information
 

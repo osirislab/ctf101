@@ -9,5 +9,5 @@ Something, something, data, something, something, big
 
 - [Wireshark](/forensics/what-is-wireshark/)
 
-## Synopsis
+## Additional Information
 

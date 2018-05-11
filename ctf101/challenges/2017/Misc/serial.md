@@ -2,6 +2,6 @@
 
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 
 This is a basic programming challenge that sends data sorta like rs232.

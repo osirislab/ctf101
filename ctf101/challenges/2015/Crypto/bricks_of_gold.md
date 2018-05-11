@@ -7,5 +7,5 @@ We've captured this encrypted file being smuggled into the country. All we know 
 
 - [Block Ciphers](/cryptography/what-are-block-ciphers/)
 
-## Synopsis
+## Additional Information
 Take a second look at the file for elements needed for the crypto

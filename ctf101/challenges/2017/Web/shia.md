@@ -26,5 +26,5 @@ Stop giving up
 
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 

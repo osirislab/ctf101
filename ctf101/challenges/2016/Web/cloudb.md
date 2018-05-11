@@ -7,5 +7,5 @@ I'm working on this new service which allows you to store notes, TODOs, and more
 
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 

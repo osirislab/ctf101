@@ -11,5 +11,5 @@ Brute strength has failed and now only magic can save us. Use your skills to def
 
 - [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
 - [Debuggers](/reverse-engineering/what-is-gdb/)
-## Synopsis
+## Additional Information
 

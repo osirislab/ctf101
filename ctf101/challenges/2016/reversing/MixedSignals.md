@@ -4,5 +4,5 @@ Find it on the shell server in `/challenges/mixed-signals`
 ## Topics Covered
 
 - [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
-## Synopsis
+## Additional Information
 

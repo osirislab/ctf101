@@ -10,6 +10,6 @@ only the most exclusive members are ever invited. We need you to break into the 
 
 - [Block Ciphers](/cryptography/what-are-block-ciphers/)
 
-## Synopsis
+## Additional Information
 
 There are two separate bugs required to solve this challenge.

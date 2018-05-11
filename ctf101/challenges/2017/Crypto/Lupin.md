@@ -5,5 +5,5 @@ A post-quantum cryptosystem solvable by LayPersoNs
 
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 

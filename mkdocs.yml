@@ -70,8 +70,7 @@ pages:
       - Flash: 'challenges/2015/forensics/flash.md'
       - Dumptster Diving: 'challenges/2014/forensics/dumpster_diving.md'
     - Medium:
-      - Ladykiller: 'challenges/2016/Forensics/ladykiller.md'
-      - Deeeeeeaaaaaadbeeeeeeeeeef: 'challenges/2013/Forensics/Deeeeeeaaaaaadbeeeeeeeeeef.md'
+      - deeeeeeaaaaaadbeeeeeeeeeef: 'challenges/2013/Forensics/Deeeeeeaaaaaadbeeeeeeeeeef.md'
       - Best Router: 'challenges/2017/Forensics/best_router.md'
       - Thoroughly Stripped: 'challenges/2017/forensics/thoroughlyStripped.md'
       - Pure Poetry: 'challenges/2016/forensics/pure_poetry.md'

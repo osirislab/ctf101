@@ -3,5 +3,5 @@ Ok sport, now that you have had your Warmup, maybe you want to checkout the Tuto
 ## Topics Covered
 
 - [Return Oriented Programming](/binary-exploitation/return-oriented-programming/)
-## Synopsis
+## Additional Information
 

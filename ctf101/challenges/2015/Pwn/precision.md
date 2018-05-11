@@ -8,5 +8,5 @@ By Liang
 
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 

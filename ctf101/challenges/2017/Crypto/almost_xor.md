@@ -5,5 +5,5 @@ Update Sun 3:24 Eastern: merged the 2 lines to make it clear that it's a single 
 ## Topics Covered
 
 - [XOR](/cryptography/what-is-xor/)
-## Synopsis
+## Additional Information
 

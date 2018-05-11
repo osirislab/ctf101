@@ -7,5 +7,5 @@ By Edwards
 
 ## Topics Covered
 
-## Synopsis
+## Additional Information
 

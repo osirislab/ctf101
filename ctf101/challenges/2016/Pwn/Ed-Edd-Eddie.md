@@ -5,5 +5,5 @@ Buttered Toast, Double Dee.
 - [The Stack](/binary-exploitation/what-is-the-stack/)
 - [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
 - [Debuggers](/reverse-engineering/what-is-gdb/)
-## Synopsis
+## Additional Information
 

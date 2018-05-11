@@ -15,31 +15,31 @@ In this guide/wiki/handbook you'll learn the techniques, thought processes, and 
 <div class="container">
   <div class="row">
     <div class="col-md-2">
-        <a href="/forensics/introduction/">
+        <a href="/forensics/overview/">
             <img class="no-zoom" width="100px" src="/images/forensics.png">
             <h3>Forensics</h3>
         </a>
     </div>
     <div class="col-md-2">
-        <a href="/cryptography/introduction/">
+        <a href="/cryptography/overview/">
             <img class="no-zoom" width="100px" src="/images/cryptography.png">
             <h3>Cryptography</h3>
         </a>
     </div>
     <div class="col-md-2">
-        <a href="/web-exploitation/introduction/">
+        <a href="/web-exploitation/overview/">
             <img class="no-zoom" width="100px" src="/images/web.png">
             <h3>Web Exploitation</h3>
         </a>
     </div>
     <div class="col-md-2">
-        <a href="/reverse-engineering/introduction/">
+        <a href="/reverse-engineering/overview/">
             <img class="no-zoom" width="100px" src="/images/reversing.png">
             <h3>Reverse Engineering</h3>
         </a>
     </div>
     <div class="col-md-2">
-        <a href="/binary-exploitation/introduction/">
+        <a href="/binary-exploitation/overview/">
             <img class="no-zoom" width="100px" src="/images/exploitation.png">
             <h3>Binary Exploitation</h3>
         </a>

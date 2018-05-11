@@ -29,7 +29,7 @@ pages:
 
 # Forensics Section
 - Forensics:
-  - Introduction: 'forensics/introduction.md'
+  - Overview: 'forensics/overview.md'
 
   - File Formats:
     - What are File Formats: 'forensics/what-are-file-formats.md'
@@ -53,9 +53,120 @@ pages:
     - What is a Hex Editor: 'forensics/what-is-a-hex-editor.md'
 
 
-  - Challenges:
+# Cryptography Section
+- Cryptography:
+  - Overview: 'cryptography/overview.md'
+
+  - XOR:
+    - What is XOR: 'cryptography/what-is-xor.md'
+
+  - Substitution Cipher:
+    - What is a Substitution Cipher: 'cryptography/what-is-a-substitution-cipher.md'
+    - Caesar Cipher/ROT 13: 'cryptography/what-is-caesar-cipher-rot-13.md'
+
+  - Vigenere Cipher:
+    - What is a Vigenere Cipher: 'cryptography/what-is-a-vigenere-cipher.md'
+
+  - Hashing Functions:
+    - What are Hashing Functions: 'cryptography/what-are-hashing-functions.md'
+
+  - Modes of Operation:
+    - What are Block Ciphers: 'cryptography/what-are-block-ciphers.md'
+    - What are Stream Ciphers: 'cryptography/what-are-stream-ciphers.md'
+
+  - RSA:
+    - What is RSA: 'cryptography/what-is-rsa.md'
+
+
+# Web Exploitation Section
+- Web Exploitation:
+  - Overview: 'web-exploitation/overview.md'
+
+  - SQL Injection:
+    - What is SQL Injection: 'web-exploitation/sql-injection/what-is-sql-injection.md'
+
+  - Command Injection:
+    - What is Command Injection: 'web-exploitation/command-injection/what-is-command-injection.md'
+
+  - Directory Traversal:
+    - What is Directory Traversal: 'web-exploitation/directory-traversal/what-is-directory-traversal.md'
+
+  - Cross Site Request Forgery:
+    - What is Cross Site Request Forgery: 'web-exploitation/cross-site-request-forgery/what-is-cross-site-request-forgery.md'
+
+  - Cross Site Scripting (XSS):
+    - What is Cross Site Scripting: 'web-exploitation/cross-site-scripting/what-is-cross-site-scripting.md'
+
+  - Server Side Request Forgery:
+    - What is Server Side Request Forgery: 'web-exploitation/server-side-request-forgery/what-is-server-side-request-forgery.md'
+
+  - PHP:
+    - What is PHP?: 'web-exploitation/php/what-is-php.md'
+
+
+# Reverse Engineering Section
+- Reverse Engineering:
+  - Overview: 'reverse-engineering/overview.md'
+
+  - Assembly/Machine Code:
+    - What is Assembly/Machine Code: 'reverse-engineering/what-is-assembly-machine-code.md'
+
+  - The C Programming Language:
+    - What is C: 'reverse-engineering/what-is-c.md'
+
+  - Disassemblers:
+    - What are Disassemblers: 'reverse-engineering/what-are-disassemblers.md'
+
+  - Debuggers:
+    - What is GDB: 'reverse-engineering/what-is-gdb.md'
+
+  - Decompilers:
+    - What are Decompilers: 'reverse-engineering/what-are-decompilers.md'
+
+
+#  Binary Exploitation Section
+- Binary Exploitation:
+  - Overview: 'binary-exploitation/overview.md'
+
+  - Registers:
+    - What are Registers: 'binary-exploitation/what-are-registers.md'
+
+  - The Stack:
+    - What is the Stack: 'binary-exploitation/what-is-the-stack.md'
+
+  - Calling Conventions:
+    - What are Calling Conventions: 'binary-exploitation/what-are-calling-conventions.md'
+
+  - Global Offset Table (GOT):
+    - What is the GOT: 'binary-exploitation/what-is-the-got.md'
+
+  - Buffers:
+    - What are Buffers: 'binary-exploitation/what-are-buffers.md'
+    - Buffer Overflow: 'binary-exploitation/buffer-overflow.md'
+
+  - Return Oriented Programming (ROP):
+    - What is ROP: 'binary-exploitation/return-oriented-programming.md'
+
+  - Binary Security:
+    - What is Binary Security: 'binary-exploitation/what-is-binary-security.md'
+    - No eXecute (NX): 'binary-exploitation/no-execute.md'
+    - Address Space Layout Randomization (ASLR): 'binary-exploitation/address-space-layout-randomization.md'
+    - Stack Canaries: 'binary-exploitation/stack-canaries.md'
+    - Relocation Read-Only (RELRO): 'binary-exploitation/relocation-read-only.md'
+
+  - The Heap:
+    - What is the Heap: 'binary-exploitation/what-is-the-heap.md'
+    - Heap Exploitation: 'binary-exploitation/heap-exploitation.md'
+
+  - Format String Vulnerability:
+    - What is a Format String Vulnerability: 'binary-exploitation/what-is-a-format-string-vulnerability.md'
+
+# - Miscellaneous: '404.md'
+
+- Challenges:
+  - Forensics:
     - Easy:
-      - Missed Registration: 'challenges/2017/forensics/missed_registration.md'
+      - Missed Registration-hidden: 'challenges/2017/forensics/missed_registration.md'
       - Clams Don't Dance: 'challenges/2016/forensics/Clams_Dont_Dance.md'
       - Kill: 'challenges/2016/forensics/Kill.md'
       - Brainfun: 'challenges/2016/forensics/brainfun.md'
@@ -87,32 +198,7 @@ pages:
       - Aristotle: 'challenges/2014/forensics/aristotle_-_Wiens.md'
       - Fluffy No More: 'challenges/2014/forensics/Fluffy_No_More.md'
 
-
-# Cryptography Section
-- Cryptography:
-  - Introduction: 'cryptography/introduction.md'
-
-  - XOR:
-    - What is XOR: 'cryptography/what-is-xor.md'
-
-  - Substitution Cipher:
-    - What is a Substitution Cipher: 'cryptography/what-is-a-substitution-cipher.md'
-    - Caesar Cipher/ROT 13: 'cryptography/what-is-caesar-cipher-rot-13.md'
-
-  - Vigenere Cipher:
-    - What is a Vigenere Cipher: 'cryptography/what-is-a-vigenere-cipher.md'
-
-  - Hashing Functions:
-    - What are Hashing Functions: 'cryptography/what-are-hashing-functions.md'
-
-  - Modes of Operation:
-    - What are Block Ciphers: 'cryptography/what-are-block-ciphers.md'
-    - What are Stream Ciphers: 'cryptography/what-are-stream-ciphers.md'
-
-  - RSA:
-    - What is RSA: 'cryptography/what-is-rsa.md'
-
-  - Challenges:
+  - Cryptography:
     - Easy:
       - ECXOR: 'challenges/2017/crypto/ecxor.md'
       - Another XOR: 'challenges/2017/crypto/another_xor.md'
@@ -145,33 +231,7 @@ pages:
       - Wieners: 'challenges/2014/crypto/Wieners_-_Antoniewicz.md'
       - Slurp: 'challenges/2013/Crypto/slurp.md'
 
-
-# Web Exploitation Section
-- Web Exploitation:
-  - Introduction: 'web-exploitation/introduction.md'
-
-  - SQL Injection:
-    - What is SQL Injection: 'web-exploitation/sql-injection/what-is-sql-injection.md'
-
-  - Command Injection:
-    - What is Command Injection: 'web-exploitation/command-injection/what-is-command-injection.md'
-
-  - Directory Traversal:
-    - What is Directory Traversal: 'web-exploitation/directory-traversal/what-is-directory-traversal.md'
-
-  - Cross Site Request Forgery:
-    - What is Cross Site Request Forgery: 'web-exploitation/cross-site-request-forgery/what-is-cross-site-request-forgery.md'
-
-  - Cross Site Scripting (XSS):
-    - What is Cross Site Scripting: 'web-exploitation/cross-site-scripting/what-is-cross-site-scripting.md'
-
-  - Server Side Request Forgery:
-    - What is Server Side Request Forgery: 'web-exploitation/server-side-request-forgery/what-is-server-side-request-forgery.md'
-
-  - PHP:
-    - What is PHP?: 'web-exploitation/php/what-is-php.md'
-
-  - Challenges:
+  - Web:
     - Easy:
       - Orange: 'challenges/2017/web/orange.md'
       - Gopherz2Basic: 'challenges/2017/web/Gopherz2Basic.md'
@@ -216,27 +276,7 @@ pages:
       - Webroot: 'challenges/2014/web/webroot_-_Freeman.md'
       - Silkgoat: 'challenges/2014/web/silkgoat.md'
 
-
-# Reverse Engineering Section
-- Reverse Engineering:
-  - Introduction: 'reverse-engineering/introduction.md'
-
-  - Assembly/Machine Code:
-    - What is Assembly/Machine Code: 'reverse-engineering/what-is-assembly-machine-code.md'
-
-  - The C Programming Language:
-    - What is C: 'reverse-engineering/what-is-c.md'
-
-  - Disassemblers:
-    - What are Disassemblers: 'reverse-engineering/what-are-disassemblers.md'
-
-  - Debuggers:
-    - What is GDB: 'reverse-engineering/what-is-gdb.md'
-
-  - Decompilers:
-    - What are Decompilers: 'reverse-engineering/what-are-decompilers.md'
-
-  - Challenges:
+  - Reversing:
     - Easy:
       - Aerosol Can: 'challenges/2014/Reversing/aerosol_can.md'
       - TablEZ: 'challenges/2017/reversing/tablez.md'
@@ -290,45 +330,7 @@ pages:
       - Wveryn 2: 'challenges/2015/reversing/wyvern2.md'
       - Ethersplay: 'challenges/2017/misc/ethersplay.md'
 
-
-#  Binary Exploitation Section
-- Binary Exploitation:
-  - Introduction: 'binary-exploitation/introduction.md'
-
-  - Registers:
-    - What are Registers: 'binary-exploitation/what-are-registers.md'
-
-  - The Stack:
-    - What is the Stack: 'binary-exploitation/what-is-the-stack.md'
-
-  - Calling Conventions:
-    - What are Calling Conventions: 'binary-exploitation/what-are-calling-conventions.md'
-
-  - Global Offset Table (GOT):
-    - What is the GOT: 'binary-exploitation/what-is-the-got.md'
-
-  - Buffers:
-    - What are Buffers: 'binary-exploitation/what-are-buffers.md'
-    - Buffer Overflow: 'binary-exploitation/buffer-overflow.md'
-
-  - Return Oriented Programming (ROP):
-    - What is ROP: 'binary-exploitation/return-oriented-programming.md'
-
-  - Binary Security:
-    - What is Binary Security: 'binary-exploitation/what-is-binary-security.md'
-    - No eXecute (NX): 'binary-exploitation/no-execute.md'
-    - Address Space Layout Randomization (ASLR): 'binary-exploitation/address-space-layout-randomization.md'
-    - Stack Canaries: 'binary-exploitation/stack-canaries.md'
-    - Relocation Read-Only (RELRO): 'binary-exploitation/relocation-read-only.md'
-
-  - The Heap:
-    - What is the Heap: 'binary-exploitation/what-is-the-heap.md'
-    - Heap Exploitation: 'binary-exploitation/heap-exploitation.md'
-
-  - Format String Vulnerability:
-    - What is a Format String Vulnerability: 'binary-exploitation/what-is-a-format-string-vulnerability.md'
-
-  - Challenges:
+  - Exploitation:
     - Easy:
       - Humm_sCh-t: 'challenges/2017/pwn/Humm_sCh-t.md'
       - SCV: 'challenges/2017/pwn/scv.md'
@@ -392,5 +394,3 @@ pages:
       - Blox: 'challenges/2015/pwn/blox.md'
       - Get Flag: 'challenges/2015/pwn/get-flag.md'
       - Memory Disclosure Flag: 'challenges/2015/pwn/memory-disclosure-flag.md'
-
-# - Miscellaneous: '404.md'

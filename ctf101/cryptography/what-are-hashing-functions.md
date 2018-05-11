@@ -29,7 +29,8 @@ What is it used for?
 - Password/certificate storage comparison
 
 How can we determine the hash of a file? You can use the md5sum command (or similar).
-```
+
+```bash
 $ md5sum samplefile.txt
 3b85ec9ab2984b91070128be6aae25eb samplefile.txt
 ```

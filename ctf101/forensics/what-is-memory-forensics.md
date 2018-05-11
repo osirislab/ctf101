@@ -16,7 +16,7 @@ Memory forensics isn't all that complicated, the hardest part would be using you
 
 In order to properly use Volatility you must supply a profile with `--profile=PROFILE`, therefore before any sleuthing, you need to determine the profile using imageinfo:
 
-```
+```bash
 $ python vol.py -f ~/image.raw imageinfo
 Volatility Foundation Volatility Framework 2.4
 Determining profile based on KDBG search...
@@ -37,9 +37,9 @@ Determining profile based on KDBG search...
 
 ### Dump Processes
 
-In order to view processes, the `pslist` or `pstree` or `psscan` command can be used. 
+In order to view processes, the `pslist` or `pstree` or `psscan` command can be used.
 
-```
+```bash
 $ python vol.py -f ~/image.raw pslist --profile=Win7SP0x64 pstree
 Volatility Foundation Volatility Framework 2.5
 Offset(V)          Name                    PID   PPID   Thds     Hnds   Sess  Wow64 Start                          Exit
@@ -57,13 +57,13 @@ Offset(V)          Name                    PID   PPID   Thds     Hnds   Sess  Wo
 
 Dumping the memory of a process can prove to be fruitful, say we want to dump the data from notepad.exe:
 
-```
+```bash
 $ python vol.py -f ~/image.raw --profile=Win7SP0x64 memdump -p 2019 -D dump/
 Volatility Foundation Volatility Framework 2.4
 ************************************************************************
 Writing System [     2019] to 2019.dmp
 
-$ ls -alh dump/2019.dmp 
+$ ls -alh dump/2019.dmp
 -rw-r--r--  1 user  staff   111M Apr 22 20:47 dump/2019.dmp
 ```
 

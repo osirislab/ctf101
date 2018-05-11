@@ -91,13 +91,13 @@ Whenever we use the `y` variable we are using the memory address, but if we use 
 
 Arrays are a grouping of objects of the same type. They are typically created with the following syntax:
 
-```
+```c
 type arrayName [ arraySize ];
 ```
 
 To initialize values in the array we can do:
 
-```
+```c
 int integers[ 10 ] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 ```
 
@@ -105,14 +105,14 @@ Arrays allow programmers to group data into logical containers.
 
 To access the indiviual elements of an array we access the contents by their "index". Most programming langauges today start counting from 0. So to take our previous example:
 
-```
+```c
 int integers[ 10 ] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 /*     indexes        0  1  2  3  4  5  6  7  8   9
 ```
 
 To access the value 6 we would use index 5:
 
-```
+```c
 integers[5];
 ```
 
@@ -124,11 +124,11 @@ Because the computer knows the data type used for every element in the array, th
 
 For example if we know that the base address of an array is 1000 and we know that each integer takes 8 bytes, we know that if we have 8 integers right next to each other, we can get the integer at the 4th index with the following math:
 
-```
+```c
 1000 + (4 * 8) =  1032
 ```
 
-```
+```c
 array [ 1   , 2   , 3   , 4   , 5   , 6   , 7   , 8   ]
 index   0     1     2     3     4     5     6     7
 addrs  1000  1008  1016  1024  1032  1040  1048  1056

@@ -35,7 +35,7 @@ So what XOR'ing bytes in the action `0xA0 ^ 0x2C` translates to is:
 
 XOR is a cheap way to encrypt data with a password. Any data can be encrypted using XOR as shown in this Python example:
 
-```
+```python
 >>> data = 'CAPTURETHEFLAG'
 >>> key = 'A'
 >>> encrypted = ''.join([chr(ord(x) ^ ord(key)) for x in data])
@@ -50,7 +50,7 @@ This can be extended using a multibyte key by iterating in parallel with the dat
 
 ## Exploiting XOR Encryption
 
-### Single Byte XOR Encryption 
+### Single Byte XOR Encryption
 Single Byte XOR Encryption is trivial to bruteforce as there are only 255 key combinations to try.
 
 ### Multibyte XOR Encryption

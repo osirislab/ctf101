@@ -2,14 +2,15 @@
 
 Decompilers do the impossible and reverse compiled code *back* into psuedocode/code.
 
-IDA offers HexRays, which translates machine code into a higher language pseudocode. 
+IDA offers HexRays, which translates machine code into a higher language pseudocode.
 
 ![Hex Rays](images/ida-decompiler.png)
 
 ## Example Workflow
 
 Let's say we are disassembling a program which has the source code:
-```
+
+```c
 #include <stdio.h>
 
 void printSpacer(int num){
@@ -33,7 +34,9 @@ int main()
     return 0;
 }
 ```
+
 And creates an output of:
+
 ```
 Hello, World!
 -------------
@@ -66,7 +69,7 @@ d!
 
 If we are given a binary compiled from that source and we want to figure out how the source looks, we can use a decompiler to get c pseudocode which we can then use to reconstruct the function. The sample decompilation can look like:
 
-```
+```c
 printSpacer:
 int __fastcall printSpacer(int a1)
 {

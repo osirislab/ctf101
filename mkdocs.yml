@@ -5,8 +5,8 @@ theme:
     name: 'cinder'
     custom_dir: 'custom_theme'
 extra_css: ['admonition.css', 'extra.css', 'colorful.css']
+extra_javascript: ['extra.js']
 docs_dir: 'ctf101/'
-extra_javascript: []
 markdown_extensions:
   - admonition
   - codehilite(guess_lang=true)
@@ -42,7 +42,7 @@ pages:
 
   - Stegonagraphy:
     - What is Stegonagraphy: 'forensics/what-is-stegonagraphy.md'
-  
+
   - Disk Imaging:
     - What is Disk Imaging: 'forensics/what-is-disk-imaging.md'
 

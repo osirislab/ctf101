@@ -21,7 +21,8 @@ The word “cryptography” technically means the art of writing codes. When it 
  * [Substitution Cipher](/cryptography/what-is-a-substitution-cipher/)
  * [Vigenere Cipher](/cryptography/what-is-a-vigenere-cipher/)
  * [Hashing Functions](/cryptography/what-are-hashing-functions/)
- * [Block Modes of Operation](/cryptography/what-are-block-modes-of-operation/)
+ * [Block Ciphers](/cryptography/what-are-block-ciphers/)
+ * [Stream Ciphers](/cryptography/what-are-stream-ciphers/)
  * [RSA](/cryptography/what-is-rsa/)
 
 ## Challenges

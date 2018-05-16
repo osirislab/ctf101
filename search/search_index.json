@@ -17,7 +17,7 @@
         }, 
         {
             "location": "/forensics/overview/", 
-            "text": "Forensics\n\n\nForensics is the art of recovering the digital trail left on a computer. There are plently of methods to find data which is seemingly deleted, not stored, or worse, covertly recorded.\n\n\nAn important part of Forensics is having the right tools, as well as being familair with the following topics:\n\n\n\n\nFile Formats\n\n\nEXIF data\n\n\nWireshark \n PCAPs\n\n\nWhat is Wireshark\n\n\nWhat are PCAPs\n\n\n\n\n\n\nStegonagraphy\n\n\nDisk Imaging\n\n\n\n\nChallenges\n\n\nEasy\n\n\n\n\nMissed Registration\n\n\nClams Don't Dance\n\n\nKill\n\n\nBrainfun\n\n\nEvidence.zip\n\n\nWatchword\n\n\nPhish it, Phish it Good\n\n\nSaid Zed\n\n\nBlack and White\n\n\nPcapin\n\n\nKeep Calm and CTF\n\n\nTransfer\n\n\nFlash\n\n\nDumptster Diving\n\n\n\n\nMedium\n\n\n\n\nLadykiller\n\n\nDeeeeeeaaaaaadbeeeeeeeeeef\n\n\nBest Router\n\n\nThoroughly Stripped\n\n\nPure Poetry\n\n\nYaar Haar Fiddle Dee Dee\n\n\nYaar Haar 2\n\n\nAirport\n\n\nObscurity\n\n\nWhy Not SFTP\n\n\n\n\nHard\n\n\n\n\nMandient\n\n\nRansomwhere\n\n\nSharpturn\n\n\nAristotle\n\n\nFluffy No More", 
+            "text": "Forensics\n\n\nForensics is the art of recovering the digital trail left on a computer. There are plently of methods to find data which is seemingly deleted, not stored, or worse, covertly recorded.\n\n\nAn important part of Forensics is having the right tools, as well as being familair with the following topics:\n\n\n\n\nFile Formats\n\n\nEXIF data\n\n\nWireshark \n PCAPs\n\n\nWhat is Wireshark\n\n\nWhat are PCAPs\n\n\n\n\n\n\nStegonagraphy\n\n\nDisk Imaging\n\n\n\n\nChallenges\n\n\nEasy\n\n\n\n\nMissed Registration\n\n\nClams Don't Dance\n\n\nKill\n\n\nBrainfun\n\n\nEvidence.zip\n\n\nWatchword\n\n\nPhish it, Phish it Good\n\n\nSaid Zed\n\n\nBlack and White\n\n\nPcapin\n\n\nKeep Calm and CTF\n\n\nTransfer\n\n\nFlash\n\n\nDumptster Diving\n\n\n\n\nMedium\n\n\n\n\ndeeeeeeaaaaaadbeeeeeeeeeef\n\n\nBest Router\n\n\nThoroughly Stripped\n\n\nPure Poetry\n\n\nYaar Haar Fiddle Dee Dee\n\n\nYaar Haar 2\n\n\nAirport\n\n\nObscurity\n\n\nWhy Not SFTP\n\n\n\n\nHard\n\n\n\n\nMandient\n\n\nRansomwhere\n\n\nSharpturn\n\n\nAristotle\n\n\nFluffy No More", 
             "title": "Overview"
         }, 
         {
@@ -37,7 +37,7 @@
         }, 
         {
             "location": "/forensics/overview/#medium", 
-            "text": "Ladykiller  Deeeeeeaaaaaadbeeeeeeeeeef  Best Router  Thoroughly Stripped  Pure Poetry  Yaar Haar Fiddle Dee Dee  Yaar Haar 2  Airport  Obscurity  Why Not SFTP", 
+            "text": "deeeeeeaaaaaadbeeeeeeeeeef  Best Router  Thoroughly Stripped  Pure Poetry  Yaar Haar Fiddle Dee Dee  Yaar Haar 2  Airport  Obscurity  Why Not SFTP", 
             "title": "Medium"
         }, 
         {
@@ -257,7 +257,7 @@
         }, 
         {
             "location": "/cryptography/overview/", 
-            "text": "Cryptography\n\n\nCryptography is the reason we can use banking apps, transmit sensitive information over the web, and in general protect our privacy. However, a large part of CTFs is breaking widely used encryption schemes which are improperly implemented. The math may seem daunting, but more often than not, a simple understanding of the underlying principles will allow you to find flaws and crack the code.\n\n\nThe word \u201ccryptography\u201d technically means the art of writing codes. When it comes to digital forensics, it\u2019s a method you can use to understand how data is constructed for your analysis.\n\n\nWhat is cryptography used for?\n\n\nUses in every day software\n\n- Securing web traffic (passwords, communication, etc.)\n- Securing copyrighted software code\n\n\nMalicious uses\n\n- Hiding malicious communication\n- Hiding malicious code\n\n\nTopics\n\n\n\n\nXOR\n\n\nCesear Cipher\n\n\nSubstitution Cipher\n\n\nVigenere Cipher\n\n\nHashing Functions\n\n\nBlock Ciphers\n\n\nStream Ciphers\n\n\nRSA\n\n\n\n\nChallenges\n\n\nEasy\n\n\n\n\nECXOR\n\n\nAnother XOR\n\n\nSleeping Guard\n\n\nKaty\n\n\nNotesy\n\n\nEPS\n\n\nPunchout\n\n\nFeal\n\n\nSTFU\n\n\n\n\nMedium\n\n\n\n\nAlmost XOR\n\n\nLupin\n\n\nNeo\n\n\nKiller Cipher\n\n\nCheck Plz\n\n\nPsifer School\n\n\nMountainsound\n\n\nCSAW Pad\n\n\nOnly This Program\n\n\n\n\nHard\n\n\n\n\nSide-channel\n\n\nBaby Crypt\n\n\nBroken Box\n\n\nStill Broken Box\n\n\nAnother Broken Box\n\n\nSlabs of Platinum\n\n\nBricks of Gold\n\n\nCFB Sum\n\n\nWieners\n\n\nSlurp", 
+            "text": "Cryptography\n\n\nCryptography is the reason we can use banking apps, transmit sensitive information over the web, and in general protect our privacy. However, a large part of CTFs is breaking widely used encryption schemes which are improperly implemented. The math may seem daunting, but more often than not, a simple understanding of the underlying principles will allow you to find flaws and crack the code.\n\n\nThe word \u201ccryptography\u201d technically means the art of writing codes. When it comes to digital forensics, it\u2019s a method you can use to understand how data is constructed for your analysis.\n\n\nWhat is cryptography used for?\n\n\nUses in every day software\n\n\n\n\nSecuring web traffic (passwords, communication, etc.)\n\n\nSecuring copyrighted software code\n\n\n\n\nMalicious uses\n\n\n\n\nHiding malicious communication\n\n\nHiding malicious code\n\n\n\n\nTopics\n\n\n\n\nXOR\n\n\nCesear Cipher\n\n\nSubstitution Cipher\n\n\nVigenere Cipher\n\n\nHashing Functions\n\n\nBlock Ciphers\n\n\nStream Ciphers\n\n\nRSA\n\n\n\n\nChallenges\n\n\nEasy\n\n\n\n\nECXOR\n\n\nAnother XOR\n\n\nSleeping Guard\n\n\nKaty\n\n\nNotesy\n\n\nEPS\n\n\nPunchout\n\n\nFeal\n\n\nSTFU\n\n\n\n\nMedium\n\n\n\n\nAlmost XOR\n\n\nLupin\n\n\nNeo\n\n\nKiller Cipher\n\n\nCheck Plz\n\n\nPsifer School\n\n\nMountainsound\n\n\nCSAW Pad\n\n\nOnly This Program\n\n\n\n\nHard\n\n\n\n\nSide-channel\n\n\nBaby Crypt\n\n\nBroken Box\n\n\nStill Broken Box\n\n\nAnother Broken Box\n\n\nSlabs of Platinum\n\n\nBricks of Gold\n\n\nCFB Sum\n\n\nWieners\n\n\nSlurp", 
             "title": "Overview"
         }, 
         {
@@ -267,7 +267,7 @@
         }, 
         {
             "location": "/cryptography/overview/#what-is-cryptography-used-for", 
-            "text": "Uses in every day software \n- Securing web traffic (passwords, communication, etc.)\n- Securing copyrighted software code  Malicious uses \n- Hiding malicious communication\n- Hiding malicious code", 
+            "text": "Uses in every day software   Securing web traffic (passwords, communication, etc.)  Securing copyrighted software code   Malicious uses   Hiding malicious communication  Hiding malicious code", 
             "title": "What is cryptography used for?"
         }, 
         {
@@ -1807,43 +1807,28 @@
         }, 
         {
             "location": "/challenges/2014/forensics/Fluffy_No_More/", 
-            "text": "Fluffy No More\n\n\nBy Antoniweicz\n\n\n\"OH NO WE'VE BEEN HACKED!!!!!! -- said the Eye Heart Fluffy Bunnies Blog owner. Life was grand for the fluff fanatic until one day the site's users started to get attacked! Apparently fluffy bunnies are not just a love of fun furry families but also furtive foreign governments. The notorious \"\"Forgotten Freaks\"\" hacking group was known to be targeting high powered politicians. Were the cute bunnies the next in their long list of conquests!??\nWell... The fluff needs your stuff. I've pulled the logs from the server for you along with a backup of it's database and configuration. Figure out what is going on!\"\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "text": "Fluffy No More\n\n\nBy Antoniweicz\n\n\n\"OH NO WE'VE BEEN HACKED!!!!!!\" -- said the Eye Heart Fluffy Bunnies Blog owner. Life was grand for the fluff fanatic until one day the site's users started to get attacked! Apparently fluffy bunnies are not just a love of fun furry families but also furtive foreign governments. The notorious \"Forgotten Freaks\" hacking group was known to be targeting high powered politicians. Were the cute bunnies the next in their long list of conquests!??\nWell... The fluff needs your stuff. I've pulled the logs from the server for you along with a backup of it's database and configuration. Figure out what is going on!\n\n\nTopics Covered\n\n\n\n\nHashing Functions", 
             "title": "Fluffy No More"
         }, 
         {
             "location": "/challenges/2014/forensics/Fluffy_No_More/#fluffy-no-more", 
-            "text": "By Antoniweicz  \"OH NO WE'VE BEEN HACKED!!!!!! -- said the Eye Heart Fluffy Bunnies Blog owner. Life was grand for the fluff fanatic until one day the site's users started to get attacked! Apparently fluffy bunnies are not just a love of fun furry families but also furtive foreign governments. The notorious \"\"Forgotten Freaks\"\" hacking group was known to be targeting high powered politicians. Were the cute bunnies the next in their long list of conquests!??\nWell... The fluff needs your stuff. I've pulled the logs from the server for you along with a backup of it's database and configuration. Figure out what is going on!\"", 
+            "text": "By Antoniweicz  \"OH NO WE'VE BEEN HACKED!!!!!!\" -- said the Eye Heart Fluffy Bunnies Blog owner. Life was grand for the fluff fanatic until one day the site's users started to get attacked! Apparently fluffy bunnies are not just a love of fun furry families but also furtive foreign governments. The notorious \"Forgotten Freaks\" hacking group was known to be targeting high powered politicians. Were the cute bunnies the next in their long list of conquests!??\nWell... The fluff needs your stuff. I've pulled the logs from the server for you along with a backup of it's database and configuration. Figure out what is going on!", 
             "title": "Fluffy No More"
         }, 
         {
             "location": "/challenges/2014/forensics/Fluffy_No_More/#topics-covered", 
-            "text": "", 
+            "text": "Hashing Functions", 
             "title": "Topics Covered"
         }, 
         {
-            "location": "/challenges/2014/forensics/Fluffy_No_More/#additional-information", 
-            "text": "", 
-            "title": "Additional Information"
-        }, 
-        {
             "location": "/challenges/2017/crypto/ecxor/", 
-            "text": "ecxor\n\n\nBy aweinstock\n\n\nI used some super-powerful crypto tonight\nI hear that elliptic curves make it safe to use smaller key sizes. Can you break this curve25519-encrypted message?\n\n\nTopics Covered\n\n\n\n\nVigenere Ciphers\n\n\n\n\nAdditional Information", 
+            "text": "ecxor\n\n\nBy aweinstock\n\n\nI used some super-powerful crypto tonight\nI hear that elliptic curves make it safe to use smaller key sizes. Can you break this curve25519-encrypted message?", 
             "title": "ECXOR"
         }, 
         {
             "location": "/challenges/2017/crypto/ecxor/#ecxor", 
             "text": "By aweinstock  I used some super-powerful crypto tonight\nI hear that elliptic curves make it safe to use smaller key sizes. Can you break this curve25519-encrypted message?", 
             "title": "ecxor"
-        }, 
-        {
-            "location": "/challenges/2017/crypto/ecxor/#topics-covered", 
-            "text": "Vigenere Ciphers", 
-            "title": "Topics Covered"
-        }, 
-        {
-            "location": "/challenges/2017/crypto/ecxor/#additional-information", 
-            "text": "", 
-            "title": "Additional Information"
         }, 
         {
             "location": "/challenges/2017/crypto/another_xor/", 
@@ -1867,7 +1852,7 @@
         }, 
         {
             "location": "/challenges/2016/crypto/Sleeping_Guard/", 
-            "text": "Sleeping Guard\n\n\nBy Sophia D'Antoine\n\n\nOnly true hackers can see the image in this magic PNG.... \n\n\nTopics Covered\n\n\n\n\nXOR\n\n\nFile Formats\n\n\n\n\nAdditional Information", 
+            "text": "Sleeping Guard\n\n\nBy Sophia D'Antoine\n\n\nOnly true hackers can see the image in this magic PNG.... \n\n\nTopics Covered\n\n\n\n\nXOR\n\n\nFile Formats\n\n\n\n\nAdditional Information\n\n\nThis challenge is a server which sends you a base64 encoded file. The hint is given in the title to solve this. First that the encoding mechanism is a xor and the way to decrypt is use the fact that files have headers.", 
             "title": "Sleeping Guard"
         }, 
         {
@@ -1882,12 +1867,12 @@
         }, 
         {
             "location": "/challenges/2016/crypto/Sleeping_Guard/#additional-information", 
-            "text": "", 
+            "text": "This challenge is a server which sends you a base64 encoded file. The hint is given in the title to solve this. First that the encoding mechanism is a xor and the way to decrypt is use the fact that files have headers.", 
             "title": "Additional Information"
         }, 
         {
             "location": "/challenges/2016/crypto/katy/", 
-            "text": "Katy\n\n\nhi every1 im new!!!!!!! holds up spork my name is katy but u can call me t3h PeNgU1N oF d00m!!!!!!!! lol\u2026as u can see im very random!!!! thats why i came here, 2 meet random ppl like me \u2026_\u2026 im 13 years old (im mature 4 my age tho!!) i like 2 watch invader zim w/ my girlfreind (im bi if u dont like it deal w/it) its our favorite tv show!!! bcuz its SOOOO random!!!! shes random 2 of course but i want 2 meet more random ppl =) like they say the more the merrier!!!! lol\u2026neways i hope 2 make alot of freinds here so give me lots of commentses!!!!\nDOOOOOMMMM!!!!!!!!!!!!!!!! \n--- me bein random again \n_\n hehe\u2026toodles!!!!!\nlove and waffles,\nt3h PeNgU1N oF d00m\n\n\n\n\nNote\n\n\nThe flag is integer value of the seed\n\n\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nAdditional Information", 
+            "text": "Katy\n\n\nhi every1 im new!!!!!!! holds up spork my name is katy but u can call me t3h PeNgU1N oF d00m!!!!!!!! lol\u2026as u can see im very random!!!! thats why i came here, 2 meet random ppl like me \u2026_\u2026 im 13 years old (im mature 4 my age tho!!) i like 2 watch invader zim w/ my girlfreind (im bi if u dont like it deal w/it) its our favorite tv show!!! bcuz its SOOOO random!!!! shes random 2 of course but i want 2 meet more random ppl =) like they say the more the merrier!!!! lol\u2026neways i hope 2 make alot of freinds here so give me lots of commentses!!!!\nDOOOOOMMMM!!!!!!!!!!!!!!!! \n--- me bein random again \n_\n hehe\u2026toodles!!!!!\nlove and waffles,\nt3h PeNgU1N oF d00m\n\n\n\n\nNote\n\n\nThe flag is integer value of the seed\n\n\n\n\nTopics Covered\n\n\n\n\nDissassemblers", 
             "title": "Katy"
         }, 
         {
@@ -1901,23 +1886,18 @@
             "title": "Topics Covered"
         }, 
         {
-            "location": "/challenges/2016/crypto/katy/#additional-information", 
-            "text": "", 
-            "title": "Additional Information"
-        }, 
-        {
             "location": "/challenges/2015/crypto/notesy/", 
-            "text": "Notesy\n\n\nBy Chung\n\n\nTopics Covered\n\n\nAdditional Information\n\n\nIf you have the ability to encrypt and decrypt, what do you think the flag is? \nGood Luck!", 
+            "text": "Notesy\n\n\nBy Kevin Chung\n\n\n\n\nNote\n\n\nThe flag is not in the flag{} format.\n\n\n\n\nTopics Covered\n\n\n\n\nSubstitution Cipher\n\n\n\n\nAdditional Information\n\n\nIf you have the ability to encrypt and decrypt, what do you think the flag is? \nGood Luck!", 
             "title": "Notesy"
         }, 
         {
             "location": "/challenges/2015/crypto/notesy/#notesy", 
-            "text": "By Chung", 
+            "text": "By Kevin Chung   Note  The flag is not in the flag{} format.", 
             "title": "Notesy"
         }, 
         {
             "location": "/challenges/2015/crypto/notesy/#topics-covered", 
-            "text": "", 
+            "text": "Substitution Cipher", 
             "title": "Topics Covered"
         }, 
         {
@@ -1927,23 +1907,18 @@
         }, 
         {
             "location": "/challenges/2015/crypto/eps/", 
-            "text": "EPS (1-3)\n\n\nBy Kevin Chung\n\n\n\n\nones_and_zer0es\n\n\nwh1ter0se - The flag is the entire thing decrypted\n\n\nzer0_day\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "text": "EPS (1-3)\n\n\nBy Kevin Chung\n\n\n\n\nones_and_zer0es\n\n\nwh1ter0se - The flag is the entire thing decrypted\n\n\nzer0_day\n\n\n\n\n\n\nNote\n\n\nFor \nones_and_zer0es\n, there is a typo, it should be \nflag{...}\n not \nflat{...}\n \n\n\n\n\nTopics Covered\n\n\n\n\nSubstitution Cipher", 
             "title": "EPS"
         }, 
         {
             "location": "/challenges/2015/crypto/eps/#eps-1-3", 
-            "text": "By Kevin Chung   ones_and_zer0es  wh1ter0se - The flag is the entire thing decrypted  zer0_day", 
+            "text": "By Kevin Chung   ones_and_zer0es  wh1ter0se - The flag is the entire thing decrypted  zer0_day    Note  For  ones_and_zer0es , there is a typo, it should be  flag{...}  not  flat{...}", 
             "title": "EPS (1-3)"
         }, 
         {
             "location": "/challenges/2015/crypto/eps/#topics-covered", 
-            "text": "", 
+            "text": "Substitution Cipher", 
             "title": "Topics Covered"
-        }, 
-        {
-            "location": "/challenges/2015/crypto/eps/#additional-information", 
-            "text": "", 
-            "title": "Additional Information"
         }, 
         {
             "location": "/challenges/2015/crypto/punchout/", 

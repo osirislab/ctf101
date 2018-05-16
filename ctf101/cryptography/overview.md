@@ -7,11 +7,14 @@ Cryptography is the reason we can use banking apps, transmit sensitive informati
 The word “cryptography” technically means the art of writing codes. When it comes to digital forensics, it’s a method you can use to understand how data is constructed for your analysis.
 
 ## What is cryptography used for?
+
 **Uses in every day software**
+
 - Securing web traffic (passwords, communication, etc.)
 - Securing copyrighted software code
 
 **Malicious uses**
+
 - Hiding malicious communication
 - Hiding malicious code
 

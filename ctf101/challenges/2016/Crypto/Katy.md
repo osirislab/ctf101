@@ -9,7 +9,5 @@ t3h PeNgU1N oF d00m
     The flag is integer value of the seed
 
 ## Topics Covered
-
 - [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
-## Additional Information
 

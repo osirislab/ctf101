@@ -1,12 +1,11 @@
 # Notesy
+By Kevin Chung
 
-
-By Chung
-
-
-
+!!!note
+    The flag is not in the flag{} format.
 
 ## Topics Covered
+- [Substitution Cipher](/cryptography/what-is-a-substitution-cipher/)
 
 ## Additional Information
 

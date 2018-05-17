@@ -1,4 +1,4 @@
-# Challenge/Twisted
+# Twisted
 
 ## Topics Covered
 

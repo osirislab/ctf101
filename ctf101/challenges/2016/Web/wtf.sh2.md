@@ -1,9 +1,10 @@
-# WTF.sh (1)
+# WTF.sh (2)
 By Josh Hofing
 
-`$ man 1 wtf.sh`
 ```
-WTF.SH(1)               Quals               WTF.SH(1)
+$ man 2 wtf.sh
+
+WTF.SH(2)               Quals               WTF.SH(2)
 
 NAME
        wtf.sh - A webserver written in bash
@@ -16,10 +17,11 @@ DESCRIPTION
        Do I need to say more?
 
 FLAG
-       You can get the flag to this first part of the
-       problem by getting  the  website  to  run  the
-       get_flag1  command. I heard the admin likes to
-       launch it when he visits his own profile.
+       You  can  get  the flag to this second part of
+       the problem by getting the website to run  the
+       get_flag2 command. Sadly, I can't seem to find
+       anything in the code that does that :( Do  you
+       think you could take a look at it for me?
 
 ACCESS
        You can find wtf.sh at http://web.chal.csaw.io:8001/
@@ -30,7 +32,7 @@ AUTHOR
 
 SUPERHERO ORIGIN STORY
        I have deep-rooted problems
-       That  involve  childhood  trauma  of  too many
+       That involve  childhood  trauma  of  too  many
        shells
        It was ksh, zsh, bash, dash
        They just never stopped
@@ -39,13 +41,13 @@ SUPERHERO ORIGIN STORY
        The Bashman
 
 REPORTING BUGS
-       Report  your  favorite  bugs  in   wtf.sh   at
+       Report   your   favorite  bugs  in  wtf.sh  at
        http://ctf.csaw.io
 
 SEE ALSO
-       wtf.sh(2)
+       wtf.sh(1)
 
-CSAW 2016           September 2016          WTF.SH(1)
+CSAW 2016           September 2016          WTF.SH(2)
 ```
 
 ## Topics Covered

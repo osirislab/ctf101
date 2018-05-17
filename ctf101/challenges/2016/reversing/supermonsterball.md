@@ -1,7 +1,5 @@
-# supermonsterball - pit of doom
+# Supermonsterball
 By Vector 35
-
-
 
 A new craze is sweeping the nation -- Super Monster Ball. Join the revolution by downloading a client and pointing it at the server
 

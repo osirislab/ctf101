@@ -1,12 +1,10 @@
-# The Road Less Traveled/bo
-
+# The Road Less Traveled
 By Cohen
 
-
-
 exploit this
-## Topics Covered
 
+## Topics Covered
 - [Dissassemblers](/reverse-engineering/what-are-disassemblers/)
+
 ## Additional Information
 

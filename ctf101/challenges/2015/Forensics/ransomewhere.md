@@ -1,4 +1,4 @@
-# ransomewhere
+# Ransomewhere
 By Jay Smith
 
 We got hit by some randsomware and we lost our most important file. Please help use recover it.

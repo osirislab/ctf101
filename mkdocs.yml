@@ -182,7 +182,7 @@ pages:
       - Dumptster Diving: 'challenges/2014/forensics/dumpster_diving.md'
     - Medium:
       - deeeeeeaaaaaadbeeeeeeeeeef: 'challenges/2013/Forensics/Deeeeeeaaaaaadbeeeeeeeeeef.md'
-      - Best Router: 'challenges/2017/Forensics/best_router.md'
+      - Best Router: 'challenges/2017/forensics/best_router.md'
       - Thoroughly Stripped: 'challenges/2017/forensics/thoroughlyStripped.md'
       - Pure Poetry: 'challenges/2016/forensics/pure_poetry.md'
       - Yaar Haar Fiddle Dee Dee: 'challenges/2016/forensics/Yaar_Haar_Fiddle_Dee_Dee.md'
@@ -259,13 +259,14 @@ pages:
       - App: 'challenges/2014/web/app_-_Oberheide.md'
       - PPS: 'challenges/2014/misc/pps_-_Wiens.md'
       - Adoptable Lolcats: 'challenges/2013/Web/Michael_Hanchak.md'
+      - Twisted: 'challenges/2013/Web/twisted.md'
     - Hard:
       - Herpderper: 'challenges/2013/Web/herpderper.md'
       - Broadcastr: 'challenges/2017/web/csaw-oauth2-chal.md'
       - KWS 1: 'challenges/2017/web/csaw-kernel-challenge.md'
       - OrangeV2: 'challenges/2017/web/orangev2.md'
       - Not My Cup of Coffe: 'challenges/2017/web/notmycupofcoffe.md'
-      - WTF.sh (2): 'challenges/2016/web/wtf.sh.md'
+      - WTF.sh (2): 'challenges/2016/web/wtf.sh2.md'
       - Throwback: 'challenges/2015/web/throwback-600.md'
       - Weebdate: 'challenges/2015/web/weebdate-500.md'
       - TBBPE: 'challenges/2015/web/tbbpe.md'
@@ -305,13 +306,13 @@ pages:
       - CSAW 2013 Reversing 1: 'challenges/2013/Reversing/CSAW_2013_Reversing_1.md'
       - CSAW 2013 Reversing 2: 'challenges/2013/Reversing/CSAW_2013_Reversing_2.md'
       - CSAW 2013 Reversing 3: 'challenges/2013/Reversing/csaw2013reversing3.md'
-      - CSAW Reversing 2: 'challenges/2014/reversing/csaw2013reversing2.md'
+      - CSAW Reversing 2: 'challenges/2014/Reversing/csaw2013reversing2.md'
       - Life: 'challenges/2013/Misc/Life.md'
       - Fun For Everybody: 'challenges/2013/Reversing/Brad_Anton.md'
     - Hard:
       - ETHERSNOOB: 'challenges/2017/Misc/ETHERSNOOB.md'
       - Impossible: 'challenges/2013/Reversing/Impossible.md'
-      - Dot Net: 'challenges/2013/Reversing/DotNet.md'
+      - DotNet: 'challenges/2013/Reversing/DotNet.md'
       - Bananascript: 'challenges/2017/reversing/bananascript.md'
       - Realism: 'challenges/2017/reversing/realism.md'
       - 48-bit yeet lab: 'challenges/2017/reversing/48-bit_yeet_lab.md'
@@ -327,7 +328,7 @@ pages:
       - Pwning a Locked Container: 'challenges/2015/reversing/pwning-a-locked-container-plc.md'
       - Wveryn: 'challenges/2015/reversing/wyvern.md'
       - Wveryn 2: 'challenges/2015/reversing/wyvern2.md'
-      - Ethersplay: 'challenges/2017/misc/ethersplay.md'
+      - Ethersplay: 'challenges/2017/Misc/ethersplay.md'
 
   - Exploitation:
     - Easy:
@@ -346,7 +347,7 @@ pages:
       - Xorcise 1: 'challenges/2014/Pwn/xorcise1.md'
       - Saturn: 'challenges/2014/Pwn/saturn.md'
     - Medium:
-      - Exploitme: 'challenges/2017/Pwn/exploitme.md'
+      - Exploitme: 'challenges/2017/pwn/exploitme.md'
       - Xorcise 2: 'challenges/2014/Pwn/Xorcise2.md'
       - Pybabbies: 'challenges/2014/Pwn/pybabbies.md'
       - Mbot: 'challenges/2014/Pwn/mbot.md'
@@ -361,6 +362,7 @@ pages:
       - Contacts: 'challenges/2015/pwn/contacts.md'
       - Autobots: 'challenges/2015/pwn/autobots.md'
       - Regexpire: 'challenges/2016/misc/regexpire.md'
+      - Ish: 'challenges/2014/Pwn/ish.md'
     - Hard:
       - Greenhorn'd: 'challenges/2014/Pwn/greenhornd.md'
       - S3: 'challenges/2014/Pwn/s3.md'

@@ -1606,22 +1606,22 @@
             "title": "Additional Information"
         }, 
         {
-            "location": "/challenges/2017/Forensics/best_router/", 
+            "location": "/challenges/2017/forensics/best_router/", 
             "text": "Best Router\n\n\n\n\nNote\n\n\nThis will expand to ~16GB!\n\n\n\n\nTopics Covered\n\n\n\n\nDisk Imaging\n\n\n\n\nAdditional Information\n\n\nIf you have trouble mounting a disk, \nthis guide\n may help", 
             "title": "Best Router"
         }, 
         {
-            "location": "/challenges/2017/Forensics/best_router/#best-router", 
+            "location": "/challenges/2017/forensics/best_router/#best-router", 
             "text": "Note  This will expand to ~16GB!", 
             "title": "Best Router"
         }, 
         {
-            "location": "/challenges/2017/Forensics/best_router/#topics-covered", 
+            "location": "/challenges/2017/forensics/best_router/#topics-covered", 
             "text": "Disk Imaging", 
             "title": "Topics Covered"
         }, 
         {
-            "location": "/challenges/2017/Forensics/best_router/#additional-information", 
+            "location": "/challenges/2017/forensics/best_router/#additional-information", 
             "text": "If you have trouble mounting a disk,  this guide  may help", 
             "title": "Additional Information"
         }, 
@@ -1642,13 +1642,23 @@
         }, 
         {
             "location": "/challenges/2016/forensics/pure_poetry/", 
-            "text": "Pure Poetry\n\n\nWe've been told that this file is pure poetry. Whatever that is supposed to mean. A key is embedded in it, in the form CSAW{KEY}.\nWe've also been told that 128 is a magic number that might be useful to solving this challenge.", 
+            "text": "Pure Poetry\n\n\nWe've been told that this file is pure poetry. Whatever that is supposed to mean. A key is embedded in it, in the form CSAW{KEY}.\nWe've also been told that 128 is a magic number that might be useful to solving this challenge.\n\n\nTopics Covered\n\n\nAdditional Information", 
             "title": "Pure Poetry"
         }, 
         {
             "location": "/challenges/2016/forensics/pure_poetry/#pure-poetry", 
             "text": "We've been told that this file is pure poetry. Whatever that is supposed to mean. A key is embedded in it, in the form CSAW{KEY}.\nWe've also been told that 128 is a magic number that might be useful to solving this challenge.", 
             "title": "Pure Poetry"
+        }, 
+        {
+            "location": "/challenges/2016/forensics/pure_poetry/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2016/forensics/pure_poetry/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
         }, 
         {
             "location": "/challenges/2016/forensics/Yaar_Haar_Fiddle_Dee_Dee/", 
@@ -1672,13 +1682,23 @@
         }, 
         {
             "location": "/challenges/2016/forensics/yaar_haar_2/", 
-            "text": "Yaar Haar 2: Dead Man's Flag\n\n\nWE'VE GOT US A MAP (A MAP!) TO LEAD US TO ME LOST MATEYS!", 
+            "text": "Yaar Haar 2: Dead Man's Flag\n\n\nWE'VE GOT US A MAP (A MAP!) TO LEAD US TO ME LOST MATEYS!\n\n\nTopics Covererd\n\n\nAdditional Information", 
             "title": "Yaar Haar 2"
         }, 
         {
             "location": "/challenges/2016/forensics/yaar_haar_2/#yaar-haar-2-dead-mans-flag", 
             "text": "WE'VE GOT US A MAP (A MAP!) TO LEAD US TO ME LOST MATEYS!", 
             "title": "Yaar Haar 2: Dead Man's Flag"
+        }, 
+        {
+            "location": "/challenges/2016/forensics/yaar_haar_2/#topics-covererd", 
+            "text": "", 
+            "title": "Topics Covererd"
+        }, 
+        {
+            "location": "/challenges/2016/forensics/yaar_haar_2/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
         }, 
         {
             "location": "/challenges/2015/forensics/airport/", 
@@ -1752,13 +1772,13 @@
         }, 
         {
             "location": "/challenges/2015/forensics/ransomewhere/", 
-            "text": "ransomewhere\n\n\nBy Jay Smith\n\n\nWe got hit by some randsomware and we lost our most important file. Please help use recover it.\n\n\n\n\nNote\n\n\nFlag is not in the \nflag{}\n format\n\n\n\n\nTopics Covered\n\n\n\n\nDisk Imaging", 
+            "text": "Ransomewhere\n\n\nBy Jay Smith\n\n\nWe got hit by some randsomware and we lost our most important file. Please help use recover it.\n\n\n\n\nNote\n\n\nFlag is not in the \nflag{}\n format\n\n\n\n\nTopics Covered\n\n\n\n\nDisk Imaging", 
             "title": "Ransomwhere"
         }, 
         {
             "location": "/challenges/2015/forensics/ransomewhere/#ransomewhere", 
             "text": "By Jay Smith  We got hit by some randsomware and we lost our most important file. Please help use recover it.   Note  Flag is not in the  flag{}  format", 
-            "title": "ransomewhere"
+            "title": "Ransomewhere"
         }, 
         {
             "location": "/challenges/2015/forensics/ransomewhere/#topics-covered", 
@@ -2142,13 +2162,13 @@
         }, 
         {
             "location": "/challenges/2013/Crypto/onlythisprogram/", 
-            "text": "onlythisprogram\n\n\nI tested out my new encryption tool on some files from the internet and it seems like it worked pretty good. What do you think?\n\n\nTopics Covered\n\n\n\n\nFile Formats\n\n\n\n\nAdditional Information\n\n\nYou don't have to figure out the whole key to solve the challenge. Some file formats make better oracles than others.", 
+            "text": "Only This Program\n\n\nI tested out my new encryption tool on some files from the internet and it seems like it worked pretty good. What do you think?\n\n\nTopics Covered\n\n\n\n\nFile Formats\n\n\n\n\nAdditional Information\n\n\nYou don't have to figure out the whole key to solve the challenge. Some file formats make better oracles than others.", 
             "title": "Only This Program"
         }, 
         {
-            "location": "/challenges/2013/Crypto/onlythisprogram/#onlythisprogram", 
+            "location": "/challenges/2013/Crypto/onlythisprogram/#only-this-program", 
             "text": "I tested out my new encryption tool on some files from the internet and it seems like it worked pretty good. What do you think?", 
-            "title": "onlythisprogram"
+            "title": "Only This Program"
         }, 
         {
             "location": "/challenges/2013/Crypto/onlythisprogram/#topics-covered", 
@@ -2182,13 +2202,13 @@
         }, 
         {
             "location": "/challenges/2017/crypto/baby_crypt/", 
-            "text": "Baby Crypt\n\n\nbaby_crypt The cookie is input + flag AES ECB encrypted with the sha256 of the flag as the key.\nflag is in the source file\n\n\nTopics Covered\n\n\n\n\nBlock Ciphers\n\n\n\n\nAdditional Information", 
+            "text": "baby_crypt\n\n\nThe cookie is input + flag AES ECB encrypted with the sha256 of the flag as the key.\nflag is in the source file\n\n\nTopics Covered\n\n\n\n\nBlock Ciphers\n\n\n\n\nAdditional Information", 
             "title": "Baby Crypt"
         }, 
         {
-            "location": "/challenges/2017/crypto/baby_crypt/#baby-crypt", 
-            "text": "baby_crypt The cookie is input + flag AES ECB encrypted with the sha256 of the flag as the key.\nflag is in the source file", 
-            "title": "Baby Crypt"
+            "location": "/challenges/2017/crypto/baby_crypt/#baby_crypt", 
+            "text": "The cookie is input + flag AES ECB encrypted with the sha256 of the flag as the key.\nflag is in the source file", 
+            "title": "baby_crypt"
         }, 
         {
             "location": "/challenges/2017/crypto/baby_crypt/#topics-covered", 
@@ -2222,13 +2242,13 @@
         }, 
         {
             "location": "/challenges/2016/crypto/Still_Broken_Box/", 
-            "text": "Broken Box\n\n\nI fixed the RSA signature box I made, even though it still returns wrong answers sometimes, it get much better now.\ne = 97\n\nnc 192.241.234.35 31337\n\n\nTopics Covered\n\n\n\n\nRSA\n\n\n\n\nAdditional Information", 
+            "text": "Still Broken Box\n\n\nI fixed the RSA signature box I made, even though it still returns wrong answers sometimes, it get much better now.\ne = 97\n\n\nTopics Covered\n\n\n\n\nRSA\n\n\n\n\nAdditional Information", 
             "title": "Still Broken Box"
         }, 
         {
-            "location": "/challenges/2016/crypto/Still_Broken_Box/#broken-box", 
-            "text": "I fixed the RSA signature box I made, even though it still returns wrong answers sometimes, it get much better now.\ne = 97 nc 192.241.234.35 31337", 
-            "title": "Broken Box"
+            "location": "/challenges/2016/crypto/Still_Broken_Box/#still-broken-box", 
+            "text": "I fixed the RSA signature box I made, even though it still returns wrong answers sometimes, it get much better now.\ne = 97", 
+            "title": "Still Broken Box"
         }, 
         {
             "location": "/challenges/2016/crypto/Still_Broken_Box/#topics-covered", 
@@ -2342,13 +2362,13 @@
         }, 
         {
             "location": "/challenges/2013/Crypto/slurp/", 
-            "text": "Title\n\n\nWe've found the source to the Arstotzka spies rendevous server, we must find out their new vault key.\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "text": "Slurp\n\n\nWe've found the source to the Arstotzka spies rendevous server, we must find out their new vault key.\n\n\nTopics Covered\n\n\nAdditional Information", 
             "title": "Slurp"
         }, 
         {
-            "location": "/challenges/2013/Crypto/slurp/#title", 
+            "location": "/challenges/2013/Crypto/slurp/#slurp", 
             "text": "We've found the source to the Arstotzka spies rendevous server, we must find out their new vault key.", 
-            "title": "Title"
+            "title": "Slurp"
         }, 
         {
             "location": "/challenges/2013/Crypto/slurp/#topics-covered", 
@@ -2402,13 +2422,13 @@
         }, 
         {
             "location": "/challenges/2016/web/wtf.sh/", 
-            "text": "wtf.sh (1)\n\n\nBy Josh Hofing\n\n\n$ man \n1\n wtf.sh\n\n\nWTF.SH(1)               Quals               WTF.SH(1)\n\nNAME\n       wtf.sh - A webserver written in bash\n\nSYNOPSIS\n       wtf.sh port\n\nDESCRIPTION\n       wtf.sh is a webserver written in bash.\n       Do I need to say more?\n\nFLAG\n       You can get the flag to this first part of the\n       problem by getting  the  website  to  run  the\n       get_flag1  command. I heard the admin likes to\n       launch it when he visits his own profile.\n\nACCESS\n       You can find wtf.sh at http://web.chal.csaw.io:8001/\n\nAUTHOR\n       Written  by  _Hyper_  http://github.com/Hyper-\n       sonic/\n\nSUPERHERO ORIGIN STORY\n       I have deep-rooted problems\n       That  involve  childhood  trauma  of  too many\n       shells\n       It was ksh, zsh, bash, dash\n       They just never stopped\n       On that day I swore I would have vengeance\n       I became\n       The Bashman\n\nREPORTING BUGS\n       Report  your  favorite  bugs  in   wtf.sh   at\n       http://ctf.csaw.io\n\nSEE ALSO\n       wtf.sh(2)\n\nCSAW 2016           September 2016          WTF.SH(1)\n\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "text": "WTF.sh (1)\n\n\nBy Josh Hofing\n\n\n$ man \n1\n wtf.sh\n\n\nWTF.SH(1)               Quals               WTF.SH(1)\n\nNAME\n       wtf.sh - A webserver written in bash\n\nSYNOPSIS\n       wtf.sh port\n\nDESCRIPTION\n       wtf.sh is a webserver written in bash.\n       Do I need to say more?\n\nFLAG\n       You can get the flag to this first part of the\n       problem by getting  the  website  to  run  the\n       get_flag1  command. I heard the admin likes to\n       launch it when he visits his own profile.\n\nACCESS\n       You can find wtf.sh at http://web.chal.csaw.io:8001/\n\nAUTHOR\n       Written  by  _Hyper_  http://github.com/Hyper-\n       sonic/\n\nSUPERHERO ORIGIN STORY\n       I have deep-rooted problems\n       That  involve  childhood  trauma  of  too many\n       shells\n       It was ksh, zsh, bash, dash\n       They just never stopped\n       On that day I swore I would have vengeance\n       I became\n       The Bashman\n\nREPORTING BUGS\n       Report  your  favorite  bugs  in   wtf.sh   at\n       http://ctf.csaw.io\n\nSEE ALSO\n       wtf.sh(2)\n\nCSAW 2016           September 2016          WTF.SH(1)\n\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
             "title": "WTF.sh (1)"
         }, 
         {
             "location": "/challenges/2016/web/wtf.sh/#wtfsh-1", 
             "text": "By Josh Hofing  $ man  1  wtf.sh  WTF.SH(1)               Quals               WTF.SH(1)\n\nNAME\n       wtf.sh - A webserver written in bash\n\nSYNOPSIS\n       wtf.sh port\n\nDESCRIPTION\n       wtf.sh is a webserver written in bash.\n       Do I need to say more?\n\nFLAG\n       You can get the flag to this first part of the\n       problem by getting  the  website  to  run  the\n       get_flag1  command. I heard the admin likes to\n       launch it when he visits his own profile.\n\nACCESS\n       You can find wtf.sh at http://web.chal.csaw.io:8001/\n\nAUTHOR\n       Written  by  _Hyper_  http://github.com/Hyper-\n       sonic/\n\nSUPERHERO ORIGIN STORY\n       I have deep-rooted problems\n       That  involve  childhood  trauma  of  too many\n       shells\n       It was ksh, zsh, bash, dash\n       They just never stopped\n       On that day I swore I would have vengeance\n       I became\n       The Bashman\n\nREPORTING BUGS\n       Report  your  favorite  bugs  in   wtf.sh   at\n       http://ctf.csaw.io\n\nSEE ALSO\n       wtf.sh(2)\n\nCSAW 2016           September 2016          WTF.SH(1)", 
-            "title": "wtf.sh (1)"
+            "title": "WTF.sh (1)"
         }, 
         {
             "location": "/challenges/2016/web/wtf.sh/#topics-covered", 
@@ -2881,6 +2901,26 @@
             "title": "Additional Information"
         }, 
         {
+            "location": "/challenges/2013/Web/twisted/", 
+            "text": "Twisted\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "Twisted"
+        }, 
+        {
+            "location": "/challenges/2013/Web/twisted/#twisted", 
+            "text": "", 
+            "title": "Twisted"
+        }, 
+        {
+            "location": "/challenges/2013/Web/twisted/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2013/Web/twisted/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
             "location": "/challenges/2013/Web/herpderper/", 
             "text": "Herpderper\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nAdditional Information\n\n\nSome topics this challenge covers are:\\n\\n - Android \\n - JSON \\n - SSL \\n - Anti-debugging \\n - Man In The Middle", 
             "title": "Herpderper"
@@ -2981,22 +3021,22 @@
             "title": "Additional Information"
         }, 
         {
-            "location": "/challenges/2016/web/wtf.sh/", 
-            "text": "wtf.sh (1)\n\n\nBy Josh Hofing\n\n\n$ man \n1\n wtf.sh\n\n\nWTF.SH(1)               Quals               WTF.SH(1)\n\nNAME\n       wtf.sh - A webserver written in bash\n\nSYNOPSIS\n       wtf.sh port\n\nDESCRIPTION\n       wtf.sh is a webserver written in bash.\n       Do I need to say more?\n\nFLAG\n       You can get the flag to this first part of the\n       problem by getting  the  website  to  run  the\n       get_flag1  command. I heard the admin likes to\n       launch it when he visits his own profile.\n\nACCESS\n       You can find wtf.sh at http://web.chal.csaw.io:8001/\n\nAUTHOR\n       Written  by  _Hyper_  http://github.com/Hyper-\n       sonic/\n\nSUPERHERO ORIGIN STORY\n       I have deep-rooted problems\n       That  involve  childhood  trauma  of  too many\n       shells\n       It was ksh, zsh, bash, dash\n       They just never stopped\n       On that day I swore I would have vengeance\n       I became\n       The Bashman\n\nREPORTING BUGS\n       Report  your  favorite  bugs  in   wtf.sh   at\n       http://ctf.csaw.io\n\nSEE ALSO\n       wtf.sh(2)\n\nCSAW 2016           September 2016          WTF.SH(1)\n\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "location": "/challenges/2016/web/wtf.sh2/", 
+            "text": "WTF.sh (2)\n\n\nBy Josh Hofing\n\n\n$ man \n2\n wtf.sh\n\nWTF.SH\n(\n2\n)\n               Quals               WTF.SH\n(\n2\n)\n\n\nNAME\n       wtf.sh - A webserver written in bash\n\nSYNOPSIS\n       wtf.sh port\n\nDESCRIPTION\n       wtf.sh is a webserver written in bash.\n       Do I need to say more?\n\nFLAG\n       You  can  get  the flag to this second part of\n       the problem by getting the website to run  the\n       get_flag2 command. Sadly, I can\nt seem to find\n       anything in the code that does that :\n(\n Do  you\n       think you could take a look at it \nfor\n me?\n\nACCESS\n       You can find wtf.sh at http://web.chal.csaw.io:8001/\n\nAUTHOR\n       Written  by  _Hyper_  http://github.com/Hyper-\n       sonic/\n\nSUPERHERO ORIGIN STORY\n       I have deep-rooted problems\n       That involve  childhood  trauma  of  too  many\n       shells\n       It was ksh, zsh, bash, dash\n       They just never stopped\n       On that day I swore I would have vengeance\n       I became\n       The Bashman\n\nREPORTING BUGS\n       Report   your   favorite  bugs  in  wtf.sh  at\n       http://ctf.csaw.io\n\nSEE ALSO\n       wtf.sh\n(\n1\n)\n\n\nCSAW \n2016\n           September \n2016\n          WTF.SH\n(\n2\n)\n\n\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
             "title": "WTF.sh (2)"
         }, 
         {
-            "location": "/challenges/2016/web/wtf.sh/#wtfsh-1", 
-            "text": "By Josh Hofing  $ man  1  wtf.sh  WTF.SH(1)               Quals               WTF.SH(1)\n\nNAME\n       wtf.sh - A webserver written in bash\n\nSYNOPSIS\n       wtf.sh port\n\nDESCRIPTION\n       wtf.sh is a webserver written in bash.\n       Do I need to say more?\n\nFLAG\n       You can get the flag to this first part of the\n       problem by getting  the  website  to  run  the\n       get_flag1  command. I heard the admin likes to\n       launch it when he visits his own profile.\n\nACCESS\n       You can find wtf.sh at http://web.chal.csaw.io:8001/\n\nAUTHOR\n       Written  by  _Hyper_  http://github.com/Hyper-\n       sonic/\n\nSUPERHERO ORIGIN STORY\n       I have deep-rooted problems\n       That  involve  childhood  trauma  of  too many\n       shells\n       It was ksh, zsh, bash, dash\n       They just never stopped\n       On that day I swore I would have vengeance\n       I became\n       The Bashman\n\nREPORTING BUGS\n       Report  your  favorite  bugs  in   wtf.sh   at\n       http://ctf.csaw.io\n\nSEE ALSO\n       wtf.sh(2)\n\nCSAW 2016           September 2016          WTF.SH(1)", 
-            "title": "wtf.sh (1)"
+            "location": "/challenges/2016/web/wtf.sh2/#wtfsh-2", 
+            "text": "By Josh Hofing  $ man  2  wtf.sh\n\nWTF.SH ( 2 )                Quals               WTF.SH ( 2 ) \n\nNAME\n       wtf.sh - A webserver written in bash\n\nSYNOPSIS\n       wtf.sh port\n\nDESCRIPTION\n       wtf.sh is a webserver written in bash.\n       Do I need to say more?\n\nFLAG\n       You  can  get  the flag to this second part of\n       the problem by getting the website to run  the\n       get_flag2 command. Sadly, I can t seem to find\n       anything in the code that does that : (  Do  you\n       think you could take a look at it  for  me?\n\nACCESS\n       You can find wtf.sh at http://web.chal.csaw.io:8001/\n\nAUTHOR\n       Written  by  _Hyper_  http://github.com/Hyper-\n       sonic/\n\nSUPERHERO ORIGIN STORY\n       I have deep-rooted problems\n       That involve  childhood  trauma  of  too  many\n       shells\n       It was ksh, zsh, bash, dash\n       They just never stopped\n       On that day I swore I would have vengeance\n       I became\n       The Bashman\n\nREPORTING BUGS\n       Report   your   favorite  bugs  in  wtf.sh  at\n       http://ctf.csaw.io\n\nSEE ALSO\n       wtf.sh ( 1 ) \n\nCSAW  2016            September  2016           WTF.SH ( 2 )", 
+            "title": "WTF.sh (2)"
         }, 
         {
-            "location": "/challenges/2016/web/wtf.sh/#topics-covered", 
+            "location": "/challenges/2016/web/wtf.sh2/#topics-covered", 
             "text": "", 
             "title": "Topics Covered"
         }, 
         {
-            "location": "/challenges/2016/web/wtf.sh/#additional-information", 
+            "location": "/challenges/2016/web/wtf.sh2/#additional-information", 
             "text": "", 
             "title": "Additional Information"
         }, 
@@ -3222,12 +3262,12 @@
         }, 
         {
             "location": "/challenges/2016/reversing/Gametime/", 
-            "text": "Gametime\n\n\nBy brad_anton\n\n\nGuess what time it is! That's right! Gametime! Wowwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww!!!!!!!!!!!!\nnote: flag is not in flag{} format\n\n\nTopics Covered\n\n\n\n\nDebuggers\n\n\nRegisters\n\n\nDissassemblers\n\n\n\n\nAdditional Information\n\n\nA game that requires a user to type either space ('s'), 'm' or 'x' when prompted. If they are fast enough, they get the flag.", 
+            "text": "Gametime\n\n\nBy Brad Antonowiecz\n\n\nGuess what time it is! That's right! Gametime! Wowwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww!!!!!!!!!!!!\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\n\n\nDebuggers\n\n\nRegisters\n\n\nDissassemblers\n\n\n\n\nAdditional Information\n\n\nA game that requires a user to type either space ('s'), 'm' or 'x' when prompted. If they are fast enough, they get the flag.", 
             "title": "Gametime"
         }, 
         {
             "location": "/challenges/2016/reversing/Gametime/#gametime", 
-            "text": "By brad_anton  Guess what time it is! That's right! Gametime! Wowwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww!!!!!!!!!!!!\nnote: flag is not in flag{} format", 
+            "text": "By Brad Antonowiecz  Guess what time it is! That's right! Gametime! Wowwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww!!!!!!!!!!!!   Note  Flag is not in flag{} format", 
             "title": "Gametime"
         }, 
         {
@@ -3262,12 +3302,12 @@
         }, 
         {
             "location": "/challenges/2016/reversing/deedeedee/", 
-            "text": "deedeedee\n\n\n\"Wow! I can run code at compile time! That's a pretty cool way to keep my flags secret. Hopefully I didn't leave any clues behind...\"\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nAdditional Information", 
+            "text": "deedeedee\n\n\nWow! I can run code at compile time! That's a pretty cool way to keep my flags secret. Hopefully I didn't leave any clues behind...\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nAdditional Information", 
             "title": "deedeedee"
         }, 
         {
             "location": "/challenges/2016/reversing/deedeedee/#deedeedee", 
-            "text": "\"Wow! I can run code at compile time! That's a pretty cool way to keep my flags secret. Hopefully I didn't leave any clues behind...\"", 
+            "text": "Wow! I can run code at compile time! That's a pretty cool way to keep my flags secret. Hopefully I didn't leave any clues behind...", 
             "title": "deedeedee"
         }, 
         {
@@ -3342,13 +3382,13 @@
         }, 
         {
             "location": "/challenges/2014/Reversing/wololo/", 
-            "text": "wololo\n\n\nBy Stortz\n\n\nCan you pass all the checks?\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nAdditional Information\n\n\nThis binary is compiled to ARMv7.", 
+            "text": "Wololo\n\n\nBy Stortz\n\n\nCan you pass all the checks?\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nAdditional Information\n\n\nThis binary is compiled to ARMv7.", 
             "title": "Wololo"
         }, 
         {
             "location": "/challenges/2014/Reversing/wololo/#wololo", 
             "text": "By Stortz  Can you pass all the checks?", 
-            "title": "wololo"
+            "title": "Wololo"
         }, 
         {
             "location": "/challenges/2014/Reversing/wololo/#topics-covered", 
@@ -3382,13 +3422,13 @@
         }, 
         {
             "location": "/challenges/2013/Reversing/BikiniBonanza/", 
-            "text": "BikiniBonanza\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nAdditional Information\n\n\nThis is .NET Reversing with slight obfuscation.", 
+            "text": "Bikini Bonanza\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nAdditional Information\n\n\nThis is .NET Reversing with slight obfuscation.", 
             "title": "Bikini Bonanza"
         }, 
         {
-            "location": "/challenges/2013/Reversing/BikiniBonanza/#bikinibonanza", 
+            "location": "/challenges/2013/Reversing/BikiniBonanza/#bikini-bonanza", 
             "text": "", 
-            "title": "BikiniBonanza"
+            "title": "Bikini Bonanza"
         }, 
         {
             "location": "/challenges/2013/Reversing/BikiniBonanza/#topics-covered", 
@@ -3701,22 +3741,22 @@
             "title": "Additional Information"
         }, 
         {
-            "location": "/challenges/2014/reversing/csaw2013reversing2/", 
+            "location": "/challenges/2014/Reversing/csaw2013reversing2/", 
             "text": "CSAW 2013 Reversing 2\n\n\nBy Cohen\n\n\nWe got a little lazy so we just tweaked an old one a bit\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nAdditional Information", 
             "title": "CSAW Reversing 2"
         }, 
         {
-            "location": "/challenges/2014/reversing/csaw2013reversing2/#csaw-2013-reversing-2", 
+            "location": "/challenges/2014/Reversing/csaw2013reversing2/#csaw-2013-reversing-2", 
             "text": "By Cohen  We got a little lazy so we just tweaked an old one a bit", 
             "title": "CSAW 2013 Reversing 2"
         }, 
         {
-            "location": "/challenges/2014/reversing/csaw2013reversing2/#topics-covered", 
+            "location": "/challenges/2014/Reversing/csaw2013reversing2/#topics-covered", 
             "text": "Dissassemblers", 
             "title": "Topics Covered"
         }, 
         {
-            "location": "/challenges/2014/reversing/csaw2013reversing2/#additional-information", 
+            "location": "/challenges/2014/Reversing/csaw2013reversing2/#additional-information", 
             "text": "", 
             "title": "Additional Information"
         }, 
@@ -3803,7 +3843,7 @@
         {
             "location": "/challenges/2013/Reversing/DotNet/", 
             "text": "DotNet\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\nXOR\n\n\n\n\nAdditional Information", 
-            "title": "Dot Net"
+            "title": "DotNet"
         }, 
         {
             "location": "/challenges/2013/Reversing/DotNet/#dotnet", 
@@ -3962,13 +4002,13 @@
         }, 
         {
             "location": "/challenges/2016/reversing/supermonsterball/", 
-            "text": "supermonsterball - pit of doom\n\n\nBy Vector 35\n\n\nA new craze is sweeping the nation -- Super Monster Ball. Join the revolution by downloading a client and pointing it at the server\n\n\nFor this challenge, you must defeat the Monster master -- Professor Vick. You'll find him at the Pit of Doom, but you can only battle him once you've made it to level 40. Beat him, and you'll be rewarded with a flag. \n\n\n\n\nNote\n\n\nNot recommended to try to solve by hand, you'll need to bot (HAX?!!), but don't get caught!\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "text": "Supermonsterball\n\n\nBy Vector 35\n\n\nA new craze is sweeping the nation -- Super Monster Ball. Join the revolution by downloading a client and pointing it at the server\n\n\nFor this challenge, you must defeat the Monster master -- Professor Vick. You'll find him at the Pit of Doom, but you can only battle him once you've made it to level 40. Beat him, and you'll be rewarded with a flag. \n\n\n\n\nNote\n\n\nNot recommended to try to solve by hand, you'll need to bot (HAX?!!), but don't get caught!\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
             "title": "Supermonsterball"
         }, 
         {
-            "location": "/challenges/2016/reversing/supermonsterball/#supermonsterball-pit-of-doom", 
+            "location": "/challenges/2016/reversing/supermonsterball/#supermonsterball", 
             "text": "By Vector 35  A new craze is sweeping the nation -- Super Monster Ball. Join the revolution by downloading a client and pointing it at the server  For this challenge, you must defeat the Monster master -- Professor Vick. You'll find him at the Pit of Doom, but you can only battle him once you've made it to level 40. Beat him, and you'll be rewarded with a flag.    Note  Not recommended to try to solve by hand, you'll need to bot (HAX?!!), but don't get caught!", 
-            "title": "supermonsterball - pit of doom"
+            "title": "Supermonsterball"
         }, 
         {
             "location": "/challenges/2016/reversing/supermonsterball/#topics-covered", 
@@ -4121,22 +4161,22 @@
             "title": "Additional Information"
         }, 
         {
-            "location": "/challenges/2017/misc/ethersplay/", 
+            "location": "/challenges/2017/Misc/ethersplay/", 
             "text": "ethersplay\n\n\nBy quend\n\n\nI stole this contract from a private blockchain. Can you help me reverse its secrets?\n\n\nTopics Covered\n\n\nAdditional Information\n\n\nYou'll need \nthis", 
             "title": "Ethersplay"
         }, 
         {
-            "location": "/challenges/2017/misc/ethersplay/#ethersplay", 
+            "location": "/challenges/2017/Misc/ethersplay/#ethersplay", 
             "text": "By quend  I stole this contract from a private blockchain. Can you help me reverse its secrets?", 
             "title": "ethersplay"
         }, 
         {
-            "location": "/challenges/2017/misc/ethersplay/#topics-covered", 
+            "location": "/challenges/2017/Misc/ethersplay/#topics-covered", 
             "text": "", 
             "title": "Topics Covered"
         }, 
         {
-            "location": "/challenges/2017/misc/ethersplay/#additional-information", 
+            "location": "/challenges/2017/Misc/ethersplay/#additional-information", 
             "text": "You'll need  this", 
             "title": "Additional Information"
         }, 
@@ -4421,22 +4461,22 @@
             "title": "Additional Information"
         }, 
         {
-            "location": "/challenges/2017/Pwn/exploitme/", 
+            "location": "/challenges/2017/pwn/exploitme/", 
             "text": "Elaborate Bullet\n\n\nBy IPS Research, Palo Alto Networks\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\nWireshark\n\n\n\n\nAdditional Information", 
             "title": "Exploitme"
         }, 
         {
-            "location": "/challenges/2017/Pwn/exploitme/#elaborate-bullet", 
+            "location": "/challenges/2017/pwn/exploitme/#elaborate-bullet", 
             "text": "By IPS Research, Palo Alto Networks", 
             "title": "Elaborate Bullet"
         }, 
         {
-            "location": "/challenges/2017/Pwn/exploitme/#topics-covered", 
+            "location": "/challenges/2017/pwn/exploitme/#topics-covered", 
             "text": "Dissassemblers  Wireshark", 
             "title": "Topics Covered"
         }, 
         {
-            "location": "/challenges/2017/Pwn/exploitme/#additional-information", 
+            "location": "/challenges/2017/pwn/exploitme/#additional-information", 
             "text": "", 
             "title": "Additional Information"
         }, 
@@ -4502,13 +4542,13 @@
         }, 
         {
             "location": "/challenges/2014/Pwn/the_road_less_traveled/", 
-            "text": "The Road Less Traveled/bo\n\n\nBy Cohen\n\n\nexploit this\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nAdditional Information", 
+            "text": "The Road Less Traveled\n\n\nBy Cohen\n\n\nexploit this\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nAdditional Information", 
             "title": "The Road Less Traveled"
         }, 
         {
-            "location": "/challenges/2014/Pwn/the_road_less_traveled/#the-road-less-traveledbo", 
+            "location": "/challenges/2014/Pwn/the_road_less_traveled/#the-road-less-traveled", 
             "text": "By Cohen  exploit this", 
-            "title": "The Road Less Traveled/bo"
+            "title": "The Road Less Traveled"
         }, 
         {
             "location": "/challenges/2014/Pwn/the_road_less_traveled/#topics-covered", 
@@ -4582,7 +4622,12 @@
         }, 
         {
             "location": "/challenges/2017/pwn/auir/", 
-            "text": "Topics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nAdditional Information", 
+            "text": "Auir\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nAdditional Information", 
+            "title": "Auir"
+        }, 
+        {
+            "location": "/challenges/2017/pwn/auir/#auir", 
+            "text": "", 
             "title": "Auir"
         }, 
         {
@@ -4677,13 +4722,13 @@
         }, 
         {
             "location": "/challenges/2015/pwn/autobots/", 
-            "text": "Autonots\n\n\nBy Chung\n\n\nI hear bots are playing ctfs now.\n\n\nTopics Covered\n\n\n\n\nBuffer Overflow\n\n\nDissassemblers\n\n\n\n\nAdditional Information\n\n\nASLR is disabled for this challenge.", 
+            "text": "Autobots\n\n\nBy Chung\n\n\nI hear bots are playing ctfs now.\n\n\nTopics Covered\n\n\n\n\nBuffer Overflow\n\n\nDissassemblers\n\n\n\n\nAdditional Information\n\n\nASLR is disabled for this challenge.", 
             "title": "Autobots"
         }, 
         {
-            "location": "/challenges/2015/pwn/autobots/#autonots", 
+            "location": "/challenges/2015/pwn/autobots/#autobots", 
             "text": "By Chung  I hear bots are playing ctfs now.", 
-            "title": "Autonots"
+            "title": "Autobots"
         }, 
         {
             "location": "/challenges/2015/pwn/autobots/#topics-covered", 
@@ -4716,6 +4761,26 @@
             "title": "Additional Information"
         }, 
         {
+            "location": "/challenges/2014/Pwn/ish/", 
+            "text": "Ish\n\n\nBy Kai Zhong\n\n\nThis shell sucks\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\nDebuggers\n\n\n\n\nAdditional Information", 
+            "title": "Ish"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/ish/#ish", 
+            "text": "By Kai Zhong  This shell sucks", 
+            "title": "Ish"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/ish/#topics-covered", 
+            "text": "Dissassemblers  Debuggers", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2014/Pwn/ish/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
             "location": "/challenges/2014/Pwn/greenhornd/", 
             "text": "Greenhorn'd\n\n\nBy Stortz\n\n\nFind the key!\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nAdditional Information", 
             "title": "Greenhorn'd"
@@ -4737,13 +4802,13 @@
         }, 
         {
             "location": "/challenges/2014/Pwn/s3/", 
-            "text": "s3\n\n\nBy Taylor\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "text": "S3\n\n\nBy Taylor\n\n\nTopics Covered\n\n\nAdditional Information", 
             "title": "S3"
         }, 
         {
             "location": "/challenges/2014/Pwn/s3/#s3", 
             "text": "By Taylor", 
-            "title": "s3"
+            "title": "S3"
         }, 
         {
             "location": "/challenges/2014/Pwn/s3/#topics-covered", 
@@ -5237,13 +5302,13 @@
         }, 
         {
             "location": "/challenges/2015/pwn/greetingsearthling/", 
-            "text": "GreetingsEarthling\n\n\nBy Wiens\n\n\nThis challenge can be found in PwnAdventureZ\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "text": "Greetings Earthling\n\n\nBy Wiens\n\n\nThis challenge can be found in PwnAdventureZ\n\n\nTopics Covered\n\n\nAdditional Information", 
             "title": "Greetings Earthlings"
         }, 
         {
-            "location": "/challenges/2015/pwn/greetingsearthling/#greetingsearthling", 
+            "location": "/challenges/2015/pwn/greetingsearthling/#greetings-earthling", 
             "text": "By Wiens  This challenge can be found in PwnAdventureZ", 
-            "title": "GreetingsEarthling"
+            "title": "Greetings Earthling"
         }, 
         {
             "location": "/challenges/2015/pwn/greetingsearthling/#topics-covered", 
@@ -5257,13 +5322,13 @@
         }, 
         {
             "location": "/challenges/2015/pwn/hiddencave/", 
-            "text": "HiddenCave\n\n\nBy Wiens\n\n\nThis challenge can be found in PwnAdventureZ\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "text": "Hidden Cave\n\n\nBy Wiens\n\n\nThis challenge can be found in PwnAdventureZ\n\n\nTopics Covered\n\n\nAdditional Information", 
             "title": "Hidden Cave"
         }, 
         {
-            "location": "/challenges/2015/pwn/hiddencave/#hiddencave", 
+            "location": "/challenges/2015/pwn/hiddencave/#hidden-cave", 
             "text": "By Wiens  This challenge can be found in PwnAdventureZ", 
-            "title": "HiddenCave"
+            "title": "Hidden Cave"
         }, 
         {
             "location": "/challenges/2015/pwn/hiddencave/#topics-covered", 
@@ -5277,13 +5342,13 @@
         }, 
         {
             "location": "/challenges/2015/pwn/quarantinebreaker/", 
-            "text": "QuarantineBreaker\n\n\nBy Wiens\n\n\nThis challenge can be found in PwnAdventureZ\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "text": "Quarantine Breaker\n\n\nBy Wiens\n\n\nThis challenge can be found in PwnAdventureZ\n\n\nTopics Covered\n\n\nAdditional Information", 
             "title": "Quarentine Breaker"
         }, 
         {
-            "location": "/challenges/2015/pwn/quarantinebreaker/#quarantinebreaker", 
+            "location": "/challenges/2015/pwn/quarantinebreaker/#quarantine-breaker", 
             "text": "By Wiens  This challenge can be found in PwnAdventureZ", 
-            "title": "QuarantineBreaker"
+            "title": "Quarantine Breaker"
         }, 
         {
             "location": "/challenges/2015/pwn/quarantinebreaker/#topics-covered", 
@@ -5297,13 +5362,13 @@
         }, 
         {
             "location": "/challenges/2015/pwn/blox/", 
-            "text": "blox\n\n\nBy Wiens\n\n\nThis challenge can be found in PwnAdventureZ\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "text": "Blox\n\n\nBy Wiens\n\n\nThis challenge can be found in PwnAdventureZ\n\n\nTopics Covered\n\n\nAdditional Information", 
             "title": "Blox"
         }, 
         {
             "location": "/challenges/2015/pwn/blox/#blox", 
             "text": "By Wiens  This challenge can be found in PwnAdventureZ", 
-            "title": "blox"
+            "title": "Blox"
         }, 
         {
             "location": "/challenges/2015/pwn/blox/#topics-covered", 
@@ -5317,13 +5382,13 @@
         }, 
         {
             "location": "/challenges/2015/pwn/get-flag/", 
-            "text": "get_flag\n\n\nBy Wiens\n\n\nThis challenge can be found in PwnAdventureZ\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "text": "Get Flag\n\n\nBy Wiens\n\n\nThis challenge can be found in PwnAdventureZ\n\n\nTopics Covered\n\n\nAdditional Information", 
             "title": "Get Flag"
         }, 
         {
-            "location": "/challenges/2015/pwn/get-flag/#get_flag", 
+            "location": "/challenges/2015/pwn/get-flag/#get-flag", 
             "text": "By Wiens  This challenge can be found in PwnAdventureZ", 
-            "title": "get_flag"
+            "title": "Get Flag"
         }, 
         {
             "location": "/challenges/2015/pwn/get-flag/#topics-covered", 
@@ -5337,13 +5402,13 @@
         }, 
         {
             "location": "/challenges/2015/pwn/memory-disclosure-flag/", 
-            "text": "memory_disclosure_flag\n\n\nBy Wiens\n\n\nThis flag can be found in PwnAdventureZ\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "text": "Memory Disclosure Flag\n\n\nBy Wiens\n\n\nThis flag can be found in PwnAdventureZ\n\n\nTopics Covered\n\n\nAdditional Information", 
             "title": "Memory Disclosure Flag"
         }, 
         {
-            "location": "/challenges/2015/pwn/memory-disclosure-flag/#memory_disclosure_flag", 
+            "location": "/challenges/2015/pwn/memory-disclosure-flag/#memory-disclosure-flag", 
             "text": "By Wiens  This flag can be found in PwnAdventureZ", 
-            "title": "memory_disclosure_flag"
+            "title": "Memory Disclosure Flag"
         }, 
         {
             "location": "/challenges/2015/pwn/memory-disclosure-flag/#topics-covered", 

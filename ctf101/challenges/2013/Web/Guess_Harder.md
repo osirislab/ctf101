@@ -6,3 +6,4 @@ You'll never guess my password!
 
 ## Additional Information
 
+You will probably never be able to guess the password. Perhaps you should check something else? Cookies perhaps?

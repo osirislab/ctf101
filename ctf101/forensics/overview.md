@@ -37,7 +37,7 @@ An important part of Forensics is having the right tools, as well as being famil
 ### Medium
 
 - [deeeeeeaaaaaadbeeeeeeeeeef](/challenges/2013/Forensics/Deeeeeeaaaaaadbeeeeeeeeeef.md)
-- [Best Router](/challenges/2017/Forensics/best_router.md)
+- [Best Router](/challenges/2017/forensics/best_router.md)
 - [Thoroughly Stripped](/challenges/2017/forensics/thoroughlyStripped.md)
 - [Pure Poetry](/challenges/2016/forensics/pure_poetry.md)
 - [Yaar Haar Fiddle Dee Dee](/challenges/2016/forensics/Yaar_Haar_Fiddle_Dee_Dee.md)

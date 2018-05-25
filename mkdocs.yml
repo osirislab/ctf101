@@ -166,6 +166,15 @@ pages:
 - Challenges:
   - Forensics:
     - Easy:
+      - Android 1: 'challenges/2011/forensics/android1.md'
+      - Android 2: 'challenges/2011/forensics/android2.md'
+      - Evil Burritos 1: 'challenges/2011/forensics/evilburritos.md'
+      - Hardware: 'challenges/2011/forensics/hardware.md'
+      - Networking 101: 'challenges/2011/forensics/networking101.md'
+      - Lemieux.pcap: 'challenges/2012/forensics/lemieux.pcap.md'
+      - Telnet.pcap: 'challenges/2012/forensics/telnet.pcap.md'
+      - Version1.png: 'challenges/2012/forensics/version1.png.md'
+      - Version2.png: 'challenges/2012/forensics/version2.png.md'
       - Missed Registration-hidden: 'challenges/2017/forensics/missed_registration.md'
       - Clams Don't Dance: 'challenges/2016/forensics/Clams_Dont_Dance.md'
       - Kill: 'challenges/2016/forensics/Kill.md'
@@ -181,6 +190,9 @@ pages:
       - Flash: 'challenges/2015/forensics/flash.md'
       - Dumptster Diving: 'challenges/2014/forensics/dumpster_diving.md'
     - Medium:
+      - Dongle.pcap: 'challenges/2012/forensics/dongle.pcap.md'
+      - Patch Management: 'challenges/2011/forensics/patchmanagement.md'
+      - Evil Burritos 2: 'challenges/2011/forensics/evilburritos2.md'
       - deeeeeeaaaaaadbeeeeeeeeeef: 'challenges/2013/Forensics/Deeeeeeaaaaaadbeeeeeeeeeef.md'
       - Best Router: 'challenges/2017/forensics/best_router.md'
       - Thoroughly Stripped: 'challenges/2017/forensics/thoroughlyStripped.md'
@@ -191,6 +203,11 @@ pages:
       - Obscurity: 'challenges/2014/forensics/obscurity.md'
       - Why Not SFTP: 'challenges/2014/forensics/why_not_sftp__.md'
     - Hard:
+      - Forensics 1 (2012): 'challenges/2012/forensics/forensics1.md'
+      - Forensics 2 (2012): 'challenges/2012/forensics/forensics2.md'
+      - Timewave-zero.pcap: 'challenges/2012/forensics/timewave-zero.pcap.md'
+      - Core: 'challenges/2012/forensics/core.md'
+      - Love Letter: 'challenges/2011/forensics/loveletter.md'
       - Mandient: 'challenges/2015/forensics/mandiant.md'
       - Ransomwhere: 'challenges/2015/forensics/ransomewhere.md'
       - Sharpturn: 'challenges/2015/forensics/sharpturn.md'
@@ -199,6 +216,10 @@ pages:
 
   - Cryptography:
     - Easy:
+      - Crypto 1 (2011): 'challenges/2011/crypto/crypto1.md'
+      - Crypto 2 (2011): 'challenges/2011/crypto/crypto2.md'
+      - Crypto 3 (2011): 'challenges/2011/crypto/crypto3.md'
+      - Crypto 4 (2011): 'challenges/2011/crypto/crypto4.md'
       - ECXOR: 'challenges/2017/crypto/ecxor.md'
       - Another XOR: 'challenges/2017/crypto/another_xor.md'
       - Sleeping Guard: 'challenges/2016/crypto/Sleeping_Guard.md'
@@ -209,6 +230,9 @@ pages:
       - Feal: 'challenges/2014/crypto/feal.md'
       - STFU: 'challenges/2013/Crypto/stfu.md'
     - Medium:
+      - Crypto 5 (2011): 'challenges/2011/crypto/crypto5.md'
+      - Crypto 6 (2011): 'challenges/2011/crypto/crypto6.md'
+      - Crypto 7 (2011): 'challenges/2011/crypto/crypto7.md'
       - Almost XOR: 'challenges/2017/crypto/almost_xor.md'
       - Lupin: 'challenges/2017/crypto/Lupin.md'
       - Neo: 'challenges/2016/crypto/Neo.md'
@@ -219,6 +243,10 @@ pages:
       - CSAW Pad: 'challenges/2013/Crypto/CSAWpad.md'
       - Only This Program: 'challenges/2013/Crypto/onlythisprogram.md'
     - Hard:
+      - Crypto 8 (2011): 'challenges/2011/crypto/crypto8.md'
+      - Crypto 9 (2011): 'challenges/2011/crypto/crypto9.md'
+      - Crypto 10 (2011): 'challenges/2011/crypto/crypto10.md'
+      - Crypto 2012: 'challenges/2012/crypto/crypto1.md'
       - Side-channel: 'challenges/2017/crypto/Side-channel.md'
       - Baby Crypt: 'challenges/2017/crypto/baby_crypt.md'
       - Broken Box: 'challenges/2016/crypto/Broken_Box.md'
@@ -278,6 +306,10 @@ pages:
 
   - Reversing:
     - Easy:
+      - .Net 1: 'challenges/2011/Reversing/net1.md'
+      - Reversing 101: 'challenges/2011/Reversing/reversing101.md'
+      - CSAW2012Reversing.exe: 'challenges/2012/Reversing/csaw2012reversing.exe.md'
+      - CSAWQualificationEasy.exe: 'challenges/2012/Reversing/csawqualificationeasy.exe.md'
       - Aerosol Can: 'challenges/2014/Reversing/aerosol_can.md'
       - TablEZ: 'challenges/2017/reversing/tablez.md'
       - DEFCON 1: 'challenges/2017/reversing/DEFCON1.md'
@@ -292,6 +324,8 @@ pages:
       - Bikini Bonanza: 'challenges/2013/Reversing/BikiniBonanza.md'
       - Noobs First Firmware Mod: 'challenges/2013/Reversing/Noobs_First_Firmware_Mod.md'
     - Medium:
+      - Linux: 'challenges/2011/Reversing/linux.md'
+      - CSAWQualification.exe: 'challenges/2012/Reversing/csawqualification.exe.md'
       - Mixed Signals: 'challenges/2016/reversing/MixedSignals.md'
       - Go Faster: 'challenges/2016/reversing/gofaster.md'
       - Keygenme: 'challenges/2013/Reversing/keygenme.md'
@@ -310,6 +344,11 @@ pages:
       - Life: 'challenges/2013/Misc/Life.md'
       - Fun For Everybody: 'challenges/2013/Reversing/Brad_Anton.md'
     - Hard:
+      - OpenGL: 'challenges/2011/Reversing/opengl.md'
+      - Reversing 1 (2012): 'challenges/2012/Reversing/reversing1.md'
+      - Reversing 2 (2012): 'challenges/2012/Reversing/reversing2.md'
+      - Reversing 3 (2012): 'challenges/2012/Reversing/reversing3.md'
+      - CSAW 2012 Reversing: 'challenges/2012/Reversing/csaw2012reversing.md'
       - ETHERSNOOB: 'challenges/2017/Misc/ETHERSNOOB.md'
       - Impossible: 'challenges/2013/Reversing/Impossible.md'
       - DotNet: 'challenges/2013/Reversing/DotNet.md'
@@ -332,6 +371,11 @@ pages:
 
   - Exploitation:
     - Easy:
+      - Bin 1: 'challenges/2011/Pwn/bin1.md'
+      - Bin 3: 'challenges/2011/Pwn/bin3.md'
+      - Exploitation 101: 'challenges/2011/Pwn/exploitation101.md'
+      - Python: 'challenges/2011/Pwn/python.md'
+      - 54321: 'challenges/2012/Pwn/54321.md'
       - Humm_sCh-t: 'challenges/2017/pwn/Humm_sCh-t.md'
       - SCV: 'challenges/2017/pwn/scv.md'
       - Pilot: 'challenges/2017/pwn/pilot.md'
@@ -347,6 +391,10 @@ pages:
       - Xorcise 1: 'challenges/2014/Pwn/xorcise1.md'
       - Saturn: 'challenges/2014/Pwn/saturn.md'
     - Medium:
+      - Bin 2: 'challenges/2011/Pwn/bin2.md'
+      - Bin 5: 'challenges/2011/Pwn/bin5.md'
+      - 23456: 'challenges/2012/Pwn/23456.md'
+      - 4842: 'challenges/2012/Pwn/4842.md'
       - Exploitme: 'challenges/2017/pwn/exploitme.md'
       - Xorcise 2: 'challenges/2014/Pwn/Xorcise2.md'
       - Pybabbies: 'challenges/2014/Pwn/pybabbies.md'
@@ -364,6 +412,8 @@ pages:
       - Regexpire: 'challenges/2016/misc/regexpire.md'
       - Ish: 'challenges/2014/Pwn/ish.md'
     - Hard:
+      - Bin 4: 'challenges/2011/Pwn/bin4.md'
+      - 12345: 'challenges/2012/Pwn/12345.md'
       - Greenhorn'd: 'challenges/2014/Pwn/greenhornd.md'
       - S3: 'challenges/2014/Pwn/s3.md'
       - Krakme: 'challenges/2014/Pwn/krakme.md'

@@ -19,8 +19,17 @@ An important part of Forensics is having the right tools, as well as being famil
 
 ### Easy
 
-- [Missed Registration](/challenges/2017/forensics/missed_registration.md)
-- [Clams Don't Dance](/challenges/2016/forensics/Clams_Dont_Dance.md)
+- [Android 1](/challenges/2011/forensics/android1.md)
+- [Android 2](/challenges/2011/forensics/android2.md)
+- [Evil Burritos 1](/challenges/2011/forensics/evilburritos.md)
+- [Hardware](/challenges/2011/forensics/hardware.md)
+- [Networking 101](/challenges/2011/forensics/networking101.md)
+- [Lemieux.pcap](/challenges/2012/forensics/lemieux.pcap.md)
+- [Telnet.pcap](/challenges/2012/forensics/telnet.pcap.md)
+- [Version1.png](/challenges/2012/forensics/version1.png.md)
+- [Version2.png](/challenges/2012/forensics/version2.png.md)
+- [Missed Registration-hidden](/challenges/2017/forensics/missed_registration.md)
+- [Clams Don)t Dance](/challenges/2016/forensics/Clams_Dont_Dance.md)
 - [Kill](/challenges/2016/forensics/Kill.md)
 - [Brainfun](/challenges/2016/forensics/brainfun.md)
 - [Evidence.zip](/challenges/2016/forensics/evidence.zip.md)
@@ -36,6 +45,9 @@ An important part of Forensics is having the right tools, as well as being famil
 
 ### Medium
 
+- [Dongle.pcap](/challenges/2012/forensics/dongle.pcap.md)
+- [Patch Management](/challenges/2011/forensics/patchmanagement.md)
+- [Evil Burritos 2](/challenges/2011/forensics/evilburritos2.md)
 - [deeeeeeaaaaaadbeeeeeeeeeef](/challenges/2013/Forensics/Deeeeeeaaaaaadbeeeeeeeeeef.md)
 - [Best Router](/challenges/2017/forensics/best_router.md)
 - [Thoroughly Stripped](/challenges/2017/forensics/thoroughlyStripped.md)
@@ -48,6 +60,11 @@ An important part of Forensics is having the right tools, as well as being famil
 
 ### Hard
 
+- [Forensics 1 (2012)](/challenges/2012/forensics/forensics1.md)
+- [Forensics 2 (2012)](/challenges/2012/forensics/forensics2.md)
+- [Timewave-zero.pcap](/challenges/2012/forensics/timewave-zero.pcap.md)
+- [Core](/challenges/2012/forensics/core.md)
+- [Love Letter](/challenges/2011/forensics/loveletter.md)
 - [Mandient](/challenges/2015/forensics/mandiant.md)
 - [Ransomwhere](/challenges/2015/forensics/ransomewhere.md)
 - [Sharpturn](/challenges/2015/forensics/sharpturn.md)

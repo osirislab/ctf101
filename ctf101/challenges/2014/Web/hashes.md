@@ -2,11 +2,11 @@
 
 By Chung
 
-
-
 location, location, location
+
 ## Topics Covered
 
-- [Hashing Functions](/cryptography/what-are-hashing-functions/)
+- [Cross Site Scripting](/web-exploitation/cross-site-scripting/what-is-cross-site-scripting)
+
 ## Additional Information
 

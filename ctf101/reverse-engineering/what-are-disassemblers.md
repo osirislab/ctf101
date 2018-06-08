@@ -34,8 +34,10 @@ Binary Ninja is an up and coming disassembler that attempts to bring a new, more
 Binja also has some community contributed plugins which are collected here: https://github.com/Vector35/community-plugins
 
 
-### GDB
+### gdb
 
 The GNU Debugger is a free and open source debugger which also disassembles programs. It's capable as a disassembler, but most notably it is used by CTF players for its debugging and dynamic analysis capabailities.
+
+gdb is often used in tandom with enhancement scripts like [peda](https://github.com/longld/peda), [pwndbg](https://github.com/pwndbg/pwndbg), and [GEF](https://github.com/hugsy/gef)
 
 ![GDB](images/gdb-disass.png)

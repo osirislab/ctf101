@@ -17,7 +17,7 @@
         }, 
         {
             "location": "/forensics/overview/", 
-            "text": "Forensics\n\n\nForensics is the art of recovering the digital trail left on a computer. There are plently of methods to find data which is seemingly deleted, not stored, or worse, covertly recorded.\n\n\nAn important part of Forensics is having the right tools, as well as being familair with the following topics:\n\n\n\n\nFile Formats\n\n\nEXIF data\n\n\nWireshark \n PCAPs\n\n\nWhat is Wireshark\n\n\nWhat are PCAPs\n\n\n\n\n\n\nStegonagraphy\n\n\nDisk Imaging\n\n\n\n\nChallenges\n\n\nEasy\n\n\n\n\nMissed Registration\n\n\nClams Don't Dance\n\n\nKill\n\n\nBrainfun\n\n\nEvidence.zip\n\n\nWatchword\n\n\nPhish it, Phish it Good\n\n\nSaid Zed\n\n\nBlack and White\n\n\nPcapin\n\n\nKeep Calm and CTF\n\n\nTransfer\n\n\nFlash\n\n\nDumptster Diving\n\n\n\n\nMedium\n\n\n\n\ndeeeeeeaaaaaadbeeeeeeeeeef\n\n\nBest Router\n\n\nThoroughly Stripped\n\n\nPure Poetry\n\n\nYaar Haar Fiddle Dee Dee\n\n\nYaar Haar 2\n\n\nAirport\n\n\nObscurity\n\n\nWhy Not SFTP\n\n\n\n\nHard\n\n\n\n\nMandient\n\n\nRansomwhere\n\n\nSharpturn\n\n\nAristotle\n\n\nFluffy No More", 
+            "text": "Forensics\n\n\nForensics is the art of recovering the digital trail left on a computer. There are plently of methods to find data which is seemingly deleted, not stored, or worse, covertly recorded.\n\n\nAn important part of Forensics is having the right tools, as well as being familair with the following topics:\n\n\n\n\nFile Formats\n\n\nEXIF data\n\n\nWireshark \n PCAPs\n\n\nWhat is Wireshark\n\n\nWhat are PCAPs\n\n\n\n\n\n\nStegonagraphy\n\n\nDisk Imaging\n\n\n\n\nChallenges\n\n\nEasy\n\n\n\n\nAndroid 1\n\n\nAndroid 2\n\n\nEvil Burritos 1\n\n\nHardware\n\n\nNetworking 101\n\n\nLemieux.pcap\n\n\nTelnet.pcap\n\n\nVersion1.png\n\n\nVersion2.png\n\n\nMissed Registration-hidden\n\n\nClams Don)t Dance\n\n\nKill\n\n\nBrainfun\n\n\nEvidence.zip\n\n\nWatchword\n\n\nPhish it, Phish it Good\n\n\nSaid Zed\n\n\nBlack and White\n\n\nPcapin\n\n\nKeep Calm and CTF\n\n\nTransfer\n\n\nFlash\n\n\nDumptster Diving\n\n\n\n\nMedium\n\n\n\n\nDongle.pcap\n\n\nPatch Management\n\n\nEvil Burritos 2\n\n\ndeeeeeeaaaaaadbeeeeeeeeeef\n\n\nBest Router\n\n\nThoroughly Stripped\n\n\nPure Poetry\n\n\nYaar Haar Fiddle Dee Dee\n\n\nYaar Haar 2\n\n\nAirport\n\n\nObscurity\n\n\nWhy Not SFTP\n\n\n\n\nHard\n\n\n\n\nForensics 1 (2012)\n\n\nForensics 2 (2012)\n\n\nTimewave-zero.pcap\n\n\nCore\n\n\nLove Letter\n\n\nMandient\n\n\nRansomwhere\n\n\nSharpturn\n\n\nAristotle\n\n\nFluffy No More", 
             "title": "Overview"
         }, 
         {
@@ -32,17 +32,17 @@
         }, 
         {
             "location": "/forensics/overview/#easy", 
-            "text": "Missed Registration  Clams Don't Dance  Kill  Brainfun  Evidence.zip  Watchword  Phish it, Phish it Good  Said Zed  Black and White  Pcapin  Keep Calm and CTF  Transfer  Flash  Dumptster Diving", 
+            "text": "Android 1  Android 2  Evil Burritos 1  Hardware  Networking 101  Lemieux.pcap  Telnet.pcap  Version1.png  Version2.png  Missed Registration-hidden  Clams Don)t Dance  Kill  Brainfun  Evidence.zip  Watchword  Phish it, Phish it Good  Said Zed  Black and White  Pcapin  Keep Calm and CTF  Transfer  Flash  Dumptster Diving", 
             "title": "Easy"
         }, 
         {
             "location": "/forensics/overview/#medium", 
-            "text": "deeeeeeaaaaaadbeeeeeeeeeef  Best Router  Thoroughly Stripped  Pure Poetry  Yaar Haar Fiddle Dee Dee  Yaar Haar 2  Airport  Obscurity  Why Not SFTP", 
+            "text": "Dongle.pcap  Patch Management  Evil Burritos 2  deeeeeeaaaaaadbeeeeeeeeeef  Best Router  Thoroughly Stripped  Pure Poetry  Yaar Haar Fiddle Dee Dee  Yaar Haar 2  Airport  Obscurity  Why Not SFTP", 
             "title": "Medium"
         }, 
         {
             "location": "/forensics/overview/#hard", 
-            "text": "Mandient  Ransomwhere  Sharpturn  Aristotle  Fluffy No More", 
+            "text": "Forensics 1 (2012)  Forensics 2 (2012)  Timewave-zero.pcap  Core  Love Letter  Mandient  Ransomwhere  Sharpturn  Aristotle  Fluffy No More", 
             "title": "Hard"
         }, 
         {
@@ -257,7 +257,7 @@
         }, 
         {
             "location": "/cryptography/overview/", 
-            "text": "Cryptography\n\n\nCryptography is the reason we can use banking apps, transmit sensitive information over the web, and in general protect our privacy. However, a large part of CTFs is breaking widely used encryption schemes which are improperly implemented. The math may seem daunting, but more often than not, a simple understanding of the underlying principles will allow you to find flaws and crack the code.\n\n\nThe word \u201ccryptography\u201d technically means the art of writing codes. When it comes to digital forensics, it\u2019s a method you can use to understand how data is constructed for your analysis.\n\n\nWhat is cryptography used for?\n\n\nUses in every day software\n\n\n\n\nSecuring web traffic (passwords, communication, etc.)\n\n\nSecuring copyrighted software code\n\n\n\n\nMalicious uses\n\n\n\n\nHiding malicious communication\n\n\nHiding malicious code\n\n\n\n\nTopics\n\n\n\n\nXOR\n\n\nCesear Cipher\n\n\nSubstitution Cipher\n\n\nVigenere Cipher\n\n\nHashing Functions\n\n\nBlock Ciphers\n\n\nStream Ciphers\n\n\nRSA\n\n\n\n\nChallenges\n\n\nEasy\n\n\n\n\nECXOR\n\n\nAnother XOR\n\n\nSleeping Guard\n\n\nKaty\n\n\nNotesy\n\n\nEPS\n\n\nPunchout\n\n\nFeal\n\n\nSTFU\n\n\n\n\nMedium\n\n\n\n\nAlmost XOR\n\n\nLupin\n\n\nNeo\n\n\nKiller Cipher\n\n\nCheck Plz\n\n\nPsifer School\n\n\nMountainsound\n\n\nCSAW Pad\n\n\nOnly This Program\n\n\n\n\nHard\n\n\n\n\nSide-channel\n\n\nBaby Crypt\n\n\nBroken Box\n\n\nStill Broken Box\n\n\nAnother Broken Box\n\n\nSlabs of Platinum\n\n\nBricks of Gold\n\n\nCFB Sum\n\n\nWieners\n\n\nSlurp", 
+            "text": "Cryptography\n\n\nCryptography is the reason we can use banking apps, transmit sensitive information over the web, and in general protect our privacy. However, a large part of CTFs is breaking widely used encryption schemes which are improperly implemented. The math may seem daunting, but more often than not, a simple understanding of the underlying principles will allow you to find flaws and crack the code.\n\n\nThe word \u201ccryptography\u201d technically means the art of writing codes. When it comes to digital forensics, it\u2019s a method you can use to understand how data is constructed for your analysis.\n\n\nWhat is cryptography used for?\n\n\nUses in every day software\n\n\n\n\nSecuring web traffic (passwords, communication, etc.)\n\n\nSecuring copyrighted software code\n\n\n\n\nMalicious uses\n\n\n\n\nHiding malicious communication\n\n\nHiding malicious code\n\n\n\n\nTopics\n\n\n\n\nXOR\n\n\nCesear Cipher\n\n\nSubstitution Cipher\n\n\nVigenere Cipher\n\n\nHashing Functions\n\n\nBlock Ciphers\n\n\nStream Ciphers\n\n\nRSA\n\n\n\n\nChallenges\n\n\nEasy\n\n\n\n\nCrypto 1 (2011)\n\n\nCrypto 2 (2011)\n\n\nCrypto 3 (2011)\n\n\nCrypto 4 (2011)\n\n\nECXOR\n\n\nAnother XOR\n\n\nSleeping Guard\n\n\nKaty\n\n\nNotesy\n\n\nEPS\n\n\nPunchout\n\n\nFeal\n\n\nSTFU\n\n\n\n\nMedium\n\n\n\n\nCrypto 5 (2011)\n\n\nCrypto 6 (2011)\n\n\nCrypto 7 (2011)\n\n\nAlmost XOR\n\n\nLupin\n\n\nNeo\n\n\nKiller Cipher\n\n\nCheck Plz\n\n\nPsifer School\n\n\nMountainsound\n\n\nCSAW Pad\n\n\nOnly This Program\n\n\n\n\nHard\n\n\n\n\nCrypto 8 (2011)\n\n\nCrypto 9 (2011)\n\n\nCrypto 10 (2011)\n\n\nCrypto 2012\n\n\nSide-channel\n\n\nBaby Crypt\n\n\nBroken Box\n\n\nStill Broken Box\n\n\nAnother Broken Box\n\n\nSlabs of Platinum\n\n\nBricks of Gold\n\n\nCFB Sum\n\n\nWieners\n\n\nSlurp", 
             "title": "Overview"
         }, 
         {
@@ -282,17 +282,17 @@
         }, 
         {
             "location": "/cryptography/overview/#easy", 
-            "text": "ECXOR  Another XOR  Sleeping Guard  Katy  Notesy  EPS  Punchout  Feal  STFU", 
+            "text": "Crypto 1 (2011)  Crypto 2 (2011)  Crypto 3 (2011)  Crypto 4 (2011)  ECXOR  Another XOR  Sleeping Guard  Katy  Notesy  EPS  Punchout  Feal  STFU", 
             "title": "Easy"
         }, 
         {
             "location": "/cryptography/overview/#medium", 
-            "text": "Almost XOR  Lupin  Neo  Killer Cipher  Check Plz  Psifer School  Mountainsound  CSAW Pad  Only This Program", 
+            "text": "Crypto 5 (2011)  Crypto 6 (2011)  Crypto 7 (2011)  Almost XOR  Lupin  Neo  Killer Cipher  Check Plz  Psifer School  Mountainsound  CSAW Pad  Only This Program", 
             "title": "Medium"
         }, 
         {
             "location": "/cryptography/overview/#hard", 
-            "text": "Side-channel  Baby Crypt  Broken Box  Still Broken Box  Another Broken Box  Slabs of Platinum  Bricks of Gold  CFB Sum  Wieners  Slurp", 
+            "text": "Crypto 8 (2011)  Crypto 9 (2011)  Crypto 10 (2011)  Crypto 2012  Side-channel  Baby Crypt  Broken Box  Still Broken Box  Another Broken Box  Slabs of Platinum  Bricks of Gold  CFB Sum  Wieners  Slurp", 
             "title": "Hard"
         }, 
         {
@@ -562,7 +562,7 @@
         }, 
         {
             "location": "/web-exploitation/overview/", 
-            "text": "Web Exploitation\n\n\nWebsites all around the world are programmed using various programming languages. While there are specific vulnerabilities in each programming langage that the developer should be aware of, there are issues fundamental to the internet that can show up regardless of the chosen language or framework.\n\n\nThese vulnerabilities often show up in CTFs as web security challenges where the user needs to exploit a bug to gain some kind of higher level privelege.\n\n\nCommon vulnerabilities to see in CTF challenges:\n\n\n\n\nSQL Injection\n\n\nCommand Injection\n\n\nDirectory Traversal\n\n\nCross Site Request Forgery\n\n\nCross Site Scripting\n\n\nServer Side Request Forgery\n\n\n\n\nChallenges\n\n\nEasy\n\n\n\n\nOrange\n\n\nGopherz2Basic\n\n\nWTF.sh (1)\n\n\nSeizure Cipher\n\n\nMFW\n\n\nLinq to the Present\n\n\nK_{Stairs}\n\n\nK_{Achieve}\n\n\nBig Data\n\n\nNetworking 1\n\n\nNetworking 2\n\n\nGuess Harder\n\n\n\n\nMedium\n\n\n\n\nNotes\n\n\niSEC Challenge\n\n\nNevernote\n\n\nHistorypeats/Fridge Corp\n\n\nShia\n\n\nGopherz2NotSoBasic\n\n\nlittlequery\n\n\nSugar Cereal\n\n\nI Got ID\n\n\nCloudb\n\n\nLawn Care Simulator\n\n\nApp\n\n\nPPS\n\n\nAdoptable Lolcats\n\n\n\n\nHard\n\n\n\n\nHerpderper\n\n\nBroadcastr\n\n\nKWS 1\n\n\nOrangeV2\n\n\nNot My Cup of Coffe\n\n\nWTF.sh (2)\n\n\nThrowback\n\n\nWeebdate\n\n\nTBBPE\n\n\nAnime Wall\n\n\nGuestbook\n\n\nHashes\n\n\nWebroot\n\n\nSilkgoat", 
+            "text": "Web Exploitation\n\n\nWebsites all around the world are programmed using various programming languages. While there are specific vulnerabilities in each programming langage that the developer should be aware of, there are issues fundamental to the internet that can show up regardless of the chosen language or framework.\n\n\nThese vulnerabilities often show up in CTFs as web security challenges where the user needs to exploit a bug to gain some kind of higher level privelege.\n\n\nCommon vulnerabilities to see in CTF challenges:\n\n\n\n\nSQL Injection\n\n\nCommand Injection\n\n\nDirectory Traversal\n\n\nCross Site Request Forgery\n\n\nCross Site Scripting\n\n\nServer Side Request Forgery\n\n\n\n\nChallenges\n\n\nEasy\n\n\n\n\nOrange\n\n\nGopherz2Basic\n\n\nWTF.sh (1)\n\n\nSeizure Cipher\n\n\nMFW\n\n\nLinq to the Present\n\n\nK_{Stairs}\n\n\nK_{Achieve}\n\n\nBig Data\n\n\nNetworking 1\n\n\nNetworking 2\n\n\nGuess Harder\n\n\n\n\nMedium\n\n\n\n\nNotes\n\n\niSEC Challenge\n\n\nNevernote\n\n\nHistorypeats/Fridge Corp\n\n\nShia\n\n\nGopherz2NotSoBasic\n\n\nlittlequery\n\n\nSugar Cereal\n\n\nI Got ID\n\n\nCloudb\n\n\nLawn Care Simulator\n\n\nApp\n\n\nPPS\n\n\nAdoptable Lolcats\n\n\nTwisted\n\n\n\n\nHard\n\n\n\n\nHerpderper\n\n\nBroadcastr\n\n\nKWS 1\n\n\nOrangeV2\n\n\nNot My Cup of Coffe\n\n\nWTF.sh (2)\n\n\nThrowback\n\n\nWeebdate\n\n\nTBBPE\n\n\nAnime Wall\n\n\nGuestbook\n\n\nHashes\n\n\nWebroot\n\n\nSilkgoat", 
             "title": "Overview"
         }, 
         {
@@ -582,7 +582,7 @@
         }, 
         {
             "location": "/web-exploitation/overview/#medium", 
-            "text": "Notes  iSEC Challenge  Nevernote  Historypeats/Fridge Corp  Shia  Gopherz2NotSoBasic  littlequery  Sugar Cereal  I Got ID  Cloudb  Lawn Care Simulator  App  PPS  Adoptable Lolcats", 
+            "text": "Notes  iSEC Challenge  Nevernote  Historypeats/Fridge Corp  Shia  Gopherz2NotSoBasic  littlequery  Sugar Cereal  I Got ID  Cloudb  Lawn Care Simulator  App  PPS  Adoptable Lolcats  Twisted", 
             "title": "Medium"
         }, 
         {
@@ -747,7 +747,7 @@
         }, 
         {
             "location": "/reverse-engineering/overview/", 
-            "text": "Reverse Engineering\n\n\nReverse Engineering in a CTF is typically the process of taking a compiled (machine code, bytecode) program and converting it back into a more human readable format.\n\n\nVery often the goal of a reverse engineering challenge is to understand the functionality of a given program such that you can identify deeper issues.\n\n\n\n\nAssembly / Machine Code\n\n\nBytecode\n\n\nThe C Programming Language\n\n\nDisassemblers\n\n\nDecompilers\n\n\n\n\nChallenges\n\n\nEasy\n\n\n\n\nAerosol Can\n\n\nTablEZ\n\n\nDEFCON 1\n\n\nGametime\n\n\nRock\n\n\ndeedeedee\n\n\nDecepticons\n\n\nKey\n\n\nOdd\n\n\nWololo\n\n\nWeissman\n\n\nBikini Bonanza\n\n\nNoobs First Firmware Mod\n\n\n\n\nMedium\n\n\n\n\nMixed Signals\n\n\nGo Faster\n\n\nKeygenme\n\n\nBad Bios\n\n\nRusty Road\n\n\nRabbithole\n\n\nPROPHECY\n\n\nCookie Math\n\n\nHacking Time\n\n\nFTP\n\n\nCrackme\n\n\nCSAW 2013 Reversing 1\n\n\nCSAW 2013 Reversing 2\n\n\nCSAW 2013 Reversing 3\n\n\nCSAW Reversing 2\n\n\nLife\n\n\nFun For Everybody\n\n\n\n\nHard\n\n\n\n\nETHERSNOOB\n\n\nImpossible\n\n\nDot Net\n\n\nBananascript\n\n\nRealism\n\n\n48-bit yeet lab\n\n\ngopherz\n\n\ngrumpcheck\n\n\nCyberTronix64k\n\n\nLazurus\n\n\nSupermonsterball\n\n\nTar-Tar Binks\n\n\nIV Ninja\n\n\nReturn of the Wieners\n\n\nCookie Maze\n\n\nPwning a Locked Container\n\n\nWveryn\n\n\nWveryn 2\n\n\nEthersplay", 
+            "text": "Reverse Engineering\n\n\nReverse Engineering in a CTF is typically the process of taking a compiled (machine code, bytecode) program and converting it back into a more human readable format.\n\n\nVery often the goal of a reverse engineering challenge is to understand the functionality of a given program such that you can identify deeper issues.\n\n\n\n\nAssembly / Machine Code\n\n\nBytecode\n\n\nThe C Programming Language\n\n\nDisassemblers\n\n\nDecompilers\n\n\n\n\nChallenges\n\n\nEasy\n\n\n\n\n.Net 1\n\n\nReversing 101\n\n\nCSAW2012Reversing.exe\n\n\nCSAWQualificationEasy.exe\n\n\nAerosol Can\n\n\nTablEZ\n\n\nDEFCON 1\n\n\nGametime\n\n\nRock\n\n\ndeedeedee\n\n\nDecepticons\n\n\nKey\n\n\nOdd\n\n\nWololo\n\n\nWeissman\n\n\nBikini Bonanza\n\n\nNoobs First Firmware Mod\n\n\n\n\nMedium\n\n\n\n\nLinux\n\n\nCSAWQualification.exe\n\n\nMixed Signals\n\n\nGo Faster\n\n\nKeygenme\n\n\nBad Bios\n\n\nRusty Road\n\n\nRabbithole\n\n\nPROPHECY\n\n\nCookie Math\n\n\nHacking Time\n\n\nFTP\n\n\nCrackme\n\n\nCSAW 2013 Reversing 1\n\n\nCSAW 2013 Reversing 2\n\n\nCSAW 2013 Reversing 3\n\n\nCSAW Reversing 2\n\n\nLife\n\n\nFun For Everybody\n\n\n\n\nHard\n\n\n\n\nOpenGL\n\n\nReversing 1 (2012)\n\n\nReversing 2 (2012)\n\n\nReversing 3 (2012)\n\n\nCSAW 2012 Reversing\n\n\nETHERSNOOB\n\n\nImpossible\n\n\nDotNet\n\n\nBananascript\n\n\nRealism\n\n\n48-bit yeet lab\n\n\ngopherz\n\n\ngrumpcheck\n\n\nCyberTronix64k\n\n\nLazurus\n\n\nSupermonsterball\n\n\nTar-Tar Binks\n\n\nIV Ninja\n\n\nReturn of the Wieners\n\n\nCookie Maze\n\n\nPwning a Locked Container\n\n\nWveryn\n\n\nWveryn 2\n\n\nEthersplay", 
             "title": "Overview"
         }, 
         {
@@ -762,17 +762,17 @@
         }, 
         {
             "location": "/reverse-engineering/overview/#easy", 
-            "text": "Aerosol Can  TablEZ  DEFCON 1  Gametime  Rock  deedeedee  Decepticons  Key  Odd  Wololo  Weissman  Bikini Bonanza  Noobs First Firmware Mod", 
+            "text": ".Net 1  Reversing 101  CSAW2012Reversing.exe  CSAWQualificationEasy.exe  Aerosol Can  TablEZ  DEFCON 1  Gametime  Rock  deedeedee  Decepticons  Key  Odd  Wololo  Weissman  Bikini Bonanza  Noobs First Firmware Mod", 
             "title": "Easy"
         }, 
         {
             "location": "/reverse-engineering/overview/#medium", 
-            "text": "Mixed Signals  Go Faster  Keygenme  Bad Bios  Rusty Road  Rabbithole  PROPHECY  Cookie Math  Hacking Time  FTP  Crackme  CSAW 2013 Reversing 1  CSAW 2013 Reversing 2  CSAW 2013 Reversing 3  CSAW Reversing 2  Life  Fun For Everybody", 
+            "text": "Linux  CSAWQualification.exe  Mixed Signals  Go Faster  Keygenme  Bad Bios  Rusty Road  Rabbithole  PROPHECY  Cookie Math  Hacking Time  FTP  Crackme  CSAW 2013 Reversing 1  CSAW 2013 Reversing 2  CSAW 2013 Reversing 3  CSAW Reversing 2  Life  Fun For Everybody", 
             "title": "Medium"
         }, 
         {
             "location": "/reverse-engineering/overview/#hard", 
-            "text": "ETHERSNOOB  Impossible  Dot Net  Bananascript  Realism  48-bit yeet lab  gopherz  grumpcheck  CyberTronix64k  Lazurus  Supermonsterball  Tar-Tar Binks  IV Ninja  Return of the Wieners  Cookie Maze  Pwning a Locked Container  Wveryn  Wveryn 2  Ethersplay", 
+            "text": "OpenGL  Reversing 1 (2012)  Reversing 2 (2012)  Reversing 3 (2012)  CSAW 2012 Reversing  ETHERSNOOB  Impossible  DotNet  Bananascript  Realism  48-bit yeet lab  gopherz  grumpcheck  CyberTronix64k  Lazurus  Supermonsterball  Tar-Tar Binks  IV Ninja  Return of the Wieners  Cookie Maze  Pwning a Locked Container  Wveryn  Wveryn 2  Ethersplay", 
             "title": "Hard"
         }, 
         {
@@ -882,7 +882,7 @@
         }, 
         {
             "location": "/reverse-engineering/what-are-disassemblers/", 
-            "text": "Disassemblers\n\n\nA \ndisassembler\n is a tool which breaks down a compiled program into machine code.\n\n\nList of Disassemblers\n\n\n\n\nIDA\n\n\nBinary Ninja\n\n\nGNU Debugger (GDB)\n\n\nradare2\n\n\nHopper\n\n\n\n\nIDA\n\n\nThe Interactive Disassembler (IDA) is the industry standard for binary disassembly. IDA is capable of disassembling \"virtually any popular file format\". This makes it very useful to security researchers and CTF players who often need to analyze obscure files without knowing what they are or where they came from. IDA also features the industry leading Hex Rays decompiler which can convert assembly code back into a pseudo code like format.\n\n\n\n\nIDA also has a plugin interface which has been used to create some successful plugins that can make reverse engineering easier:\n\n\n\n\nhttps://github.com/google/binnavi\n\n\nhttps://github.com/yegord/snowman\n\n\nhttps://github.com/gaasedelen/lighthouse\n\n\nhttps://github.com/joxeankoret/diaphora\n\n\nhttps://github.com/REhints/HexRaysCodeXplorer\n\n\nhttps://github.com/isislab/Fentanyl\n\n\n\n\nBinary Ninja\n\n\nBinary Ninja is an up and coming disassembler that attempts to bring a new, more programmatic approach to reverse engineering. Binary Ninja brings an improved plugin API and modern features to reverse engineering. While it's less popular or as old as IDA, Binary Ninja (often called binja) is quickly gaining ground and has a small community of dedicated users and followers.\n\n\n\n\nBinja also has some community contributed plugins which are collected here: \nhttps://github.com/Vector35/community-plugins\n\n\nGDB\n\n\nThe GNU Debugger is a free and open source debugger which also disassembles programs. It's capable as a disassembler, but most notably it is used by CTF players for its debugging and dynamic analysis capabailities.", 
+            "text": "Disassemblers\n\n\nA \ndisassembler\n is a tool which breaks down a compiled program into machine code.\n\n\nList of Disassemblers\n\n\n\n\nIDA\n\n\nBinary Ninja\n\n\nGNU Debugger (GDB)\n\n\nradare2\n\n\nHopper\n\n\n\n\nIDA\n\n\nThe Interactive Disassembler (IDA) is the industry standard for binary disassembly. IDA is capable of disassembling \"virtually any popular file format\". This makes it very useful to security researchers and CTF players who often need to analyze obscure files without knowing what they are or where they came from. IDA also features the industry leading Hex Rays decompiler which can convert assembly code back into a pseudo code like format.\n\n\n\n\nIDA also has a plugin interface which has been used to create some successful plugins that can make reverse engineering easier:\n\n\n\n\nhttps://github.com/google/binnavi\n\n\nhttps://github.com/yegord/snowman\n\n\nhttps://github.com/gaasedelen/lighthouse\n\n\nhttps://github.com/joxeankoret/diaphora\n\n\nhttps://github.com/REhints/HexRaysCodeXplorer\n\n\nhttps://github.com/isislab/Fentanyl\n\n\n\n\nBinary Ninja\n\n\nBinary Ninja is an up and coming disassembler that attempts to bring a new, more programmatic approach to reverse engineering. Binary Ninja brings an improved plugin API and modern features to reverse engineering. While it's less popular or as old as IDA, Binary Ninja (often called binja) is quickly gaining ground and has a small community of dedicated users and followers.\n\n\n\n\nBinja also has some community contributed plugins which are collected here: \nhttps://github.com/Vector35/community-plugins\n\n\ngdb\n\n\nThe GNU Debugger is a free and open source debugger which also disassembles programs. It's capable as a disassembler, but most notably it is used by CTF players for its debugging and dynamic analysis capabailities.\n\n\ngdb is often used in tandom with enhancement scripts like \npeda\n, \npwndbg\n, and \nGEF", 
             "title": "What are Disassemblers"
         }, 
         {
@@ -907,8 +907,8 @@
         }, 
         {
             "location": "/reverse-engineering/what-are-disassemblers/#gdb", 
-            "text": "The GNU Debugger is a free and open source debugger which also disassembles programs. It's capable as a disassembler, but most notably it is used by CTF players for its debugging and dynamic analysis capabailities.", 
-            "title": "GDB"
+            "text": "The GNU Debugger is a free and open source debugger which also disassembles programs. It's capable as a disassembler, but most notably it is used by CTF players for its debugging and dynamic analysis capabailities.  gdb is often used in tandom with enhancement scripts like  peda ,  pwndbg , and  GEF", 
+            "title": "gdb"
         }, 
         {
             "location": "/reverse-engineering/what-is-gdb/", 
@@ -1047,7 +1047,7 @@
         }, 
         {
             "location": "/binary-exploitation/overview/", 
-            "text": "Binary Exploitation\n\n\nBinaries, or executables, are machine code for a computer to execute. For the most part, the binaries that you will face in CTFs are Linux ELF files or the occasional windows executable. Binary Exploitation is a broad topic within Cyber Security which really comes down to finding a vulnerability in the program and exploiting it to gain control of a shell or modifying the program's functions.\n\n\nCommon topics addressed by Binary Exploitation or 'pwn' challenges include:\n\n\n\n\nRegisters\n\n\nThe Stack\n\n\nCalling Conventions\n\n\nGlobal Offset Table (GOT)\n\n\nBuffers\n\n\nBuffer Overflow\n\n\n\n\n\n\nReturn Oriented Programming (ROP)\n\n\nBinary Security\n\n\nNo eXecute (NX)\n\n\nAddress Space Layout Randomization (ASLR)\n\n\nStack Canaries\n\n\nRelocation Read-Only (RELRO)\n\n\n\n\n\n\nThe Heap\n\n\nHeap Exploitation\n\n\n\n\n\n\nFormat String Vulnerability\n\n\n\n\nChallenges\n\n\nEasy\n\n\n\n\nSCV\n\n\nPilot\n\n\nDetective\n\n\nAul\n\n\nWarmUp\n\n\nPrecision\n\n\nSerial\n\n\nCVV\n\n\nCoinslot\n\n\nSanity Check\n\n\nSCP Hack\n\n\nXorcise 1\n\n\nSaturn\n\n\n\n\nMedium\n\n\n\n\nExploitme\n\n\nXorcise 2\n\n\nPybabbies\n\n\nMbot\n\n\nThe Road Less Traveled\n\n\nExploitation 1\n\n\nMiteegashun\n\n\nCSAW Diary\n\n\nAuir\n\n\nZone\n\n\nTutorial\n\n\nHipster Hitler\n\n\nContacts\n\n\nAutobots\n\n\nRegexpire\n\n\nHumm_sCh-t\n\n\n\n\nHard\n\n\n\n\nGreenhorn'd\n\n\nS3\n\n\nKrakme\n\n\nItsy\n\n\nExploitation 2\n\n\nKernel Challenge\n\n\nSilkstreet\n\n\nKWS 2\n\n\nMinesweeper\n\n\nFuntimeJS\n\n\nFirewall\n\n\nConnectXOR\n\n\nGlobalThermonuclearCyberwar\n\n\nMom's Spaghetti\n\n\nEd, Edd, and Eddie\n\n\nReverse Polish\n\n\nThimblerig\n\n\nHungman\n\n\nCyberTronix64k\n\n\nStringIPC\n\n\nBoombox\n\n\nMeme Shop\n\n\nRhinoxorus\n\n\n\n\nPwn Adventure Z\n\n\n\n\nCredit for Credits\n\n\nGreetings Earthlings\n\n\nHidden Cave\n\n\nQuarentine Breaker\n\n\nBlox\n\n\nGet Flag\n\n\nMemory Disclosure Flag", 
+            "text": "Binary Exploitation\n\n\nBinaries, or executables, are machine code for a computer to execute. For the most part, the binaries that you will face in CTFs are Linux ELF files or the occasional windows executable. Binary Exploitation is a broad topic within Cyber Security which really comes down to finding a vulnerability in the program and exploiting it to gain control of a shell or modifying the program's functions.\n\n\nCommon topics addressed by Binary Exploitation or 'pwn' challenges include:\n\n\n\n\nRegisters\n\n\nThe Stack\n\n\nCalling Conventions\n\n\nGlobal Offset Table (GOT)\n\n\nBuffers\n\n\nBuffer Overflow\n\n\n\n\n\n\nReturn Oriented Programming (ROP)\n\n\nBinary Security\n\n\nNo eXecute (NX)\n\n\nAddress Space Layout Randomization (ASLR)\n\n\nStack Canaries\n\n\nRelocation Read-Only (RELRO)\n\n\n\n\n\n\nThe Heap\n\n\nHeap Exploitation\n\n\n\n\n\n\nFormat String Vulnerability\n\n\n\n\nChallenges\n\n\nEasy\n\n\n\n\nBin 1\n\n\nBin 3\n\n\nExploitation 101\n\n\nPython\n\n\n54321\n\n\nHumm_sCh-t\n\n\nSCV\n\n\nPilot\n\n\nDetective\n\n\nAul\n\n\nWarmUp\n\n\nPrecision\n\n\nSerial\n\n\nCVV\n\n\nCoinslot\n\n\nSanity Check\n\n\nSCP Hack\n\n\nXorcise 1\n\n\nSaturn\n\n\n\n\nMedium\n\n\n\n\nBin 2\n\n\nBin 5\n\n\n23456\n\n\n4842\n\n\nExploitme\n\n\nXorcise 2\n\n\nPybabbies\n\n\nMbot\n\n\nThe Road Less Traveled\n\n\nExploitation 1\n\n\nMiteegashun\n\n\nCSAW Diary\n\n\nAuir\n\n\nZone\n\n\nTutorial\n\n\nHipster Hitler\n\n\nContacts\n\n\nAutobots\n\n\nRegexpire\n\n\nIsh\n\n\n\n\nHard\n\n\n\n\nBin 4\n\n\n12345\n\n\nGreenhorn'd\n\n\nS3\n\n\nKrakme\n\n\nItsy\n\n\nExploitation 2\n\n\nKernel Challenge\n\n\nSilkstreet\n\n\nKWS 2\n\n\nMinesweeper\n\n\nFuntimeJS\n\n\nFirewall\n\n\nConnectXOR\n\n\nGlobalThermonuclearCyberwar\n\n\nMom's Spaghetti\n\n\nEd, Edd, and Eddie\n\n\nReverse Polish\n\n\nThimblerig\n\n\nHungman\n\n\nCyberTronix64k\n\n\nStringIPC\n\n\nBoombox\n\n\nMeme Shop\n\n\nRhinoxorus\n\n\n\n\nPwn Adventure Z\n\n\n\n\nCredit for Credits\n\n\nGreetings Earthlings\n\n\nHidden Cave\n\n\nQuarentine Breaker\n\n\nBlox\n\n\nGet Flag\n\n\nMemory Disclosure Flag", 
             "title": "Overview"
         }, 
         {
@@ -1062,17 +1062,17 @@
         }, 
         {
             "location": "/binary-exploitation/overview/#easy", 
-            "text": "SCV  Pilot  Detective  Aul  WarmUp  Precision  Serial  CVV  Coinslot  Sanity Check  SCP Hack  Xorcise 1  Saturn", 
+            "text": "Bin 1  Bin 3  Exploitation 101  Python  54321  Humm_sCh-t  SCV  Pilot  Detective  Aul  WarmUp  Precision  Serial  CVV  Coinslot  Sanity Check  SCP Hack  Xorcise 1  Saturn", 
             "title": "Easy"
         }, 
         {
             "location": "/binary-exploitation/overview/#medium", 
-            "text": "Exploitme  Xorcise 2  Pybabbies  Mbot  The Road Less Traveled  Exploitation 1  Miteegashun  CSAW Diary  Auir  Zone  Tutorial  Hipster Hitler  Contacts  Autobots  Regexpire  Humm_sCh-t", 
+            "text": "Bin 2  Bin 5  23456  4842  Exploitme  Xorcise 2  Pybabbies  Mbot  The Road Less Traveled  Exploitation 1  Miteegashun  CSAW Diary  Auir  Zone  Tutorial  Hipster Hitler  Contacts  Autobots  Regexpire  Ish", 
             "title": "Medium"
         }, 
         {
             "location": "/binary-exploitation/overview/#hard", 
-            "text": "Greenhorn'd  S3  Krakme  Itsy  Exploitation 2  Kernel Challenge  Silkstreet  KWS 2  Minesweeper  FuntimeJS  Firewall  ConnectXOR  GlobalThermonuclearCyberwar  Mom's Spaghetti  Ed, Edd, and Eddie  Reverse Polish  Thimblerig  Hungman  CyberTronix64k  StringIPC  Boombox  Meme Shop  Rhinoxorus", 
+            "text": "Bin 4  12345  Greenhorn'd  S3  Krakme  Itsy  Exploitation 2  Kernel Challenge  Silkstreet  KWS 2  Minesweeper  FuntimeJS  Firewall  ConnectXOR  GlobalThermonuclearCyberwar  Mom's Spaghetti  Ed, Edd, and Eddie  Reverse Polish  Thimblerig  Hungman  CyberTronix64k  StringIPC  Boombox  Meme Shop  Rhinoxorus", 
             "title": "Hard"
         }, 
         {
@@ -1361,6 +1361,186 @@
             "title": "Example"
         }, 
         {
+            "location": "/challenges/2011/forensics/android1/", 
+            "text": "Android 1\n\n\nHidden Things\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "Android 1"
+        }, 
+        {
+            "location": "/challenges/2011/forensics/android1/#android-1", 
+            "text": "Hidden Things   Note  Flag is not in flag{} format", 
+            "title": "Android 1"
+        }, 
+        {
+            "location": "/challenges/2011/forensics/android1/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2011/forensics/android1/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2011/forensics/android2/", 
+            "text": "Android 2\n\n\nPassword\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "Android 2"
+        }, 
+        {
+            "location": "/challenges/2011/forensics/android2/#android-2", 
+            "text": "Password   Note  Flag is not in flag{} format", 
+            "title": "Android 2"
+        }, 
+        {
+            "location": "/challenges/2011/forensics/android2/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2011/forensics/android2/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2011/forensics/evilburritos/", 
+            "text": "Evil Burritos 1\n\n\nWe're currently investigating a company named Evil Burritos, we recovered this from one of their suspected programmer's computers. If you can find evidence of their involvement with Evil Burritos that would help greatly! Please find an email address of someone from Evil Burritos! \n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "Evil Burritos 1"
+        }, 
+        {
+            "location": "/challenges/2011/forensics/evilburritos/#evil-burritos-1", 
+            "text": "We're currently investigating a company named Evil Burritos, we recovered this from one of their suspected programmer's computers. If you can find evidence of their involvement with Evil Burritos that would help greatly! Please find an email address of someone from Evil Burritos!    Note  Flag is not in flag{} format", 
+            "title": "Evil Burritos 1"
+        }, 
+        {
+            "location": "/challenges/2011/forensics/evilburritos/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2011/forensics/evilburritos/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2011/forensics/hardware/", 
+            "text": "Hardware\n\n\nMD5 of the image\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "Hardware"
+        }, 
+        {
+            "location": "/challenges/2011/forensics/hardware/#hardware", 
+            "text": "MD5 of the image   Note  Flag is not in flag{} format", 
+            "title": "Hardware"
+        }, 
+        {
+            "location": "/challenges/2011/forensics/hardware/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2011/forensics/hardware/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2011/forensics/networking101/", 
+            "text": "Networking 101\n\n\nDownload Wireshark. Analyze. Answer The Question: What am I searching for? \n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "Networking 101"
+        }, 
+        {
+            "location": "/challenges/2011/forensics/networking101/#networking-101", 
+            "text": "Download Wireshark. Analyze. Answer The Question: What am I searching for?    Note  Flag is not in flag{} format", 
+            "title": "Networking 101"
+        }, 
+        {
+            "location": "/challenges/2011/forensics/networking101/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2011/forensics/networking101/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2012/forensics/lemieux.pcap/", 
+            "text": "lemieux.pcap\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "Lemieux.pcap"
+        }, 
+        {
+            "location": "/challenges/2012/forensics/lemieux.pcap/#lemieuxpcap", 
+            "text": "Note  Flag is not in flag{} format", 
+            "title": "lemieux.pcap"
+        }, 
+        {
+            "location": "/challenges/2012/forensics/lemieux.pcap/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2012/forensics/lemieux.pcap/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2012/forensics/telnet.pcap/", 
+            "text": "telnet.pcap\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "Telnet.pcap"
+        }, 
+        {
+            "location": "/challenges/2012/forensics/telnet.pcap/#telnetpcap", 
+            "text": "Note  Flag is not in flag{} format", 
+            "title": "telnet.pcap"
+        }, 
+        {
+            "location": "/challenges/2012/forensics/telnet.pcap/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2012/forensics/telnet.pcap/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2012/forensics/version1.png/", 
+            "text": "version1.png\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "Version1.png"
+        }, 
+        {
+            "location": "/challenges/2012/forensics/version1.png/#version1png", 
+            "text": "Note  Flag is not in flag{} format", 
+            "title": "version1.png"
+        }, 
+        {
+            "location": "/challenges/2012/forensics/version1.png/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2012/forensics/version1.png/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2012/forensics/version2.png/", 
+            "text": "version2.png\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "Version2.png"
+        }, 
+        {
+            "location": "/challenges/2012/forensics/version2.png/#version2png", 
+            "text": "Note  Flag is not in flag{} format", 
+            "title": "version2.png"
+        }, 
+        {
+            "location": "/challenges/2012/forensics/version2.png/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2012/forensics/version2.png/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
             "location": "/challenges/2017/forensics/missed_registration/", 
             "text": "Missed Registration\n\n\nIt's registration day! These forms just seem longer and longer...\n\n\nTopics Covered\n\n\n\n\nWireshark\n\n\nFile Formats", 
             "title": "Missed Registration-hidden"
@@ -1586,6 +1766,66 @@
             "title": "Dumpster Diving"
         }, 
         {
+            "location": "/challenges/2012/forensics/dongle.pcap/", 
+            "text": "dongle.pcap\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "Dongle.pcap"
+        }, 
+        {
+            "location": "/challenges/2012/forensics/dongle.pcap/#donglepcap", 
+            "text": "Note  Flag is not in flag{} format", 
+            "title": "dongle.pcap"
+        }, 
+        {
+            "location": "/challenges/2012/forensics/dongle.pcap/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2012/forensics/dongle.pcap/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2011/forensics/patchmanagement/", 
+            "text": "Patch Management\n\n\nBetter upgrade soon...\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "Patch Management"
+        }, 
+        {
+            "location": "/challenges/2011/forensics/patchmanagement/#patch-management", 
+            "text": "Better upgrade soon...   Note  Flag is not in flag{} format", 
+            "title": "Patch Management"
+        }, 
+        {
+            "location": "/challenges/2011/forensics/patchmanagement/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2011/forensics/patchmanagement/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2011/forensics/evilburritos2/", 
+            "text": "EvilBurritos 2\n\n\nWe also need you to compromise... I mean, investigate... Evil Burritos, please find the password to their server! \n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "Evil Burritos 2"
+        }, 
+        {
+            "location": "/challenges/2011/forensics/evilburritos2/#evilburritos-2", 
+            "text": "We also need you to compromise... I mean, investigate... Evil Burritos, please find the password to their server!    Note  Flag is not in flag{} format", 
+            "title": "EvilBurritos 2"
+        }, 
+        {
+            "location": "/challenges/2011/forensics/evilburritos2/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2011/forensics/evilburritos2/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
             "location": "/challenges/2013/Forensics/Deeeeeeaaaaaadbeeeeeeeeeef/", 
             "text": "deeeeeeaaaaaadbeeeeeeeeeef\n\n\nTopics Covered\n\n\n\n\nMetadata\n\n\n\n\nAdditional Information\n\n\nCheck out the \nPNG Spec", 
             "title": "deeeeeeaaaaaadbeeeeeeeeeef"
@@ -1751,6 +1991,106 @@
             "title": "Topics Covered"
         }, 
         {
+            "location": "/challenges/2012/forensics/forensics1/", 
+            "text": "Forensics 1\n\n\nBy Jon Oberheide\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "Forensics 1 (2012)"
+        }, 
+        {
+            "location": "/challenges/2012/forensics/forensics1/#forensics-1", 
+            "text": "By Jon Oberheide   Note  Flag is not in flag{} format", 
+            "title": "Forensics 1"
+        }, 
+        {
+            "location": "/challenges/2012/forensics/forensics1/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2012/forensics/forensics1/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2012/forensics/forensics2/", 
+            "text": "Forensics 2\n\n\nBy Kai Zhong\n\n\nWe managed to grab an image and some instructions from the SuprAwesomSoft servers. However, we're not sure what we're supposed to do with them.\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "Forensics 2 (2012)"
+        }, 
+        {
+            "location": "/challenges/2012/forensics/forensics2/#forensics-2", 
+            "text": "By Kai Zhong  We managed to grab an image and some instructions from the SuprAwesomSoft servers. However, we're not sure what we're supposed to do with them.   Note  Flag is not in flag{} format", 
+            "title": "Forensics 2"
+        }, 
+        {
+            "location": "/challenges/2012/forensics/forensics2/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2012/forensics/forensics2/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2012/forensics/timewave-zero.pcap/", 
+            "text": "timewave-zero.pcap\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "Timewave-zero.pcap"
+        }, 
+        {
+            "location": "/challenges/2012/forensics/timewave-zero.pcap/#timewave-zeropcap", 
+            "text": "Note  Flag is not in flag{} format", 
+            "title": "timewave-zero.pcap"
+        }, 
+        {
+            "location": "/challenges/2012/forensics/timewave-zero.pcap/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2012/forensics/timewave-zero.pcap/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2012/forensics/core/", 
+            "text": "Core\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "Core"
+        }, 
+        {
+            "location": "/challenges/2012/forensics/core/#core", 
+            "text": "Note  Flag is not in flag{} format", 
+            "title": "Core"
+        }, 
+        {
+            "location": "/challenges/2012/forensics/core/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2012/forensics/core/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2011/forensics/loveletter/", 
+            "text": "Loveletter\n\n\nNo spaces in the flag.\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "Love Letter"
+        }, 
+        {
+            "location": "/challenges/2011/forensics/loveletter/#loveletter", 
+            "text": "No spaces in the flag.   Note  Flag is not in flag{} format", 
+            "title": "Loveletter"
+        }, 
+        {
+            "location": "/challenges/2011/forensics/loveletter/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2011/forensics/loveletter/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
             "location": "/challenges/2015/forensics/mandiant/", 
             "text": "Mandiant\n\n\nBy D'Antoine\n\n\nWe found this file. Help Mandiant figure out what APT1 is trying to send.\n\n\nTopics Covered\n\n\n\n\nDisk Imaging\n\n\n\n\nAdditional Information\n\n\nCheck out free_file_camouflage", 
             "title": "Mandient"
@@ -1839,6 +2179,86 @@
             "location": "/challenges/2014/forensics/Fluffy_No_More/#topics-covered", 
             "text": "Hashing Functions", 
             "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto1/", 
+            "text": "Crypto1\n\n\nTopics Covered\n\n\n\n\nEncoding\n\n\n\n\nAdditional Information", 
+            "title": "Crypto 1 (2011)"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto1/#crypto1", 
+            "text": "", 
+            "title": "Crypto1"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto1/#topics-covered", 
+            "text": "Encoding", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto1/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto2/", 
+            "text": "Crypto1\n\n\nTopics Covered\n\n\n\n\nEncoding\n\n\n\n\nAdditional Information\n\n\nThe \n:\n is an indicator that this is encoded in a common way.", 
+            "title": "Crypto 2 (2011)"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto2/#crypto1", 
+            "text": "", 
+            "title": "Crypto1"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto2/#topics-covered", 
+            "text": "Encoding", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto2/#additional-information", 
+            "text": "The  :  is an indicator that this is encoded in a common way.", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto3/", 
+            "text": "Crypto3\n\n\nTopics Covered\n\n\n\n\nBinary\n\n\nEncoding\n\n\n\n\nAdditional Information", 
+            "title": "Crypto 3 (2011)"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto3/#crypto3", 
+            "text": "", 
+            "title": "Crypto3"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto3/#topics-covered", 
+            "text": "Binary  Encoding", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto3/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto4/", 
+            "text": "Crypto4\n\n\nTopics Covered\n\n\n\n\nBase64\n\n\nEncoding\n\n\n\n\nAdditional Information", 
+            "title": "Crypto 4 (2011)"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto4/#crypto4", 
+            "text": "", 
+            "title": "Crypto4"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto4/#topics-covered", 
+            "text": "Base64  Encoding", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto4/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
         }, 
         {
             "location": "/challenges/2017/crypto/ecxor/", 
@@ -1998,6 +2418,66 @@
         {
             "location": "/challenges/2013/Crypto/stfu/#additional-information", 
             "text": "This challenge involves the  Linear Feedback Shift Register algorithm", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto5/", 
+            "text": "Crypto5\n\n\nTopics Covered\n\n\n\n\nSubstitution Cipher\n\n\nCaesar Cipher\n\n\n\n\nAdditional Information", 
+            "title": "Crypto 5 (2011)"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto5/#crypto5", 
+            "text": "", 
+            "title": "Crypto5"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto5/#topics-covered", 
+            "text": "Substitution Cipher  Caesar Cipher", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto5/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto6/", 
+            "text": "Crypto6\n\n\nTopics Covered\n\n\n\n\nSubstitution Cipher\n\n\n\n\nAdditional Information", 
+            "title": "Crypto 6 (2011)"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto6/#crypto6", 
+            "text": "", 
+            "title": "Crypto6"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto6/#topics-covered", 
+            "text": "Substitution Cipher", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto6/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto7/", 
+            "text": "Crypto7\n\n\nTopics Covered\n\n\n\n\nSubstitution Cipher\n\n\n\n\nAdditional Information", 
+            "title": "Crypto 7 (2011)"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto7/#crypto7", 
+            "text": "", 
+            "title": "Crypto7"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto7/#topics-covered", 
+            "text": "Substitution Cipher", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto7/#additional-information", 
+            "text": "", 
             "title": "Additional Information"
         }, 
         {
@@ -2178,6 +2658,86 @@
         {
             "location": "/challenges/2013/Crypto/onlythisprogram/#additional-information", 
             "text": "You don't have to figure out the whole key to solve the challenge. Some file formats make better oracles than others.", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto8/", 
+            "text": "Crypto8\n\n\nTopics Covered\n\n\n\n\nSubstitution Cipher\n\n\n\n\nAdditional Information", 
+            "title": "Crypto 8 (2011)"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto8/#crypto8", 
+            "text": "", 
+            "title": "Crypto8"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto8/#topics-covered", 
+            "text": "Substitution Cipher", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto8/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto9/", 
+            "text": "Crypto9\n\n\nTopics Covered\n\n\n\n\nSubstitution Cipher\n\n\n\n\nAdditional Information", 
+            "title": "Crypto 9 (2011)"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto9/#crypto9", 
+            "text": "", 
+            "title": "Crypto9"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto9/#topics-covered", 
+            "text": "Substitution Cipher", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto9/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto10/", 
+            "text": "Crypto10\n\n\nTopics Covered\n\n\n\n\nSubstitution Cipher\n\n\n\n\nAdditional Information\n\n\nThis challenge is a substitution cipher but it isn't exactly straightfoward what the flag is. You should consider that if you have the ability to encrypt and decrypt, the \"keyword\" is the table that you are using to perform the encryption/decryption steps", 
+            "title": "Crypto 10 (2011)"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto10/#crypto10", 
+            "text": "", 
+            "title": "Crypto10"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto10/#topics-covered", 
+            "text": "Substitution Cipher", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2011/crypto/crypto10/#additional-information", 
+            "text": "This challenge is a substitution cipher but it isn't exactly straightfoward what the flag is. You should consider that if you have the ability to encrypt and decrypt, the \"keyword\" is the table that you are using to perform the encryption/decryption steps", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2012/crypto/crypto1/", 
+            "text": "Crypto 1\n\n\nBy Ben Agre\n\n\nhttps://csawctf.poly.edu/finals/challenges/0aa2f992d0b32cd20841a205df6e4b51/3e071b9e72937a70a898e5da62171591/Ben%20Agre1.py\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "Crypto 2012"
+        }, 
+        {
+            "location": "/challenges/2012/crypto/crypto1/#crypto-1", 
+            "text": "By Ben Agre  https://csawctf.poly.edu/finals/challenges/0aa2f992d0b32cd20841a205df6e4b51/3e071b9e72937a70a898e5da62171591/Ben%20Agre1.py   Note  Flag is not in flag{} format", 
+            "title": "Crypto 1"
+        }, 
+        {
+            "location": "/challenges/2012/crypto/crypto1/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2012/crypto/crypto1/#additional-information", 
+            "text": "", 
             "title": "Additional Information"
         }, 
         {
@@ -2462,7 +3022,7 @@
         }, 
         {
             "location": "/challenges/2016/web/MFW/", 
-            "text": "MFW\n\n\nHey, I made my first website today. It's pretty cool and web7.9.\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "text": "MFW\n\n\nHey, I made my first website today. It's pretty cool and web7.9.\n\n\nTopics Covered\n\n\n\n\nPHP\n\n\ngit\n\n\n\n\nAdditional Information\n\n\nPerhaps you should find some way to extract the source code of the website?", 
             "title": "MFW"
         }, 
         {
@@ -2472,12 +3032,12 @@
         }, 
         {
             "location": "/challenges/2016/web/MFW/#topics-covered", 
-            "text": "", 
+            "text": "PHP  git", 
             "title": "Topics Covered"
         }, 
         {
             "location": "/challenges/2016/web/MFW/#additional-information", 
-            "text": "", 
+            "text": "Perhaps you should find some way to extract the source code of the website?", 
             "title": "Additional Information"
         }, 
         {
@@ -2602,7 +3162,7 @@
         }, 
         {
             "location": "/challenges/2013/Web/Guess_Harder/", 
-            "text": "Guess Harder\n\n\nYou'll never guess my password!\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "text": "Guess Harder\n\n\nYou'll never guess my password!\n\n\nTopics Covered\n\n\nAdditional Information\n\n\nYou will probably never be able to guess the password. Perhaps you should check something else? Cookies perhaps?", 
             "title": "Guess Harder"
         }, 
         {
@@ -2617,7 +3177,7 @@
         }, 
         {
             "location": "/challenges/2013/Web/Guess_Harder/#additional-information", 
-            "text": "", 
+            "text": "You will probably never be able to guess the password. Perhaps you should check something else? Cookies perhaps?", 
             "title": "Additional Information"
         }, 
         {
@@ -3142,7 +3702,7 @@
         }, 
         {
             "location": "/challenges/2014/web/hashes/", 
-            "text": "Hashes\n\n\nBy Chung\n\n\nlocation, location, location\n\n\nTopics Covered\n\n\n\n\nHashing Functions\n\n\n\n\nAdditional Information", 
+            "text": "Hashes\n\n\nBy Chung\n\n\nlocation, location, location\n\n\nTopics Covered\n\n\n\n\nCross Site Scripting\n\n\n\n\nAdditional Information", 
             "title": "Hashes"
         }, 
         {
@@ -3152,7 +3712,7 @@
         }, 
         {
             "location": "/challenges/2014/web/hashes/#topics-covered", 
-            "text": "Hashing Functions", 
+            "text": "Cross Site Scripting", 
             "title": "Topics Covered"
         }, 
         {
@@ -3197,6 +3757,86 @@
         }, 
         {
             "location": "/challenges/2014/web/silkgoat/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2011/Reversing/net1/", 
+            "text": ".NET 1\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": ".Net 1"
+        }, 
+        {
+            "location": "/challenges/2011/Reversing/net1/#net-1", 
+            "text": "Note  Flag is not in flag{} format", 
+            "title": ".NET 1"
+        }, 
+        {
+            "location": "/challenges/2011/Reversing/net1/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2011/Reversing/net1/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2011/Reversing/reversing101/", 
+            "text": "Reversing 101\n\n\nDownload A Java Decompiler\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "Reversing 101"
+        }, 
+        {
+            "location": "/challenges/2011/Reversing/reversing101/#reversing-101", 
+            "text": "Download A Java Decompiler   Note  Flag is not in flag{} format", 
+            "title": "Reversing 101"
+        }, 
+        {
+            "location": "/challenges/2011/Reversing/reversing101/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2011/Reversing/reversing101/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2012/Reversing/csaw2012reversing.exe/", 
+            "text": "csaw2012reversing.exe\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "CSAW2012Reversing.exe"
+        }, 
+        {
+            "location": "/challenges/2012/Reversing/csaw2012reversing.exe/#csaw2012reversingexe", 
+            "text": "Note  Flag is not in flag{} format", 
+            "title": "csaw2012reversing.exe"
+        }, 
+        {
+            "location": "/challenges/2012/Reversing/csaw2012reversing.exe/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2012/Reversing/csaw2012reversing.exe/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2012/Reversing/csawqualificationeasy.exe/", 
+            "text": "CSAWQualificationEasy.exe\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "CSAWQualificationEasy.exe"
+        }, 
+        {
+            "location": "/challenges/2012/Reversing/csawqualificationeasy.exe/#csawqualificationeasyexe", 
+            "text": "Note  Flag is not in flag{} format", 
+            "title": "CSAWQualificationEasy.exe"
+        }, 
+        {
+            "location": "/challenges/2012/Reversing/csawqualificationeasy.exe/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2012/Reversing/csawqualificationeasy.exe/#additional-information", 
             "text": "", 
             "title": "Additional Information"
         }, 
@@ -3458,6 +4098,46 @@
         {
             "location": "/challenges/2013/Reversing/Noobs_First_Firmware_Mod/#additional-information", 
             "text": "Try to boot the image, does anything appear \"modded\"?  It's a versitilepb board, use QEMU", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2011/Reversing/linux/", 
+            "text": "Linux\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "Linux"
+        }, 
+        {
+            "location": "/challenges/2011/Reversing/linux/#linux", 
+            "text": "Note  Flag is not in flag{} format", 
+            "title": "Linux"
+        }, 
+        {
+            "location": "/challenges/2011/Reversing/linux/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2011/Reversing/linux/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2012/Reversing/csawqualification.exe/", 
+            "text": "CSAWQualification.exe\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "CSAWQualification.exe"
+        }, 
+        {
+            "location": "/challenges/2012/Reversing/csawqualification.exe/#csawqualificationexe", 
+            "text": "Note  Flag is not in flag{} format", 
+            "title": "CSAWQualification.exe"
+        }, 
+        {
+            "location": "/challenges/2012/Reversing/csawqualification.exe/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2012/Reversing/csawqualification.exe/#additional-information", 
+            "text": "", 
             "title": "Additional Information"
         }, 
         {
@@ -3797,6 +4477,106 @@
         }, 
         {
             "location": "/challenges/2013/Reversing/Brad_Anton/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2011/Reversing/opengl/", 
+            "text": "OpenGL\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "OpenGL"
+        }, 
+        {
+            "location": "/challenges/2011/Reversing/opengl/#opengl", 
+            "text": "Note  Flag is not in flag{} format", 
+            "title": "OpenGL"
+        }, 
+        {
+            "location": "/challenges/2011/Reversing/opengl/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2011/Reversing/opengl/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2012/Reversing/reversing1/", 
+            "text": "Reversing 1\n\n\nBy Tom Ritter\n\n\nThey key, when or if you get it - will be obvious.\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "Reversing 1 (2012)"
+        }, 
+        {
+            "location": "/challenges/2012/Reversing/reversing1/#reversing-1", 
+            "text": "By Tom Ritter  They key, when or if you get it - will be obvious.   Note  Flag is not in flag{} format", 
+            "title": "Reversing 1"
+        }, 
+        {
+            "location": "/challenges/2012/Reversing/reversing1/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2012/Reversing/reversing1/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2012/Reversing/reversing2/", 
+            "text": "Reversing 2\n\n\nBy Jordan Wiens\n\n\nFrom outerspace\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "Reversing 2 (2012)"
+        }, 
+        {
+            "location": "/challenges/2012/Reversing/reversing2/#reversing-2", 
+            "text": "By Jordan Wiens  From outerspace   Note  Flag is not in flag{} format", 
+            "title": "Reversing 2"
+        }, 
+        {
+            "location": "/challenges/2012/Reversing/reversing2/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2012/Reversing/reversing2/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2012/Reversing/reversing3/", 
+            "text": "Reversing 3\n\n\nBy Hudson Thrift\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "Reversing 3 (2012)"
+        }, 
+        {
+            "location": "/challenges/2012/Reversing/reversing3/#reversing-3", 
+            "text": "By Hudson Thrift   Note  Flag is not in flag{} format", 
+            "title": "Reversing 3"
+        }, 
+        {
+            "location": "/challenges/2012/Reversing/reversing3/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2012/Reversing/reversing3/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2012/Reversing/csaw2012reversing/", 
+            "text": "csaw2012reversing\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "CSAW 2012 Reversing"
+        }, 
+        {
+            "location": "/challenges/2012/Reversing/csaw2012reversing/#csaw2012reversing", 
+            "text": "Note  Flag is not in flag{} format", 
+            "title": "csaw2012reversing"
+        }, 
+        {
+            "location": "/challenges/2012/Reversing/csaw2012reversing/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2012/Reversing/csaw2012reversing/#additional-information", 
             "text": "", 
             "title": "Additional Information"
         }, 
@@ -4181,6 +4961,106 @@
             "title": "Additional Information"
         }, 
         {
+            "location": "/challenges/2011/Pwn/bin1/", 
+            "text": "Bin 1\n\n\nThe SSH password is \npassword\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "Bin 1"
+        }, 
+        {
+            "location": "/challenges/2011/Pwn/bin1/#bin-1", 
+            "text": "The SSH password is  password   Note  Flag is not in flag{} format", 
+            "title": "Bin 1"
+        }, 
+        {
+            "location": "/challenges/2011/Pwn/bin1/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2011/Pwn/bin1/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2011/Pwn/bin3/", 
+            "text": "Bin 3\n\n\nThe SSH password is \npassword\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "Bin 3"
+        }, 
+        {
+            "location": "/challenges/2011/Pwn/bin3/#bin-3", 
+            "text": "The SSH password is  password   Note  Flag is not in flag{} format", 
+            "title": "Bin 3"
+        }, 
+        {
+            "location": "/challenges/2011/Pwn/bin3/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2011/Pwn/bin3/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2011/Pwn/exploitation101/", 
+            "text": "Exploitation 101\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "Exploitation 101"
+        }, 
+        {
+            "location": "/challenges/2011/Pwn/exploitation101/#exploitation-101", 
+            "text": "Note  Flag is not in flag{} format", 
+            "title": "Exploitation 101"
+        }, 
+        {
+            "location": "/challenges/2011/Pwn/exploitation101/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2011/Pwn/exploitation101/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2011/Pwn/python/", 
+            "text": "Python\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "Python"
+        }, 
+        {
+            "location": "/challenges/2011/Pwn/python/#python", 
+            "text": "Note  Flag is not in flag{} format", 
+            "title": "Python"
+        }, 
+        {
+            "location": "/challenges/2011/Pwn/python/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2011/Pwn/python/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2012/Pwn/54321/", 
+            "text": "54321\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": 54321
+        }, 
+        {
+            "location": "/challenges/2012/Pwn/54321/#54321", 
+            "text": "Note  Flag is not in flag{} format", 
+            "title": "54321"
+        }, 
+        {
+            "location": "/challenges/2012/Pwn/54321/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2012/Pwn/54321/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
             "location": "/challenges/2017/pwn/Humm_sCh-t/", 
             "text": "Humm_sChat\n\n\nBy Kyle Martin\n\n\nI've had no luck running this on anything but Ubuntu 17.10.  Use a sandbox for this - this program is definitely malware.\n\n\nTopics Covered\n\n\n\n\nDissassemblers\n\n\n\n\nAdditional Information\n\n\nTo implement: 42 really is the answer to everything", 
             "title": "Humm_sCh-t"
@@ -4457,6 +5337,86 @@
         }, 
         {
             "location": "/challenges/2014/Pwn/saturn/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2011/Pwn/bin2/", 
+            "text": "Bin 2\n\n\nThe SSH password is \npassword\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "Bin 2"
+        }, 
+        {
+            "location": "/challenges/2011/Pwn/bin2/#bin-2", 
+            "text": "The SSH password is  password   Note  Flag is not in flag{} format", 
+            "title": "Bin 2"
+        }, 
+        {
+            "location": "/challenges/2011/Pwn/bin2/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2011/Pwn/bin2/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2011/Pwn/bin5/", 
+            "text": "Bin 5\n\n\nThe SSH password is \npassword\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "Bin 5"
+        }, 
+        {
+            "location": "/challenges/2011/Pwn/bin5/#bin-5", 
+            "text": "The SSH password is  password   Note  Flag is not in flag{} format", 
+            "title": "Bin 5"
+        }, 
+        {
+            "location": "/challenges/2011/Pwn/bin5/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2011/Pwn/bin5/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2012/Pwn/23456/", 
+            "text": "23456\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": 23456
+        }, 
+        {
+            "location": "/challenges/2012/Pwn/23456/#23456", 
+            "text": "Note  Flag is not in flag{} format", 
+            "title": "23456"
+        }, 
+        {
+            "location": "/challenges/2012/Pwn/23456/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2012/Pwn/23456/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2012/Pwn/4842/", 
+            "text": "4842\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": 4842
+        }, 
+        {
+            "location": "/challenges/2012/Pwn/4842/#4842", 
+            "text": "Note  Flag is not in flag{} format", 
+            "title": "4842"
+        }, 
+        {
+            "location": "/challenges/2012/Pwn/4842/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2012/Pwn/4842/#additional-information", 
             "text": "", 
             "title": "Additional Information"
         }, 
@@ -4777,6 +5737,46 @@
         }, 
         {
             "location": "/challenges/2014/Pwn/ish/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2011/Pwn/bin4/", 
+            "text": "Bin 4\n\n\nThe SSH password is \npassword\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": "Bin 4"
+        }, 
+        {
+            "location": "/challenges/2011/Pwn/bin4/#bin-4", 
+            "text": "The SSH password is  password   Note  Flag is not in flag{} format", 
+            "title": "Bin 4"
+        }, 
+        {
+            "location": "/challenges/2011/Pwn/bin4/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2011/Pwn/bin4/#additional-information", 
+            "text": "", 
+            "title": "Additional Information"
+        }, 
+        {
+            "location": "/challenges/2012/Pwn/12345/", 
+            "text": "12345\n\n\n\n\nNote\n\n\nFlag is not in flag{} format\n\n\n\n\nTopics Covered\n\n\nAdditional Information", 
+            "title": 12345
+        }, 
+        {
+            "location": "/challenges/2012/Pwn/12345/#12345", 
+            "text": "Note  Flag is not in flag{} format", 
+            "title": "12345"
+        }, 
+        {
+            "location": "/challenges/2012/Pwn/12345/#topics-covered", 
+            "text": "", 
+            "title": "Topics Covered"
+        }, 
+        {
+            "location": "/challenges/2012/Pwn/12345/#additional-information", 
             "text": "", 
             "title": "Additional Information"
         }, 

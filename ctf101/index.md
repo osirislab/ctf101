@@ -1,5 +1,3 @@
-<img class="no-zoom" width="200px" src="/images/ctf101_dark.png">
-
 # Capture The Flag 101
 
 ### Welcome

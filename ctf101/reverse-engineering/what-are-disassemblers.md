@@ -23,7 +23,7 @@ IDA also has a plugin interface which has been used to create some successful pl
  * https://github.com/gaasedelen/lighthouse
  * https://github.com/joxeankoret/diaphora
  * https://github.com/REhints/HexRaysCodeXplorer
- * https://github.com/isislab/Fentanyl
+ * https://github.com/osirislab/Fentanyl
 
 ### Binary Ninja
 

@@ -13,7 +13,7 @@ An important part of Forensics is having the right tools, as well as being famil
  * [Stegonagraphy](/forensics/what-is-stegonagraphy/)
  * [Disk Imaging](/forensics/what-is-disk-imaging/)
 
-
+<!--
 ## Challenges
 
 ### Easy
@@ -69,3 +69,4 @@ An important part of Forensics is having the right tools, as well as being famil
 - [Sharpturn](/challenges/2015/forensics/sharpturn.md)
 - [Aristotle](/challenges/2014/forensics/aristotle_-_Wiens.md)
 - [Fluffy No More](/challenges/2014/forensics/Fluffy_No_More.md)
+-->

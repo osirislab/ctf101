@@ -12,7 +12,7 @@ Very often the goal of a reverse engineering challenge is to understand the func
  * [Disassemblers](/reverse-engineering/what-are-disassemblers/)
  * [Decompilers](/reverse-engineering/what-are-decompilers/)
 
-
+<!--
 ## Challenges
 
 ### Easy
@@ -84,3 +84,4 @@ Very often the goal of a reverse engineering challenge is to understand the func
 - [Wveryn](/challenges/2015/reversing/wyvern.md)
 - [Wveryn 2](/challenges/2015/reversing/wyvern2.md)
 - [Ethersplay](/challenges/2017/Misc/ethersplay.md)
+-->

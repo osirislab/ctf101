@@ -28,6 +28,7 @@ The word “cryptography” technically means the art of writing codes. When it 
  * [Stream Ciphers](/cryptography/what-are-stream-ciphers/)
  * [RSA](/cryptography/what-is-rsa/)
 
+<!--
 ## Challenges
 
 ### Easy
@@ -77,3 +78,4 @@ The word “cryptography” technically means the art of writing codes. When it 
 - [CFB Sum](/challenges/2014/crypto/cfbsum.md)
 - [Wieners](/challenges/2014/crypto/Wieners_-_Antoniewicz.md)
 - [Slurp](/challenges/2013/Crypto/slurp.md)
+-->

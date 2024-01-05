@@ -1,4 +1,4 @@
-site_name: Capture The Flag 101
+site_name: CTF 101
 site_description: Capture the Flag Competition Wiki
 site_author: OSIRIS Lab & CTFd LLC
 # plugins:
@@ -13,7 +13,7 @@ site_author: OSIRIS Lab & CTFd LLC
 #       strict: true
 theme:
   name: material
-  favicon: images/favicon/book-half.svg
+  favicon: images/favicon/favicon.ico
   features:
     - navigation.tabs
     - navigation.sticky

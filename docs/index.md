@@ -1,12 +1,17 @@
 # Capture The Flag 101
 
-### Welcome
+## Overview
 
-Capture The Flags, or CTFs, are a kind of computer security competition.
+Capture the Flags, or CTFs, are computer security competitions. 
 
-Teams of competitors (or just individuals) are pitted against each other in a test of computer security skill.
+Teams of competitors (or just individuals) are pitted against each other in various challenges across multiple security disciplines, competing to earn the most points.
 
-Very often CTFs are the beginning of one's cyber security career due to their team building nature and competetive aspect. In addition, there isn't a lot of commitment required beyond a weekend.
+CTFs are often the beginning of one's cyber security career due to their team building nature and competetive aspect. In addition, there isn't a lot of commitment required beyond a weekend. 
+
+
+!!! info
+    For information about ongoing CTFs, check out [CTFTime](https://ctftime.org/).
+
 
 In this guide/wiki/handbook you'll learn the techniques, thought processes, and methodologies you need to succeed in Capture the Flag competitions.
 

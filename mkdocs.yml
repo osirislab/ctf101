@@ -47,6 +47,15 @@ theme:
 extra_css:
 - stylesheets/extra.css
 
+extra:
+  generator: false
+  social: 
+    - icon: fontawesome/brands/github
+      link: https://github.com/osirislab
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/Vk6RXcw5wx
+copyright: Made with ♥ by OSIRIS Lab & CTFd
+
 repo_url: https://github.com/osirislab/ctf101
 repo_name: osiris/ctf101
 markdown_extensions:

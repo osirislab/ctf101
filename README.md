@@ -12,7 +12,7 @@ The site is maintained by the [OSIRIS Lab](https://osiris.cyber.nyu.edu/) in col
 ### Installation
 1. Verify **python 3** and **python-pip** is installed. Otherwise, you can find the installation [here](https://www.python.org/downloads/).
     ```sh
-    python --version
+    python3 --version
     pip --version
     ```
 
@@ -24,7 +24,7 @@ The site is maintained by the [OSIRIS Lab](https://osiris.cyber.nyu.edu/) in col
 
 3. Create a virtual environment. If this step doesn't work, follow this for [**python-venv**](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/). 
     ```sh
-    python -m venv .venv
+    python3 -m venv .venv
     source .venv/bin/activate
     ```
 

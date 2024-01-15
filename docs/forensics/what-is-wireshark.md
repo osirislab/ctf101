@@ -32,7 +32,7 @@ By default, Wireshark cannot decrypt SSL traffic on your device unless you grant
 
 In order for a network session to be encrypted properly, the client and server must share a common secret for which they can use to encrypt and decrypt data without someone in the middle being able to guess. The SSL Handshake loosely follows this format:
 
-1. The client sends a list of availble cipher suites it can use along with a random set of bytes referred to as client_random
+1. The client sends a list of available cipher suites it can use along with a random set of bytes referred to as client_random
 2. The server sends back the cipher suite that will be used, such as TLS_DHE_RSA_WITH_AES_128_CBC_SHA, along with a random set of bytes referred to as server_random
 3. The client generates a pre-master secret, encrypts it, then sends it to the server.
 4. The server and client then generate a common master secret using the selected cipher suite

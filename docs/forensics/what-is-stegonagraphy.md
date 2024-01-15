@@ -1,6 +1,6 @@
-# Stegonagraphy
+# Steganography
 
-Stegonagraphy is the practice of hiding data in plain sight. Stegonagraphy is often embedded in images or audio.
+Steganography is the practice of hiding data in plain sight. Steganography is often embedded in images or audio.
 
 You could send a picture of a cat to a friend and hide text inside. Looking at the image, there’s nothing to make anyone think there’s a message hidden inside it.
 
@@ -10,7 +10,7 @@ You could also hide a second image inside the first.
 
 ![Steg with an Image](images/steg-cat-image.png)
 
-## Stegonagraphy Detection
+## Steganography Detection
 
 So we can hide text and an image, how do we find out if there is hidden data?
 
@@ -35,9 +35,9 @@ Changing the least-significant bit (LSB) doesn’t change the value very much.
 
 So we can modify the LSB without changing the file noticeably. By doing so, we can hide a message inside.
 
-### LSB Stegonagraphy in Images
+### LSB Steganography in Images
 
-LSB Stegonagraphy or *Least Significant Bit* Stegonagraphy is a method of stegonagraphy where data is recorded in the lowest bit of a byte.
+LSB Steganography or *Least Significant Bit* Steganography is a method of Steganography where data is recorded in the lowest bit of a byte.
 
 Say an image has a pixel with an RGB value of (255, 255, 255), the bits of those RGB values will look like
 
@@ -49,7 +49,7 @@ By modifying the lowest, or least significant, bit, we can use the 1 bit space a
 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 0 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 
-The reason stegonagraphy is hard to detect by sight is because a 1 bit difference in color is insignificant as seen below.
+The reason steganography is hard to detect by sight is because a 1 bit difference in color is insignificant as seen below.
 
 ![1 Bit Difference](images/lsb-color-difference.png)
 

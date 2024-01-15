@@ -13,10 +13,10 @@ CTFs are often the beginning of one's cyber security career due to their team bu
     For information about ongoing CTFs, check out [CTFTime](https://ctftime.org/).
 
 
-In this guide/wiki/handbook you'll learn the techniques, thought processes, and methodologies you need to succeed in Capture the Flag competitions.
+In this handbook you'll learn the basics™ behind the methodologies and techniques needed to succeed in Capture the Flag competitions.
 
 ---
-
+<!-- 
 <div class="container">
   <div class="row">
     <div class="col-md-2">
@@ -50,4 +50,4 @@ In this guide/wiki/handbook you'll learn the techniques, thought processes, and 
         </a>
     </div>
   </div>
-</div>
+</div> -->

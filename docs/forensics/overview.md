@@ -1,10 +1,8 @@
-<img class="no-zoom pull-right" width="200px" src="/images/forensics.png">
-
 # Forensics
 
-Forensics is the art of recovering the digital trail left on a computer. There are plently of methods to find data which is seemingly deleted, not stored, or worse, covertly recorded.
+Forensics is the art of recovering the digital trail left on a computer. There are plenty of methods to find data which is seemingly deleted, not stored, or worse, covertly recorded. 
 
-An important part of Forensics is having the right tools, as well as being familair with the following topics:
+An important part of forensics is having the right tools, as well as being familiar with the following topics:
 
  * [File Formats](/forensics/what-are-file-formats/)
  * [EXIF data](/forensics/what-is-metadata/)

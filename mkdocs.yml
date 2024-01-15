@@ -1,4 +1,4 @@
-site_name: Docs
+site_name: CTF Handbook
 site_description: Capture the Flag Competition Wiki
 site_author: OSIRIS Lab & CTFd LLC
 # plugins:
@@ -15,10 +15,13 @@ theme:
   name: material
   favicon: images/favicon/favicon.ico
   logo: images/ctf101.png
+  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation
   features:
     # - navigation.tabs
     # - navigation.sticky
     - navigation.instant
+    # - navigation.sections
+    # - navigation.expand
   palette:
     # Palette toggle for automatic mode
     # - media: "(prefers-color-scheme)"
@@ -29,7 +32,8 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: blue
+      primary: white
+      accent: indigo
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
@@ -38,6 +42,7 @@ theme:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: black
+      accent: indigo
       toggle:
         icon: material/weather-night
         name: Switch to light mode
@@ -173,3 +178,5 @@ nav:
     - Heap Exploitation: 'binary-exploitation/heap-exploitation.md'
   - Format String Vulnerability:
     - What is a Format String Vulnerability: 'binary-exploitation/what-is-a-format-string-vulnerability.md'
+
+

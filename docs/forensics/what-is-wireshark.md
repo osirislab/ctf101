@@ -1,4 +1,13 @@
 # Wireshark
+!!! note "Note from our infrastructure team"
+
+    "Wireshark saved me hours on my last tax return! - David"
+
+    "[Wireshark] is great for ruining your weekend and fixing pesky networking problems!" - Max"
+
+    "Wireshark is the powerhouse of the cell. - Joe"
+
+    "Does this cable do anything? - Ayyaz"
 
 [Wireshark](http://www.wireshark.com) is a network protocol analyzer which is often used in CTF challenges to look at recorded network traffic. Wireshark uses a filetype called PCAP to record traffic. PCAPs are often distributed in CTF challenges to provide recorded traffic history.
 

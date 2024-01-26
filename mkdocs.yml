@@ -3,6 +3,9 @@ site_description: Capture the Flag Competition Wiki
 site_author: OSIRIS Lab & CTFd LLC
 plugins:
   - search
+  - exclude-search:
+      exclude:
+        - challenges/*
   - git-revision-date-localized:
       enable_creation_date: true
 #       type: timeago

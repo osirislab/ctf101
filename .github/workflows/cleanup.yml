@@ -10,4 +10,4 @@ jobs:
         with:
           # ⚠️ The provided token needs permission for admin write:org
           token: ${{ secrets.GITHUB_TOKEN }}
-          environment: my-environment-name
+          environment: github-pages

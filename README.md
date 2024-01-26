@@ -43,4 +43,5 @@ The site is maintained by the [OSIRIS Lab](https://osiris.cyber.nyu.edu/) in col
 
 > First off, thank you so much for contributing to CTF101's wiki repository. It's contributions from people like you who makes this page what it is. Thank you for making this page be the first step for many more security engineers!
 
-Please create a branch to add/commit changes to followed with a pull request. Link the relevant [**issue**](https://github.com/osirislab/ctf101/issues) in the pull request history and it'll be assigned a reviewer!
+1. Please create a branch to add/commit changes to followed with a pull request.
+2. Link the relevant [**issue**](https://github.com/osirislab/ctf101/issues) in the pull request history and it'll be assigned a reviewer!

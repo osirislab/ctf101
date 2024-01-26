@@ -1,9 +1,6 @@
 name: Delete Environment (default settings)
 
-on:
-  delete:
-    branches-ignore:
-      - main
+on: workflow_dispatch
 
 jobs:
   delete:

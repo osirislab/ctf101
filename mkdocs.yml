@@ -93,8 +93,8 @@ nav:
     - What is Metadata: 'forensics/what-is-metadata.md'
   - Wireshark:
     - What is Wireshark: 'forensics/what-is-wireshark.md'
-  - Stegonagraphy:
-    - What is Stegonagraphy: 'forensics/what-is-stegonagraphy.md'
+  - Steganography:
+    - What is Steganography: 'forensics/what-is-stegonagraphy.md'
   - Disk Imaging:
     - What is Disk Imaging: 'forensics/what-is-disk-imaging.md'
   - Memory Forensics:

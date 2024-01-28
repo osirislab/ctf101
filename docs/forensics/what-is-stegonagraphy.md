@@ -23,7 +23,7 @@ FileB and FileC don’t appear to have been modified after being created. That d
 1. Can we determine that there is steganography in fileD?
 2. If there is, what was hidden in it?
 
-## LSB Stegonagraphy
+## LSB Steganography
 
 File are made of bytes. Each byte is composed of eight bits.
 

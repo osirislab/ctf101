@@ -2,17 +2,17 @@
 
 ## History
 
-The C programming language iwas written by Dennis Ritchie in the 1970s while he was working at Bell Labs. It was first used to reimplement the Unix operating system which was purely written in assembly language. At first, the Unix developers were considering using a language called "B" but because B wasn't optimized for the target computer, the C language was created.
+The C programming language was written by Dennis Ritchie in the 1970s while he was working at Bell Labs. It was first used to reimplement the Unix operating system which was purely written in assembly language. At first, the Unix developers were considering using a language called "B" but because B wasn't optimized for the target computer, the C language was created.
 
 !!! note
     C is the letter and the programming language after B!
 
-C was designed to be close to assembly and is still widely used in lower level programming where speed and control are needed (operating systems, embedded systems). C was also very influential to other programming langauges used today. Notable languages include C++, Objective-C, Golang, Java, JavaScript, PHP, Python, and Rust.
+C was designed to be close to assembly and is still widely used in lower level programming where speed and control are needed (operating systems, embedded systems). C was also very influential to other programming languages used today. Notable languages include C++, Objective-C, Golang, Java, JavaScript, PHP, Python, and Rust.
 
 
 ## Hello World
 
-C is an ancestor of many other programming languages and if you are familiar with programming, it's likely that C will be at least someewhat familiar.
+C is an ancestor of many other programming languages and if you are familiar with programming, it's likely that C will be at least somewhat familiar.
 
 ```c
 #include <stdio.h>
@@ -26,7 +26,7 @@ int main()
 
 ## Today
 
-Today C is widely used either as a low level programming langauge or is the base language that other programming languages are implemented in.
+Today C is widely used either as a low level programming language or is the base language that other programming languages are implemented in.
 
 While it can be difficult to see, the C language compiles down directly into machine code. The compiler is programmed to process the provided C code and emit assembly that's targetted to whatever operating system and architecture the compiler is set to use.
 
@@ -42,7 +42,7 @@ A good way to explore this relationship is to use this online [GCC Explorer](htt
 In regards to CTF, many reverse engineering and exploitation CTF challenges are written in C because the language compiles down directly to assembly and there are little to no safeguards in the language. This means developers must manually handle both. Of course, this can lead to mistakes which can sometimes lead to security issues.
 
 !!! note
-    Other higher level langauges like Python manage memory and garbage collection for you. Google Golang was inspired by C but adds in functionality like garbage collection, and memory safety.
+    Other higher level langauges like Python manage memory and garbage collection for you. Google Golang was inspired by C, but adds in functionality like garbage collection and memory safety.
 
 There are some examples of famously vulnerable functions in C which are still available and can still result in vulnerabilities:
 
@@ -85,7 +85,7 @@ The `y` variable will store the address pointed to by the `x `variable (0x1000).
 !!! note
     The `*` character allows us to declare pointer variables but also allows us to access the value stored at a pointer. For example, entering `*y` allows us to access the 4 value instead of 0x1000.
 
-Whenever we use the `y` variable we are using the memory address, but if we use the x variable we use the value stored at the memory address.
+Whenever we use the `y` variable we are using the memory address, but if we use the `x` variable we use the value stored at the memory address.
 
 ## Arrays
 
@@ -103,7 +103,7 @@ int integers[ 10 ] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
 Arrays allow programmers to group data into logical containers.
 
-To access the indiviual elements of an array we access the contents by their "index". Most programming langauges today start counting from 0. So to take our previous example:
+To access the individual elements of an array we access the contents by their "index". Most programming langauges today start counting from 0. So to take our previous example:
 
 ```c
 int integers[ 10 ] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};

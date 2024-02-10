@@ -3251,14 +3251,14 @@
 
 <h1 id="the-c-programming-language">The C Programming Language</h1>
 <h2 id="history">History</h2>
-<p>The C programming language iwas written by Dennis Ritchie in the 1970s while he was working at Bell Labs. It was first used to reimplement the Unix operating system which was purely written in assembly language. At first, the Unix developers were considering using a language called "B" but because B wasn't optimized for the target computer, the C language was created.</p>
+<p>The C programming language was written by Dennis Ritchie in the 1970s while he was working at Bell Labs. It was first used to reimplement the Unix operating system which was purely written in assembly language. At first, the Unix developers were considering using a language called "B" but because B wasn't optimized for the target computer, the C language was created.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>C is the letter and the programming language after B!</p>
 </div>
-<p>C was designed to be close to assembly and is still widely used in lower level programming where speed and control are needed (operating systems, embedded systems). C was also very influential to other programming langauges used today. Notable languages include C++, Objective-C, Golang, Java, JavaScript, PHP, Python, and Rust.</p>
+<p>C was designed to be close to assembly and is still widely used in lower level programming where speed and control are needed (operating systems, embedded systems). C was also very influential to other programming languages used today. Notable languages include C++, Objective-C, Golang, Java, JavaScript, PHP, Python, and Rust.</p>
 <h2 id="hello-world">Hello World</h2>
-<p>C is an ancestor of many other programming languages and if you are familiar with programming, it's likely that C will be at least someewhat familiar.</p>
+<p>C is an ancestor of many other programming languages and if you are familiar with programming, it's likely that C will be at least somewhat familiar.</p>
 <div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span>
 <span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span>
 <span class="p">{</span>
@@ -3267,7 +3267,7 @@
 <span class="p">}</span>
 </code></pre></div>
 <h2 id="today">Today</h2>
-<p>Today C is widely used either as a low level programming langauge or is the base language that other programming languages are implemented in.</p>
+<p>Today C is widely used either as a low level programming language or is the base language that other programming languages are implemented in.</p>
 <p>While it can be difficult to see, the C language compiles down directly into machine code. The compiler is programmed to process the provided C code and emit assembly that's targetted to whatever operating system and architecture the compiler is set to use.</p>
 <p>Some common compilers include:</p>
 <ul>
@@ -3279,7 +3279,7 @@
 <p>In regards to CTF, many reverse engineering and exploitation CTF challenges are written in C because the language compiles down directly to assembly and there are little to no safeguards in the language. This means developers must manually handle both. Of course, this can lead to mistakes which can sometimes lead to security issues.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Other higher level langauges like Python manage memory and garbage collection for you. Google Golang was inspired by C but adds in functionality like garbage collection, and memory safety.</p>
+<p>Other higher level langauges like Python manage memory and garbage collection for you. Google Golang was inspired by C, but adds in functionality like garbage collection and memory safety.</p>
 </div>
 <p>There are some examples of famously vulnerable functions in C which are still available and can still result in vulnerabilities:</p>
 <ul>
@@ -3311,7 +3311,7 @@
 <p class="admonition-title">Note</p>
 <p>The <code>*</code> character allows us to declare pointer variables but also allows us to access the value stored at a pointer. For example, entering <code>*y</code> allows us to access the 4 value instead of 0x1000.</p>
 </div>
-<p>Whenever we use the <code>y</code> variable we are using the memory address, but if we use the x variable we use the value stored at the memory address.</p>
+<p>Whenever we use the <code>y</code> variable we are using the memory address, but if we use the <code>x</code> variable we use the value stored at the memory address.</p>
 <h2 id="arrays">Arrays</h2>
 <p>Arrays are a grouping of objects of the same type. They are typically created with the following syntax:</p>
 <div class="highlight"><pre><span></span><code><span class="n">type</span><span class="w"> </span><span class="n">arrayName</span><span class="w"> </span><span class="p">[</span><span class="w"> </span><span class="n">arraySize</span><span class="w"> </span><span class="p">];</span>
@@ -3320,7 +3320,7 @@
 <div class="highlight"><pre><span></span><code><span class="kt">int</span><span class="w"> </span><span class="n">integers</span><span class="p">[</span><span class="w"> </span><span class="mi">10</span><span class="w"> </span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">4</span><span class="p">,</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="mi">6</span><span class="p">,</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">8</span><span class="p">,</span><span class="w"> </span><span class="mi">9</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">};</span>
 </code></pre></div>
 <p>Arrays allow programmers to group data into logical containers.</p>
-<p>To access the indiviual elements of an array we access the contents by their "index". Most programming langauges today start counting from 0. So to take our previous example:</p>
+<p>To access the individual elements of an array we access the contents by their "index". Most programming langauges today start counting from 0. So to take our previous example:</p>
 <div class="highlight"><pre><span></span><code><span class="kt">int</span><span class="w"> </span><span class="n">integers</span><span class="p">[</span><span class="w"> </span><span class="mi">10</span><span class="w"> </span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">4</span><span class="p">,</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="mi">6</span><span class="p">,</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">8</span><span class="p">,</span><span class="w"> </span><span class="mi">9</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">};</span>
 <span class="cm">/*     indexes        0  1  2  3  4  5  6  7  8   9</span>
 </code></pre></div>
@@ -3360,7 +3360,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">January 26, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">February 8, 2024</span>
   </span>
 
     

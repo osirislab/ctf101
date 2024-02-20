@@ -184,4 +184,7 @@ nav:
   - Format String Vulnerability:
     - What is a Format String Vulnerability: 'binary-exploitation/what-is-a-format-string-vulnerability.md'
 
-
+- FAQ:
+  - How to connect to services: 'faq/connecting-to-services.md'
+  - I need a server: 'faq/i-need-a-server.md'
+  - Recommended Software: 'faq/recommended-software.md'

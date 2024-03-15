@@ -84,6 +84,11 @@ nav:
 # This does not show up on the navbar. The Index word is specifically hidden in nav.html
 - Home: index.md
 
+- Start Here:
+  - What is a CTF?: 'start-here/what-is-a-ctf.md'
+  
+
+
 # Forensics Section
 - Forensics:
   - Overview: 'forensics/overview.md'

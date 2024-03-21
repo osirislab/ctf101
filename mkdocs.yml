@@ -25,6 +25,7 @@ theme:
     # - navigation.tabs
     # - navigation.sticky
     - navigation.instant
+    - content.code.annotate
     # - navigation.sections
     # - navigation.expand
   palette:
@@ -85,7 +86,8 @@ nav:
 - Home: index.md
 
 - Start Here:
-  - What is a CTF?: 'start-here/what-is-a-ctf.md'
+  - What is a CTF: 'start-here/what-is-a-ctf.md'
+  - How do I host a CTF: 'start-here/how-to-run-a-ctf.md'
   
 
 

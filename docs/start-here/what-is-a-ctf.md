@@ -6,7 +6,7 @@ Capture the Flag (CTF) competitions are the one stop shop for anyone who wishes 
 Participants can work individually or in teams to solve challenges. Typically, an organization would feature multiple members playing for the same team, working together to solve challenges. If you're working alone, we encourage you to do some searching or friendly recruiting to have another mind to bounce ideas off of!
 
 !!! info
-    Checkout [ctftime.org](https://ctftime.org/) for upcoming CTFs!
+    For information about ongoing CTFs, check out [CTFTime](https://ctftime.org/).
 
 ## Do I need special tools or computers?
 We recommend the usage of a terminal environment to experiment and install tools in. This may come in the form of a VM ([virtual machine](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-virtual-machine)), subsystems like [WSL](https://learn.microsoft.com/en-us/windows/wsl/install), or cloud VPS solution.

@@ -8,6 +8,10 @@ Participants can work individually or in teams to solve challenges. Typically, a
 !!! info
     Checkout [ctftime.org](https://ctftime.org/) for upcoming CTFs!
 
+## Do I need special tools or computers?
+We recommend the usage of a terminal environment to experiment and install tools in. This may come in the form of a VM ([virtual machine](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-virtual-machine)), subsystems like [WSL](https://learn.microsoft.com/en-us/windows/wsl/install), or cloud VPS solution.
 
-## Resources
+!!! info
+    Images like [Kali Linux](https://www.kali.org/get-kali/#kali-platforms) come prebuilt with tools for all your pentesting needs!
 
+To learn more about getting a server or connecting to challenges, check out the [FAQ](http://ctf101.org/faq/connecting-to-services/)!

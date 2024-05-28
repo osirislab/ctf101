@@ -8,7 +8,7 @@ A string hash is a number or string generated using an algorithm that runs on te
 
 The idea is that each hash should be unique to the text or data (although sometimes it isn’t). For example, the hash for “dog” should be different from other hashes.
 
-You can use command line tools tools or online resources such as this one.
+You can use command line tools or online resources such as this one.
 Example:
 `$ echo -n password | md5  5f4dcc3b5aa765d61d8327deb882cf99`
 Here, “password” is hashed with different hashing algorithms:

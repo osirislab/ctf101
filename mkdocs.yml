@@ -85,9 +85,9 @@ nav:
 # This does not show up on the navbar. The Index word is specifically hidden in nav.html
 - Home: index.md
 
-- Start Here:
-  - What is a CTF: 'start-here/what-is-a-ctf.md'
-  - How do I host a CTF: 'start-here/how-to-run-a-ctf.md'
+- Intro:
+  - What is a CTF: 'intro/what-is-a-ctf.md'
+  - How do I host a CTF: 'intro/how-to-run-a-ctf.md'
   
 
 

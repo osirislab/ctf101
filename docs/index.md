@@ -4,7 +4,7 @@ Welcome to **CTF101**, a site documenting the basics of playing Capture the Flag
 
 In this handbook you'll learn the basics™ behind the methodologies and techniques needed to succeed in Capture the Flag competitions.
 
-Ready? [Let's go](/start-here/what-is-a-ctf)
+Ready? [Let's go](/intro/what-is-a-ctf)
 
 ## Contributions
 

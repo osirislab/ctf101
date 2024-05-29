@@ -8,7 +8,7 @@ File Extensions are not the sole way to identify the type of a file, files have 
 
 ### What is it used for?
 
-Files can sometimes come without an extension, or with incorrect ones. We use file signature analysis to identify the format (file type) of the file. Programs need to know the file type in order to open it properly.
+Files can sometimes come without an extension, or with incorrect ones. We use file signature analysis to identify the format (file type) of the file. Programs need to know the file type in order to open it properly. It's useful to analyze the file type before any forensics software.
 
 ### How do you find the file signature?
 

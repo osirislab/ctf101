@@ -18,6 +18,12 @@ You need to be able to look at the binary data that constitutes the file you’r
 
 ![File A](images/file-a.jpg)
 
-The file above, when opened in a Hex Editor, begins with the bytes `FFD8FFE0 00104A46 494600` or in ASCII `ˇÿˇ‡  JFIF` where `\x00` and `\x10` lack symbols. 
+The file above, when opened in a hexadecimal editor like `xxd` or `hexdump`, begins with the bytes `FFD8FFE0 00104A46 494600` or in ASCII `ˇÿˇ‡  JFIF` where `\x00` and `\x10` lack symbols. 
 
-Searching in [Gary Kessler’s](http://www.garykessler.net/library/file_sigs.html) database shows that this file signature belongs to a `JPEG/JFIF graphics file`, exactly what we suspect.
+![Example A](images/xxd.gif)
+
+Searching in [Gary Kessler’s](http://www.garykessler.net/library/file_sigs.html) database shows that this file signature belongs to a `JPEG/JFIF graphics file`. You can also use the file utility in Linux to determine the file type!
+
+```bash
+file file-a.jpg #file-a.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 96x96, segment length 16, comment: "CREATOR: gd-jpeg v1.0 (using IJG JPEG v80), quality = 90", baseline, precision 8, 1024x576, components 3
+```

@@ -25,5 +25,6 @@ The file above, when opened in a hexadecimal editor like `xxd` or `hexdump`, beg
 Searching in [Gary Kessler’s](http://www.garykessler.net/library/file_sigs.html) database shows that this file signature belongs to a `JPEG/JFIF graphics file`. You can also use the file utility in Linux to determine the file type!
 
 ```bash
-file file-a.jpg #file-a.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 96x96, segment length 16, comment: "CREATOR: gd-jpeg v1.0 (using IJG JPEG v80), quality = 90", baseline, precision 8, 1024x576, components 3
+▲ ~/examples file file-a.jpg
+file-a.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 96x96, segment length 16, comment: "CREATOR: gd-jpeg v1.0 (using IJG JPEG v80), quality = 90", baseline, precision 8, 1024x576, components 3
 ```

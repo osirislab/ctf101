@@ -6,6 +6,8 @@ Real-world vulnerabilities are featured in challenges, allowing you to flex your
 
 CTFs bring these vulnerabilities right to your machine in small, compartmentalized challenges, fostering collaboration and community building (with friendly competition of course!). 
 
+If you're looking to meet new people in this space, check out your local [CitySec](https://www.reddit.com/r/netsec/wiki/meetups/citysec/)!
+
 ## Who can play in a CTF?
 Participants can work individually or in teams to solve challenges. Typically, an organization would feature multiple members playing for the same team, working together to solve challenges. If you're working alone, we encourage you to do some searching or friendly recruiting to have another mind to bounce ideas off of!
 

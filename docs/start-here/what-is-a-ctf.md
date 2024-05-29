@@ -1,6 +1,10 @@
 # What is a CTF?
 
-Capture the Flag (CTF) competitions are the one stop shop for anyone who wishes to get into the world of computer security. Real-world vulnerabilities are featured in challenges that allow you to flex your programming, problem solving, and teamwork skills! CTFs bring these vulnerabilities right to your machine in small, compartmentalized challenges, fostering collaboration and community building (with friendly competition of course!). 
+Capture the Flags, or CTFs, are computer security competitions. Teams of competitors (or just individuals) are pitted against each other in various challenges across multiple security disciplines, competing to earn the most points.
+
+Real-world vulnerabilities are featured in challenges that allow you to flex your programming, problem solving, and teamwork skills! CTFs are often the beginning of one's cyber security career due to their team building nature and competitive aspect. In addition, there isn't a lot of commitment required beyond a weekend. 
+
+CTFs bring these vulnerabilities right to your machine in small, compartmentalized challenges, fostering collaboration and community building (with friendly competition of course!). 
 
 ## Who can play in a CTF?
 Participants can work individually or in teams to solve challenges. Typically, an organization would feature multiple members playing for the same team, working together to solve challenges. If you're working alone, we encourage you to do some searching or friendly recruiting to have another mind to bounce ideas off of!

@@ -2,15 +2,9 @@
 
 Welcome to **CTF101**, a site documenting the basics of playing Capture the Flags. This guide was written and maintained by the [OSIRIS Lab](https://osiris.cyber.nyu.edu/) at New York University in collaboration with [CTFd](https://ctfd.io/).
 
-## Overview
-
-Capture the Flags, or CTFs, are computer security competitions. 
-
-Teams of competitors (or just individuals) are pitted against each other in various challenges across multiple security disciplines, competing to earn the most points.
-
-CTFs are often the beginning of one's cyber security career due to their team building nature and competitive aspect. In addition, there isn't a lot of commitment required beyond a weekend. 
-
 In this handbook you'll learn the basics™ behind the methodologies and techniques needed to succeed in Capture the Flag competitions.
+
+Ready? [Let's go](/start-here/what-is-a-ctf)
 
 ## Contributions
 

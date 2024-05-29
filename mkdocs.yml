@@ -87,8 +87,8 @@ nav:
 
 - Intro:
   - What is a CTF: 'intro/what-is-a-ctf.md'
+  - Getting Started with CTFs: 'intro/ctf-basics.md'
   - How do I host a CTF: 'intro/how-to-run-a-ctf.md'
-  
 
 
 # Forensics Section

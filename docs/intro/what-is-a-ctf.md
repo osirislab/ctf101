@@ -15,11 +15,11 @@ Participants can work individually or in teams to solve challenges. Typically, a
 ## Do I need special tools or computers?
 A terminal environment is essential to experiment and install tools in. Linux and MacOS systems should already have terminal emulators installed natively.
 
-If you're on Windows, install Linux with [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) or setup a VM ([virtual machine](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-virtual-machine)). See our [recommended software](../faq/recommended-software/).
+If you're on Windows, install Linux with [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) or setup a VM ([virtual machine](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-virtual-machine)). See our [recommended software](/faq/recommended-software/).
 
 !!! info
     Images like [Kali Linux](https://www.kali.org/get-kali/#kali-platforms) come prebuilt with tools for all your pentesting needs!
 
-To learn more about getting a server or connecting to challenges, check out the [FAQ](../faq/connecting-to-services/)!
+To learn more about getting a server or connecting to challenges, check out the [FAQ](/faq/connecting-to-services/)!
 
 Got the hang of it? Move on to [CTF-basics](/intro/ctf-basics/)

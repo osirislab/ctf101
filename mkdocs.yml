@@ -25,6 +25,7 @@ theme:
     # - navigation.tabs
     # - navigation.sticky
     - navigation.instant
+    - content.code.annotate
     # - navigation.sections
     # - navigation.expand
   palette:
@@ -83,6 +84,12 @@ docs_dir: docs/
 nav:
 # This does not show up on the navbar. The Index word is specifically hidden in nav.html
 - Home: index.md
+
+- Intro:
+  - What is a CTF: 'intro/what-is-a-ctf.md'
+  - Getting Started with CTFs: 'intro/ctf-basics.md'
+  - How do I host a CTF: 'intro/how-to-run-a-ctf.md'
+
 
 # Forensics Section
 - Forensics:

@@ -7,9 +7,9 @@ Ideally, you must have :
 - a suite of web tools, [Burp](https://portswigger.net/burp/communitydownload), [sqlmap](https://sqlmap.org), and [Wireshark](https://www.wireshark.org/download.html) are solid to begin with
 - the essential python package [pwntools](https://docs.pwntools.com/en/stable/install.html) to interact with processes easily
 
-# Pick a website
+<!-- # Pick a website
 
 
 # Learn the flag format
 
-# Pick a category
+# Pick a category -->

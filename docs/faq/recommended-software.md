@@ -58,7 +58,7 @@ competitions.
     extensions. These tools and extensions can be useful when
     investigating a web application.
 
--   [Wireshark](https://www.wireshark.org/download.html/)
+-   [Wireshark](https://www.wireshark.org/download.html)
 
     Wireshark is a PCAP analysis tool which allows you to analyze and
     record network traffic.

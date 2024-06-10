@@ -86,9 +86,11 @@ There are plenty more patterns than the ones introduced below, but these are the
 	![Timestamp 4](images/timestamp-4.png)
 
 	Here are the extracted MAC times for fileA, fileB, fileC and fileD:
-	*Note, AccessData FTK Imager assumes that the file times on the drive are in UTC (Universal Coordinated Time). I subtracted four hours, since the USB was set up in Eastern Standard Time. This isn’t necessary, but it helps me understand the times a bit better.*
 
 	![Timestamp 5](images/timestamp-5.png)
+
+	!!! Note
+		AccessData FTK Imager assumes that the file times on the drive are in UTC (Universal Coordinated Time). I subtracted four hours, since the USB was set up in Eastern Standard Time. This isn’t necessary, but it helps me understand the times a bit better.*
 
 	Highlight timestamps that are the same, if timestamps are off by a few seconds, they should be counted as the same. This lets you see a clear difference between different timestamps. Then, highlight oldest to newest to help put them in order.
 

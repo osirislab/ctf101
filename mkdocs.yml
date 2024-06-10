@@ -16,6 +16,7 @@ plugins:
 #           - index.md
 #       enabled: true
 #       strict: true
+  - glightbox
 theme:
   name: material
   favicon: images/favicon/favicon.ico
@@ -28,6 +29,7 @@ theme:
     - content.code.annotate
     # - navigation.sections
     # - navigation.expand
+    - content.code.copy
   palette:
     # Palette toggle for automatic mode
     # - media: "(prefers-color-scheme)"
@@ -98,8 +100,9 @@ nav:
     - What are File Formats: 'forensics/what-are-file-formats.md'
   - Metadata:
     - What is Metadata: 'forensics/what-is-metadata.md'
-  - Wireshark:
+  - Network Analysis:
     - What is Wireshark: 'forensics/what-is-wireshark.md'
+    - What is Packet Capture : 'forensics/what-is-packet-capture.md'
   - Steganography:
     - What is Steganography: 'forensics/what-is-stegonagraphy.md'
   - Disk Imaging:

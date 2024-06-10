@@ -2,17 +2,24 @@
 
 Forensics is the art of recovering the digital trail left on a computer. There are plenty of methods to find data which is seemingly deleted, not stored, or worse, covertly recorded. 
 
-An important part of forensics is having the right tools, as well as being familiar with the following topics:
+An important part of forensics is having the right tools, as well as being familiar with using them. Approach forensics challenges with an open mind. It's not uncommon to have obscure CTF challenges hide flags in the darkest of corners!
+
+!!! info
+    Unlike CTFs normally portray them, real-world forensics are rarely esoteric. For example, it might have you reassembling the boot partitions of a hard drive to recover it's data and file system. Thus, CTF forensics are normally puzzle, "brain-teaser" problems that aims to introduce a tool or method.
+
+The [Forensics Wiki](https://forensics.wiki/) is an extraordinary guide to many of the tools used. Give it a read if you're interested in this category!
+
+## Topics
 
  * [File Formats](/forensics/what-are-file-formats/)
  * [EXIF data](/forensics/what-is-metadata/)
  * Wireshark & PCAPs
-    * [What is Wireshark](/forensics/what-is-wireshark/)
+    * [Network Forensics](/forensics/what-is-wireshark/)
  * [Stegonagraphy](/forensics/what-is-stegonagraphy/)
  * [Disk Imaging](/forensics/what-is-disk-imaging/)
 
-<!--
-## Challenges
+
+<!-- ## Challenges
 
 ### Easy
 
@@ -67,4 +74,4 @@ An important part of forensics is having the right tools, as well as being famil
 - [Sharpturn](/challenges/2015/forensics/sharpturn.md)
 - [Aristotle](/challenges/2014/forensics/aristotle_-_Wiens.md)
 - [Fluffy No More](/challenges/2014/forensics/Fluffy_No_More.md)
--->
+ -->

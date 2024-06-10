@@ -16,6 +16,7 @@ plugins:
 #           - index.md
 #       enabled: true
 #       strict: true
+  - glightbox
 theme:
   name: material
   favicon: images/favicon/favicon.ico

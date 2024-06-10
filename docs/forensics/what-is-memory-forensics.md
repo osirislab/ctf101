@@ -10,7 +10,7 @@ Memory forensics isn't all that complicated, the hardest part would be using you
 1. Identify the image profile (which OS, version, etc.)
 2. Dump processes and look for suspicious processes
 3. Dump data related interesting processes
-4. View data in a format relating to the process (Word: docx, Notepad: txt, Photoshop: psd, etc.)
+4. View data in a format relating to the process (Word: .docx, Notepad: .txt, Photoshop: .psd, etc.)
 
 ### Profile Identification
 

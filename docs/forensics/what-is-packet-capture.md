@@ -49,6 +49,6 @@ Some special challenges require competitors to capture packets from an endpoint.
 
 !!! abstract "Wireshark"
 
-    Wireshark is a really good resource to view packets and see their contents. We can also use Wireshark to capture packets on our interface just like `tcpdump`. I have a ping command running in a WSL instance.
+    Wireshark is a really good resource to view packets and see their contents. We can also use Wireshark to capture packets on our interface just like `tcpdump`. Here in this example, I have a ping command running in a WSL instance.
 
     ![Wireshark Record](images/wireshark-record.gif)

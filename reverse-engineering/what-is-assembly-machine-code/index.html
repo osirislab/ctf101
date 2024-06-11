@@ -59,7 +59,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -588,7 +597,7 @@
             
   
   <span class="md-ellipsis">
-    Wireshark
+    Network Analysis
   </span>
   
 
@@ -598,7 +607,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_4">
             <span class="md-nav__icon md-icon"></span>
-            Wireshark
+            Network Analysis
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -614,6 +623,27 @@
   
   <span class="md-ellipsis">
     What is Wireshark
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../forensics/what-is-packet-capture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    What is Packet Capture
   </span>
   
 
@@ -3538,7 +3568,7 @@ main:
 <p>x86-64 or amd64 or i64 is a 64-bit Complex Instruction Set Computing (CISC) architecture. This basically means that the registers used for this architecture extend an extra 32-bits on Intel's x86 architecture. CISC means that a single instruction can do a bunch of different things at once, such as memory accesses, register reads, etc. It is also a variable-length instruction set, which means different instructions can be different sizes ranging from 1 to 16 bytes long. And finally x86-64 allows for multi-sized register access, which means that you can access certain parts of a register which are different sizes.</p>
 <h3 id="x86-64-registers">x86-64 Registers</h3>
 <p>x86-64 registers behave similarly to other architectures. A key component of x86-64 registers is multi-sized access which means the register RAX can have its lower 32 bits accessed with EAX. The next lower 16 bits can be accessed with AX and the lowest 8 bits can be accessed with AL which allows for the compiler to make optimizations which boost program execution.
-<img alt="Multi-access Register" src="../images/multi-access-register.png" /></p>
+<a class="glightbox" href="../images/multi-access-register.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Multi-access Register" src="../images/multi-access-register.png" /></a></p>
 <p>x86-64 has plenty of registers to use, including rax, rbx, rcx, rdx, rdi, rsi, rsp, rip, r8-r15, and more! But some registers serve special purposes.</p>
 <p>The special registers include:
 - RIP: the instruction pointer
@@ -3747,11 +3777,13 @@ This assembly jumps if RAX &lt;= RBX</p>
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "content.code.annotate", "content.code.copy"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.c18c5fb9.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

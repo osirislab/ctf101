@@ -59,7 +59,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -554,15 +563,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#example" class="md-nav__link">
-    <span class="md-ellipsis">
-      Example
-    </span>
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -674,7 +674,7 @@
             
   
   <span class="md-ellipsis">
-    Wireshark
+    Network Analysis
   </span>
   
 
@@ -684,7 +684,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_4">
             <span class="md-nav__icon md-icon"></span>
-            Wireshark
+            Network Analysis
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -700,6 +700,27 @@
   
   <span class="md-ellipsis">
     What is Wireshark
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../what-is-packet-capture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    What is Packet Capture
   </span>
   
 
@@ -3359,15 +3380,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#example" class="md-nav__link">
-    <span class="md-ellipsis">
-      Example
-    </span>
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -3396,13 +3408,19 @@
 <h2 id="file-signatures">File Signatures</h2>
 <p><strong>File signatures</strong> (also known as File Magic Numbers) are bytes within a file used to identify the format of the file. Generally they’re 2-4 bytes long, found at the beginning of a file.</p>
 <h3 id="what-is-it-used-for">What is it used for?</h3>
-<p>Files can sometimes come without an extension, or with incorrect ones. We use file signature analysis to identify the format (file type) of the file. Programs need to know the file type in order to open it properly.</p>
+<p>Files can sometimes come without an extension, or with incorrect ones. We use file signature analysis to identify the format (file type) of the file. Programs need to know the file type in order to open it properly. It's useful to analyze the file type before any forensics software.</p>
 <h3 id="how-do-you-find-the-file-signature">How do you find the file signature?</h3>
 <p>You need to be able to look at the binary data that constitutes the file you’re examining. To do this, you’ll use a hexadecimal editor. Once you find the file signature, you can check it against file signature repositories <a href="http://www.garykessler.net/library/file_sigs.html">such as Gary Kessler’s</a>.</p>
-<h3 id="example">Example</h3>
-<p><img alt="File A" src="../images/file-a.jpg" /></p>
-<p>The file above, when opened in a Hex Editor, begins with the bytes <code>FFD8FFE0 00104A46 494600</code> or in ASCII <code>ˇÿˇ‡  JFIF</code> where <code>\x00</code> and <code>\x10</code> lack symbols. </p>
-<p>Searching in <a href="http://www.garykessler.net/library/file_sigs.html">Gary Kessler’s</a> database shows that this file signature belongs to a <code>JPEG/JFIF graphics file</code>, exactly what we suspect.</p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p><a class="glightbox" href="../images/file-a.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="File A" src="../images/file-a.jpg" /></a></p>
+<p>The file above, when opened in a hexadecimal editor like <code>xxd</code> or <code>hexdump</code>, begins with the bytes <code>FFD8FFE0 00104A46 494600</code> or in ASCII <code>ˇÿˇ‡  JFIF</code> where <code>\x00</code> and <code>\x10</code> lack symbols. </p>
+<p><a class="glightbox" href="../images/xxd.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Example A" src="../images/xxd.gif" /></a></p>
+<p>Searching in <a href="http://www.garykessler.net/library/file_sigs.html">Gary Kessler’s</a> database shows that this file signature belongs to a <code>JPEG/JFIF graphics file</code>. You can also use the file utility in Linux to determine the file type!</p>
+<div class="highlight"><pre><span></span><code>▲<span class="w"> </span>~/examples<span class="w"> </span>file<span class="w"> </span>file-a.jpg
+file-a.jpg:<span class="w"> </span>JPEG<span class="w"> </span>image<span class="w"> </span>data,<span class="w"> </span>JFIF<span class="w"> </span>standard<span class="w"> </span><span class="m">1</span>.01,<span class="w"> </span>resolution<span class="w"> </span><span class="o">(</span>DPI<span class="o">)</span>,<span class="w"> </span>density<span class="w"> </span>96x96,<span class="w"> </span>segment<span class="w"> </span>length<span class="w"> </span><span class="m">16</span>,<span class="w"> </span>comment:<span class="w"> </span><span class="s2">&quot;CREATOR: gd-jpeg v1.0 (using IJG JPEG v80), quality = 90&quot;</span>,<span class="w"> </span>baseline,<span class="w"> </span>precision<span class="w"> </span><span class="m">8</span>,<span class="w"> </span>1024x576,<span class="w"> </span>components<span class="w"> </span><span class="m">3</span>
+</code></pre></div>
+</div>
 
 
 
@@ -3425,7 +3443,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">January 26, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">June 10, 2024</span>
   </span>
 
     
@@ -3506,11 +3524,13 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "content.code.annotate", "content.code.copy"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.c18c5fb9.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

@@ -13,7 +13,7 @@
       
       
       
-        <link rel="prev" href="../what-is-wireshark/">
+        <link rel="prev" href="../what-is-packet-capture/">
       
       
         <link rel="next" href="../what-is-disk-imaging/">
@@ -59,7 +59,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -590,7 +599,7 @@
             
   
   <span class="md-ellipsis">
-    Wireshark
+    Network Analysis
   </span>
   
 
@@ -600,7 +609,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_4">
             <span class="md-nav__icon md-icon"></span>
-            Wireshark
+            Network Analysis
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -616,6 +625,27 @@
   
   <span class="md-ellipsis">
     What is Wireshark
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../what-is-packet-capture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    What is Packet Capture
   </span>
   
 
@@ -3412,12 +3442,12 @@
 <h1 id="steganography">Steganography</h1>
 <p>Steganography is the practice of hiding data in plain sight. Steganography is often embedded in images or audio.</p>
 <p>You could send a picture of a cat to a friend and hide text inside. Looking at the image, there’s nothing to make anyone think there’s a message hidden inside it.</p>
-<p><img alt="Steg with text" src="../images/steg-cat-text.png" /></p>
+<p><a class="glightbox" href="../images/steg-cat-text.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Steg with text" src="../images/steg-cat-text.png" /></a></p>
 <p>You could also hide a second image inside the first.</p>
-<p><img alt="Steg with an Image" src="../images/steg-cat-image.png" /></p>
+<p><a class="glightbox" href="../images/steg-cat-image.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Steg with an Image" src="../images/steg-cat-image.png" /></a></p>
 <h2 id="steganography-detection">Steganography Detection</h2>
 <p>So we can hide text and an image, how do we find out if there is hidden data?</p>
-<p><img alt="Group of images" src="../images/steg-a-b-c-d.png" /></p>
+<p><a class="glightbox" href="../images/steg-a-b-c-d.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Group of images" src="../images/steg-a-b-c-d.png" /></a></p>
 <p>FileA and FileD appear the same, but they’re different. Also, FileD was modified after it was copied, so it’s possible there might be steganography in it.</p>
 <p>FileB and FileC don’t appear to have been modified after being created. That doesn’t rule out the possibility that there’s steganography in them, but you’re more likely to find it in fileD. This brings up two questions:</p>
 <ol>
@@ -3426,9 +3456,9 @@
 </ol>
 <h2 id="lsb-steganography">LSB Steganography</h2>
 <p>File are made of bytes. Each byte is composed of eight bits.</p>
-<p><img alt="Steganography Process Step 1" src="../images/steg-step-1.png" /></p>
+<p><a class="glightbox" href="../images/steg-step-1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Steganography Process Step 1" src="../images/steg-step-1.png" /></a></p>
 <p>Changing the least-significant bit (LSB) doesn’t change the value very much.</p>
-<p><img alt="Steganography Process Step 2" src="../images/steg-step-2.png" /></p>
+<p><a class="glightbox" href="../images/steg-step-2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Steganography Process Step 2" src="../images/steg-step-2.png" /></a></p>
 <p>So we can modify the LSB without changing the file noticeably. By doing so, we can hide a message inside.</p>
 <h3 id="lsb-steganography-in-images">LSB Steganography in Images</h3>
 <p>LSB Steganography or <em>Least Significant Bit</em> Steganography is a method of Steganography where data is recorded in the lowest bit of a byte.</p>
@@ -3487,29 +3517,29 @@
 </tbody>
 </table>
 <p>The reason steganography is hard to detect by sight is because a 1 bit difference in color is insignificant as seen below.</p>
-<p><img alt="1 Bit Difference" src="../images/lsb-color-difference.png" /></p>
+<p><a class="glightbox" href="../images/lsb-color-difference.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="1 Bit Difference" src="../images/lsb-color-difference.png" /></a></p>
 <h3 id="example">Example</h3>
 <p>Let’s say we have an image, and part of it contains the following binary:</p>
-<p><img alt="Steganography Process Step 3" src="../images/steg-step-3.png" /></p>
+<p><a class="glightbox" href="../images/steg-step-3.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Steganography Process Step 3" src="../images/steg-step-3.png" /></a></p>
 <p>And let’s say we want to hide the character y inside.</p>
 <p>First, we need to convert the hidden message to binary.</p>
-<p><img alt="Steganography Process Step 4" src="../images/steg-step-4.png" /></p>
+<p><a class="glightbox" href="../images/steg-step-4.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Steganography Process Step 4" src="../images/steg-step-4.png" /></a></p>
 <p>Now we take each bit from the hidden message and replace the LSB of the corresponding byte with it.</p>
-<p><img alt="Steganography Process Step 5" src="../images/steg-step-5.png" /></p>
+<p><a class="glightbox" href="../images/steg-step-5.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Steganography Process Step 5" src="../images/steg-step-5.png" /></a></p>
 <p>And again:</p>
-<p><img alt="Steganography Process Step 6" src="../images/steg-step-6.png" /></p>
+<p><a class="glightbox" href="../images/steg-step-6.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Steganography Process Step 6" src="../images/steg-step-6.png" /></a></p>
 <p>And again:</p>
-<p><img alt="Steganography Process Step 7" src="../images/steg-step-7.png" /></p>
+<p><a class="glightbox" href="../images/steg-step-7.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Steganography Process Step 7" src="../images/steg-step-7.png" /></a></p>
 <p>And again:</p>
-<p><img alt="Steganography Process Step 8" src="../images/steg-step-8.png" /></p>
+<p><a class="glightbox" href="../images/steg-step-8.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Steganography Process Step 8" src="../images/steg-step-8.png" /></a></p>
 <p>And again:</p>
-<p><img alt="Steganography Process Step 9" src="../images/steg-step-9.png" /></p>
+<p><a class="glightbox" href="../images/steg-step-9.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Steganography Process Step 9" src="../images/steg-step-9.png" /></a></p>
 <p>And again:</p>
-<p><img alt="Steganography Process Step 10" src="../images/steg-step-10.png" /></p>
+<p><a class="glightbox" href="../images/steg-step-10.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Steganography Process Step 10" src="../images/steg-step-10.png" /></a></p>
 <p>And again:</p>
-<p><img alt="Steganography Process Step 11" src="../images/steg-step-11.png" /></p>
+<p><a class="glightbox" href="../images/steg-step-11.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Steganography Process Step 11" src="../images/steg-step-11.png" /></a></p>
 <p>And once more:</p>
-<p><img alt="Steganography Process Step 12" src="../images/steg-step-12.png" /></p>
+<p><a class="glightbox" href="../images/steg-step-12.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Steganography Process Step 12" src="../images/steg-step-12.png" /></a></p>
 <p>Decoding LSB steganography is exactly the same as encoding, but in reverse. For each byte, grab the LSB and add it to your decoded message. Once you’ve gone through each byte, convert all the LSBs you grabbed into text or a file. (You can use your file signature knowledge here!)</p>
 <h2 id="what-other-types-of-steganography-are-there">What other types of steganography are there?</h2>
 <p>Steganography is hard for the defense side, because there’s practically an infinite number of ways it could be carried out. Here are a few examples:
@@ -3621,11 +3651,13 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "content.code.annotate", "content.code.copy"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.c18c5fb9.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

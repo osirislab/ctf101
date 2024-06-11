@@ -16,7 +16,7 @@
         <link rel="prev" href="../what-is-metadata/">
       
       
-        <link rel="next" href="../what-is-stegonagraphy/">
+        <link rel="next" href="../what-is-packet-capture/">
       
       
       <link rel="icon" href="../../images/favicon/favicon.ico">
@@ -59,7 +59,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -592,7 +601,7 @@
             
   
   <span class="md-ellipsis">
-    Wireshark
+    Network Analysis
   </span>
   
 
@@ -602,7 +611,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_4">
             <span class="md-nav__icon md-icon"></span>
-            Wireshark
+            Network Analysis
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -659,9 +668,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#interface" class="md-nav__link">
+  <a href="#overview" class="md-nav__link">
     <span class="md-ellipsis">
-      Interface
+      Overview
     </span>
   </a>
   
@@ -704,6 +713,27 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../what-is-packet-capture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    What is Packet Capture
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -3332,9 +3362,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#interface" class="md-nav__link">
+  <a href="#overview" class="md-nav__link">
     <span class="md-ellipsis">
-      Interface
+      Overview
     </span>
   </a>
   
@@ -3392,32 +3422,32 @@
 
 
 <h1 id="wireshark">Wireshark</h1>
-<div class="admonition note">
-<p class="admonition-title">Note from our infrastructure team</p>
-<p>"Wireshark saved me hours on my last tax return! - David"</p>
-<p>"[Wireshark] is great for ruining your weekend and fixing pesky networking problems!" - Max"</p>
-<p>"Wireshark is the powerhouse of the cell. - Joe"</p>
-<p>"Does this cable do anything? - Ayyaz"</p>
+<h2 id="overview">Overview</h2>
+<p><a href="http://www.wireshark.com">Wireshark</a> is a network protocol analyzer which is often used in CTF challenges to look at recorded network traffic. Wireshark uses a filetype called .pcap, or "packet capture", to record traffic. </p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p><code>.pcap</code>'s are often distributed in CTF challenges to provide recorded traffic history and are one of the most common forms of forensics challenge.</p>
 </div>
-<p><a href="http://www.wireshark.com">Wireshark</a> is a network protocol analyzer which is often used in CTF challenges to look at recorded network traffic. Wireshark uses a filetype called PCAP to record traffic. PCAPs are often distributed in CTF challenges to provide recorded traffic history.</p>
-<h2 id="interface">Interface</h2>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
 <p>Upon opening Wireshark, you are greeted with the option to open a PCAP or begin capturing network traffic on your device.</p>
-<p><img alt="Wirshark Start Screen" src="../images/ws-start-screen.png" /></p>
+<p><a class="glightbox" href="../images/ws-start-screen.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Wireshark Start Screen" src="../images/ws-start-screen.png" /></a></p>
 <p>The network traffic displayed initially shows the packets in order of which they were captured. You can filter packets by protocol, source IP address, destination IP address, length, etc. </p>
-<p><img alt="PCAP Screen" src="../images/ws-pcap-screen.png" /></p>
+<p><a class="glightbox" href="../images/ws-pcap-screen.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="PCAP Screen" src="../images/ws-pcap-screen.png" /></a></p>
 <p>In order to apply filters, simply enter the constraining factor, for example 'http', in the display filter bar. </p>
-<p><img alt="PCAP HTTP Filter" src="../images/ws-filter.png" /></p>
+<p><a class="glightbox" href="../images/ws-filter.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="PCAP HTTP Filter" src="../images/ws-filter.png" /></a></p>
 <p>Filters can be chained together using '&amp;&amp;' notation. In order to filter by IP, ensure a double equals '==' is used. </p>
-<p><img alt="PCAP HTTP IP Filter" src="../images/ws-filter-2.png" /></p>
+<p><a class="glightbox" href="../images/ws-filter-2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="PCAP HTTP IP Filter" src="../images/ws-filter-2.png" /></a></p>
 <p>The most pertinent part of a packet is its data payload and protocol information.</p>
-<p><img alt="HTTP TCP Info" src="../images/ws-tcp-http-info.png" /></p>
+<p><a class="glightbox" href="../images/ws-tcp-http-info.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="HTTP TCP Info" src="../images/ws-tcp-http-info.png" /></a></p>
+</div>
 <h2 id="decrypting-ssl-traffic">Decrypting SSL Traffic</h2>
-<p>By default, Wireshark cannot decrypt SSL traffic on your device unless you grant it specific certificates.</p>
+<p>By default, Wireshark cannot decrypt SSL traffic on your device unless you grant it specific certificates. </p>
 <h3 id="high-level-ssl-handshake-overview">High Level SSL Handshake Overview</h3>
 <p>In order for a network session to be encrypted properly, the client and server must share a common secret for which they can use to encrypt and decrypt data without someone in the middle being able to guess. The SSL Handshake loosely follows this format:</p>
 <ol>
-<li>The client sends a list of available cipher suites it can use along with a random set of bytes referred to as client_random</li>
-<li>The server sends back the cipher suite that will be used, such as TLS_DHE_RSA_WITH_AES_128_CBC_SHA, along with a random set of bytes referred to as server_random</li>
+<li>The client sends a list of available cipher suites it can use along with a random set of bytes referred to as <code>client_random</code></li>
+<li>The server sends back the cipher suite that will be used, such as <code>TLS_DHE_RSA_WITH_AES_128_CBC_SHA</code>, along with a random set of bytes referred to as <code>server_random</code></li>
 <li>The client generates a pre-master secret, encrypts it, then sends it to the server.</li>
 <li>The server and client then generate a common master secret using the selected cipher suite</li>
 <li>The client and server begin communicating using this common secret</li>
@@ -3427,9 +3457,9 @@
 <ul>
 <li>If you have the client and server random values <em>and</em> the pre-master secret, the master secret can be generated and used to decrypt the traffic</li>
 <li>If you have the master secret, traffic can be decrypted easily</li>
-<li>If the cipher-suite uses RSA, you can factor <em>n</em> in the key in order to break the encryption on the encrypted pre-master secret and generate the master secret with the client and server randoms </li>
+<li>If the cipher-suite uses <code>RSA</code> and is sufficiently vulnerable in complexity, you can factor <em>n</em> in the key in order to break the encryption on the encrypted pre-master secret and generate the master secret with the client and server randoms. </li>
 </ul>
-<p><img alt="Wireshark SSL Preferences" src="../images/ws-ssl-pref.png" /></p>
+<p><a class="glightbox" href="../images/ws-ssl-pref.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Wireshark SSL Preferences" src="../images/ws-ssl-pref.png" /></a></p>
 
 
 
@@ -3452,7 +3482,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">January 26, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">June 10, 2024</span>
   </span>
 
     
@@ -3533,11 +3563,13 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "content.code.annotate", "content.code.copy"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.c18c5fb9.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

@@ -57,7 +57,16 @@
     
     
     
-  </head>
+   <link href="assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -635,7 +644,7 @@
             
   
   <span class="md-ellipsis">
-    Wireshark
+    Network Analysis
   </span>
   
 
@@ -645,7 +654,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_4">
             <span class="md-nav__icon md-icon"></span>
-            Wireshark
+            Network Analysis
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -661,6 +670,27 @@
   
   <span class="md-ellipsis">
     What is Wireshark
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="forensics/what-is-packet-capture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    What is Packet Capture
   </span>
   
 
@@ -3338,31 +3368,31 @@
   <div class="row">
     <div class="col-md-2">
         <a href="/forensics/overview/">
-            <img class="no-zoom" width="100px" src="/images/forensics.png">
+            <a class="glightbox" href="/images/forensics.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img class="no-zoom" width="100px" src="/images/forensics.png"></a>
             <h3>Forensics</h3>
         </a>
     </div>
     <div class="col-md-2">
         <a href="/cryptography/overview/">
-            <img class="no-zoom" width="100px" src="/images/cryptography.png">
+            <a class="glightbox" href="/images/cryptography.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img class="no-zoom" width="100px" src="/images/cryptography.png"></a>
             <h3>Cryptography</h3>
         </a>
     </div>
     <div class="col-md-2">
         <a href="/web-exploitation/overview/">
-            <img class="no-zoom" width="100px" src="/images/web.png">
+            <a class="glightbox" href="/images/web.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img class="no-zoom" width="100px" src="/images/web.png"></a>
             <h3>Web Exploitation</h3>
         </a>
     </div>
     <div class="col-md-2">
         <a href="/reverse-engineering/overview/">
-            <img class="no-zoom" width="100px" src="/images/reversing.png">
+            <a class="glightbox" href="/images/reversing.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img class="no-zoom" width="100px" src="/images/reversing.png"></a>
             <h3>Reverse Engineering</h3>
         </a>
     </div>
     <div class="col-md-2">
         <a href="/binary-exploitation/overview/">
-            <img class="no-zoom" width="100px" src="/images/exploitation.png">
+            <a class="glightbox" href="/images/exploitation.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img class="no-zoom" width="100px" src="/images/exploitation.png"></a>
             <h3>Binary Exploitation</h3>
         </a>
     </div>
@@ -3471,11 +3501,13 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.instant", "content.code.annotate"], "search": "assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.instant", "content.code.annotate", "content.code.copy"], "search": "assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="assets/javascripts/bundle.c18c5fb9.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

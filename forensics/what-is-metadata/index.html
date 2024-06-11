@@ -59,7 +59,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -593,15 +602,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-kind-of-file-metadata-is-useful" class="md-nav__link">
-    <span class="md-ellipsis">
-      What kind of file metadata is useful?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#how-do-i-find-it" class="md-nav__link">
     <span class="md-ellipsis">
       How do I find it?
@@ -611,9 +611,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#example" class="md-nav__link">
+  <a href="#lets-take-a-look-at-a-files-metadata-with-exiftool" class="md-nav__link">
     <span class="md-ellipsis">
-      Example
+      Let's take a look at a file's metadata with exiftool:
     </span>
   </a>
   
@@ -651,15 +651,6 @@
   <a href="#timeline-patterns" class="md-nav__link">
     <span class="md-ellipsis">
       Timeline Patterns
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      Examples
     </span>
   </a>
   
@@ -710,7 +701,7 @@
             
   
   <span class="md-ellipsis">
-    Wireshark
+    Network Analysis
   </span>
   
 
@@ -720,7 +711,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_4">
             <span class="md-nav__icon md-icon"></span>
-            Wireshark
+            Network Analysis
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -736,6 +727,27 @@
   
   <span class="md-ellipsis">
     What is Wireshark
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../what-is-packet-capture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    What is Packet Capture
   </span>
   
 
@@ -3368,15 +3380,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-kind-of-file-metadata-is-useful" class="md-nav__link">
-    <span class="md-ellipsis">
-      What kind of file metadata is useful?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#how-do-i-find-it" class="md-nav__link">
     <span class="md-ellipsis">
       How do I find it?
@@ -3386,9 +3389,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#example" class="md-nav__link">
+  <a href="#lets-take-a-look-at-a-files-metadata-with-exiftool" class="md-nav__link">
     <span class="md-ellipsis">
-      Example
+      Let's take a look at a file's metadata with exiftool:
     </span>
   </a>
   
@@ -3431,15 +3434,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      Examples
-    </span>
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -3464,32 +3458,39 @@
 
 
 <h1 id="metadata">Metadata</h1>
-<p>Metadata is data about data. Different types of files have different metadata. The metadata on a photo could include dates, camera information, GPS location, comments, etc. For music, it could include the title, author, track number and album.</p>
-<h2 id="what-kind-of-file-metadata-is-useful">What kind of file metadata is useful?</h2>
-<p>Potentially, any file metadata you can find could be useful.</p>
-<h2 id="how-do-i-find-it">How do I find it?</h2>
+<p>Metadata is data about data. Different types of files have different metadata. The metadata on a photo could include dates, camera information, GPS location, comments, etc. For music, it could include the title, author, track number and album. CTF challenges often have you looking for specific clues in the metadata of a file (especially media files). </p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>EXIF Data is metadata attached to photos which can include location, time, and device information.</p>
 </div>
-<p>One of our favorite tools is exiftool, which displays metadata for an input file, including:
+<h2 id="how-do-i-find-it">How do I find it?</h2>
+<p>One of our favorite tools is <a href="https://exiftool.org/"><code>exiftool</code></a>, which displays metadata for an input file:
 - File size
 - Dimensions (width and height)
 - File type
 - Programs used to create (e.g. Photoshop)
 - OS used to create (e.g. Apple)</p>
-<p>Run command line: <code>exiftool(-k).exe [filename]</code> and you should see something like this:</p>
-<p><img alt="Exiftool" src="../images/exiftool.png" /></p>
-<h2 id="example">Example</h2>
-<p>Let's take a look at File A's metadata with exiftool: </p>
+<p><a class="glightbox" href="../images/exiftool.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Exiftool" src="../images/exiftool.gif" /></a></p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<h2 id="lets-take-a-look-at-a-files-metadata-with-exiftool">Let's take a look at a file's metadata with exiftool:</h2>
+<blockquote>
 <p>File type</p>
-<p><img alt="Metadata 1" src="../images/file-a-metadata-1.png" /></p>
+</blockquote>
+<p><a class="glightbox" href="../images/file-a-metadata-1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Metadata 1" src="../images/file-a-metadata-1.png" /></a></p>
+<blockquote>
 <p>Image description</p>
-<p><img alt="Metadata 2" src="../images/file-a-metadata-2.png" /></p>
-<p>Make and camera info</p>
-<p><img alt="Metadata 3" src="../images/file-a-metadata-3.png" /></p>
+</blockquote>
+<p><a class="glightbox" href="../images/file-a-metadata-2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Metadata 2" src="../images/file-a-metadata-2.png" /></a></p>
+<blockquote>
+<p>Camera make and model:</p>
+</blockquote>
+<p><a class="glightbox" href="../images/file-a-metadata-3.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Metadata 3" src="../images/file-a-metadata-3.png" /></a></p>
+<blockquote>
 <p>GPS Latitude/Longitude</p>
-<p><img alt="Metadata 4" src="../images/file-a-metadata-4.png" /></p>
+</blockquote>
+<p><a class="glightbox" href="../images/file-a-metadata-4.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Metadata 4" src="../images/file-a-metadata-4.png" /></a></p>
+</div>
 <h2 id="timestamps">Timestamps</h2>
 <p>Timestamps are data that indicate the time of certain events (MAC):
 - Modification – when a file was modified
@@ -3513,37 +3514,42 @@
 <p>Certain events such as creating, moving, copying, opening, editing, etc. might affect the MAC times. If the MAC timestamps can be attained, a timeline of events could be created.</p>
 <h3 id="timeline-patterns">Timeline Patterns</h3>
 <p>There are plenty more patterns than the ones introduced below, but these are the basics you should start with to get a good understanding of how it works, and to complete this challenge.</p>
-<p><img alt="Timeline 1" src="../images/timeline-1.png" />
-<img alt="Timeline 2" src="../images/timeline-2.png" />
-<img alt="Timeline 3" src="../images/timeline-3.png" />
-<img alt="Timeline 4" src="../images/timeline-4.png" />
-<img alt="Timeline 5" src="../images/timeline-5.png" /></p>
-<h3 id="examples">Examples</h3>
+<p><a class="glightbox" href="../images/timeline-1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Timeline 1" src="../images/timeline-1.png" /></a>
+<a class="glightbox" href="../images/timeline-2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Timeline 2" src="../images/timeline-2.png" /></a>
+<a class="glightbox" href="../images/timeline-3.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Timeline 3" src="../images/timeline-3.png" /></a>
+<a class="glightbox" href="../images/timeline-4.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Timeline 4" src="../images/timeline-4.png" /></a>
+<a class="glightbox" href="../images/timeline-5.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Timeline 5" src="../images/timeline-5.png" /></a></p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
 <p>We know that the BMP files fileA and fileD are the same, but that the JPEG files fileB and fileC are different somehow. So how can we find out what went on with these files?</p>
-<p><img alt="Files A, B, C, D" src="../images/file-a-b-c-d.png" /></p>
+<p><a class="glightbox" href="../images/file-a-b-c-d.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Files A, B, C, D" src="../images/file-a-b-c-d.png" /></a></p>
 <p>By using time stamp information from the file system, we can learn that the BMP fileD was the original file, with fileA being a copy of the original. Afterward, fileB was created by modifying fileB, and fileC was created by modifying fileA in a different way.</p>
 <p>Follow along as we demonstrate.</p>
 <p>We’ll start by analyzing images in AccessData FTK Imager, where there’s a Properties window that shows you some information about the file or folder you’ve selected.</p>
-<p><img alt="Timestamp 1" src="../images/timestamp-1.png" />
-<img alt="Timestamp 2" src="../images/timestamp-2.png" />
-<img alt="Timestamp 3" src="../images/timestamp-3.png" />
-<img alt="Timestamp 4" src="../images/timestamp-4.png" /></p>
-<p>Here are the extracted MAC times for fileA, fileB, fileC and fileD:
-<em>Note, AccessData FTK Imager assumes that the file times on the drive are in UTC (Universal Coordinated Time). I subtracted four hours, since the USB was set up in Eastern Standard Time. This isn’t necessary, but it helps me understand the times a bit better.</em></p>
-<p><img alt="Timestamp 5" src="../images/timestamp-5.png" /></p>
+<p><a class="glightbox" href="../images/timestamp-1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Timestamp 1" src="../images/timestamp-1.png" /></a>
+<a class="glightbox" href="../images/timestamp-2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Timestamp 2" src="../images/timestamp-2.png" /></a>
+<a class="glightbox" href="../images/timestamp-3.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Timestamp 3" src="../images/timestamp-3.png" /></a>
+<a class="glightbox" href="../images/timestamp-4.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Timestamp 4" src="../images/timestamp-4.png" /></a></p>
+<p>Here are the extracted MAC times for fileA, fileB, fileC and fileD:</p>
+<p><a class="glightbox" href="../images/timestamp-5.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Timestamp 5" src="../images/timestamp-5.png" /></a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>AccessData FTK Imager assumes that the file times on the drive are in UTC (Universal Coordinated Time). I subtracted four hours, since the USB was set up in Eastern Standard Time. This isn’t necessary, but it helps me understand the times a bit better.*</p>
+</div>
 <p>Highlight timestamps that are the same, if timestamps are off by a few seconds, they should be counted as the same. This lets you see a clear difference between different timestamps. Then, highlight oldest to newest to help put them in order.</p>
-<p><img alt="Timestamp 6" src="../images/timestamp-6.png" />
-<img alt="Timestamp 7" src="../images/timestamp-7.png" />
-<img alt="Timestamp 8" src="../images/timestamp-8.png" />
-<img alt="Timestamp 9" src="../images/timestamp-9.png" />
-<img alt="Timestamp 10" src="../images/timestamp-10.png" />
-<img alt="Timestamp 11" src="../images/timestamp-11.png" />
-<img alt="Timestamp 12" src="../images/timestamp-12.png" />
-<img alt="Timestamp 13" src="../images/timestamp-13.png" />
-<img alt="Timestamp 14" src="../images/timestamp-14.png" />
-<img alt="Timestamp 15" src="../images/timestamp-15.png" /></p>
+<p><a class="glightbox" href="../images/timestamp-6.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Timestamp 6" src="../images/timestamp-6.png" /></a>
+<a class="glightbox" href="../images/timestamp-7.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Timestamp 7" src="../images/timestamp-7.png" /></a>
+<a class="glightbox" href="../images/timestamp-8.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Timestamp 8" src="../images/timestamp-8.png" /></a>
+<a class="glightbox" href="../images/timestamp-9.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Timestamp 9" src="../images/timestamp-9.png" /></a>
+<a class="glightbox" href="../images/timestamp-10.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Timestamp 10" src="../images/timestamp-10.png" /></a>
+<a class="glightbox" href="../images/timestamp-11.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Timestamp 11" src="../images/timestamp-11.png" /></a>
+<a class="glightbox" href="../images/timestamp-12.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Timestamp 12" src="../images/timestamp-12.png" /></a>
+<a class="glightbox" href="../images/timestamp-13.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Timestamp 13" src="../images/timestamp-13.png" /></a>
+<a class="glightbox" href="../images/timestamp-14.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Timestamp 14" src="../images/timestamp-14.png" /></a>
+<a class="glightbox" href="../images/timestamp-15.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Timestamp 15" src="../images/timestamp-15.png" /></a></p>
 <p>Identify timestamp patterns.</p>
-<p><img alt="Timestamp 16" src="../images/timestamp-16.png" /></p>
+<p><a class="glightbox" href="../images/timestamp-16.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Timestamp 16" src="../images/timestamp-16.png" /></a></p>
+</div>
 
 
 
@@ -3566,7 +3572,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">January 26, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">June 10, 2024</span>
   </span>
 
     
@@ -3647,11 +3653,13 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "content.code.annotate", "content.code.copy"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.c18c5fb9.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

@@ -59,7 +59,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -588,7 +597,7 @@
             
   
   <span class="md-ellipsis">
-    Wireshark
+    Network Analysis
   </span>
   
 
@@ -598,7 +607,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_4">
             <span class="md-nav__icon md-icon"></span>
-            Wireshark
+            Network Analysis
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -614,6 +623,27 @@
   
   <span class="md-ellipsis">
     What is Wireshark
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../forensics/what-is-packet-capture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    What is Packet Capture
   </span>
   
 
@@ -3613,8 +3643,8 @@
 </div>
 <h3 id="electronic-codebook-ecb">Electronic Codebook (ECB)</h3>
 <p>ECB is the most basic block cipher, it simply chunks up plaintext into blocks and independently encrypts those blocks and chains them all into a ciphertext.</p>
-<p><img alt="ECB Encryption" src="../images/ecb-encryption.png" />
-<img alt="ECB Decryption" src="../images/ecb-decryption.png" /></p>
+<p><a class="glightbox" href="../images/ecb-encryption.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="ECB Encryption" src="../images/ecb-encryption.png" /></a>
+<a class="glightbox" href="../images/ecb-decryption.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="ECB Decryption" src="../images/ecb-decryption.png" /></a></p>
 <h4 id="flaws">Flaws</h4>
 <p>Because ECB independently encrypts the blocks, patterns in data can still be seen clearly, as shown in the CBC Penguin image below.</p>
 <table>
@@ -3627,32 +3657,32 @@
 </thead>
 <tbody>
 <tr>
-<td><img alt="Tux" src="../images/tux.jpg" /></td>
-<td><img alt="ECB Tux" src="../images/tux-ecb.jpg" /></td>
-<td><img alt="Other Tux" src="../images/tux-secure.jpg" /></td>
+<td><a class="glightbox" href="../images/tux.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Tux" src="../images/tux.jpg" /></a></td>
+<td><a class="glightbox" href="../images/tux-ecb.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="ECB Tux" src="../images/tux-ecb.jpg" /></a></td>
+<td><a class="glightbox" href="../images/tux-secure.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Other Tux" src="../images/tux-secure.jpg" /></a></td>
 </tr>
 </tbody>
 </table>
 <h3 id="cipher-block-chaining-cbc">Cipher Block Chaining (CBC)</h3>
 <p>CBC is an improvement upon ECB where an Initialization Vector is used in order to add randomness. The encrypted previous block is used as the IV for each sequential block meaning that the encryption process cannot be parallelized. CBC has been declining in popularity due to a variety of</p>
-<p><img alt="CBC Encryption" src="../images/cbc-encryption.png" />
-<img alt="CBC Decryption" src="../images/cbc-decryption.png" /></p>
+<p><a class="glightbox" href="../images/cbc-encryption.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="CBC Encryption" src="../images/cbc-encryption.png" /></a>
+<a class="glightbox" href="../images/cbc-decryption.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="CBC Decryption" src="../images/cbc-decryption.png" /></a></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Even though the encryption process cannot be parallelized, the decryption process can be parallelized. If the wrong IV is used for decryption it will only affect the first block as the decryption of all other blocks depends on the <em>ciphertext</em> not the plaintext.</p>
 </div>
 <h3 id="propogating-cipher-block-chaining-pcbc">Propogating Cipher Block Chaining (PCBC)</h3>
 <p>PCBC is a less used cipher which modifies CBC so that decryption is also not parallelizable. It also cannot be decrypted from any point as changes made during the decryption and encryption process "propogate" throughout the blocks, meaning that both the plaintext and ciphertext are used when encrypting or decrypting as seen in the images below.</p>
-<p><img alt="PCBC Encryption" src="../images/pcbc-encryption.png" />
-<img alt="PCBC Decryption" src="../images/pcbc-decryption.png" /></p>
+<p><a class="glightbox" href="../images/pcbc-encryption.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="PCBC Encryption" src="../images/pcbc-encryption.png" /></a>
+<a class="glightbox" href="../images/pcbc-decryption.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="PCBC Decryption" src="../images/pcbc-decryption.png" /></a></p>
 <h3 id="counter-ctr">Counter (CTR)</h3>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Counter is also known as CM, integer counter mode (ICM), and segmented integer counter (SIC)</p>
 </div>
 <p>CTR mode makes the block cipher similar to a stream cipher and it functions by adding a counter with each block in combination with a nonce and key to XOR the plaintext to produce the ciphertext. Similarly, the decryption process is the exact same except instead of XORing the plaintext, the ciphertext is XORed. This means that the process is parallelizable for both encryption and decryption <em>and</em> you can begin from anywhere as the counter for any block can be deduced easily.</p>
-<p><img alt="CTR Encryption" src="../images/ctr-encryption.png" />
-<img alt="CTR Decryption" src="../images/ctr-decryption.png" /></p>
+<p><a class="glightbox" href="../images/ctr-encryption.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="CTR Encryption" src="../images/ctr-encryption.png" /></a>
+<a class="glightbox" href="../images/ctr-decryption.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="CTR Decryption" src="../images/ctr-decryption.png" /></a></p>
 <h4 id="security-considerations">Security Considerations</h4>
 <p>If the nonce chosen is non-random, it is important to concatonate the nonce with the counter (high 64 bits to the nonce, low 64 bits to the counter) as adding or XORing the nonce with the counter would break security as an attacker can cause a collisions with the nonce and counter. An attacker with access to providing a plaintext, nonce and counter can then decrypt a block by using the ciphertext as seen in the decryption image.</p>
 <h2 id="padding-oracle-attack">Padding Oracle Attack</h2>
@@ -3773,11 +3803,13 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "content.code.annotate", "content.code.copy"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.c18c5fb9.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

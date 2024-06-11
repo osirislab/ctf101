@@ -59,7 +59,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -590,7 +599,7 @@
             
   
   <span class="md-ellipsis">
-    Wireshark
+    Network Analysis
   </span>
   
 
@@ -600,7 +609,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_4">
             <span class="md-nav__icon md-icon"></span>
-            Wireshark
+            Network Analysis
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -616,6 +625,27 @@
   
   <span class="md-ellipsis">
     What is Wireshark
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../what-is-packet-capture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    What is Packet Capture
   </span>
   
 
@@ -791,9 +821,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#forensic-image-extraction-exmple" class="md-nav__link">
+  <a href="#checksum" class="md-nav__link">
     <span class="md-ellipsis">
-      Forensic Image Extraction Exmple
+      Checksum
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#write-blocker" class="md-nav__link">
+    <span class="md-ellipsis">
+      Write Blocker
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-image-a-disk" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why image a disk?
     </span>
   </a>
   
@@ -3299,9 +3347,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#forensic-image-extraction-exmple" class="md-nav__link">
+  <a href="#checksum" class="md-nav__link">
     <span class="md-ellipsis">
-      Forensic Image Extraction Exmple
+      Checksum
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#write-blocker" class="md-nav__link">
+    <span class="md-ellipsis">
+      Write Blocker
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-image-a-disk" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why image a disk?
     </span>
   </a>
   
@@ -3327,39 +3393,53 @@
 
 <h1 id="disk-imaging">Disk Imaging</h1>
 <p>A forensic image is an electronic copy of a drive (e.g. a hard drive, USB, etc.). It’s a bit-by-­bit or bitstream file that’s an exact, unaltered copy of the media being duplicated.</p>
-<p>Wikipedia said that the most straight­forward disk imaging method is to read a disk from start to finish and write the data to a forensics image format. “This can be a time-consuming process, especially for disks with a large capacity,” Wikipedia said.</p>
-<p>To prevent write access to the disk, you can use a write blocker. It’s also common to calculate a cryptographic hash of the entire disk when imaging it. “Commonly-used cryptographic hashes are MD5, SHA1 and/or SHA256,” said Wikipedia. “By recalculating the integrity hash at a later time, one can determine if the data in the disk image has been changed. This by itself provides no protection against intentional tampering, but it can indicate that the data was altered, e.g. due to corruption.”</p>
-<p>Why image a disk? Forensic imaging:
-- Prevents tampering with the original data­ evidence
-- Allows you to play around with the copy, without worrying about messing up the original</p>
-<h2 id="forensic-image-extraction-exmple">Forensic Image Extraction Exmple</h2>
+<p>Wikipedia said that the most straight­forward disk imaging method is to read a disk from start to finish and write the data to a forensics image format. “This can be a time-consuming process, especially for disks with a large capacity."</p>
+<h2 id="checksum">Checksum</h2>
+<p>Validating files is one of the most important aspects of disk forensics. This hash will change if any part of file is changed, making it great for catching alterations to the original source. </p>
+<div class="admonition info">
+<p class="admonition-title">Validating Downloads</p>
+<p>Checking the hash of a download is also good practice when using third-party vendors for common software. It catches tampered files that could potentially contain malware.
+<a class="glightbox" href="../images/sha.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Dell MD5" src="../images/sha.png" /></a></p>
+</div>
+<p>We can use tools like <code>md5sum</code> or <code>sha256sum</code> from the command line to generate the hashes of a file. <em>Observe the different hash when the file is altered.</em>
+<a class="glightbox" href="../images/hash.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Hash" src="../images/hash.gif" /></a></p>
+<h2 id="write-blocker">Write Blocker</h2>
+<p>It's common practice to use a write blocker before imagining a disk. This prevents unintended writes to the disk to maintain integrity. </p>
+<p><a href="https://www.kali.org/docs/general-use/kali-linux-forensics-mode/">Kali Linux</a> has a "forensics" mode that features a write blocker and is designed for all sorts of forensics in mind. </p>
+<h2 id="why-image-a-disk">Why image a disk?</h2>
+<ul>
+<li>Prevents tampering with the original data­ evidence</li>
+<li>Allows you to play around with the copy, without worrying about messing up the original</li>
+</ul>
+<div class="admonition example">
+<p class="admonition-title">Forensic Image Extraction</p>
 <p>This example uses the tool <a href="http://accessdata.com/product-download">AccessData FTK Imager</a>.</p>
 <p><strong>Step 1</strong>: Go to <code>File &gt; Create Disk Image</code></p>
-<p><img alt="File Image Demo" src="../images/image-demo-1.png" /></p>
+<p><a class="glightbox" href="../images/image-demo-1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="File Image Demo" src="../images/image-demo-1.png" /></a></p>
 <p><strong>Step 2</strong>: Select <code>Physical Drive</code>, because the USB or hard drive you’re imaging is a physical device or drive.</p>
-<p><img alt="File Image Demo" src="../images/image-demo-2.png" /></p>
+<p><a class="glightbox" href="../images/image-demo-2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="File Image Demo" src="../images/image-demo-2.png" /></a></p>
 <p><strong>Step 3</strong>: Select the drive you’re imaging. The 1000 GB is my computer hard drive; the 128 MB is the USB that I want to image.</p>
-<p><img alt="File Image Demo" src="../images/image-demo-3.png" /></p>
+<p><a class="glightbox" href="../images/image-demo-3.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="File Image Demo" src="../images/image-demo-3.png" /></a></p>
 <p><strong>Step 4</strong>: Add a new image destination</p>
-<p><img alt="File Image Demo" src="../images/image-demo-4.png" /></p>
+<p><a class="glightbox" href="../images/image-demo-4.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="File Image Demo" src="../images/image-demo-4.png" /></a></p>
 <p><strong>Step 5</strong>: Select whichever image type you want. Choose <code>Raw (dd)</code> if you’re a beginner, since it’s the most common type</p>
-<p><img alt="File Image Demo" src="../images/image-demo-5.png" /></p>
+<p><a class="glightbox" href="../images/image-demo-5.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="File Image Demo" src="../images/image-demo-5.png" /></a></p>
 <p><strong>Step 6</strong>: Fill in all the evidence information</p>
-<p><img alt="File Image Demo" src="../images/image-demo-6.png" /></p>
+<p><a class="glightbox" href="../images/image-demo-6.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="File Image Demo" src="../images/image-demo-6.png" /></a></p>
 <p><strong>Step 7</strong>: Choose where you want to store it</p>
-<p><img alt="File Image Demo" src="../images/image-demo-7.png" /></p>
+<p><a class="glightbox" href="../images/image-demo-7.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="File Image Demo" src="../images/image-demo-7.png" /></a></p>
 <p><strong>Step 8</strong>: The image destination has been added. Now you can start the image extraction</p>
-<p><img alt="File Image Demo" src="../images/image-demo-8.png" /></p>
+<p><a class="glightbox" href="../images/image-demo-8.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="File Image Demo" src="../images/image-demo-8.png" /></a></p>
 <p><strong>Step 9</strong>: Wait for the image to be extracted</p>
-<p><img alt="File Image Demo" src="../images/image-demo-9.png" /></p>
+<p><a class="glightbox" href="../images/image-demo-9.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="File Image Demo" src="../images/image-demo-9.png" /></a></p>
 <p><strong>Step 10</strong>: This is the completed extraction</p>
-<p><img alt="File Image Demo" src="../images/image-demo-10.png" /></p>
+<p><a class="glightbox" href="../images/image-demo-10.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="File Image Demo" src="../images/image-demo-10.png" /></a></p>
 <p><strong>Step 11</strong>: Add the image you just created so that you can view it</p>
-<p><img alt="File Image Demo" src="../images/image-demo-11.png" /></p>
+<p><a class="glightbox" href="../images/image-demo-11.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="File Image Demo" src="../images/image-demo-11.png" /></a></p>
 <p><strong>Step 12</strong>: This time, choose image file, since that’s what you just created</p>
-<p><img alt="File Image Demo" src="../images/image-demo-12.png" /></p>
+<p><a class="glightbox" href="../images/image-demo-12.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="File Image Demo" src="../images/image-demo-12.png" /></a></p>
 <p><strong>Step 13</strong>: Enter the path of the image you just created</p>
-<p><img alt="File Image Demo" src="../images/image-demo-13.png" /></p>
+<p><a class="glightbox" href="../images/image-demo-13.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="File Image Demo" src="../images/image-demo-13.png" /></a></p>
 <p><strong>Step 14</strong>: View the image.</p>
 <ol>
 <li>Evidence tree
@@ -3371,13 +3451,14 @@ Properties of the file/folder being examined</li>
 <li>Hex viewer
 View of the drive/folders/files in hexadecimal</li>
 </ol>
-<p><img alt="File Image Demo" src="../images/image-demo-14.png" /></p>
+<p><a class="glightbox" href="../images/image-demo-14.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="File Image Demo" src="../images/image-demo-14.png" /></a></p>
 <p><strong>Step 15</strong>: To view files in the USB, go to <code>Partition 1 &gt; [USB name] &gt; [root]</code> in the Evidence Tree and look in the File List</p>
-<p><img alt="File Image Demo" src="../images/image-demo-15.png" /></p>
+<p><a class="glightbox" href="../images/image-demo-15.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="File Image Demo" src="../images/image-demo-15.png" /></a></p>
 <p><strong>Step 16</strong>: Selecting fileA, fileB, fileC, or fileD gives us some properties of the files &amp; a preview of each photo</p>
-<p><img alt="File Image Demo" src="../images/image-demo-16.png" /></p>
+<p><a class="glightbox" href="../images/image-demo-16.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="File Image Demo" src="../images/image-demo-16.png" /></a></p>
 <p><strong>Step 17</strong>: Extract files of interest for further analysis by selecting, right-clicking and choosing <code>Export Files</code></p>
-<p><img alt="File Image Demo" src="../images/image-demo-17.png" /></p>
+<p><a class="glightbox" href="../images/image-demo-17.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="File Image Demo" src="../images/image-demo-17.png" /></a></p>
+</div>
 
 
 
@@ -3400,7 +3481,7 @@ View of the drive/folders/files in hexadecimal</li>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">January 26, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">June 10, 2024</span>
   </span>
 
     
@@ -3481,11 +3562,13 @@ View of the drive/folders/files in hexadecimal</li>
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "content.code.annotate", "content.code.copy"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.c18c5fb9.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

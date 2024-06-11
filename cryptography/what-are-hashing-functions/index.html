@@ -59,7 +59,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -588,7 +597,7 @@
             
   
   <span class="md-ellipsis">
-    Wireshark
+    Network Analysis
   </span>
   
 
@@ -598,7 +607,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_4">
             <span class="md-nav__icon md-icon"></span>
-            Wireshark
+            Network Analysis
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -614,6 +623,27 @@
   
   <span class="md-ellipsis">
     What is Wireshark
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../forensics/what-is-packet-capture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    What is Packet Capture
   </span>
   
 
@@ -3389,14 +3419,14 @@ Here, “password” is hashed with different hashing algorithms:</p>
 <h2 id="hash-collisions">Hash Collisions</h2>
 <p>A collision is when two pieces of data or text have the same cryptographic hash. This is very rare.</p>
 <p>What’s significant about collisions is that they can be used to crack password hashes. Passwords are usually stored as hashes on a computer, since it’s hard to get the passwords from hashes.</p>
-<p><img alt="Password to Hash" src="../images/hashing-collision-1.png" /></p>
+<p><a class="glightbox" href="../images/hashing-collision-1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Password to Hash" src="../images/hashing-collision-1.png" /></a></p>
 <p>If you bruteforce by trying every possible piece of text or data, eventually you’ll find something with the same hash. Enter it, and the computer accepts it as if you entered the actual password.</p>
 <p>Two different files on the same hard drive with the same cryptographic hash can be very interesting.</p>
 <p>“It’s now well-known that the cryptographic hash function MD5 has been broken,” <a href="http://www.mscs.dal.ca/~selinger/md5collision/">said Peter Selinger of Dalhousie University</a>. “In March 2005, Xiaoyun Wang and Hongbo Yu of Shandong University in China published an article in which they described an algorithm that can find two different sequences of 128 bytes with the same MD5 hash.”</p>
 <p>For example, he cited this famous pair:</p>
-<p><img alt="Password to Hash" src="../images/hashing-collision-2.png" /></p>
+<p><a class="glightbox" href="../images/hashing-collision-2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Password to Hash" src="../images/hashing-collision-2.png" /></a></p>
 <p>and</p>
-<p><img alt="Password to Hash" src="../images/hashing-collision-3.png" /></p>
+<p><a class="glightbox" href="../images/hashing-collision-3.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Password to Hash" src="../images/hashing-collision-3.png" /></a></p>
 <p>Each of these blocks has MD5 hash 79054025255fb1a26e4bc422aef54eb4.</p>
 <p>Selinger said that “the algorithm of Wang and Yu can be used to create files of arbitrary length that have identical MD5 hashes, and that differ only in 128 bytes somewhere in the middle of the file. Several people have used this technique to create pairs of interesting files with identical MD5 hashes.”</p>
 <p>Ben Laurie <a href="http://www.links.org/?p=6">has a nice website that visualizes this MD5 collision</a>. For a non-technical, though slightly outdated, introduction to hash functions, see <a href="http://www.unixwiz.net/techtips/iguide-crypto-hashes.html">Steve Friedl’s Illustrated Guide</a>. And <a href="http://www.forensicmag.com/articles/2008/12/hash-algorithm-dilemma–hash-value-collisions">here’s a good article</a> from DFI News that explores the same topic.</p>
@@ -3503,11 +3533,13 @@ Here, “password” is hashed with different hashing algorithms:</p>
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "content.code.annotate", "content.code.copy"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.c18c5fb9.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

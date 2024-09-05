@@ -23,8 +23,8 @@ theme:
   logo: images/ctf101.png
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation
   features:
-    # - navigation.tabs
-    # - navigation.sticky
+    - navigation.tabs
+    - navigation.sticky
     - navigation.instant
     - content.code.annotate
     # - navigation.sections

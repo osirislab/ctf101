@@ -4,7 +4,13 @@ Welcome to **CTF101**, a site documenting the basics of playing Capture the Flag
 
 In this handbook you'll learn the basics™ behind the methodologies and techniques needed to succeed in Capture the Flag competitions.
 
-Ready? [Let's go](/intro/what-is-a-ctf)
+Ready? [What is a CTF?](/intro/what-is-a-ctf.md)  
+
+## OSIRIS Lab
+
+The **Offensive Security Incident Response Internet Security Lab** is a student-run, student-organized security lab at the New York University Tandon School of Engineering. Founded in 2003, the lab has deep roots in the NYC security scene running CSAW every year. We build and run everything ourselves: university classes, research infrastructure, and even this page. 
+
+To learn more about the lab, visit our [website](https://osiris.cyber.nyu.edu).
 
 ## Contributions
 
@@ -15,8 +21,6 @@ This project is open sourced under the MIT Open Source License. For more informa
 !!! info
     If you're interested in contributing to make this site great, please check out our [Contributing](https://github.com/osirislab/ctf101#Contributing) section on Github!
 
-
-<br>
 <!-- 
 <div class="container">
   <div class="row">

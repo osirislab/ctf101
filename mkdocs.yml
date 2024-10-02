@@ -27,9 +27,10 @@ theme:
     - navigation.sticky
     - navigation.instant
     - content.code.annotate
+    - content.code.copy
+    - navigation.top
     # - navigation.sections
     # - navigation.expand
-    - content.code.copy
   palette:
     # Palette toggle for automatic mode
     # - media: "(prefers-color-scheme)"
@@ -67,7 +68,7 @@ extra:
       link: https://github.com/osirislab
     - icon: fontawesome/brands/discord
       link: https://discord.gg/Vk6RXcw5wx
-copyright: Made with ♥ by OSIRIS Lab & CTFd
+copyright: Made with 💖 by OSIRIS Lab & CTFd
 
 repo_url: https://github.com/osirislab/ctf101
 repo_name: osiris/ctf101

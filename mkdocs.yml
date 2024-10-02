@@ -24,7 +24,7 @@ theme:
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation
   features:
     - navigation.tabs
-    - navigation.sticky
+    - navigation.tabs.sticky
     - navigation.instant
     - content.code.annotate
     - content.code.copy
@@ -117,18 +117,16 @@ nav:
 # Cryptography Section
 - Cryptography:
   - Overview: 'cryptography/overview.md'
+  - Ciphers:
+    - Substitution Cipher: 'cryptography/what-is-a-substitution-cipher.md'
+    - Caesar Cipher/ROT 13: 'cryptography/what-is-caesar-cipher-rot-13.md'
+    - Vigenere Cipher: 'cryptography/what-is-a-vigenere-cipher.md'
+    - Block Ciphers: 'cryptography/what-are-block-ciphers.md'
+    - Stream Ciphers: 'cryptography/what-are-stream-ciphers.md'
   - XOR:
     - What is XOR: 'cryptography/what-is-xor.md'
-  - Substitution Cipher:
-    - What is a Substitution Cipher: 'cryptography/what-is-a-substitution-cipher.md'
-    - Caesar Cipher/ROT 13: 'cryptography/what-is-caesar-cipher-rot-13.md'
-  - Vigenere Cipher:
-    - What is a Vigenere Cipher: 'cryptography/what-is-a-vigenere-cipher.md'
   - Hashing Functions:
     - What are Hashing Functions: 'cryptography/what-are-hashing-functions.md'
-  - Modes of Operation:
-    - What are Block Ciphers: 'cryptography/what-are-block-ciphers.md'
-    - What are Stream Ciphers: 'cryptography/what-are-stream-ciphers.md'
   - RSA:
     - What is RSA: 'cryptography/what-is-rsa.md'
 

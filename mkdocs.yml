@@ -82,6 +82,7 @@ markdown_extensions:
       options:
         custom_icons:
           - overrides/.icons
+  - footnotes
 
 docs_dir: docs/
 nav:

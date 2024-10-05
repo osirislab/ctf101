@@ -8,14 +8,14 @@ plugins:
         - challenges/*
   - git-revision-date-localized:
       enable_creation_date: true
-#       type: timeago
-#       locale: en
-#       fallback_to_build_date: false
-#       enable_creation_date: true
-#       exclude:
-#           - index.md
-#       enabled: true
-#       strict: true
+  #       type: timeago
+  #       locale: en
+  #       fallback_to_build_date: false
+  #       enable_creation_date: true
+  #       exclude:
+  #           - index.md
+  #       enabled: true
+  #       strict: true
   - glightbox
 theme:
   name: material
@@ -58,16 +58,16 @@ theme:
     code: Roboto Mono
 
 extra_css:
-- stylesheets/extra.css
+  - stylesheets/extra.css
 
 extra:
   generator: false
-  social: 
+  social:
     - icon: fontawesome/brands/github
       link: https://github.com/osirislab
     - icon: fontawesome/brands/discord
       link: https://discord.gg/Vk6RXcw5wx
-copyright: Made with ♥ by OSIRIS Lab & CTFd
+copyright: Made with ♥ by <a href="https://osiris.cyber.nyu.edu">NYU OSIRIS Lab</a> & <a href="https://ctfd.io">CTFd</a>
 
 repo_url: https://github.com/osirislab/ctf101
 repo_name: osiris/ctf101
@@ -84,117 +84,112 @@ markdown_extensions:
 
 docs_dir: docs/
 nav:
-# This does not show up on the navbar. The Index word is specifically hidden in nav.html
-- Home: index.md
+  # This does not show up on the navbar. The Index word is specifically hidden in nav.html
+  - Home: index.md
 
-- Intro:
-  - What is a CTF: 'intro/what-is-a-ctf.md'
-  - Getting Started with CTFs: 'intro/ctf-basics.md'
-  - How do I host a CTF: 'intro/how-to-run-a-ctf.md'
+  - Intro:
+      - What is a CTF: "intro/what-is-a-ctf.md"
+      - Getting Started with CTFs: "intro/ctf-basics.md"
+      - How do I host a CTF: "intro/how-to-run-a-ctf.md"
 
+  # Forensics Section
+  - Forensics:
+      - Overview: "forensics/overview.md"
+      - File Formats:
+          - What are File Formats: "forensics/what-are-file-formats.md"
+      - Metadata:
+          - What is Metadata: "forensics/what-is-metadata.md"
+      - Network Analysis:
+          - What is Wireshark: "forensics/what-is-wireshark.md"
+          - What is Packet Capture: "forensics/what-is-packet-capture.md"
+      - Steganography:
+          - What is Steganography: "forensics/what-is-stegonagraphy.md"
+      - Disk Imaging:
+          - What is Disk Imaging: "forensics/what-is-disk-imaging.md"
+      - Memory Forensics:
+          - What is Memory Forensics: "forensics/what-is-memory-forensics.md"
+      - Hex Editors:
+          - What is a Hex Editor: "forensics/what-is-a-hex-editor.md"
 
-# Forensics Section
-- Forensics:
-  - Overview: 'forensics/overview.md'
-  - File Formats:
-    - What are File Formats: 'forensics/what-are-file-formats.md'
-  - Metadata:
-    - What is Metadata: 'forensics/what-is-metadata.md'
-  - Network Analysis:
-    - What is Wireshark: 'forensics/what-is-wireshark.md'
-    - What is Packet Capture : 'forensics/what-is-packet-capture.md'
-  - Steganography:
-    - What is Steganography: 'forensics/what-is-stegonagraphy.md'
-  - Disk Imaging:
-    - What is Disk Imaging: 'forensics/what-is-disk-imaging.md'
-  - Memory Forensics:
-    - What is Memory Forensics: 'forensics/what-is-memory-forensics.md'
-  - Hex Editors:
-    - What is a Hex Editor: 'forensics/what-is-a-hex-editor.md'
+  # Cryptography Section
+  - Cryptography:
+      - Overview: "cryptography/overview.md"
+      - XOR:
+          - What is XOR: "cryptography/what-is-xor.md"
+      - Substitution Cipher:
+          - What is a Substitution Cipher: "cryptography/what-is-a-substitution-cipher.md"
+          - Caesar Cipher/ROT 13: "cryptography/what-is-caesar-cipher-rot-13.md"
+      - Vigenere Cipher:
+          - What is a Vigenere Cipher: "cryptography/what-is-a-vigenere-cipher.md"
+      - Hashing Functions:
+          - What are Hashing Functions: "cryptography/what-are-hashing-functions.md"
+      - Modes of Operation:
+          - What are Block Ciphers: "cryptography/what-are-block-ciphers.md"
+          - What are Stream Ciphers: "cryptography/what-are-stream-ciphers.md"
+      - RSA:
+          - What is RSA: "cryptography/what-is-rsa.md"
 
+  # Web Exploitation Section
+  - Web Exploitation:
+      - Overview: "web-exploitation/overview.md"
+      - SQL Injection:
+          - What is SQL Injection: "web-exploitation/sql-injection/what-is-sql-injection.md"
+      - Command Injection:
+          - What is Command Injection: "web-exploitation/command-injection/what-is-command-injection.md"
+      - Directory Traversal:
+          - What is Directory Traversal: "web-exploitation/directory-traversal/what-is-directory-traversal.md"
+      - Cross Site Request Forgery:
+          - What is Cross Site Request Forgery: "web-exploitation/cross-site-request-forgery/what-is-cross-site-request-forgery.md"
+      - Cross Site Scripting (XSS):
+          - What is Cross Site Scripting: "web-exploitation/cross-site-scripting/what-is-cross-site-scripting.md"
+      - Server Side Request Forgery:
+          - What is Server Side Request Forgery: "web-exploitation/server-side-request-forgery/what-is-server-side-request-forgery.md"
+      - PHP:
+          - What is PHP?: "web-exploitation/php/what-is-php.md"
 
-# Cryptography Section
-- Cryptography:
-  - Overview: 'cryptography/overview.md'
-  - XOR:
-    - What is XOR: 'cryptography/what-is-xor.md'
-  - Substitution Cipher:
-    - What is a Substitution Cipher: 'cryptography/what-is-a-substitution-cipher.md'
-    - Caesar Cipher/ROT 13: 'cryptography/what-is-caesar-cipher-rot-13.md'
-  - Vigenere Cipher:
-    - What is a Vigenere Cipher: 'cryptography/what-is-a-vigenere-cipher.md'
-  - Hashing Functions:
-    - What are Hashing Functions: 'cryptography/what-are-hashing-functions.md'
-  - Modes of Operation:
-    - What are Block Ciphers: 'cryptography/what-are-block-ciphers.md'
-    - What are Stream Ciphers: 'cryptography/what-are-stream-ciphers.md'
-  - RSA:
-    - What is RSA: 'cryptography/what-is-rsa.md'
+  # Reverse Engineering Section
+  - Reverse Engineering:
+      - Overview: "reverse-engineering/overview.md"
+      - Assembly/Machine Code:
+          - What is Assembly/Machine Code: "reverse-engineering/what-is-assembly-machine-code.md"
+      - The C Programming Language:
+          - What is C: "reverse-engineering/what-is-c.md"
+      - Disassemblers:
+          - What are Disassemblers: "reverse-engineering/what-are-disassemblers.md"
+      - Debuggers:
+          - What is GDB: "reverse-engineering/what-is-gdb.md"
+      - Decompilers:
+          - What are Decompilers: "reverse-engineering/what-are-decompilers.md"
 
+  #  Binary Exploitation Section
+  - Binary Exploitation:
+      - Overview: "binary-exploitation/overview.md"
+      - Registers:
+          - What are Registers: "binary-exploitation/what-are-registers.md"
+      - The Stack:
+          - What is the Stack: "binary-exploitation/what-is-the-stack.md"
+      - Calling Conventions:
+          - What are Calling Conventions: "binary-exploitation/what-are-calling-conventions.md"
+      - Global Offset Table (GOT):
+          - What is the GOT: "binary-exploitation/what-is-the-got.md"
+      - Buffers:
+          - What are Buffers: "binary-exploitation/what-are-buffers.md"
+          - Buffer Overflow: "binary-exploitation/buffer-overflow.md"
+      - Return Oriented Programming (ROP):
+          - What is ROP: "binary-exploitation/return-oriented-programming.md"
+      - Binary Security:
+          - What is Binary Security: "binary-exploitation/what-is-binary-security.md"
+          - No eXecute (NX): "binary-exploitation/no-execute.md"
+          - Address Space Layout Randomization (ASLR): "binary-exploitation/address-space-layout-randomization.md"
+          - Stack Canaries: "binary-exploitation/stack-canaries.md"
+          - Relocation Read-Only (RELRO): "binary-exploitation/relocation-read-only.md"
+      - The Heap:
+          - What is the Heap: "binary-exploitation/what-is-the-heap.md"
+          - Heap Exploitation: "binary-exploitation/heap-exploitation.md"
+      - Format String Vulnerability:
+          - What is a Format String Vulnerability: "binary-exploitation/what-is-a-format-string-vulnerability.md"
 
-# Web Exploitation Section
-- Web Exploitation:
-  - Overview: 'web-exploitation/overview.md'
-  - SQL Injection:
-    - What is SQL Injection: 'web-exploitation/sql-injection/what-is-sql-injection.md'
-  - Command Injection:
-    - What is Command Injection: 'web-exploitation/command-injection/what-is-command-injection.md'
-  - Directory Traversal:
-    - What is Directory Traversal: 'web-exploitation/directory-traversal/what-is-directory-traversal.md'
-  - Cross Site Request Forgery:
-    - What is Cross Site Request Forgery: 'web-exploitation/cross-site-request-forgery/what-is-cross-site-request-forgery.md'
-  - Cross Site Scripting (XSS):
-    - What is Cross Site Scripting: 'web-exploitation/cross-site-scripting/what-is-cross-site-scripting.md'
-  - Server Side Request Forgery:
-    - What is Server Side Request Forgery: 'web-exploitation/server-side-request-forgery/what-is-server-side-request-forgery.md'
-  - PHP:
-    - What is PHP?: 'web-exploitation/php/what-is-php.md'
-
-
-# Reverse Engineering Section
-- Reverse Engineering:
-  - Overview: 'reverse-engineering/overview.md'
-  - Assembly/Machine Code:
-    - What is Assembly/Machine Code: 'reverse-engineering/what-is-assembly-machine-code.md'
-  - The C Programming Language:
-    - What is C: 'reverse-engineering/what-is-c.md'
-  - Disassemblers:
-    - What are Disassemblers: 'reverse-engineering/what-are-disassemblers.md'
-  - Debuggers:
-    - What is GDB: 'reverse-engineering/what-is-gdb.md'
-  - Decompilers:
-    - What are Decompilers: 'reverse-engineering/what-are-decompilers.md'
-
-
-#  Binary Exploitation Section
-- Binary Exploitation:
-  - Overview: 'binary-exploitation/overview.md'
-  - Registers:
-    - What are Registers: 'binary-exploitation/what-are-registers.md'
-  - The Stack:
-    - What is the Stack: 'binary-exploitation/what-is-the-stack.md'
-  - Calling Conventions:
-    - What are Calling Conventions: 'binary-exploitation/what-are-calling-conventions.md'
-  - Global Offset Table (GOT):
-    - What is the GOT: 'binary-exploitation/what-is-the-got.md'
-  - Buffers:
-    - What are Buffers: 'binary-exploitation/what-are-buffers.md'
-    - Buffer Overflow: 'binary-exploitation/buffer-overflow.md'
-  - Return Oriented Programming (ROP):
-    - What is ROP: 'binary-exploitation/return-oriented-programming.md'
-  - Binary Security:
-    - What is Binary Security: 'binary-exploitation/what-is-binary-security.md'
-    - No eXecute (NX): 'binary-exploitation/no-execute.md'
-    - Address Space Layout Randomization (ASLR): 'binary-exploitation/address-space-layout-randomization.md'
-    - Stack Canaries: 'binary-exploitation/stack-canaries.md'
-    - Relocation Read-Only (RELRO): 'binary-exploitation/relocation-read-only.md'
-  - The Heap:
-    - What is the Heap: 'binary-exploitation/what-is-the-heap.md'
-    - Heap Exploitation: 'binary-exploitation/heap-exploitation.md'
-  - Format String Vulnerability:
-    - What is a Format String Vulnerability: 'binary-exploitation/what-is-a-format-string-vulnerability.md'
-
-- FAQ:
-  - How to connect to services: 'faq/connecting-to-services.md'
-  - I need a server: 'faq/i-need-a-server.md'
-  - Recommended Software: 'faq/recommended-software.md'
+  - FAQ:
+      - How to connect to services: "faq/connecting-to-services.md"
+      - I need a server: "faq/i-need-a-server.md"
+      - Recommended Software: "faq/recommended-software.md"

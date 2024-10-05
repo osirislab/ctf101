@@ -1,10 +1,16 @@
-<img class="no-zoom pull-right" width="200px" src="/images/cryptography.png">
-
 # Cryptography
 
 Cryptography is the reason we can use banking apps, transmit sensitive information over the web, and in general protect our privacy. However, a large part of CTFs is breaking widely used encryption schemes which are improperly implemented. The math may seem daunting, but more often than not, a simple understanding of the underlying principles will allow you to find flaws and crack the code.
 
 The word “cryptography” technically means the art of writing codes. When it comes to digital forensics, it’s a method you can use to understand how data is constructed for your analysis.
+
+!!! Math in Cryptography
+
+    Most modern cryptography systems rely on one way mathematical algorithms derived from [modular arithmetic](https://en.wikipedia.org/wiki/Modular_arithmetic). It's an ongoing arms race to create and implement better hardware and algorithms. 
+
+    For example, the [implementation of the first RSA algorithm](https://people.csail.mit.edu/rivest/Rsapaper.pdf) is completely reliant on the "difficulty of factoring large numbers". It's a great example of security by design, and modern application developers still use similar derivatives.
+    
+    In August 2024, NIST released the first standards for post-quantum encryption to remediate the quantum-computing threat against legacy systems. For more information, check out this [blog post](https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards)!
 
 ## What is cryptography used for?
 
@@ -12,21 +18,12 @@ The word “cryptography” technically means the art of writing codes. When it 
 
 - Securing web traffic (passwords, communication, etc.)
 - Securing copyrighted software code
+- Key exchange algorithms 
 
 **Malicious uses**
 
 - Hiding malicious communication
 - Hiding malicious code
-
-## Topics
- * [XOR](/cryptography/what-is-xor/)
- * [Cesear Cipher](/cryptography/what-is-caesar-cipher-rot-13/)
- * [Substitution Cipher](/cryptography/what-is-a-substitution-cipher/)
- * [Vigenere Cipher](/cryptography/what-is-a-vigenere-cipher/)
- * [Hashing Functions](/cryptography/what-are-hashing-functions/)
- * [Block Ciphers](/cryptography/what-are-block-ciphers/)
- * [Stream Ciphers](/cryptography/what-are-stream-ciphers/)
- * [RSA](/cryptography/what-is-rsa/)
 
 <!--
 ## Challenges

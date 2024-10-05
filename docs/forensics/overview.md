@@ -9,15 +9,6 @@ An important part of forensics is having the right tools, as well as being famil
 
 The [Forensics Wiki](https://forensics.wiki/) is an extraordinary guide to many of the tools used. Give it a read if you're interested in this category!
 
-## Topics
-
- * [File Formats](/forensics/what-are-file-formats/)
- * [EXIF data](/forensics/what-is-metadata/)
- * Wireshark & PCAPs
-    * [Network Forensics](/forensics/what-is-wireshark/)
- * [Stegonagraphy](/forensics/what-is-stegonagraphy/)
- * [Disk Imaging](/forensics/what-is-disk-imaging/)
-
 
 <!-- ## Challenges
 

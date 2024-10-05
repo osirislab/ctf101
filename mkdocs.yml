@@ -67,7 +67,7 @@ extra:
       link: https://github.com/osirislab
     - icon: fontawesome/brands/discord
       link: https://discord.gg/Vk6RXcw5wx
-copyright: Made with ♥ by OSIRIS Lab & CTFd
+copyright: Made with ♥ by <a href="https://osiris.cyber.nyu.edu">NYU OSIRIS Lab</a> & <a href="https://ctfd.io">CTFd</a>
 
 repo_url: https://github.com/osirislab/ctf101
 repo_name: osiris/ctf101

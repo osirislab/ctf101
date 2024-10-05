@@ -48,7 +48,7 @@ competitions.
 
 -   [sqlmap](http://sqlmap.org/)
 
-    sqlmap is a penetration testing tool that automates hte process of
+    sqlmap is a penetration testing tool that automates the process of
     detecting and exploiting SQL injection flaws. It's open source and
     freely available.
 

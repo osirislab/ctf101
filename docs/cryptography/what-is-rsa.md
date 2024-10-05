@@ -28,10 +28,11 @@ RSA is viable because it is incredibly hard to find *d* even with *m*, *n*, and 
 
 ## Implementation
 
-RSA follows 4 steps to be implemented:
-1. Key Generation
-2. Encryption
-3. Decryption
+RSA is implemented in 3 steps:
+
+1. [Key Generation](#key-generation)
+2. [Encryption](#encryption)
+3. [Decryption](#decryption)
 
 ### Key Generation
 

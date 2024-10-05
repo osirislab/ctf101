@@ -1,6 +1,6 @@
 # Hashing Functions
 
-Hashing functions are one way functions which theoretically provide a unique output for every input. MD5, SHA-1, and other hashes which were considered secure are now found to have *collisions* or two different pieces of data which produce the same supposed unique output.
+Hashing functions are one way functions which theoretically provide a unique output for every input. MD5, SHA-1, and other hashes which were considered secure are now found to have _collisions_ or two different pieces of data which produce the same supposed unique output.
 
 ## String Hashing
 
@@ -13,10 +13,10 @@ Example:
 `$ echo -n password | md5  5f4dcc3b5aa765d61d8327deb882cf99`
 Here, “password” is hashed with different hashing algorithms:
 
-* **SHA-1**: 5BAA61E4C9B93F3F0682250B6CF8331B7EE68FD8
-* **SHA-2**: 5E884898DA28047151D0E56F8DC6292773603D0D6AABBDD62A11EF721D1542D8
-* **MD5**: 5F4DCC3B5AA765D61D8327DEB882CF99
-* **CRC32**: BBEDA74F
+- **SHA-1**: 5BAA61E4C9B93F3F0682250B6CF8331B7EE68FD8
+- **SHA-2**: 5E884898DA28047151D0E56F8DC6292773603D0D6AABBDD62A11EF721D1542D8
+- **MD5**: 5F4DCC3B5AA765D61D8327DEB882CF99
+- **CRC32**: BBEDA74F
 
 Generally, when verifying a hash visually, you can simply look at the first and last four characters of the string.
 

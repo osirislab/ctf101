@@ -83,6 +83,7 @@ markdown_extensions:
         custom_icons:
           - overrides/.icons
   - footnotes
+  - def_list
 
 docs_dir: docs/
 nav:
@@ -124,10 +125,8 @@ nav:
     - Vigenere Cipher: 'cryptography/what-is-a-vigenere-cipher.md'
     - Block Ciphers: 'cryptography/what-are-block-ciphers.md'
     - Stream Ciphers: 'cryptography/what-are-stream-ciphers.md'
-  - XOR:
-    - What is XOR: 'cryptography/what-is-xor.md'
-  - Hashing Functions:
-    - What are Hashing Functions: 'cryptography/what-are-hashing-functions.md'
+  - XOR: 'cryptography/what-is-xor.md'
+  - Hashing Functions: 'cryptography/what-are-hashing-functions.md'
   - RSA:
     - What is RSA: 'cryptography/what-is-rsa.md'
 

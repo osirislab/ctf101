@@ -37,7 +37,7 @@ This gives us a key to use with encrypting and decrypting.
 
 !!! tip 
 
-    we often have to keep track of each individual letter in the alphabet and what they're mapped to. Dictionaries make keeping track of keys in python very easy!
+    We often have to keep track of each individual letter in the alphabet and what they're mapped to. Dictionaries make keeping track of keys in python very easy!
 
     ``` python
 

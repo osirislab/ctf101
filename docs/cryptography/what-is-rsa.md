@@ -74,7 +74,7 @@ The plaintext is equal to *c*^*d*^ mod *n* or:
 
 ## Exploitation
 
-From the [RsaCtfTool README](https://github.com/Ganapati/RsaCtfTool)
+From the [RsaCtfTool README](https://github.com/RsaCtfTool/RsaCtfTool)
 >
 Attacks:
 >

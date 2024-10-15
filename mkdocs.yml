@@ -31,7 +31,7 @@ theme:
     - navigation.top
     # - navigation.sections
     # - navigation.expand
-    - navigation.sections
+    # - navigation.sections
   palette:
     # Palette toggle for automatic mode
     # - media: "(prefers-color-scheme)"
@@ -107,7 +107,7 @@ nav:
       - Overview: "forensics/overview.md"
       - File Formats: "forensics/what-are-file-formats.md"
       - Metadata: "forensics/what-is-metadata.md"
-      - Stenography: "forensics/what-is-stegonagraphy.md"
+      - Stegonagraphy: "forensics/what-is-stegonagraphy.md"
       - Disk Imaging: "forensics/what-is-disk-imaging.md"
       - Memory Forensics: "forensics/what-is-memory-forensics.md"
       - Hex Editors: "forensics/what-is-a-hex-editor.md"

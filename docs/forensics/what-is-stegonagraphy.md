@@ -41,69 +41,57 @@ LSB Steganography or *Least Significant Bit* Steganography is a method of Stegan
 
 Say an image has a pixel with an RGB value of (255, 255, 255), the bits of those RGB values will look like
 
-| 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-
 By modifying the lowest, or least significant, bit, we can use the 1 bit space across every RGB value for every pixel to construct a message.
 
-| 1 | 1 | 1 | 1 | 1 | 1 | 1 | 0 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+!!! question "Consider this"
+    rgb(255,255,255) is represented by `11111111` in binary. However, what difference does changing this to `11111110` make?
 
 The reason steganography is hard to detect by sight is because a 1 bit difference in color is insignificant as seen below.
 
 ![1 Bit Difference](images/lsb-color-difference.png)
 
-### Example
+!!! Example
 
-Let’s say we have an image, and part of it contains the following binary:
+    Let’s say we have an image, and part of it contains the following binary:
 
-![Steganography Process Step 3](images/steg-step-3.png)
+    ![Steganography Process Step 3](images/steg-step-3.png)
 
-And let’s say we want to hide the character y inside.
+    And let’s say we want to hide the character y inside.
 
-First, we need to convert the hidden message to binary.
+    First, we need to convert the hidden message to binary.
 
-![Steganography Process Step 4](images/steg-step-4.png)
+    ![Steganography Process Step 4](images/steg-step-4.png)
 
-Now we take each bit from the hidden message and replace the LSB of the corresponding byte with it.
+    Now we take each bit from the hidden message and replace the LSB of the corresponding byte with it.
 
-![Steganography Process Step 5](images/steg-step-5.png)
+    ![Steganography Process Step 5](images/steg-step-5.png)
 
-And again:
+    And again:
 
-![Steganography Process Step 6](images/steg-step-6.png)
+    ![Steganography Process Step 6](images/steg-step-6.png)
 
-And again:
+    And again:
 
-![Steganography Process Step 7](images/steg-step-7.png)
+    ![Steganography Process Step 7](images/steg-step-7.png)
 
-And again:
+    And again:
 
-![Steganography Process Step 8](images/steg-step-8.png)
+    ![Steganography Process Step 8](images/steg-step-8.png)
 
-And again:
+    And again:
 
-![Steganography Process Step 9](images/steg-step-9.png)
+    ![Steganography Process Step 9](images/steg-step-9.png)
 
-And again:
+    And again:
 
-![Steganography Process Step 10](images/steg-step-10.png)
+    ![Steganography Process Step 10](images/steg-step-10.png)
 
-And again:
+    And again:
 
-![Steganography Process Step 11](images/steg-step-11.png)
+    ![Steganography Process Step 11](images/steg-step-11.png)
 
-And once more:
+    And once more:
 
-![Steganography Process Step 12](images/steg-step-12.png)
+    ![Steganography Process Step 12](images/steg-step-12.png)
 
 Decoding LSB steganography is exactly the same as encoding, but in reverse. For each byte, grab the LSB and add it to your decoded message. Once you’ve gone through each byte, convert all the LSBs you grabbed into text or a file. (You can use your file signature knowledge here!)
-
-
-## What other types of steganography are there?
-Steganography is hard for the defense side, because there’s practically an infinite number of ways it could be carried out. Here are a few examples:
-- LSB steganography: different bits, different bit combinations
-- Encode in every certain number of bytes 
-- Use a password
-- Hide in different places
-- Use encryption on top of steganography

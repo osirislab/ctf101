@@ -31,6 +31,7 @@ theme:
     - navigation.top
     # - navigation.sections
     # - navigation.expand
+    # - navigation.sections
   palette:
     # Palette toggle for automatic mode
     # - media: "(prefers-color-scheme)"
@@ -70,7 +71,6 @@ extra:
       link: https://discord.gg/Vk6RXcw5wx
 copyright: Made with 💖 by <a href="https://osiris.cyber.nyu.edu">OSIRIS Lab</a> & <a href="https://ctfd.io">CTFd</a>
 
-
 repo_url: https://github.com/osirislab/ctf101
 repo_name: osiris/ctf101
 markdown_extensions:
@@ -85,13 +85,19 @@ markdown_extensions:
           - overrides/.icons
   - footnotes
   - def_list
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - js/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 docs_dir: docs/
 nav:
   # This does not show up on the navbar. The Index word is specifically hidden in nav.html
   - Home: index.md
 
-  - Intro:
+  - Introduction:
       - What is a CTF: "intro/what-is-a-ctf.md"
       - Getting Started with CTFs: "intro/ctf-basics.md"
       - How do I host a CTF: "intro/how-to-run-a-ctf.md"
@@ -99,86 +105,63 @@ nav:
   # Forensics Section
   - Forensics:
       - Overview: "forensics/overview.md"
-      - File Formats:
-          - What are File Formats: "forensics/what-are-file-formats.md"
-      - Metadata:
-          - What is Metadata: "forensics/what-is-metadata.md"
+      - File Formats: "forensics/what-are-file-formats.md"
+      - Metadata: "forensics/what-is-metadata.md"
+      - Stegonagraphy: "forensics/what-is-stegonagraphy.md"
+      - Disk Imaging: "forensics/what-is-disk-imaging.md"
+      - Memory Forensics: "forensics/what-is-memory-forensics.md"
+      - Hex Editors: "forensics/what-is-a-hex-editor.md"
       - Network Analysis:
-          - What is Wireshark: "forensics/what-is-wireshark.md"
-          - What is Packet Capture: "forensics/what-is-packet-capture.md"
-      - Steganography:
-          - What is Steganography: "forensics/what-is-stegonagraphy.md"
-      - Disk Imaging:
-          - What is Disk Imaging: "forensics/what-is-disk-imaging.md"
-      - Memory Forensics:
-          - What is Memory Forensics: "forensics/what-is-memory-forensics.md"
-      - Hex Editors:
-          - What is a Hex Editor: "forensics/what-is-a-hex-editor.md"
+          - Wireshark: "forensics/what-is-wireshark.md"
+          - Packet Capture: "forensics/what-is-packet-capture.md"
 
   # Cryptography Section
   - Cryptography:
       - Overview: "cryptography/overview.md"
       - XOR: "cryptography/what-is-xor.md"
-      - Substitution Cipher:
-          - What is a Substitution Cipher: "cryptography/what-is-a-substitution-cipher.md"
-          - Caesar Cipher/ROT 13: "cryptography/what-is-caesar-cipher-rot-13.md"
-      - Vigenere Cipher:
-          - What is a Vigenere Cipher: "cryptography/what-is-a-vigenere-cipher.md"
       - Hashing Functions: "cryptography/what-are-hashing-functions.md"
+      - Ciphers:
+          - Substitution Cipher: "cryptography/what-is-a-substitution-cipher.md"
+          - Caesar Cipher/ROT 13: "cryptography/what-is-caesar-cipher-rot-13.md"
+          - Vigenere Cipher: "cryptography/what-is-a-vigenere-cipher.md"
       - Modes of Operation:
-          - What are Block Ciphers: "cryptography/what-are-block-ciphers.md"
-          - What are Stream Ciphers: "cryptography/what-are-stream-ciphers.md"
-      - RSA:
-          - What is RSA: "cryptography/what-is-rsa.md"
+          - Block Ciphers: "cryptography/what-are-block-ciphers.md"
+          - Stream Ciphers: "cryptography/what-are-stream-ciphers.md"
+      - Asymmetric Encryption:
+          - RSA: "cryptography/what-is-rsa.md"
 
   # Web Exploitation Section
   - Web Exploitation:
       - Overview: "web-exploitation/overview.md"
-      - SQL Injection:
-          - What is SQL Injection: "web-exploitation/sql-injection/what-is-sql-injection.md"
-      - Command Injection:
-          - What is Command Injection: "web-exploitation/command-injection/what-is-command-injection.md"
-      - Directory Traversal:
-          - What is Directory Traversal: "web-exploitation/directory-traversal/what-is-directory-traversal.md"
-      - Cross Site Request Forgery:
-          - What is Cross Site Request Forgery: "web-exploitation/cross-site-request-forgery/what-is-cross-site-request-forgery.md"
-      - Cross Site Scripting (XSS):
-          - What is Cross Site Scripting: "web-exploitation/cross-site-scripting/what-is-cross-site-scripting.md"
-      - Server Side Request Forgery:
-          - What is Server Side Request Forgery: "web-exploitation/server-side-request-forgery/what-is-server-side-request-forgery.md"
-      - PHP:
-          - What is PHP?: "web-exploitation/php/what-is-php.md"
+      - SQL Injection: "web-exploitation/sql-injection/what-is-sql-injection.md"
+      - Command Injection: "web-exploitation/command-injection/what-is-command-injection.md"
+      - Directory Traversal: "web-exploitation/directory-traversal/what-is-directory-traversal.md"
+      - Cross Site Request Forgery: "web-exploitation/cross-site-request-forgery/what-is-cross-site-request-forgery.md"
+      - Cross Site Scripting (XSS): "web-exploitation/cross-site-scripting/what-is-cross-site-scripting.md"
+      - Server Side Request Forgery: "web-exploitation/server-side-request-forgery/what-is-server-side-request-forgery.md"
+      - PHP: "web-exploitation/php/what-is-php.md"
 
   # Reverse Engineering Section
   - Reverse Engineering:
       - Overview: "reverse-engineering/overview.md"
-      - Assembly/Machine Code:
-          - What is Assembly/Machine Code: "reverse-engineering/what-is-assembly-machine-code.md"
-      - The C Programming Language:
-          - What is C: "reverse-engineering/what-is-c.md"
-      - Disassemblers:
-          - What are Disassemblers: "reverse-engineering/what-are-disassemblers.md"
-      - Debuggers:
-          - What is GDB: "reverse-engineering/what-is-gdb.md"
-      - Decompilers:
-          - What are Decompilers: "reverse-engineering/what-are-decompilers.md"
+      - Assembly/Machine Code: "reverse-engineering/what-is-assembly-machine-code.md"
+      - The C Programming Language: "reverse-engineering/what-is-c.md"
+      - Disassemblers: "reverse-engineering/what-are-disassemblers.md"
+      - Debuggers: "reverse-engineering/what-is-gdb.md"
+      - Decompilers: "reverse-engineering/what-are-decompilers.md"
 
   #  Binary Exploitation Section
   - Binary Exploitation:
       - Overview: "binary-exploitation/overview.md"
-      - Registers:
-          - What are Registers: "binary-exploitation/what-are-registers.md"
-      - The Stack:
-          - What is the Stack: "binary-exploitation/what-is-the-stack.md"
-      - Calling Conventions:
-          - What are Calling Conventions: "binary-exploitation/what-are-calling-conventions.md"
-      - Global Offset Table (GOT):
-          - What is the GOT: "binary-exploitation/what-is-the-got.md"
+      - Registers: "binary-exploitation/what-are-registers.md"
+      - The Stack: "binary-exploitation/what-is-the-stack.md"
+      - Calling Conventions: "binary-exploitation/what-are-calling-conventions.md"
+      - Global Offset Table (GOT): "binary-exploitation/what-is-the-got.md"
+      - Format String Vulnerability: "binary-exploitation/what-is-a-format-string-vulnerability.md"
+      - Return Oriented Programming (ROP): "binary-exploitation/return-oriented-programming.md"
       - Buffers:
           - What are Buffers: "binary-exploitation/what-are-buffers.md"
           - Buffer Overflow: "binary-exploitation/buffer-overflow.md"
-      - Return Oriented Programming (ROP):
-          - What is ROP: "binary-exploitation/return-oriented-programming.md"
       - Binary Security:
           - What is Binary Security: "binary-exploitation/what-is-binary-security.md"
           - No eXecute (NX): "binary-exploitation/no-execute.md"
@@ -188,9 +171,8 @@ nav:
       - The Heap:
           - What is the Heap: "binary-exploitation/what-is-the-heap.md"
           - Heap Exploitation: "binary-exploitation/heap-exploitation.md"
-      - Format String Vulnerability:
-          - What is a Format String Vulnerability: "binary-exploitation/what-is-a-format-string-vulnerability.md"
-
+  
+  # FAQ Section
   - FAQ:
       - How to connect to services: "faq/connecting-to-services.md"
       - I need a server: "faq/i-need-a-server.md"

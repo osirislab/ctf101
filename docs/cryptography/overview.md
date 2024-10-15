@@ -4,7 +4,7 @@ Cryptography is the reason we can use banking apps, transmit sensitive informati
 
 The word “cryptography” technically means the art of writing codes. When it comes to digital forensics, it’s a method you can use to understand how data is constructed for your analysis.
 
-!!! Math in Cryptography
+!!! info "Math in Cryptography"
 
     Most modern cryptography systems rely on one way mathematical algorithms derived from [modular arithmetic](https://en.wikipedia.org/wiki/Modular_arithmetic). It's an ongoing arms race to create and implement better hardware and algorithms. 
 
@@ -24,6 +24,10 @@ The word “cryptography” technically means the art of writing codes. When it 
 
 - Hiding malicious communication
 - Hiding malicious code
+
+## Additional Links
+
+
 
 <!--
 ## Challenges

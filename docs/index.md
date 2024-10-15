@@ -1,10 +1,12 @@
 # Capture The Flag 101 🚩
 
+## Welcome
+
 Welcome to **CTF101**, a site documenting the basics of playing Capture the Flags. This guide was written and maintained by the [OSIRIS Lab](https://osiris.cyber.nyu.edu/) at New York University in collaboration with [CTFd](https://ctfd.io/).
 
 In this handbook you'll learn the basics™ behind the methodologies and techniques needed to succeed in Capture the Flag competitions.
 
-Ready? [What is a CTF?](/intro/what-is-a-ctf)  
+Ready? [What is a CTF?](intro/what-is-a-ctf.md)  
 
 ## Contributions
 

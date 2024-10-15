@@ -4,7 +4,7 @@ Forensics is the art of recovering the digital trail left on a computer. There a
 
 An important part of forensics is having the right tools, as well as being familiar with using them. Approach forensics challenges with an open mind. It's not uncommon to have obscure CTF challenges hide flags in the darkest of corners!
 
-!!! info
+!!! info "Real World Forentics™️"
     Unlike CTFs normally portray them, real-world forensics are rarely esoteric. For example, it might have you reassembling the boot partitions of a hard drive to recover it's data and file system. Thus, CTF forensics are normally puzzle, "brain-teaser" problems that aims to introduce a tool or method.
 
 The [Forensics Wiki](https://forensics.wiki/) is an extraordinary guide to many of the tools used. Give it a read if you're interested in this category!

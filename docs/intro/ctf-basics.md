@@ -1,5 +1,5 @@
 # How to get started
-First of all, make sure to check out our [recommended software](/faq/recommended-software/) section. It's handy to have these tools installed and ready as you get to solving some CTFs.
+First of all, make sure to check out our [recommended software](../faq/recommended-software.md) section. It's handy to have these tools installed and ready as you get to solving some CTFs.
 
 Ideally, you must have :
 - a decompiler like [Binja](https://binary.ninja)

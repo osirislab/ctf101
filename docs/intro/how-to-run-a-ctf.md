@@ -11,6 +11,15 @@ Consider a few of the following before starting a CTF.
 - How do you want to host your challenges?
 - What is my budget?
 
+## Challenge Writing
+
+## Infrastructure
+
+Depending on the size of your competition, you're going to need different types of deployments. Generally, you'll need a [load balancer](https://en.wikipedia.org/wiki/Load_balancing_(computing)) to work concurrently with your web application.
+
+!!! info
+    When we ran CSAW'23, there were over 2500 teams of ~4 people. You can try to gauge how many users your competition might have before writing a deployment. 
+
 ## **Open Source Frameworks**
 
 ### [CTFd](https://docs.ctfd.io) 

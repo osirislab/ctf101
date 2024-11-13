@@ -11,6 +11,15 @@ Consider a few of the following before starting a CTF.
 - How do you want to host your challenges?
 - What is my budget?
 
+## Challenge Writing
+
+
+
+## Infrastructure
+Depending on the size of your competition, you're going to need different types of deployments. Generally, you'll need a [load balancer](https://en.wikipedia.org/wiki/Load_balancing_(computing)) to work with your web application. 
+!!! info
+    When we ran CSAW'23, there were over 2500 teams of ~4 people. You can try to gauge how many users your competition might have before writing a deployment. Our CSAW deployment ran on AWS using the Elastic Container Service (ECS) behind a load-balancer. This way, we could adjust how many instances we need to meet demand.
+
 ## **Open Source Frameworks**
 
 ### [CTFd](https://docs.ctfd.io) 
@@ -20,8 +29,6 @@ CTFd makes it easy to spin up an instance able to support a CTF at any time. Sta
 ``` bash
 docker run -p 8000:8000 -it ctfd/ctfd # (1)
 ```
-
-
 
 1.  For more information on Docker, read the [docs](https://docs.docker.com/)!
 

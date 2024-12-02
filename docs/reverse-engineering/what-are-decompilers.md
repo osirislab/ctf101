@@ -2,9 +2,7 @@
 
 Decompilers do the impossible and reverse compiled code *back* into psuedocode/code.
 
-IDA offers HexRays, which translates machine code into a higher language pseudocode.
-
-![Hex Rays](images/ida-decompiler.png)
+Popular decompilers include IDA, Binary Ninja, and Ghidra. You can compare their outputs using https://dogbolt.org/
 
 ## Example Workflow
 

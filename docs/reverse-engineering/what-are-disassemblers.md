@@ -12,7 +12,7 @@ A **disassembler** is a tool which breaks down a compiled program into machine c
 
 ### IDA
 
-The Interactive Disassembler (IDA) is the industry standard for binary disassembly. IDA is capable of disassembling "virtually any popular file format". This makes it very useful to security researchers and CTF players who often need to analyze obscure files without knowing what they are or where they came from. IDA also features the industry leading Hex Rays decompiler which can convert assembly code back into a pseudo code like format.
+The Interactive Disassembler (IDA) is capable of disassembling "virtually any popular file format". This makes it very useful to security researchers and CTF players who often need to analyze obscure files without knowing what they are or where they came from. IDA features the Hex Rays decompiler which can convert assembly code back into a pseudo code like format.
 
 ![IDA](images/ida-disass.png)
 
@@ -25,14 +25,17 @@ IDA also has a plugin interface which has been used to create some successful pl
  * https://github.com/REhints/HexRaysCodeXplorer
  * https://github.com/osirislab/Fentanyl
 
+You can use IDA for free, with some limitations: https://hex-rays.com/ida-free
+
 ### Binary Ninja
 
-Binary Ninja is an up and coming disassembler that attempts to bring a new, more programmatic approach to reverse engineering. Binary Ninja brings an improved plugin API and modern features to reverse engineering. While it's less popular or as old as IDA, Binary Ninja (often called binja) is quickly gaining ground and has a small community of dedicated users and followers.
+Binary Ninja is an interactive decompiler, disassembler, debugger, and binary analysis platform. While it's less popular or as old as IDA, Binary Ninja (often called 'binja') is quickly gaining ground and has a growing community of dedicated users and followers. Binary Ninja also features decompilation for all architectures, which can convert assembly code back into a pseudo code like format represented as their High-Level IL, pseudo-C, pseudo-Rust, pseudo-Python, or [your own](https://github.com/Vector35/binaryninja-api/blob/dev/python/examples/pseudo_python.py) using their Python, C++, or Rust plugin APIs.
 
 ![Binja](images/binja-disass.png)
 
 Binja also has some community contributed plugins which are collected here: https://github.com/Vector35/community-plugins
 
+You can use Binary Ninja for free, with some limitations: https://binary.ninja/free/
 
 ### gdb
 

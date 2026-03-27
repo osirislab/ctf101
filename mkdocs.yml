@@ -172,6 +172,14 @@ nav:
           - What is the Heap: "binary-exploitation/what-is-the-heap.md"
           - Heap Exploitation: "binary-exploitation/heap-exploitation.md"
   
+  # Network Security Section
+  - Network Security:
+      - Overview: "network-security/overview.md"
+ 
+  # Infrastructure Section
+  - Infrastructure:
+      - Overview: "infrastructure/overview.md"
+   
   # FAQ Section
   - FAQ:
       - How to connect to services: "faq/connecting-to-services.md"

@@ -140,6 +140,7 @@ nav:
       - Cross Site Scripting (XSS): "web-exploitation/cross-site-scripting/what-is-cross-site-scripting.md"
       - Server Side Request Forgery: "web-exploitation/server-side-request-forgery/what-is-server-side-request-forgery.md"
       - PHP: "web-exploitation/php/what-is-php.md"
+      - Template Injection: "web-exploitation/template-injection/what-is-a-template-injection.md"
 
   # Reverse Engineering Section
   - Reverse Engineering:
@@ -149,6 +150,7 @@ nav:
       - Disassemblers: "reverse-engineering/what-are-disassemblers.md"
       - Debuggers: "reverse-engineering/what-is-gdb.md"
       - Decompilers: "reverse-engineering/what-are-decompilers.md"
+      # - Bytecode: "reverse-engineering/what-is-bytecode.md"
 
   #  Binary Exploitation Section
   - Binary Exploitation:

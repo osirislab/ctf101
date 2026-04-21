@@ -24,7 +24,7 @@ If public $n$, public $e$, private $d$ are all very large numbers and a message 
 $$ (m^e)^d \equiv m \;(\bmod\; n) $$ 
 
 !!! note
-	The triple equals sign in this case refers to [modular congruence](https://en.wikipedia.org/wiki/Modular_arithmetic) which in this case means that there exists an integer *k* such that 
+	The triple equals sign in this case refers to [modular congruence](https://en.wikipedia.org/wiki/Modular_arithmetic) which in this case means that there exists an integer *k* such that
 	
 	$$(m^e)^d = kn + m$$
 

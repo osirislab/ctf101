@@ -23,6 +23,7 @@ theme:
   logo: images/ctf101.png
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation
   features:
+    - navigation.indexes
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.instant
@@ -30,14 +31,14 @@ theme:
     - content.code.copy
     - navigation.top
     # - navigation.sections
-    # - navigation.expand
+    - navigation.expand
     # - navigation.sections
   palette:
     # Palette toggle for automatic mode
-    # - media: "(prefers-color-scheme)"
-    #   toggle:
-    #     icon: material/brightness-auto
-    #     name: Automatic light-dark mode toggling
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Automatic light-dark mode toggling
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -69,7 +70,7 @@ extra:
       link: https://github.com/osirislab
     - icon: fontawesome/brands/discord
       link: https://discord.gg/Vk6RXcw5wx
-copyright: Made with 💖 by <a href="https://osiris.cyber.nyu.edu">OSIRIS Lab</a> & <a href="https://ctfd.io">CTFd</a>
+copyright: Written by <a href="https://osiris.cyber.nyu.edu">OSIRIS Lab</a> & <a href="https://ctfd.io">CTFd</a>
 
 repo_url: https://github.com/osirislab/ctf101
 repo_name: osiris/ctf101
@@ -119,7 +120,7 @@ nav:
   - Cryptography:
       - Overview: "cryptography/overview.md"
       - XOR: "cryptography/what-is-xor.md"
-      - Hashing Functions: "cryptography/what-are-hashing-functions.md"
+      - Hash Functions: "cryptography/what-are-hashing-functions.md"
       - Ciphers:
           - Substitution Cipher: "cryptography/what-is-a-substitution-cipher.md"
           - Caesar Cipher/ROT 13: "cryptography/what-is-caesar-cipher-rot-13.md"

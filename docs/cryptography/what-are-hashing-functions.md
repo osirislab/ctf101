@@ -1,6 +1,16 @@
-# Hashing Functions
+# Hash Functions
 
-Hashing functions are one way functions which theoretically provide a unique output for every input. MD5, SHA-1, and other hashes which were considered secure are now found to have _collisions_ or two different pieces of data which produce the same supposed unique output.
+A hash function is a _deterministic, one-way procedure_ that maps data of any size to a fixed (usually smaller, but not strictly necessary) size value. The motivation is that if the output is sufficiently long, it _effectively provides a unique output for every input_. 
+
+!!! Note
+
+    While difficult due to the use of one-way, non-linear functions in many hashing algorithms, theoretically, two different values CAN map to the same output. This is known as a [_collision_](https://en.wikipedia.org/wiki/Hash_collision). 
+    
+    Exploits abusing hash collisions historically arose from researchers discovering structural weaknesses in hash algorithms
+
+    For example, in 2004, Wang et al. demonstrated an MD5 collision could be generated on the IBM P690 in an hour [source](https://eprint.iacr.org/2004/199.pdf) by reducing the complexity from $2^{64}$ to $2^{39}$. There's a [SEED labs](https://seedsecuritylabs.org/Labs_20.04/Crypto/Crypto_MD5_Collision/) page with a good exercise how it is done.
+
+In the context of information security, cryptographic hash functions are used in digital signatures and checksums, allowing us to verify [data integrity](https://en.wikipedia.org/wiki/Data_integrity).
 
 ## String Hashing
 
@@ -37,7 +47,7 @@ $ md5sum samplefile.txt
 
 ## Hash Collisions
 
-A collision is when two pieces of data or text have the same cryptographic hash. This is very rare.
+A collision is when two pieces of data or text have the same cryptographic hash. An ideal  
 
 What’s significant about collisions is that they can be used to crack password hashes. Passwords are usually stored as hashes on a computer, since it’s hard to get the passwords from hashes.
 
@@ -61,7 +71,7 @@ Each of these blocks has MD5 hash 79054025255fb1a26e4bc422aef54eb4.
 
 Selinger said that “the algorithm of Wang and Yu can be used to create files of arbitrary length that have identical MD5 hashes, and that differ only in 128 bytes somewhere in the middle of the file. Several people have used this technique to create pairs of interesting files with identical MD5 hashes.”
 
-Ben Laurie [has a nice website that visualizes this MD5 collision](http://www.links.org/?p=6). For a non-technical, though slightly outdated, introduction to hash functions, see [Steve Friedl’s Illustrated Guide](http://www.unixwiz.net/techtips/iguide-crypto-hashes.html). And [here’s a good article](http://www.forensicmag.com/articles/2008/12/hash-algorithm-dilemma–hash-value-collisions) from DFI News that explores the same topic.
+For a non-technical, though slightly outdated, introduction to hash functions, see [Steve Friedl’s Illustrated Guide](http://www.unixwiz.net/techtips/iguide-crypto-hashes.html). And [here’s a good article](http://www.forensicmag.com/articles/2008/12/hash-algorithm-dilemma–hash-value-collisions) from DFI News that explores the same topic.
 
 
 [^1]: http://www.mscs.dal.ca/~selinger/md5collision/

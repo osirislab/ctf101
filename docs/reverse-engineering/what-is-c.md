@@ -135,3 +135,70 @@ addrs  1000  1008  1016  1024  1032  1040  1048  1056
 ```
 
 ## Memory Management
+
+### Memory safety issues with Pointers
+
+Because C requires programmers to manually manage memory, it trusts the developer to handle pointers safely. Since the compiler does not include built-in bounds checking or garbage collection (unlike higher-level languages), pointers are often the source of bugs and security vulnerabilities. 
+
+Below are four of the most common memory safety issues related to pointers:
+
+#### 1. Out-of-Bounds Access (Pointer Arithmetic)
+
+As mentioned in the Arrays section, C allows you to use mathematical operations on pointers to navigate memory. However, C does not check if you have moved past the bounds of your allocated memory. If you shift a pointer too far, you will begin reading or writing to unallocated memory or memory owned by other parts of the program. This can lead to application crashes or allow attackers to overwrite sensitive data.
+
+```c
+int arr[3] = {10, 20, 30};
+int *ptr = arr; // ptr points to the first element (10)
+
+ptr += 5; // Shifts the pointer 5 positions forward
+
+// The program is now accessing memory outside of the 'arr' bounds
+*ptr = 99; 
+
+```
+
+#### 2. Dangling Pointers (Use-After-Free)
+
+When you dynamically allocate memory using functions like `malloc`, you must eventually release it back to the system using `free`. A dangling pointer occurs when you free the memory, but the pointer variable retains the old memory address. If your program writes to this address later, it will corrupt data, as that memory may have been reallocated for another purpose by the operating system.
+
+```c
+#include <stdlib.h>
+
+int *ptr = (int *)malloc(sizeof(int)); // Allocate memory
+*ptr = 42; 
+
+free(ptr); // Release the memory back to the system
+
+// ptr still holds the old address, but the program no longer owns the memory
+*ptr = 100; 
+
+```
+
+#### 3. Uninitialized Pointers
+
+If a pointer is declared but not assigned a specific memory address, it will simply hold whatever random data was previously sitting in that location. Dereferencing an uninitialized pointer means the program is attempting to access a random memory address, which typically results in an immediate crash known as a segmentation fault.
+
+```c
+int *uninitialized_ptr; // Declared, but not assigned a valid address
+
+// Attempts to write to a random memory address, causing a segmentation fault
+*uninitialized_ptr = 5; 
+
+```
+
+#### 4. Null Pointer Dereference
+
+To prevent uninitialized pointers, it is standard practice to set pointers to `NULL` (address `0x0`) when they are not actively pointing to valid data. However, if a program attempts to read or write to a `NULL` pointer before it is assigned a valid address, the operating system will intervene and crash the program to protect the system.
+
+```c
+#include <stddef.h>
+
+int *ptr = NULL; // Explicitly points to nothing (0x0)
+
+// The operating system will terminate the program because address 0x0 cannot be accessed
+int value = *ptr; 
+
+```
+
+
+

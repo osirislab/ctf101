@@ -125,7 +125,7 @@ Because the computer knows the data type used for every element in the array, th
 For example if we know that the base address of an array is 1000 and we know that each integer takes 8 bytes, we know that if we have 8 integers right next to each other, we can get the integer at the 4th index with the following math:
 
 ```c
-1000 + (4 * 8) =  1032
+1000 + (8 * 4) =  1032
 ```
 
 ```c

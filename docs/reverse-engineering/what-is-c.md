@@ -42,7 +42,7 @@ A good way to explore this relationship is to use this online [GCC Explorer](htt
 In regards to CTF, many reverse engineering and exploitation CTF challenges are written in C because the language compiles down directly to assembly and there are little to no safeguards in the language. This means developers must manually handle both. Of course, this can lead to mistakes which can sometimes lead to security issues.
 
 !!! note
-    Other higher level langauges like Python manage memory and garbage collection for you. Google Golang was inspired by C, but adds in functionality like garbage collection and memory safety.
+    Other higher level languages like Python manage memory and garbage collection for you. Google Golang was inspired by C, but adds in functionality like garbage collection and memory safety.
 
 There are some examples of famously vulnerable functions in C which are still available and can still result in vulnerabilities:
 
@@ -103,7 +103,7 @@ int integers[ 10 ] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
 Arrays allow programmers to group data into logical containers.
 
-To access the individual elements of an array we access the contents by their "index". Most programming langauges today start counting from 0. So to take our previous example:
+To access the individual elements of an array we access the contents by their "index". Most programming languages today start counting from 0. So to take our previous example:
 
 ```c
 int integers[ 10 ] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};

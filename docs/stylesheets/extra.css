@@ -28,3 +28,8 @@
 img {
   border-radius: 10px;
 }
+
+/* Improve logo readability in light mode without changing size or adding a container. */
+[data-md-color-scheme="default"] .md-header__button.md-logo img {
+  filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.55));
+}

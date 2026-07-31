@@ -29,7 +29,7 @@ img {
   border-radius: 10px;
 }
 
-/* Improve logo readability in light mode without changing size or adding a container. */
+/* Use a dark logo in light mode while preserving the green prompt symbol. */
 [data-md-color-scheme="default"] .md-header__button.md-logo img {
-  filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.55));
+  content: url("../images/ctf101-light.png");
 }

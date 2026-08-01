@@ -28,3 +28,8 @@
 img {
   border-radius: 10px;
 }
+
+/* Use a dark logo in light mode while preserving the green prompt symbol. */
+[data-md-color-scheme="default"] .md-header__button.md-logo img {
+  content: url("../images/ctf101-light.png");
+}

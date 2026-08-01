@@ -1,6 +1,6 @@
 # Assembly/Machine Code
 
-Machine Code or Assembly is code which has been formatted for direct execution by a CPU. Machine Code is the reason why readable programming languages like C, when compiled, cannot be reversed into source code (well [Decompilers]() can sort of, but more on that later).
+Machine code and assembly are the raw instructions your CPU actually runs, which is why compiling a high-level language like C is a one-way street—you can't perfectly reverse it back to the original source (though [Decompilers](what-are-decompilers.md) try their best!). This fundamental translation loss is what makes reverse engineering challenging.
 
 ## From Source to Compilation
 

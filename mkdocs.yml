@@ -91,6 +91,8 @@ markdown_extensions:
 extra_javascript:
   - js/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - https://www.googletagmanager.com/gtag/js?id=G-EBSZGBX94Z
+  - js/analytics.js
 
 docs_dir: docs/
 nav:

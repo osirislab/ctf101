@@ -1,0 +1,38 @@
+name: Deploy site
+
+# Automatically build the MkDocs site and publish it to the gh-pages
+# branch whenever changes land on master. Also runnable on demand.
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+# Allow the job's GITHUB_TOKEN to push the built site to gh-pages.
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+        with:
+          # Full history is required by the
+          # git-revision-date-localized plugin to read page dates.
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build and deploy to gh-pages
+        # gh-deploy builds the site and force-pushes it to the
+        # gh-pages branch, exactly like a manual local deploy.
+        run: mkdocs gh-deploy --force --no-history

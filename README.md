@@ -39,6 +39,20 @@ The site is maintained by the [OSIRIS Lab](https://osiris.cyber.nyu.edu/) in col
     ```
 
 ---
+### Deployment
+
+The site is built and published to the `gh-pages` branch automatically by a [GitHub Actions workflow](.github/workflows/deploy.yml). There is no manual deploy step.
+
+- **On every push to `master`**, the workflow installs the dependencies, builds the site with MkDocs, and publishes the output to the `gh-pages` branch (which GitHub Pages serves). You can also trigger it manually from the **Actions** tab (**Run workflow**).
+- The workflow uses the built-in `GITHUB_TOKEN` (granted `contents: write`) to push to `gh-pages` — no personal tokens or secrets are required.
+- It checks out the full git history (`fetch-depth: 0`) so the `git-revision-date-localized` plugin can read each page's last-modified date.
+
+To deploy manually (e.g. from a fork), you can still run:
+```sh
+mkdocs gh-deploy --force
+```
+
+---
 ### Contributing
 
 > First off, thank you so much for contributing to CTF101's wiki repository. It's contributions from people like you who makes this page what it is. Thank you for making this page be the first step for many more security engineers!

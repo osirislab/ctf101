@@ -155,6 +155,7 @@ nav:
   #  Binary Exploitation Section
   - Binary Exploitation:
       - Overview: "binary-exploitation/overview.md"
+      - Pwndbg Setup: "binary-exploitation/pwndbg-setup.md"
       - Registers: "binary-exploitation/what-are-registers.md"
       - The Stack: "binary-exploitation/what-is-the-stack.md"
       - Calling Conventions: "binary-exploitation/what-are-calling-conventions.md"
